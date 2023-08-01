@@ -1,0 +1,14 @@
+.DS_Store
+._*
+*.csv.gz
+*.tsv.gz
+*.zip
+*.tar.gz
+*.sqlite
+extracted_entities/*
+formatted_entities/*
+graph_data/*
+databases/ctd/CTD_*
+databases/hgnc_mgi/hgnc_*
+databases/hgnc_mgi/mgi_*
+databases/reactome/reactome*
