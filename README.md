@@ -6,6 +6,9 @@ If you don't download new data, you can skip the following steps.
 ### Install dependencies
 
 ```bash
+virtualenv -p python3 .env
+source .env/bin/activate
+
 pip install -r requirements.txt
 ```
 
