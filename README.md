@@ -53,26 +53,26 @@ After formatted, all the entities will be saved in the formatted_entities folder
 
 ```bash
 # For disease
-onto-match ontology -i extracted_entities/merged_entities/disease.tsv -o formatted_entities/disease.tsv -O disease
+onto-match ontology -i extracted_entities/merged_entities/disease.tsv -o formatted_entities/disease.tsv -O disease -s 0 -b 300
 ## Keep all duplicated rows
 awk -F'\t' 'NR > 1 { count[$1]++ } END { for (item in count) if (count[item] > 1) print item }' formatted_entities/disease.tsv > formatted_entities/disease.duplicated.tsv
 ## Deduplicate rows by id.
 awk -F'\t' 'NR == 1 || !seen[$1]++' formatted_entities/disease.tsv > formatted_entities/disease.filtered.tsv
 
 # For gene
-onto-match ontology -i extracted_entities/merged_entities/gene.tsv -o formatted_entities/gene.tsv -O gene -s 5 -b 500
+onto-match ontology -i extracted_entities/merged_entities/gene.tsv -o formatted_entities/gene.tsv -O gene -s 0 -b 500 
 awk -F'\t' 'NR == 1 || ($8 == 10090 || $8 == 9606)' formatted_entities/gene.tsv > formatted_entities/gene.filtered.tsv
 ## Deduplicate rows by id. The following processes are not necessary at most time.
 awk -F'\t' 'NR == 1 || !seen[$1]++' formatted_entities/gene.filtered.tsv > formatted_entities/tmp_gene.filtered.tsv
 mv formatted_entities/tmp_gene.filtered.tsv formatted_entities/gene.filtered.tsv
 
 # For compound
-onto-match ontology -i extracted_entities/merged_entities/compound.tsv -o formatted_entities/compound.tsv -O compound -s 5 -b 500
+onto-match ontology -i extracted_entities/merged_entities/compound.tsv -o formatted_entities/compound.tsv -O compound -s 0 -b 500 
 ## Deduplicate rows by id. The following processes are not necessary at most time.
 awk -F'\t' 'NR == 1 || !seen[$1]++' formatted_entities/compound.tsv > formatted_entities/compound.filtered.tsv
 
 # For metabolite
-onto-match ontology -i extracted_entities/merged_entities/metabolite.tsv -o formatted_entities/metabolite.tsv -O metabolite -s 5 -b 500
+onto-match ontology -i extracted_entities/merged_entities/metabolite.tsv -o formatted_entities/metabolite.tsv -O metabolite -s 0 -b 500 
 ## Deduplicate rows by id. The following processes are not necessary at most time.
 awk -F'\t' 'NR == 1 || !seen[$1]++' formatted_entities/metabolite.tsv > formatted_entities/metabolite.filtered.tsv
 
