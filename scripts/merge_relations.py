@@ -1,7 +1,12 @@
 import os
 import re
 import click
+import logging
 import pandas as pd
+
+fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
+logger = logging.getLogger("merge_relations.py")
+logging.basicConfig(level=logging.INFO, format=fmt)
 
 
 def get_all_files_recursively(directory):
@@ -43,7 +48,7 @@ def cli(input_dir, output_file):
     )
 
     def read_csv(filepath: str):
-        print("Reading %s" % filepath)
+        logger.info("Reading %s" % filepath)
         return pd.read_csv(filepath, sep="\t", quotechar='"', low_memory=False)
 
     # Read the relations from all files
@@ -57,7 +62,7 @@ def cli(input_dir, output_file):
     merged_relations = pd.concat(relations, ignore_index=True)
 
     # Drop the duplicated relations
-    print("Before dropping the duplicated relations: %d" % len(merged_relations))
+    logger.info("Before dropping the duplicated relations: %d" % len(merged_relations))
     merged_relations = merged_relations.drop_duplicates(
         subset=[
             "source_id",
@@ -68,7 +73,7 @@ def cli(input_dir, output_file):
         ],
         keep="first",
     )
-    print("After dropping the duplicated relations: %d" % len(merged_relations))
+    logger.info("After dropping the duplicated relations: %d" % len(merged_relations))
 
     # Write the merged relations to a tsv file
     merged_relations.to_csv(output_file, sep="\t", index=False)

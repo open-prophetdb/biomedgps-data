@@ -1,7 +1,12 @@
 import os
 import re
+import logging
 import click
 import pandas as pd
+
+fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
+logger = logging.getLogger("merge_entities.py")
+logging.basicConfig(level=logging.INFO, format=fmt)
 
 cli = click.Group()
 
@@ -19,6 +24,66 @@ entity_types = [
     "CellularComponent",
     "Metabolite",
 ]
+
+# NOTICE: The values in the entity_db_order_map must keep the same format as the name of the folder in the input directory
+entity_db_order_map = {
+    "Disease": [
+        "mondo",
+        "mesh",
+        "hetionet",
+        "ctd",
+    ],
+    "Anatomy": [
+        "uberon",
+        "mesh",
+        "hetionet",
+        "ctd",
+    ],
+    "Gene": [
+        "hgnc_mgi",
+        "hetionet",
+        "ctd",
+    ],
+    "Compound": [
+        "drugbank",
+        "mesh",
+        "hetionet",
+        "ctd",
+    ],
+    "Pathway": [
+        "reactome",
+        "hetionet",
+        "ctd",
+    ],
+    "PharmacologicClass": [
+        "ndf-rt",
+        "hetionet",
+    ],
+    "SideEffect": [
+        "meddra",
+        "hetionet",
+    ],
+    "Symptom": [
+        "symptom-ontology",
+        "hetionet",
+    ],
+    "MolecularFunction": [
+        "go",
+        "hetionet",
+        "ctd",
+    ],
+    "BiologicalProcess": [
+        "go",
+        "hetionet",
+        "ctd",
+    ],
+    "CellularComponent": [
+        "go",
+        "hetionet",
+        "ctd",
+    ],
+    "Metabolite": ["hmdb"],
+}
 
 
 def title_case_to_snake_case(title_str):
@@ -56,7 +121,7 @@ def from_databases(input_dir, output_dir):
     # Get all files in the input directory recursively
     resources = get_all_files_recursively(input_dir)
 
-    print("Resources: %s\n" % resources)
+    logger.info("Resources: %s\n" % resources)
 
     # Filter the matched resources for the specified entity type
     def filter_resources(entity_type):
@@ -72,12 +137,23 @@ def from_databases(input_dir, output_dir):
         # Filter the matched resources for the specified entity type
         matched_resources = filter_resources(entity_type)
 
-        print("Merging %s entities from %s\n" % (entity_type, matched_resources))
+        logger.info("Merging %s entities from %s\n" % (entity_type, matched_resources))
+
+        # Order the matched resources by the entity_db_order_map
+        matched_resources = sorted(
+            matched_resources,
+            key=lambda x: entity_db_order_map[entity_type].index(
+                # NOTICE: The name must keep the same format as the value in the entity_db_order_map
+                os.path.basename(os.path.dirname(x))
+            ),
+        )
 
         # Read the entities from all matched resources
         entities = list(
             map(
-                lambda x: pd.read_csv(x, sep="\t", quotechar='"', low_memory=False, dtype=str),
+                lambda x: pd.read_csv(
+                    x, sep="\t", quotechar='"', low_memory=False, dtype=str
+                ),
                 matched_resources,
             )
         )
@@ -147,13 +223,13 @@ def to_single_file(input_dir, output_file):
     grouped_entity_files = dict(zip(entity_types, entity_files))
     grouped_entity_files.update(dict(zip(filtered_entity_types, filtered_entity_files)))
 
-    print(
+    logger.info(
         "Entity files: %s\n\nEntity types:%s\n\nGrouped entity files: %s\n"
         % (entity_files, entity_types, grouped_entity_files)
     )
 
     def read_csv(filepath: str):
-        print("Reading %s" % filepath)
+        logger.info("Reading %s" % filepath)
         return pd.read_csv(filepath, sep="\t", quotechar='"', low_memory=False)
 
     entity_files = list(grouped_entity_files.values())
@@ -168,7 +244,9 @@ def to_single_file(input_dir, output_file):
     merged_entities = pd.concat(entities, ignore_index=True)
 
     # Drop the duplicated entities
-    merged_entities = merged_entities.drop_duplicates(subset=["id", "label"], keep="first")
+    merged_entities = merged_entities.drop_duplicates(
+        subset=["id", "label"], keep="first"
+    )
 
     # Write the merged entities to a tsv file
     merged_entities.to_csv(output_file, sep="\t", index=False)

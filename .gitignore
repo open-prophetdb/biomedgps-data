@@ -8,6 +8,7 @@
 extracted_entities/*
 formatted_entities/*
 graph_data/*
+graph_data_backup/*
 databases/ctd/CTD_*
 databases/hgnc_mgi/hgnc_*
 databases/hgnc_mgi/mgi_*

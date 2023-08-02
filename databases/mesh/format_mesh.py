@@ -1,7 +1,12 @@
 import click
 import re
 import os
+import logging
 import pandas as pd
+
+fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
+logger = logging.getLogger("format_mesh.py")
+logging.basicConfig(level=logging.INFO, format=fmt)
 
 cli = click.Group()
 
@@ -101,7 +106,7 @@ def entities(input, output):
             else:
                 return "Unknown"
             
-    print("Several semantic types are created: %s" % df)
+    logger.info("Several semantic types are created: %s" % df)
 
     # Add a new column based on the category column
     df["label"] = df["semantic_types"].apply(
@@ -115,7 +120,7 @@ def entities(input, output):
     )
 
     grouped = df.groupby("label")
-    print("Several groups are created: %s" % grouped.groups.keys())
+    logger.info("Several groups are created: %s" % grouped.groups.keys())
     for label in grouped.groups.keys():
         if label == "Unknown":
             continue
@@ -123,7 +128,7 @@ def entities(input, output):
         data = grouped.get_group(label)
         outputfile = os.path.join(output, "mesh_%s.tsv" % label.lower())
         # Write the data frame to a tsv file
-        print("\tWriting to %s" % outputfile)
+        logger.info("\tWriting to %s" % outputfile)
         data.to_csv(outputfile, sep="\t", index=False)
 
 

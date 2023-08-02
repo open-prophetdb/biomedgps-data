@@ -11,7 +11,9 @@ cli = click.Group()
 @click.option("--output", "-o", required=True, help="The output directory path")
 def entities(input, output):
     # Read a csv.gz file and convert it to a data frame
-    df = pd.read_csv(input, compression="gzip", header=0, sep=",", quotechar='"', low_memory=False)
+    df = pd.read_csv(
+        input, compression="gzip", header=0, sep=",", quotechar='"', low_memory=False
+    )
 
     # Select only the columns that we need
     df = df[
@@ -39,6 +41,9 @@ def entities(input, output):
             "CUI": "xrefs",
         }
     )
+
+    # Filter the id column by using regex to match the "UBERON:" prefix
+    df = df[df["id"].str.match(r"UBERON:.*")]
 
     # Add label column
     df["label"] = "Anatomy"

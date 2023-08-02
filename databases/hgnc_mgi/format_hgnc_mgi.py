@@ -1,5 +1,10 @@
 import click
+import logging
 import pandas as pd
+
+fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
+logger = logging.getLogger("format_hgnc_mgi.py")
+logging.basicConfig(level=logging.INFO, format=fmt)
 
 # Disable SettingWithCopyWarning
 pd.options.mode.chained_assignment = None
@@ -149,9 +154,15 @@ def main(hgnc, mgi, output):
     merged_df = pd.concat([selected_hgnc_df, selected_mgi_df], ignore_index=True)
 
     # Remove duplicated rows
-    print("Total number of rows before removing duplicated rows: {}".format(len(merged_df)))
+    logger.info(
+        "Total number of rows before removing duplicated rows: {}".format(
+            len(merged_df)
+        )
+    )
     merged_df.drop_duplicates(subset=["id"], keep="first", inplace=True)
-    print("Total number of rows after removing duplicated rows: {}".format(len(merged_df)))
+    logger.info(
+        "Total number of rows after removing duplicated rows: {}".format(len(merged_df))
+    )
 
     # Reorder columns
     merged_df = merged_df[
