@@ -197,7 +197,11 @@ class EntityExtractor(BaseExtractor):
         renamed_columns = ["id", "name"]
         label = "Pathway"
 
-        return self._extract_entity(df, default_extracted_columns, renamed_columns, label)
+        df = self._extract_entity(df, default_extracted_columns, renamed_columns, label)
+        taxname = df["id"].apply(lambda x: "Home sapiens" if "hsa" in x or "HSA" in x else "")
+        taxid = df["id"].apply(lambda x: "9606" if "hsa" in x or "HSA" in x else "")
+        df = df.with_columns(taxname=taxname, taxid=taxid)
+        return df
 
     def _extract_biologicalprocess(self, df):
         """Extract biological process entities from CTD_chem_go_enriched.csv

@@ -31,7 +31,9 @@ def get_all_files_recursively(directory):
     for root, dirs, files in os.walk(directory):
         for file in files:
             file_path = os.path.join(root, file)
-            all_files.append(file_path)
+            # Ignore the hidden files
+            if not file.startswith("."):
+                all_files.append(file_path)
     return all_files
 
 
@@ -75,7 +77,7 @@ def from_databases(input_dir, output_dir):
         # Read the entities from all matched resources
         entities = list(
             map(
-                lambda x: pd.read_csv(x, sep="\t", quotechar='"', low_memory=False),
+                lambda x: pd.read_csv(x, sep="\t", quotechar='"', low_memory=False, dtype=str),
                 matched_resources,
             )
         )
@@ -150,11 +152,15 @@ def to_single_file(input_dir, output_file):
         % (entity_files, entity_types, grouped_entity_files)
     )
 
+    def read_csv(filepath: str):
+        print("Reading %s" % filepath)
+        return pd.read_csv(filepath, sep="\t", quotechar='"', low_memory=False)
+
     entity_files = list(grouped_entity_files.values())
     # Read the entities from all files
     entities = list(
         map(
-            lambda x: pd.read_csv(x, sep="\t", quotechar='"', low_memory=False),
+            lambda x: read_csv(x),
             entity_files,
         )
     )

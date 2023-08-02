@@ -1,22 +1,30 @@
-# Entities
-## Extract entities from a set of databases
+# Knowledge Graph for BioMedGPS Project
 
-If you don't download new data, you can skip the following steps.
+If you want to run the following codes to build a knowledge graph for BioMedGPS project, you need to install the following dependencies first.
 
-### Install dependencies
-
-```bash
+```
 virtualenv -p python3 .env
 source .env/bin/activate
 
 pip install -r requirements.txt
 ```
 
-### Download the database by following the instructions in each folder in the data directory
+After that, you can run the following codes to build a knowledge graph for BioMedGPS project.
+
+```
+python run_markdown.py README.md --run-all
+```
+
+## Entities
+### Extract entities from a set of databases
+
+If you don't need to download new data, you can skip the following steps.
+
+#### Download the database by following the instructions in each folder in the data directory
 
 > If you want to add a new database, please add a new folder in the data directory and add a README.md file to describe how to download the database and extract entities from the database. After that, please modify the extract_entities.sh file to add the new database.
 
-### Step1: Extract entities
+#### Step1: Extract entities
 
 This step will extract entities from a set of databases. 
 
@@ -26,7 +34,7 @@ The following script will run all the scripts in each folder in the data directo
 bash scripts/extract_entities.sh
 ```
 
-### Step2: Merge entities
+#### Step2: Merge entities
 
 This step will merge all the entities with the same type into one file.
 
@@ -37,7 +45,7 @@ mkdir -p extracted_entities/merged_entities
 python scripts/merge_entities.py from-databases -i extracted_entities/raw_entities -o extracted_entities/merged_entities
 ```
 
-### Step3: Format entities
+#### Step3: Format entities
 
 This step will map the entities to a default ontology and format the entities with a defined fields and format. If you want to add more fields or change the format of a entity id, you can do it at this step.
 
@@ -93,7 +101,7 @@ cp extracted_entities/merged_entities/molecular_function.tsv formatted_entities/
 cp extracted_entities/merged_entities/pharmacologic_class.tsv formatted_entities/pharmacologic_class.tsv
 ```
 
-### Step4: Merge entity files into one file
+#### Step4: Merge entity files into one file
 
 This step will merge all the entity files into one file. If we can find a `filtered.tsv` file in the formatted_entities folder, we will use the filtered.tsv file to merge entities. Otherwise, we will use the `tsv` file to merge entities. If you want to keep a subset of entities (such as deduplicating rows with some conditions and filtering rows with specified species etc.), this is a good opportunity to do it. You can do this at the Step3 and save a `*.filtered.tsv` file in the formatted_entities folder. Finally, the merged file will be saved in the graph_data folder. This file can be the reference file for formatting relations.
 
@@ -102,8 +110,8 @@ mkdir -p graph_data
 python scripts/merge_entities.py to-single-file -i formatted_entities -o graph_data/entities.tsv
 ```
 
-## Entity Description
-### Disease
+### Entity Description
+#### Disease
 
 We choose to use the MONDO ontology as the source of disease terms. All other disease terms are mapped to MONDO terms.
 
@@ -111,6 +119,10 @@ For more convience, we also include all entity items from knowledgebases. First,
 
 There will be more easier to integrate these knowledgebases into our knowledge graph, if we can identify the unmapped terms first.
 
-# Relations
+## Relations
 
-## Extract relations from a set of databases
+### Extract relations from a set of databases
+
+```bash
+graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug
+```

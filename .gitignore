@@ -12,3 +12,4 @@ databases/ctd/CTD_*
 databases/hgnc_mgi/hgnc_*
 databases/hgnc_mgi/mgi_*
 databases/reactome/reactome*
+.ipynb_checkpoints

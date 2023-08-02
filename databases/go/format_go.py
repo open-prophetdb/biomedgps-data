@@ -62,7 +62,8 @@ def entities(input, output):
     df["resource"] = "GO"
 
     # Remove all obsolete terms
-    df = df[(df["obsolete"] == False) | (df["obsolete"] == "FALSE")]
+    # It may cause some compatible issues when it works with the other databases, so we comment it out
+    # df = df[(df["obsolete"] == False) | (df["obsolete"] == "FALSE")]
 
     grouped = df.groupby("label")
     for label, group in grouped:
