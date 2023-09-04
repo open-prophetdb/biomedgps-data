@@ -3,6 +3,7 @@
 If you want to run the following codes to build a knowledge graph for BioMedGPS project, you need to install the following dependencies first.
 
 ```
+# Install the dependencies
 virtualenv -p python3 .env
 source .env/bin/activate
 
@@ -31,6 +32,8 @@ This step will extract entities from a set of databases.
 The following script will run all the scripts in each folder in the data directory and extract entities. All the extracted entities will be saved in the extracted_entities/raw_entities folder. Each database will have a folder in the extracted_entities/raw_entities folder. If not, then it means that the database has not extracted entities. If you don't download the related database, you will get an error.
 
 ```bash
+# Extract entities from a set of databases
+
 bash scripts/extract_entities.sh
 ```
 
@@ -41,6 +44,8 @@ This step will merge all the entities with the same type into one file.
 After merged, all the entities will be saved in the extracted_entities/merged_entities folder. All the entities with the same type will be deduplicated by id and merged into one file. Each entity type will have a file in the extracted_entities/merged_entities folder.
 
 ```bash
+# Merge entity files by entity type
+
 mkdir -p extracted_entities/merged_entities
 python scripts/merge_entities.py from-databases -i extracted_entities/raw_entities -o extracted_entities/merged_entities
 ```
@@ -52,6 +57,10 @@ This step will map the entities to a default ontology and format the entities wi
 After formatted, all the entities will be saved in the formatted_entities folder. All the entities with the same type will be mapped to a default ontology which is defined in the `onco-match` package. Each entity type will have a entity file and a pickle file in the formatted_entities folder. The pickle file is the ontology mapping result. If you want to know why your ids is not mapped successfully, you can check the pickle file.
 
 ```bash
+# Format and filter entities by online ontology service
+
+mkdir formatted_entities
+
 # For disease
 onto-match ontology -i extracted_entities/merged_entities/disease.tsv -o formatted_entities/disease.tsv -O disease -s 0 -b 300
 ## Keep all duplicated rows
@@ -106,6 +115,8 @@ cp extracted_entities/merged_entities/pharmacologic_class.tsv formatted_entities
 This step will merge all the entity files into one file. If we can find a `filtered.tsv` file in the formatted_entities folder, we will use the filtered.tsv file to merge entities. Otherwise, we will use the `tsv` file to merge entities. If you want to keep a subset of entities (such as deduplicating rows with some conditions and filtering rows with specified species etc.), this is a good opportunity to do it. You can do this at the Step3 and save a `*.filtered.tsv` file in the formatted_entities folder. Finally, the merged file will be saved in the graph_data folder. This file can be the reference file for formatting relations.
 
 ```bash
+# Merge formatted entity files into one file
+
 mkdir -p graph_data
 python scripts/merge_entities.py to-single-file -i formatted_entities -o graph_data/entities.tsv
 ```
@@ -124,5 +135,15 @@ There will be more easier to integrate these knowledgebases into our knowledge g
 ### Extract relations from a set of databases
 
 ```bash
+# Extract relations from a set of databases
+
 graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug
+```
+
+### Merge relations into one file
+
+```bash
+# Merge relations into one file
+
+python scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
 ```

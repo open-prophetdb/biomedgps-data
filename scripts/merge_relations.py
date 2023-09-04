@@ -39,17 +39,43 @@ def cli(input_dir, output_file):
     # Get all files in the input directory recursively
     resources = get_all_files_recursively(input_dir)
 
+    logger.info("Resources: %s\n" % resources)
+
     # Filter the matched resources
     files = list(
         filter(
-            lambda x: x.endswith(".tsv") and x.startswith("formatted_"),
+            lambda x: x.endswith(".tsv")
+            and os.path.basename(x).startswith("formatted_"),
             resources,
         )
     )
 
+    logger.info("Merging relations from %s\n" % files)
+
     def read_csv(filepath: str):
         logger.info("Reading %s" % filepath)
-        return pd.read_csv(filepath, sep="\t", quotechar='"', low_memory=False)
+        df = pd.read_csv(filepath, sep="\t", quotechar='"', low_memory=False, on_bad_lines="warn")
+        # Filter invalid rows and save them to a file
+        # Such as having different number of columns
+        # Get the number of columns in the DataFrame
+        num_columns = len(df.columns)
+
+        # Filter rows with a different number of columns using a mask
+        mask = df.apply(lambda row: len(row) == num_columns, axis=1)
+        invalid = df[~mask]
+        if len(invalid) > 0:
+            invalid.to_csv(
+                os.path.join(
+                    os.path.dirname(filepath),
+                    "invalid_" + os.path.basename(filepath),
+                ),
+                sep="\t",
+                index=False,
+            )
+
+        # Create a new DataFrame with only valid rows
+        valid_rows_df = df[mask]
+        return valid_rows_df
 
     # Read the relations from all files
     relations = list(

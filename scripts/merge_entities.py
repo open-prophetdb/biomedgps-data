@@ -3,12 +3,35 @@ import re
 import logging
 import click
 import pandas as pd
+from ontology_matcher.ontology_formatter import BaseOntologyFileFormat
 
 fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
 logger = logging.getLogger("merge_entities.py")
 logging.basicConfig(level=logging.INFO, format=fmt)
 
 cli = click.Group()
+
+
+def read_csv(filepath: str):
+    logger.info("Reading %s" % filepath)
+    df = pd.read_csv(filepath, sep="\t", quotechar='"', low_memory=False, dtype=str)
+    expected_columns = BaseOntologyFileFormat.expected_columns()
+    optional_columns = BaseOntologyFileFormat.optional_columns()
+
+    # Check if the dataframe has all expected columns
+    for column in expected_columns:
+        if column not in df.columns:
+            raise ValueError("The dataframe must have the column %s" % column)
+
+    # Check if the dataframe has all optional columns, if not then add them
+    for column in optional_columns:
+        if column not in df.columns:
+            df[column] = ""
+
+    df = df[expected_columns + optional_columns]
+
+    return df
+
 
 entity_types = [
     "Disease",
@@ -148,17 +171,19 @@ def from_databases(input_dir, output_dir):
             ),
         )
 
+        logger.info(
+            "The order of matched resources: %s\n" % entity_db_order_map[entity_type]
+        )
+        logger.info("Ordered matched resources: %s\n" % matched_resources)
         # Read the entities from all matched resources
         entities = list(
             map(
-                lambda x: pd.read_csv(
-                    x, sep="\t", quotechar='"', low_memory=False, dtype=str
-                ),
+                lambda x: read_csv(x),
                 matched_resources,
             )
         )
         # Merge the entities from all matched resources
-        merged_entities = pd.concat(entities, ignore_index=True)
+        merged_entities = pd.concat(entities, ignore_index=True, axis=0)
 
         # Drop the duplicated entities
         merged_entities = merged_entities.drop_duplicates(subset=["id"], keep="first")
@@ -228,10 +253,6 @@ def to_single_file(input_dir, output_file):
         % (entity_files, entity_types, grouped_entity_files)
     )
 
-    def read_csv(filepath: str):
-        logger.info("Reading %s" % filepath)
-        return pd.read_csv(filepath, sep="\t", quotechar='"', low_memory=False)
-
     entity_files = list(grouped_entity_files.values())
     # Read the entities from all files
     entities = list(
@@ -240,8 +261,8 @@ def to_single_file(input_dir, output_file):
             entity_files,
         )
     )
-    # Merge the entities from all files
-    merged_entities = pd.concat(entities, ignore_index=True)
+    # Merge the entities from all files by row
+    merged_entities = pd.concat(entities, ignore_index=True, axis=0)
 
     # Drop the duplicated entities
     merged_entities = merged_entities.drop_duplicates(
