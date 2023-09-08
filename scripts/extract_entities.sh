@@ -2,7 +2,7 @@
 
 SCRIPTS_DIR=scripts
 DATADIR=databases
-FORMATTED_DIR=extracted_entities
+FORMATTED_DIR=graph_data/extracted_entities
 
 OUTPUT_DIR=${FORMATTED_DIR}/raw_entities
 

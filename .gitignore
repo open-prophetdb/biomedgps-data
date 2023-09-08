@@ -5,12 +5,19 @@
 *.zip
 *.tar.gz
 *.sqlite
-extracted_entities/*
-formatted_entities/*
-graph_data/*
-graph_data_backup/*
 databases/ctd/CTD_*
 databases/hgnc_mgi/hgnc_*
 databases/hgnc_mgi/mgi_*
 databases/reactome/reactome*
+
+# Ignore all generated files
+extracted_entities/*
+formatted_entities/*
+graph_data/*
+graph_data_backup/*
 .ipynb_checkpoints
+
+!graph_data/.gitkeep
+
+benchmarks/*.tsv
+models/test

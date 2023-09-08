@@ -1,5 +1,7 @@
 # Knowledge Graph for BioMedGPS Project
 
+This repository contains the codes to build a knowledge graph for BioMedGPS project. Which depends on the [ontology-matcher](https://github.com/yjcyxky/ontology-matcher) package and [graph-builder](https://github.com/yjcyxky/graph-builder) package.
+
 If you want to run the following codes to build a knowledge graph for BioMedGPS project, you need to install the following dependencies first.
 
 ```
@@ -29,7 +31,7 @@ If you don't need to download new data, you can skip the following steps.
 
 This step will extract entities from a set of databases. 
 
-The following script will run all the scripts in each folder in the data directory and extract entities. All the extracted entities will be saved in the extracted_entities/raw_entities folder. Each database will have a folder in the extracted_entities/raw_entities folder. If not, then it means that the database has not extracted entities. If you don't download the related database, you will get an error.
+The following script will run all the scripts in each folder in the data directory and extract entities. All the extracted entities will be saved in the graph_data/extracted_entities/raw_entities folder. Each database will have a folder in the graph_data/extracted_entities/raw_entities folder. If not, then it means that the database has not extracted entities. If you don't download the related database, you will get an error.
 
 ```bash
 # Extract entities from a set of databases
@@ -41,73 +43,73 @@ bash scripts/extract_entities.sh
 
 This step will merge all the entities with the same type into one file.
 
-After merged, all the entities will be saved in the extracted_entities/merged_entities folder. All the entities with the same type will be deduplicated by id and merged into one file. Each entity type will have a file in the extracted_entities/merged_entities folder.
+After merged, all the entities will be saved in the graph_data/extracted_entities/merged_entities folder. All the entities with the same type will be deduplicated by id and merged into one file. Each entity type will have a file in the graph_data/extracted_entities/merged_entities folder.
 
 ```bash
 # Merge entity files by entity type
 
-mkdir -p extracted_entities/merged_entities
-python scripts/merge_entities.py from-databases -i extracted_entities/raw_entities -o extracted_entities/merged_entities
+mkdir -p graph_data/extracted_entities/merged_entities
+python scripts/merge_entities.py from-databases -i graph_data/extracted_entities/raw_entities -o graph_data/extracted_entities/merged_entities
 ```
 
 #### Step3: Format entities
 
 This step will map the entities to a default ontology and format the entities with a defined fields and format. If you want to add more fields or change the format of a entity id, you can do it at this step.
 
-After formatted, all the entities will be saved in the formatted_entities folder. All the entities with the same type will be mapped to a default ontology which is defined in the `onco-match` package. Each entity type will have a entity file and a pickle file in the formatted_entities folder. The pickle file is the ontology mapping result. If you want to know why your ids is not mapped successfully, you can check the pickle file.
+After formatted, all the entities will be saved in the formatted_entities folder. All the entities with the same type will be mapped to a default ontology which is defined in the `onto-match` package. Each entity type will have a entity file and a pickle file in the formatted_entities folder. The pickle file is the ontology mapping result. If you want to know why your ids is not mapped successfully, you can check the pickle file.
 
 ```bash
 # Format and filter entities by online ontology service
 
-mkdir formatted_entities
+mkdir graph_data/formatted_entities
 
 # For disease
-onto-match ontology -i extracted_entities/merged_entities/disease.tsv -o formatted_entities/disease.tsv -O disease -s 0 -b 300
+onto-match ontology -i graph_data/extracted_entities/merged_entities/disease.tsv -o graph_data/formatted_entities/disease.tsv -O disease -s 0 -b 300
 ## Keep all duplicated rows
-awk -F'\t' 'NR > 1 { count[$1]++ } END { for (item in count) if (count[item] > 1) print item }' formatted_entities/disease.tsv > formatted_entities/disease.duplicated.tsv
+awk -F'\t' 'NR > 1 { count[$1]++ } END { for (item in count) if (count[item] > 1) print item }' graph_data/formatted_entities/disease.tsv > graph_data/formatted_entities/disease.duplicated.tsv
 ## Deduplicate rows by id.
-awk -F'\t' 'NR == 1 || !seen[$1]++' formatted_entities/disease.tsv > formatted_entities/disease.filtered.tsv
+awk -F'\t' 'NR == 1 || !seen[$1]++' graph_data/formatted_entities/disease.tsv > graph_data/formatted_entities/disease.filtered.tsv
 
 # For gene
-onto-match ontology -i extracted_entities/merged_entities/gene.tsv -o formatted_entities/gene.tsv -O gene -s 0 -b 500 
-awk -F'\t' 'NR == 1 || ($8 == 10090 || $8 == 9606)' formatted_entities/gene.tsv > formatted_entities/gene.filtered.tsv
+onto-match ontology -i graph_data/extracted_entities/merged_entities/gene.tsv -o graph_data/formatted_entities/gene.tsv -O gene -s 0 -b 500 
+awk -F'\t' 'NR == 1 || ($8 == 10090 || $8 == 9606)' graph_data/formatted_entities/gene.tsv > graph_data/formatted_entities/gene.filtered.tsv
 ## Deduplicate rows by id. The following processes are not necessary at most time.
-awk -F'\t' 'NR == 1 || !seen[$1]++' formatted_entities/gene.filtered.tsv > formatted_entities/tmp_gene.filtered.tsv
-mv formatted_entities/tmp_gene.filtered.tsv formatted_entities/gene.filtered.tsv
+awk -F'\t' 'NR == 1 || !seen[$1]++' graph_data/formatted_entities/gene.filtered.tsv > graph_data/formatted_entities/tmp_gene.filtered.tsv
+mv graph_data/formatted_entities/tmp_gene.filtered.tsv graph_data/formatted_entities/gene.filtered.tsv
 
 # For compound
-onto-match ontology -i extracted_entities/merged_entities/compound.tsv -o formatted_entities/compound.tsv -O compound -s 0 -b 500 
+onto-match ontology -i graph_data/extracted_entities/merged_entities/compound.tsv -o graph_data/formatted_entities/compound.tsv -O compound -s 0 -b 500 
 ## Deduplicate rows by id. The following processes are not necessary at most time.
-awk -F'\t' 'NR == 1 || !seen[$1]++' formatted_entities/compound.tsv > formatted_entities/compound.filtered.tsv
+awk -F'\t' 'NR == 1 || !seen[$1]++' graph_data/formatted_entities/compound.tsv > graph_data/formatted_entities/compound.filtered.tsv
 
 # For metabolite
-onto-match ontology -i extracted_entities/merged_entities/metabolite.tsv -o formatted_entities/metabolite.tsv -O metabolite -s 0 -b 500 
+onto-match ontology -i graph_data/extracted_entities/merged_entities/metabolite.tsv -o graph_data/formatted_entities/metabolite.tsv -O metabolite -s 0 -b 500 
 ## Deduplicate rows by id. The following processes are not necessary at most time.
-awk -F'\t' 'NR == 1 || !seen[$1]++' formatted_entities/metabolite.tsv > formatted_entities/metabolite.filtered.tsv
+awk -F'\t' 'NR == 1 || !seen[$1]++' graph_data/formatted_entities/metabolite.tsv > graph_data/formatted_entities/metabolite.filtered.tsv
 
 # For pathway
-cp extracted_entities/merged_entities/pathway.tsv formatted_entities/pathway.tsv
+cp graph_data/extracted_entities/merged_entities/pathway.tsv graph_data/formatted_entities/pathway.tsv
 
 # For side-effect
-cp extracted_entities/merged_entities/side_effect.tsv formatted_entities/side_effect.tsv
+cp graph_data/extracted_entities/merged_entities/side_effect.tsv graph_data/formatted_entities/side_effect.tsv
 
 # For symptom
-cp extracted_entities/merged_entities/symptom.tsv formatted_entities/symptom.tsv
+cp graph_data/extracted_entities/merged_entities/symptom.tsv graph_data/formatted_entities/symptom.tsv
 
 # For anatomy
-cp extracted_entities/merged_entities/anatomy.tsv formatted_entities/anatomy.tsv
+cp graph_data/extracted_entities/merged_entities/anatomy.tsv graph_data/formatted_entities/anatomy.tsv
 
 # For cellular_component
-cp extracted_entities/merged_entities/cellular_component.tsv formatted_entities/cellular_component.tsv
+cp graph_data/extracted_entities/merged_entities/cellular_component.tsv graph_data/formatted_entities/cellular_component.tsv
 
 # For biological_process
-cp extracted_entities/merged_entities/biological_process.tsv formatted_entities/biological_process.tsv
+cp graph_data/extracted_entities/merged_entities/biological_process.tsv graph_data/formatted_entities/biological_process.tsv
 
 # For molecular_function
-cp extracted_entities/merged_entities/molecular_function.tsv formatted_entities/molecular_function.tsv
+cp graph_data/extracted_entities/merged_entities/molecular_function.tsv graph_data/formatted_entities/molecular_function.tsv
 
 # For pharmacologic_class
-cp extracted_entities/merged_entities/pharmacologic_class.tsv formatted_entities/pharmacologic_class.tsv
+cp graph_data/extracted_entities/merged_entities/pharmacologic_class.tsv graph_data/formatted_entities/pharmacologic_class.tsv
 ```
 
 #### Step4: Merge entity files into one file
@@ -118,7 +120,7 @@ This step will merge all the entity files into one file. If we can find a `filte
 # Merge formatted entity files into one file
 
 mkdir -p graph_data
-python scripts/merge_entities.py to-single-file -i formatted_entities -o graph_data/entities.tsv
+python scripts/merge_entities.py to-single-file -i graph_data/formatted_entities -o graph_data/entities.tsv
 ```
 
 ### Entity Description
@@ -147,3 +149,5 @@ graph-builder --database ctd --database drkg --database primekg --database hsdn 
 
 python scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
 ```
+
+## Benchmarks
