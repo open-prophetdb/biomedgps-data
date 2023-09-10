@@ -13,12 +13,18 @@ mkdir -p ${OUTPUT_DIR}
 # Format the ctdbase
 echo "Extracting entities from the ctdbase"
 mkdir -p ${OUTPUT_DIR}/ctd
+bash ${DATADIR}/ctd/download_ctd.sh
 python ${DATADIR}/ctd/format_ctd.py extract-all-entities -b ${DATADIR}/ctd -o ${OUTPUT_DIR}/ctd
 printf "Finished extracting entities from ctdbase\n\n"
 
 # Format the hetionet
 echo "Extracting entities from the hetionet"
 mkdir -p ${OUTPUT_DIR}/hetionet
+if [ ! -f ${DATADIR}/hetionet/hetionet-v1.0-nodes.tsv ]; then
+    wget https://raw.githubusercontent.com/hetio/hetionet/main/hetnet/tsv/hetionet-v1.0-nodes.tsv -O ${DATADIR}/hetionet/hetionet-v1.0-nodes.tsv
+else
+    echo "hetionet-v1.0-nodes.tsv already exists, skipping download"
+fi
 python ${DATADIR}/hetionet/format_hetionet.py entities -i ${DATADIR}/hetionet/hetionet-v1.0-nodes.tsv -o ${OUTPUT_DIR}/hetionet
 printf "Finished extracting entities from hetionet\n\n"
 

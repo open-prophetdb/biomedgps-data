@@ -20,7 +20,12 @@ fi
 cd ${DATA_DIR}
 
 while read -r line; do
-    # Download the chemical-gene interactions file
+    if [ -f ${line} ]; then
+        echo "File ${line} already exists, skipping download."
+        continue
+    fi
+
+    echo "Downloading ${line}..."
     FILESIZE=`curl -s -I ${line} | awk '/Content-Length/ {printf("%.0f %s\n", $2 / 1024^2, "")}'`
     K=$(($FILESIZE / ($(nproc) / 2)))
     S=$(($(nproc) / 2))

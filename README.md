@@ -4,6 +4,8 @@ This repository contains the codes to build a knowledge graph for BioMedGPS proj
 
 If you want to run the following codes to build a knowledge graph for BioMedGPS project, you need to install the following dependencies first.
 
+NOTE: Python >=3.10 is required.
+
 ```
 # Clone the repository
 git clone https://github.com/yjcyxky/biomedgps-data
