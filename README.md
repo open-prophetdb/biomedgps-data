@@ -5,9 +5,18 @@ This repository contains the codes to build a knowledge graph for BioMedGPS proj
 If you want to run the following codes to build a knowledge graph for BioMedGPS project, you need to install the following dependencies first.
 
 ```
-# Install the dependencies
+# Clone the repository
+git clone https://github.com/yjcyxky/biomedgps-data
+
+cd biomedgps-data
+
+# [Option 1] Install the dependencies with virtualenv
 virtualenv -p python3 .env
 source .env/bin/activate
+
+# [Option 2] Install the dependencies with conda
+conda create -n biomedgps-data python=3.10
+conda activate biomedgps-data
 
 pip install -r requirements.txt
 ```
