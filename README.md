@@ -27,7 +27,13 @@ After that, you can run the following codes to build a knowledge graph for BioMe
 
 ```
 python run_markdown.py README.md --run-all
+
+# The run_markdown.py is a script to run the codes in a markdown file. It will extract the code blocks from the markdown file and run them one by one. If you want to run a specific code block, you can use the following command. If you see 'Cannot identify the language' message, this means that the code block is not necessary to run.
+
+python run_markdown.py README.md
 ```
+
+If you want to build a knowledge graph for BioMedGPS project step by step, you can run the following steps.
 
 ## Entities
 ### Extract entities from a set of databases

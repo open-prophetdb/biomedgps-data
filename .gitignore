@@ -18,6 +18,7 @@ graph_data_backup/*
 .ipynb_checkpoints
 
 !graph_data/.gitkeep
+!graph_data/README.md
 
 benchmarks/*.tsv
 models/test
