@@ -2,6 +2,8 @@
 
 This repository contains the codes to build a knowledge graph for BioMedGPS project. Which depends on the [ontology-matcher](https://github.com/yjcyxky/ontology-matcher) package and [graph-builder](https://github.com/yjcyxky/graph-builder) package.
 
+If you only want to use the pre-built knowledge graph, you can see the [graph_data](./graph_data) directory.
+
 If you want to run the following codes to build a knowledge graph for BioMedGPS project, you need to install the following dependencies first.
 
 NOTE: Python >=3.10 is required.
@@ -28,7 +30,10 @@ After that, you can run the following codes to build a knowledge graph for BioMe
 ```
 python run_markdown.py README.md --run-all
 
-# The run_markdown.py is a script to run the codes in a markdown file. It will extract the code blocks from the markdown file and run them one by one. If you want to run a specific code block, you can use the following command. If you see 'Cannot identify the language' message, this means that the code block is not necessary to run.
+# The run_markdown.py is a script to run the codes in a markdown file. 
+# It will extract the code blocks from the markdown file and run them one by one. 
+# If you want to run a specific code block, you can use the following command. 
+# If you see 'Cannot identify the language' message, this means that the code block is not necessary to run.
 
 python run_markdown.py README.md
 ```
