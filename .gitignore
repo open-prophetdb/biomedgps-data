@@ -23,3 +23,4 @@ graph_data_backup/*
 benchmarks/*.tsv
 models/**
 !models/*.ipynb
+test.ipynb

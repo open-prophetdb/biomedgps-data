@@ -124,3 +124,5 @@ wget==3.2
 widgetsnbextension==4.0.8
 nbclient
 pyvis
+pywikipathways
+biopython

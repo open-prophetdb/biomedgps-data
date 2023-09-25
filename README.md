@@ -58,7 +58,7 @@ The following script will run all the scripts in each folder in the data directo
 ```bash
 # Extract entities from a set of databases
 
-bash scripts/extract_entities.sh
+bash scripts/extract_entities.sh -t all
 ```
 
 #### Step2: Merge entities
@@ -93,7 +93,7 @@ awk -F'\t' 'NR > 1 { count[$1]++ } END { for (item in count) if (count[item] > 1
 awk -F'\t' 'NR == 1 || !seen[$1]++' graph_data/formatted_entities/disease.tsv > graph_data/formatted_entities/disease.filtered.tsv
 
 # For gene
-onto-match ontology -i graph_data/extracted_entities/merged_entities/gene.tsv -o graph_data/formatted_entities/gene.tsv -O gene -s 0 -b 500 
+onto-match ontology -i graph_data/extracted_entities/merged_entities/gene.tsv -o graph_data/formatted_entities/gene.tsv -O gene -s 0 -b 1000 
 awk -F'\t' 'NR == 1 || ($8 == 10090 || $8 == 9606)' graph_data/formatted_entities/gene.tsv > graph_data/formatted_entities/gene.filtered.tsv
 ## Deduplicate rows by id. The following processes are not necessary at most time.
 awk -F'\t' 'NR == 1 || !seen[$1]++' graph_data/formatted_entities/gene.filtered.tsv > graph_data/formatted_entities/tmp_gene.filtered.tsv
