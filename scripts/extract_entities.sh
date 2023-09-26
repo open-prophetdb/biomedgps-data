@@ -8,10 +8,6 @@ FORMATTED_DIR=graph_data/extracted_entities
 
 OUTPUT_DIR=${FORMATTED_DIR}/raw_entities
 
-# Format all the entities from different sources
-rm -rf ${OUTPUT_DIR}
-mkdir -p ${OUTPUT_DIR}
-
 ontologies="hetionet mondo symptom-ontology ndf-rt hgnc-mgi drugbank mesh hmdb meddra reactome uberon go cell-line-ontology wikipathways kegg"
 
 # Add arguments to the script
@@ -32,7 +28,8 @@ while getopts ":t:h" opt; do
 done
 
 function main() {
-    if [ ! -z "$ONTOLOGY_TYPE" ] && [ "$ONTOLOGY_TYPE" == "all" ]; then
+    if [ ! -z "$ONTOLOGY_TYPE" ] && [ "$ONTOLOGY_TYPE" != "all" ]; then
+        mkdir -p ${OUTPUT_DIR}
         # Check if the ontology type is in the list of ontologies
         for ontology in $ontologies; do
             if [[ ! " ${ontologies[@]} " =~ " ${ontology} " ]]; then
@@ -47,6 +44,9 @@ function main() {
     fi
 
     if [ "$ONTOLOGY_TYPE" == "all" ]; then
+        # Format all the entities from different sources
+        rm -rf ${OUTPUT_DIR}
+        mkdir -p ${OUTPUT_DIR}
         echo "Extracting entities from all ontologies"
         ONTOLOGY_TYPE=$ontologies
     fi
@@ -87,9 +87,9 @@ function format_mondo() {
     printf "Finished extracting entities from mondo\n\n"
 }
 
-function format_sympotm_ontology {
-    # Format the sympotm ontology
-    echo "Extracting entities from the sympotm ontology"
+function format_symptom_ontology {
+    # Format the symptom ontology
+    echo "Extracting entities from the symptom ontology"
     mkdir -p ${OUTPUT_DIR}/symptom-ontology
     if [ ! -f ${DATADIR}/symptom-ontology/SYMP.csv.gz ]; then
         wget 'https://data.bioontology.org/ontologies/SYMP/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv' -O ${DATADIR}/symptom-ontology/SYMP.csv.gz

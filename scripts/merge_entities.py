@@ -54,29 +54,26 @@ entity_db_order_map = {
         "mondo",
         "mesh",
         "hetionet",
-        "ctd",
     ],
     "Anatomy": [
         "uberon",
         "mesh",
         "hetionet",
-        "ctd",
     ],
     "Gene": [
         "hgnc_mgi",
         "hetionet",
-        "ctd",
     ],
     "Compound": [
         "drugbank",
         "mesh",
         "hetionet",
-        "ctd",
     ],
     "Pathway": [
         "reactome",
         "hetionet",
-        "ctd",
+        "kegg",
+        "wikipathways"
     ],
     "PharmacologicClass": [
         "ndf-rt",
@@ -93,17 +90,14 @@ entity_db_order_map = {
     "MolecularFunction": [
         "go",
         "hetionet",
-        "ctd",
     ],
     "BiologicalProcess": [
         "go",
         "hetionet",
-        "ctd",
     ],
     "CellularComponent": [
         "go",
         "hetionet",
-        "ctd",
     ],
     "Metabolite": ["hmdb"],
 }
