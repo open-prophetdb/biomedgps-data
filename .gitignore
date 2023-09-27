@@ -25,3 +25,4 @@ models/**
 !models/examples
 !models/*.ipynb
 test.ipynb
+/graph_data

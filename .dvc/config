@@ -1,0 +1,5 @@
+[core]
+    remote = biomedgps-dvc
+['remote "biomedgps-dvc"']
+    url = oss://biomedgps-dvc/biomedgps-data
+    oss_endpoint = oss-cn-shanghai.aliyuncs.com
