@@ -4,3 +4,7 @@
 *.py
 *.ipynb
 *.pyc
+graph_data/relations/ctd/*.tsv
+graph_data/relations/hmdb/*.xml
+graph_data/relations/drkg/*.tsv
+graph_data/relations/drkg/embed
