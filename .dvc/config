@@ -1,5 +1,8 @@
 [core]
-    remote = biomedgps-dvc
+    remote = gdrive-biomedgps-dvc
 ['remote "biomedgps-dvc"']
     url = oss://biomedgps-dvc/biomedgps-data
     oss_endpoint = oss-cn-shanghai.aliyuncs.com
+['remote "gdrive-biomedgps-dvc"']
+    url = gdrive://1DoDUBMlMhu5bxAeLrK-uIOq-iT_JX8YV
+    gdrive_acknowledge_abuse = true
