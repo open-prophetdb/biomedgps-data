@@ -26,3 +26,5 @@ models/**
 !models/*.ipynb
 test.ipynb
 /graph_data
+jupyter.log
+test.ipynb
