@@ -9,6 +9,8 @@ databases/ctd/CTD_*
 databases/hgnc_mgi/hgnc_*
 databases/hgnc_mgi/mgi_*
 databases/reactome/reactome*
+benchmarks/__pycache__
+benchmarks/test
 
 # Ignore all generated files
 extracted_entities/*
@@ -28,3 +30,4 @@ test.ipynb
 /graph_data
 jupyter.log
 test.ipynb
+!models/*.ipynb
