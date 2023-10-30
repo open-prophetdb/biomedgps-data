@@ -17,7 +17,7 @@ def MRR(predicts:dict, positives:dict, negatives:dict):
             continue
         for treatment in positives[disease]:
             try:
-                rank = predicts[disease]
+                rank = predicts[disease].index(treatment)
                 sm += 1/(rank+1)
             except ValueError:
                 pass
@@ -32,18 +32,19 @@ Hits@k
 Only calculate overlapped portion between prediction and ground truth
 '''
 def hitsk(predicts:dict, positives:dict, negatives:dict, k=10000):
-    pos = 0
-    cnt = 0
+    # hits
+    hits = 0
     for disease in positives:
         if disease not in predicts:
             continue
         for i, treatment in enumerate(predicts[disease]):
             if i >= k:
                 break
-            cnt += 1
-            if treatment in positive[disease]:
-                pos += 1
-    if not cnt:
+            if treatment in positives[disease]:
+                hits += 1
+    # total
+    total = sum([len(x) for x in positives.values()])
+    if not total:
         return None
-    return pos/cnt 
+    return hits/total 
 

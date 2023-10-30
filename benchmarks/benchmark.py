@@ -40,7 +40,8 @@ class benchmark:
         sep=','
     ):
         drug_id_col -= 1
-        activity_col -= 1
+        if activity_col:
+            activity_col -= 1
         with open(dataset) as fr:
             if header:
                 fr.readline()
