@@ -26,4 +26,24 @@ def MRR(predicts:dict, positives:dict, negatives:dict):
         return None
     return sm / cnt
             
-        
+
+'''
+Hits@k
+Only calculate overlapped portion between prediction and ground truth
+'''
+def hitsk(predicts:dict, positives:dict, negatives:dict, k=10000):
+    pos = 0
+    cnt = 0
+    for disease in positives:
+        if disease not in predicts:
+            continue
+        for i, treatment in enumerate(predicts[disease]):
+            if i >= k:
+                break
+            cnt += 1
+            if treatment in positive[disease]:
+                pos += 1
+    if not cnt:
+        return None
+    return pos/cnt 
+
