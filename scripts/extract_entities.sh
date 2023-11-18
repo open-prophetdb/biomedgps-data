@@ -40,7 +40,6 @@ function main() {
         done
 
         echo "Extracting entities from $ONTOLOGY_TYPE"
-        ONTOLOGY_TYPE=$(echo $ONTOLOGY_TYPE | sed 's/-/_/g')
     fi
 
     if [ "$ONTOLOGY_TYPE" == "all" ]; then
@@ -52,6 +51,7 @@ function main() {
     fi
 
     for ontology in $ONTOLOGY_TYPE; do
+        ontology=$(echo $ontology | sed 's/-/_/g')
         FUNCTION_NAME="format_${ontology}"
         echo "Executing function: $FUNCTION_NAME"
         # Execute the function
