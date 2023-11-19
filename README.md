@@ -1,4 +1,4 @@
-# Knowledge Graph for BioMedGPS Project
+# [KnowledgeGraph] Knowledge Graph for BioMedGPS Project
 
 This repository contains the codes to build a knowledge graph for BioMedGPS project. Which depends on the [ontology-matcher](https://github.com/yjcyxky/ontology-matcher) package and [graph-builder](https://github.com/yjcyxky/graph-builder) package.
 
@@ -172,4 +172,18 @@ graph-builder --database ctd --database drkg --database primekg --database hsdn 
 python scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
 ```
 
-## Benchmarks
+# [Embedding] Generate initial embeddings for entities and relations
+
+More details can be found in the [embeddings](./embeddings) directory.
+
+# [Traning] Train knowledge graph embedding models
+
+More details can be found in the [models](./models) directory.
+
+# [Prediction] Evaluate knowledge graph embedding models
+
+More details can be found in the [prediction](./prediction) directory.
+
+# [Benchmark] Benchmark knowledge graph embedding models
+
+More details can be found in the [benchmarks](./benchmarks) directory.
