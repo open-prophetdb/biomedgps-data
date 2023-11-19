@@ -32,3 +32,5 @@ test.ipynb
 jupyter.log
 test.ipynb
 !models/*.ipynb
+
+*.pyc
