@@ -1,10 +1,10 @@
 relation_type	description	definition	resource	abbr	source_type	target_type
 bioarx::Coronavirus_ass_host_gene::Disease:Gene	Gene associated with a disease caused by a coronavirus	Coronavirus-associated host gene	bioarx	Coronavirus_ass_host_gene	Disease	Gene
 bioarx::Covid2_acc_host_gene::Disease:Gene	Gene associated with a disease caused by COVID-2	COVID-2 accessory host gene	bioarx	Covid2_acc_host_gene	Disease	Gene
-bioarx::DrugHumGen:Compound:Gene	Compound that affects the activity of a human gene	Drug affects human gene	bioarx	DrugHumGen	Compound	Gene
-bioarx::DrugVirGen:Compound:Gene	Compound that affects the activity of a viral gene	Drug affects viral gene	bioarx	DrugVirGen	Compound	Gene
-bioarx::HumGenHumGen:Gene:Gene	Interaction between two human genes	Human gene interaction with human gene	bioarx	HumGenHumGen	Gene	Gene
-bioarx::VirGenHumGen:Gene:Gene	Interaction between a viral gene and a human gene	Viral gene interaction with human gene	bioarx	VirGenHumGen	Gene	Gene
+bioarx::DrugHumGen::Compound:Gene	Compound that affects the activity of a human gene	Drug affects human gene	bioarx	DrugHumGen	Compound	Gene
+bioarx::DrugVirGen::Compound:Gene	Compound that affects the activity of a viral gene	Drug affects viral gene	bioarx	DrugVirGen	Compound	Gene
+bioarx::HumGenHumGen::Gene:Gene	Interaction between two human genes	Human gene interaction with human gene	bioarx	HumGenHumGen	Gene	Gene
+bioarx::VirGenHumGen::Gene:Gene	Interaction between a viral gene and a human gene	Viral gene interaction with human gene	bioarx	VirGenHumGen	Gene	Gene
 DGIDB::ACTIVATOR::Gene:Compound	Compound that activates the specified gene	Gene activator	DGIDB	ACTIVATOR	Gene	Compound
 DGIDB::AGONIST::Gene:Compound	Compound that acts as an agonist for the specified gene	Gene agonist	DGIDB	AGONIST	Gene	Compound
 DGIDB::ALLOSTERIC MODULATOR::Gene:Compound	Compound that modulates the specified gene's activity allosterically	Allosteric modulator of gene	DGIDB	ALLOSTERIC MODULATOR	Gene	Compound
