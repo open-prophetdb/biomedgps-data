@@ -2,7 +2,7 @@
 
 A repo for building a knowledge graph and training knowledge graph embedding models for drug repurposing.
 
-- [BioMedGPS Data](#biomedgps-data)
+- [Knowledge Graph](#knowledge-graph)
   - [Entities](#entities)
     - [Download the database by following the instructions in each folder in the data directory](#download-the-database-by-following-the-instructions-in-each-folder-in-the-data-directory)
     - [Step1: Extract entities](#step1-extract-entities)
@@ -12,12 +12,13 @@ A repo for building a knowledge graph and training knowledge graph embedding mod
   - [Relations](#relations)
     - [Extract relations from a set of databases](#extract-relations-from-a-set-of-databases)
     - [Merge relations into one file](#merge-relations-into-one-file)
-  - [Embedding](#embedding)
-  - [Traning](#traning)
-  - [Prediction](#prediction)
-  - [Benchmark](#benchmark)
+- [GNN Models](#gnn-models)
+  - [Generate initial embeddings for entities and relations](#embedding-generate-initial-embeddings-for-entities-and-relations)
+  - [Train gnn models](#traning-train-knowledge-graph-embedding-models)
+  - [Evaluate gnn models](#prediction-evaluate-knowledge-graph-embedding-models)
+  - [Benchmark gnn models](#benchmark-knowledge-graph-embedding-models)
 
-## [KnowledgeGraph] Knowledge Graph for BioMedGPS Project
+## Knowledge Graph
 
 This repository contains the codes to build a knowledge graph for BioMedGPS project. Which depends on the [ontology-matcher](https://github.com/yjcyxky/ontology-matcher) package and [graph-builder](https://github.com/yjcyxky/graph-builder) package.
 
@@ -190,18 +191,20 @@ graph-builder --database ctd --database drkg --database primekg --database hsdn 
 python scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
 ```
 
-## [Embedding] Generate initial embeddings for entities and relations
+## GNN Models
+
+### [Embedding] Generate initial embeddings for entities and relations
 
 More details can be found in the [embeddings](./embeddings) directory.
 
-## [Traning] Train knowledge graph embedding models
+### [Traning] Train knowledge graph embedding models
 
 More details can be found in the [models](./models) directory.
 
-## [Prediction] Evaluate knowledge graph embedding models
+### [Prediction] Evaluate knowledge graph embedding models
 
 More details can be found in the [prediction](./prediction) directory.
 
-## [Benchmark] Benchmark knowledge graph embedding models
+### [Benchmark] Benchmark knowledge graph embedding models
 
 More details can be found in the [benchmarks](./benchmarks) directory.
