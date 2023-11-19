@@ -4,7 +4,9 @@
 *.py
 *.ipynb
 *.pyc
+# These files are unzipped from the original data files
 graph_data/relations/ctd/*.tsv
 graph_data/relations/hmdb/*.xml
 graph_data/relations/drkg/*.tsv
 graph_data/relations/drkg/embed
+**/.DS_Store
