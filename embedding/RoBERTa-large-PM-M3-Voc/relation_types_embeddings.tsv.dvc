@@ -1,0 +1,5 @@
+outs:
+- md5: 87b2f882988e5d7a9e550b18fd761c38
+  size: 1311982
+  hash: md5
+  path: relation_types_embeddings.tsv

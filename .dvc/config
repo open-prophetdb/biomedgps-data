@@ -1,5 +1,6 @@
 [core]
     remote = gdrive-biomedgps-dvc
+    autostage = true
 ['remote "biomedgps-dvc"']
     url = oss://biomedgps-dvc/biomedgps-data
     oss_endpoint = oss-cn-shanghai.aliyuncs.com
