@@ -1,5 +1,5 @@
 import inspect
-from benchmark_metrics import MRR, basic_metric
+from lib.benchmark_metrics import MRR, basic_metric
 
 class benchmark:
     def __init__(self):
