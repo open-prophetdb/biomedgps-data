@@ -1,4 +1,23 @@
-# [KnowledgeGraph] Knowledge Graph for BioMedGPS Project
+# BioMedGPS Data
+
+A repo for building a knowledge graph and training knowledge graph embedding models for drug repurposing.
+
+- [BioMedGPS Data](#biomedgps-data)
+  - [Entities](#entities)
+    - [Download the database by following the instructions in each folder in the data directory](#download-the-database-by-following-the-instructions-in-each-folder-in-the-data-directory)
+    - [Step1: Extract entities](#step1-extract-entities)
+    - [Step2: Merge entities](#step2-merge-entities)
+    - [Step3: Format entities](#step3-format-entities)
+    - [Step4: Merge entity files into one file](#step4-merge-entity-files-into-one-file)
+  - [Relations](#relations)
+    - [Extract relations from a set of databases](#extract-relations-from-a-set-of-databases)
+    - [Merge relations into one file](#merge-relations-into-one-file)
+  - [Embedding](#embedding)
+  - [Traning](#traning)
+  - [Prediction](#prediction)
+  - [Benchmark](#benchmark)
+
+## [KnowledgeGraph] Knowledge Graph for BioMedGPS Project
 
 This repository contains the codes to build a knowledge graph for BioMedGPS project. Which depends on the [ontology-matcher](https://github.com/yjcyxky/ontology-matcher) package and [graph-builder](https://github.com/yjcyxky/graph-builder) package.
 
@@ -40,10 +59,18 @@ python run_markdown.py README.md
 
 If you want to build a knowledge graph for BioMedGPS project step by step, you can run the following steps.
 
-## Entities
-### Extract entities from a set of databases
+### Entities
+> Extract entities from a set of databases
+>
+> If you don't need to download new data, you can skip the following steps.
 
-If you don't need to download new data, you can skip the following steps.
+> Disease
+>
+> We choose to use the MONDO ontology as the source of disease terms. All other disease terms are mapped to MONDO terms.
+>
+> For more convience, we also include all entity items from knowledgebases. First, we extract the id, name, description, label, resource fields from the knowledgebases, and then we map the id to MONDO terms by using the `ontology-matcher` tool.
+> 
+> There will be more easier to integrate these knowledgebases into our knowledge graph, if we can identify the unmapped terms first.
 
 #### Download the database by following the instructions in each folder in the data directory
 
@@ -134,7 +161,7 @@ cp graph_data/extracted_entities/merged_entities/molecular_function.tsv graph_da
 cp graph_data/extracted_entities/merged_entities/pharmacologic_class.tsv graph_data/formatted_entities/pharmacologic_class.tsv
 ```
 
-#### Step4: Merge entity files into one file
+##### Step4: Merge entity files into one file
 
 This step will merge all the entity files into one file. If we can find a `filtered.tsv` file in the formatted_entities folder, we will use the filtered.tsv file to merge entities. Otherwise, we will use the `tsv` file to merge entities. If you want to keep a subset of entities (such as deduplicating rows with some conditions and filtering rows with specified species etc.), this is a good opportunity to do it. You can do this at the Step3 and save a `*.filtered.tsv` file in the formatted_entities folder. Finally, the merged file will be saved in the graph_data folder. This file can be the reference file for formatting relations.
 
@@ -145,18 +172,9 @@ mkdir -p graph_data
 python scripts/merge_entities.py to-single-file -i graph_data/formatted_entities -o graph_data/entities.tsv
 ```
 
-### Entity Description
-#### Disease
+### Relations
 
-We choose to use the MONDO ontology as the source of disease terms. All other disease terms are mapped to MONDO terms.
-
-For more convience, we also include all entity items from knowledgebases. First, we extract the id, name, description, label, resource fields from the knowledgebases, and then we map the id to MONDO terms by using the `ontology-matcher` tool.
-
-There will be more easier to integrate these knowledgebases into our knowledge graph, if we can identify the unmapped terms first.
-
-## Relations
-
-### Extract relations from a set of databases
+#### Extract relations from a set of databases
 
 ```bash
 # Extract relations from a set of databases
@@ -164,7 +182,7 @@ There will be more easier to integrate these knowledgebases into our knowledge g
 graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug
 ```
 
-### Merge relations into one file
+#### Merge relations into one file
 
 ```bash
 # Merge relations into one file
@@ -172,18 +190,18 @@ graph-builder --database ctd --database drkg --database primekg --database hsdn 
 python scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
 ```
 
-# [Embedding] Generate initial embeddings for entities and relations
+## [Embedding] Generate initial embeddings for entities and relations
 
 More details can be found in the [embeddings](./embeddings) directory.
 
-# [Traning] Train knowledge graph embedding models
+## [Traning] Train knowledge graph embedding models
 
 More details can be found in the [models](./models) directory.
 
-# [Prediction] Evaluate knowledge graph embedding models
+## [Prediction] Evaluate knowledge graph embedding models
 
 More details can be found in the [prediction](./prediction) directory.
 
-# [Benchmark] Benchmark knowledge graph embedding models
+## [Benchmark] Benchmark knowledge graph embedding models
 
 More details can be found in the [benchmarks](./benchmarks) directory.
