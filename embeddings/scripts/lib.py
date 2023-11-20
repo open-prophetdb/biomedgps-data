@@ -6,7 +6,7 @@ from fitsne import FItSNE
 import numpy as np
 import plotly.express as px
 
-allowd_types = [
+allowed_types = [
     "Gene",
     "Compound",
     "Disease",
@@ -34,8 +34,8 @@ colors = [
 
 
 def get_color(type):
-    if type in allowd_types:
-        return colors[allowd_types.index(type)]
+    if type in allowed_types:
+        return colors[allowed_types.index(type)]
     else:
         return "#000000"
 

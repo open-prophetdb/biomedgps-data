@@ -26,7 +26,8 @@ benchmarks/*.tsv
 models/**
 !models/README.md
 !models/examples
-!models/*.ipynb
+!models/notebooks
+!models/**/*.ipynb
 test.ipynb
 /graph_data
 jupyter.log

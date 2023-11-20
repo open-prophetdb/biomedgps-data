@@ -2,12 +2,18 @@ import os
 import pandas as pd
 import networkx as nx
 from check import check_file_exists, check_columns
+from typing import Tuple
+
+# Union of all the types of graphs
+Graph = nx.MultiGraph | nx.Graph | nx.MultiDiGraph | nx.DiGraph
+DirectedGraph = nx.MultiDiGraph | nx.DiGraph
+UndirectedGraph = nx.MultiGraph | nx.Graph
 
 
 def gen_cytoscape(
     formatted_df,
     xgmml_file,
-    allowd_types=[
+    allowed_types=[
         "Gene",
         "Compound",
         "Disease",
@@ -36,7 +42,7 @@ def gen_cytoscape(
     ]
 
     node_type_colors = {}
-    for node_type, color in zip(allowd_types, colors):
+    for node_type, color in zip(allowed_types, colors):
         node_type_colors[node_type] = color
 
     nodes_df = formatted_df[["source_id", "source_name", "source_type"]].rename(
@@ -115,19 +121,20 @@ def gen_cytoscape(
 def create_graph(
     relation_file,
     entity_file=None,
-    allowd_types=[
-        "Gene",
-        "Compound",
-        "Disease",
-        "Symptom",
-        "Pathway",
-        "Anatomy",
-        "Metabolite",
-        "MolecularFunction",
-        "BiologicalProcess",
-        "CellularComponent",
-    ],
-):
+    allowed_types=[],
+    directed=False,
+    allow_multiple_edges=False,
+) -> Graph:
+    """Create a graph from the relations file and annotate the nodes with the entity file.
+
+    Args:
+        relation_file (str): path to the relations file
+        entity_file (str, optional): path to the entities file. Defaults to None. If the entity file is not provided, the nodes will not be annotated.
+        allowed_types (list, optional): list of node types to include in the graph. If not provided, all node types will be included. Such as [ "Gene", "Compound", "Disease", "Symptom", "Pathway", "Anatomy", "Metabolite", "MolecularFunction", "BiologicalProcess", "CellularComponent"].
+
+    Returns:
+        Graph: graph with nodes and edges, if directed is True, the graph will be directed, otherwise it will be undirected. if allow_multiple_edges is True, the graph will allow multiple edges between the same nodes, otherwise it will not.
+    """
     # Get all paths with length <= 3 and one node as a start point.
     # > Prompt:
     # > If I have a file which contains the following columns: source_id, source_type, target_id, target_type, relation_type. and any node will be treated as a uniq node, if its id:type is different from others. I would like to use one specified node as a start point and get a subgraph which all nodes linked with it and the length of paths <= 3, how to do it? In the meanwhile, please save the paths as a file which contains five columns: source_id, source_type, relation_type, target_id, target_type.
@@ -160,7 +167,17 @@ def create_graph(
         pass
 
     # Create a directed graph to represent the relationships
-    G = nx.Graph()
+    # It might contain multiple edges between the same nodes, so we need to use MultiDiGraph instead of DiGraph
+    if allow_multiple_edges:
+        if directed:
+            G = nx.MultiDiGraph()
+        else:
+            G = nx.MultiGraph()
+    else:
+        if directed:
+            G = nx.DiGraph()
+        else:
+            G = nx.Graph()
 
     # Add nodes and edges to the graph
     for _, row in df.iterrows():
@@ -172,8 +189,9 @@ def create_graph(
         target_name = row["target_name"]
         relation_type = row["relation_type"]
 
-        if source_type not in allowd_types or target_type not in allowd_types:
-            continue
+        if allowed_types:
+            if source_type not in allowed_types or target_type not in allowed_types:
+                continue
 
         # Add nodes for source and target with node type as an attribute
         G.add_node((source_id, source_type), name=source_name, node_type=source_type)
@@ -269,7 +287,9 @@ def search_subgraph(G, start_node, end_node, n_hops=2):
         n_hops (int): default is 2
     """
     # Get all path between the two nodes
-    all_paths = nx.all_simple_paths(G, source=start_node, target=end_node, cutoff=n_hops)
+    all_paths = nx.all_simple_paths(
+        G, source=start_node, target=end_node, cutoff=n_hops
+    )
 
     # Create a list to store the paths in the desired format
     formatted_paths = []
@@ -396,3 +416,56 @@ def group_relations(relations):
     # colors = grouped_df['resource'].apply(lambda x: colors[resource.index(x)])
 
     return grouped_df
+
+
+def get_num_nodes(G: Graph) -> int:
+    """Get the number of nodes in a graph
+
+    Args:
+        G (Graph): graph
+
+    Returns:
+        int: number of nodes
+    """
+    return len(G.nodes())
+
+def get_num_edges(G: Graph) -> int:
+    """Get the number of edges in a graph
+
+    Args:
+        G (Graph): graph
+
+    Returns:
+        int: number of edges
+    """
+    return len(G.edges())
+
+
+def get_num_subgraphs(G: Graph) -> int:
+    """Get the number of subgraphs in a graph
+
+    Args:
+        G (Graph): graph
+
+    Returns:
+        int: number of subgraphs
+    """
+    if type(G) == nx.MultiGraph or type(G) == nx.Graph:
+        return len(list(nx.connected_components(G)))
+    elif type(G) == nx.MultiDiGraph or type(G) == nx.DiGraph:
+        return len(list(nx.weakly_connected_components(G)))
+    
+def get_subgraph(G: Graph, start_node: Tuple[str, str]) -> Graph:
+    """Get the subgraph containing the start node
+
+    Args:
+        G (Graph): graph
+        start_node (Tuple[str, str]): node to start from, such as ('DrugBank::DB00394', 'Compound')
+
+    Returns:
+        Graph: subgraph
+    """
+    if type(G) == nx.MultiGraph or type(G) == nx.Graph:
+        return G.subgraph(list(nx.node_connected_component(G, start_node)))
+    elif type(G) == nx.MultiDiGraph or type(G) == nx.DiGraph:
+        return G.subgraph(list(nx.node_connected_component(G, start_node)))

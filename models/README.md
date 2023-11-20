@@ -27,3 +27,25 @@ such as `STRING::INTERACTS_WITH::Gene:Gene`, `STRING::INTERACTS_WITH::Gene:Disea
 ### Relation File
 
 ## Directory Structure
+
+```
+models
+  |-- README.md
+  |-- notebooks
+  |    |-- graph_analysis.ipynb  # An example notebook for graph analysis
+  |-- <dataset_name>
+  |      |-- data
+  |      |    |-- train
+  |      |    |    |-- entities.tsv
+  |      |    |    |-- relations.tsv
+  |      |    |    |-- test.tsv
+  |      |    |    |-- valid.tsv
+  |      |    |    |-- train.tsv
+  |      |    |-- relations.tsv
+  |      |    |-- relations_hrt.tsv
+  |      |-- models
+  |      |    |-- <model_name>
+  |      |    |    |-- config.json
+  |      |    |    |-- <dataset_name>_<model>_entity.npy
+  |      |    |    |-- <dataset_name>_<model>_relation.npy
+```
