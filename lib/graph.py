@@ -429,6 +429,7 @@ def get_num_nodes(G: Graph) -> int:
     """
     return len(G.nodes())
 
+
 def get_num_edges(G: Graph) -> int:
     """Get the number of edges in a graph
 
@@ -454,7 +455,8 @@ def get_num_subgraphs(G: Graph) -> int:
         return len(list(nx.connected_components(G)))
     elif type(G) == nx.MultiDiGraph or type(G) == nx.DiGraph:
         return len(list(nx.weakly_connected_components(G)))
-    
+
+
 def get_subgraph(G: Graph, start_node: Tuple[str, str]) -> Graph:
     """Get the subgraph containing the start node
 
@@ -468,4 +470,4 @@ def get_subgraph(G: Graph, start_node: Tuple[str, str]) -> Graph:
     if type(G) == nx.MultiGraph or type(G) == nx.Graph:
         return G.subgraph(list(nx.node_connected_component(G, start_node)))
     elif type(G) == nx.MultiDiGraph or type(G) == nx.DiGraph:
-        return G.subgraph(list(nx.node_connected_component(G, start_node)))
+        return G.subgraph(list(nx.descendants(G, start_node)))
