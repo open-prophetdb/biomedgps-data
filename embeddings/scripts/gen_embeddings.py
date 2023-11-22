@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.manifold import TSNE
 from sklearn.decomposition import PCA
-import umap.umap_ as UMAP
+from umap.umap_ import UMAP
 from typing import Tuple
 from transformers import (
     AutoConfig,
