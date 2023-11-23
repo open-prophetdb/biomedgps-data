@@ -1,0 +1,6 @@
+outs:
+- md5: 1c8af2577f2eb0004e734864cf7406ed.dir
+  size: 1362360724
+  nfiles: 5
+  hash: md5
+  path: drkg
