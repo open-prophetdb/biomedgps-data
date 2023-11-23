@@ -1,6 +1,6 @@
 outs:
-- md5: d751713988987e9331980363e24189ce.dir
-  size: 0
-  nfiles: 0
+- md5: 94a50fc39f7ac046ef52affb46fb7f2f.dir
+  size: 1410116848
+  nfiles: 6
   hash: md5
   path: drkg+hsdn
