@@ -35,9 +35,11 @@ def substract_data(
     Returns:
         pd.DataFrame: Substraction of the two dataframes
     """
-    # Remove all rows from df_1 that are in df_2 (based on the index_cols)
-    df_1 = df_1[~df_1[index_cols].isin(df_2[index_cols]).all(axis=1)]
-    return df_1
+    # Remove all rows which are in df_2 from df_1
+    df = pd.merge(df_1, df_2, on=index_cols, how="outer", indicator=True)
+    df = df[df["_merge"] == "left_only"]
+    df = df.drop(columns=["_merge"])
+    return df
 
 
 cli = click.Group()
@@ -71,6 +73,8 @@ def substract(input_1: str, input_2: str, output: str) -> None:
     columns = [column for column in columns_1 if column in columns_2]
     df_1 = df_1[columns]
     df_2 = df_2[columns]
+
+    print("Substracting the two dataframes with the following columns: ", columns)
 
     df = substract_data(df_1, df_2, index_cols=columns)
     df.to_csv(output, sep="\t", index=False)
