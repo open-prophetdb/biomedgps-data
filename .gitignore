@@ -29,6 +29,7 @@ models/**
 !models/notebooks
 !models/**/*.ipynb
 !models/**/*.sh
+training
 test.ipynb
 /graph_data
 jupyter.log
