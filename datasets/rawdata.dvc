@@ -1,6 +1,6 @@
 outs:
-- md5: bcab984b97072b49c548ffbd9143a45c.dir
-  size: 2003649766
-  nfiles: 6
+- md5: 0669440dd6e2d85d3b05cf59116781ff.dir
+  size: 2003863374
+  nfiles: 8
   hash: md5
   path: rawdata

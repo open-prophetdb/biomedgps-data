@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 export MODEL_DIR=./models
 mkdir -p ${MODEL_DIR}
 
