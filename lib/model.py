@@ -74,6 +74,7 @@ def query(
     relations_embs = [th.tensor(rel_emb[rid]) for rid in relation_ids]
 
     sources = [source + "::" + source_id]
+    print("Source ID: ", sources)
 
     entity_map = model_map.get("entity_map")
     source_ids = [entity_map[source] for source in sources if source in entity_map]
@@ -223,5 +224,43 @@ def merge_topkpd_with_entities_relations(
     )
 
     # Apply the function with axis=1 to check if the relationship exists
-    merged["status"] = merged.apply(check_relation_exists, args=(relations,), axis=1)
+    merged["status"] = merged.apply(check_relation_exists, args=(relations_df,), axis=1)
+    return merged
+
+
+def merge_scores_with_entities_relations(
+    scores: pd.DataFrame,
+    entities: pd.DataFrame,
+    relations: pd.DataFrame,
+    target: str = "head",
+) -> pd.DataFrame:
+    """Merge the topkpd with the entities and relations dataframes
+
+    Args:
+        scores (pd.DataFrame): The scores dataframe, which have four columns: head, rel, tail, score
+        entities (pd.DataFrame): The entities dataframe
+        relations (pd.DataFrame): The relations dataframe
+
+    Returns:
+        pd.DataFrame: The merged dataframe
+    """
+    # Join the topkpd with the entity dataframe
+    df = entities.copy()
+    relations_df = relations.copy()
+
+    scores = scores.rename(
+        columns={"head": "source", "tail": "target", "rel": "relation"}
+    )
+
+    column_name = "source" if target == "head" else "target"
+
+    df["node_id"] = entities["label"] + "::" + entities["id"]
+    merged = scores.merge(df, left_on=column_name, right_on="node_id")
+
+    relations_df.set_index(
+        ["source_id", "source_type", "target_id", "target_type"], inplace=True
+    )
+
+    # Apply the function with axis=1 to check if the relationship exists
+    merged["status"] = merged.apply(check_relation_exists, args=(relations_df,), axis=1)
     return merged
