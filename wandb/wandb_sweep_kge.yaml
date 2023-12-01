@@ -1,0 +1,21 @@
+program: train_complex.sh
+method: bayes
+name: wandb_sweap_complex
+metric:
+  goal: maximize
+  name: Test_HITS@10
+parameters:
+  hidden_dim:
+    values:
+      - 400
+      - 768
+      - 1024
+    distribution: categorical
+  lr:
+    max: 0.2
+    min: 0.05
+    distribution: uniform
+command:
+  - bash
+  - train.sh
+  - ${args}
