@@ -5,35 +5,19 @@
 *.zip
 *.tar.gz
 *.sqlite
-databases/ctd/CTD_*
-databases/hgnc_mgi/hgnc_*
-databases/hgnc_mgi/mgi_*
-databases/reactome/reactome*
-benchmarks/__pycache__
-benchmarks/test
+*.pyc
 
-# Ignore all generated files
-extracted_entities/*
-formatted_entities/*
-graph_data/*
-graph_data_backup/*
+datasets/*
+
 .ipynb_checkpoints
 
-!graph_data/.gitkeep
-!graph_data/README.md
-
+benchmarks/__pycache__
+benchmarks/test
 benchmarks/*.tsv
-models/**
-!models/README.md
-!models/examples
-!models/notebooks
-!models/**/*.ipynb
-!models/**/*.sh
-training
-test.ipynb
-/graph_data
-jupyter.log
-test.ipynb
-!models/*.ipynb
 
-*.pyc
+training*
+wandb/data
+wandb/models
+
+test.ipynb
+jupyter.log

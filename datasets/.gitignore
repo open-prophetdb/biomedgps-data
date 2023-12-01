@@ -3,3 +3,6 @@
 /rawdata
 /raw_drkg
 /drkg+hsdn+custom+malacards
+/dvc_imported.txt
+!*.dvc
+!dvc_imported.txt

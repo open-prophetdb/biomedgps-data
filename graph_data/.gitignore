@@ -1,0 +1,12 @@
+# Ignore all generated files
+/entities/ctd/CTD_*
+/entities/hgnc_mgi/hgnc_*
+/entities/hgnc_mgi/mgi_*
+/entities/reactome/reactome*
+/extracted_entities/*
+/formatted_entities/*
+/relations/*
+/formatted_relations/*
+/entities.tsv
+/relations.tsv
+/log.txt

@@ -5,8 +5,16 @@
 *.ipynb
 *.pyc
 # These files are unzipped from the original data files
-graph_data/relations/ctd/*.tsv
-graph_data/relations/hmdb/*.xml
-graph_data/relations/drkg/*.tsv
-graph_data/relations/drkg/embed
+graph_data/scripts/*
+graph_data/entities/*
+graph_data/relations/*
+graph_data/extracted_entities/*
+graph_data/formatted_entities/*
+graph_data/formatted_relations/*
+
+datasets/rawdata
+datasets/rawdata/**/raw_*.tsv
 **/.DS_Store
+
+# Ignore all npy files or model weights
+*.npy

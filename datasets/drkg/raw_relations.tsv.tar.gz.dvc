@@ -1,0 +1,5 @@
+outs:
+- md5: 0682b646f9a036990e1498ce6c163c11
+  size: 53933892
+  hash: md5
+  path: raw_relations.tsv.tar.gz

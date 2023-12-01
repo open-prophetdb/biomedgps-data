@@ -126,5 +126,7 @@ nbclient
 pyvis
 pywikipathways
 biopython
-git+https://github.com/yjcyxky/ontology-matcher.git
-git+https://github.com/yjcyxky/graph-builder.git
+
+# You must make sure that the commit hash is matched with your acutal used version
+git+https://github.com/yjcyxky/ontology-matcher.git@fd4f606770e7768054960d7264f2d1444755c40b
+git+https://github.com/yjcyxky/graph-builder.git@2dc68bce8f3f7498aeeb900c49929172d694e295

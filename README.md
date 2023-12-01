@@ -86,7 +86,7 @@ The following script will run all the scripts in each folder in the data directo
 ```bash
 # Extract entities from a set of databases
 
-bash scripts/extract_entities.sh -t all
+bash graph_data/scripts/extract_entities.sh -t all
 ```
 
 #### Step2: Merge entities
@@ -99,7 +99,7 @@ After merged, all the entities will be saved in the graph_data/extracted_entitie
 # Merge entity files by entity type
 
 mkdir -p graph_data/extracted_entities/merged_entities
-python scripts/merge_entities.py from-databases -i graph_data/extracted_entities/raw_entities -o graph_data/extracted_entities/merged_entities
+python graph_data/scripts/merge_entities.py from-databases -i graph_data/extracted_entities/raw_entities -o graph_data/extracted_entities/merged_entities
 ```
 
 #### Step3: Format entities
@@ -170,7 +170,7 @@ This step will merge all the entity files into one file. If we can find a `filte
 # Merge formatted entity files into one file
 
 mkdir -p graph_data
-python scripts/merge_entities.py to-single-file -i graph_data/formatted_entities -o graph_data/entities.tsv
+python graph_data/scripts/merge_entities.py to-single-file -i graph_data/formatted_entities -o graph_data/entities.tsv
 ```
 
 ### Relations
@@ -188,7 +188,7 @@ graph-builder --database ctd --database drkg --database primekg --database hsdn 
 ```bash
 # Merge relations into one file
 
-python scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
+python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
 ```
 
 ## GNN Models
@@ -199,11 +199,7 @@ More details can be found in the [embeddings](./embeddings) directory.
 
 ### [Traning] Train knowledge graph embedding models
 
-More details can be found in the [models](./models) directory.
-
-### [Prediction] Evaluate knowledge graph embedding models
-
-More details can be found in the [prediction](./prediction) directory.
+More details can be found in the [models](./wandb) directory.
 
 ### [Benchmark] Benchmark knowledge graph embedding models
 

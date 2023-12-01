@@ -1,5 +1,0 @@
-outs:
-- md5: 959b94e30eb8684d455282d4e2a1a078
-  size: 7248626326
-  hash: md5
-  path: entities_embeddings.tsv
