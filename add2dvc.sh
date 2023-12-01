@@ -50,28 +50,36 @@ is_ignored() {
         if grep -qE "$(basename "$1")" "$DVCIGNORE"; then
             return 0 # File is ignored
         fi
+    fi
 
-        # Ignore all files without tsv/csv extension
-        if ! [[ "$1" =~ \.(tsv|csv)$ ]]; then
-            return 0 # File is ignored
-        fi
+    # Ignore all files without tsv/csv extension
+    if ! [[ "$1" =~ \.(tsv|csv)$ ]]; then
+        return 0 # File is ignored
     fi
     return 1 # File is not ignored
+}
+
+add_to_dvc_imported() {
+    if [ "$ADD_TO_DVC" = "false" ]; then
+        printf "Recording $gz_file in $DVC_IMPORTED_FILE\n\n"
+        echo "$gz_file" >> "$DVC_IMPORTED_FILE"
+    fi
 }
 
 # Function to process files
 process_files() {
     echo "Starting to process files in $TARGET_DIR"
-    find "$TARGET_DIR" -type f -size +50M | while read -r file; do
+    find "$TARGET_DIR" -type f -size +20M | while read -r file; do
         gz_file="${file}.tar.gz"
 
         if is_ignored "$file"; then
-            echo "Ignoring file $file as per .dvcignore"
+            printf "Ignoring file $file as per .dvcignore\n\n"
             continue
         fi
 
         if [ -f "$gz_file" ]; then
-            echo "File $gz_file already exists, skipping compression"
+            printf "File $gz_file already exists, skipping compression\n\n"
+            add_to_dvc_imported
             continue
         fi
 
@@ -83,10 +91,7 @@ process_files() {
         tar -czf "$temp_file" "$file" && mv "$temp_file" "$gz_file"
         echo "Compression complete for $file"
 
-        if [ "$ADD_TO_DVC" = "false" ]; then
-            echo "Recording $gz_file in $DVC_IMPORTED_FILE"
-            echo "$gz_file" >> "$DVC_IMPORTED_FILE"
-        fi
+        add_to_dvc_imported
     done
     echo "Finished processing files in $TARGET_DIR"
 }

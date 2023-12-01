@@ -1,0 +1,5 @@
+outs:
+- md5: ca3b5f26324a51a2765afc5dc17dce27
+  size: 2477122
+  hash: md5
+  path: valid.tsv.tar.gz

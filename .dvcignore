@@ -12,7 +12,6 @@ graph_data/extracted_entities/*
 graph_data/formatted_entities/*
 graph_data/formatted_relations/*
 
-datasets/rawdata
 datasets/rawdata/**/raw_*.tsv
 **/.DS_Store
 

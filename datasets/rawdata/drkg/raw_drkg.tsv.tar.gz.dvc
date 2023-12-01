@@ -1,0 +1,5 @@
+outs:
+- md5: 00dc7df08152b88297c92334ddeefbc8
+  size: 35471853
+  hash: md5
+  path: raw_drkg.tsv.tar.gz
