@@ -18,6 +18,7 @@ benchmarks/*.tsv
 training*
 wandb/data
 wandb/models
+wandb/wandb
 
 test.ipynb
 jupyter.log

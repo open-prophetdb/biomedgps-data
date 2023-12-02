@@ -17,5 +17,5 @@ parameters:
     distribution: uniform
 command:
   - bash
-  - train.sh
+  - train_complex.sh
   - ${args}

@@ -43,23 +43,18 @@ MODEL_PATH=${DATASET}_${MODEL_NAME}_${RANDOM_STRING}
 
 echo "All arguments passed to this script: $@"
 
-# Save the arguments passed to this script in another variable for later use
-ARGS="$@"
-
-# How to get an argument hidden_dim from the $@ array
-for i in "$ARGS"
+for arg in "$@"
 do
-    case $i in
-        --hidden_dim=*)
-        DIM="${i#*=}"
-        shift # past argument=value
-        ;;
-        *)
-        ;;
-    esac
+    # Split the argument into key and value
+    IFS='=' read -r key value <<< "$arg"
+
+    if [ "$key" == "--hidden_dim" ]; then
+        DIM="$value"
+    fi
 done
 
+echo "hidden_dim = ${DIM}"
 
-mkdir -p /data/biomedgps-kge/models/${MODEL_PATH}
+mkdir -p /data/biomedgps-data/wandb/models/${MODEL_PATH}
 # Get all arguments passed to this script.
-DGLBACKEND=pytorch dglke_train --dataset ${DATASET} --data_path /data/biomedgps-kge/data --data_files train.tsv valid.tsv test.tsv --format 'raw_udd_hrt' --enable-wandb --wandb-entity $WANDB_ENTITY --wandb-project $WANDB_PROJECT --neg_sample_size 256 --max_step 100000 --log_interval 1000 --batch_size_eval 16 -adv --regularization_coef 1.00E-07 --test --valid --gpu ${GPU_SEQ} --num_proc ${NUM_PROC} --neg_sample_size_eval 10000 --async_update --mix_cpu_gpu --save_path /data/biomedgps-kge/models/${MODEL_PATH} --batch_size 2048 --model_name ${MODEL_NAME} --entity-emb-file entities_embeddings_${DIM}.tsv --relation-emb-file relations_embeddings_${DIM}.tsv "$@"
+DGLBACKEND=pytorch dglke_train --dataset ${DATASET} --data_path /data/biomedgps-data/wandb/data --data_files train.tsv valid.tsv test.tsv --format 'raw_udd_hrt' --enable-wandb --wandb-entity $WANDB_ENTITY --wandb-project $WANDB_PROJECT --neg_sample_size 256 --max_step 100000 --log_interval 1000 --batch_size_eval 16 -adv --regularization_coef 1.00E-07 --test --valid --gpu ${GPU_SEQ} --num_proc ${NUM_PROC} --neg_sample_size_eval 10000 --async_update --mix_cpu_gpu --save_path /data/biomedgps-data/wandb/models/${MODEL_PATH} --batch_size 2048 --model_name ${MODEL_NAME} --entity-emb-file entities_embeddings_${DIM}.tsv --relation-emb-file relation_types_embeddings_${DIM}.tsv "$@"
