@@ -234,7 +234,9 @@ class ModelEnum:
     TransH = "TransH"
 
 
-@cli.command(help="Compute the attention scores with the given model for each relation.")
+@cli.command(
+    help="Compute the attention scores with the given model for each relation."
+)
 @click.option(
     "--entity_emb_fpath",
     type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
@@ -306,7 +308,12 @@ def compute_attention_scores(
 
     entity_embeddings = load_embeddings(entity_emb_fpath)
     relation_type_embeddings = load_embeddings(relation_type_emb_fpath)
-    relations = pd.read_csv(relations_fpath, sep="\t", header=None, names=["source_id", "relation_type", "target_id"])
+    relations = pd.read_csv(
+        relations_fpath,
+        sep="\t",
+        header=None,
+        names=["source_id", "relation_type", "target_id"],
+    )
 
     # TransE Score
     def transe_l2_score(h, r, t):
@@ -395,8 +402,11 @@ def compute_attention_scores(
         ].to_numpy()
 
         softmax_vals = softmax(target_scores)
+        print("softmax_vals:", softmax_vals)
+        print("target_ids:", scores_df[scores_df["target_id"] == target_id])
 
-        for idx, row in scores_df[scores_df["target_id"] == target_id].iterrows():
+        idx = 0
+        for _, row in scores_df[scores_df["target_id"] == target_id].iterrows():
             softmax_scores.append(
                 (
                     row["source_id"],
@@ -405,6 +415,7 @@ def compute_attention_scores(
                     softmax_vals[idx],
                 )
             )
+            idx += 1
 
     # Create the final dataframe
     final_df = pd.DataFrame(
