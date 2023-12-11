@@ -270,7 +270,7 @@ class ModelEnum:
         ],
         case_sensitive=False,
     ),
-    default=ModelEnum.TransE,
+    default=ModelEnum.TransE_l2,
     help="The model name",
 )
 def compute_attention_scores(
@@ -278,7 +278,7 @@ def compute_attention_scores(
     relation_type_emb_fpath: Path,
     relations_fpath: Path,
     output_dir: Path,
-    model_name: ModelEnum = ModelEnum.TransE,
+    model_name: ModelEnum = ModelEnum.TransE_l2,
 ) -> Path:
     """Compute the attention scores for the given model
 
@@ -287,7 +287,7 @@ def compute_attention_scores(
         relation_type_emb_fpath (Path): The filepath of the relation embeddings
         relations_fpath (Path): The filepath of the relations (tsv file), which has a head-relation-tail format with three columns: source_id, relation_type, target_id.
         output_dir (Path): The output directory
-        model_name (ModelEnum, optional): The model name. Defaults to ModelEnum.TransE.
+        model_name (ModelEnum, optional): The model name. Defaults to ModelEnum.TransE_l2.
 
     Returns:
         Path: The filepath of the attention scores
