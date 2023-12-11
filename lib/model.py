@@ -306,7 +306,7 @@ def compute_attention_scores(
 
     entity_embeddings = load_embeddings(entity_emb_fpath)
     relation_type_embeddings = load_embeddings(relation_type_emb_fpath)
-    relations = pd.read_csv(relations_fpath, sep="\t")
+    relations = pd.read_csv(relations_fpath, sep="\t", header=None, names=["source_id", "relation_type", "target_id"])
 
     # TransE Score
     def transe_l2_score(h, r, t):
@@ -374,12 +374,12 @@ def compute_attention_scores(
             entity_embeddings[row["target_id"]],
         )
         all_scores.append(
-            (row["source_id"], row["target_id"], row["relation_type_id"], score)
+            (row["source_id"], row["target_id"], row["relation_type"], score)
         )
 
     # Create the dataframe for the scores
     scores_df = pd.DataFrame(
-        all_scores, columns=["source_id", "target_id", "relation_type_id", "score"]
+        all_scores, columns=["source_id", "target_id", "relation_type", "score"]
     )
 
     # Apply softmax to the scores
@@ -401,7 +401,7 @@ def compute_attention_scores(
                 (
                     row["source_id"],
                     row["target_id"],
-                    row["relation_type_id"],
+                    row["relation_type"],
                     softmax_vals[idx],
                 )
             )
@@ -409,7 +409,7 @@ def compute_attention_scores(
     # Create the final dataframe
     final_df = pd.DataFrame(
         softmax_scores,
-        columns=["source_id", "target_id", "relation_type_id", "softmax_score"],
+        columns=["source_id", "target_id", "relation_type", "score"],
     )
 
     # Save the attention scores
