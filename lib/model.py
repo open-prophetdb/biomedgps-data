@@ -106,27 +106,27 @@ def merge_scores_with_entities_relations(
 )
 @click.option(
     "--entity_emb_fpath",
-    type=click.Path(exists=True),
+    type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
     help="The filepath of the entity embeddings",
 )
 @click.option(
     "--relation_emb_fpath",
-    type=click.Path(exists=True),
+    type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
     help="The filepath of the relation embeddings",
 )
 @click.option(
     "--entity_id_map_fpath",
-    type=click.Path(exists=True),
+    type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
     help="The filepath of the entity id map",
 )
 @click.option(
     "--relation_type_id_map_fpath",
-    type=click.Path(exists=True),
+    type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
     help="The filepath of the relation type id map",
 )
 @click.option(
     "--output_dir",
-    type=click.Path(exists=True),
+    type=click.Path(exists=True, file_okay=False, dir_okay=True, path_type=Path),
     help="The output directory to save the embeddings",
 )
 def load_embeddings(
@@ -237,22 +237,22 @@ class ModelEnum:
 @cli.command(help="Compute the attention scores with the given model for each relation.")
 @click.option(
     "--entity_emb_fpath",
-    type=click.Path(exists=True),
+    type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
     help="The filepath of the entity embeddings",
 )
 @click.option(
     "--relation_type_emb_fpath",
-    type=click.Path(exists=True),
+    type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
     help="The filepath of the relation embeddings",
 )
 @click.option(
     "--relations_fpath",
-    type=click.Path(exists=True),
+    type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
     help="The filepath of the relations (tsv file), which has a head-relation-tail format with three columns: source_id, relation_type, target_id.",
 )
 @click.option(
     "--output_dir",
-    type=click.Path(exists=True),
+    type=click.Path(exists=True, file_okay=False, dir_okay=True, path_type=Path),
     help="The output directory to save the attention scores",
 )
 @click.option(
