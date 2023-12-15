@@ -428,5 +428,114 @@ def compute_attention_scores(
     final_df.to_csv(attention_scores_fpath, sep="\t", index=False)
 
 
+@cli.command(help="Annotate the entity embeddings with the metadata")
+@click.option(
+    "--entity_emb_fpath",
+    type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
+    help="The filepath of the entity embeddings",
+)
+@click.option(
+    "--entity_metadata_fpath",
+    type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
+    help="The filepath of the entity metadata",
+)
+@click.option(
+    "--entity_emb_output_fpath",
+    type=click.Path(exists=False, path_type=Path, dir_okay=False, file_okay=True),
+    help="The output filepath of the entity embeddings",
+)
+@click.option(
+    "--ignore_unfound_records",
+    type=bool,
+    is_flag=True,
+    default=False,
+    help="Ignore the unfound records",
+)
+def entity_embeddings(
+    entity_emb_fpath: Path,
+    entity_metadata_fpath: Path,
+    entity_emb_output_fpath: Path,
+    ignore_unfound_records: bool = False,
+) -> None:
+    """Annotate the entity embeddings with the metadata
+
+    Args:
+        entity_emb_fpath (Path): The filepath of the entity embeddings
+        entity_metadata_fpath (Path): The filepath of the entity metadata
+        entity_emb_output_fpath (Path): The output filepath of the entity embeddings
+    """
+    import pandas as pd
+    import numpy as np
+
+    entity_embeddings = pd.read_csv(entity_emb_fpath, sep="\t")
+    entity_metadata = pd.read_csv(entity_metadata_fpath, sep="\t")
+
+    entity_embeddings["entity_id"] = entity_embeddings["id"].apply(
+        lambda x: x.split("::")[1]
+    )
+    entity_embeddings["entity_type"] = entity_embeddings["id"].apply(
+        lambda x: x.split("::")[0]
+    )
+
+    entity_metadata["node_id"] = entity_metadata["label"] + "::" + entity_metadata["id"]
+
+    merged = entity_embeddings.merge(entity_metadata, left_on="id", right_on="node_id")
+    print("Columns of merged:", merged.columns)
+    # Get all unfound records
+    unfound_records = entity_embeddings[~entity_embeddings["id"].isin(merged["node_id"])]
+    unfound_records.rename(columns={"id": "entity_name"}, inplace=True)
+
+    print("Num of unfound records:", len(unfound_records))
+    pwd = Path(entity_emb_output_fpath).parent
+    unfound_records.to_csv(pwd / "unfound_records.tsv", sep="\t", index=False)
+
+    merged = merged.rename(columns={"name": "entity_name", "id": "embedding_id"})
+    merged = merged[
+        [
+            "embedding_id",
+            "entity_id",
+            "entity_type",
+            "entity_name",
+            "embedding",
+        ]
+    ]
+    
+    if not ignore_unfound_records:
+        merged = pd.concat([merged, unfound_records], axis=0)
+
+    merged.to_csv(entity_emb_output_fpath, sep="\t", index=False)
+
+
+@cli.command(help="Annotate the relation embeddings with the metadata")
+@click.option(
+    "--relation_emb_fpath",
+    type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
+    help="The filepath of the relation embeddings",
+)
+@click.option(
+    "--relation_emb_output_fpath",
+    type=click.Path(exists=True, path_type=Path, dir_okay=False, file_okay=True),
+    help="The output filepath of the relation embeddings",
+)
+def relation_embeddings(
+    relation_emb_fpath: Path,
+    relation_emb_output_fpath: Path,
+) -> None:
+    """Annotate the relation embeddings with the metadata
+
+    Args:
+        relation_emb_fpath (Path): The filepath of the relation embeddings
+        relation_emb_output_fpath (Path): The output filepath of the relation embeddings
+    """
+    import pandas as pd
+    import numpy as np
+
+    relation_embeddings = pd.read_csv(relation_emb_fpath, sep="\t")
+
+    relation_embeddings = relation_embeddings.rename(columns={"id": "relation_type"})
+    relation_embeddings["embedding_id"] = relation_embeddings["relation_type"]
+    relation_embeddings.to_csv(relation_emb_output_fpath, sep="\t", index=False)
+
+
 if __name__ == "__main__":
     cli()
