@@ -10,3 +10,5 @@
 /entities.tsv
 /relations.tsv
 /log.txt
+/knowledge_graph_annotated.tsv
+/knowledge_graph.tsv

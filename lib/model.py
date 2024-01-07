@@ -489,7 +489,7 @@ def entity_embeddings(
     pwd = Path(entity_emb_output_fpath).parent
     unfound_records.to_csv(pwd / "unfound_records.tsv", sep="\t", index=False)
 
-    merged = merged.rename(columns={"name": "entity_name", "id": "embedding_id"})
+    merged = merged.rename(columns={"name": "entity_name", "node_id": "embedding_id"})
     merged = merged[
         [
             "embedding_id",
