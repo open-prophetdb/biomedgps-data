@@ -15,7 +15,14 @@ pip3 install torch==1.13 torchvision==0.14.0
 pip install git+https://github.com/yjcyxky/dgl-ke.git#subdirectory=python && pip install ogb dgl==0.9.0 wandb
 ```
 
-> NOTE: The training script is based on a customized dgl-ke library, which is forked from the original dgl-ke library. The customized dgl-ke library is located at [dgl-ke](https://github.com/yjcyxky/dgl-ke.git). The most of the arguments are the same as the original dgl-ke library. The only difference is that the customized dgl-ke library supports wandb and initial embeddings. If you want to know more about the original dgl-ke library, please refer to [dgl-ke docs](https://dglke.dgl.ai/doc/)
+> NOTE: 
+> 1. The training script is based on a customized dgl-ke library, which is forked from the original dgl-ke library. The customized dgl-ke library is located at [dgl-ke](https://github.com/yjcyxky/dgl-ke.git). The most of the arguments are the same as the original dgl-ke library. The only difference is that the customized dgl-ke library supports wandb and initial embeddings. If you want to know more about the original dgl-ke library, please refer to [dgl-ke docs](https://dglke.dgl.ai/doc/)
+> 
+> 2. The overall training has already been mostly automated, with the help of Wandb.
+>
+> 3. If you don't want to use Wandb, you can run it directly through bash train.sh <parameters>.
+>
+> 4. Wandb will automatically combine all the hyperparameters listed in the configuration file and try to find the optimal hyperparameters. In addition, all logs, performance metrics, model files, data, etc., of the model will be uploaded to your own Wandb account for subsequent tracking and analysis.
 
 ## Sweep
 
