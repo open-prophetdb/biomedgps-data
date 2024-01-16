@@ -1,5 +1,0 @@
-outs:
-- md5: bde4ab9d493b753e39b598fafe53d40b
-  size: 3985023132
-  hash: md5
-  path: entities_embeddings.tsv.tar.gz

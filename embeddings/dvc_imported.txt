@@ -1,2 +1,0 @@
-embeddings/RoBERTa-large-PM-M3-Voc/entities_embeddings.tsv.tar.gz
-embeddings/biobert-base-cased-v1.1/entities_embeddings.tsv.tar.gz
