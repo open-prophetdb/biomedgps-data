@@ -12,6 +12,9 @@ A repo for building a knowledge graph and training knowledge graph embedding mod
   - [Relations](#relations)
     - [Extract relations from a set of databases](#extract-relations-from-a-set-of-databases)
     - [Merge relations into one file](#merge-relations-into-one-file)
+- [Analysis](#analysis)
+  - [Analyze the knowledge graph](#analyze-the-knowledge-graph)
+  - [Analyze the knowledge graph embedding models](#analyze-the-knowledge-graph-embedding-models)
 - [GNN Models](#gnn-models)
   - [Generate initial embeddings for entities and relations](#embedding-generate-initial-embeddings-for-entities-and-relations)
   - [Train gnn models](#traning-train-knowledge-graph-embedding-models)
@@ -190,6 +193,16 @@ graph-builder --database ctd --database drkg --database primekg --database hsdn 
 
 python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
 ```
+
+## Analysis
+
+### Analyze the knowledge graph
+
+More details can be found in the [graph_analysis](./graph_analysis) directory.
+
+### Analyze the knowledge graph embedding models
+
+More details can be found in the [embedding_analysis](./embedding_analysis) directory.
 
 ## GNN Models
 
