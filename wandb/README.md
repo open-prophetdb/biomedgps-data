@@ -15,6 +15,8 @@ pip3 install torch==1.13 torchvision==0.14.0
 pip install git+https://github.com/yjcyxky/dgl-ke.git#subdirectory=python && pip install ogb dgl==0.9.0 wandb
 ```
 
+> NOTE: The training script is based on a customized dgl-ke library, which is forked from the original dgl-ke library. The customized dgl-ke library is located at [dgl-ke](https://github.com/yjcyxky/dgl-ke.git). The most of the arguments are the same as the original dgl-ke library. The only difference is that the customized dgl-ke library supports wandb and initial embeddings. If you want to know more about the original dgl-ke library, please refer to [dgl-ke docs](https://dglke.dgl.ai/doc/)
+
 ## Sweep
 
 The project is configured to run a sweep on the job queue and job. The sweep is configured in wandb_sweep_kge.yaml. The sweep will run a job on a set of hyperparameters. The job will run a training script, train.sh. If you want to know more about the sweep, please refer to [wandb sweep](https://docs.wandb.ai/guides/sweeps/quickstart).
@@ -113,7 +115,7 @@ Please see the arguments in wandb_sweep_kge.yaml and train.sh. The arguments are
 
 - double_ent: Double entitiy dim for complex number It is used by RotatE.
 
---double_rel: Double relation dim for complex number.
+- double_rel: Double relation dim for complex number.
 
 - neg_adversarial_sampling: Indicate whether to use negative adversarial sampling.It will weight negative samples with higher scores more.
 
