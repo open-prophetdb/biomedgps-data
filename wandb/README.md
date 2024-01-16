@@ -24,6 +24,12 @@ pip install git+https://github.com/yjcyxky/dgl-ke.git#subdirectory=python && pip
 >
 > 4. Wandb will automatically combine all the hyperparameters listed in the configuration file and try to find the optimal hyperparameters. In addition, all logs, performance metrics, model files, data, etc., of the model will be uploaded to your own Wandb account for subsequent tracking and analysis.
 
+## Prepare Data
+
+Please refer to [graph_data](../graph_data/README.md) for more details about the data format. If you want to use initial embeddings, please refer to [embeddings](../embeddings/README.md) for generating initial embeddings.
+
+You can also refer to [datasets](../datasets/README.md) and [prepare_data.ipynb](../datasets/prepare_data.ipynb) for preparing training datasets.
+
 ## Training
 
 The project is configured to run a sweep on the job queue and job. The sweep is configured in wandb_sweep_kge.yaml. The sweep will run a job on a set of hyperparameters. The job will run a training script, train.sh. If you want to know more about the sweep, please refer to [wandb sweep](https://docs.wandb.ai/guides/sweeps/quickstart).
