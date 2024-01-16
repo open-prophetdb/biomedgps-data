@@ -12,14 +12,17 @@ A repo for building a knowledge graph and training knowledge graph embedding mod
   - [Relations](#relations)
     - [Extract relations from a set of databases](#extract-relations-from-a-set-of-databases)
     - [Merge relations into one file](#merge-relations-into-one-file)
-- [Analysis](#analysis)
-  - [Analyze the knowledge graph](#analyze-the-knowledge-graph)
-  - [Analyze the knowledge graph embedding models](#analyze-the-knowledge-graph-embedding-models)
-- [GNN Models](#gnn-models)
+- [GNN/KGE Models for Exercise](#gnnkge-models-for-exercise)
+- [GNN/KGE Models in Production](#gnn-models)
   - [Generate initial embeddings for entities and relations](#embedding-generate-initial-embeddings-for-entities-and-relations)
   - [Train gnn models](#traning-train-knowledge-graph-embedding-models)
   - [Evaluate gnn models](#prediction-evaluate-knowledge-graph-embedding-models)
   - [Benchmark gnn models](#benchmark-knowledge-graph-embedding-models)
+- [Downstream Analysis](#analysis)
+  - [Analyze the knowledge graph](#analyze-the-knowledge-graph)
+  - [Analyze the knowledge graph embedding models](#analyze-the-knowledge-graph-embedding-models)
+  - [Link Prediction](#link-prediction)
+  - [Explain the prediction results](#explain-the-prediction-results)
 
 ## Knowledge Graph
 
@@ -194,17 +197,11 @@ graph-builder --database ctd --database drkg --database primekg --database hsdn 
 python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
 ```
 
-## Analysis
+## GNN/KGE Models for Exercise
 
-### Analyze the knowledge graph
+You can follow the instructions in the [notebooks](./examples/README.md) to train a KGE model for exercises. If you want to train a KGE model for your own datasets in production, you can refer to the [README](./wandb/README.md) in the `wandb` folder.
 
-More details can be found in the [graph_analysis](./graph_analysis) directory.
-
-### Analyze the knowledge graph embedding models
-
-More details can be found in the [embedding_analysis](./embedding_analysis) directory.
-
-## GNN Models
+## GNN Models in Production
 
 ### [Embedding] Generate initial embeddings for entities and relations
 
@@ -217,3 +214,21 @@ More details can be found in the [wandb](./wandb) directory.
 ### [Benchmark] Benchmark knowledge graph embedding models
 
 More details can be found in the [benchmarks](./benchmarks) directory.
+
+## Analysis
+
+### Analyze the knowledge graph
+
+More details can be found in the [graph_analysis](./graph_analysis) directory.
+
+### Analyze the knowledge graph embedding models
+
+More details can be found in the [embedding_analysis](./embedding_analysis) directory.
+
+### Link Prediction
+
+More details can be found in the [prediction](./prediction/) directory.
+
+### Explain the prediction results
+
+More details can be found in the [biomedgps-explainer](https://github.com/yjcyxky/biomedgps-explainer) repository.
