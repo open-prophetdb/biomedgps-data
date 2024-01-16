@@ -199,7 +199,7 @@ More details can be found in the [embeddings](./embeddings) directory.
 
 ### [Traning] Train knowledge graph embedding models
 
-More details can be found in the [models](./wandb) directory.
+More details can be found in the [wandb](./wandb) directory.
 
 ### [Benchmark] Benchmark knowledge graph embedding models
 
