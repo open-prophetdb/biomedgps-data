@@ -46,6 +46,7 @@ def create_tarball(files, destfile):
     # Create a new tarball in write and gzip mode
     with tarfile.open(destfile, "w:gz") as tar:
         for file in files:
+            print(f"Adding {file} to tarball...")
             # Add each file/directory to the tarball
             tar.add(file, arcname=os.path.basename(file))
 
@@ -53,6 +54,13 @@ def create_tarball(files, destfile):
 @click.command(help="Wrap all essential data files into a tarball")
 @click.argument("destfile", type=click.Path(exists=False))
 def upload(destfile):
+    print("Creating tarball...")
+    print("Checking if all files exist...")
     if not check_files(files):
         return
+    print("All files exist!")
     create_tarball(files, destfile)
+
+
+if __name__ == "__main__":
+    upload()
