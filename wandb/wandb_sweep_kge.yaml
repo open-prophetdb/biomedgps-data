@@ -1,10 +1,36 @@
-program: train_complex.sh
+program: train.sh
 method: bayes
-name: wandb_sweap_complex
+name: biomedgps-kge
 metric:
   goal: maximize
   name: Test_HITS@10
 parameters:
+  # All data files must be in the data_path/${dataset}. The data files must be named as train.tsv, valid.tsv, test.tsv.
+  data_path:
+    values:
+      - "/data/biomedgps-data/wandb/data"
+    distribution: categorical
+  dataset:
+    values:
+      - "drkg+hsdn+custom+malacards"
+    distribution: categorical
+  model_path:
+    values:
+      - "/data/biomedgps-data/wandb/models"
+    distribution: categorical
+  # wandb_entity:
+  #   values:
+  #     - "yjcyxky"
+  #   distribution: categorical
+  # wandb_project:
+  #   values:
+  #     - "biomedgps-kge-auto"
+  #   distribution: categorical
+  enable_embedding:
+    values:
+      - True
+    distribution: categorical
+  # If you enable embedding, please ensure that the related embedding files are in the data_path/${dataset}. These embedding files must match with the hidden_dim. such as entities_embeddings_400.tsv, relation_types_embeddings_400.tsv
   hidden_dim:
     values:
       - 400
@@ -15,7 +41,49 @@ parameters:
     max: 0.2
     min: 0.05
     distribution: uniform
+  batch_size:
+    values:
+      - 2048
+    distribution: categorical
+  model_name:
+    values:
+      - "ComplEx"
+      - "TransE"
+      - "DistMult"
+    distribution: categorical
+  gpu:
+    values:
+      - 0
+    distribution: categorical
+  num_proc:
+    values:
+      - 4
+    distribution: categorical
+  neg_sample_size:
+    values:
+      - 256
+    distribution: categorical
+  max_step:
+    values:
+      - 100000
+    distribution: categorical
+  log_interval:
+    values:
+      - 1000
+    distribution: categorical
+  batch_size_eval:
+    values:
+      - 16
+    distribution: categorical
+  regularization_coef:
+    values:
+      - 1.00E-07
+    distribution: categorical
+  neg_sample_size_eval:
+    values:
+      - 10000
+    distribution: categorical
 command:
   - bash
-  - train_complex.sh
+  - train.sh
   - ${args}
