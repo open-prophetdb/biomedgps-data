@@ -28,7 +28,9 @@ A repo for building a knowledge graph and training knowledge graph embedding mod
 
 This repository contains the codes to build a knowledge graph for BioMedGPS project. Which depends on the [ontology-matcher](https://github.com/yjcyxky/ontology-matcher) package and [graph-builder](https://github.com/yjcyxky/graph-builder) package.
 
-If you only want to use and analyze the pre-built knowledge graph, you can see the [graph_data](./graph_data) directory and the [models](./models) directory.
+If you only want to use and analyze the pre-built knowledge graph, you can see the [graph_data](./graph_data) directory and the [models](./wandb) directory.
+
+If you are interested in how the training scripts work, you can see the [examples](./examples/notebooks) directory.
 
 If you want to run the following codes to build a knowledge graph for BioMedGPS project, you need to install the following dependencies first.
 
