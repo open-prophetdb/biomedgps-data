@@ -81,8 +81,18 @@ def substract(input_1: str, input_2: str, output: str) -> None:
 
 
 @cli.command(help="Prepare a file with hrt format")
-@click.option("--input", "-i", type=str, help="A dataframe in a tsv file")
-@click.option("--output", "-o", type=str, help="Output file")
+@click.option(
+    "--input",
+    "-i",
+    type=str,
+    help="A dataframe in a tsv file which contains the following columns: source_type, source_id, relation_type, target_type, target_id. The source_type and target_type columns must be in the format of the entity type (e.g. Gene, Disease, Compound, etc.) and the source_id and target_id columns must be in the format of the entity id (e.g. ENTREZ:1234, MONDO:1234, MESH:D1234, etc.). You can call this format as biomedgps format.",
+)
+@click.option(
+    "--output",
+    "-o",
+    type=str,
+    help="Output file, which will be in the hrt format. The hrt format is a tab-separated file with the following columns: source_id, relation_type, target_id. The source_id and target_id columns are in the format of the entity type and entity id (e.g. Gene::ENTREZ:1234, Disease::MONDO:1234, Compound::MESH:D1234, etc.)",
+)
 def hrt(input: str, output: str) -> None:
     relations = pd.read_csv(input, sep="\t")
 
@@ -110,6 +120,42 @@ def hrt(input: str, output: str) -> None:
 
     # Remove the header
     df.to_csv(output, sep="\t", index=False, header=False)
+
+
+@cli.command(help="Merge a list of files into one file by rows")
+@click.option(
+    "--input",
+    "-i",
+    type=str,
+    help="A csv/tsv file, but you can specify it several times",
+    multiple=True,
+)
+@click.option("--output", "-o", type=str, help="Output file")
+def merge_files(input: list, output: str) -> None:
+    def detect_separator(file: str) -> str:
+        with open(file, "r") as f:
+            first_line = f.readline()
+            if "\t" in first_line:
+                return "\t"
+            elif "," in first_line:
+                return ","
+            else:
+                raise ValueError("Separator not found")
+
+    # Get the same columns for all the dataframes
+    dfs = [pd.read_csv(file, sep=detect_separator(file)) for file in input]
+    columns = [df.columns for df in dfs]
+    columns = list(set([item for sublist in columns for item in sublist]))
+
+    if len(columns) == 0:
+        raise ValueError("No shared columns found")
+
+    print("Merging the following files: ", input)
+    print("The following columns will be used: ", columns)
+
+    # Merge the dataframes
+    df = pd.concat([df[columns] for df in dfs], ignore_index=True)
+    df.to_csv(output, sep="\t", index=False)
 
 
 if __name__ == "__main__":

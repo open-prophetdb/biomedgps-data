@@ -691,9 +691,10 @@ if __name__ == "__main__":
 
     biomedgps_file = os.path.join("examples", "biomedgps", "biomedgps.tsv")
     edges = biomedgps2hrt(biomedgps_file)
+    edges, index_map = load_data(edges)
 
     train_dataset, validation_dataset, test_dataset = split_dataset(
-        hrt2pygdata(edges), val_ratio=0.1, test_ratio=0.2, is_undirected=False
+        edges, val_ratio=0.1, test_ratio=0.2, is_undirected=False
     )
 
     metrics = train(
