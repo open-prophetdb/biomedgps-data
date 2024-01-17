@@ -18,17 +18,17 @@ parameters:
     values:
       - "/data/biomedgps-data/wandb/models"
     distribution: categorical
-  # wandb_entity:
-  #   values:
-  #     - "yjcyxky"
-  #   distribution: categorical
-  # wandb_project:
-  #   values:
-  #     - "biomedgps-kge-auto"
-  #   distribution: categorical
+  wandb_entity:
+    values:
+      - "yjcyxky"
+    distribution: categorical
+  wandb_project:
+    values:
+      - "biomedgps-kge-auto"
+    distribution: categorical
   enable_embedding:
     values:
-      - True
+      - False
     distribution: categorical
   # If you enable embedding, please ensure that the related embedding files are in the data_path/${dataset}. These embedding files must match with the hidden_dim. such as entities_embeddings_400.tsv, relation_types_embeddings_400.tsv
   hidden_dim:

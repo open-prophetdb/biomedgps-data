@@ -53,7 +53,43 @@ pip install git+https://github.com/yjcyxky/dgl-ke.git#subdirectory=python && pip
 
 Please refer to [graph_data](../graph_data/README.md) for more details about the data format. If you want to use initial embeddings, please refer to [embeddings](../embeddings/README.md) for generating initial embeddings.
 
-You can also refer to [datasets](../datasets/README.md) and [prepare_data.ipynb](../datasets/prepare_data.ipynb) for preparing training datasets.
+You can use the following commands to prepare the training/validation/test datasets.
+
+- Convert all data files into the hrt format, such as `formatted_drkg.tsv` to `formatted_drkg_hrt.tsv`
+
+    ```bash
+    python lib/data.py hrt --input formatted_drkg.tsv --output formatted_drkg_hrt.tsv
+
+    python lib/data.py hrt --input unformatted_drkg.tsv --output unformatted_drkg_hrt.tsv
+
+    ...
+    ```
+
+- Split `formatted_drkg_hrt.tsv` into train/test files, such as `train_hrt.tsv` and `test_hrt.tsv`
+
+    ```bash
+    python lib/data.py split --input formatted_drkg_hrt.tsv --output-1 train_hrt.tsv --output-2 test_hrt.tsv --ratio 0.95
+    ```
+
+- Merge `train_hrt.tsv` and other formatted & unformatted files into `train_hrt.tsv`
+
+    ```bash
+    python lib/data.py merge --input train_hrt.tsv --input unformatted_drkg_hrt.tsv --input formatted_ctd_hrt.tsv --input formatted_hsdn_hrt.tsv --input formatted_custom_hrt.tsv --output train_hrt.tsv
+    ```
+
+- Split `train_hrt.tsv` into `train.tsv` and `valid.tsv`
+
+    ```bash
+    python lib/data.py split --input train_hrt.tsv --output-1 train.tsv --output-2 valid.tsv --ratio 0.95
+    ```
+
+- Copy the `test_hrt.tsv` to `test.tsv`
+
+    ```bash
+    cp test_hrt.tsv test.tsv
+    ```
+
+Or You can also refer to [datasets](../datasets/README.md) and [prepare_data.ipynb](../datasets/prepare_data.ipynb) for preparing training datasets.
 
 ### Train/Valid/Test File
 
@@ -78,8 +114,8 @@ biomedgps-data
   |    |-- test.tsv               # Training set, each line contains a triplet [h, r, t]
   |    |-- valid.tsv              # Validation set, each line contains a triplet [h, r, t]
   |    |-- train.tsv              # Test set, each line contains a triplet [h, r, t]
-  |    |-- raw_relations.tsv      # Format is mentioned above
-  |    |-- raw_relations_hrt.tsv  # Each file contains a list of triplets which are represented by [head_entity_id, relation_id, tail_entity_id]
+  |    |-- raw_relations.tsv      # [Optional] Format is mentioned above
+  |    |-- raw_relations_hrt.tsv  # [Optional] Each file contains a list of triplets which are represented by [head_entity_id, relation_id, tail_entity_id]
   |-- models
   |    |-- <model_name>
   |    |    |-- config.json
@@ -116,12 +152,15 @@ Create a project at https://wandb.ai/ and replace <project_name> with your proje
 
 ### Step 3: Register a sweep
 
-Before you register a sweep, you need to change the arguments in wandb_sweep.yaml. You can find the arguments in train.sh. You can also add more arguments in wandb_sweep.yaml and train.sh. More details on the arguments can be found in the [Arguments](#Arguments) section.
+Before you register a sweep, you need to change the arguments in wandb_sweep.yaml. You can find the arguments in train.sh. You can also add more arguments in wandb_sweep_kge.yaml and train.sh. More details on the arguments can be found in the [Arguments](#Arguments) section.
 
 ```bash
-# Write a sweep config file and a script to run, such as train.sh and wandb_sweep.yaml
+# Write a sweep config file and a script to run, such as train.sh and wandb_sweep_kge.yaml
 # Run sweep
-wandb sweep --project <project_name> wandb_sweep.yaml
+wandb sweep --project <project_name> wandb_sweep_kge.yaml
+
+# NOTE: The sweep_id is printed when you run wandb sweep
+# WARNING: The wandb.init() in your script will be ignored when running a sweep.
 ```
 
 ### Step 4: Run sweep agent
@@ -129,14 +168,11 @@ wandb sweep --project <project_name> wandb_sweep.yaml
 ```bash
 # Run sweep agent
 wandb agent <project_name> <sweep_id>
-
-# NOTE: The sweep_id is printed when you run wandb sweep
-# wandb.init() will be ignored when running a sweep.
 ```
 
 ## Evaluate the model
 
-You can login to your wandb account and find the evaluation results in the project you created. You can also find the evaluation results in the log file. The log file is located at the directory you specified in the save_path argument. The log file is named in format of <dataset_name>_<model_name>.log. The evaluation results are printed in the log file in the following format:
+You can login to your wandb account and find the evaluation results in the project you created. You can also find the evaluation results in the log file. The log file is located at the directory you specified in the save_path argument. The log file is named in format of <dataset_name>_<model_name>.log.
 
 ## Predict and Visualize
 
@@ -158,13 +194,13 @@ Please see the arguments in wandb_sweep_kge.yaml and train.sh. The arguments are
 
 - wandb_entity: The entity name in wandb. If you want to use wandb to visualize the embeddings, please set it to the entity name in wandb.
 
-- model_name: {TransE, TransE_l1, TransE_l2, TransR, RESCAL, DistMult, ComplEx, RotatE} The models provided by DGL-KE.
+- model_name: {TransE, TransE_l1, TransE_l2, TransR, RESCAL, DistMult, ComplEx, RotatE}. The models provided by DGL-KE.
 
 - data_path: DATA_PATH The path of the directory where DGL-KE loads knowledge graph data.
 
 - dataset: DATA_SET The name of the knowledge graph stored under data_path. If it is one of the builtin knowledge grpahs such as FB15k, FB15k-237, wn18, wn18rr, and Freebase, DGL-KE will automatically download the knowledge graph and keep it under data_path.
 
-- format: FORMAT The format of the dataset. For builtin knowledge graphs, the format is determined automatically. For users own knowledge graphs, it needs to be raw_udd_{htr} or udd_{htr}. raw_udd_ indicates that the user’s data use raw ID for entities and relations and udd_ indicates that the user’s data uses KGE ID. {htr} indicates the location of the head entity, tail entity and relation in a triplet. For example, htr means the head entity is the first element in the triplet, the tail entity is the second element and the relation is the last element.
+- format: FORMAT The format of the dataset. For builtin knowledge graphs, the format is determined automatically. For users own knowledge graphs, it needs to be raw_udd_{htr} or udd_{htr}. raw_udd_ indicates that the user's data use raw ID for entities and relations and udd_ indicates that the user’s data uses KGE ID. {htr} indicates the location of the head entity, tail entity and relation in a triplet. For example, htr means the head entity is the first element in the triplet, the tail entity is the second element and the relation is the last element.
 
 - data_files: [DATA_FILES ...] A list of data file names. This is required for training KGE on their own datasets. If the format is raw_udd_{htr}, users need to provide train_file [valid_file] [test_file]. If the format is udd_{htr}, users need to provide entity_file relation_file train_file [valid_file] [test_file]. In both cases, valid_file and test_file are optional.
 

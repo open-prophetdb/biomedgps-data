@@ -4,7 +4,6 @@
 
 Embeddings from BioBert model have 768 dimensions.
 
-
 ### RoBERTa (RoBERTa-large-PM-M3-Voc)
 
 Embeddings from RoBERTa model have 1024 dimensions.
