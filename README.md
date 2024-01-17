@@ -18,10 +18,9 @@ A repo for building a knowledge graph and training knowledge graph embedding mod
     - [Extract relations from a set of databases](#extract-relations-from-a-set-of-databases)
     - [Merge relations into one file](#merge-relations-into-one-file)
 - [GNN/KGE Models](#gnn-models)
-  - [Generate initial embeddings for entities and relations](#embedding-generate-initial-embeddings-for-entities-and-relations)
-  - [Train gnn models](#traning-train-knowledge-graph-embedding-models)
-  - [Evaluate gnn models](#prediction-evaluate-knowledge-graph-embedding-models)
-  - [Benchmark gnn models](#benchmark-knowledge-graph-embedding-models)
+  - [Train KGE models](#traning-train-knowledge-graph-embedding-models)
+  - [Evaluate KGE models](#prediction-evaluate-knowledge-graph-embedding-models)
+  - [Benchmark KGE models](#benchmark-knowledge-graph-embedding-models)
 - [Downstream Analysis](#analysis)
   - [Analyze the knowledge graph](#analyze-the-knowledge-graph)
   - [Analyze the knowledge graph embedding models](#analyze-the-knowledge-graph-embedding-models)
@@ -256,10 +255,6 @@ python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -
 ```
 
 ## GNN Models in Production
-
-### [Embedding] Generate initial embeddings for entities and relations
-
-More details can be found in the [embeddings](./embeddings) directory.
 
 ### [Traning] Train knowledge graph embedding models
 
