@@ -1,7 +1,12 @@
 # BioMedGPS Data
 
-A repo for building a knowledge graph and training knowledge graph embedding models for drug repurposing.
+A repo for building a knowledge graph and training knowledge graph embedding models for drug repurposing and disease mechanism research.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+  - [Key Steps in the Project](#key-steps-in-the-project)
+  - [Related Papers](#related-papers)
 - [Knowledge Graph](#knowledge-graph)
   - [Entities](#entities)
     - [Download the database by following the instructions in each folder in the data directory](#download-the-database-by-following-the-instructions-in-each-folder-in-the-data-directory)
@@ -12,8 +17,7 @@ A repo for building a knowledge graph and training knowledge graph embedding mod
   - [Relations](#relations)
     - [Extract relations from a set of databases](#extract-relations-from-a-set-of-databases)
     - [Merge relations into one file](#merge-relations-into-one-file)
-- [GNN/KGE Models for Exercise](#gnnkge-models-for-exercise)
-- [GNN/KGE Models in Production](#gnn-models)
+- [GNN/KGE Models](#gnn-models)
   - [Generate initial embeddings for entities and relations](#embedding-generate-initial-embeddings-for-entities-and-relations)
   - [Train gnn models](#traning-train-knowledge-graph-embedding-models)
   - [Evaluate gnn models](#prediction-evaluate-knowledge-graph-embedding-models)
@@ -23,6 +27,52 @@ A repo for building a knowledge graph and training knowledge graph embedding mod
   - [Analyze the knowledge graph embedding models](#analyze-the-knowledge-graph-embedding-models)
   - [Link Prediction](#link-prediction)
   - [Explain the prediction results](#explain-the-prediction-results)
+
+## Introduction
+
+### Key Steps in the Project
+
+- Build a knowledge graph
+
+  A knowledge graph is a graph-structured database that contains entities and relations. The entities are the nodes in the graph and the relations are the edges in the graph. The knowledge graph can be used to represent the biomedical knowledge and the relations between entities. A biomedical knowledge graph can be used for drug repurposing and disease mechanism research. Such as:
+
+  ![Knowledge Graph](./assets/knowledge_graph.png)
+
+  <p style="text-align: center;"><i>From Nicholson et al. CSBJ 2020.</i></p>
+  
+  The knowledge graph can be used to train knowledge graph embedding models.
+
+  ![Model](./assets/gnn_model.png)
+
+  <p style="text-align: center;"><i>From Nicholson et al. CSBJ 2020.</i></p>
+  
+  But before that, we need to do some preprocessing to build a knowledge graph. Such as `Entity Alignment`, `Entity Disambiguation`. The following figure shows the key steps in the project.
+
+  ![Key Steps](./assets/key_steps.png)
+
+  <p style="text-align: center;"><i>Unknown Source [TBD]</i></p>
+
+- Analyze the knowledge graph
+
+- Train & Evaluate KGE models
+
+- Benchmark KGE models
+
+- Analyze the KGE models
+
+- Link Prediction
+
+- Explain the prediction results
+
+### Related Papers
+
+Before you start, I recommend you to read the following papers:
+
+- Barabási, A.-L., Gulbahce, N. & Loscalzo, J. Network medicine: a network-based approach to human disease. Nat. Rev. Genet. 12, 56–68 (2011).
+
+- Nicholson, David N., and Casey S. Greene. "Constructing knowledge graphs and their biomedical applications." Computational and structural biotechnology journal 18 (2020): 1414-1428.
+
+- Ioannidis, Vassilis N. and Song, Xiang and Manchanda, Saurav and Li, Mufei and Pan, Xiaoqin and Zheng, Da and Ning, Xia and Zeng, Xiangxiang and Karypis, George. DRKG - Drug Repurposing Knowledge Graph for Covid-19. https://github.com/gnn4dr/DRKG/blob/master/DRKG%20Drug%20Repurposing%20Knowledge%20Graph.pdf
 
 ## Knowledge Graph
 
@@ -204,10 +254,6 @@ graph-builder --database ctd --database drkg --database primekg --database hsdn 
 
 python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
 ```
-
-## GNN/KGE Models for Exercise
-
-You can follow the instructions in the [notebooks](./examples/README.md) to train a KGE model for exercises. If you want to train a KGE model for your own datasets in production, you can refer to the [README](./wandb/README.md) in the `wandb` folder.
 
 ## GNN Models in Production
 

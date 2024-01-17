@@ -2,6 +2,16 @@
 
 This folder contains examples of how to train a KGE model using the `dgl-ke` or `PyG` package. You can see the following examples:
 
-- [kge_dgl-ke](./notebooks/kge_dgl-ke.ipynb): train a KGE model using the `dgl-ke` package.
+- Train a KGE model using the `dgl-ke` package.
 
-- [kge_pyg](./notebooks/kge_pyg.ipynb): train a KGE model using the `PyG` package.
+    - [Example 1](./notebooks/kge_dgl-ke_example1.ipynb)
+
+    - [Example 2](./notebooks/kge_dgl-ke_example2.ipynb)
+
+- Train a KGE model using the `PyG` package.
+
+    - [Example 1](./notebooks/kge_pyg_example1.ipynb)
+
+    - [Example 2](./notebooks/kge_pyg_example2.py)
+
+If you want to train a KGE model for your own datasets in production, you can refer to the [README](./wandb/README.md) in the `wandb` folder.
