@@ -114,6 +114,12 @@ This step will map the entities to a default ontology and format the entities wi
 
 After formatted, all the entities will be saved in the formatted_entities folder. All the entities with the same type will be mapped to a default ontology which is defined in the `onto-match` package. Each entity type will have a entity file and a pickle file in the formatted_entities folder. The pickle file is the ontology mapping result. If you want to know why your ids is not mapped successfully, you can check the pickle file.
 
+> NOTE: The format strategy is defined in the [`onto-match`](https://github.com/yjcyxky/ontology-matcher) package. If you want to change the format strategy, you can modify the `onto-match` package. The basic rules are as follows:
+> 
+> - We select a default ontology for each entity type. For example, we select the MONDO ID for disease, the ENTREZ ID for gene, the DrugBank ID for compound, the HMDB ID for metabolite, the KEGG ID for pathway, the UMLS ID for side-effect, the SYMP ID for symptom, the UMLS ID for anatomy, the GO ID for cellular_component, the GO ID for biological_process, the GO ID for molecular_function, the UMLS ID for pharmacologic_class.
+>
+> - We will use the `onto-match` package to map the ids to the default ontology. If the mapping result is not successful, we will use the original id as the ontology id.
+
 ```bash
 # Format and filter entities by online ontology service
 
