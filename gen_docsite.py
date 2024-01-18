@@ -44,13 +44,12 @@ def is_doc(filepath):
 
     for path in paths:
         if filepath.endswith(path):
-            return path
+            return True
 
-    return ""
+    return False
 
 
 def normalize_path(filepath):
-    path = is_doc(filepath)
     relative_path = os.path.relpath(filepath, os.getcwd())
     url_path = path_name_map.get(relative_path)
     if url_path:
