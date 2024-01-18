@@ -1,0 +1,67 @@
+site_name: BioMedGPS Data
+site_description: "A repo for building a knowledge graph and training knowledge graph embedding models for drug repurposing and disease mechanism research."
+site_author: "Jingcheng Yang"
+docs_dir: docs/
+repo_name: "BioMedGPS Data"
+repo_url: "https://github.com/open-prophetdb/biomedgps-data"
+markdown_extensions:
+  - meta
+  - abbr
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - footnotes
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+plugins:
+  - search
+  - git-revision-date
+extra_css:
+  - assets/stylesheets/extra.css
+copyright: Copyright &copy; 2016 - 2024 OpenProphetDB
+theme:
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - search.share
+  logo: assets/images/logo.png
+  icon:
+    repo: fontawesome/brands/github
+  favicon: assets/images/logo.png
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-outline
+        name: Switch to dark mode
+      primary: blue
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  name: "material"
+
+# Table of contents
+nav:
+  - Home: index.md
+  - Quick Start: quick_start.md
+  - Knowledge Graph: 
+    - Introduction: graph_data_index.md
+    - Build Knowledge Graph: graph_data_kg.md
+  - Build Training Dataset: datasets_index.md
+  - Graph Analysis: graph_analysis_index.md
+  - Train KGE Model:
+    - Training: examples_index.md
+    - Embedding Analysis: embedding_analysis_index.md
+    - Benchmark: benchmark_index.md
+  - Prediction: prediction_index.md

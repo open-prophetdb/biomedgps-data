@@ -14,4 +14,4 @@ This folder contains examples of how to train a KGE model using the `dgl-ke` or 
 
     - [Example 2](./notebooks/kge_pyg_example2.py)
 
-If you want to train a KGE model for your own datasets in production, you can refer to the [README](./wandb/README.md) in the `wandb` folder.
+If you want to train a KGE model for your own datasets in production, you can refer to the [README](../wandb/README.md) in the `wandb` folder.
