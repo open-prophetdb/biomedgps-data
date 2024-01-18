@@ -13,7 +13,7 @@ A repo for building a knowledge graph and training knowledge graph embedding mod
 
 If you want to use the pre-built knowledge graph and the pre-trained knowledge graph embedding models, you can skip the following steps and access [our online service](https://drugs.3steps.cn/).
 
-If you only want to use and analyze the pre-built knowledge graph, you can follow the instructions in the [README.md](https://github.com/open-prophetdb/biomedgps-data/blob/main/graph_data/README.md) file to download the pre-built knowledge graph. After that, you can see the [graph_analysis](https://github.com/open-prophetdb/biomedgps-data/blob/main/graph_analysis) directory to analyze the knowledge graph.
+If you only want to use and analyze the pre-built knowledge graph, you can follow the instructions in the [README.md](https://open-prophetdb.github.io/biomedgps-data/graph_data_index) file to download the pre-built knowledge graph. After that, you can see the [graph_analysis](https://github.com/open-prophetdb/biomedgps-data/blob/main/graph_analysis) directory to analyze the knowledge graph.
 
 If you are interested in how the training scripts work, you can see the [examples](https://github.com/open-prophetdb/biomedgps-data/blob/main/examples/notebooks) directory.
 
@@ -120,7 +120,7 @@ python run_markdown.py ./graph_data/KG_README.md --run-all
 python run_markdown.py ./graph_data/KG_README.md
 ```
 
-If you want to build a knowledge graph for BioMedGPS project step by step by yourself, you can follow the instructions in the [KG_README.md](https://github.com/open-prophetdb/biomedgps-data/blob/main/graph_data/KG_README.md) file.
+If you want to build a knowledge graph for BioMedGPS project step by step by yourself, you can follow the instructions in the [KG_README.md](https://open-prophetdb.github.io/biomedgps-data/graph_data_kg) file.
 
 ## GNN Models in Production
 

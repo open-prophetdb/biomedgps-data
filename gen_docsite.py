@@ -1,6 +1,8 @@
 import os
 import re
 
+docsite_url = "https://open-prophetdb.github.io/biomedgps-data/"
+domain = "https://github.com/open-prophetdb/biomedgps-data/blob/main"
 path_name_map = {
     "README.md": "index.md",
     "graph_data/README.md": "graph_data_index.md",
@@ -37,6 +39,28 @@ def is_valid(filepath):
     )
 
 
+def is_doc(filepath):
+    paths = path_name_map.keys()
+
+    for path in paths:
+        if filepath.endswith(path):
+            return path
+
+    return ""
+
+
+def normalize_path(filepath):
+    path = is_doc(filepath)
+    relative_path = os.path.relpath(filepath, os.getcwd())
+    url_path = path_name_map.get(relative_path)
+    if url_path:
+        return os.path.join(
+            docsite_url, url_path.replace(".md", "")
+        )
+    else:
+        return filepath
+
+
 # Copy files and rename
 def copy_files():
     if os.path.exists("docs"):
@@ -50,8 +74,6 @@ def copy_files():
             continue
 
         destpath = os.path.join("docs", name)
-
-        domain = "https://github.com/open-prophetdb/biomedgps-data/blob/main"
 
         # Replace all relative links to absolute links in the markdown file
         with open(path, "r") as f:
@@ -70,8 +92,8 @@ def copy_files():
 
                 urls = [
                     filepath.replace(os.getcwd(), domain)
-                    if is_valid(filepath)
-                    else filepath
+                    if is_valid(filepath) and not is_doc(filepath)
+                    else normalize_path(filepath)
                     for filepath in fixed_filepaths
                 ]
                 zipped = list(zip(filepaths, fixed_filepaths, urls))

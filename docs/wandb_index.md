@@ -26,9 +26,9 @@ pip install git+https://github.com/yjcyxky/dgl-ke.git#subdirectory=python && pip
 
 ## Prepare Data
 
-Please refer to [graph_data](https://github.com/open-prophetdb/biomedgps-data/blob/main/graph_data/README.md) for more details about the data format. 
+Please refer to [graph_data](https://open-prophetdb.github.io/biomedgps-data/graph_data_index) for more details about the data format. 
 
-> **[Additional]** If you want to use initial embeddings to improve the performance of the model, please refer to [embeddings](https://github.com/open-prophetdb/biomedgps-data/blob/main/embeddings/README.md) for generating initial embeddings.
+> **[Additional]** If you want to use initial embeddings to improve the performance of the model, please refer to [embeddings](https://open-prophetdb.github.io/biomedgps-data/embeddings_index) for generating initial embeddings.
 
 You can use the following commands to prepare the training/validation/test datasets.
 
@@ -66,7 +66,7 @@ You can use the following commands to prepare the training/validation/test datas
     cp test_hrt.tsv test.tsv
     ```
 
-Or You can also refer to [datasets](https://github.com/open-prophetdb/biomedgps-data/blob/main/datasets/README.md) and [prepare_data.ipynb](https://github.com/open-prophetdb/biomedgps-data/blob/main/datasets/prepare_data.ipynb) for preparing training datasets.
+Or You can also refer to [datasets](https://open-prophetdb.github.io/biomedgps-data/datasets_index) and [prepare_data.ipynb](https://github.com/open-prophetdb/biomedgps-data/blob/main/datasets/prepare_data.ipynb) for preparing training datasets.
 
 ### Train/Valid/Test File
 
@@ -109,7 +109,7 @@ biomedgps-data
 
 ### Understand your data
 
-If you want to know more about your graph data, please refer to [graph_analysis](https://github.com/open-prophetdb/biomedgps-data/blob/main/graph_analysis/README.md) for more details.
+If you want to know more about your graph data, please refer to [graph_analysis](https://open-prophetdb.github.io/biomedgps-data/graph_analysis_index) for more details.
 
 ## Training
 
@@ -153,9 +153,9 @@ You can login to your wandb account and find the evaluation results in the proje
 
 ## Predict and Visualize
 
-You can use the trained embeddings to predict the probability of a triplet. Please refer to [predict](https://github.com/open-prophetdb/biomedgps-data/blob/main/prediction/README.md) for more details.
+You can use the trained embeddings to predict the probability of a triplet. Please refer to [predict](https://open-prophetdb.github.io/biomedgps-data/prediction_index) for more details.
 
-You can also use the trained embeddings to visualize the embeddings. Please refer to [embedding analysis](https://github.com/open-prophetdb/biomedgps-data/blob/main/embedding_analysis/README.md) for more details.
+You can also use the trained embeddings to visualize the embeddings. Please refer to [embedding analysis](https://open-prophetdb.github.io/biomedgps-data/embedding_analysis_index) for more details.
 
 ## Explain Your Results
 
@@ -265,7 +265,7 @@ According to our experiments, the performance of the model is highly related to 
 
 #### Use initial embeddings from a pretrained large language model
 
-More details can be found in [embeddings](https://github.com/open-prophetdb/biomedgps-data/blob/main/embeddings/README.md).
+More details can be found in [embeddings](https://open-prophetdb.github.io/biomedgps-data/embeddings_index).
 
 #### Extract more attributes from the publications by using a pretrained large language model [TODO]
 
