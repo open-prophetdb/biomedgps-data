@@ -27,7 +27,7 @@ plugins:
 extra_css:
   - assets/stylesheets/extra.css
 extra:
-  homepage: https://open-prophetdb.github.io/biomedgps-data/
+  homepage: https://open-prophetdb.github.io/biomedgps-data/quick_start/
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/open-prophetdb/biomedgps-data
@@ -61,14 +61,15 @@ theme:
 
 # Table of contents
 nav:
-  - Quick Start: quick_start.md
+  - Quick Start: index.md
   - Knowledge Graph: 
     - Introduction: graph_data_index.md
     - Build Knowledge Graph: graph_data_kg.md
   - Build Training Dataset: datasets_index.md
   - Graph Analysis: graph_analysis_index.md
   - Train KGE Model:
-    - Training: examples_index.md
+    - Training: wandb_index.md
+    - Generate Initial Embedding [Optional]: embeddings_index.md
     - Embedding Analysis: embedding_analysis_index.md
     - Benchmark: benchmarks_index.md
   - Prediction: prediction_index.md

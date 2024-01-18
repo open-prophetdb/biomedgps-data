@@ -2,22 +2,22 @@ import os
 import re
 
 path_name_map = {
-    "README.md": "quick_start.md",
+    "README.md": "index.md",
     "graph_data/README.md": "graph_data_index.md",
     "graph_data/KG_README.md": "graph_data_kg.md",
+    "datasets/README.md": "datasets_index.md",
     "wandb/README.md": "wandb_index.md",
-    "prediction/README.md": "prediction_index.md",
     "graph_analysis/README.md": "graph_analysis_index.md",
     "examples/README.md": "examples_index.md",
     "embeddings/README.md": "embeddings_index.md",
     "embedding_analysis/README.md": "embedding_analysis_index.md",
-    "datasets/README.md": "datasets_index.md",
     "benchmarks/README.md": "benchmarks_index.md",
+    "prediction/README.md": "prediction_index.md",
     "FAQs.md": "faqs.md",
 }
 
 no_navigations = [
-    "quick_start.md",
+    "index.md",
     "datasets_index.md",
     "graph_analysis_index.md",
     "prediction_index.md",
@@ -39,6 +39,12 @@ def is_valid(filepath):
 
 # Copy files and rename
 def copy_files():
+    if os.path.exists("docs"):
+        # Remove all markdown files in docs
+        for file in os.listdir("docs"):
+            if file.endswith(".md"):
+                os.remove(os.path.join("docs", file))
+
     for path, name in path_name_map.items():
         if not os.path.exists(path):
             continue
