@@ -1,3 +1,8 @@
+---
+hide:
+	- navigation
+---
+
 ### Entities
 > Extract entities from a set of databases
 >

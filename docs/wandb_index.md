@@ -1,3 +1,8 @@
+---
+hide:
+	- navigation
+---
+
 # Content of Table
 
 - [Environment](#Environment)

@@ -1,3 +1,8 @@
+---
+hide:
+	- navigation
+---
+
 ## Introduction
 
 You may want to use initial embeddings from a pretrained large language model to improve the performance of the model. 

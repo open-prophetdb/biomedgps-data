@@ -1,3 +1,8 @@
+---
+hide:
+	- navigation
+---
+
 ## Analyze your relation file
 
 In this jupyter notebook, we will build a graph based on your relation file and do some analysis on it. Such as the number of nodes, the number of edges, the number of subgraphs, and so on. Based on the metrics, you can know whether your relation file is valid for training or not. If your relation file have too many subgraphs and no any subgraph is large enough (e.g. the percent of the number of nodes and edges in a subgraph is no more than 90% of the total number of nodes and edges in the graph.), you may need to consider to add more relations to your relation file.

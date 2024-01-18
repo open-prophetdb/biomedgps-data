@@ -1,3 +1,8 @@
+---
+hide:
+	- navigation
+---
+
 ## Download the Formatted Data
 
 The formatted data is available at [Google Driver](https://drive.google.com/drive/folders/1DekWFRbGCmGpLHDIZsJCsWvqBYzZ-EoI?usp=sharing)

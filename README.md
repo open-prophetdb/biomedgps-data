@@ -52,19 +52,19 @@ Please note that it is not necessary to run all the steps in the project. You ca
 
   A knowledge graph is a graph-structured database that contains entities and relations. The entities are the nodes in the graph and the relations are the edges in the graph. The knowledge graph can be used to represent the biomedical knowledge and the relations between entities. A biomedical knowledge graph can be used for drug repurposing and disease mechanism research. Such as:
 
-  ![Knowledge Graph](./assets/knowledge_graph.png)
+  ![Knowledge Graph](https://raw.githubusercontent.com/open-prophetdb/biomedgps-data/main/assets/knowledge_graph.png)
 
   <p style="text-align: center;"><i>From Nicholson et al. CSBJ 2020.</i></p>
   
   The knowledge graph can be used to train knowledge graph embedding models.
 
-  ![Model](./assets/gnn_model.png)
+  ![Model](https://raw.githubusercontent.com/open-prophetdb/biomedgps-data/main/assets/gnn_model.png)
 
   <p style="text-align: center;"><i>From Nicholson et al. CSBJ 2020.</i></p>
   
   But before that, we need to do some preprocessing to build a knowledge graph. Such as `Entity Alignment`, `Entity Disambiguation`. The following figure shows the key steps in the project.
 
-  ![Key Steps](./assets/key_steps.png)
+  ![Key Steps](https://raw.githubusercontent.com/open-prophetdb/biomedgps-data/main/assets/key_steps.png)
 
   <p style="text-align: center;"><i>Unknown Source [TBD]</i></p>
 
@@ -88,7 +88,7 @@ Before you start, I recommend you to read the following papers:
 
 - Nicholson, David N., and Casey S. Greene. "Constructing knowledge graphs and their biomedical applications." Computational and structural biotechnology journal 18 (2020): 1414-1428.
 
-- Ioannidis, Vassilis N. and Song, Xiang and Manchanda, Saurav and Li, Mufei and Pan, Xiaoqin and Zheng, Da and Ning, Xia and Zeng, Xiangxiang and Karypis, George. DRKG - Drug Repurposing Knowledge Graph for Covid-19. https://github.com/gnn4dr/DRKG/blob/master/DRKG%20Drug%20Repurposing%20Knowledge%20Graph.pdf
+- Ioannidis, Vassilis N. and Song, Xiang and Manchanda, Saurav and Li, Mufei and Pan, Xiaoqin and Zheng, Da and Ning, Xia and Zeng, Xiangxiang and Karypis, George. DRKG - Drug Repurposing Knowledge Graph for Covid-19. <a href="https://github.com/gnn4dr/DRKG/blob/master/DRKG%20Drug%20Repurposing%20Knowledge%20Graph.pdf" target="_blank">PDF</a>
 
 ## Install Dependencies
 

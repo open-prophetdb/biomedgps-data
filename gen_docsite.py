@@ -13,6 +13,7 @@ path_name_map = {
     "embedding_analysis/README.md": "embedding_analysis_index.md",
     "datasets/README.md": "datasets_index.md",
     "benchmark/README.md": "benchmark_index.md",
+    "FAQs.md": "faqs.md",
 }
 
 
@@ -66,6 +67,9 @@ def copy_files():
                     line = line.replace(filepaths[j], urls[j])
                 content[i] = line
 
+        header = """---\nhide:\n\t- navigation\n---\n\n"""
+
+        content = header + "".join(content)
         with open(destpath, "w") as f:
             f.writelines(content)
 

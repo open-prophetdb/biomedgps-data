@@ -1,3 +1,8 @@
+---
+hide:
+	- navigation
+---
+
 ## How to train a KGE model
 
 This folder contains examples of how to train a KGE model using the `dgl-ke` or `PyG` package. You can see the following examples:

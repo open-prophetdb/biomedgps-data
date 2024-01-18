@@ -72,3 +72,4 @@ nav:
     - Embedding Analysis: embedding_analysis_index.md
     - Benchmark: benchmark_index.md
   - Prediction: prediction_index.md
+  - FAQs: faqs.md
