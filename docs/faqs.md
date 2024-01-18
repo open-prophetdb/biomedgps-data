@@ -1,6 +1,6 @@
 ---
 hide:
-	- navigation
+  - navigation
 ---
 
 ## FAQs and Steps

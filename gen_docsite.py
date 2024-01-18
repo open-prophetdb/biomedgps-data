@@ -12,9 +12,17 @@ path_name_map = {
     "embeddings/README.md": "embeddings_index.md",
     "embedding_analysis/README.md": "embedding_analysis_index.md",
     "datasets/README.md": "datasets_index.md",
-    "benchmark/README.md": "benchmark_index.md",
+    "benchmarks/README.md": "benchmarks_index.md",
     "FAQs.md": "faqs.md",
 }
+
+no_navigations = [
+    "quick_start.md",
+    "datasets_index.md",
+    "graph_analysis_index.md",
+    "prediction_index.md",
+    "faqs.md",
+]
 
 
 def is_valid(filepath):
@@ -67,8 +75,10 @@ def copy_files():
                     line = line.replace(filepaths[j], urls[j])
                 content[i] = line
 
-        header = """---\nhide:\n\t- navigation\n---\n\n"""
+        header = ""
 
+        if name in no_navigations:
+            header = """---\nhide:\n  - navigation\n---\n\n"""
         content = header + "".join(content)
         with open(destpath, "w") as f:
             f.writelines(content)

@@ -70,6 +70,6 @@ nav:
   - Train KGE Model:
     - Training: examples_index.md
     - Embedding Analysis: embedding_analysis_index.md
-    - Benchmark: benchmark_index.md
+    - Benchmark: benchmarks_index.md
   - Prediction: prediction_index.md
   - FAQs: faqs.md

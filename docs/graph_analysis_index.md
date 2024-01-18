@@ -1,6 +1,6 @@
 ---
 hide:
-	- navigation
+  - navigation
 ---
 
 ## Analyze your relation file

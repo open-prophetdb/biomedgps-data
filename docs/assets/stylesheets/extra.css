@@ -55,7 +55,7 @@ iframe[style^="background"] {
 }
 
 .md-content img {
-  max-width: unset !important;
+  max-width: 100%;
 }
 
 .showcase-container {
