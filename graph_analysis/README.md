@@ -4,7 +4,7 @@ In this jupyter notebook, we will build a graph based on your relation file and 
 
 In our opinion, the number of subgraphs should be as small as possible, and the number of nodes and edges in a subgraph should be as large as possible. In this way, the model can learn more information from the graph.
 
-Please refer to the [graph_anaysis.ipynb](./graph_anaysis.ipynb) for more details.
+Please refer to the [graph_analysis.ipynb](./graph_analysis.ipynb) for more details.
 
 ## Stat & Visualize your relation file
 
