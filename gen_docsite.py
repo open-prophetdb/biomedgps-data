@@ -34,7 +34,7 @@ def copy_files():
         if not os.path.exists(path):
             continue
 
-        destpath = os.path.join("docs/tutorials", name)
+        destpath = os.path.join("docs", name)
 
         domain = "https://github.com/open-prophetdb/biomedgps-data/blob/main"
 
