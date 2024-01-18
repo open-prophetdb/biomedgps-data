@@ -25,6 +25,13 @@ plugins:
   - git-revision-date
 extra_css:
   - assets/stylesheets/extra.css
+extra:
+  homepage: https://open-prophetdb.github.io/biomedgps-data/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/open-prophetdb/biomedgps-data
+      name: BioMedGPS Data
+  generator: false
 copyright: Copyright &copy; 2016 - 2024 OpenProphetDB
 theme:
   features:
