@@ -27,7 +27,7 @@ plugins:
 extra_css:
   - assets/stylesheets/extra.css
 extra:
-  homepage: https://open-prophetdb.github.io/biomedgps-data/quick_start/
+  homepage: https://open-prophetdb.github.io/biomedgps-data/
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/open-prophetdb/biomedgps-data
@@ -60,6 +60,7 @@ theme:
   name: "material"
 
 # Table of contents
+# If you want to add more docs, just add them to the list below, update the path_name_map variable in gen_docsite.py for adding a new index for your doc file
 nav:
   - Quick Start: index.md
   - Knowledge Graph: 
