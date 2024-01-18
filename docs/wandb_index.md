@@ -1,28 +1,3 @@
-# Content of Table
-
-- [Environment](#Environment)
-- [Prepare Data](#Prepare-Data)
-  - [Train/Valid/Test File](#Train/Valid/Test-File)
-  - [Directory Structure](#Directory-Structure)
-  - [Understand your data](#Understand-your-data)
-- [Training](#Training)
-    - [Step 1: Login to wandb](#Step-1-Login-to-wandb)
-    - [Step 2: Create a project](#Step-2-Create-a-project)
-    - [Step 3: Register a sweep](#Step-3-Register-a-sweep)
-    - [Step 4: Run sweep agent](#Step-4-Run-sweep-agent)
-- [Evaluate the model](#Evaluate-the-model)
-- [Predict and Visualize](#Predict-and-Visualize)
-- [Explain Your Results](#Explain-Your-Results)
-- [Advanced Usage](#Advanced-Usage)
-  - [Arguments (Hyperparameters)](#Arguments-Hyperparameters)
-  - [Strategies for improving model performance](#Strategies-for-improving-model-performance)
-    - [Improve the data quality](#Improve-the-data-quality)
-    - [Use initial embeddings from a pretrained large language model](#Use-initial-embeddings-from-a-pretrained-large-language-model)
-    - [Extract more attributes from the publications by using a pretrained large language model [TODO]](#Extract-more-attributes-from-the-publications-by-using-a-pretrained-large-language-model-TODO)
-    - [Integrate multiomics data [TODO]](#Integrate-multiomics-data-TODO)
-    - [Integrate electronic health records (EHR) [TODO]](#Integrate-electronic-health-records-EHR-TODO)
-    - [Other strategies [TODO]](#Other-strategies-TODO)
-
 ## Environment
 
 ```bash
