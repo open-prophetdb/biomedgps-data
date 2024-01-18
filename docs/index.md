@@ -7,32 +7,6 @@ hide:
 
 A repo for building a knowledge graph and training knowledge graph embedding models for drug repurposing and disease mechanism research.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-  - [Key Steps in the Project](#key-steps-in-the-project)
-  - [Related Papers](#related-papers)
-- [Install Dependencies](#install-dependencies)
-- [Knowledge Graph](#knowledge-graph)
-  - [Entities](#entities)
-    - [Download the database by following the instructions in each folder in the data directory](#download-the-database-by-following-the-instructions-in-each-folder-in-the-data-directory)
-    - [Step1: Extract entities](#step1-extract-entities)
-    - [Step2: Merge entities](#step2-merge-entities)
-    - [Step3: Format entities](#step3-format-entities)
-    - [Step4: Merge entity files into one file](#step4-merge-entity-files-into-one-file)
-  - [Relations](#relations)
-    - [Extract relations from a set of databases](#extract-relations-from-a-set-of-databases)
-    - [Merge relations into one file](#merge-relations-into-one-file)
-- [GNN/KGE Models](#gnn-models)
-  - [Train KGE models](#traning-train-knowledge-graph-embedding-models)
-  - [Evaluate KGE models](#prediction-evaluate-knowledge-graph-embedding-models)
-  - [Benchmark KGE models](#benchmark-knowledge-graph-embedding-models)
-- [Downstream Analysis](#analysis)
-  - [Analyze the knowledge graph](#analyze-the-knowledge-graph)
-  - [Analyze the knowledge graph embedding models](#analyze-the-knowledge-graph-embedding-models)
-  - [Link Prediction](#link-prediction)
-  - [Explain the prediction results](#explain-the-prediction-results)
-
 ## Introduction
 
 ### Key Steps in the Project
