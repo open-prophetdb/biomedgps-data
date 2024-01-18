@@ -471,3 +471,76 @@ def get_subgraph(G: Graph, start_node: Tuple[str, str]) -> Graph:
         return G.subgraph(list(nx.node_connected_component(G, start_node)))
     elif type(G) == nx.MultiDiGraph or type(G) == nx.DiGraph:
         return G.subgraph(list(nx.descendants(G, start_node)))
+
+
+def make_wide_format(array, key1, key2, vkey):
+    wide_data = {}
+    for item in array:
+        formatted_key1 = snake_case(item[key1])
+        if formatted_key1 not in wide_data:
+            wide_data[formatted_key1] = {key1: item[key1]}
+        formatted_key2 = snake_case(item[key2])
+        wide_data[formatted_key1][formatted_key2] = item[vkey]
+    return list(wide_data.values())
+
+
+def transposed_array(array):
+    transposed = []
+    for i in range(len(array[0])):
+        transposed_row = [array[j][i] for j in range(len(array))]
+        transposed.append(transposed_row)
+    return transposed
+
+
+def snake_case(string):
+    return string.lower().replace(" ", "_")
+
+
+def gen_layout(title, xaxis_title, yaxis_title, showlegend):
+    return {
+        "title": title,
+        "xaxis": {"title": xaxis_title},
+        "yaxis": {"title": yaxis_title},
+        "showlegend": showlegend,
+    }
+
+
+def biomedgps2stat(
+    entities: pd.DataFrame, relations: pd.DataFrame
+) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    """Convert the biomedgps format to stat format
+
+    Args:
+        entities (pd.DataFrame): entities
+        relations (pd.DataFrame): relations
+
+    Returns:
+        Tuple[pd.DataFrame, pd.DataFrame]: entities, relations
+    """
+    node_stat = entities.groupby(["label", "resource"]).size().reset_index(name="count")
+    node_stat.rename(
+        columns={
+            "label": "entity_type",
+            "count": "entity_count",
+            "resource": "resource",
+        },
+        inplace=True,
+    )
+
+    edge_stat = (
+        relations.groupby(["relation_type", "source_type", "target_type", "resource"])
+        .size()
+        .reset_index(name="count")
+    )
+    edge_stat.rename(
+        columns={
+            "relation_type": "relation_type",
+            "source_type": "start_entity_type",
+            "target_type": "end_entity_type",
+            "count": "relation_count",
+            "resource": "resource",
+        },
+        inplace=True,
+    )
+
+    return node_stat, edge_stat
