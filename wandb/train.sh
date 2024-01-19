@@ -26,11 +26,11 @@ do
     fi
 
     if [ "$key" == "--wandb_entity" ]; then
-        ARGS+=("--wandb_entity" "$value")
+        ARGS+=("--wandb-entity" "$value")
     fi
 
     if [ "$key" == "--wandb_project" ]; then
-        ARGS+=("--wandb_project" "$value")
+        ARGS+=("--wandb-project" "$value")
     fi
 
     if [ "$key" == "--dataset" ]; then

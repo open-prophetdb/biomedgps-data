@@ -1,4 +1,5 @@
 program: train.sh
+# If you only want to run all combinations of parameters once, set method: grid.
 method: bayes
 name: biomedgps-kge
 metric:
