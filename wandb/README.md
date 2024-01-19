@@ -51,7 +51,7 @@ You can use the following commands to prepare the training/validation/test datas
 - Merge `train_hrt.tsv` and other formatted & unformatted files into `train_hrt.tsv`
 
     ```bash
-    python lib/data.py merge-files --input train_hrt.tsv --input unformatted_drkg_hrt.tsv --input formatted_ctd_hrt.tsv --input formatted_hsdn_hrt.tsv --input formatted_custom_hrt.tsv --output train_hrt.tsv
+    cat train_hrt.tsv unformatted_drkg_hrt.tsv formatted_ctd_hrt.tsv formatted_hsdn_hrt.tsv formatted_custom_hrt.tsv > train_hrt.tsv
     ```
 
 - Split `train_hrt.tsv` into `train.tsv` and `valid.tsv`
