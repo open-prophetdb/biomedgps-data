@@ -26,11 +26,11 @@ pip install git+https://github.com/yjcyxky/dgl-ke.git#subdirectory=python && pip
 
 ## Prepare Data
 
-Please refer to [graph_data](../graph_data/README.md) for more details about the data format. 
+We assume that you have the following relation files: `formatted_drkg.tsv`, `unformatted_drkg.tsv`, `formatted_ctd.tsv`, `formatted_hsdn.tsv`, `formatted_custom.tsv`. If you don't have these files, please refer to [graph_data](../graph_data/KG_README.md) for more details about how to generate these files. You also can use your own relation files, please refer to [graph_data](../graph_data/README.md) for more details about the data format. 
 
 > **[Additional]** If you want to use initial embeddings to improve the performance of the model, please refer to [embeddings](../embeddings/README.md) for generating initial embeddings.
 
-You can use the following commands to prepare the training/validation/test datasets.
+You can use the following commands to prepare the training/validation/test datasets. 
 
 - Convert all data files into the hrt format, such as `formatted_drkg.tsv` to `formatted_drkg_hrt.tsv`
 
@@ -51,7 +51,7 @@ You can use the following commands to prepare the training/validation/test datas
 - Merge `train_hrt.tsv` and other formatted & unformatted files into `train_hrt.tsv`
 
     ```bash
-    python lib/data.py merge --input train_hrt.tsv --input unformatted_drkg_hrt.tsv --input formatted_ctd_hrt.tsv --input formatted_hsdn_hrt.tsv --input formatted_custom_hrt.tsv --output train_hrt.tsv
+    python lib/data.py merge-files --input train_hrt.tsv --input unformatted_drkg_hrt.tsv --input formatted_ctd_hrt.tsv --input formatted_hsdn_hrt.tsv --input formatted_custom_hrt.tsv --output train_hrt.tsv
     ```
 
 - Split `train_hrt.tsv` into `train.tsv` and `valid.tsv`
