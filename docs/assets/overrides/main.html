@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block announce %}
+<span>
+  <strong>{{ config.announce }}</strong>:
+  {{ config.announce_text }}
+</span>
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+
+<!-- Giscus -->
+<!-- <h2 id="__comments">{{ lang.t("meta.comments") }}</h2> -->
+<script src="https://giscus.app/client.js" data-repo="open-prophetdb/biomedgps-data" data-repo-id="R_kgDOKCTlRQ"
+  data-category="Q&A" data-category-id="DIC_kwDOKCTlRc4CchfS" data-mapping="pathname" data-strict="0"
+  data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="preferred_color_scheme"
+  data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+  </script>
+<!-- Synchronize Giscus theme with palette -->
+<script>
+  var giscus = document.querySelector("script[src*=giscus]")
+
+  /* Set palette on initial load */
+  var palette = __md_get("__palette")
+  if (palette && typeof palette.color === "object") {
+    var theme = palette.color.scheme === "slate" ? "dark" : "light"
+    giscus.setAttribute("data-theme", theme)
+  }
+
+  /* Register event handlers after documented loaded */
+  document.addEventListener("DOMContentLoaded", function () {
+    var ref = document.querySelector("[data-md-component=palette]")
+    ref.addEventListener("change", function () {
+      var palette = __md_get("__palette")
+      if (palette && typeof palette.color === "object") {
+        var theme = palette.color.scheme === "slate" ? "dark" : "light"
+
+        /* Instruct Giscus to change theme */
+        var frame = document.querySelector(".giscus-frame")
+        frame.contentWindow.postMessage(
+          { giscus: { setConfig: { theme } } },
+          "https://giscus.app"
+        )
+      }
+    })
+  })
+</script>
+<script type="text/javascript"
+  src="//rf.revolvermaps.com/0/0/3.js?i=506fpu66up3&amp;b=0&amp;s=40&amp;m=2&amp;cl=ffffff&amp;co=007eff&amp;cd=ffc000&amp;v0=60&amp;v1=60&amp;r=1"
+  async="async"></script>
+{% endblock %}

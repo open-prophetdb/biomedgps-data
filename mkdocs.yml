@@ -2,6 +2,8 @@ site_name: BioMedGPS Data
 site_description: "A repo for building a knowledge graph and training knowledge graph embedding models for drug repurposing and disease mechanism research."
 site_url: https://open-prophetdb.github.io/biomedgps-data/
 site_author: "Jingcheng Yang"
+announce: "OpenProphetDB"
+announce_text: 'We are looking for partners who are highly motivated on drug repurposing to join the <a href="https://prophetdb.org">OpenProphetDB community</a>. Please contact us if you are interested.'
 docs_dir: docs/
 repo_name: "BioMedGPS Data"
 repo_url: "https://github.com/open-prophetdb/biomedgps-data"
@@ -35,6 +37,7 @@ extra:
   generator: false
 copyright: Copyright &copy; 2016 - 2024 OpenProphetDB
 theme:
+  custom_dir: docs/assets/overrides
   features:
     - navigation.instant
     - navigation.tabs

@@ -53,9 +53,7 @@ def normalize_path(filepath):
     relative_path = os.path.relpath(filepath, os.getcwd())
     url_path = path_name_map.get(relative_path)
     if url_path:
-        return os.path.join(
-            docsite_url, url_path.replace(".md", "")
-        )
+        return os.path.join(docsite_url, url_path.replace(".md", ""))
     else:
         return filepath
 
