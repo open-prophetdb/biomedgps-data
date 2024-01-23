@@ -57,6 +57,8 @@ Please note that it is not necessary to run all the following steps in the proje
   > NOTE: Be sure to activate the python environment you created and located in the root directory of this repository when running the following codes.
 
   ```
+  # Remove the following directories for a clean build
+  rm -rf ./graph_data/extracted_entities ./graph_data/formatted_entities ./graph_data/formatted_relations
   python run_markdown.py ./graph_data/KG_README.md --run-all
 
   # The run_markdown.py is a script to run the codes in a markdown file. 
