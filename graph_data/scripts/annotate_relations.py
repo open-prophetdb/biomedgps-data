@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO, format=fmt)
     "-e",
     help="Entity file path, such as entities.tsv",
     required=True,
-    type=click.Path(exists=True, file_okay=False, dir_okay=True),
+    type=click.Path(exists=True, file_okay=True, dir_okay=False),
 )
 @click.option(
     "--relation-file",

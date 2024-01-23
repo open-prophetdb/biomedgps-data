@@ -146,7 +146,7 @@ python graph_data/scripts/annotate_relations.py -e graph_data/entities.tsv -r gr
 
 ```bash
 CURRENT_DATE=$(date +%Y%m%d)
-python3 tarfiles.py biomedgps-v${CURRENT_DATE}.tar.gz
+python3 tarfiles.py graph-data biomedgps-graph-data-v${CURRENT_DATE}.tar.gz
 
 # Upload the tarball file to the google drive or other shared storage.
 ```

@@ -26,11 +26,89 @@ pip install git+https://github.com/yjcyxky/dgl-ke.git#subdirectory=python && pip
 
 ## Prepare Data
 
-We assume that you have the following relation files: `formatted_drkg.tsv`, `unformatted_drkg.tsv`, `formatted_ctd.tsv`, `formatted_hsdn.tsv`, `formatted_custom.tsv`. If you don't have these files, please refer to [graph_data](../graph_data/KG_README.md) for more details about how to generate these files. You also can use your own relation files, please refer to [graph_data](../graph_data/README.md) for more details about the data format. 
+We assume that you have the following relation files: `formatted_drkg.tsv`, `unformatted_drkg.tsv`, `formatted_ctd.tsv`, `formatted_hsdn.tsv`, `formatted_custom_all_v20240119.tsv`. If you don't have these files, please refer to [graph_data](../graph_data/KG_README.md) for more details about how to generate these files. You also can use your own relation files, please refer to [graph_data](../graph_data/README.md) for more details about the data format. 
+
+### Relation Files
+
+You can find the formatted relation files in the [formatted_relations](./formatted_relations) folder and the `graph_data/custom_relations` folder.
+
+```bash
+graph_data/formatted_relations
+    |-- drkg
+    |    |-- unformatted_drkg.tsv
+    |    |-- formatted_drkg.tsv
+    |-- hsdn
+    |    |-- formatted_hsdn.tsv
+    |-- ctd
+    |    |-- formatted_ctd.tsv
+    |-- <more databases ...>
+
+custom_relations
+    |-- formatted_custom_all_v202401  # This file is curated by the BioMedGPS community.
+    |-- formatted_custom_mecfs.tsv    # This file is curated by the BioMedGPS community for the ME/CFS disease.
+    |-- formatted_malacards_mecfs.tsv # This file is curated by the BioMedGPS community from the Malacards database for the ME/CFS disease.
+```
 
 > **[Additional]** If you want to use initial embeddings to improve the performance of the model, please refer to [embeddings](../embeddings/README.md) for generating initial embeddings.
 
-You can refer to [datasets](../datasets/README.md) for preparing a training dataset.
+### Build a Training Dataset
+
+You can use the following commands to prepare the training/validation/test datasets. 
+
+- Merge all formatted relation files into a single file, such as `relations.tsv`
+
+    ```bash
+    export DATA_DIR=wandb/biomedgps
+    mkdir -p ${DATA_DIR}
+
+    # Merge formatted relation files in the formatted_relations folder into one file
+    python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
+
+    # Or merge a set of formatted relation files into one file
+    python lib/data.py merge-files --input graph_data/formatted_relations/drkg/formatted_drkg.tsv --input graph_data/formatted_relations/ctd/formatted_ctd.tsv --input graph_data/formatted_relations/hsdn/formatted_hsdn.tsv --output graph_data/relations.tsv
+    ```
+
+- Merge your custom relation file into the `formatted_relations.tsv`
+
+    ```bash
+    python lib/data.py merge-files --input graph_data/custom_relations/formatted_custom_all_v20240119.tsv --input graph_data/relations.tsv --output ${DATA_DIR}/formatted_relations.tsv
+    ```
+
+- Convert the relations file into the hrt format, such as `formatted_relations.tsv` to `formatted_relations_hrt.tsv`
+
+    ```bash
+    python lib/data.py hrt --input ${DATA_DIR}/formatted_relations.tsv --output ${DATA_DIR}/formatted_relations_hrt.tsv
+
+    python lib/data.py hrt --input graph_data/formatted_relations/drkg/unformatted_drkg.tsv --output ${DATA_DIR}/unformatted_drkg_hrt.tsv
+    ```
+
+- Split `formatted_relations_hrt.tsv` into train/test files, such as `train_hrt.tsv` and `test_hrt.tsv`
+
+    ```bash
+    python lib/data.py split --input ${DATA_DIR}/formatted_relations_hrt.tsv --output-1 ${DATA_DIR}/train_hrt.tsv --output-2 ${DATA_DIR}/test_hrt.tsv --ratio 0.95
+    ```
+
+- Merge `train_hrt.tsv` and other formatted & unformatted files into `train_hrt.tsv`
+
+    ```bash
+    cat ${DATA_DIR}/train_hrt.tsv ${DATA_DIR}/unformatted_drkg_hrt.tsv > ${DATA_DIR}/train_hrt.tsv
+    ```
+
+- Split `train_hrt.tsv` into `train.tsv` and `valid.tsv`
+
+    ```bash
+    python lib/data.py split --input ${DATA_DIR}/train_hrt.tsv --output-1 ${DATA_DIR}/train.tsv --output-2 ${DATA_DIR}/valid.tsv --ratio 0.95
+    ```
+
+- Copy the `test_hrt.tsv` to `test.tsv`
+
+    ```bash
+    cp ${DATA_DIR}/test_hrt.tsv ${DATA_DIR}/test.tsv
+    ```
+
+### Example
+
+The [prepare_dataset.ipynb](../examples/notebooks/prepare_dataset.ipynb) is an example to prepare a training dataset for the KGE model.
 
 ### Train/Valid/Test File
 

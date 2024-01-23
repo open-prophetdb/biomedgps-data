@@ -7,7 +7,6 @@ path_name_map = {
     "README.md": "index.md",
     "graph_data/README.md": "graph_data_index.md",
     "graph_data/KG_README.md": "graph_data_kg.md",
-    "datasets/README.md": "datasets_index.md",
     "wandb/README.md": "wandb_index.md",
     "graph_analysis/README.md": "graph_analysis_index.md",
     "examples/README.md": "examples_index.md",
@@ -20,7 +19,6 @@ path_name_map = {
 
 no_navigations = [
     "index.md",
-    "datasets_index.md",
     "graph_analysis_index.md",
     "prediction_index.md",
     "faqs.md",

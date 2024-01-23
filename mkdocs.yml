@@ -69,8 +69,7 @@ nav:
   - Knowledge Graph: 
     - Introduction: graph_data_index.md
     - Build Knowledge Graph: graph_data_kg.md
-  - Build Training Dataset: datasets_index.md
-  - Graph Analysis: graph_analysis_index.md
+    - Knowledge Graph Analysis: graph_analysis_index.md
   - Train KGE Model:
     - Training: wandb_index.md
     - Generate Initial Embedding [Optional]: embeddings_index.md
