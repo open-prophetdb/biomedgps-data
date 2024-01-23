@@ -1,4 +1,24 @@
-### Dataset
+### Relation Files
+
+You can find the formatted relation files in the [formatted_relations](./formatted_relations) folder and the `datasets/custom` folder.
+
+```bash
+graph_data/formatted_relations
+    |-- drkg
+    |    |-- unformatted_drkg.tsv
+    |    |-- formatted_drkg.tsv
+    |-- hsdn
+    |    |-- formatted_hsdn.tsv
+    |-- ctd
+    |    |-- formatted_ctd.tsv
+    |-- <more databases ...>
+
+datasets
+    |-- custom
+    |    |-- formatted_custom_all_v202401  # This file is curated by the BioMedGPS community.
+```
+
+### Build a Training Dataset
 
 You can use the following commands to prepare the training/validation/test datasets. 
 
@@ -46,4 +66,4 @@ You can use the following commands to prepare the training/validation/test datas
 
 ### Example
 
-The [prepare_data.ipynb](../datasets/prepare_data.ipynb) is an example to prepare a training dataset for the KGE model.
+The [prepare_dataset.ipynb](../examples/notebooks/prepare_dataset.ipynb) is an example to prepare a training dataset for the KGE model.

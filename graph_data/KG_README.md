@@ -129,11 +129,9 @@ python graph_data/scripts/merge_entities.py to-single-file -i graph_data/formatt
 graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug
 ```
 
-#### Merge relations into one file
+#### Merge all formatted relations into one file
 
 ```bash
-# Merge relations into one file
-
 python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
 ```
 
@@ -142,4 +140,13 @@ python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -
 ```bash
 # Annotate relations, It will generate two files: graph_data/knowledge_graph.tsv and graph_data/knowledge_graph_annotated.tsv
 python graph_data/scripts/annotate_relations.py -e graph_data/entities.tsv -r graph_data/relations.tsv -o graph_data
+```
+
+### Make a tarball file
+
+```bash
+CURRENT_DATE=$(date +%Y%m%d)
+python3 tarfiles.py biomedgps-v${CURRENT_DATE}.tar.gz
+
+# Upload the tarball file to the google drive or other shared storage.
 ```
