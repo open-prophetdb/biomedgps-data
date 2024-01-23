@@ -110,6 +110,8 @@ cp graph_data/extracted_entities/merged_entities/pharmacologic_class.tsv graph_d
 
 This step will merge all the entity files into one file. If we can find a `filtered.tsv` file in the formatted_entities folder, we will use the filtered.tsv file to merge entities. Otherwise, we will use the `tsv` file to merge entities. If you want to keep a subset of entities (such as deduplicating rows with some conditions and filtering rows with specified species etc.), this is a good opportunity to do it. You can do this at the Step3 and save a `*.filtered.tsv` file in the formatted_entities folder. Finally, the merged file will be saved in the graph_data folder. This file can be the reference file for formatting relations.
 
+NOTE: If you add a new entity type, you should add a new line in the merge_entities.py file.
+
 ```bash
 # Merge formatted entity files into one file
 
@@ -133,4 +135,11 @@ graph-builder --database ctd --database drkg --database primekg --database hsdn 
 # Merge relations into one file
 
 python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
+```
+
+#### Annotate relations
+
+```bash
+# Annotate relations, It will generate two files: graph_data/knowledge_graph.tsv and graph_data/knowledge_graph_annotated.tsv
+python graph_data/scripts/annotate_relations.py -e graph_data/entities.tsv -r graph_data/relations.tsv -o graph_data
 ```

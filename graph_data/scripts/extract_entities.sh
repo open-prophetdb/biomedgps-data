@@ -2,8 +2,8 @@
 
 set -e # Exit immediately if a command exits with a non-zero status.
 
-SCRIPTS_DIR=scripts
-DATADIR=databases
+SCRIPTS_DIR=graph_data/scripts
+DATADIR=graph_data/entities
 FORMATTED_DIR=graph_data/extracted_entities
 
 OUTPUT_DIR=${FORMATTED_DIR}/raw_entities
@@ -132,7 +132,14 @@ function format_drugbank() {
     # Format the drug bank
     echo "Extracting entities from the drug bank"
     mkdir -p ${OUTPUT_DIR}/drugbank
-    python ${SCRIPTS_DIR}/csv2tsv.py -i ${DATADIR}/drugbank/drugbank_compound.csv -o ${OUTPUT_DIR}/drugbank/drugbank_compound.tsv
+    # python ${SCRIPTS_DIR}/csv2tsv.py -i ${DATADIR}/drugbank/drugbank_compound.csv -o ${OUTPUT_DIR}/drugbank/drugbank_compound.tsv
+    if [ ! -f ${DATADIR}/drugbank/drugbank_vocabulary.csv ]; then
+        echo "drugbank_vocabulary.csv does not exist, please follow the instructions in the README to download it from the drugbank website."
+        exit 1
+    else
+        echo "drugbank_vocabulary.csv already exists, skipping download"
+    fi
+    python ${DATADIR}/drugbank/format_drugbank.py -i ${DATADIR}/drugbank/drugbank_vocabulary.csv -o ${OUTPUT_DIR}/drugbank/drugbank_compound.tsv
     printf "Finished extracting entities from drug bank\n\n"
 }
 
