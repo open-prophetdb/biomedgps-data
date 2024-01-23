@@ -2,7 +2,7 @@
 
 A repo for building a knowledge graph and training knowledge graph embedding models for drug repurposing and disease mechanism research.
 
-Follow the [DocWebsite](https://open-prophetdb.github.io/biomedgps-data/) to learn more about this project.
+Follow the [DocWebsite](https://open-prophetdb.github.io/biomedgps-data/) to learn more about this project. This DocWebsite is built on all markdown files in this repository. So you can also read the markdown files in this repository to learn more about this project.
 
 ## Introduction
 
