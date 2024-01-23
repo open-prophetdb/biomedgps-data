@@ -38,19 +38,19 @@ If you want to use the pre-built knowledge graph and the pre-trained knowledge g
 
 If you only want to use and analyze the pre-built knowledge graph, you can follow the instructions in the [README.md](./graph_data/README.md) file to download the pre-built knowledge graph. After that, you can see the [graph_analysis](./graph_analysis) directory to analyze the knowledge graph.
 
-If you are interested in how the training scripts work, you can see the [examples](./examples/notebooks) directory.
+If you are interested in how the training scripts work, you can see the [examples](./examples/notebooks) directory in this repository.
 
 Please note that it is not necessary to run all the following steps in the project. You can run the steps you are interested in. But you need to make sure the dependencies among the steps. For example, if you want to train the knowledge graph embedding models, you need to build a knowledge graph or download the pre-built knowledge graph first. If you want to analyze the knowledge graph embedding models, you need to train the knowledge graph embedding models first.
 
 #### Step 1: Install dependencies
 
-  More details can be found in the [Install Dependencies](#install-dependencies) section.
+  More details can be found in the [Install Dependencies](./DEPENDENCIES.md) file.
 
 #### Step 2: Build & Analyze a knowledge graph
 
   This repository contains the codes to build a knowledge graph for BioMedGPS project. Which depends on the [ontology-matcher](https://github.com/yjcyxky/ontology-matcher) package and [graph-builder](https://github.com/yjcyxky/graph-builder) package.
 
-  If you want to run the following codes to build a knowledge graph for BioMedGPS project, you need to install all dependencies first. Please see the [Install Dependencies](#install-dependencies) section for more details.
+  If you want to run the following codes to build a knowledge graph for BioMedGPS project, you need to install all dependencies first. Please see the [Install Dependencies](./DEPENDENCIES.md) file.
 
   After that, you can run the following codes to build a knowledge graph for BioMedGPS project.
 
@@ -71,25 +71,25 @@ Please note that it is not necessary to run all the following steps in the proje
 
   If you want to build a knowledge graph for BioMedGPS project step by step by yourself, you can follow the instructions in the [KG_README.md](./graph_data/KG_README.md) file.
 
-  How to analyze the knowledge graph? More details can be found in the [graph_analysis](./graph_analysis) directory.
+  How to analyze the knowledge graph? More details can be found in the [graph_analysis](./graph_analysis) directory in this repository or see the related documentation [graph_analysis/README.md](./graph_analysis/README.md).
 
 #### Step 3: Train, Evaluate, Analyze & Benchmark KGE models
 
   - Train & evaluate knowledge graph embedding models
 
-    If you want to train the knowledge graph embedding models by yourself, you can see the [wandb](./wandb) directory.
+    If you want to train the knowledge graph embedding models by yourself, you can see the [wandb](./wandb) directory in this repository or see the related documentation [wandb/README.md](./wandb/README.md).
 
   - Benchmark knowledge graph embedding models
 
-    If you want to benchmark the knowledge graph embedding models, you can see the [benchmarks](./benchmarks) directory.
+    If you want to benchmark the knowledge graph embedding models, you can see the [benchmarks](./benchmarks) directory in this repository or see the related documentation [benchmarks/README.md](./benchmarks/README.md).
 
   - Analyze the knowledge graph embedding models
 
-    If you want to analyze the knowledge graph embedding models, you can see the [embedding_analysis](./embedding_analysis) directory.
+    If you want to analyze the knowledge graph embedding models, you can see the [embedding_analysis](./embedding_analysis) directory in this repository or see the related documentation [embedding_analysis/README.md](./embedding_analysis/README.md).
 
 #### Step 4: Link Prediction
   
-  If you want to predict the relations between entities, you can see the [prediction](./prediction) directory.
+  If you want to predict the relations between entities, you can see the [prediction](./prediction) directory in this repository or see the related documentation [prediction/README.md](./prediction/README.md).
 
 #### Step 5: Explain the prediction results
 
