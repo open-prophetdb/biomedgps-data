@@ -5,6 +5,7 @@ docsite_url = "https://open-prophetdb.github.io/biomedgps-data/"
 domain = "https://github.com/open-prophetdb/biomedgps-data/blob/main"
 path_name_map = {
     "README.md": "index.md",
+    "DEPENDENCIES.md": "installation_index.md",
     "graph_data/README.md": "graph_data_index.md",
     "graph_data/KG_README.md": "graph_data_kg.md",
     "wandb/README.md": "wandb_index.md",
@@ -19,6 +20,7 @@ path_name_map = {
 
 no_navigations = [
     "index.md",
+    "installation_index.md",
     "graph_analysis_index.md",
     "prediction_index.md",
     "faqs.md",

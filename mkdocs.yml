@@ -65,7 +65,8 @@ theme:
 # Table of contents
 # If you want to add more docs, just add them to the list below, update the path_name_map variable in gen_docsite.py for adding a new index for your doc file
 nav:
-  - Quick Start: index.md
+  - Introduction: index.md
+  - Installation: installation_index.md
   - Knowledge Graph: 
     - Introduction: graph_data_index.md
     - Build Knowledge Graph: graph_data_kg.md

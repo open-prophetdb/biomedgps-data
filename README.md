@@ -42,11 +42,11 @@ If you are interested in how the training scripts work, you can see the [example
 
 Please note that it is not necessary to run all the following steps in the project. You can run the steps you are interested in. But you need to make sure the dependencies among the steps. For example, if you want to train the knowledge graph embedding models, you need to build a knowledge graph or download the pre-built knowledge graph first. If you want to analyze the knowledge graph embedding models, you need to train the knowledge graph embedding models first.
 
-- Install dependencies
+#### Step 1: Install dependencies
 
   More details can be found in the [Install Dependencies](#install-dependencies) section.
 
-- Build & Analyze a knowledge graph
+#### Step 2: Build & Analyze a knowledge graph
 
   This repository contains the codes to build a knowledge graph for BioMedGPS project. Which depends on the [ontology-matcher](https://github.com/yjcyxky/ontology-matcher) package and [graph-builder](https://github.com/yjcyxky/graph-builder) package.
 
@@ -73,7 +73,7 @@ Please note that it is not necessary to run all the following steps in the proje
 
   How to analyze the knowledge graph? More details can be found in the [graph_analysis](./graph_analysis) directory.
 
-- Train, Evaluate, Analyze & Benchmark KGE models
+#### Step 3: Train, Evaluate, Analyze & Benchmark KGE models
 
   - Train & evaluate knowledge graph embedding models
 
@@ -87,40 +87,10 @@ Please note that it is not necessary to run all the following steps in the proje
 
     If you want to analyze the knowledge graph embedding models, you can see the [embedding_analysis](./embedding_analysis) directory.
 
-- Link Prediction
+#### Step 4: Link Prediction
   
   If you want to predict the relations between entities, you can see the [prediction](./prediction) directory.
 
-- Explain the prediction results
+#### Step 5: Explain the prediction results
 
   More details can be found in the [biomedgps-explainer](https://github.com/yjcyxky/biomedgps-explainer) repository.
-
-## Install Dependencies
-
-> NOTE: 
-> 1. Python >=3.10 is required.
-> 2. All scripts in the repository are dependent on the following dependencies. If you want to run the scripts/jupyter notebooks in this repository, you need to install all dependencies first. In addition, you need to specify the python kernel in the jupyter notebook to the python environment you created when running a jupyter notebook in this repository.
-
-We assume that you have download/clone this repository to your local machine. If not, please download/clone this repository to your local machine first.
-
-```bash
-# Clone the repository
-git clone https://github.com/open-prophetdb/biomedgps-data
-
-cd biomedgps-data
-```
-
-We recommend you to use [virtualenv](https://virtualenv.pypa.io/en/latest/) or [conda](https://docs.conda.io/en/latest/) to install the dependencies. If you don't have virtualenv or conda installed, you can install them by following the instructions in the official document.
-
-```
-# [Option 1] Install the dependencies with virtualenv
-virtualenv -p python3 .env
-source .env/bin/activate
-
-# [Option 2] Install the dependencies with conda
-conda create -n biomedgps-data python=3.10
-conda activate biomedgps-data
-
-# Install the dependencies
-pip install -r requirements.txt
-```
