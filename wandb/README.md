@@ -30,43 +30,7 @@ We assume that you have the following relation files: `formatted_drkg.tsv`, `unf
 
 > **[Additional]** If you want to use initial embeddings to improve the performance of the model, please refer to [embeddings](../embeddings/README.md) for generating initial embeddings.
 
-You can use the following commands to prepare the training/validation/test datasets. 
-
-- Convert all data files into the hrt format, such as `formatted_drkg.tsv` to `formatted_drkg_hrt.tsv`
-
-    ```bash
-    python lib/data.py hrt --input formatted_drkg.tsv --output formatted_drkg_hrt.tsv
-
-    python lib/data.py hrt --input unformatted_drkg.tsv --output unformatted_drkg_hrt.tsv
-
-    ...
-    ```
-
-- Split `formatted_drkg_hrt.tsv` into train/test files, such as `train_hrt.tsv` and `test_hrt.tsv`
-
-    ```bash
-    python lib/data.py split --input formatted_drkg_hrt.tsv --output-1 train_hrt.tsv --output-2 test_hrt.tsv --ratio 0.95
-    ```
-
-- Merge `train_hrt.tsv` and other formatted & unformatted files into `train_hrt.tsv`
-
-    ```bash
-    cat train_hrt.tsv unformatted_drkg_hrt.tsv formatted_ctd_hrt.tsv formatted_hsdn_hrt.tsv formatted_custom_hrt.tsv > train_hrt.tsv
-    ```
-
-- Split `train_hrt.tsv` into `train.tsv` and `valid.tsv`
-
-    ```bash
-    python lib/data.py split --input train_hrt.tsv --output-1 train.tsv --output-2 valid.tsv --ratio 0.95
-    ```
-
-- Copy the `test_hrt.tsv` to `test.tsv`
-
-    ```bash
-    cp test_hrt.tsv test.tsv
-    ```
-
-Or You can also refer to [datasets](../datasets/README.md) and [prepare_data.ipynb](../datasets/prepare_data.ipynb) for preparing training datasets.
+You can refer to [datasets](../datasets/README.md) for preparing a training dataset.
 
 ### Train/Valid/Test File
 

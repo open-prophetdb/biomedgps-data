@@ -1,0 +1,1 @@
+## Download the databases and put them in the `graph_data/relations` folder

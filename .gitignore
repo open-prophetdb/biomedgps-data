@@ -7,8 +7,6 @@
 *.sqlite
 *.pyc
 
-datasets/*
-
 .ipynb_checkpoints
 
 benchmarks/__pycache__

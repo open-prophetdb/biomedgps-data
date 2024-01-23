@@ -6,6 +6,7 @@
 /extracted_entities/*
 /formatted_entities/*
 /relations/*
+!/relations/README.md
 /formatted_relations/*
 /entities.tsv
 /relations.tsv
