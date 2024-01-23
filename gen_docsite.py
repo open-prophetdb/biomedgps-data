@@ -97,7 +97,13 @@ def copy_files():
                 if len(zipped) > 0:
                     print(f"Replace {zipped} in {path}")
                 for j in range(len(filepaths)):
-                    line = line.replace(filepaths[j], urls[j])
+                    # line = line.replace(filepaths[j], urls[j])
+                    # Replace only the perfect match
+                    line = re.sub(
+                        r"\]\({}\)".format(re.escape(filepaths[j])),
+                        "]({})".format(urls[j]),
+                        line,
+                    )
                 content[i] = line
 
         header = ""
