@@ -22,7 +22,7 @@ do
     fi
 
     if [ "$key" == "--batch_size" ]; then
-        ARGS+=("--batch_size_eval" "$value")
+        ARGS+=("--batch_size" "$value")
     fi
 
     if [ "$key" == "--wandb_entity" ]; then

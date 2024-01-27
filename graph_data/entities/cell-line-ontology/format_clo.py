@@ -46,6 +46,8 @@ def entities(input, output):
     # Add resource column
     df["resource"] = "CLO"
 
+    df["xrefs"] = df["xrefs"].apply(lambda x: x.replace("UMLS_CUI:", "UMLS:") if type(x) == str else x)
+
     outputfile = os.path.join(output, "clo_cellline.tsv")
     # Write the data frame to a tsv file
     df.to_csv(outputfile, sep="\t", index=False)

@@ -11,7 +11,9 @@ cli = click.Group()
 @click.option("--output", "-o", required=True, help="The output directory path")
 def entities(input, output):
     # Read a csv.gz file and convert it to a data frame
-    df = pd.read_csv(input, compression="gzip", header=0, sep=",", quotechar='"', low_memory=False)
+    df = pd.read_csv(
+        input, compression="gzip", header=0, sep=",", quotechar='"', low_memory=False
+    )
 
     # Select only the columns that we need
     df = df[
@@ -45,6 +47,10 @@ def entities(input, output):
 
     # Add resource column
     df["resource"] = "SymptomOntology"
+
+    df["xrefs"] = df["xrefs"].apply(
+        lambda x: x.replace("UMLS_CUI:", "UMLS:") if type(x) == str else x
+    )
 
     outputfile = os.path.join(output, "symp_symptom.tsv")
     # Write the data frame to a tsv file
