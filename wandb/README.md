@@ -26,7 +26,20 @@ pip install git+https://github.com/yjcyxky/dgl-ke.git#subdirectory=python && pip
 
 ## Prepare Data
 
-We assume that you have the following relation files: `formatted_drkg.tsv`, `unformatted_drkg.tsv`, `formatted_ctd.tsv`, `formatted_hsdn.tsv`, `formatted_custom_all_v20240119.tsv`. If you don't have these files, please refer to [graph_data](../graph_data/KG_README.md) for more details about how to generate these files. You also can use your own relation files, please refer to [graph_data](../graph_data/README.md) for more details about the data format. 
+We assume that you have a set of relation files, such as `formatted_drkg.tsv`, `unformatted_drkg.tsv`, `formatted_ctd.tsv`, `formatted_hsdn.tsv`, `formatted_custom_all_v20240119.tsv`. If you don't have these files, please refer to [graph_data](../graph_data/KG_README.md) for more details about how to generate these files. You also can use your own relation files, please refer to [graph_data](../graph_data/README.md) for more details about the data format. 
+
+After you have the relation files, you can run the [prepare_dataset.ipynb](./prepare_dataset.ipynb) notebook to prepare the training/validation/test datasets. The notebook will generate the following files:
+
+```
+<your-dir>
+  |-- <dataset_name>              # Created by `prepare_dataset.ipynb`, used to store the raw data
+  |    |-- test.tsv               # Training set, each line contains a triplet [h, r, t]
+  |    |-- valid.tsv              # Validation set, each line contains a triplet [h, r, t]
+  |    |-- train.tsv              # Test set, each line contains a triplet [h, r, t]
+  |    |-- annotated_entities.tsv # Each line contains an entity and its type
+  |    |-- knowledge_graph.tsv    # Each line contains a relation, a head entity and a tail entity etc.
+  |    |-- id_checked.tsv         # Each line contains number of intersections between train/valid/test datasets
+```
 
 ### Relation Files
 
@@ -51,65 +64,6 @@ custom_relations
 
 > **[Additional]** If you want to use initial embeddings to improve the performance of the model, please refer to [embeddings](../embeddings/README.md) for generating initial embeddings.
 
-### Build a Training Dataset
-
-You can use the following commands to prepare the training/validation/test datasets. 
-
-- Merge all formatted relation files into a single file, such as `relations.tsv`
-
-    ```bash
-    export DATA_DIR=wandb/biomedgps
-    mkdir -p ${DATA_DIR}
-
-    # Merge formatted relation files in the formatted_relations folder into one file
-    python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
-
-    # Or merge a set of formatted relation files into one file
-    python lib/data.py merge-files --input graph_data/formatted_relations/drkg/formatted_drkg.tsv --input graph_data/formatted_relations/ctd/formatted_ctd.tsv --input graph_data/formatted_relations/hsdn/formatted_hsdn.tsv --output graph_data/relations.tsv
-    ```
-
-- Merge your custom relation file into the `formatted_relations.tsv`
-
-    ```bash
-    python lib/data.py merge-files --input graph_data/custom_relations/formatted_custom_all_v20240119.tsv --input graph_data/relations.tsv --output ${DATA_DIR}/formatted_relations.tsv
-    ```
-
-- Convert the relations file into the hrt format, such as `formatted_relations.tsv` to `formatted_relations_hrt.tsv`
-
-    ```bash
-    python lib/data.py hrt --input ${DATA_DIR}/formatted_relations.tsv --output ${DATA_DIR}/formatted_relations_hrt.tsv
-
-    python lib/data.py hrt --input graph_data/formatted_relations/drkg/unformatted_drkg.tsv --output ${DATA_DIR}/unformatted_drkg_hrt.tsv
-    ```
-
-- Split `formatted_relations_hrt.tsv` into train/test files, such as `train_hrt.tsv` and `test_hrt.tsv`
-
-    ```bash
-    python lib/data.py split --input ${DATA_DIR}/formatted_relations_hrt.tsv --output-1 ${DATA_DIR}/train_hrt.tsv --output-2 ${DATA_DIR}/test_hrt.tsv --ratio 0.95
-    ```
-
-- Merge `train_hrt.tsv` and other formatted & unformatted files into `train_hrt.tsv`
-
-    ```bash
-    cat ${DATA_DIR}/train_hrt.tsv ${DATA_DIR}/unformatted_drkg_hrt.tsv > ${DATA_DIR}/train_hrt.tsv
-    ```
-
-- Split `train_hrt.tsv` into `train.tsv` and `valid.tsv`
-
-    ```bash
-    python lib/data.py split --input ${DATA_DIR}/train_hrt.tsv --output-1 ${DATA_DIR}/train.tsv --output-2 ${DATA_DIR}/valid.tsv --ratio 0.95
-    ```
-
-- Copy the `test_hrt.tsv` to `test.tsv`
-
-    ```bash
-    cp ${DATA_DIR}/test_hrt.tsv ${DATA_DIR}/test.tsv
-    ```
-
-### Example
-
-The [prepare_dataset.ipynb](../examples/notebooks/prepare_dataset.ipynb) is an example to prepare a training dataset for the KGE model.
-
 ### Train/Valid/Test File
 
 The train/valid/test file is a tab-separated file with the following format, we call it triplet file, each file contains a list of triplets which are represented by [head_entity_id, relation_id, tail_entity_id]. The format of each head_entity_id and tail_entity_id is composed of entity_type and database_id, such as `Gene::ENTREZ:1234`, `Disease::MONDO:1234`, `Compound::DRUGBANK:DB1234`.
@@ -120,32 +74,6 @@ Gene::ENTREZ:347688     DGIDB::INHIBITOR::Gene:Compound Compound::DrugBank:DB013
 Gene::ENTREZ:5914       DGIDB::OTHER::Gene:Compound     Compound::DrugBank:DB01394
 ```
 
-### Directory Structure
-
-You may need to create the following directory structure to store the data and the trained embeddings. Some files are generated by the dgl-ke package and others are created by yourself (such as the raw_relations.tsv, raw_relations_hrt.tsv, train.tsv, valid.tsv and test.tsv files). Please note the dataset_name and model_name should be replaced by your own dataset name and model name. You need to keep them same with the dataset name and model name you use in the `../wandb/wandb_sweep_kge.yaml` file.
-
-```
-<your-dir>
-  |-- <dataset_name>              # Created by yourself, used to store the raw data
-  |    |-- entities.tsv           # Generated by the dgl-ke package automatically, ID mapping of entities
-  |    |-- relations.tsv          # Generated by the dgl-ke package automatically, ID mapping of relations
-  |    |-- test.tsv               # Training set, each line contains a triplet [h, r, t]
-  |    |-- valid.tsv              # Validation set, each line contains a triplet [h, r, t]
-  |    |-- train.tsv              # Test set, each line contains a triplet [h, r, t]
-  |-- models                      # Created by yourself, used to store the trained embeddings
-  |    |-- <model_name>
-  |    |    |-- config.json
-  |    |    |-- <dataset_name>_<model>_entity.npy
-  |    |    |-- <dataset_name>_<model>_relation.npy
-```
-
-> NOTE:
-> The trained embeddings are generated by dglke_train or dglke_dist_train CMD. The trained embeddings are stored in npy format. Usually there are two files:
-> 
-> Entity embeddings Entity embeddings are stored in a file named in format of dataset_name>_<model>_entity.npy and can be loaded through numpy.load().
-> 
-> Relation embeddings Relation embeddings are stored in a file named in format of dataset_name>_<model>_relation.npy and can be loaded through numpy.load().
-
 ### Understand your data
 
 If you want to know more about your graph data, please refer to [graph_analysis](../graph_analysis/README.md) for more details.
@@ -153,6 +81,12 @@ If you want to know more about your graph data, please refer to [graph_analysis]
 ## Training
 
 The project is configured to run a sweep on the job queue and job. The sweep is configured in wandb_sweep_kge.yaml. The sweep will run a job on a set of hyperparameters. The job will run a training script, train.sh. If you want to know more about the sweep, please refer to [wandb sweep](https://docs.wandb.ai/guides/sweeps/quickstart).
+
+### Step 0: Upload/Copy the dataset
+
+Upload/copy the <your-dir>/<dataset_name> directory to the directory you specified in the wandb config file. [Recommended] You can place the <dataset_name> directory in the same directory as the train.sh file and change the data_path argument in the wandb config file to the directory where the dataset is located.
+
+> NOTE: the dataset_name should be replaced by your own dataset name. You also need to keep them same with the dataset name you use in the `../wandb/wandb_sweep_kge.yaml` file.
 
 ### Step 1: Login to wandb
 
@@ -187,6 +121,31 @@ wandb agent <project_name> <sweep_id>
 # NOTE: You can find all the hyperparameters and results in the sweep page at https://wandb.ai/.
 ```
 
+### Step 5: Check the results
+
+You can find the results in the sweep page at https://wandb.ai/. You can also find the results in the local directory you specified in the wandb config file. Finally, the directory structure should be like this:
+
+```bash
+<your-dir>
+  |-- <dataset_name>
+  |    |-- entities.tsv           # Generated by the dgl-ke package automatically, ID mapping of entities
+  |    |-- relations.tsv          # Generated by the dgl-ke package automatically, ID mapping of relations
+  |    |-- ...                    # Other files generated by the prepare_dataset.ipynb script
+  |-- models                      # Created by wandb automatically, used to store the trained embeddings
+  |    |-- <model_name>
+  |    |    |-- config.json
+  |    |    |-- <dataset_name>_<model>_entity.npy
+  |    |    |-- <dataset_name>_<model>_relation.npy
+  |-- wandb                       # Created by wandb automatically, used to store the logs
+```
+
+> NOTE:
+> THe `models/<model_name>` directory will have the following files, The trained embeddings are generated by dglke_train or dglke_dist_train CMD. The trained embeddings are stored in npy format. Usually there are two files:
+> 
+> Entity embeddings Entity embeddings are stored in a file named in format of <dataset_name>_<model>_entity.npy and can be loaded through numpy.load().
+> 
+> Relation embeddings Relation embeddings are stored in a file named in format of <dataset_name>_<model>_relation.npy and can be loaded through numpy.load().
+
 ## Evaluate the model
 
 You can login to your wandb account and find the evaluation results in the project you created. You can also find the evaluation results in the log file. The log file is located at the directory you specified in the save_path argument. The log file is named in format of <dataset_name>_<model_name>.log.
@@ -217,7 +176,7 @@ Please see the arguments in wandb_sweep_kge.yaml and train.sh. The arguments are
 
 - dataset: DATA_SET The name of the knowledge graph stored under data_path. If it is one of the builtin knowledge grpahs such as FB15k, FB15k-237, wn18, wn18rr, and Freebase, DGL-KE will automatically download the knowledge graph and keep it under data_path.
 
-- format: FORMAT The format of the dataset. For builtin knowledge graphs, the format is determined automatically. For users own knowledge graphs, it needs to be raw_udd_{htr} or udd_{htr}. raw_udd_ indicates that the user's data use raw ID for entities and relations and udd_ indicates that the user’s data uses KGE ID. {htr} indicates the location of the head entity, tail entity and relation in a triplet. For example, htr means the head entity is the first element in the triplet, the tail entity is the second element and the relation is the last element.
+- format: FORMAT The format of the dataset. For builtin knowledge graphs, the format is determined automatically. For users own knowledge graphs, it needs to be raw_udd_{htr} or udd_{htr}. raw_udd_ indicates that the user's data use raw ID for entities and relations and udd_ indicates that the user's data uses KGE ID. {htr} indicates the location of the head entity, tail entity and relation in a triplet. For example, htr means the head entity is the first element in the triplet, the tail entity is the second element and the relation is the last element.
 
 - data_files: [DATA_FILES ...] A list of data file names. This is required for training KGE on their own datasets. If the format is raw_udd_{htr}, users need to provide train_file [valid_file] [test_file]. If the format is udd_{htr}, users need to provide entity_file relation_file train_file [valid_file] [test_file]. In both cases, valid_file and test_file are optional.
 

@@ -21,6 +21,7 @@ def check_format(df: pd.DataFrame) -> bool:
         "target_id",
         "target_type",
         "relation_type",
+        "resource",
     ]
     return all(column in columns for column in expected_columns)
 
@@ -213,7 +214,7 @@ def check_ids(input: list, output: str) -> None:
     dfs = {file: pd.read_csv(file, sep=detect_separator(file)) for file in input}
     for file, df in dfs.items():
         if not check_format(df):
-            raise ValueError(f"File {file} does not have the expected format")
+            raise ValueError(f"File {file} does not have the expected format, the columns should be: source_id, source_type, relation_type, target_id, target_type, resource.")
 
     # 获取实体ID
     ids = {}
