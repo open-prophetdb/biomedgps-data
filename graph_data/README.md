@@ -47,3 +47,33 @@ raw_source_id   raw_target_id   raw_source_type raw_target_type relation_type   
 ENTREZ:2261     CHEMBL:CHEMBL100473     Gene    Compound        DGIDB::OTHER::Gene:Compound     DGIDB                   ENTREZ:2261     Gene    MESH:C113580Compound
 ENTREZ:2776     CHEMBL:CHEMBL100473     Gene    Compound        DGIDB::OTHER::Gene:Compound     DGIDB                   ENTREZ:2776     Gene    MESH:C113580Compound
 ```
+
+### Raw User Defined Knowledge Graph File
+Raw user defined knowledge graph dataset uses the Raw IDs. The knowledge graph can be stored in a single file (only providing the trainset) or in three files (trainset, validset and testset). Each file stores the triplets of the knowledge graph. The order of head, relation and tail can be arbitry, e.g. [h, r, t]. A delimiter should be used to seperate them. The recommended delimiter is \t.
+
+```
+Gene::ENTREZ:8350       Hetionet::GiG::Gene:Gene        Gene::ENTREZ:54583
+Gene::ENTREZ:1022       bioarx::HumGenHumGen:Gene:Gene  Gene::ENTREZ:890
+Gene::ENTREZ:2534       STRING::REACTION::Gene:Gene     Gene::ENTREZ:5063
+```
+
+
+### Knowledge Graph File
+
+The knowledge graph file is a tab-separated file with the following format:
+
+```
+relation_type   resource        pmids   key_sentence    source_id       source_type     target_id       target_type     source_name     target_name
+DGIDB::INHIBITOR::Gene:Compound DGIDB                   ENTREZ:4311     Gene    MESH:D015244    Compound        membrane metalloendopeptidase   Thiorphan
+DGIDB::INHIBITOR::Gene:Compound DGIDB                   ENTREZ:4311     Gene    MESH:C097292    Compound        membrane metalloendopeptidase   aladotrilat
+```
+
+### Annotated Knowledge Graph File
+
+The annotated knowledge graph file is a tab-separated file with the following format:
+
+```
+relation_type   resource        pmids   key_sentence    source_id       source_type     target_id       target_type     source_name     source_description      target_name        target_description
+DGIDB::INHIBITOR::Gene:Compound DGIDB                   ENTREZ:4311     Gene    MESH:D015244    Compound        membrane metalloendopeptidase   The protein encoded by this gene is a type II transmembrane glycoprotein and a common acute lymphocytic leukemia antigen that is an important cell surface marker in the diagnosis of human acute lymphocytic leukemia (ALL). The encoded protein is present on leukemic cells of pre-B phenotype, which represent 85% of cases of ALL. This protein is not restricted to leukemic cells, however, and is found on a variety of normal tissues. The protein is a neutral endopeptidase that cleaves peptides at the amino side of hydrophobic residues and inactivates several peptide hormones including glucagon, enkephalins, substance P, neurotensin, oxytocin, and bradykinin. [provided by RefSeq, Aug 2017].   Thiorphan       A potent inhibitor of membrane metalloendopeptidase (ENKEPHALINASE). Thiorphan potentiates morphine-induced ANALGESIA and attenuates naloxone-precipitated withdrawal symptoms.
+DGIDB::INHIBITOR::Gene:Compound DGIDB                   ENTREZ:4311     Gene    MESH:C097292    Compound        membrane metalloendopeptidase   The protein encoded by this gene is a type II transmembrane glycoprotein and a common acute lymphocytic leukemia antigen that is an important cell surface marker in the diagnosis of human acute lymphocytic leukemia (ALL). The encoded protein is present on leukemic cells of pre-B phenotype, which represent 85% of cases of ALL. This protein is not restricted to leukemic cells, however, and is found on a variety of normal tissues. The protein is a neutral endopeptidase that cleaves peptides at the amino side of hydrophobic residues and inactivates several peptide hormones including glucagon, enkephalins, substance P, neurotensin, oxytocin, and bradykinin. [provided by RefSeq, Aug 2017].   aladotrilat
+```
