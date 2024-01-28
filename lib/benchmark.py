@@ -1,7 +1,7 @@
 import inspect
 from lib.benchmark_metrics import MRR, basic_metric
 
-class benchmark:
+class Benchmark:
     def __init__(self):
         self.diseases = set()
         self.compounds = set()

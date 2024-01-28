@@ -116,7 +116,7 @@ wandb sweep --project <project_name> wandb_sweep_kge.yaml
 
 ```bash
 # Run sweep agent, you can find the sweep_id in the output of the previous command
-wandb agent <project_name> <sweep_id>
+wandb agent <wandb_account>/<project_name>/<sweep_id>
 
 # NOTE: You can find all the hyperparameters and results in the sweep page at https://wandb.ai/.
 ```

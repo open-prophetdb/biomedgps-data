@@ -135,7 +135,7 @@ def load_embeddings(
     entity_id_map_fpath: Path,
     relation_type_id_map_fpath: Path,
     output_dir: Path,
-) -> Tuple[Path, Path]:
+):
     """Load the embeddings from the given filepaths
 
     Args:
@@ -223,15 +223,53 @@ def load_embeddings(
     )
 
 
-class ModelEnum:
-    TransE_l2 = "TransE_l2"
-    TransE_l1 = "TransE_l1"
-    ComplEx = "ComplEx"
-    DistMult = "DistMult"
-    RotatE = "RotatE"
-    TransR = "TransR"
-    TransD = "TransD"
-    TransH = "TransH"
+def kge_score_fn(head, relation, tail, gamma=12.0, model: str = "TransE_l2"):
+    """KGE score function.
+
+    Args:
+        head (array): head embedding
+        relation (array): relation embedding
+        tail (array): tail embedding
+        gamma (float): gamma
+        model (str, optional): model name. Defaults to TransE_l2.
+
+    Returns:
+        float: score
+    """
+    import torch as th
+    import torch.nn.functional as fn
+
+    head = th.tensor(head)
+    rel = th.tensor(relation)
+    tail = th.tensor(tail)
+    score = head + rel - tail
+    logsigmoid = fn.logsigmoid
+
+    if model == "TransE_l1":
+        return logsigmoid(gamma - th.norm(score, p=1, dim=-1)).detach().numpy()
+    elif model == "TransE_l2":
+        return logsigmoid(gamma - th.norm(score, p=2, dim=-1)).detach().numpy()
+    elif model == "ComplEx":
+        real_head, img_head = th.chunk(head, 2, dim=-1)
+        real_tail, img_tail = th.chunk(tail, 2, dim=-1)
+        real_rel, img_rel = th.chunk(rel, 2, dim=-1)
+
+        score = (
+            (real_head.unsqueeze(1) * real_rel.unsqueeze(0)).unsqueeze(2)
+            * real_tail.unsqueeze(0).unsqueeze(0)
+            + (img_head.unsqueeze(1) * real_rel.unsqueeze(0)).unsqueeze(2)
+            * img_tail.unsqueeze(0).unsqueeze(0)
+            + (real_head.unsqueeze(1) * img_rel.unsqueeze(0)).unsqueeze(2)
+            * img_tail.unsqueeze(0).unsqueeze(0)
+            - (img_head.unsqueeze(1) * img_rel.unsqueeze(0)).unsqueeze(2)
+            * real_tail.unsqueeze(0).unsqueeze(0)
+        )
+
+        return logsigmoid(th.sum(score, dim=-1)).detach().numpy()
+    elif model == "DistMult":
+        return logsigmoid(th.sum(score, dim=-1)).detach().numpy()
+    else:
+        raise ValueError("Unknown model")
 
 
 @cli.command(
@@ -261,27 +299,30 @@ class ModelEnum:
     "--model_name",
     type=click.Choice(
         [
-            ModelEnum.TransE_l2,
-            ModelEnum.TransE_l1,
-            ModelEnum.ComplEx,
-            ModelEnum.DistMult,
-            ModelEnum.RotatE,
-            ModelEnum.TransR,
-            ModelEnum.TransD,
-            ModelEnum.TransH,
+            "TransE_l2",
+            "TransE_l1",
+            "ComplEx",
+            "DistMult",
         ],
         case_sensitive=False,
     ),
-    default=ModelEnum.TransE_l2,
+    default="TransE_l2",
     help="The model name",
+)
+@click.option(
+    "--gamma",
+    type=float,
+    default=12.0,
+    help="The gamma value for the score function",
 )
 def compute_attention_scores(
     entity_emb_fpath: Path,
     relation_type_emb_fpath: Path,
     relations_fpath: Path,
     output_dir: Path,
-    model_name: ModelEnum = ModelEnum.TransE_l2,
-) -> Path:
+    model_name: str = "TransE_l2",
+    gamma: float = 12.0,
+):
     """Compute the attention scores for the given model
 
     Args:
@@ -289,7 +330,7 @@ def compute_attention_scores(
         relation_type_emb_fpath (Path): The filepath of the relation embeddings
         relations_fpath (Path): The filepath of the relations (tsv file), which has a head-relation-tail format with three columns: source_id, relation_type, target_id.
         output_dir (Path): The output directory
-        model_name (ModelEnum, optional): The model name. Defaults to ModelEnum.TransE_l2.
+        model_name (str, optional): The model name. Defaults to TransE_l2.
 
     Returns:
         Path: The filepath of the attention scores
@@ -315,70 +356,15 @@ def compute_attention_scores(
         names=["source_id", "relation_type", "target_id"],
     )
 
-    # TransE Score
-    def transe_l2_score(h, r, t):
-        return -np.linalg.norm(h + r - t, ord=2)
-
-    def transe_l1_score(h, r, t):
-        return -np.linalg.norm(h + r - t, ord=1)
-
-    def complex_score(h, r, t):
-        return np.sum(h * r * np.conj(t), axis=-1)
-
-    def distmult_score(h, r, t):
-        return np.sum(h * r * t, axis=-1)
-
-    def rotate_score(h, r, t):
-        re_head, im_head = np.split(h, 2, axis=-1)
-        re_tail, im_tail = np.split(t, 2, axis=-1)
-        re_relation, im_relation = np.split(r, 2, axis=-1)
-        score = (
-            re_head * re_relation * re_tail
-            + re_head * im_relation * im_tail
-            + im_head * re_relation * im_tail
-            - im_head * im_relation * re_tail
-        )
-        return score
-
-    def transr_score(h, r, t):
-        h = h.reshape(-1, 1)
-        t = t.reshape(-1, 1)
-        M_r = relation_type_embeddings[r].reshape(-1, 1)
-        score = -np.linalg.norm(h + M_r - t, ord=2)
-        return score
-
-    def transd_score(h, r, t):
-        h = h.reshape(-1, 1)
-        t = t.reshape(-1, 1)
-        M_r = relation_type_embeddings[r].reshape(-1, 1)
-        score = -np.linalg.norm(h + M_r - t, ord=2)
-        return score
-
-    def transh_score(h, r, t):
-        h = h.reshape(-1, 1)
-        t = t.reshape(-1, 1)
-        M_r = relation_type_embeddings[r].reshape(-1, 1)
-        score = -np.linalg.norm(h + M_r - t, ord=2)
-        return score
-
-    model_score_func = {
-        "TransE_l2": transe_l2_score,
-        "TransE_l1": transe_l1_score,
-        "ComplEx": complex_score,
-        "DistMult": distmult_score,
-        "RotatE": rotate_score,
-        "TransR": transr_score,
-        "TransD": transd_score,
-        "TransH": transh_score,
-    }
-
     # Compute the scores for each relation with the given model
     all_scores = []
     for index, row in relations.iterrows():
-        score = model_score_func[model_name](
+        score = kge_score_fn(
             entity_embeddings[row["source_id"]],
             relation_type_embeddings[row["relation_type"]],
             entity_embeddings[row["target_id"]],
+            model=model_name,
+            gamma=gamma,
         )
         all_scores.append(
             (row["source_id"], row["target_id"], row["relation_type"], score)
@@ -482,7 +468,9 @@ def entity_embeddings(
     merged = entity_embeddings.merge(entity_metadata, left_on="id", right_on="node_id")
     print("Columns of merged:", merged.columns)
     # Get all unfound records
-    unfound_records = entity_embeddings[~entity_embeddings["id"].isin(merged["node_id"])]
+    unfound_records = entity_embeddings[
+        ~entity_embeddings["id"].isin(merged["node_id"])
+    ]
     unfound_records.rename(columns={"id": "entity_name"}, inplace=True)
 
     print("Num of unfound records:", len(unfound_records))
@@ -499,7 +487,7 @@ def entity_embeddings(
             "embedding",
         ]
     ]
-    
+
     if not ignore_unfound_records:
         merged = pd.concat([merged, unfound_records], axis=0)
 
