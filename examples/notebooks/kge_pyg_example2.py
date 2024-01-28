@@ -310,7 +310,7 @@ def train(
     test_dataset: PyGData,
     hyperparams: Dict[str, Any],
     path: str,
-) -> Dict[str, float]:
+) -> Tuple[KGEModel, Dict[str, float]]:
     """Trains a KGE model.
 
     Args:
@@ -326,7 +326,7 @@ def train(
     hyperparams["save_path"] = path
     model = KGEModel(model_name, train_dataset, test_dataset, **hyperparams)
     metrics = model.train()
-    return metrics
+    return model, metrics
 
 
 def train_with_hrt(
@@ -640,10 +640,14 @@ def biomedgps2hrt(filepath: Path) -> Tuple[List[int], List[int], List[int]]:
 
     df = pd.DataFrame()
     # Merge the source_type and source_id columns
-    df["source_id"] = relations["source_type"] + "::" + relations["source_id"].astype(str)
+    df["source_id"] = (
+        relations["source_type"] + "::" + relations["source_id"].astype(str)
+    )
 
     # Merge the target_type and target_id columns
-    df["target_id"] = relations["target_type"] + "::" + relations["target_id"].astype(str)
+    df["target_id"] = (
+        relations["target_type"] + "::" + relations["target_id"].astype(str)
+    )
 
     df["relation_type"] = relations["relation_type"]
 
@@ -672,31 +676,31 @@ if __name__ == "__main__":
         "save_path": os.path.join("examples", "FB15k-237", "TransE"),
     }
 
-    metrics = train(
+    model, metrics = train(
         model_name, train_dataset, test_dataset, hyperparams, hyperparams["save_path"]
     )
 
-    # If you use your own dataset which is a file with a tuple of (head, relation, tail) lists, you can use the following code to train a model.
-    model_name = "TransE"
+    # # If you use your own dataset which is a file with a tuple of (head, relation, tail) lists, you can use the following code to train a model.
+    # model_name = "TransE"
 
-    hyperparams = {
-        "epochs": 10,
-        "batch_size": 1000,
-        "embedding_dim": 400,
-        "learning_rate": 0.01,
-        "device": None,
-        "device_map": None,
-        "save_path": os.path.join("examples", "mytest", "TransE"),
-    }
+    # hyperparams = {
+    #     "epochs": 10,
+    #     "batch_size": 1000,
+    #     "embedding_dim": 400,
+    #     "learning_rate": 0.01,
+    #     "device": None,
+    #     "device_map": None,
+    #     "save_path": os.path.join("examples", "mytest", "TransE"),
+    # }
 
-    biomedgps_file = os.path.join("examples", "biomedgps", "biomedgps.tsv")
-    edges = biomedgps2hrt(biomedgps_file)
-    edges, index_map = load_data(edges)
+    # biomedgps_file = os.path.join("examples", "biomedgps", "biomedgps.tsv")
+    # edges = biomedgps2hrt(biomedgps_file)
+    # edges, index_map = load_data(edges)
 
-    train_dataset, validation_dataset, test_dataset = split_dataset(
-        edges, val_ratio=0.1, test_ratio=0.2, is_undirected=False
-    )
+    # train_dataset, validation_dataset, test_dataset = split_dataset(
+    #     edges, val_ratio=0.1, test_ratio=0.2, is_undirected=False
+    # )
 
-    metrics = train(
-        model_name, train_dataset, test_dataset, hyperparams, hyperparams["save_path"]
-    )
+    # model, metrics = train(
+    #     model_name, train_dataset, test_dataset, hyperparams, hyperparams["save_path"]
+    # )

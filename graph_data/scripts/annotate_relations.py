@@ -51,6 +51,12 @@ def cli(entity_file, relation_file, output_dir):
         columns={"name": "target_name", "description": "target_description"}
     )
     relations_df = relations_df.drop(columns=["id", "label"])
+    if "pmids" not in relations_df.columns:
+        relations_df["pmids"] = ""
+
+    if "key_sentence" not in relations_df.columns:
+        relations_df["key_sentence"] = ""
+
     knowledge_graph = relations_df[
         [
             "relation_type",
