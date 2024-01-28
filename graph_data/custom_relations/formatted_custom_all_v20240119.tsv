@@ -1,4 +1,4 @@
-relation_type	source_name	source_type	source_id	target_name	target_type	target_id	key_sentence	pmid
+relation_type	source_name	source_type	source_id	target_name	target_type	target_id	key_sentence	pmids
 inhibited_by	MnSOD	Gene	ENTREZ:20656	PM2.5	Compound	MESH:D052638	"PM2.5 inhibited Mn superoxide dismutase (MnSOD), Na(+)K(+)-ATPase, and Ca(2+)-ATPase activities and elevated malondialdehyde (MDA) content in rat lung mitochondria;"	25560372
 increased_by	TNF-α	Gene	ENTREZ:21926	PM	Compound	MESH:D052638	"The results found that PM mice displayed higher IL-6, TNF-α, NF-κB, and JNK expression and lower AMPK, GLUT4, and UCP-1 when compared with FA mice."	32270451
 Hetionet::DrD::Disease:Disease	long COVID	Disease	MONDO:0100233	Endometriosis	Disease	MONDO:0005133	"See Figure 1 for a summary of the female reproductive conditions we review in Long COVID, ME/CFS, POTS, and EDS."	37234076
