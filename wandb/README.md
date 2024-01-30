@@ -28,7 +28,7 @@ pip install git+https://github.com/yjcyxky/dgl-ke.git#subdirectory=python && pip
 
 We assume that you have a set of relation files, such as `formatted_drkg.tsv`, `unformatted_drkg.tsv`, `formatted_ctd.tsv`, `formatted_hsdn.tsv`, `formatted_custom_all_v20240119.tsv`. If you don't have these files, please refer to [graph_data](../graph_data/KG_README.md) for more details about how to generate these files. You also can use your own relation files, please refer to [graph_data](../graph_data/README.md) for more details about the data format. 
 
-After you have the relation files, you can run the [prepare_dataset.ipynb](./prepare_dataset.ipynb) notebook to prepare the training/validation/test datasets. The notebook will generate the following files:
+After you have the relation files, you can run the [prepare_dataset.ipynb](../graph_data/prepare_dataset.ipynb) notebook to prepare the training/validation/test datasets. The notebook will generate the following files:
 
 ```
 <your-dir>
