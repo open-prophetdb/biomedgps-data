@@ -22,8 +22,10 @@ This step will extract entities from a set of databases.
 The following script will run all the scripts in each folder in the data directory and extract entities. All the extracted entities will be saved in the graph_data/extracted_entities/raw_entities folder. Each database will have a folder in the graph_data/extracted_entities/raw_entities folder. If not, then it means that the database has not extracted entities. If you don't download the related database, you will get an error.
 
 ```bash
-# Extract entities from a set of databases
+# Clean the extracted entities folder
+rm -rf graph_data/extracted_entities
 
+# Extract entities from a set of databases
 bash graph_data/scripts/extract_entities.sh -t all
 ```
 
@@ -53,8 +55,10 @@ After formatted, all the entities will be saved in the formatted_entities folder
 > - We will use the `onto-match` package to map the ids to the default ontology. If the mapping result is not successful, we will use the original id as the ontology id.
 
 ```bash
-# Format and filter entities by online ontology service
+# Clean the formatted entities folder
+rm -rf graph_data/formatted_entities
 
+# Format and filter entities by online ontology service
 mkdir graph_data/formatted_entities
 
 # For disease
@@ -124,8 +128,10 @@ python graph_data/scripts/merge_entities.py to-single-file -i graph_data/formatt
 #### Extract relations from a set of databases
 
 ```bash
-# Extract relations from a set of databases
+# Clean the formatted relations folder
+rm -rf graph_data/formatted_relations
 
+# Extract relations from a set of databases
 graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug
 ```
 

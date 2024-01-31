@@ -3,13 +3,14 @@
 /entities/hgnc_mgi/hgnc_*
 /entities/hgnc_mgi/mgi_*
 /entities/reactome/reactome*
-/extracted_entities/*
-/formatted_entities/*
 /relations/*
 !/relations/README.md
-/formatted_relations/*
 /entities.tsv
 /relations.tsv
 /log.txt
 /knowledge_graph_annotated.tsv
 /knowledge_graph.tsv
+
+/extracted_entities
+/formatted_entities
+/formatted_relations

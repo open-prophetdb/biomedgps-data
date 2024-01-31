@@ -59,6 +59,9 @@ def format(input_file, output_file):
 
     df["id"] = "DrugBank:" + df["id"].astype(str)
 
+    # Remove the white spaces from the synonyms
+    df["synonyms"] = df["synonyms"].str.replace(" ", "")
+
     # Save the data frame as a csv file
     df.to_csv(
         output_file,
