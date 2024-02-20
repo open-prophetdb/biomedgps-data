@@ -61,6 +61,10 @@ rm -rf graph_data/formatted_entities
 # Format and filter entities by online ontology service
 mkdir graph_data/formatted_entities
 
+# Add all side effect entities to the disease entities
+# We don't treat the side effect as an entity type anymore, we treat it as a relationship type. Because the side effect is important attribute of the drug and we use the side effect to connect the drug and disease at most time. So for convenience, we add all side effect entities to the disease entities.
+python graph_data/lib/data.py merge-files --input graph_data/extracted_entities/merged_entities/side_effect.tsv --input graph_data/extracted_entities/merged_entities/disease.tsv --output graph_data/extracted_entities/merged_entities/disease.tsv
+
 # For disease
 onto-match ontology -i graph_data/extracted_entities/merged_entities/disease.tsv -o graph_data/formatted_entities/disease.tsv -O disease -s 0 -b 300
 ## Keep all duplicated rows
@@ -87,9 +91,6 @@ awk -F'\t' 'NR == 1 || !seen[$1]++' graph_data/formatted_entities/metabolite.tsv
 
 # For pathway
 cp graph_data/extracted_entities/merged_entities/pathway.tsv graph_data/formatted_entities/pathway.tsv
-
-# For side-effect
-cp graph_data/extracted_entities/merged_entities/side_effect.tsv graph_data/formatted_entities/side_effect.tsv
 
 # For symptom
 cp graph_data/extracted_entities/merged_entities/symptom.tsv graph_data/formatted_entities/symptom.tsv

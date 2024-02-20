@@ -1,8 +1,51 @@
 import click
 import os
 import pandas as pd
+import requests
+import json
 from itertools import combinations
 from typing import Tuple
+
+
+def convert_id_to_umls(id, id_type, api_key):
+    """
+    Convert a ID to UMLS ID using BioPortal's REST API.
+
+    :param id: The ID to convert.
+    :param id_type: The type of ID to convert. Must be one of MESH, SNOMEDCT, SYMP, MEDDRA.
+    :param api_key: Your BioPortal API key.
+    :return: The corresponding UMLS ID, if found.
+    """
+    base_url = "http://data.bioontology.org"
+    headers = {"Authorization": f"apikey token={api_key}"}
+
+    # More details on the API here: https://data.bioontology.org/documentation#Class
+    # You can get the related UMLS ids for SYMP from the downloaded file here: https://bioportal.bioontology.org/ontologies/SYMP?p=summary
+    if id_type not in ["MESH", "SNOMEDCT", "MEDDRA"]:
+        print(
+            f"Error: {id_type} is not a valid ID type, must be one of MESH, SNOMEDCT, MEDDRA"
+        )
+        return None
+
+    if id_type in ["MESH", "SNOMEDCT", "MEDDRA"]:
+        path = f"http%3A%2F%2Fpurl.bioontology.org%2Fontology%2F{id_type}%2F{id}"
+
+    url = f"{base_url}/ontologies/{id_type}/classes/{path}"
+    print("The URL is: ", url)
+
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        data = response.json()
+        print(json.dumps(data, indent=2))
+        mappings = data.get("cui", [])
+        if len(mappings) > 0:
+            return mappings[0]
+        else:
+            print(f"Error: No mappings found for {id}")
+            return None
+    else:
+        print(f"Error: {response.status_code}")
+        return None
 
 
 def check_format(df: pd.DataFrame) -> bool:

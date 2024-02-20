@@ -169,6 +169,7 @@ function format_meddra() {
     echo "Extracting entities from the meddra"
     mkdir -p ${OUTPUT_DIR}/meddra
     python ${SCRIPTS_DIR}/csv2tsv.py -i ${DATADIR}/meddra/meddra_side_effect.csv -o ${OUTPUT_DIR}/meddra/meddra_side_effect.tsv
+    python ${DATADIR}/meddra/format_meddra.py -i ${OUTPUT_DIR}/meddra/meddra_side_effect.tsv -o ${OUTPUT_DIR}/meddra/meddra_side_effect.tsv
     printf "Finished extracting entities from meddra\n\n"
 }
 

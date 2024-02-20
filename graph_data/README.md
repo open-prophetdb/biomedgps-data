@@ -53,7 +53,7 @@ Raw user defined knowledge graph dataset uses the Raw IDs. The knowledge graph c
 
 ```
 Gene::ENTREZ:8350       Hetionet::GiG::Gene:Gene        Gene::ENTREZ:54583
-Gene::ENTREZ:1022       bioarx::HumGenHumGen:Gene:Gene  Gene::ENTREZ:890
+Gene::ENTREZ:1022       bioarx::HumGenHumGen::Gene:Gene  Gene::ENTREZ:890
 Gene::ENTREZ:2534       STRING::REACTION::Gene:Gene     Gene::ENTREZ:5063
 ```
 
