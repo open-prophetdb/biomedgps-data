@@ -2,12 +2,46 @@ import click
 import os
 import pandas as pd
 import requests
-import json
 from itertools import combinations
 from typing import Tuple
 
+def intall_cache(cache_fpath: str, enable_threading: bool = False):
+    """Install a cache for the requests library.
 
-def convert_id_to_umls(id, id_type, api_key):
+    Args:
+        cache_fpath (str): Path to the cache file.
+        enable_threading (bool, optional): Enable threading. Defaults to False. If you are using threading, you should enable this option.
+    """
+    import requests_cache
+
+    current_dir = os.getcwd()
+    dir = os.path.dirname(cache_fpath)
+    cache_name = os.path.basename(cache_fpath)
+    os.chdir(dir)
+    cached_session = None
+    if enable_threading:
+        cached_session = requests_cache.CachedSession(cache_name)
+    else:
+        requests_cache.install_cache(
+            cache_name=cache_name,
+            backend="sqlite",
+            allowable_methods=(
+                "GET",
+                "POST",
+                "PUT",
+                "DELETE",
+                "HEAD",
+                "OPTIONS",
+                "TRACE",
+            ),
+            allowable_codes=(200, 201, 202, 203, 204, 205, 206, 207, 208, 226),
+        )
+    os.chdir(current_dir)
+
+    return cached_session
+
+
+def convert_id_to_umls(id, id_type, api_key, cached_session=None):
     """
     Convert a ID to UMLS ID using BioPortal's REST API.
 
@@ -31,20 +65,24 @@ def convert_id_to_umls(id, id_type, api_key):
         path = f"http%3A%2F%2Fpurl.bioontology.org%2Fontology%2F{id_type}%2F{id}"
 
     url = f"{base_url}/ontologies/{id_type}/classes/{path}"
-    print("The URL is: ", url)
+    # print("The URL is: ", url)
 
-    response = requests.get(url, headers=headers)
+    if cached_session:
+        response = cached_session.get(url, headers=headers)
+    else:
+        response = requests.get(url, headers=headers)
+
     if response.status_code == 200:
         data = response.json()
-        print(json.dumps(data, indent=2))
+        # print(json.dumps(data, indent=2))
         mappings = data.get("cui", [])
         if len(mappings) > 0:
             return mappings[0]
         else:
-            print(f"Error: No mappings found for {id}")
+            # print(f"Error: No mappings found for {id}")
             return None
     else:
-        print(f"Error: {response.status_code}")
+        # print(f"Error: {response.status_code}")
         return None
 
 
@@ -209,6 +247,8 @@ def merge_files(input: list, output: str) -> None:
 
     # Get the same columns for all the dataframes
     dfs = [pd.read_csv(file, sep=detect_separator(file)) for file in input]
+    # How to keep the order of the columns?
+    cols = dfs[0].columns
     common_columns = set(dfs[0].columns)
     for df in dfs[1:]:
         common_columns = common_columns.intersection(set(df.columns))
@@ -216,6 +256,9 @@ def merge_files(input: list, output: str) -> None:
     columns = list(common_columns)
     if len(columns) == 0:
         raise ValueError("No shared columns found")
+    else:
+        # Restore the order of the columns
+        columns = [col for col in cols if col in columns]
 
     print("Merging the following files: ", input)
     for idx, df in enumerate(dfs):

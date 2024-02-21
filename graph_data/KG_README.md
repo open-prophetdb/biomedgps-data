@@ -63,31 +63,24 @@ mkdir graph_data/formatted_entities
 
 # Add all side effect entities to the disease entities
 # We don't treat the side effect as an entity type anymore, we treat it as a relationship type. Because the side effect is important attribute of the drug and we use the side effect to connect the drug and disease at most time. So for convenience, we add all side effect entities to the disease entities.
-python graph_data/lib/data.py merge-files --input graph_data/extracted_entities/merged_entities/side_effect.tsv --input graph_data/extracted_entities/merged_entities/disease.tsv --output graph_data/extracted_entities/merged_entities/disease.tsv
+sed 's/\tSideEffect\t/\tDisease\t/g' graph_data/extracted_entities/merged_entities/side_effect.tsv > graph_data/extracted_entities/merged_entities/side_effect.disease.tsv
+python lib/data.py merge-files --input graph_data/extracted_entities/merged_entities/side_effect.disease.tsv --input graph_data/extracted_entities/merged_entities/disease.tsv --output graph_data/extracted_entities/merged_entities/merged_disease.tsv
 
 # For disease
-onto-match ontology -i graph_data/extracted_entities/merged_entities/disease.tsv -o graph_data/formatted_entities/disease.tsv -O disease -s 0 -b 300
-## Keep all duplicated rows
-awk -F'\t' 'NR > 1 { count[$1]++ } END { for (item in count) if (count[item] > 1) print item }' graph_data/formatted_entities/disease.tsv > graph_data/formatted_entities/disease.duplicated.tsv
-## Deduplicate rows by id.
-awk -F'\t' 'NR == 1 || !seen[$1]++' graph_data/formatted_entities/disease.tsv > graph_data/formatted_entities/disease.filtered.tsv
+onto-match ontology -i graph_data/extracted_entities/merged_entities/merged_disease.tsv -o graph_data/formatted_entities/disease.tsv -O disease -s 0 -b 300
+onto-match dedup --input-file graph_data/formatted_entities/disease.tsv --output-file graph_data/formatted_entities/disease.filtered.tsv 
 
 # For gene
 onto-match ontology -i graph_data/extracted_entities/merged_entities/gene.tsv -o graph_data/formatted_entities/gene.tsv -O gene -s 0 -b 1000 
-awk -F'\t' 'NR == 1 || ($8 == 10090 || $8 == 9606)' graph_data/formatted_entities/gene.tsv > graph_data/formatted_entities/gene.filtered.tsv
-## Deduplicate rows by id. The following processes are not necessary at most time.
-awk -F'\t' 'NR == 1 || !seen[$1]++' graph_data/formatted_entities/gene.filtered.tsv > graph_data/formatted_entities/tmp_gene.filtered.tsv
-mv graph_data/formatted_entities/tmp_gene.filtered.tsv graph_data/formatted_entities/gene.filtered.tsv
+onto-match dedup --input-file graph_data/formatted_entities/gene.tsv --output-file graph_data/formatted_entities/gene.filtered.tsv
 
 # For compound
 onto-match ontology -i graph_data/extracted_entities/merged_entities/compound.tsv -o graph_data/formatted_entities/compound.tsv -O compound -s 0 -b 500 
-## Deduplicate rows by id. The following processes are not necessary at most time.
-awk -F'\t' 'NR == 1 || !seen[$1]++' graph_data/formatted_entities/compound.tsv > graph_data/formatted_entities/compound.filtered.tsv
+onto-match dedup --input-file graph_data/formatted_entities/compound.tsv --output-file graph_data/formatted_entities/compound.filtered.tsv
 
 # For metabolite
 onto-match ontology -i graph_data/extracted_entities/merged_entities/metabolite.tsv -o graph_data/formatted_entities/metabolite.tsv -O metabolite -s 0 -b 500 
-## Deduplicate rows by id. The following processes are not necessary at most time.
-awk -F'\t' 'NR == 1 || !seen[$1]++' graph_data/formatted_entities/metabolite.tsv > graph_data/formatted_entities/metabolite.filtered.tsv
+onto-match dedup --input-file graph_data/formatted_entities/metabolite.tsv --output-file graph_data/formatted_entities/metabolite.filtered.tsv
 
 # For pathway
 cp graph_data/extracted_entities/merged_entities/pathway.tsv graph_data/formatted_entities/pathway.tsv
@@ -119,8 +112,6 @@ NOTE: If you add a new entity type, you should add a new line in the merge_entit
 
 ```bash
 # Merge formatted entity files into one file
-
-mkdir -p graph_data
 python graph_data/scripts/merge_entities.py to-single-file -i graph_data/formatted_entities -o graph_data/entities.tsv
 ```
 

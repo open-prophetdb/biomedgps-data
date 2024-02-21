@@ -1,7 +1,7 @@
 relation_type	formatted_relation_type	description	definition	resource	abbr	source_type	target_type	group
 bioarx::Coronavirus_ass_host_gene::Disease:Gene	BioMedGPS::AssociatedWith::Disease:Gene	Gene associated with a disease caused by a coronavirus	Coronavirus-associated host gene	bioarx	Coronavirus_ass_host_gene	Disease	Gene	
 bioarx::Covid2_acc_host_gene::Disease:Gene	BioMedGPS::AssociatedWith::Disease:Gene	Gene associated with a disease caused by COVID-2	COVID-2 accessory host gene	bioarx	Covid2_acc_host_gene	Disease	Gene	
-bioarx::DrugHumGen::Compound:Gene	BioMedGPS::Influencer::Gene:Gene	Compound that affects the activity of a human gene	Drug affects human gene	bioarx	DrugHumGen	Compound	Gene	
+bioarx::DrugHumGen::Compound:Gene	BioMedGPS::Modulator::Compound:Gene	Compound that affects the activity of a human gene	Drug affects human gene	bioarx	DrugHumGen	Compound	Gene	
 bioarx::DrugVirGen::Compound:Gene	BioMedGPS::Modulator::Compound:Gene	Compound that affects the activity of a viral gene	Drug affects viral gene	bioarx	DrugVirGen	Compound	Gene	
 bioarx::HumGenHumGen::Gene:Gene	BioMedGPS::Interaction::Gene:Gene	Interaction between two human genes	Human gene interaction with human gene	bioarx	HumGenHumGen	Gene	Gene	
 bioarx::VirGenHumGen::Gene:Gene	BioMedGPS::VirGeneHumGene::Gene:Gene	Interaction between a viral gene and a human gene	Viral gene interaction with human gene	bioarx	VirGenHumGen	Gene	Gene	
@@ -28,7 +28,7 @@ GNBR::A+::Compound:Gene	BioMedGPS::Agonist::Compound:Gene	Activation of a compou
 GNBR::A-::Compound:Gene	BioMedGPS::Inhibitor::Compound:Gene	Inhibition of the gene by a compound	"(A-) antagonism, blocking"	GNBR	A-	Compound	Gene	
 GNBR::B::Compound:Gene	BioMedGPS::Binder::Compound:Gene	Binding of a compound to a gene (especially receptors)	"(B) binding, ligand (esp. receptors)"	GNBR	B	Compound	Gene	
 GNBR::B::Gene:Gene	BioMedGPS::Binder::Gene:Gene	Binding of one gene to another gene (especially receptors)	"(B) binding, ligand (esp. receptors)"	GNBR	B	Gene	Gene	
-GNBR::C::Compound:Disease	BioMedGPS::Inhibitor::Compound:Gene	Inhibition of cell growth (especially in cancers) by a compound	(C) inhibits cell growth (esp. cancers)	GNBR	C	Compound	Disease	
+GNBR::C::Compound:Disease	BioMedGPS::Treatment::Compound:Disease	Inhibition of cell growth (especially in cancers) by a compound	(C) inhibits cell growth (esp. cancers)	GNBR	C	Compound	Disease	
 GNBR::D::Gene:Disease	BioMedGPS::Target::Gene:Disease	The gene is a target for drugs in the context of a disease	(D) drug targets	GNBR	D	Gene	Disease	
 GNBR::E+::Compound:Gene	BioMedGPS::E+::Compound:Gene	Compound increases the expression or production of the gene	(E+) increases expression/production	GNBR	E+	Compound	Gene	
 GNBR::E-::Compound:Gene	BioMedGPS::E-::Compound:Gene	Compound decreases the expression or production of the gene	(E-) decreases expression/production	GNBR	E-	Compound	Gene	
@@ -39,8 +39,8 @@ GNBR::G::Gene:Disease	BioMedGPS::Promotor::Gene:Disease	The gene promotes the pr
 GNBR::H::Gene:Gene	BioMedGPS::InComplex::Gene:Gene	The two genes refer to the same protein or complex	(H) same protein or complex	GNBR	H	Gene	Gene	
 GNBR::I::Gene:Gene	BioMedGPS::InPathway::Gene:Gene	The genes are involved in the same signaling pathway	(I) signaling pathway	GNBR	I	Gene	Gene	
 GNBR::in_tax::Gene:Tax	BioMedGPS::InTax::Gene:Tax	Identifies the taxon (species) associated with the gene	(in_tax) which taxon	GNBR	in_tax	Gene	Tax	
-GNBR::J::Compound:Disease	BioMedGPS::Treatment::Compound:Disease	The compound plays a role in the pathogenesis of the disease	(J) role in disease pathogenesis	GNBR	J	Compound	Disease	
-GNBR::J::Gene:Disease	BioMedGPS::Target::Gene:Disease	The gene plays a role in the pathogenesis of the disease	(J) role in pathogenesis	GNBR	J	Gene	Disease	
+GNBR::J::Compound:Disease	BioMedGPS::Causer::Compound:Disease	The compound plays a role in the pathogenesis of the disease	(J) role in disease pathogenesis	GNBR	J	Compound	Disease	
+GNBR::J::Gene:Disease	BioMedGPS::Causer::Gene:Disease	The gene plays a role in the pathogenesis of the disease	(J) role in pathogenesis	GNBR	J	Gene	Disease	
 GNBR::K::Compound:Gene	BioMedGPS::Kinetics::Gene:Compound	The compound is involved in the metabolism and pharmacokinetics of the gene	"(K) metabolism, pharmacokinetics"	GNBR	K	Compound	Gene	
 GNBR::L::Gene:Disease	BioMedGPS::Promotor::Gene:Disease	Improper regulation of the gene is linked to the disease	(L) improper regulation linked to disease	GNBR	L	Gene	Disease	
 GNBR::Md::Gene:Disease	BioMedGPS::Biomarker::Gene:Disease	The gene serves as a diagnostic biomarker	(Md) biomarkers (diagnostic)	GNBR	Md	Gene	Disease	
