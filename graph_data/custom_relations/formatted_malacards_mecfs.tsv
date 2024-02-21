@@ -1,129 +1,129 @@
 source_id	source_name	source_type	target_id	target_name	target_type	relation_type	resource
-MONDO:0005052	irritable bowel syndrome	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005546	fibromyalgia	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005108	viral infectious disease	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0100081	sleep disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0002050	depressive disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0002028	personality disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0002009	major depressive disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0001830	somatization disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0013065	premature ovarian failure 7	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0007147	"apnea, obstructive sleep"	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005371	mood disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0010707	paine syndrome	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005383	panic disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0001942	generalized anxiety disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0011918	anxiety	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0013992	leptin deficiency or dysfunction	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005379	neurotic disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0003763	acute stress disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0003117	somatoform disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005907	persian gulf syndrome	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0003014	rhinitis	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005146	post-traumatic stress disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005296	sleep apnea	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005130	celiac disease 1	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0001596	hypochondriasis	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005420	hypothyroidism	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0001836	amenorrhea	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0009453	"	immune deficiency disease"	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0004126	thyroiditis	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0004946	hypoglycemia	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005451	eating disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0003709	agoraphobia	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0003900	connective tissue disease	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005485	"	psychotic disorder"	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0007743	attention deficit-hyperactivity disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0025487	acquired immunodeficiency syndrome	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0008000	migraine with or without aura 1	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0001485	atypical depressive disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0006873	nutritional deficiency disease	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0004880	bowel dysfunction	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0002491	substance abuse	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0001247	social phobia	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0004842	stomatitis	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0001639	deficiency anemia	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-162582	Signal Transduction	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-1280215	Cytokine Signaling in Immune system	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP4172	PI3K-Akt signaling pathway	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP2882	Nuclear receptors meta-pathway	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP4562	NF-KappaB Family Pathway	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-2980736	Peptide hormone metabolism	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-418555	G alpha (s) signalling events	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP4558	Overview of interferons-mediated signaling pathway	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-9614085	FOXO-mediated transcription	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP236	Adipogenesis	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP2355	Corticotropin-releasing hormone signaling pathway	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-8980692	G-protein signaling_RhoA regulation pathway	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-450341	AP-1 transcription factor network	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP3617	Photodynamic therapy-induced NF-kB survival signaling	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP2406	Cardiac progenitor differentiation	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP706	Sudden infant death syndrome (SIDS) susceptibility pathways	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP3947	Serotonin and anxiety	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP4494	Selective expression of chemokine receptors during T-cell polarization	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-390651	"Methylphenidate Pathway, Pharmacodynamics"	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-8877330	RUNX1 and FOXP3 control the development of regulatory T lymphocytes (Tregs)	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP4194	Hormonal control of pubertal growth spurt	Pathway	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005576	extracellular region	CellularComponent	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005615	extracellular space	CellularComponent	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0010628	positive regulation of gene expression	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0008284	positive regulation of cell population proliferation	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0051897	positive regulation of protein kinase B signaling	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0046326	positive regulation of glucose import	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0045840	positive regulation of mitotic nuclear division	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0014068	positive regulation of phosphatidylinositol 3-kinase signaling	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0042104	positive regulation of activated T cell proliferation	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0150076	neuroinflammatory response	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0043410	positive regulation of MAPK cascade	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0045821	positive regulation of glycolytic process	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0042531	positive regulation of tyrosine phosphorylation of STAT protein	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0045725	positive regulation of glycogen biosynthetic process	BiologicalProcess	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005184	neuropeptide hormone activity	MolecularFunction	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005158	insulin receptor binding	MolecularFunction	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005179	hormone activity	MolecularFunction	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005159	insulin-like growth factor receptor binding	MolecularFunction	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:6041	RNASEL	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:5443	POMC	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:1392	CRH	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:2908	NR3C1	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:4128	MAOA	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:5610	EIF2AK2	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3558	IL2	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3458	IFNG	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3630	INS	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3479	IGF1	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3484	IGFBP1	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:25777	SUN2	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:2688	GH1	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3481	IGF2	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:116	ADCYAP1	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:7432	VIP	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:6532	SLC6A4	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3350	HTR1A	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:406938	MIR146A	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:406913	MIR126	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3569	IL6	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:1235	CCR6	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:406934	MIR142	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:7124	TNF	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:12	SERPINA3	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3553	IL1B	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:51741	WWOX	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3586	IL10	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:2272	FHIT	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:8337	H2AC18	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3576	CXCL8	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:920	CD4	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:1401	CRP	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:80036	TRPM3	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:10714	POLD3	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:925	CD8A	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:80198	MUS81	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3565	IL4	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:9213	XPR1	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:627	BDNF	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:2177	FANCD2	Gene	associated_with	MalaCards
-MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:9311	ASIC3	Gene	associated_with	MalaCards
+MONDO:0005052	irritable bowel syndrome	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005546	fibromyalgia	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005108	viral infectious disease	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0100081	sleep disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0002050	depressive disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0002028	personality disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0002009	major depressive disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0001830	somatization disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0013065	premature ovarian failure 7	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0007147	"apnea, obstructive sleep"	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005371	mood disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0010707	paine syndrome	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005383	panic disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0001942	generalized anxiety disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0011918	anxiety	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0013992	leptin deficiency or dysfunction	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005379	neurotic disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0003763	acute stress disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0003117	somatoform disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005907	persian gulf syndrome	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0003014	rhinitis	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005146	post-traumatic stress disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005296	sleep apnea	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005130	celiac disease 1	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0001596	hypochondriasis	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005420	hypothyroidism	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0001836	amenorrhea	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0009453	"immune deficiency disease"	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0004126	thyroiditis	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0004946	hypoglycemia	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005451	eating disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0003709	agoraphobia	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0003900	connective tissue disease	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005485	"psychotic disorder"	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0007743	attention deficit-hyperactivity disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0025487	acquired immunodeficiency syndrome	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0008000	migraine with or without aura 1	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0001485	atypical depressive disorder	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0006873	nutritional deficiency disease	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0004880	bowel dysfunction	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0002491	substance abuse	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0001247	social phobia	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0004842	stomatitis	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0001639	deficiency anemia	Disease	MONDO:0005404	chronic fatigue syndrome	Disease	Hetionet::DrD::Disease:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-162582	Signal Transduction	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-1280215	Cytokine Signaling in Immune system	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP4172	PI3K-Akt signaling pathway	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP2882	Nuclear receptors meta-pathway	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP4562	NF-KappaB Family Pathway	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-2980736	Peptide hormone metabolism	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-418555	G alpha (s) signalling events	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP4558	Overview of interferons-mediated signaling pathway	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-9614085	FOXO-mediated transcription	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP236	Adipogenesis	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP2355	Corticotropin-releasing hormone signaling pathway	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-8980692	G-protein signaling_RhoA regulation pathway	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-450341	AP-1 transcription factor network	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP3617	Photodynamic therapy-induced NF-kB survival signaling	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP2406	Cardiac progenitor differentiation	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP706	Sudden infant death syndrome (SIDS) susceptibility pathways	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP3947	Serotonin and anxiety	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP4494	Selective expression of chemokine receptors during T-cell polarization	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-390651	"Methylphenidate Pathway, Pharmacodynamics"	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	Reactome:R-HSA-8877330	RUNX1 and FOXP3 control the development of regulatory T lymphocytes (Tregs)	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	WikiPathways:WP4194	Hormonal control of pubertal growth spurt	Pathway	BioMedGPS::AssociatedWith::Pathway:Disease	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005576	extracellular region	CellularComponent	BioMedGPS::AssociatedWith::Disease:CellularComponent	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005615	extracellular space	CellularComponent	BioMedGPS::AssociatedWith::Disease:CellularComponent	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0010628	positive regulation of gene expression	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0008284	positive regulation of cell population proliferation	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0051897	positive regulation of protein kinase B signaling	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0046326	positive regulation of glucose import	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0045840	positive regulation of mitotic nuclear division	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0014068	positive regulation of phosphatidylinositol 3-kinase signaling	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0042104	positive regulation of activated T cell proliferation	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0150076	neuroinflammatory response	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0043410	positive regulation of MAPK cascade	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0045821	positive regulation of glycolytic process	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0042531	positive regulation of tyrosine phosphorylation of STAT protein	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0045725	positive regulation of glycogen biosynthetic process	BiologicalProcess	BioMedGPS::AssociatedWith::Disease:BiologicalProcess	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005184	neuropeptide hormone activity	MolecularFunction	BioMedGPS::AssociatedWith::Disease:MolecularFunction	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005158	insulin receptor binding	MolecularFunction	BioMedGPS::AssociatedWith::Disease:MolecularFunction	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005179	hormone activity	MolecularFunction	BioMedGPS::AssociatedWith::Disease:MolecularFunction	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	GO:0005159	insulin-like growth factor receptor binding	MolecularFunction	BioMedGPS::AssociatedWith::Disease:MolecularFunction	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:6041	RNASEL	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:5443	POMC	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:1392	CRH	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:2908	NR3C1	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:4128	MAOA	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:5610	EIF2AK2	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3558	IL2	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3458	IFNG	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3630	INS	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3479	IGF1	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3484	IGFBP1	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:25777	SUN2	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:2688	GH1	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3481	IGF2	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:116	ADCYAP1	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:7432	VIP	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:6532	SLC6A4	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3350	HTR1A	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:406938	MIR146A	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:406913	MIR126	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3569	IL6	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:1235	CCR6	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:406934	MIR142	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:7124	TNF	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:12	SERPINA3	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3553	IL1B	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:51741	WWOX	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3586	IL10	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:2272	FHIT	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:8337	H2AC18	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3576	CXCL8	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:920	CD4	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:1401	CRP	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:80036	TRPM3	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:10714	POLD3	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:925	CD8A	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:80198	MUS81	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:3565	IL4	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:9213	XPR1	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:627	BDNF	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:2177	FANCD2	Gene	Hetionet::DaG::Disease:Gene	MalaCards
+MONDO:0005404	chronic fatigue syndrome	Disease	ENTREZ:9311	ASIC3	Gene	Hetionet::DaG::Disease:Gene	MalaCards
 DrugBank:DB00254	Doxycycline	Compound	MONDO:0005404	chronic fatigue syndrome	Disease	DRUGBANK::treats::Compound:Disease	MalaCards
 DrugBank:DB00759	Tetracycline	Compound	MONDO:0005404	chronic fatigue syndrome	Disease	DRUGBANK::treats::Compound:Disease	MalaCards
 DrugBank:DB00988	Dopamine	Compound	MONDO:0005404	chronic fatigue syndrome	Disease	DRUGBANK::treats::Compound:Disease	MalaCards
