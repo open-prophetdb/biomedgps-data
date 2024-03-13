@@ -1,0 +1,11 @@
+relation_type	corrected_relation_type
+PrimeKG::interacts_with:Pathway:Gene	PrimeKG::interacts_with::Pathway:Gene
+PrimeKG::associated_with:Gene:Disease	PrimeKG::associated_with::Gene:Disease
+HSDN::has_symptom:Disease:Symptom	HSDN::has_symptom::Disease:Symptom
+PrimeKG::parent-child:Disease:Disease	PrimeKG::parent-child::Disease:Disease
+PrimeKG::parent-child:BiologicalProcess:BiologicalProcess	PrimeKG::parent-child::BiologicalProcess:BiologicalProcess
+PrimeKG::expression_present:Gene:Anatomy	PrimeKG::expression_present::Gene:Anatomy
+bioarx::HumGenHumGen:Gene:Gene	bioarx::HumGenHumGen::Gene:Gene
+bioarx::DrugHumGen:Compound:Gene	bioarx::DrugHumGen::Compound:Gene
+bioarx::DrugVirGen:Compound:Gene	bioarx::DrugVirGen::Compound:Gene
+bioarx::VirGenHumGen:Gene:Gene	bioarx::VirGenHumGen::Gene:Gene

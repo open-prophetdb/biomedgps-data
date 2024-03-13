@@ -1,7 +1,8 @@
 import pandas as pd
+from typing import List, Dict, Union
 
 # Return matched line if a id matches with the id or xrefs in the entities.tsv
-def get_matched_id(id: str, etype: str, entities: pd.DataFrame) -> str:
+def get_matched_id(id: str, etype: str, entities: pd.DataFrame) -> Union[None, str]:
     """Get matched id if a id matches with the id or xrefs in the entities.tsv
 
     Args:
@@ -22,7 +23,7 @@ def get_matched_id(id: str, etype: str, entities: pd.DataFrame) -> str:
         return rows.iloc[0]["id"]
 
 
-def get_matched_name(id: str, etype: str, entities: pd.DataFrame) -> str:
+def get_matched_name(id: str, etype: str, entities: pd.DataFrame) -> Union[None, str]:
     """Get matched name if a id matches with the id or xrefs in the entities.tsv
 
     Args:
