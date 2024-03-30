@@ -207,9 +207,12 @@ def correct_relation(uncorrected_file, relation_type_map, which_type):
             if type(relation_type) is not str:
                 raise Exception(f"relation_type is not a string: {relation_type} at row {idx}.")
 
-            source_type_in_relation, target_type_in_relation = relation_type.split(
-                "::"
-            )[2].split(":")
+            try:
+                source_type_in_relation, target_type_in_relation = relation_type.split(
+                    "::"
+                )[2].split(":")
+            except Exception as e:
+                raise Exception(f"relation_type is not in the correct format: {relation_type} at row {idx}. {row['source_type']} {row['target_type']}")
 
             if (
                 source_type_in_relation != row["source_type"]
@@ -263,9 +266,17 @@ def check_entity(unchecked_file, entity_file):
         for issue in issues:
             print(issue)
 
-@cli.command(help="Check if all relation types in the relation type embedding file are in the relation file.")
+
+@cli.command(
+    help="Check if all relation types in the relation file are in the relation type embedding file."
+)
 @click.option("--relation-file", "-r", help="The relation file.", required=True)
-@click.option("--relation-type-embedding-file", "-e", help="The relation type embedding file.", required=True)
+@click.option(
+    "--relation-type-embedding-file",
+    "-e",
+    help="The relation type embedding file.",
+    required=True,
+)
 def check_relation_type(relation_file, relation_type_embedding_file):
     """Check if all relation types in the relation type embedding file are in the relation file.
 
@@ -275,12 +286,12 @@ def check_relation_type(relation_file, relation_type_embedding_file):
     """
     relation_df = pd.read_csv(relation_file, sep="\t", dtype=str)
     relation_type_embedding_df = pd.read_csv(relation_type_embedding_file, sep="\t", dtype=str)
-    relation_types = relation_df["relation_type"].unique()
+    relation_types = relation_type_embedding_df["id"].unique()
 
     issues = []
-    for relation_type in relation_type_embedding_df["id"]:
+    for relation_type in relation_df["relation_type"].unique():
         if relation_type not in relation_types:
-            show_msg(f"{relation_type} is not in the relation file.")
+            show_msg(f"{relation_type} is not in the relation type embedding file.")
 
     if issues:
         for issue in issues:

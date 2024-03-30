@@ -9,3 +9,5 @@ bioarx::HumGenHumGen:Gene:Gene	bioarx::HumGenHumGen::Gene:Gene
 bioarx::DrugHumGen:Compound:Gene	bioarx::DrugHumGen::Compound:Gene
 bioarx::DrugVirGen:Compound:Gene	bioarx::DrugVirGen::Compound:Gene
 bioarx::VirGenHumGen:Gene:Gene	bioarx::VirGenHumGen::Gene:Gene
+PrimeKG::contraindication:Compound:Disease	PrimeKG::contraindication::Disease:Compound
+PrimeKG::contraindication:Disease:Compound	PrimeKG::contraindication::Disease:Compound

@@ -3,7 +3,9 @@ import os
 import pandas as pd
 import requests
 from itertools import combinations
-from typing import Tuple
+from typing import Tuple, List
+from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 def intall_cache(cache_fpath: str, enable_threading: bool = False):
     """Install a cache for the requests library.
@@ -84,6 +86,44 @@ def convert_id_to_umls(id, id_type, api_key, cached_session=None):
     else:
         # print(f"Error: {response.status_code}")
         return None
+
+
+def batch_convert_id_to_umls(ids, id_type, api_key, cached_session=None) -> List[str]:
+    """Batch convert a list of IDs to UMLS IDs using BioPortal's REST API.
+
+    Args:
+        ids (list): List of IDs to convert.
+        id_type (str): The type of ID to convert. Must be one of MESH, SNOMEDCT, SYMP, MEDDRA.
+        api_key (str): Your BioPortal API key.
+        cached_session (CachedSession, optional): _description_. Defaults to None.
+
+    Returns:
+        list: List of corresponding UMLS IDs, if found for each ID. If not found, the value is an empty string.
+    """
+    xrefs_dict = {}
+
+    def convert_id_and_append(id):
+        umls_id = convert_id_to_umls(
+            id,
+            id_type=id_type,
+            api_key=api_key,
+            cached_session=cached_session,
+        )
+        if umls_id:
+            return {id: f"UMLS:{umls_id}"}
+        else:
+            return {id: ""}
+
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = [executor.submit(convert_id_and_append, id) for id in ids]
+
+        for future in tqdm(
+            as_completed(futures), total=len(ids), desc="Processing IDs"
+        ):
+            xrefs_dict.update(future.result())
+
+    xrefs = [xrefs_dict[id] for id in ids]
+    return xrefs
 
 
 def check_format(df: pd.DataFrame) -> bool:

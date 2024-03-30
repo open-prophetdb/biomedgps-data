@@ -8,7 +8,7 @@ FORMATTED_DIR=graph_data/extracted_entities
 
 OUTPUT_DIR=${FORMATTED_DIR}/raw_entities
 
-ontologies="hetionet mondo symptom-ontology ndf-rt hgnc-mgi drugbank mesh hmdb meddra reactome uberon go cell-line-ontology wikipathways kegg"
+ontologies="hetionet mondo symptom-ontology ndf-rt hgnc-mgi drugbank mesh hmdb reactome uberon go cell-line-ontology wikipathways kegg"
 
 # Add arguments to the script
 while getopts ":t:h" opt; do
@@ -162,15 +162,6 @@ function format_hmdb() {
     mkdir -p ${OUTPUT_DIR}/hmdb
     python ${SCRIPTS_DIR}/csv2tsv.py -i ${DATADIR}/hmdb/hmdb_metabolite.csv -o ${OUTPUT_DIR}/hmdb/hmdb_metabolite.tsv
     printf "Finished extracting entities from HMDB\n\n"
-}
-
-function format_meddra() {
-    # Format the meddra
-    echo "Extracting entities from the meddra"
-    mkdir -p ${OUTPUT_DIR}/meddra
-    python ${SCRIPTS_DIR}/csv2tsv.py -i ${DATADIR}/meddra/meddra_side_effect.csv -o ${OUTPUT_DIR}/meddra/meddra_side_effect.tsv
-    python ${DATADIR}/meddra/format_meddra.py -i ${OUTPUT_DIR}/meddra/meddra_side_effect.tsv -o ${OUTPUT_DIR}/meddra/meddra_side_effect.tsv --cache-file ${DATADIR}/meddra/meddra_cache
-    printf "Finished extracting entities from meddra\n\n"
 }
 
 function format_reactome() {

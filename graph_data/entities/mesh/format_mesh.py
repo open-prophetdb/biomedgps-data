@@ -41,6 +41,7 @@ def entities(input, output):
             "Synonyms": "synonyms",
             "Definitions": "description",
             "Semantic Types": "semantic_types",
+            "CUI": "xrefs",
         }
     )
 
@@ -105,7 +106,7 @@ def entities(input, output):
                 return "Compound"
             else:
                 return "Unknown"
-            
+
     logger.info("Several semantic types are created: %s" % df)
 
     # Add a new column based on the category column
@@ -113,10 +114,16 @@ def entities(input, output):
         # Any matched semantic type will be used as the label
         lambda x: keep(
             map(
-                lambda y: label_map[y][1] if "%s" % y in label_map.keys() else "Unknown",
+                lambda y: (
+                    label_map[y][1] if "%s" % y in label_map.keys() else "Unknown"
+                ),
                 x.split("|"),
             )
         )
+    )
+
+    df["xrefs"] = df["xrefs"].apply(
+        lambda x: "|".join(map(lambda y: "UMLS:%s" % y, x.split("|")))
     )
 
     grouped = df.groupby("label")
