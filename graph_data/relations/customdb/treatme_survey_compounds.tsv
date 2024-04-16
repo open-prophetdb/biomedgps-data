@@ -1,0 +1,35 @@
+relation_type	resource	pmids	key_sentence	source_id	source_type	source_name	target_id	target_type	target_name
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB15329	Compound	Nattokinase	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00704	Compound	Naltrexone	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB09083	Compound	Ivabradine	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB01065	Compound	Melatonin	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00028	Compound	Human immunoglobulin G	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00115	Compound	Vitamin B12	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB04835	Compound	Maraviroc	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00545	Compound	Pyridostigmine	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB09270	Compound	Ubidecarenone	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB01221	Compound	Ketamine	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00211	Compound	Midodrine	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB01238	Compound	Aripiprazole	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00230	Compound	Pregabalin	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB16921	Compound	Oxaloacetic acid	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00624	Compound	Testosterone	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00184	Compound	Nicotine	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00687	Compound	Fludrocortisone	MONDO:0005404	Disease	ME/CFS
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB15329	Compound	Nattokinase	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00704	Compound	Naltrexone	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB09083	Compound	Ivabradine	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB01065	Compound	Melatonin	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00028	Compound	Human immunoglobulin G	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00115	Compound	Vitamin B12	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB04835	Compound	Maraviroc	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00545	Compound	Pyridostigmine	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB09270	Compound	Ubidecarenone	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB01221	Compound	Ketamine	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00211	Compound	Midodrine	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB01238	Compound	Aripiprazole	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00230	Compound	Pregabalin	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB16921	Compound	Oxaloacetic acid	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00624	Compound	Testosterone	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00184	Compound	Nicotine	MONDO:0100233	Disease	LongCOVID
+DRUGBANK::treats::Compound:Disease	TreatME			DrugBank:DB00687	Compound	Fludrocortisone	MONDO:0100233	Disease	LongCOVID
