@@ -25,7 +25,7 @@ def entities(input, output):
 
     # Select only the columns that we need
     df = df[
-        ["Class ID", "Preferred Label", "Synonyms", "Definitions", "Semantic Types"]
+        ["Class ID", "Preferred Label", "Synonyms", "Definitions", "Semantic Types", "CUI"]
     ]
 
     # Format the id column by using regex to replace the ".*MESH/" prefix with "MESH:". Must use the regex pattern
@@ -121,6 +121,8 @@ def entities(input, output):
             )
         )
     )
+
+    print("The columns are: %s" % df.columns)
 
     df["xrefs"] = df["xrefs"].apply(
         lambda x: "|".join(map(lambda y: "UMLS:%s" % y, x.split("|")))

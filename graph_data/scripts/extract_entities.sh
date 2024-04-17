@@ -8,7 +8,7 @@ FORMATTED_DIR=graph_data/extracted_entities
 
 OUTPUT_DIR=${FORMATTED_DIR}/raw_entities
 
-ontologies="hetionet mondo symptom-ontology ndf-rt hgnc-mgi drugbank mesh hmdb reactome uberon go cell-line-ontology wikipathways kegg"
+ontologies="hetionet mondo symptom-ontology ndf-rt hgnc-mgi meddra drugbank mesh hmdb reactome uberon go cell-line-ontology wikipathways kegg"
 
 # Add arguments to the script
 while getopts ":t:h" opt; do
@@ -244,6 +244,14 @@ function format_kegg() {
 
     cp ${DATADIR}/kegg/kegg_pathway.tsv ${OUTPUT_DIR}/kegg/kegg_pathway.tsv
     printf "Finished extracting entities from kegg\n\n"
+}
+
+function format_meddra() {
+    # Format the meddra
+    echo "Extracting entities from the meddra"
+    mkdir -p ${OUTPUT_DIR}/meddra
+    python ${DATADIR}/meddra/format_meddra.py --input ${DATADIR}/meddra/meddra.csv --output ${OUTPUT_DIR}/meddra/meddra_side_effect.tsv --cache-file ${DATADIR}/meddra/meddra_cache.sqlite
+    printf "Finished extracting entities from meddra\n\n"
 }
 
 

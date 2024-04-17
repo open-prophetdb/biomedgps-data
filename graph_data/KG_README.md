@@ -63,12 +63,14 @@ rm -rf graph_data/formatted_entities
 
 mkdir graph_data/formatted_entities
 
-# NOTE: We don't treat the side effect as an entity type anymore, we treat it as a relationship type. Because the side effect is important attribute of the drug and we use the side effect to connect the drug and disease at most time. So for convenience, we add all side effect entities to the disease entities.
+# NOTE: We don't treat the side effect as an entity type anymore, we treat it as a relationship type. Because the side effect is important attribute of the drug and we use the side effect to connect the drug and disease/sym[tom at most time. So for convenience, we add all side effect entities to the disease and symptom entities.
 
 # For disease
+awk -F'\t' 'BEGIN {OFS="\t"} {if ($3 == "SideEffect") $3 = "Disease"; print}' graph_data/extracted_entities/merged_entities/side_effect.tsv > graph_data/extracted_entities/merged_entities/formatted_side_effect.tsv
+python3 graph_data/scripts/merge_entities.py merge-multiple-files -i graph_data/extracted_entities/merged_entities/disease.tsv -i graph_data/extracted_entities/merged_entities/formatted_side_effect.tsv -o graph_data/extracted_entities/merged_entities/merged_disease.tsv
+rm graph_data/extracted_entities/merged_entities/formatted_side_effect.tsv
 onto-match ontology -i graph_data/extracted_entities/merged_entities/merged_disease.tsv -o graph_data/formatted_entities/disease.tsv -O disease -s 0 -b 300
-# Add more id mapping for disease, such as all id mappings which listed in the extra directory.
-
+rm graph_data/extracted_entities/merged_entities/merged_disease.tsv
 onto-match dedup --input-file graph_data/formatted_entities/disease.tsv --output-file graph_data/formatted_entities/disease.filtered.tsv 
 
 # For gene
@@ -87,7 +89,10 @@ onto-match dedup --input-file graph_data/formatted_entities/metabolite.tsv --out
 cp graph_data/extracted_entities/merged_entities/pathway.tsv graph_data/formatted_entities/pathway.tsv
 
 # For symptom
-cp graph_data/extracted_entities/merged_entities/symptom.tsv graph_data/formatted_entities/symptom.tsv
+awk -F'\t' 'BEGIN {OFS="\t"} {if ($3 == "SideEffect") $3 = "Symptom"; print}' graph_data/extracted_entities/merged_entities/side_effect.tsv > graph_data/extracted_entities/merged_entities/formatted_side_effect.tsv
+python3 graph_data/scripts/merge_entities.py merge-multiple-files -i graph_data/extracted_entities/merged_entities/symptom.tsv -i graph_data/extracted_entities/merged_entities/formatted_side_effect.tsv -o graph_data/extracted_entities/merged_entities/merged_symptom.tsv
+rm graph_data/extracted_entities/merged_entities/formatted_side_effect.tsv
+cp graph_data/extracted_entities/merged_entities/merged_symptom.tsv graph_data/formatted_entities/symptom.tsv
 
 # For anatomy
 cp graph_data/extracted_entities/merged_entities/anatomy.tsv graph_data/formatted_entities/anatomy.tsv

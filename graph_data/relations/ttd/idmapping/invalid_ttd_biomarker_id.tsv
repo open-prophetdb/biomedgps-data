@@ -1,0 +1,960 @@
+Biomarker ID	Biomarker Name	UniProt ID
+BM002188	Monocyte chemoattractantprotein-1 (MCP-1)	
+BM000711	Muscle-specific kinase (MuSK) antibody	
+BM002220	Muscle-specific kinase (MuSK) antibody	
+BM002933	Vascular cell adhesion molecule (sVCAM)	
+BM002750	Transforming growth factor b (TGF-b)	
+BM002346	Nuclear factor of k light polypeptide gene enhancer in B-cells inhibitor	
+BM000399	Homocysteine	
+BM002558	Homocysteine	
+BM000401	sEng	
+BM000671	3-cholorotyrosine	
+BM000922	Bombesin-like peptide	
+BM000271	Carbon monoxide	
+BM000352	Endothelial colony-forming cells	
+BM000353	Eosinophilic cationic protein	
+BM000461	KL-6	
+BM000483	Microbes	
+BM000506	N-terminal pro-B-type natriuretic peptide (NT-pro-BNP)	
+BM002640	Regulated upon activation of normal T cell expressed and secreted (RANTES)	
+BM000559	spectrophotometry	
+BM000577	Thymus	
+BM000602	unconjugated estriol	
+BM000687	8-hydroxy-2-deoxyguanosine (8-OHdG)	
+BM000913	NT-proBNP	
+BM000911	NT-proBNP	
+BM000917	NT-proBNP	
+BM001983	iL-1R1	
+BM001984	L-1I	
+BM002569	pro-ANP	
+BM001216	Creatinine	
+BM000965	Carbonyl sulfide	
+BM002474	Peptide/proteome panels	
+BM000016	calcium	
+BM000017	phosphorus	
+BM000018	potassium	
+BM003147	MHCclass II protein	
+BM003120	CCR5 mRNA	
+BM003121	IFN-(+) CD4 T-cells	
+BM003124	CD4(+)CD25(+) T cells	
+BM003123	CD4(+)CD25(+)FoxP3(+) T cells	
+BM003122	CD8(+)CD28(-) T cells	
+BM003126	CD3(+)CD4(+) T lymphocytes	
+BM003125	CD3(+)CD8(+) T lymphocytes	
+BM003127	CCR5 Mrna	
+BM003118	miR-202	
+BM003117	miR-206	
+BM003116	miR-342-5p	
+BM003115	miR-487b	
+BM003114	miR-576-5p	
+BM000676	4-MDRD	
+BM001118	CKD-EPI	
+BM001150	Cockcroft-Gault	
+BM001215	Creatinine	
+BM001569	Glomerular filtration rate	
+BM003092	Glomerular filtration rate (GFR)	
+BM002272	HNL	
+BM002240	N-Acetyl--D-Glucosaminidase (NAG)	
+BM002511	Phosphate	
+BM002513	phosphorus tubular reabsorption (RTP)	
+BM002599	proteins	
+BM003089	CD163/CD16 coexpression	
+BM003090	Perforin-expressing HIV-specific CD8 T cells	
+BM003099	CD28+ and CD45RA+ CD8+ cells	
+BM003096	CD45RO+ CD8+ cells	
+BM003091	HLA-DR+-CD3+, CD4+, and CD8+ cells	
+BM003093	CD8+ T cells	
+BM003101	CD28- cells	
+BM003094	CD8+ cells	
+BM003100	CD28- memory CD8+ T cells	
+BM003095	CD57+ memory CD8+ T cells	
+BM003098	CD4(+) T-lymphocyte	
+BM003097	CD4/CD8 ratio	
+BM003103	CD127(-) CD45RA(-)CD27(+) CD8 T cell	
+BM003102	CD127(+) cells	
+BM003104	BDCA-1(+) dendritic cells	
+BM003106	ACTH/beta-endorphin ratio	
+BM003105	ACTH/cortisol ratio	
+BM003140	Envelope glycoprotein complex	
+BM003141	Tumor necrosis factor receptor	
+BM003142	HLA-DR	
+BM003143	IL2R	
+BM003067	Phytohemagglutinin	
+BM003071	CD56+CD11a+ cells	
+BM003070	CD56+CD3- cells	
+BM003069	CD56+CD3+ cells	
+BM003068	CD56+TIA-1+ cells	
+BM003072	CD14(+) HLA-DR(+) monocytes	
+BM003073	CD8 T cells co-expressing activation marker HLA-DR, Q, P, and cytolytic granule protein-Tia-1	
+BM003135	HLA class I	
+BM003136	Protein disulfide isomerase	
+BM003128	CD8+ T cells	
+BM003150	MHC-I	
+BM003151	MHC-II	
+BM003066	CD4(+) T cells	
+BM003065	CD8(+) T cells	
+BM003134	MHC class II	
+BM003107	HLA-DRalpha Mrna	
+BM003108	CD8(+) T cells	
+BM003137	Fatty acid binding protein	
+BM003074	Lipopolysaccharide	
+BM003075	CTLA-4+49A/G polymorphism	
+BM003076	CD68+ cells	
+BM003077	CD5+ B-cells	
+BM003078	CD4+CD25+ regulatory T cells	
+BM003079	CD137natural ligand	
+BM003084	HepaticCD56(+) T cells	
+BM003080	V alpha 24(+) natural killer T cells	
+BM003088	Antinuclear antibodies with the homogeneous pattern	
+BM003081	Smooth muscle antibodies with antiactin specificity	
+BM003082	IL28Bpolymorphisms	
+BM003083	Hepatitis Cvirus-specificCD4(+) T-cell	
+BM003085	CD8(+)CD28(-) T cells	
+BM003086	CD68positive cells	
+BM003087	CD56(+)CD3(-) cells	
+BM003138	Interleukin-2receptor	
+BM003139	Tumor necrosis factorreceptor	
+BM003129	CD4+ cell	
+BM003144	Hemagglutinin protein	
+BM003145	MHCclass II protein	
+BM003146	Interleukin-2 receptor	
+BM003056	TNFR1mRNA	
+BM003057	Procalcitonin	
+BM003058	CD8+ T cells	
+BM003059	CCR6+ IL-17-producing T cells	
+BM003111	Type 2 cytokine-producing CD4-/CD8- cells	
+BM003112	CD4(+)CD25(+)Foxp3(+) Tregs	
+BM003062	miR-1	
+BM003061	miR-133	
+BM003060	miR-208	
+BM003063	CD27+CD28+CD8+ T cells	
+BM003064	CD15s+Treg cells	
+BM003130	Atrial natriuretic peptide	
+BM003131	Antigen 13	
+BM003132	Procollagen type I carboxy-terminal propeptide	
+BM003133	Procollagen type III amino-terminal propeptide	
+BM003110	CD4+ blast T cells	
+BM003109	CD8+ blast T cells	
+BM000008	sand fly saliva antibodies	
+BM003113	N-Acetyltyramine-O,-glucuronide (NATOG)	
+BM000494	MR-proadrenomedullin	
+BM003119	Procalcitonin	
+BM003148	IgM	
+BM003149	Interleukin-2 receptor	
+BM001182	ACTH	
+BM001183	Cortisol	
+BM001184	Epinephrine	
+BM001185	Norepinephrine	
+BM001868	Neopterin	
+BM003042	ABL	
+BM000044	macrophage; T-cell	
+BM000045	sclerosis	
+BM003048	12 genes	
+BM000190	p53, ras, thymidine synthase, dihydropyrimidine dehydrogenase, thymidine phospho rylase, microsatellite instability, 18q loss of heterozygosity, deleted in colon cancer (DCC) protein	
+BM000024	thymidylate synthase-enhancer region (TYMS-ER), thymidylate synthase 1494 (TYMS- 1494), dihydropyrimidine dehydrogenase (DPYD), methylenetetrahydrofolate reducta se (MTHFR), mutL homolog 1 (MLH1), UDP glucuronyltransferase (UGT1A1), ATP-binding cassette group B gene 1 (ABCB1), x-ray cross-complementing group 1 (XRCC1), g lutathione-S-transferase P1 (GSTP1), excision repair cross-complementing gene 2 (ERCC2)	
+BM000191	CA 19-9	
+BM002299	Nitrite	
+BM000200	CA 15-3	
+BM000202	Carcinoembryonic antigen	
+BM000208	DNA/ploidy by flow cytometry, p53, cathepsin D, cyclin E, bone marrow micrometas tases, circulating tumor cells	
+BM000205	Human epidermal growth factor receptor 2	
+BM000029	estrogen receptor, progesterone receptor, HER-2, CK5/6, epidermal growth factor receptor.	
+BM000014	30-gene predictor (DLDA-30)	
+BM001143	CMV	
+BM001572	Glucocorticoids	
+BM001715	HPC	
+BM002699	SNS	
+BM003047	70 genes (MammaPrint)	
+BM002880	transthyretin, apolipoprotein A-1, beta2-microglobulin, transferrin, cancer anti gen 125	
+BM001806	IL-1Ra	
+BM000033	IAUC(90)	
+BM000034	K(trans)	
+BM001505	bone marrow	
+BM001507	red cell morphology	
+BM001508	serum iron	
+BM002626	Hematocrit packed cell volume	
+BM002627	mean corpuscular hemoglobin concentration (MCHC)	
+BM002628	mean corpuscular volume (MCV)	
+BM002629	red blood cell	
+BM002630	red cell distribution width (RDW)	
+BM002631	reticulocyte count	
+BM002632	reticulocyte proliferation index (RPI)	
+BM000803	Anti-endothelial cell antibodies (AECA)	
+BM001023	CD14+ producing circulating monocytesi CD45+ producing circulating monocytesi i collagen I producing circulating monocytes	
+BM001026	CD19	
+BM000449	Isoprostanes	
+BM000992	MCP-1	
+BM002167	MMP-9 (gelatinase B)	
+BM001329	DAS-28	
+BM001804	IL-1Ra	
+BM001850	iL-6	
+BM002653	RF	
+BM001424	eosinophil	
+BM001047	CD8, IL2R, TNFR1	
+BM001669	HGF, IL2R, IL-8, TNFR1	
+BM002677	sFas	
+BM002678	sFas	
+BM002901	Tryptophan metabolites	
+BM000902	Bis(monoacylglycero)phosphate	
+BM000927	Brain MRI images	
+BM000928	Brain MRI images	
+BM001588	Glycosaminoglycans	
+BM001589	Glycosaminoglycans	
+BM001590	Glycosaminoglycans	
+BM001591	Glycosaminoglycans	
+BM001592	Glycosaminoglycans	
+BM001593	Glycosaminoglycans	
+BM001594	Glycosaminoglycans	
+BM001616	Hair morphology	
+BM002366	Oligosaccharides	
+BM002367	Oligosaccharides	
+BM002368	Oligosaccharides	
+BM001355	Dopamine metabolite	
+BM001408	Electrophysiologicalsignatures	
+BM001409	Extrapyramidal signs	
+BM001410	Impairments in cognitive tests	
+BM001411	Sedation	
+BM000774	Amyloid peptide	
+BM000377	Glucose	
+BM000378	Lipid	
+BM000379	Glycine	
+BM001595	GlyT1 ligand [3H] RO5013853	
+BM000183	age	
+BM002621	quantitative electroencephalography (EEG)	
+BM002743	sTNFRI	
+BM000775	amyloid I42	
+BM002487	Perfusion SPECT	
+BM002745	Structural MRI	
+BM000777	Tau protein	
+BM000702	Ab	
+BM000703	Ab	
+BM000704	Ab	
+BM000971	Cardiac autonomic dysfunction	
+BM000972	Cardiac autonomic dysfunction	
+BM000973	Cardiac autonomic dysfunction	
+BM001090	Cholinergic function	
+BM001091	Cholinergic function	
+BM001092	Cholinergic function	
+BM001093	Cholinergic function	
+BM001497	FDG network	
+BM001498	FDG network	
+BM001499	FDG network	
+BM001500	FDG network	
+BM001584	Glutathione	
+BM002194	iron deposit)	
+BM002196	iron deposit)	
+BM002198	iron deposit)	
+BM002200	iron deposit)	
+BM002195	MRI (DWI	
+BM002197	MRI (DWI	
+BM002199	MRI (DWI	
+BM002201	MRI (DWI	
+BM000586	Transcranial sonography (TCS)	
+BM000587	Transcranial sonography (TCS)	
+BM000588	Transcranial sonography (TCS)	
+BM002925	Uric acid	
+BM002926	Uric acid	
+BM000616	[11C]dMP	
+BM000617	[11C]dMP	
+BM000618	[11C]DTBZ	
+BM000619	[11C]DTBZ	
+BM000620	[11C]DTBZ	
+BM000621	[11C]RAC	
+BM000622	[11C]RAC	
+BM000623	[123I]-2I-carbomethoxy-3I-(4-iodophenyl tropane) ([123I]b-CIT)	
+BM000624	[123I]-2I-carbomethoxy-3I-(4-iodophenyl)-N-(3-fluoropropyl)-N-tropane ([123I]F P-CIT)	
+BM000625	[123I]b-CIT	
+BM000626	[123I]b-CIT	
+BM000627	[123I]b-CIT	
+BM000628	[123I]b-CIT	
+BM000629	[123I]FP-CIT	
+BM000630	[123I]FP-CIT	
+BM000631	[123I]FP-CIT	
+BM000632	[123I]IPT	
+BM000633	[123I]IPT	
+BM000634	[123I]IPT	
+BM000635	[123I]PE2I	
+BM000636	[18F]-2-fluoro-2-deoxyglucose (FDG)	
+BM000637	[18F]-2I-carbomethoxy-3I-(4-iodophenyl)-N-(3-fluoropropyl)-N-tropane ([18F]FP- CIT)	
+BM000638	[18F]FP-CIT	
+BM000639	[18F]FP-CIT	
+BM000640	[99mTc] TRODAT-1	
+BM000641	[99mTc] TRODAT-1	
+BM000642	[99mTc] TRODAT-1	
+BM000643	[99mTc]ECD	
+BM000644	[99mTc]ECD	
+BM000680	5-hydroxytryptamine (5-HT)	
+BM000770	Amygdala volume	
+BM000834	Arginine	
+BM000896	Biceps burst duration variability	
+BM001151	Cholesterol	
+BM001152	Coenzyme Q10	
+BM001171	Contralateral lateral SN pars compacta R2*	
+BM001172	Contralateral phase shift values of SN	
+BM001173	Contralateral posterior GP R2*	
+BM001174	Contralateral SN R2'' relaxation rate	
+BM001179	Copper	
+BM001339	Delayed H/M ratio of 123I-MIBG uptake	
+BM001353	Dopamine	
+BM001366	Early H/M ratio of 123I-MIBG uptake	
+BM001372	EEG total power	
+BM001501	FDOPA	
+BM001502	FDOPA	
+BM001503	FDOPA	
+BM001551	Free Carnitine	
+BM001586	Glycine	
+BM001596	GP R2''	
+BM001621	Heart rate variability: low frequency (LF) power spectrum densities	
+BM001622	Heart rate variability: very low frequency (VLF) power spectrum densities	
+BM001688	Hippocampal volume	
+BM001703	HMPAO	
+BM001708	Homocysteine	
+BM001712	Homovanillic acid	
+BM002005	Levodopa	
+BM002097	Mean amplitude after rare stimuli	
+BM002098	Mean area of bilateral substantia nigra hyperechogenicity	
+BM002099	Mean intensity score of SN pars compacta	
+BM002100	Mean PU R2	
+BM002101	Mean width of frontal horns of lateral ventricles	
+BM002102	Mean width of third ventricle	
+BM002209	MSNA of peroneal nerve fascicles in right popliteal fossa	
+BM002262	Neural thread protein	
+BM002294	Nitrate	
+BM002310	Noradrenaline	
+BM002416	P3 amplitude	
+BM002417	P3 latency	
+BM002482	Percentage of short 1st agonist burst durations	
+BM002509	Phenanthroline-copper	
+BM002616	PU R2''	
+BM002641	Regulated upon activation of normal T cell expressed and secreted (RANTES)	
+BM002692	Slope of power law relation (slope of HRV)	
+BM002698	SN fractional anisotropy (FA) value	
+BM002922	Unilateral area of substantia nigra hyperechogenicity	
+BM000683	8-hydroxy-2-deoxyguanosine (8-OHdG)	
+BM000645	[99mTc]-hexamethylpropylene amine oxid (HMPAO)	
+BM002394	cell death pathways	
+BM002395	energy compromise	
+BM002396	inflammation	
+BM001980	kynurenine metabolism	
+BM000489	monoamine metabolites	
+BM002397	neurotrophin alterations	
+BM002398	oxidative stress	
+BM002399	proteolysis	
+BM002400	transcriptional alterations	
+BM000491	tryptophan pathway metabolites	
+BM000682	8-hydroxy-2-deoxyguanosine (8-OHdG)	
+BM000009	AIx-42	
+BM000869	B-Amyloid	
+BM001347	disproportionate atrophy	
+BM002770	Tau protein	
+BM000653	11C-(R)-PK11195	
+BM000655	123I-5IA-85380	
+BM000658	123I-5IA-85380	
+BM000656	123I-IBVM	
+BM000659	123I-IBVM	
+BM000667	2-(1-{6-[(2-[F-18]fluoroethyl)(methyl)amino]-2-naphthyl}ethylidene) malononitril e (FDDNP)	
+BM000864	AIo	
+BM000836	Arterial spin labeling (ASL)	
+BM000837	Arterial spin labeling (ASL)	
+BM001084	Choline	
+BM001085	Creatine	
+BM001343	Diffusion tensor imaging (DTI)	
+BM002518	florbetapir	
+BM001086	Glutamate	
+BM001087	Glutamine	
+BM001939	Isoprostanes	
+BM001940	Isoprostanes	
+BM002014	longitudinal MRI volumetric data	
+BM002103	medial temporal lobe (MTL)	
+BM001088	Myoinositol	
+BM001089	Phosphocreatine	
+BM000538	P-tau 231	
+BM002639	Regional blood oxygen level dependent (BOLD)	
+BM000851	AI40	
+BM000857	AI40	
+BM000853	pTau181	
+BM000862	pTau181	
+BM000854	PTau199	
+BM000855	PTau231	
+BM000182	age	
+BM000660	123I-quinuclidinyl benzilate (123I-QNB)	
+BM000657	123I-quinuclidinylbenzilate (123I-QNB)	
+BM000771	Amyloid beta	
+BM001552	Anterior temporal atrophy	
+BM000373	Anterior temporal hypometabolism	
+BM000374	Anterior temporal hypoperfusion	
+BM001321	Cytokines	
+BM001553	frontal temporal atrophy	
+BM000375	frontal temporal hypoperfusion	
+BM000376	frontal temporal hypoperfusion	
+BM000773	Tau protein	
+BM003022	I-1 adrenergic receptor	
+BM003023	I-2 adrenergic receptor	
+BM002828	IFNI producing CD8+ T cells	
+BM002829	TNFI producing CD8+ T cells	
+BM001782	BAFF	
+BM001566	GFAP	
+BM001754	IgG	
+BM002305	NMO-IgG	
+BM001661	H-FABP	
+BM001162	Complement C3	
+BM002544	Complement C3	
+BM001342	Diffusion tensor imaging	
+BM001406	Electrical impedance myography	
+BM001513	FetuinaA	
+BM003020	I2aglycoprotein	
+BM001807	ILa2, ILa6, ILa10, ILa15, GMaCSF	
+BM002185	ILa8	
+BM002186	ILa8	
+BM002053	Magnetic resonance spectroscopy	
+BM002187	monocyte chemoattractant proteina1 (MCPa1)	
+BM002191	Motor unit number estimation	
+BM002270	Neurophysiological index	
+BM001022	S100I	
+BM002999	Voxel-based morphometry	
+BM000675	4-Hydroxy-2	
+BM000778	Amyloid-beta 1-42	
+BM000815	Anti-neural antibodies against asialo-GM1- gangliosides	
+BM000816	Anti-neural antibodies against asialo-GM1- gangliosides	
+BM000817	Anti-neural antibodies against sulfatides	
+BM000767	Aspartate	
+BM001581	Glutamate	
+BM001583	Glutathione	
+BM000768	Glycine	
+BM001752	IgG	
+BM001935	iron	
+BM002058	Markers of the neuroprotection	
+BM002168	MMP-9 metalloproteinase	
+BM002255	Neopterin	
+BM002293	Nitrate	
+BM002496	Peroxynitrite	
+BM002665	S100b	
+BM002775	Tau protein	
+BM002844	Total protein	
+BM002877	Transglutaminases activity (TGases)	
+BM002927	Uric acid	
+BM000674	3-nonenal (HNE)	
+BM000681	8-hydroxy-2-deoxyguanosine (8-OHdG)	
+BM002690	Single-fiber EMG	
+BM001236	8-iso-prostaglandin F(2 alpha) isoprostane	
+BM001040	CD25+ T cells expressing FoxP3 and VPACR2	
+BM001041	CD4+	
+BM002301	CD8+ T cells	
+BM001181	Cortisol	
+BM001714	HPA axis dysfunction	
+BM002360	IL12	
+BM001985	lactate	
+BM002020	LPS induced pro-inflammatory cytokines under psychological stress	
+BM001838	LTI	
+BM002151	mitochondria	
+BM002190	most sensory receptors	
+BM002253	Natural killer (NK) cell function (NKCC)	
+BM002302	NK	
+BM002300	NK cell	
+BM002358	NYP	
+BM002362	NYP	
+BM002767	T cell	
+BM002992	Vitamin E	
+BM000789	antibodies against human vimentin and humanglial fi- brillary acid protein (GFAP ), anti-Ro/SS-A (Sjogren syndrome A; also commonly called Ro antigens), serum an ti- bodies that bind to human optic nerve head proteoglycans, including chondroi tin sulfate and heparin, serum autoanti- bodies against gamma-enolase(y-enolase) in retinal ganglion cells of glaucomatous patients and glutathione S-transferas e (GST) antibodies	
+BM001108	Citrate	
+BM001322	Cytotoxicity	
+BM002902	tubulin alpha-1A chain, SAPS domain family member 1, lim and SH3 domain protein 1, synaptosomalassociated protein 23, latent-transforming growth factor beta-bin ding protein, isoform lL, drebrin, proto-oncogene tyrosine-protein kinase Src, t hymosin beta-10, zinc fingerprotein 185, dynamin-1-like protein, protein phosph atase 1 regulatory subunit 12A, platelet endothelial cell adhesion molecule, tra nsgelin-2, AP-2 complex subunit sigma-1 and exportin-7	
+BM001165	Conjunctival cell proliferative capacity	
+BM000312	conjunctival cell viability	
+BM001166	Conjunctival cell viability	
+BM001167	Conjunctival intraepithelial CD19+ B cells	
+BM001168	Conjunctival intraepithelial CD3+ T cells	
+BM001169	Conjunctival intraepithelial T cells CD4/CD8 ratio	
+BM002106	Metalloproteinase-9	
+BM002364	OAHFA	
+BM002365	OAHFA	
+BM000313	proliferative capacity	
+BM000235	BAT2	
+BM000236	BAT5	
+BM002312	C5orf23	
+BM000371	FLJ32810	
+BM001613	Guanine nucleotide binding protein (G protein), beta polypeptide 3 (GNB3)	
+BM002344	Nuclear factor of k light polypeptide gene enhancer in B-cells inhibitor	
+BM002336	NT-proBNP	
+BM000002	high on-treatment platelet reactivity (P2Y12 reactivity unit [PRU] value of more than 234)	
+BM001044	CD40L	
+BM002120	microRNA	
+BM001126	CK-MB	
+BM001127	Myoglobin	
+BM002536	Platelet count	
+BM002537	Platelet size	
+BM002538	Platelet turnover	
+BM002539	reticulated platelets	
+BM001468	estimated glomerular filtration rate	
+BM001597	GPBB	
+BM002234	Myoglobin	
+BM002331	N-terminal pro-B-type natriuretic peptide (NT-pro-BNP)	
+BM002737	ST-2	
+BM001177	Copeptin (C-terminal pro-vasopressin)	
+BM001659	H-FABP	
+BM002131	MiR-1	
+BM002132	MiR-133a	
+BM002133	MiR-208a	
+BM002134	MiR-499-5p	
+BM002221	Mrp-14)	
+BM002222	Myeloid-related protein-14	
+BM002332	N-terminal pro-B-type natriuretic peptide (NT-pro-BNP)	
+BM002738	ST-2	
+BM002016	Lp(a)	
+BM002624	SMCR3	
+BM001190	Corus CAD	
+BM001660	H-FABP	
+BM000921	NT-proBNP	
+BM001658	H-FABP	
+BM000919	NT-proBNP	
+BM001504	FENO	
+BM000250	N-terminal pro-brain natriuretic peptide (NT-pro-BNP)	
+BM001512	Fetuin-A	
+BM001706	Homocysteine	
+BM002009	Lipid	
+BM002335	NT-proBNP	
+BM002379	Osteopontin	
+BM000501	N-terminal Pro-BNP (NP)	
+BM000753	Aldosterone	
+BM000949	CA125	
+BM001256	C-terminal pro-endothelin-1	
+BM002243	KIM-1	
+BM002019	Lp-PLA2	
+BM002203	MR-proADM	
+BM002206	MR-pro-ANP	
+BM002244	NAG	
+BM002281	NGAL	
+BM002311	Norepinephrine	
+BM002334	NT-pro-ANP	
+BM002402	oxLDL antibodies	
+BM002741	sTNFR1	
+BM002742	sTNFR2	
+BM002910	Type I collagen telopeptide	
+BM000754	AlloMap	
+BM000397	Homocysteine	
+BM001963	KIM-1	
+BM002282	NGAL	
+BM000502	N-terminal Pro-BNP (NP)	
+BM000503	N-terminal Pro-BNP (NP)	
+BM000504	N-terminal Pro-BNP (NP)	
+BM000505	N-terminal Pro-BNP (NP)	
+BM000909	BNP, sodium, copeptin	
+BM001178	copeptin; hsTN	
+BM002246	Natriuretic peptide	
+BM002338	NT-proBNP, adrenomedullin, troponin, copeptin	
+BM000730	ADMA	
+BM001238	ADMA	
+BM001120	CK-MB	
+BM001122	Myoglobin	
+BM001123	Osteopontin	
+BM000302	Cholesterol	
+BM001214	Creatinine	
+BM002924	Uric acid	
+BM002991	Vitamin D	
+BM001210	Homocysteine	
+BM001211	Interleukins	
+BM000727	Adhesion molecule-1	
+BM002002	Leukocyte	
+BM002179	Tumor necrosis factor alpha	
+BM001905	Inducible nitric oxide synthase (MIM 163730	
+BM001906	iNOS/NOS2A)	
+BM002381	OPN	
+BM002382	Osteopontin	
+BM001334	D-dimer	
+BM001335	D-dimer	
+BM001337	D-dimer	
+BM001554	FVIII	
+BM001907	Inflammatory cytokines	
+BM001908	Inflammatory cytokines	
+BM002000	Leukocyte	
+BM002001	Leukocyte	
+BM002116	Microparticle (MP)	
+BM002117	Microparticle (MP)	
+BM001336	D-dimer	
+BM002570	MR-proANP	
+BM002571	Pro-ANP	
+BM000701	Aa-Val360	
+BM000994	CC-16	
+BM000684	8-isoprostane	
+BM001147	CO	
+BM001483	Ethane	
+BM002466	Ethane	
+BM001614	H2O2	
+BM002467	Pentane	
+BM000700	Aa-Val360	
+BM000820	Antinuclear autoantibodies (ANAs)	
+BM000723	B-defensins	
+BM001048	CD8t T cells	
+BM001235	CRP, b-defensin, adiponectin, IL-6, fibrinogen, CCL18, MMP-8, prolactin	
+BM001340	Desmosine	
+BM001416	EMMPRIN	
+BM000445	IL12p70	
+BM001903	Immunoglobulin light-chain	
+BM000724	Surfactant protein A	
+BM000725	Surfactant protein D	
+BM001146	CO	
+BM001368	EBC pH	
+BM001482	Ethane	
+BM000326	H2O2	
+BM001717	hs-CRP; exhaled NO	
+BM000327	Nitrate	
+BM000328	Nitrite	
+BM000530	Pentane	
+BM001422	eNO; eosinophils	
+BM001431	Eosinophils	
+BM001432	Eosinophils	
+BM001433	Eosinophils	
+BM001434	Eosinophils	
+BM002746	Chymase-positive mast cells	
+BM002747	Collagens	
+BM001828	Eotaxins	
+BM001891	LTB4	
+BM002696	mast cells in smooth muscle	
+BM002697	Smooth muscle	
+BM002748	subepithelial basement membrane (SBM)	
+BM001825	15-hyroxyeicosetetrenoic acid (15-HETE)	
+BM000668	2-aminoacetophenone	
+BM000685	8-isoprostane	
+BM001148	CO	
+BM000669	Hydrogen cyanide	
+BM000493	MR-proadrenomedullin	
+BM001149	CO	
+BM001529	Fibrocytes	
+BM001966	KL-6	
+BM001967	KL-6	
+BM002159	MMP7	
+BM002160	MMP7	
+BM002161	MMP7	
+BM002380	Osteopontin	
+BM002723	SP-A	
+BM002724	SP-A	
+BM002884	Tregs	
+BM002885	Tregs	
+BM002886	Tregs	
+BM000823	Anti-topoisomerase I antibodies (ATA)	
+BM000689	A 17 kDa molecular weight protein	
+BM000871	Basic proline-rich peptide	
+BM002845	Total proteins	
+BM001371	EDN	
+BM000480	mast cell products and dysregulated transcriptomes	
+BM002062	Mast cells	
+BM002121	MicroRNA	
+BM002148	MiR-375	
+BM002149	MiRNA-21	
+BM002150	MiRNA-223	
+BM000486	MiRNA-675	
+BM001747	Antideaminated forms of gliadin peptides antibodies (IgA anti-DGP)	
+BM001748	IgA anti-EMA (antiendomysium antibody)	
+BM001749	IgA anti-tTG	
+BM000698	a-2 macroglobulin, haptoglobin, total bilirubin, g-glutamyl transferase, ALT, AS T, total cholesterol, TG, fasting blood glucose.	
+BM000762	ALT	
+BM000763	AST	
+BM001492	Fas	
+BM001496	Fasting glucose	
+BM001615	HA, TIMP-1, PIIINP (enhanced liver fibrosis panel; ELF panel)	
+BM001705	homeostatic model assessment (HOMA)	
+BM001909	Insulin resistance	
+BM002333	N-terminal propeptide of type III collagen (PIIINP)	
+BM001981	Kynurenine	
+BM001982	Tryptophan	
+BM001989	L-arginine	
+BM000790	Anti-A4-Fla2	
+BM000791	Antibodies to Cbir1	
+BM000793	Antibodies to Fla- X	
+BM000798	Antibodies to Fla- X	
+BM000794	Antibodies to Flagellin A4-Fla2	
+BM000799	Antibodies to Flagellin A4-Fla2	
+BM000795	Antibodies to outer membrane porin (Anti-OmpC)	
+BM000800	Antibodies to outer membrane porin (Anti-OmpC)	
+BM000792	anti-FlaX	
+BM000805	Anti-I2	
+BM000808	Antilaminaribioside carbohydrate IgG (ALCA)	
+BM000811	Antilaminaribioside carbohydrate IgG (ALCA)	
+BM000818	Anti-neutrophil cytoplasmic antibodies (ANCAs)	
+BM000819	Anti-neutrophil cytoplasmic antibodies (ANCAs)	
+BM000806	Anti-Omp C	
+BM000821	Anti-Saccharomyces cerevisiae antibodies (ASCA)	
+BM000822	Anti-Saccharomyces cerevisiae antibodies (ASCA)	
+BM000809	Anti-synthetic mannoside antibodies (AMCA)	
+BM000812	Anti-synthetic mannoside antibodies (AMCA)	
+BM000838	ASCA	
+BM001737	IDO1 mediated tryptophan catabolism pathway	
+BM002029	IL 10	
+BM002039	IL 10	
+BM002030	IL1 B	
+BM002040	IL1 B	
+BM002031	IL4	
+BM002041	IL4	
+BM000797	Pseudomonas flourescens-associated sequence Ia2 (Anti-I2)	
+BM000802	Pseudomonas flourescens-associated sequence Ia2 (Anti-I2)	
+BM001629	Hemoglobin	
+BM000214	8-hydroxy guanosine	
+BM001522	BI and D-dimer	
+BM001523	C4	
+BM001027	CD3 T-cell	
+BM001192	CpG methylation	
+BM001525	Fibrinopeptide A	
+BM000394	high sensitivity CRP, osteoprotegerin, matrixmetalloproteinase 3; the CPII:C2C ratio	
+BM001990	IFHIH1	
+BM000578	IFN-I	
+BM001243	IFN-I	
+BM001245	IL-18.	
+BM002135	MiR-125b	
+BM002136	MiR-1266	
+BM002138	MiR-146a	
+BM002139	MiR-203	
+BM002140	MiR-21	
+BM002596	Protein C	
+BM002782	Th1	
+BM000422	Th17	
+BM002783	Th17	
+BM002784	Th22	
+BM001153	COL2-34C (long) epitope	
+BM001154	COL2-34C (long) epitope	
+BM001155	COL2-34C (short) epitope	
+BM001156	COL2-34C (short) epitope	
+BM000329	C-terminal cross-linked telopeptide of type II collagen (CTX-II)	
+BM000330	C-terminal cross-linked telopeptide of type II collagen (CTX-II)	
+BM000331	C-terminal cross-linked telopeptide of type II collagen (CTX-II)	
+BM001254	C-terminal cross-linked telopeptide of type II collagen (CTX-II)	
+BM001439	Epitope 846	
+BM001580	glucosylagalactosylapyridinoline(Glc-Gal-PYD)	
+BM002295	Nitrated form of nine-amino-acid peptide of type II collagen (Coll 2-1 NO2)	
+BM002330	N-terminal cross-linked telopeptide of type I collagen (NTX-I)	
+BM002371	Osteocalcin [OCN]	
+BM002468	Pentosidine	
+BM001531	Fibulin-3 peptide 1	
+BM001532	Fibulin-3 peptide 2	
+BM002086	KC	
+BM002087	MCP-1	
+BM000462	KOA1 (TGLESGHGPGDS)	
+BM000475	LTA + 252 (A > G); LGALS2 + 3279 (C > T)	
+BM002378	osteoclast precursors	
+BM000188	Postmenopausal women with persistent total hip, femoral neck, or lumbar spine BM D T-scores a1.8 to a4.0, or clinical fracture	
+BM000788	Anti aldose-reductase antibodies (Anti-AR antibodies)	
+BM000813	Anti-M type phospholipase A2 receptor antibodies (Anti-PLA2R antibodies)	
+BM000814	Anti-M type phospholipase A2 receptor antibodies (Anti-PLA2R antibodies)	
+BM000225	Anti-SOD2 antibodies	
+BM001270	CyC	
+BM001271	CyC	
+BM001961	KIM-1	
+BM001962	KIM-1	
+BM002006	L-FABP	
+BM002007	L-FABP	
+BM002279	NGAL	
+BM002280	NGAL	
+BM001213	Creatinine	
+BM001491	FABP	
+BM002370	OPN	
+BM002923	Urea nitrogen	
+BM000946	Ca	
+BM001710	Creatinine	
+BM001707	Homocysteine	
+BM001711	Homocysteine	
+BM002337	NT-pro-BNP	
+BM000948	Pi	
+BM002471	Soluble TNF-like weak inducer of apoptosis (sTWEAK)	
+BM002990	Vitamin D	
+BM002572	ProBNP	
+BM002874	transforming growth factor (TGF-)	
+BM001515	FGF-232	
+BM000386	heart fatty acidabinding protein	
+BM002241	N-Acetyl-I-D-glucosamindase (NAG	
+BM002841	glomerular hyperfiltration (GH)	
+BM001600	Gross hematuria	
+BM001620	HDL-cholesterol	
+BM001722	HTN	
+BM003028	I2 -microglobulin	
+BM001601	male gender	
+BM001602	Proteinuria	
+BM002842	renal blood flow (RBF)	
+BM002701	sodium	
+BM002843	total kidney volume (TKV)	
+BM002928	urine osmolality	
+BM001603	young age	
+BM000664	18F-fluorodeoxyglucose (FDG)	
+BM000662	18F-fluorodeoxyglucose (FDG)	
+BM000663	18F-fluorodeoxyglucose (FDG)	
+BM000673	3-nitrotyrosine (3-NT)	
+BM002584	3-nitrotyrosine (3-NT)	
+BM000734	Adrenergic beta-1 receptor (ADRB1)	
+BM000735	Adrenergic beta-2 receptor (ADRB2)	
+BM000736	Adrenergic beta-3 receptor (ADRB3)	
+BM000783	Angiotensin II receptor type 1 (AGTR1)	
+BM000784	Angiotensin II receptor type 2 (AGTR2)	
+BM000785	Angiotensinogen (AGT)	
+BM000786	Ankle brachial index (ABI)	
+BM000807	Antichitobioside carbohydrate IgA (ACCA)	
+BM000810	Antichitobioside carbohydrate IgA (ACCA)	
+BM000835	Arginine vasopressin (AVP)	
+BM000847	ATP-binding cassette sub-family B member 1 (ABCB1)	
+BM000848	Atrial natriuretic peptide (ANP)	
+BM000849	Atrial natriuretic peptide (ANP)	
+BM000249	Brain natriuretic peptide (BNP)	
+BM000028	Brain natriuretic peptide (BNP)	
+BM000246	Brain natriuretic peptide (BNP)	
+BM000247	Brain natriuretic peptide (BNP)	
+BM000248	Brain natriuretic peptide (BNP)	
+BM000053	Brain natriuretic peptide (BNP)	
+BM000245	Brain natriuretic peptide (BNP)	
+BM000929	Brain natriuretic peptide (BNP)	
+BM000912	B-type natriuretic peptide (BNP)	
+BM000910	B-type natriuretic peptide (BNP)	
+BM000914	B-type natriuretic peptide (BNP)	
+BM000933	B-type natriuretic peptide (BNP)	
+BM000251	B-type natriuretic peptide (BNP)	
+BM000252	B-type natriuretic peptide (BNP)	
+BM000920	B-type natriuretic peptide (BNP)	
+BM000918	B-type natriuretic peptide (BNP)	
+BM000865	B-type natriuretic peptide (BNP)	
+BM000908	B-type natriuretic peptide (BNP)	
+BM000934	B-type natriuretic peptide (BNP)	
+BM001119	B-type natriuretic peptide (BNP)	
+BM000907	B-type natriuretic peptide (BNP)	
+BM002663	Calgranulin A (S100A8)	
+BM002664	Calgranulin B (S100A9)	
+BM000982	Carotid intima-media thickness (CIMT)	
+BM001100	Circulating endothelial cell (CEC)	
+BM001180	Coronary artery calcium (CAC)	
+BM001193	C-propeptide of collagen type II (PIICP)	
+BM001255	C-terminal fragment of Type I collagen (PICP)	
+BM001308	Cysteinyl leukotrienes (cysLTs)	
+BM001827	Cysteinyl leukotrienes (cysLTs)	
+BM001309	Cytochrome P450-PCN3 (CYP3A5)	
+BM001328	Detection of apoptosing retinal cells (DARC)	
+BM001344	Dihydroxyphenylacetic acid (DOPAC)	
+BM002553	Dimethylacetals (DMA)	
+BM001354	Dopamine beta-hydroxylase (DBH)	
+BM001356	Dopamine D1 receptor (DRD1)	
+BM001357	Dopamine D2 receptor (DRD2)	
+BM001358	Dopamine D3 receptor (DRD3)	
+BM001407	Electrocardiography (ECG)	
+BM001417	Endothelial progenitor cell (EPC)	
+BM001430	Eosinophil-derived neurotoxin (EDN)	
+BM001462	Erythrocyte Sedimentation Rate (ESR)	
+BM001457	Erythrocyte Sedimentation Rate (ESR)	
+BM001458	Erythrocyte Sedimentation Rate (ESR)	
+BM001459	Erythrocyte Sedimentation Rate (ESR)	
+BM001460	Erythrocyte Sedimentation Rate (ESR)	
+BM001461	Erythrocyte Sedimentation Rate (ESR)	
+BM001487	Exhaled nitric oxide (eNO)	
+BM001490	F(2)-isoprostanes (F2-IsoPs)	
+BM000488	F(2)-isoprostanes (F2-IsoPs)	
+BM001488	F(2)-isoprostanes (F2-IsoPs)	
+BM001489	F(2)-isoprostanes (F2-IsoPs)	
+BM000731	F(2)-isoprostanes (F2-IsoPs)	
+BM000796	Flagellin (Anti-Cbir1)	
+BM000801	Flagellin (Anti-Cbir1)	
+BM001539	Florbetaben (18F-BAY94-9172)	
+BM002517	Florbetaben (18F-BAY94-9172)	
+BM001548	Fragment of exhaled nitric oxide (FENO)	
+BM001549	Fragment of exhaled nitric oxide (FENO)	
+BM001550	Fragment of exhaled nitric oxide (FENO)	
+BM001559	Galectin-3 (LGALS3)	
+BM001560	Ganglioside 2 (GM2)	
+BM001562	Ganglioside 2 (GM2)	
+BM001561	Ganglioside 3 (GM3)	
+BM001563	Ganglioside 3 (GM3)	
+BM003024	Heart-type fatty acidbinding protein (H-FABP)	
+BM001627	Helical type II collagen (HELIX-II)	
+BM002533	High-on-treatment platelet reactivity (HTPR)	
+BM000756	Human chorionic gonadotropin (hCG)	
+BM001724	Human homologue of breast regression protein 39 (BRP39)	
+BM001729	Hyaluronic acid (HA)	
+BM001727	Hyaluronic acid (HA)	
+BM001728	Hyaluronic acid (HA)	
+BM001730	Hydroxyeicosatetraenoic acid products (HETEs)	
+BM001731	Hydroxysteroid (11-beta) dehydrogenase 2 (HSD11B2)	
+BM002534	Immature platelet fraction (IPF)	
+BM001911	Intercellular adhesion molecule-1 (ICAM-1)	
+BM000603	Intercellular adhesion molecule-1 (ICAM-1)	
+BM001916	Interferon-gamma (IFNG)	
+BM001917	Interferon-gamma (IFNG)	
+BM001929	Interleukin-6 (IL6)	
+BM001919	Interleukin-6 (IL6)	
+BM001920	Interleukin-6 (IL6)	
+BM001924	Interleukin-6 (IL6)	
+BM001923	Interleukin-6 (IL6)	
+BM001932	Interleukin-8 (IL8)	
+BM001938	Ischemia-modified albumin (IMA)	
+BM001960	Kidney injury molecule-1 (KIM-1)	
+BM001999	Leucocyte 8-hydroxy-2-deoxygyanosine (8-OHdG)	
+BM002011	Lipoprotein lipase (LPL)	
+BM002051	Macrophage migration inhibitory factor (MIF)	
+BM000672	Malondialdehyde (MDA)	
+BM002054	Malondialdehyde (MDA)	
+BM002081	Matrix metalloproteinase-9 (MMP-9)	
+BM002535	Mean platelet volume (MPV)	
+BM003026	Monocyte chemotactic protein-1 (MCP-1)	
+BM002225	Myeloperoxidase (MPO)	
+BM002228	Myeloperoxidase (MPO)	
+BM002229	Myeloperoxidase (MPO)	
+BM000732	Myeloperoxidase (MPO)	
+BM001240	Myeloperoxidase (MPO)	
+BM002034	Myeloperoxidase (MPO)	
+BM002044	Myeloperoxidase (MPO)	
+BM002237	N-acetyl aspartate (NAA)	
+BM002238	N-acetyl aspartate (NAA)	
+BM002247	Natriuretic peptide precursor A (NPPA)	
+BM002248	Natriuretic peptide precursor B (NPPB)	
+BM002249	Natriuretic peptide precursor C (NPPC)	
+BM002250	Natriuretic peptide receptor C (NPR3)	
+BM002266	Neuropeptide Y (NPY)	
+BM002269	Neuropeptide Y receptor 1 (NPY1R)	
+BM002271	Neutrophil gelatinase associated lipocalin (NGAL)	
+BM002275	Neutrophil gelatinase associated lipocalin (NGAL)	
+BM002291	Nine-amino-acid peptide of type II collagen (Coll 2-1)	
+BM002292	N-isopropyl-P[123I]-iodoamphetamine ([123I]IMP)	
+BM000496	Nitric oxide (NO)	
+BM002308	Nitric oxide (NO)	
+BM002307	Nitric oxide (NO)	
+BM002297	Nitric oxide (NO)	
+BM002306	Nitric oxide (NO)	
+BM002298	Nitric oxide synthase 3 (NOS3)	
+BM002309	Non-Ceruloplasmin bound Copper (NCBC)	
+BM002314	N-propeptide II of collagen type II (PIINP)	
+BM002315	N-propeptide IIA of collagen type II (PIIANP)	
+BM002351	Nuclear receptor subfamily 3, group C, member 2 (NR3C2)	
+BM002388	Osteoprotogerin (OPG)	
+BM002178	Osteoprotogerin (OPG)	
+BM002389	Osteoprotogerin (OPG)	
+BM000947	Parathyroid hormone (iPTH)	
+BM002495	Peroxisome proliferator-activated receptor gamma (PPARG)	
+BM002510	Phenylethanolamine N-methyltransferase (PNMT)	
+BM002512	Phosphatidylcholine (PC)	
+BM002516	Pittsburgh compound B(PIB)	
+BM002519	Pittsburgh compound B(PIB)	
+BM002561	Placental protein 13 (PP13)	
+BM000207	Plasminogen activator inhibitor-1 (SERPINE1)	
+BM002554	Polyunsaturated fatty acid (PUFA)	
+BM002566	Pregnancy-associated plasma protein A (PAPP-A)	
+BM002563	Pregnancy-associated plasma protein A (PAPP-A)	
+BM002564	Pregnancy-associated plasma protein A (PAPP-A)	
+BM002565	Pregnancy-associated plasma protein A (PAPP-A)	
+BM000011	Progesterone receptor (PGR)	
+BM002583	Prostaglandin E2 (PGE2)	
+BM000686	Prostaglandin E2 (PGE2)	
+BM002617	Pyridinoline (PYD)	
+BM002645	Renin (REN)	
+BM002644	Renin (REN)	
+BM002702	Sodium channel nonvoltage-gated 1 alpha (SCNN1A)	
+BM002703	Sodium channel nonvoltage-gated 1 beta (SCNN1B)	
+BM002704	Sodium channel nonvoltage-gated 1 gamma (SCNN1G)	
+BM002722	Solute carrier family 12, member 1 (SLC12A1)	
+BM002721	Solute carrier family 12, member 3 (SLC12A3)	
+BM002732	Sphingomyelin (SM)	
+BM001310	Steroid 11-beta-hydroxylase (CYP11B1)	
+BM001311	Steroid 18-hydroxylase (CYP11B2)	
+BM002071	Tissue inhibitor of metalloproteinase (TIMP 1)	
+BM002797	Tissue inhibitor of metalloproteinase (TIMP 1)	
+BM002861	Transferase B, 1-3-galactosyltransferase(ABO)	
+BM002863	Transferase B, 1-3-galactosyltransferase(ABO)	
+BM002869	Transferase B, 1-3-galactosyltransferase(ABO)	
+BM002871	Transferase B, 1-3-galactosyltransferase(ABO)	
+BM002857	Transferase B, 1-3-galactosyltransferase(ABO)	
+BM002859	Transferase B, 1-3-galactosyltransferase(ABO)	
+BM002865	Transferase B, 1-3-galactosyltransferase(ABO)	
+BM002867	Transferase B, 1-3-galactosyltransferase(ABO)	
+BM002887	Triacylglycerides (TAGs)	
+BM002921	Undercarboxylated matrix-carboxyglutamic acid protein (ucMGP)	
+BM000604	Vascular cells adhesion molecule 1 (sVCAM-1)	

@@ -267,5 +267,37 @@ def to_single_file(input_dir, output_file):
     merged_entities.to_csv(output_file, sep="\t", index=False)
 
 
+@cli.command(help="Merge multiple entity files to a single file")
+@click.option(
+    "--input-file",
+    "-i",
+    help="Input file which contains a set of entity files",
+    multiple=True,
+    required=True,
+    type=click.Path(exists=True, file_okay=True, dir_okay=False),
+)
+@click.option(
+    "--output-file",
+    "-o",
+    help="Output file path, such as entities.tsv",
+    required=True,
+    type=click.Path(exists=False, file_okay=True, dir_okay=False),
+)
+def merge_multiple_files(input_file, output_file):
+    # Read the entities from all files
+    entities = list(map(lambda x: read_csv(x), input_file))
+
+    # Merge the entities from all files by row
+    merged_entities = pd.concat(entities, ignore_index=True, axis=0)
+
+    # Drop the duplicated entities
+    merged_entities = merged_entities.drop_duplicates(
+        subset=["id", "label"], keep="first"
+    )
+
+    # Write the merged entities to a tsv file
+    merged_entities.to_csv(output_file, sep="\t", index=False)
+
+
 if __name__ == "__main__":
     cli()
