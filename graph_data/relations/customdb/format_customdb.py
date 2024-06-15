@@ -105,6 +105,7 @@ def format_customdb(input_file, output_file):
 
     # Concatenate the valid and fixed relations
     df = pd.concat([valid_relations, invalid_relations])
+    df["resource"] = "CustomDB"
 
     print(f"Total relations: {df.shape[0]}")
     df = df.drop(columns=["idx"])
