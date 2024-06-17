@@ -11,7 +11,7 @@ graph_data_files = [
     "graph_data/entities.tsv",
     "graph_data/relations.tsv",
     "graph_data/knowledge_graph.tsv",
-    "graph_data/knowledge_graph_annotated.tsv",
+    "graph_data/annotated_knowledge_graph.tsv",
     "graph_data/relations",
     "graph_data/formatted_relations",
     "graph_data/formatted_entities",

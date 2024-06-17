@@ -8,7 +8,7 @@
 /entities.tsv
 /relations.tsv
 /log.txt
-/knowledge_graph_annotated.tsv
+/annotated_knowledge_graph.tsv
 /knowledge_graph.tsv
 
 /extracted_entities

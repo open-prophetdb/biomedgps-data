@@ -74,8 +74,8 @@ def cli(entity_file, relation_file, output_dir):
     output_file = os.path.join(output_dir, "knowledge_graph.tsv")
     knowledge_graph.to_csv(output_file, sep="\t", index=False)
 
-    output_file = os.path.join(output_dir, "knowledge_graph_annotated.tsv")
-    knowledge_graph_annotated = relations_df[
+    output_file = os.path.join(output_dir, "annotated_knowledge_graph.tsv")
+    annotated_knowledge_graph = relations_df[
         [
             "relation_type",
             "resource",
@@ -91,7 +91,7 @@ def cli(entity_file, relation_file, output_dir):
             "target_description",
         ]
     ]
-    knowledge_graph_annotated.to_csv(output_file, sep="\t", index=False)
+    annotated_knowledge_graph.to_csv(output_file, sep="\t", index=False)
 
 
 if __name__ == "__main__":

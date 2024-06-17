@@ -144,7 +144,7 @@ python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -
 #### Annotate relations
 
 ```bash
-# Annotate relations, It will generate two files: graph_data/knowledge_graph.tsv and graph_data/knowledge_graph_annotated.tsv
+# Annotate relations, It will generate two files: graph_data/knowledge_graph.tsv and graph_data/annotated_knowledge_graph.tsv
 python graph_data/scripts/annotate_relations.py -e graph_data/entities.tsv -r graph_data/relations.tsv -o graph_data
 ```
 
