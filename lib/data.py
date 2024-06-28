@@ -302,12 +302,13 @@ def merge_files(input: list, output: str) -> None:
 
     print("Merging the following files: ", input)
     for idx, df in enumerate(dfs):
-        print(f"The following columns are in the {input[idx]}: {df.columns.to_list()}")
+        print(f"The following columns are in the {input[idx]}: {df.columns.to_list()}, Number of rows: {len(df)}")
 
     print("The following columns will be used: ", columns)
 
     # Merge the dataframes
     df = pd.concat([df[columns] for df in dfs], ignore_index=True)
+    print("Number of rows in the merged dataframe: ", len(df))
     df.to_csv(output, sep="\t", index=False)
 
 

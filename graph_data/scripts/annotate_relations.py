@@ -31,21 +31,30 @@ logging.basicConfig(level=logging.INFO, format=fmt)
     required=True,
     type=click.Path(exists=False, file_okay=False, dir_okay=True),
 )
-def cli(entity_file, relation_file, output_dir):
+@click.option(
+    "--strict-mode",
+    "-s",
+    help="Whether to use strict mode for entity matching, if an id is not found in the entities file, skip the relation.",
+    is_flag=True,
+    default=False
+)
+def cli(entity_file, relation_file, output_dir, strict_mode):
     entities = pd.read_csv(entity_file, sep="\t", low_memory=False)
     relations_df = pd.read_csv(relation_file, sep="\t", low_memory=False)
+
+    print("Found {} relations in the input file".format(len(relations_df)))
 
     # Annotate relations_df with the entities dataframe
     entities = entities[["id", "label", "name", "description"]]
     relations_df = relations_df.merge(
-        entities, left_on=["source_id", "source_type"], right_on=["id", "label"]
+        entities, left_on=["source_id", "source_type"], right_on=["id", "label"], how="left" if strict_mode else "inner"
     )
     relations_df = relations_df.rename(
         columns={"name": "source_name", "description": "source_description"}
     )
     relations_df = relations_df.drop(columns=["id", "label"])
     relations_df = relations_df.merge(
-        entities, left_on=["target_id", "target_type"], right_on=["id", "label"]
+        entities, left_on=["target_id", "target_type"], right_on=["id", "label"], how="left" if strict_mode else "inner"
     )
     relations_df = relations_df.rename(
         columns={"name": "target_name", "description": "target_description"}
@@ -71,6 +80,10 @@ def cli(entity_file, relation_file, output_dir):
             "target_name",
         ]
     ]
+    
+    if strict_mode:
+        print("You're in strict mode, so {} relations were skipped.".format(len(relations_df) - len(knowledge_graph)))
+
     output_file = os.path.join(output_dir, "knowledge_graph.tsv")
     knowledge_graph.to_csv(output_file, sep="\t", index=False)
 

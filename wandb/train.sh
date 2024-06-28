@@ -84,8 +84,9 @@ do
     fi
 done
 
+ARGS+=("--hidden_dim" "$DIM")
+
 if [ "$ENABLE_EMBEDDING" == "True" ]; then
-    ARGS+=("--hidden_dim" "$DIM")
     ARGS+=("--entity-emb-file" "entities_embeddings_${DIM}.tsv")
     ARGS+=("--relation-emb-file" "relation_types_embeddings_${DIM}.tsv")
 fi
