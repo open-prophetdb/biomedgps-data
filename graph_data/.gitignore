@@ -6,6 +6,8 @@
 /relations/*
 !/relations/README.md
 /entities.tsv
+/entities_full.tsv
+/entities.log
 /relations.tsv
 /log.txt
 /annotated_knowledge_graph.tsv

@@ -103,6 +103,103 @@ entity_db_order_map = {
 }
 
 
+id_priority = {
+    "Disease": ["MONDO", "MESH", "UMLS"],
+    "Symptom": ["SYMP", "UMLS"],
+    "Compound": ["DrugBank", "MESH"],
+}
+
+
+def deep_deduplicate(entities_df):
+    """Deep deduplicate the entities with the same id or cross-references.
+
+    Args:
+        entities_df (pd.DataFrame): The entities dataframe to be deduplicated.
+
+    Returns:
+        pd.DataFrame: The deduplicated entities dataframe.
+        list: The logs for the deduplication process.
+    """
+    entities = entities_df.copy()
+    logs = []
+    entities["xrefs"] = entities["xrefs"].fillna("")
+    entities["xrefs_list"] = entities["xrefs"].str.split("|")
+
+    def is_prefixed_id(id, prefixes):
+        return any(id.startswith(prefix) for prefix in prefixes)
+
+    def choose_id(ids, label):
+        for prefix in id_priority.get(label, []):
+            for id in ids:
+                if id.startswith(prefix):
+                    return id
+        return list(ids)[0]
+
+    merged_rows = []
+
+    for label, group in entities.groupby("label"):
+        if label not in id_priority:
+            merged_rows.extend(group.to_dict(orient="records"))
+            continue
+
+        id_to_index = {}
+        for index, row in group.iterrows():
+            id_to_index.setdefault(row["id"], []).append(index)
+            for xref in row["xrefs_list"]:
+                # Only consider xrefs that are prefixed ids
+                if xref and is_prefixed_id(xref, id_priority[str(label)]):
+                    id_to_index.setdefault(xref, []).append(index)
+
+        print(f"Processing {label} entities:")
+        logs.append(f"Processing {label} entities:")
+        processed_indices = set()
+        for indices in id_to_index.values():
+            if len(indices) > 1:
+                related_rows = group.loc[indices]
+                # Get and print all ids in the related rows
+                ids = related_rows["id"].tolist()
+                names = related_rows["name"].tolist()
+                id_names = list(zip(ids, names))
+                if len(set(ids)) > 1:
+                    print("These ids might point to the same entity:", id_names)
+                    logs.append("These ids might point to the same entity: %s" % id_names)
+                processed_indices.update(indices)
+
+                all_ids = set(related_rows["id"].tolist())
+                all_xrefs = set(related_rows["xrefs"].str.cat(sep="|").split("|"))
+                merged_xrefs = all_ids.union(all_xrefs) - {""}
+
+                main_id = choose_id(all_ids, label)
+                merged_row = related_rows.iloc[0].copy()
+                for col in related_rows.columns:
+                    if col not in ["id", "xrefs", "xrefs_list", "name"]:
+                        values = related_rows[col].fillna("").unique()
+                        merged_row[col] = "|".join(values)
+                merged_row["xrefs"] = "|".join(merged_xrefs)
+                merged_row["id"] = main_id
+                # Follow the order of the priority list to choose the name
+                merged_row["name"] = related_rows.loc[related_rows["id"] == main_id, "name"].values[0]
+                merged_rows.append(merged_row)
+
+        unprocessed_rows = group.loc[group.index.difference(list(processed_indices))]
+        merged_rows.extend(unprocessed_rows.to_dict(orient="records")) # type: ignore
+
+    merged_df = pd.DataFrame(merged_rows)
+    # Remove the xrefs_list column
+    merged_df = merged_df.drop(columns=["xrefs_list"]).fillna("")
+    first_cols = ["id", "name", "description", "label", "resource"]
+    join_cols = [col for col in merged_df.columns if col not in first_cols]
+    agg_dict = {col: 'first' for col in first_cols}
+    join_cols_dict = {col: lambda x: '|'.join(sorted(set('|'.join(x).split('|')))) for col in join_cols}
+    agg_dict.update(**join_cols_dict) # type: ignore
+
+    result_df = merged_df.groupby("id").agg(agg_dict)
+    # Rename the index before resetting it
+    result_df.index.name = "index_id"
+    result_df = result_df.reset_index()
+    return result_df, logs
+
+
 def title_case_to_snake_case(title_str):
     snake_case_str = re.sub(r"(?<!^)(?=[A-Z])", "_", title_str).lower()
     return snake_case_str
@@ -219,7 +316,13 @@ def from_databases(input_dir, output_dir):
     required=True,
     type=click.Path(exists=False, file_okay=True, dir_okay=False),
 )
-def to_single_file(input_dir, output_file):
+@click.option(
+    "--deep-deduplication",
+    "-d",
+    help="Whether to perform deep deduplication",
+    is_flag=True,
+)
+def to_single_file(input_dir, output_file, deep_deduplication):
     # Get all files in the input directory recursively
     resources = get_all_files_recursively(input_dir)
 
@@ -263,8 +366,17 @@ def to_single_file(input_dir, output_file):
         subset=["id", "label"], keep="first"
     )
 
-    # Write the merged entities to a tsv file
-    merged_entities.to_csv(output_file, sep="\t", index=False)
+    if deep_deduplication:
+        raw_output_file = output_file.replace(".tsv", "_full.tsv")
+        log_output_file = output_file.replace(".tsv", ".log")
+        deep_deduplication_entities, logs = deep_deduplicate(merged_entities)
+        merged_entities.to_csv(raw_output_file, sep="\t", index=False)
+        deep_deduplication_entities.to_csv(output_file, sep="\t", index=False)
+        with open(log_output_file, "w") as f:
+            f.write("\n".join(logs))
+    else:
+        # Write the merged entities to a tsv file
+        merged_entities.to_csv(output_file, sep="\t", index=False)
 
 
 @cli.command(help="Merge multiple entity files to a single file")

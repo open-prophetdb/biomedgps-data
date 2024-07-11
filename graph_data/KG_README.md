@@ -1,19 +1,11 @@
 ### Entities
 > Extract entities from a set of databases
->
-> If you don't need to download new data, you can skip the following steps.
-
-> Disease
->
-> We choose to use the MONDO ontology as the source of disease terms. All other disease terms are mapped to MONDO terms.
->
+> 
 > For more convience, we also include all entity items from knowledgebases. First, we extract the id, name, description, label, resource fields from the knowledgebases, and then we map the id to MONDO terms by using the `ontology-matcher` tool.
 > 
 > There will be more easier to integrate these knowledgebases into our knowledge graph, if we can identify the unmapped terms first.
-
-#### Download the database by following the instructions in each folder in the data directory
-
-> If you want to add a new database, please add a new folder in the data directory and add a README.md file to describe how to download the database and extract entities from the database. After that, please modify the extract_entities.sh file to add the new database.
+>
+> If you want to add a new database, please add a new folder in the data directory and add a README.md file to describe how to download the database, write a python script to extract entities from the database. After that, please modify the extract_entities.sh file to run the python script. You can follow the existing scripts as an example.
 
 #### Step1: Extract entities
 
@@ -32,9 +24,7 @@ bash graph_data/scripts/extract_entities.sh -t all
 
 #### Step2: Merge entities
 
-This step will merge all the entities with the same type into one file.
-
-After merged, all the entities will be saved in the graph_data/extracted_entities/merged_entities folder. All the entities with the same type will be deduplicated by id and merged into one file. Each entity type will have a file in the graph_data/extracted_entities/merged_entities folder.
+This step will merge all the entities with the same type into one file. After merged, all the entities will be saved in the graph_data/extracted_entities/merged_entities folder. All the entities with the same type will be deduplicated by id and merged into one file. Each entity type will have a file in the graph_data/extracted_entities/merged_entities folder.
 
 ```bash
 # Merge entity files by entity type
@@ -112,13 +102,13 @@ cp graph_data/extracted_entities/merged_entities/pharmacologic_class.tsv graph_d
 
 ##### Step4: Merge entity files into one file
 
-This step will merge all the entity files into one file. If we can find a `filtered.tsv` file in the formatted_entities folder, we will use the filtered.tsv file to merge entities. Otherwise, we will use the `tsv` file to merge entities. If you want to keep a subset of entities (such as deduplicating rows with some conditions and filtering rows with specified species etc.), this is a good opportunity to do it. You can do this at the Step3 and save a `*.filtered.tsv` file in the formatted_entities folder. Finally, the merged file will be saved in the graph_data folder. This file can be the reference file for formatting relations.
+This step will merge all the entity files into one file. If we can find a `filtered.tsv` file in the formatted_entities folder, we will use the filtered.tsv file to merge entities. Otherwise, we will use the `tsv` file to merge entities. If you want to keep a subset of entities (such as deduplicating rows with some conditions and filtering rows with specified species etc.), this is a good opportunity to do it. You can do this at the Step3 and save a `*.filtered.tsv` file in the formatted_entities folder. Finally, the merged file will be saved in the graph_data folder. This file can be the reference file for formatting relations. You will get three files: entities.tsv [after deduplication], entities_full.tsv [before deduplication], entities.log [the log file for deduplication].
 
-NOTE: If you add a new entity type, you should add a new line in the merge_entities.py file.
+NOTE: If you add a new entity type, you should change the merge_entities.py file to add the new entity type.
 
 ```bash
 # Merge formatted entity files into one file
-python graph_data/scripts/merge_entities.py to-single-file -i graph_data/formatted_entities -o graph_data/entities.tsv
+python graph_data/scripts/merge_entities.py to-single-file -i graph_data/formatted_entities -o graph_data/entities.tsv --deep-deduplication
 ```
 
 ### Relations
