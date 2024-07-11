@@ -1,0 +1,90 @@
+source_id	ttd_source_id	source_name	target_id	target_name	ttd_target_id	source_type	target_type	relation_type	resource
+	T00043		ICD-11:FA20	Rheumatoid arthritis	ICD-11:FA20	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T00099		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T00145		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T00158		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T00216		ICD-11:BD10-BD1Z	Heart failure	ICD-11:BD10-BD1Z	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T00259		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T01385		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T01788		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T02024		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T02107		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T02122		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T02203		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T02389		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T02392		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T02506		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T02653		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T02918		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T02957		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T10783		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T11562		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T11566		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T11610		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T18143		ICD-11:6C40	Substance abuse	ICD-11:6C40	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T18226		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+SYMBOL:TACR3	T29683	TACR3				Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T86437		ICD-11:2A22	Myelofibrosis	ICD-11:2A22	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T86513		ICD-11:4A44	Vasculitis	ICD-11:4A44	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T86573		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T86577		ICD-11:5A11	Type 2 diabetes mellitus	ICD-11:5A11	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T86597		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T86646		ICD-11:BD10-BD1Z	Heart failure	ICD-11:BD10-BD1Z	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T86805		ICD-11:2A00-2F9Z	Solid tumour/cancer	ICD-11:2A00-2F9Z	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T86837		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T86928		ICD-11:2C12	Liver cancer	ICD-11:2C12	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T87325		ICD-11:6C40	Substance abuse	ICD-11:6C40	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T87374		ICD-11:1D64	Middle East Respiratory Syndrome	ICD-11:1D64	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T87554		ICD-11:2A20	Myeloproliferative neoplasm	ICD-11:2A20	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T87633		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T88015		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T88547		ICD-11:6A20	Schizophrenia	ICD-11:6A20	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T88595		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T89039		ICD-11:6A20	Schizophrenia	ICD-11:6A20	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T89083		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T89415		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T89592		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T89636		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T89658		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T89736		ICD-11:6C40	Substance abuse	ICD-11:6C40	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T89826		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T89879		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T89917		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T90035		ICD-11:1D64	Middle East Respiratory Syndrome	ICD-11:1D64	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T90038		ICD-11:5C80	Hyperlipidemia	ICD-11:5C80	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T90048		ICD-11:FA20	Rheumatoid arthritis	ICD-11:FA20	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T90070		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T94119		ICD-11:2A80	Follicular lymphoma	ICD-11:2A80	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T94131		ICD-11:2A80	Follicular lymphoma	ICD-11:2A80	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T94307		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T94471		ICD-11:3A21	Paroxysmal nocturnal haemoglobinuria	ICD-11:3A21	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T94501		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T94514		ICD-11:FA20	Rheumatoid arthritis	ICD-11:FA20	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T94549		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T94879		ICD-11:HA00-HA01	Sexual dysfunction	ICD-11:HA00-HA01	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T94912		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T94918		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T94933		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T97719		ICD-11:2A60-2B33	Leukaemia	ICD-11:2A60-2B33	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T97729		ICD-11:BC71	Ventricular tachyarrhythmia	ICD-11:BC71	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T97747		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T97982		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T98092		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T98271		ICD-11:FA20	Rheumatoid arthritis	ICD-11:FA20	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T98278		ICD-11:BA00-BA04	Hypertension	ICD-11:BA00-BA04	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T98311		ICD-11:BA00-BA04	Hypertension	ICD-11:BA00-BA04	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T98390		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T98691		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T98945		ICD-11:1D64	Middle East Respiratory Syndrome	ICD-11:1D64	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99009		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99041		ICD-11:5A11	Type 2 diabetes mellitus	ICD-11:5A11	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99057		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99149		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99455		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99582		ICD-11:FA20	Rheumatoid arthritis	ICD-11:FA20	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99685		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99818		ICD-11:1D64	Middle East Respiratory Syndrome	ICD-11:1D64	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99834		ICD-11:8E49	Postviral fatigue syndrome	ICD-11:8E49	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99884		ICD-11:1F40-1F45	Malaria	ICD-11:1F40-1F45	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99908		ICD-11:1D65	Severe acute respiratory syndrome	ICD-11:1D65	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
+	T99993		ICD-11:1D6Y	COVID-19	ICD-11:1D6Y	Gene	Disease	DRUGBANK::treats::Compound:Disease	TTD
