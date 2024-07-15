@@ -121,7 +121,7 @@ python graph_data/scripts/merge_entities.py to-single-file -i graph_data/formatt
 # Clean the formatted relations folder
 rm -rf graph_data/formatted_relations
 
-graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug
+graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug --relation-type-dict-fpath ./embeddings/relation_types.xlsx
 ```
 
 #### Merge all formatted relations into one file
