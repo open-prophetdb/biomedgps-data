@@ -9,7 +9,7 @@ parameters:
   # All data files must be in the data_path/${dataset}. The data files must be named as train.tsv, valid.tsv, test.tsv.
   data_path:
     values:
-      - "/data/biomedgps-data/training/data"
+      - "/data/biomedgps-data/training_kge/data"
     distribution: categorical
   dataset:
     values:
@@ -17,7 +17,7 @@ parameters:
     distribution: categorical
   model_path:
     values:
-      - "/data/biomedgps-data/training/models"
+      - "/data/biomedgps-data/training_kge/models"
     distribution: categorical
   wandb_entity:
     values:

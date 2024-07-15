@@ -13,9 +13,9 @@ benchmarks/__pycache__
 benchmarks/test
 benchmarks/*.tsv
 
-training/data
-training/models
-training/wandb
+training_kge/data
+training_kge/models
+training_kge/wandb
 
 test.ipynb
 jupyter.log

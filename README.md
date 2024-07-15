@@ -77,7 +77,7 @@ Please note that it is not necessary to run all the following steps in the proje
 
   - Train & evaluate knowledge graph embedding models
 
-    If you want to train the knowledge graph embedding models by yourself, you can see the [training](./training) directory in this repository or see the related documentation [training/README.md](./training/README.md).
+    If you want to train the knowledge graph embedding models by yourself, you can see the [training_kge](./training_kge) directory in this repository or see the related documentation [training_kge/README.md](./training_kge/README.md).
 
   - Benchmark knowledge graph embedding models
 

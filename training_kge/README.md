@@ -86,7 +86,7 @@ The project is configured to run a sweep on the job queue and job. The sweep is 
 
 Upload/copy the <your-dir>/<dataset_name> directory to the directory you specified in the wandb config file. [Recommended] You can place the <dataset_name> directory in the same directory as the train.sh file and change the data_path argument in the wandb config file to the directory where the dataset is located.
 
-> NOTE: the dataset_name should be replaced by your own dataset name. You also need to keep them same with the dataset name you use in the `../training/wandb_sweep_kge.yaml` file.
+> NOTE: the dataset_name should be replaced by your own dataset name. You also need to keep them same with the dataset name you use in the `../training_kge/wandb_sweep_kge.yaml` file.
 
 ### Step 1: Login to wandb
 
