@@ -77,7 +77,7 @@ Please note that it is not necessary to run all the following steps in the proje
 
   - Train & evaluate knowledge graph embedding models
 
-    If you want to train the knowledge graph embedding models by yourself, you can see the [wandb](./wandb) directory in this repository or see the related documentation [wandb/README.md](./wandb/README.md).
+    If you want to train the knowledge graph embedding models by yourself, you can see the [training](./training) directory in this repository or see the related documentation [training/README.md](./training/README.md).
 
   - Benchmark knowledge graph embedding models
 

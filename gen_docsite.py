@@ -8,7 +8,7 @@ path_name_map = {
     "DEPENDENCIES.md": "installation_index.md",
     "graph_data/README.md": "graph_data_index.md",
     "graph_data/KG_README.md": "graph_data_kg.md",
-    "wandb/README.md": "wandb_index.md",
+    "training/README.md": "wandb_index.md",
     "graph_analysis/README.md": "graph_analysis_index.md",
     "examples/README.md": "examples_index.md",
     "embeddings/README.md": "embeddings_index.md",
