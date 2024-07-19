@@ -61,7 +61,6 @@ python3 graph_data/scripts/merge_entities.py merge-multiple-files -i graph_data/
 rm graph_data/extracted_entities/merged_entities/formatted_side_effect.tsv
 onto-match ontology -i graph_data/extracted_entities/merged_entities/merged_disease.tsv -o graph_data/formatted_entities/disease.tsv -O disease -s 0 -b 300
 rm graph_data/extracted_entities/merged_entities/merged_disease.tsv
-onto-match dedup --input-file graph_data/formatted_entities/disease.tsv --output-file graph_data/formatted_entities/disease.filtered.tsv 
 
 # For gene
 onto-match ontology -i graph_data/extracted_entities/merged_entities/gene.tsv -o graph_data/formatted_entities/gene.tsv -O gene -s 0 -b 1000 

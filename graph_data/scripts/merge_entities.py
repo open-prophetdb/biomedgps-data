@@ -104,8 +104,8 @@ entity_db_order_map = {
 
 
 id_priority = {
-    "Disease": ["MONDO", "MESH", "UMLS"],
-    "Symptom": ["SYMP", "UMLS"],
+    "Disease": ["MONDO", "MESH", "UMLS", "DOID"],
+    "Symptom": ["SYMP", "UMLS", "MESH"],
     "Compound": ["DrugBank", "MESH"],
 }
 
@@ -156,24 +156,28 @@ def deep_deduplicate(entities_df):
 
         print(f"Processing {label} entities:")
         logs.append(f"Processing {label} entities:")
+        logs.append(f"Id to Index: {id_to_index}")
         processed_indices = set()
-        for indices in id_to_index.values():
-            if len(indices) > 1:
+        for key, indices in id_to_index.items():
+            if len(list(set(indices))) > 1:
                 related_rows = group.loc[indices]
                 # Get and print all ids in the related rows
                 ids = related_rows["id"].tolist()
                 names = related_rows["name"].tolist()
                 id_names = list(zip(ids, names))
-                if len(set(ids)) > 1:
-                    print("These ids might point to the same entity:", id_names)
-                    logs.append("These ids might point to the same entity: %s" % id_names)
-                processed_indices.update(indices)
 
                 all_ids = set(related_rows["id"].tolist())
                 all_xrefs = set(related_rows["xrefs"].str.cat(sep="|").split("|"))
                 merged_xrefs = all_ids.union(all_xrefs) - {""}
-
                 main_id = choose_id(all_ids, label)
+
+                if len(set(ids)) > 1:
+                    msg = f"These ids might point to the same entity with {label} label [Main ID - {main_id}]: {key} - {id_names}"
+                    print(msg)
+                    logs.append(msg)
+                processed_indices.update(indices)
+                logs.append(f"\t{main_id} - {related_rows.to_dict(orient='records')}")
+
                 merged_row = related_rows.iloc[0].copy()
                 for col in related_rows.columns:
                     if col not in ["id", "xrefs", "xrefs_list", "name"]:
@@ -191,16 +195,17 @@ def deep_deduplicate(entities_df):
     merged_df = pd.DataFrame(merged_rows)
     # Remove the xrefs_list column
     merged_df = merged_df.drop(columns=["xrefs_list"]).fillna("")
-    first_cols = ["id", "name", "description", "label", "resource"]
-    join_cols = [col for col in merged_df.columns if col not in first_cols]
+    grouped_cols = ["id", "label"]
+    first_cols = ["name", "description"]
+    join_cols = [col for col in merged_df.columns if col not in first_cols + grouped_cols]
     agg_dict = {col: 'first' for col in first_cols}
     join_cols_dict = {col: lambda x: '|'.join(sorted(set('|'.join(x).split('|')))) for col in join_cols}
     agg_dict.update(**join_cols_dict) # type: ignore
 
-    result_df = merged_df.groupby("id").agg(agg_dict)
-    # Rename the index before resetting it
-    result_df.index.name = "index_id"
-    result_df = result_df.reset_index()
+    result_df = merged_df.groupby(["id", "label"]).agg(agg_dict).reset_index()
+    # Remove the | in the beginning and end of the join_cols columns
+    for col in join_cols + first_cols:
+        result_df[col] = result_df[col].str.strip("|")
     return result_df, logs
 
 
