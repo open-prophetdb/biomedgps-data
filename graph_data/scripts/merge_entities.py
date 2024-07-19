@@ -143,12 +143,16 @@ def deep_deduplicate(entities_df):
             continue
 
         id_to_index = {}
+        # If we want to set more conditions for the same entity, we can add more columns here
         for index, row in group.iterrows():
             id_to_index.setdefault(row["id"], []).append(index)
             for xref in row["xrefs_list"]:
                 # Only consider xrefs that are prefixed ids
                 if xref and is_prefixed_id(xref, id_priority[str(label)]):
                     id_to_index.setdefault(xref, []).append(index)
+
+            name_lower = row["name"].lower()
+            id_to_index.setdefault(name_lower, []).append(index)
 
         print(f"Processing {label} entities:")
         logs.append(f"Processing {label} entities:")
