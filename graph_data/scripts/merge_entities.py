@@ -110,11 +110,30 @@ id_priority = {
 }
 
 
-def deep_deduplicate(entities_df):
+class UnionFind:
+    def __init__(self):
+        self.parent = {}
+
+    def find(self, item):
+        if item not in self.parent:
+            self.parent[item] = item
+        if self.parent[item] != item:
+            self.parent[item] = self.find(self.parent[item])
+        return self.parent[item]
+
+    def union(self, item1, item2):
+        root1 = self.find(item1)
+        root2 = self.find(item2)
+        if root1 != root2:
+            self.parent[root2] = root1
+
+
+def deep_deduplicate(entities_df, id_priority):
     """Deep deduplicate the entities with the same id or cross-references.
 
     Args:
         entities_df (pd.DataFrame): The entities dataframe to be deduplicated.
+        id_priority (dict): The priority dictionary for id selection.
 
     Returns:
         pd.DataFrame: The deduplicated entities dataframe.
@@ -136,6 +155,7 @@ def deep_deduplicate(entities_df):
         return list(ids)[0]
 
     merged_rows = []
+    uf = UnionFind()
 
     for label, group in entities.groupby("label"):
         if label not in id_priority:
@@ -143,67 +163,79 @@ def deep_deduplicate(entities_df):
             continue
 
         id_to_index = {}
-        # If we want to set more conditions for the same entity, we can add more columns here
         for index, row in group.iterrows():
             id_to_index.setdefault(row["id"], []).append(index)
             for xref in row["xrefs_list"]:
-                # Only consider xrefs that are prefixed ids
                 if xref and is_prefixed_id(xref, id_priority[str(label)]):
                     id_to_index.setdefault(xref, []).append(index)
 
             name_lower = row["name"].lower()
             id_to_index.setdefault(name_lower, []).append(index)
 
-        print(f"Processing {label} entities:")
-        logs.append(f"Processing {label} entities:")
+        msg = f"Processing {label} entities:"
+        logs.append(msg)
+        print(msg)
+
         logs.append(f"Id to Index: {id_to_index}")
-        processed_indices = set()
+
+        print("Try to merge the indices with the same id or xrefs")
         for key, indices in id_to_index.items():
-            if len(list(set(indices))) > 1:
-                related_rows = group.loc[indices]
-                # Get and print all ids in the related rows
-                ids = related_rows["id"].tolist()
-                names = related_rows["name"].tolist()
-                id_names = list(zip(ids, names))
+            for i in range(len(indices) - 1):
+                uf.union(indices[i], indices[i + 1])
 
-                all_ids = set(related_rows["id"].tolist())
-                all_xrefs = set(related_rows["xrefs"].str.cat(sep="|").split("|"))
-                merged_xrefs = all_ids.union(all_xrefs) - {""}
-                main_id = choose_id(all_ids, label)
+        index_groups = {}
+        for index in group.index:
+            root = uf.find(index)
+            if root not in index_groups:
+                index_groups[root] = []
+            index_groups[root].append(index)
 
-                if len(set(ids)) > 1:
-                    msg = f"These ids might point to the same entity with {label} label [Main ID - {main_id}]: {key} - {id_names}"
-                    print(msg)
-                    logs.append(msg)
-                processed_indices.update(indices)
-                logs.append(f"\t{main_id} - {related_rows.to_dict(orient='records')}")
+        print("Dealing with the merged indices...")
+        logs.append(f"Index Groups: {index_groups}")
+        for key, indices in index_groups.items():
+            related_rows = group.loc[indices]
+            ids = related_rows["id"].tolist()
+            names = related_rows["name"].tolist()
+            id_names = list(zip(ids, names))
 
-                merged_row = related_rows.iloc[0].copy()
-                for col in related_rows.columns:
-                    if col not in ["id", "xrefs", "xrefs_list", "name"]:
-                        values = related_rows[col].fillna("").unique()
-                        merged_row[col] = "|".join(values)
-                merged_row["xrefs"] = "|".join(merged_xrefs)
-                merged_row["id"] = main_id
-                # Follow the order of the priority list to choose the name
-                merged_row["name"] = related_rows.loc[related_rows["id"] == main_id, "name"].values[0]
-                merged_rows.append(merged_row)
+            all_ids = set(related_rows["id"].tolist())
+            all_xrefs = set(related_rows["xrefs"].str.cat(sep="|").split("|"))
+            merged_xrefs = all_ids.union(all_xrefs) - {""}
+            main_id = choose_id(all_ids, label)
 
-        unprocessed_rows = group.loc[group.index.difference(list(processed_indices))]
-        merged_rows.extend(unprocessed_rows.to_dict(orient="records")) # type: ignore
+            if len(set(ids)) > 1:
+                msg = f"These ids might point to the same entity with {label} label [Main ID - {main_id}]: {key} - {id_names}"
+                logs.append(msg)
+                print(msg)
+            logs.append(f"\t{main_id} - {related_rows.to_dict(orient='records')}")
+
+            merged_row = related_rows.iloc[0].copy()
+            for col in related_rows.columns:
+                if col not in ["id", "xrefs", "xrefs_list", "name"]:
+                    values = related_rows[col].dropna().unique()
+                    merged_row[col] = "|".join(sorted(set(values)))
+            merged_row["xrefs"] = "|".join(sorted(merged_xrefs))
+            merged_row["id"] = main_id
+            merged_row["name"] = related_rows.loc[
+                related_rows["id"] == main_id, "name"
+            ].values[0]
+            merged_rows.append(merged_row)
 
     merged_df = pd.DataFrame(merged_rows)
-    # Remove the xrefs_list column
     merged_df = merged_df.drop(columns=["xrefs_list"]).fillna("")
     grouped_cols = ["id", "label"]
     first_cols = ["name", "description"]
-    join_cols = [col for col in merged_df.columns if col not in first_cols + grouped_cols]
-    agg_dict = {col: 'first' for col in first_cols}
-    join_cols_dict = {col: lambda x: '|'.join(sorted(set('|'.join(x).split('|')))) for col in join_cols}
-    agg_dict.update(**join_cols_dict) # type: ignore
+    join_cols = [
+        col for col in merged_df.columns if col not in first_cols + grouped_cols
+    ]
+    agg_dict = {col: "first" for col in first_cols}
+    join_cols_dict: dict = {
+        col: lambda x: "|".join(sorted(set("|".join(x).split("|"))))
+        for col in join_cols
+    }
+    agg_dict.update(**join_cols_dict)
 
     result_df = merged_df.groupby(["id", "label"]).agg(agg_dict).reset_index()
-    # Remove the | in the beginning and end of the join_cols columns
     for col in join_cols + first_cols:
         result_df[col] = result_df[col].str.strip("|")
     return result_df, logs
@@ -378,7 +410,7 @@ def to_single_file(input_dir, output_file, deep_deduplication):
     if deep_deduplication:
         raw_output_file = output_file.replace(".tsv", "_full.tsv")
         log_output_file = output_file.replace(".tsv", ".log")
-        deep_deduplication_entities, logs = deep_deduplicate(merged_entities)
+        deep_deduplication_entities, logs = deep_deduplicate(merged_entities, id_priority)
         merged_entities.to_csv(raw_output_file, sep="\t", index=False)
         deep_deduplication_entities.to_csv(output_file, sep="\t", index=False)
         with open(log_output_file, "w") as f:
