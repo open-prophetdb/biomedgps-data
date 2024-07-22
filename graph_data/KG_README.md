@@ -43,7 +43,7 @@ After formatted, all the entities will be saved in the formatted_entities folder
 > 
 > - We select a default ontology for each entity type. For example, we select the MONDO ID for disease, the ENTREZ ID for gene, the DrugBank ID for compound, the HMDB ID for metabolite, the KEGG ID for pathway, the UMLS ID for side-effect, the SYMP ID for symptom, the UMLS ID for anatomy, the GO ID for cellular_component, the GO ID for biological_process, the GO ID for molecular_function, the UMLS ID for pharmacologic_class.
 >
-> - We will use the `onto-match` package to map the ids to the default ontology. If the mapping result is not successful, we will use the original id as the ontology id.
+> - We will use the `onto-match` package to map the ids to the default ontology. **NOTE: If the mapping result is not successful, we will use the original id as the ontology id.**
 
 ```bash
 # Format and filter entities by online ontology service
@@ -53,8 +53,7 @@ rm -rf graph_data/formatted_entities
 
 mkdir graph_data/formatted_entities
 
-# NOTE: We don't treat the side effect as an entity type anymore, we treat it as a relationship type. Because the side effect is important attribute of the drug and we use the side effect to connect the drug and disease/sym[tom at most time. So for convenience, we add all side effect entities to the disease and symptom entities.
-
+# NOTE: We don't treat the side effect as an entity type anymore, we treat it as a relationship type. Because the side effect is important attribute of the drug and we use the side effect to connect the drug and disease/symptom at most time. So for convenience, we add all side effect entities to the disease and symptom entities. Instead of distinguishing whether it is a disease or a symptom.
 # For disease
 awk -F'\t' 'BEGIN {OFS="\t"} {if ($3 == "SideEffect") $3 = "Disease"; print}' graph_data/extracted_entities/merged_entities/side_effect.tsv > graph_data/extracted_entities/merged_entities/formatted_side_effect.tsv
 python3 graph_data/scripts/merge_entities.py merge-multiple-files -i graph_data/extracted_entities/merged_entities/disease.tsv -i graph_data/extracted_entities/merged_entities/formatted_side_effect.tsv -o graph_data/extracted_entities/merged_entities/merged_disease.tsv
@@ -64,15 +63,12 @@ rm graph_data/extracted_entities/merged_entities/merged_disease.tsv
 
 # For gene
 onto-match ontology -i graph_data/extracted_entities/merged_entities/gene.tsv -o graph_data/formatted_entities/gene.tsv -O gene -s 0 -b 1000 
-onto-match dedup --input-file graph_data/formatted_entities/gene.tsv --output-file graph_data/formatted_entities/gene.filtered.tsv
 
 # For compound
 onto-match ontology -i graph_data/extracted_entities/merged_entities/compound.tsv -o graph_data/formatted_entities/compound.tsv -O compound -s 0 -b 500 
-onto-match dedup --input-file graph_data/formatted_entities/compound.tsv --output-file graph_data/formatted_entities/compound.filtered.tsv
 
 # For metabolite
 onto-match ontology -i graph_data/extracted_entities/merged_entities/metabolite.tsv -o graph_data/formatted_entities/metabolite.tsv -O metabolite -s 0 -b 500 
-onto-match dedup --input-file graph_data/formatted_entities/metabolite.tsv --output-file graph_data/formatted_entities/metabolite.filtered.tsv
 
 # For pathway
 cp graph_data/extracted_entities/merged_entities/pathway.tsv graph_data/formatted_entities/pathway.tsv
@@ -108,6 +104,11 @@ NOTE: If you add a new entity type, you should change the merge_entities.py file
 ```bash
 # Merge formatted entity files into one file
 python graph_data/scripts/merge_entities.py to-single-file -i graph_data/formatted_entities -o graph_data/entities.tsv --deep-deduplication
+
+# Remove all obsolete entities
+cp graph_data/entities.tsv graph_data/.entities.tmp.tsv
+grep -v '\tobsolete' graph_data/.entities.tmp.tsv > graph_data/entities.tsv
+grep '\tobsolete' graph_data/.entities.tmp.tsv > graph_data/obsolete_entities.tsv
 ```
 
 ### Relations

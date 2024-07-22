@@ -45,7 +45,7 @@ def extract(input, output, cache_file):
 
     sep = input.endswith("tsv") and "\t" or ","
     sideeffect_df = pd.read_csv(input, sep=sep, dtype=str)
-    # An example id is MEDDRA:10000001, we want to extract the number part
+    # An example id is MedDRA:10000001, we want to extract the number part
     sideeffect_ids = sideeffect_df["id"].apply(lambda x: x.split(":")[1]).tolist()
     print("Found {} MedDra items.".format(len(sideeffect_ids)))
 

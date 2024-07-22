@@ -3,6 +3,7 @@ import re
 import logging
 import click
 import pandas as pd
+from typing import List
 from ontology_matcher.ontology_formatter import BaseOntologyFileFormat
 
 fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
@@ -54,6 +55,7 @@ entity_db_order_map = {
         "mondo",
         "mesh",
         "hetionet",
+        "orphanet",
     ],
     "Anatomy": [
         "uberon",
@@ -257,6 +259,21 @@ def get_all_files_recursively(directory):
     return all_files
 
 
+def check_entities(entities: pd.DataFrame) -> List[str]:
+    """Check whether the entities are valid.
+
+    Args:
+        entities (pd.DataFrame): The entities to be checked.
+
+    Returns:
+        List[str]: The errors found in the entities.
+    """
+    errors = []
+
+    # TODO: Add the entity checking logic here, such as checking the id, name, label, resource, etc.
+    return errors
+
+
 @cli.command(help="Merge the entities from all resources")
 @click.option(
     "--input-dir",
@@ -377,13 +394,15 @@ def to_single_file(input_dir, output_file, deep_deduplication):
 
     # Group the entity files by entity type
     entity_types = list(map(lambda x: os.path.basename(x).split(".")[0], entity_files))
+    grouped_entity_files = dict(zip(entity_types, entity_files))
+
+    # TODO: We will remove the filtered entities in the future, instead, we use the deep deduplication to remove the duplicated entities
     filtered_entity_files = list(
         filter(lambda x: x.endswith("filtered.tsv"), entity_files)
     )
     filtered_entity_types = list(
         map(lambda x: os.path.basename(x).split(".")[0], filtered_entity_files)
     )
-    grouped_entity_files = dict(zip(entity_types, entity_files))
     grouped_entity_files.update(dict(zip(filtered_entity_types, filtered_entity_files)))
 
     logger.info(

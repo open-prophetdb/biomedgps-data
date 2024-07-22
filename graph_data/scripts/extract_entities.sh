@@ -8,7 +8,8 @@ FORMATTED_DIR=graph_data/extracted_entities
 
 OUTPUT_DIR=${FORMATTED_DIR}/raw_entities
 
-ontologies="hetionet mondo symptom-ontology ndf-rt hgnc-mgi meddra drugbank mesh hmdb reactome uberon go cell-line-ontology wikipathways kegg"
+# We need to add a ontology name for a new ontology
+ontologies="hetionet mondo symptom-ontology ndf-rt hgnc-mgi meddra drugbank mesh hmdb reactome uberon go cell-line-ontology wikipathways kegg orphanet"
 
 # Add arguments to the script
 while getopts ":t:h" opt; do
@@ -59,6 +60,20 @@ function main() {
     done
 
     echo "Finished extracting all entities. You can find the results in ${OUTPUT_DIR}"
+}
+
+function format_orphanet() {
+    # Format the orphanet
+    echo "Extracting entities from the orphanet"
+    mkdir -p ${OUTPUT_DIR}/orphanet
+    if [ ! -f ${DATADIR}/orphanet/ORDO_en_4.5.owl ]; then
+        wget https://www.orphadata.com/data/ontologies/ordo/last_version/ORDO_en_4.5.owl -O ${DATADIR}/orphanet/ORDO_en_4.5.owl
+    else
+        echo "ORDO_en_4.5.owl already exists, skipping download"
+    fi
+    python ${DATADIR}/orphanet/format_orphanet.py entities -i ${DATADIR}/orphanet/ORDO_en_4.5.owl -o ${OUTPUT_DIR}/orphanet
+    printf "Finished extracting entities from orphanet\n\n"
+
 }
 
 function format_hetionet() {
