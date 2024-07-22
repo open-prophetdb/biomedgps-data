@@ -12,7 +12,6 @@ path_name_map = {
     "graph_analysis/README.md": "graph_analysis_index.md",
     "examples/README.md": "examples_index.md",
     "embeddings/README.md": "embeddings_index.md",
-    "embedding_analysis/README.md": "embedding_analysis_index.md",
     "benchmarks/README.md": "benchmarks_index.md",
     "prediction/README.md": "prediction_index.md",
     "FAQs.md": "faqs.md",

@@ -85,7 +85,7 @@ Please note that it is not necessary to run all the following steps in the proje
 
   - Analyze the knowledge graph embedding models
 
-    If you want to analyze the knowledge graph embedding models, you can see the [embedding_analysis](./embedding_analysis) directory in this repository or see the related documentation [embedding_analysis/README.md](./embedding_analysis/README.md).
+    If you want to analyze the knowledge graph embedding models, you can see the [embedding](./embedding) directory in this repository or see the related documentation [embedding/README.md](./embedding/README.md).
 
 #### Step 4: Link Prediction
   

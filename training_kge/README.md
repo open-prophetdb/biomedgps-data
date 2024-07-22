@@ -154,7 +154,7 @@ You can login to your wandb account and find the evaluation results in the proje
 
 You can use the trained embeddings to predict the probability of a triplet. Please refer to [predict](../prediction/README.md) for more details.
 
-You can also use the trained embeddings to visualize the embeddings. Please refer to [embedding analysis](../embedding_analysis/README.md) for more details.
+You can also use the trained embeddings to visualize the embeddings. Please refer to [embedding](../embedding/README.md) for more details.
 
 ## Explain Your Results
 

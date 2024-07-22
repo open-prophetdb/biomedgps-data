@@ -121,7 +121,8 @@ grep '\tobsolete' graph_data/.entities.tmp.tsv > graph_data/obsolete_entities.ts
 # Clean the formatted relations folder
 rm -rf graph_data/formatted_relations
 
-graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug --relation-type-dict-fpath ./embeddings/relation_types.xlsx
+# NOTE: You might need to prepare a relation_types.tsv file from the relation_types.xlsx file.
+graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug --relation-type-dict-fpath ./graph_data/relation_types.tsv
 ```
 
 #### Merge all formatted relations into one file
