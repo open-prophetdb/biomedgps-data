@@ -370,6 +370,7 @@ def from_databases(input_dir, output_dir):
         ]
 
         # Remove all unexpected empty characters, such as leading and trailing spaces
+        merged_entities["description"] = merged_entities["description"].fillna("")
         merged_entities["description"] = merged_entities["description"].apply(
             lambda x: " ".join(x.strip().split())
         )
