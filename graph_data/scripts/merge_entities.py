@@ -57,69 +57,56 @@ entity_types = [
 # NOTICE: The values in the entity_db_order_map must keep the same format as the name of the folder in the input directory
 entity_db_order_map = {
     "Disease": [
-        "mondo",
-        "mesh",
-        "hetionet",
-        "orphanet",
+        "Mondo",
+        "MESH",
+        "Hetionet",
+        "Orphanet",
     ],
     "Anatomy": [
-        "uberon",
-        "mesh",
-        "hetionet",
+        "Uberon",
+        "MESH",
+        "Hetionet",
     ],
     "Gene": [
-        "hgnc",
-        "mgi",
-        "hetionet",
+        "HGNC",
+        "MGI",
+        "Hetionet",
     ],
     "Compound": [
-        "drugbank",
-        "mesh",
-        "hetionet",
+        "DrugBank",
+        "MESH",
+        "Hetionet",
     ],
-    "Pathway": [
-        "reactome",
-        "hetionet",
-        "kegg",
-        "wikipathways"
-    ],
+    "Pathway": ["Reactome", "Hetionet", "KEGG", "WikiPathways"],
     "PharmacologicClass": [
-        "ndf-rt",
-        "hetionet",
+        "NDF-RT",
+        "Hetionet",
     ],
     "SideEffect": [
-        "meddra",
-        "hetionet",
+        "MedDRA",
+        "Hetionet",
     ],
     "Symptom": [
-        "symptom-ontology",
-        "hetionet",
+        "Symptom-Ontology",
+        "Hetionet",
     ],
     "MolecularFunction": [
-        "go",
-        "hetionet",
+        "GO",
+        "Hetionet",
     ],
     "BiologicalProcess": [
-        "go",
-        "hetionet",
+        "GO",
+        "Hetionet",
     ],
     "CellularComponent": [
-        "go",
-        "hetionet",
+        "GO",
+        "Hetionet",
     ],
-    "Metabolite": [
-        "hmdb"
-    ],
+    "Metabolite": ["HMDB"],
     # Add the new entity type here
-    "Phenotype": [
-        "hpo"
-    ],
-    "Protein": [
-        "uniprot"
-    ],
-    "CellLine": [
-        "clo"
-    ],
+    "Phenotype": ["HPO"],
+    "Protein": ["Uniprot"],
+    "CellLine": ["CLO"],
 }
 
 
@@ -127,6 +114,7 @@ id_priority = {
     "Disease": ["MONDO", "MESH", "UMLS", "DOID"],
     "Symptom": ["SYMP", "UMLS", "MESH"],
     "Compound": ["DrugBank", "MESH"],
+    # Don't add gene here, because the gene id is unique for each species
 }
 
 
@@ -173,6 +161,19 @@ def deep_deduplicate(entities_df, id_priority):
                 if id.startswith(prefix):
                     return id
         return list(ids)[0]
+
+    def choose_database(databases, label):
+        for prefix in entity_db_order_map.get(label, []):
+            for db in databases:
+                db_lower = db.lower()
+                # It's SymptomOntology in the entity file, but we use Symptom-Ontology in the entity_db_order_map, so we need to replace the hyphen with "".
+                if (
+                    db_lower.startswith(prefix.lower())
+                    or db_lower.startswith(prefix.replace("-", "").lower())
+                    or db_lower.startswith(prefix.replace("_", "").lower())
+                ):
+                    return db
+        return list(databases)[0]
 
     merged_rows = []
     uf = UnionFind()
@@ -258,6 +259,12 @@ def deep_deduplicate(entities_df, id_priority):
     result_df = merged_df.groupby(["id", "label"]).agg(agg_dict).reset_index()
     for col in join_cols + first_cols:
         result_df[col] = result_df[col].str.strip("|")
+
+    # We don't want the resource column to have several values, such as Mondo|Orphanet, we want to keep only one value based on the priority order.
+    # The resource column will be used in statistics of entities. We don't like to have several values in the resource column. And we don't care about all the resources, we only care about the main resource.
+    result_df["resource"] = result_df.apply(
+        lambda row: choose_database(row["resource"].split("|"), row["label"]), axis=1
+    )
     return result_df, logs
 
 
@@ -332,7 +339,9 @@ def from_databases(input_dir, output_dir):
         # Order the matched resources by the entity_db_order_map
         matched_resources = sorted(
             matched_resources,
-            key=lambda x: entity_db_order_map[entity_type].index(
+            key=lambda x: str(entity_db_order_map[entity_type])
+            .lower()
+            .index(
                 # NOTICE: The name must keep the same format as the value in the entity_db_order_map
                 os.path.basename(os.path.dirname(x))
             ),
@@ -453,7 +462,9 @@ def to_single_file(input_dir, output_file, deep_deduplication):
     if deep_deduplication:
         raw_output_file = output_file.replace(".tsv", "_full.tsv")
         log_output_file = output_file.replace(".tsv", ".log")
-        deep_deduplication_entities, logs = deep_deduplicate(merged_entities, id_priority)
+        deep_deduplication_entities, logs = deep_deduplicate(
+            merged_entities, id_priority
+        )
         merged_entities.to_csv(raw_output_file, sep="\t", index=False)
         deep_deduplication_entities.to_csv(output_file, sep="\t", index=False)
         with open(log_output_file, "w") as f:
