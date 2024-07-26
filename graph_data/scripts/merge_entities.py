@@ -106,11 +106,19 @@ entity_db_order_map = {
         "go",
         "hetionet",
     ],
-    "Metabolite": ["hmdb"],
+    "Metabolite": [
+        "hmdb"
+    ],
     # Add the new entity type here
-    "Phenotype": ["hpo"],
-    "Protein": ["uniprot"],
-    "CellLine": ["clo"],
+    "Phenotype": [
+        "hpo"
+    ],
+    "Protein": [
+        "uniprot"
+    ],
+    "CellLine": [
+        "clo"
+    ],
 }
 
 
