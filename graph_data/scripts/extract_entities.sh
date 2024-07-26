@@ -9,7 +9,7 @@ FORMATTED_DIR=graph_data/extracted_entities
 OUTPUT_DIR=${FORMATTED_DIR}/raw_entities
 
 # We need to add a ontology name for a new ontology
-ontologies="hetionet mondo symptom-ontology ndf-rt hgnc-mgi meddra drugbank mesh hmdb reactome uberon go cell-line-ontology wikipathways kegg orphanet"
+ontologies="hetionet mondo symptom-ontology ndf-rt hgnc mgi meddra drugbank mesh hmdb reactome uberon go cell-line-ontology wikipathways kegg orphanet hpo uniprot"
 
 # Add arguments to the script
 while getopts ":t:h" opt; do
@@ -60,6 +60,51 @@ function main() {
     done
 
     echo "Finished extracting all entities. You can find the results in ${OUTPUT_DIR}"
+}
+
+function format_uniprot() {
+    # Format the uniprot
+    echo "Extracting entities from the uniprot"
+    mkdir -p ${OUTPUT_DIR}/uniprot
+    if [ ! -f ${DATADIR}/uniprot/uniprot_sprot.xml.gz ]; then
+        echo "Downloading uniprot_sprot.xml.gz, this file is large and may take a while to download..."
+        wget https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.xml.gz -O ${DATADIR}/uniprot/uniprot_sprot.xml.gz
+    else
+        echo "uniprot_sprot.xml.gz already exists, skipping download"
+    fi
+
+    if [ ! -f ${DATADIR}/uniprot/uniprot_sprot.xml ]; then
+        echo "Decompressing uniprot_sprot.xml.gz"
+        gunzip -c ${DATADIR}/uniprot/uniprot_sprot.xml.gz > ${DATADIR}/uniprot/uniprot_sprot.xml
+    else
+        echo "uniprot_sprot.xml already exists, skipping decompression"
+    fi
+
+    if [ ! -f ${DATADIR}/uniprot/uniprot_sprot_filtered.xml ]; then
+        echo "Filtering uniprot_sprot.xml, this may take a while..."
+        python ${DATADIR}/uniprot/format_uniprot.py filter -i ${DATADIR}/uniprot/uniprot_sprot.xml -o ${DATADIR}/uniprot/uniprot_sprot_filtered.xml
+    else
+        echo "uniprot_sprot_filtered.xml already exists, skipping filtering"
+    fi
+
+    python ${DATADIR}/uniprot/format_uniprot.py entities -i ${DATADIR}/uniprot/uniprot_sprot_filtered.xml -o ${OUTPUT_DIR}/uniprot
+
+    printf "Finished extracting entities from hpo\n\n"
+
+}
+
+function format_hpo() {
+    # Format the hpo
+    echo "Extracting entities from the hpo"
+    mkdir -p ${OUTPUT_DIR}/hpo
+    if [ ! -f ${DATADIR}/hpo/hp-base.obo ]; then
+        wget https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2024-07-01/hp-base.obo -O ${DATADIR}/hpo/hp-base.obo
+    else
+        echo "hp-base.obo already exists, skipping download"
+    fi
+    python ${DATADIR}/hpo/format_hpo.py entities -i ${DATADIR}/hpo/hp-base.obo -o ${OUTPUT_DIR}/hpo
+    printf "Finished extracting entities from hpo\n\n"
+
 }
 
 function format_orphanet() {
@@ -123,24 +168,33 @@ function format_ndf_rt() {
     printf "Finished extracting entities from NDF-RT\n\n"
 }
 
-function format_hgnc_mgi() {
-    # Format the hgnc_mgi
-    echo "Extracting entities from the hgnc_mgi"
-    mkdir -p ${OUTPUT_DIR}/hgnc_mgi
-    if [ ! -f ${DATADIR}/hgnc_mgi/hgnc_complete_set.txt ]; then
+function format_hgnc() {
+    # Format the hgnc
+    echo "Extracting entities from the hgnc"
+    mkdir -p ${OUTPUT_DIR}/hgnc
+    if [ ! -f ${DATADIR}/hgnc/hgnc_complete_set.txt ]; then
         wget ftp://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt -O hgnc_complete_set.txt
     else
         echo "hgnc_complete_set.txt already exists, skipping download"
     fi
-    printf "Finished extracting entities from hgnc_mgi\n\n"
+    printf "Finished extracting entities from hgnc\n\n"
 
-    if [ ! -f ${DATADIR}/hgnc_mgi/MGI_Gene_Model_Coord.rpt ]; then
+    python ${DATADIR}/hgnc/format_hgnc.py --hgnc ${DATADIR}/hgnc/hgnc_complete_set.txt --output ${OUTPUT_DIR}/hgnc/entrez_gene.tsv
+    printf "Finished extracting entities from hgnc\n\n"
+}
+
+function format_mgi() {
+    # Format the mgi
+    echo "Extracting entities from the mgi"
+    mkdir -p ${OUTPUT_DIR}/mgi
+
+    if [ ! -f ${DATADIR}/mgi/MGI_Gene_Model_Coord.rpt ]; then
         wget http://www.informatics.jax.org/downloads/reports/MGI_Gene_Model_Coord.rpt -O MGI_Gene_Model_Coord.rpt
     else
         echo "MGI_Gene_Model_Coord.rpt already exists, skipping download"
     fi
-    python ${DATADIR}/hgnc_mgi/format_hgnc_mgi.py --hgnc ${DATADIR}/hgnc_mgi/hgnc_complete_set.txt --mgi ${DATADIR}/hgnc_mgi/MGI_Gene_Model_Coord.rpt --output ${OUTPUT_DIR}/hgnc_mgi/entrez_gene.tsv
-    printf "Finished extracting entities from hgnc_mgi\n\n"
+    python ${DATADIR}/mgi/format_mgi.py --mgi ${DATADIR}/mgi/MGI_Gene_Model_Coord.rpt --output ${OUTPUT_DIR}/mgi/entrez_gene.tsv
+    printf "Finished extracting entities from mgi\n\n"
 }
 
 function format_drugbank() {

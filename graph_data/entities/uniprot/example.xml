@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='utf-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-04-29" modified="2024-07-24" version="139">
+    <accession>A6NJL1</accession>
+    <name>ZSA5B_HUMAN</name>
+    <protein>
+        <recommendedName>
+            <fullName>Zinc finger and SCAN domain-containing protein 5B</fullName>
+        </recommendedName>
+    </protein>
+    <gene>
+        <name type="primary">ZSCAN5B</name>
+    </gene>
+    <organism>
+        <name type="scientific">Homo sapiens</name>
+        <name type="common">Human</name>
+        <dbReference type="NCBI Taxonomy" id="9606" />
+        <lineage>
+            <taxon>Eukaryota</taxon>
+            <taxon>Metazoa</taxon>
+            <taxon>Chordata</taxon>
+            <taxon>Craniata</taxon>
+            <taxon>Vertebrata</taxon>
+            <taxon>Euteleostomi</taxon>
+            <taxon>Mammalia</taxon>
+            <taxon>Eutheria</taxon>
+            <taxon>Euarchontoglires</taxon>
+            <taxon>Primates</taxon>
+            <taxon>Haplorrhini</taxon>
+            <taxon>Catarrhini</taxon>
+            <taxon>Hominidae</taxon>
+            <taxon>Homo</taxon>
+        </lineage>
+    </organism>
+    <reference key="1">
+        <citation type="journal article" date="2004" name="Nature" volume="428" first="529" last="535">
+            <title>The DNA sequence and biology of human chromosome 19.</title>
+            <authorList>
+                <person name="Grimwood J." />
+                <person name="Gordon L.A." />
+                <person name="Olsen A.S." />
+                <person name="Terry A." />
+                <person name="Schmutz J." />
+                <person name="Lamerdin J.E." />
+                <person name="Hellsten U." />
+                <person name="Goodstein D." />
+                <person name="Couronne O." />
+                <person name="Tran-Gyamfi M." />
+                <person name="Aerts A." />
+                <person name="Altherr M." />
+                <person name="Ashworth L." />
+                <person name="Bajorek E." />
+                <person name="Black S." />
+                <person name="Branscomb E." />
+                <person name="Caenepeel S." />
+                <person name="Carrano A.V." />
+                <person name="Caoile C." />
+                <person name="Chan Y.M." />
+                <person name="Christensen M." />
+                <person name="Cleland C.A." />
+                <person name="Copeland A." />
+                <person name="Dalin E." />
+                <person name="Dehal P." />
+                <person name="Denys M." />
+                <person name="Detter J.C." />
+                <person name="Escobar J." />
+                <person name="Flowers D." />
+                <person name="Fotopulos D." />
+                <person name="Garcia C." />
+                <person name="Georgescu A.M." />
+                <person name="Glavina T." />
+                <person name="Gomez M." />
+                <person name="Gonzales E." />
+                <person name="Groza M." />
+                <person name="Hammon N." />
+                <person name="Hawkins T." />
+                <person name="Haydu L." />
+                <person name="Ho I." />
+                <person name="Huang W." />
+                <person name="Israni S." />
+                <person name="Jett J." />
+                <person name="Kadner K." />
+                <person name="Kimball H." />
+                <person name="Kobayashi A." />
+                <person name="Larionov V." />
+                <person name="Leem S.-H." />
+                <person name="Lopez F." />
+                <person name="Lou Y." />
+                <person name="Lowry S." />
+                <person name="Malfatti S." />
+                <person name="Martinez D." />
+                <person name="McCready P.M." />
+                <person name="Medina C." />
+                <person name="Morgan J." />
+                <person name="Nelson K." />
+                <person name="Nolan M." />
+                <person name="Ovcharenko I." />
+                <person name="Pitluck S." />
+                <person name="Pollard M." />
+                <person name="Popkie A.P." />
+                <person name="Predki P." />
+                <person name="Quan G." />
+                <person name="Ramirez L." />
+                <person name="Rash S." />
+                <person name="Retterer J." />
+                <person name="Rodriguez A." />
+                <person name="Rogers S." />
+                <person name="Salamov A." />
+                <person name="Salazar A." />
+                <person name="She X." />
+                <person name="Smith D." />
+                <person name="Slezak T." />
+                <person name="Solovyev V." />
+                <person name="Thayer N." />
+                <person name="Tice H." />
+                <person name="Tsai M." />
+                <person name="Ustaszewska A." />
+                <person name="Vo N." />
+                <person name="Wagner M." />
+                <person name="Wheeler J." />
+                <person name="Wu K." />
+                <person name="Xie G." />
+                <person name="Yang J." />
+                <person name="Dubchak I." />
+                <person name="Furey T.S." />
+                <person name="DeJong P." />
+                <person name="Dickson M." />
+                <person name="Gordon D." />
+                <person name="Eichler E.E." />
+                <person name="Pennacchio L.A." />
+                <person name="Richardson P." />
+                <person name="Stubbs L." />
+                <person name="Rokhsar D.S." />
+                <person name="Myers R.M." />
+                <person name="Rubin E.M." />
+                <person name="Lucas S.M." />
+            </authorList>
+            <dbReference type="PubMed" id="15057824" />
+            <dbReference type="DOI" id="10.1038/nature02399" />
+        </citation>
+        <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <comment type="function">
+        <text evidence="1">May be involved in transcriptional regulation.</text>
+    </comment>
+    <comment type="interaction">
+        <interactant intactId="EBI-17968892">
+            <id>A6NJL1</id>
+        </interactant>
+        <interactant intactId="EBI-12135327">
+            <id>Q8WXF1-2</id>
+            <label>PSPC1</label>
+        </interactant>
+        <organismsDiffer>false</organismsDiffer>
+        <experiments>3</experiments>
+    </comment>
+    <comment type="interaction">
+        <interactant intactId="EBI-17968892">
+            <id>A6NJL1</id>
+        </interactant>
+        <interactant intactId="EBI-726876">
+            <id>Q6NUQ1</id>
+            <label>RINT1</label>
+        </interactant>
+        <organismsDiffer>false</organismsDiffer>
+        <experiments>3</experiments>
+    </comment>
+    <comment type="interaction">
+        <interactant intactId="EBI-17968892">
+            <id>A6NJL1</id>
+        </interactant>
+        <interactant intactId="EBI-11522250">
+            <id>O15156-2</id>
+            <label>ZBTB7B</label>
+        </interactant>
+        <organismsDiffer>false</organismsDiffer>
+        <experiments>3</experiments>
+    </comment>
+    <comment type="subcellular location">
+        <subcellularLocation>
+            <location evidence="3">Nucleus</location>
+        </subcellularLocation>
+    </comment>
+    <dbReference type="EMBL" id="AC024580">
+        <property type="status" value="NOT_ANNOTATED_CDS" />
+        <property type="molecule type" value="Genomic_DNA" />
+    </dbReference>
+    <dbReference type="CCDS" id="CCDS46203.1" />
+    <dbReference type="RefSeq" id="NP_001073925.2">
+        <property type="nucleotide sequence ID" value="NM_001080456.2" />
+    </dbReference>
+    <dbReference type="RefSeq" id="XP_006723252.1">
+        <property type="nucleotide sequence ID" value="XM_006723189.3" />
+    </dbReference>
+    <dbReference type="AlphaFoldDB" id="A6NJL1" />
+    <dbReference type="SMR" id="A6NJL1" />
+    <dbReference type="BioGRID" id="131212">
+        <property type="interactions" value="5" />
+    </dbReference>
+    <dbReference type="IntAct" id="A6NJL1">
+        <property type="interactions" value="4" />
+    </dbReference>
+    <dbReference type="STRING" id="9606.ENSP00000466072" />
+    <dbReference type="iPTMnet" id="A6NJL1" />
+    <dbReference type="PhosphoSitePlus" id="A6NJL1" />
+    <dbReference type="BioMuta" id="ZSCAN5B" />
+    <dbReference type="jPOST" id="A6NJL1" />
+    <dbReference type="MassIVE" id="A6NJL1" />
+    <dbReference type="PaxDb" id="9606-ENSP00000466072" />
+    <dbReference type="PeptideAtlas" id="A6NJL1" />
+    <dbReference type="ABCD" id="A6NJL1">
+        <property type="antibodies" value="3 sequenced antibodies" />
+    </dbReference>
+    <dbReference type="Antibodypedia" id="33187">
+        <property type="antibodies" value="91 antibodies from 17 providers" />
+    </dbReference>
+    <dbReference type="DNASU" id="342933" />
+    <dbReference type="Ensembl" id="ENST00000586855.7">
+        <property type="protein sequence ID" value="ENSP00000466072.2" />
+        <property type="gene ID" value="ENSG00000197213.11" />
+    </dbReference>
+    <dbReference type="GeneID" id="342933" />
+    <dbReference type="KEGG" id="hsa:342933" />
+    <dbReference type="MANE-Select" id="ENST00000586855.7">
+        <property type="protein sequence ID" value="ENSP00000466072.2" />
+        <property type="RefSeq nucleotide sequence ID" value="NM_001080456.5" />
+        <property type="RefSeq protein sequence ID" value="NP_001073925.2" />
+    </dbReference>
+    <dbReference type="UCSC" id="uc010ygh.2">
+        <property type="organism name" value="human" />
+    </dbReference>
+    <dbReference type="AGR" id="HGNC:34246" />
+    <dbReference type="CTD" id="342933" />
+    <dbReference type="GeneCards" id="ZSCAN5B" />
+    <dbReference type="HGNC" id="HGNC:34246">
+        <property type="gene designation" value="ZSCAN5B" />
+    </dbReference>
+    <dbReference type="HPA" id="ENSG00000197213">
+        <property type="expression patterns" value="Tissue enriched (testis)" />
+    </dbReference>
+    <dbReference type="neXtProt" id="NX_A6NJL1" />
+    <dbReference type="OpenTargets" id="ENSG00000197213" />
+    <dbReference type="PharmGKB" id="PA162411031" />
+    <dbReference type="VEuPathDB" id="HostDB:ENSG00000197213" />
+    <dbReference type="eggNOG" id="KOG1721">
+        <property type="taxonomic scope" value="Eukaryota" />
+    </dbReference>
+    <dbReference type="GeneTree" id="ENSGT00940000164597" />
+    <dbReference type="HOGENOM" id="CLU_002678_49_11_1" />
+    <dbReference type="InParanoid" id="A6NJL1" />
+    <dbReference type="OMA" id="IVMKGGP" />
+    <dbReference type="OrthoDB" id="4716248at2759" />
+    <dbReference type="PhylomeDB" id="A6NJL1" />
+    <dbReference type="TreeFam" id="TF341155" />
+    <dbReference type="PathwayCommons" id="A6NJL1" />
+    <dbReference type="SignaLink" id="A6NJL1" />
+    <dbReference type="BioGRID-ORCS" id="342933">
+        <property type="hits" value="18 hits in 1169 CRISPR screens" />
+    </dbReference>
+    <dbReference type="GenomeRNAi" id="342933" />
+    <dbReference type="Pharos" id="A6NJL1">
+        <property type="development level" value="Tdark" />
+    </dbReference>
+    <dbReference type="PRO" id="PR:A6NJL1" />
+    <dbReference type="Proteomes" id="UP000005640">
+        <property type="component" value="Chromosome 19" />
+    </dbReference>
+    <dbReference type="RNAct" id="A6NJL1">
+        <property type="molecule type" value="Protein" />
+    </dbReference>
+    <dbReference type="Bgee" id="ENSG00000197213">
+        <property type="expression patterns" value="Expressed in male germ line stem cell (sensu Vertebrata) in testis and 20 other cell types or tissues" />
+    </dbReference>
+    <dbReference type="ExpressionAtlas" id="A6NJL1">
+        <property type="expression patterns" value="baseline and differential" />
+    </dbReference>
+    <dbReference type="GO" id="GO:0005634">
+        <property type="term" value="C:nucleus" />
+        <property type="evidence" value="ECO:0007669" />
+        <property type="project" value="UniProtKB-SubCell" />
+    </dbReference>
+    <dbReference type="GO" id="GO:0000981">
+        <property type="term" value="F:DNA-binding transcription factor activity, RNA polymerase II-specific" />
+        <property type="evidence" value="ECO:0000318" />
+        <property type="project" value="GO_Central" />
+    </dbReference>
+    <dbReference type="GO" id="GO:0046872">
+        <property type="term" value="F:metal ion binding" />
+        <property type="evidence" value="ECO:0007669" />
+        <property type="project" value="UniProtKB-KW" />
+    </dbReference>
+    <dbReference type="GO" id="GO:0000978">
+        <property type="term" value="F:RNA polymerase II cis-regulatory region sequence-specific DNA binding" />
+        <property type="evidence" value="ECO:0000318" />
+        <property type="project" value="GO_Central" />
+    </dbReference>
+    <dbReference type="GO" id="GO:0006357">
+        <property type="term" value="P:regulation of transcription by RNA polymerase II" />
+        <property type="evidence" value="ECO:0000318" />
+        <property type="project" value="GO_Central" />
+    </dbReference>
+    <dbReference type="CDD" id="cd07936">
+        <property type="entry name" value="SCAN" />
+        <property type="match status" value="1" />
+    </dbReference>
+    <dbReference type="Gene3D" id="3.30.160.60">
+        <property type="entry name" value="Classic Zinc Finger" />
+        <property type="match status" value="5" />
+    </dbReference>
+    <dbReference type="Gene3D" id="1.10.4020.10">
+        <property type="entry name" value="DNA breaking-rejoining enzymes" />
+        <property type="match status" value="1" />
+    </dbReference>
+    <dbReference type="InterPro" id="IPR003309">
+        <property type="entry name" value="SCAN_dom" />
+    </dbReference>
+    <dbReference type="InterPro" id="IPR038269">
+        <property type="entry name" value="SCAN_sf" />
+    </dbReference>
+    <dbReference type="InterPro" id="IPR036236">
+        <property type="entry name" value="Znf_C2H2_sf" />
+    </dbReference>
+    <dbReference type="InterPro" id="IPR013087">
+        <property type="entry name" value="Znf_C2H2_type" />
+    </dbReference>
+    <dbReference type="PANTHER" id="PTHR24399:SF54">
+        <property type="entry name" value="GASTRULA ZINC FINGER PROTEIN XLCGF26.1-LIKE-RELATED" />
+        <property type="match status" value="1" />
+    </dbReference>
+    <dbReference type="PANTHER" id="PTHR24399">
+        <property type="entry name" value="ZINC FINGER AND BTB DOMAIN-CONTAINING" />
+        <property type="match status" value="1" />
+    </dbReference>
+    <dbReference type="Pfam" id="PF02023">
+        <property type="entry name" value="SCAN" />
+        <property type="match status" value="1" />
+    </dbReference>
+    <dbReference type="Pfam" id="PF00096">
+        <property type="entry name" value="zf-C2H2" />
+        <property type="match status" value="4" />
+    </dbReference>
+    <dbReference type="Pfam" id="PF12874">
+        <property type="entry name" value="zf-met" />
+        <property type="match status" value="1" />
+    </dbReference>
+    <dbReference type="SMART" id="SM00431">
+        <property type="entry name" value="SCAN" />
+        <property type="match status" value="1" />
+    </dbReference>
+    <dbReference type="SMART" id="SM00355">
+        <property type="entry name" value="ZnF_C2H2" />
+        <property type="match status" value="5" />
+    </dbReference>
+    <dbReference type="SUPFAM" id="SSF57667">
+        <property type="entry name" value="beta-beta-alpha zinc fingers" />
+        <property type="match status" value="3" />
+    </dbReference>
+    <dbReference type="SUPFAM" id="SSF47353">
+        <property type="entry name" value="Retrovirus capsid dimerization domain-like" />
+        <property type="match status" value="1" />
+    </dbReference>
+    <dbReference type="PROSITE" id="PS50804">
+        <property type="entry name" value="SCAN_BOX" />
+        <property type="match status" value="1" />
+    </dbReference>
+    <dbReference type="PROSITE" id="PS00028">
+        <property type="entry name" value="ZINC_FINGER_C2H2_1" />
+        <property type="match status" value="5" />
+    </dbReference>
+    <dbReference type="PROSITE" id="PS50157">
+        <property type="entry name" value="ZINC_FINGER_C2H2_2" />
+        <property type="match status" value="5" />
+    </dbReference>
+    <proteinExistence type="evidence at protein level" />
+    <keyword id="KW-0238">DNA-binding</keyword>
+    <keyword id="KW-0479">Metal-binding</keyword>
+    <keyword id="KW-0539">Nucleus</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0677">Repeat</keyword>
+    <keyword id="KW-0804">Transcription</keyword>
+    <keyword id="KW-0805">Transcription regulation</keyword>
+    <keyword id="KW-0862">Zinc</keyword>
+    <keyword id="KW-0863">Zinc-finger</keyword>
+    <feature type="chain" id="PRO_0000332169" description="Zinc finger and SCAN domain-containing protein 5B">
+        <location>
+            <begin position="1" />
+            <end position="495" />
+        </location>
+    </feature>
+    <feature type="domain" description="SCAN box" evidence="3">
+        <location>
+            <begin position="44" />
+            <end position="126" />
+        </location>
+    </feature>
+    <feature type="zinc finger region" description="C2H2-type 1" evidence="2">
+        <location>
+            <begin position="355" />
+            <end position="377" />
+        </location>
+    </feature>
+    <feature type="zinc finger region" description="C2H2-type 2" evidence="2">
+        <location>
+            <begin position="383" />
+            <end position="405" />
+        </location>
+    </feature>
+    <feature type="zinc finger region" description="C2H2-type 3" evidence="2">
+        <location>
+            <begin position="411" />
+            <end position="433" />
+        </location>
+    </feature>
+    <feature type="zinc finger region" description="C2H2-type 4" evidence="2">
+        <location>
+            <begin position="439" />
+            <end position="461" />
+        </location>
+    </feature>
+    <feature type="zinc finger region" description="C2H2-type 5" evidence="2">
+        <location>
+            <begin position="467" />
+            <end position="489" />
+        </location>
+    </feature>
+    <feature type="region of interest" description="Disordered" evidence="4">
+        <location>
+            <begin position="1" />
+            <end position="40" />
+        </location>
+    </feature>
+    <feature type="region of interest" description="Disordered" evidence="4">
+        <location>
+            <begin position="150" />
+            <end position="183" />
+        </location>
+    </feature>
+    <feature type="region of interest" description="Disordered" evidence="4">
+        <location>
+            <begin position="227" />
+            <end position="347" />
+        </location>
+    </feature>
+    <feature type="compositionally biased region" description="Polar residues" evidence="4">
+        <location>
+            <begin position="1" />
+            <end position="39" />
+        </location>
+    </feature>
+    <feature type="compositionally biased region" description="Polar residues" evidence="4">
+        <location>
+            <begin position="160" />
+            <end position="178" />
+        </location>
+    </feature>
+    <feature type="compositionally biased region" description="Basic and acidic residues" evidence="4">
+        <location>
+            <begin position="249" />
+            <end position="263" />
+        </location>
+    </feature>
+    <feature type="compositionally biased region" description="Polar residues" evidence="4">
+        <location>
+            <begin position="287" />
+            <end position="314" />
+        </location>
+    </feature>
+    <feature type="sequence variant" id="VAR_042965" description="In dbSNP:rs527025.">
+        <original>P</original>
+        <variation>S</variation>
+        <location>
+            <position position="187" />
+        </location>
+    </feature>
+    <feature type="sequence variant" id="VAR_042966" description="In dbSNP:rs4801296.">
+        <original>V</original>
+        <variation>I</variation>
+        <location>
+            <position position="208" />
+        </location>
+    </feature>
+    <feature type="sequence variant" id="VAR_042967" description="In dbSNP:rs10425951.">
+        <original>S</original>
+        <variation>T</variation>
+        <location>
+            <position position="236" />
+        </location>
+    </feature>
+    <feature type="sequence variant" id="VAR_042968" description="In dbSNP:rs892183.">
+        <original>S</original>
+        <variation>T</variation>
+        <location>
+            <position position="304" />
+        </location>
+    </feature>
+    <feature type="sequence variant" id="VAR_042969" description="In dbSNP:rs16987048.">
+        <original>M</original>
+        <variation>L</variation>
+        <location>
+            <position position="412" />
+        </location>
+    </feature>
+    <evidence type="ECO:0000250" key="1" />
+    <evidence type="ECO:0000255" key="2">
+        <source>
+            <dbReference type="PROSITE-ProRule" id="PRU00042" />
+        </source>
+    </evidence>
+    <evidence type="ECO:0000255" key="3">
+        <source>
+            <dbReference type="PROSITE-ProRule" id="PRU00187" />
+        </source>
+    </evidence>
+    <evidence type="ECO:0000256" key="4">
+        <source>
+            <dbReference type="SAM" id="MobiDB-lite" />
+        </source>
+    </evidence>
+    <sequence length="495" mass="55826" checksum="1CC269AA13F1367D" modified="2007-07-24" version="1">MAANWTLSWGQGGPCNSPGSDTPRSVASPETQLGNHDRNPETWHMNFRMFSCPEESDPIQALRKLTELCHLWLRPDLHTKEQILDMLVMEQFMISMPQELQVLVKVNGVQSCKDLEDLLRNNRRPKKWSIVNLLGKEYLMLNSDVEMAEAPASVRDDPRDVSSQWASSVNQMHPGTGQARREQQILPRVAALSRRQGEDFLLHKSIDVTGDPNSPRPKQTLEKDLKENREENPGLSSPEPQLPKSPNLVRAKEGKEPQKRASVENVDADTPSACVVEREALTHSGNRGDALNLSSPKRSKPDASSISQEEPQGEATPVGNRESPGQAEINPVHSPGPAGPVSHPDGQEAKALPPFACDVCNKSFKYFSQLSIHRRSHTGDRPFQCDLCRKRFLQPSDLRVHQRVHTGERPYMCDVCQKRFAHESTLQGHKRIHTGERPFKCKYCSKVFSHKGNLNVHQRTHSGEKPYKCPTCQKAFRQLGTFKRHLKTHRETTSQ</sequence>
+</entry>
+</uniprot>

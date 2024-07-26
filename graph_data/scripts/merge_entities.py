@@ -47,6 +47,10 @@ entity_types = [
     "BiologicalProcess",
     "CellularComponent",
     "Metabolite",
+    # Add the new entity type here
+    "Phenotype",
+    "Protein",
+    "CellLine",
 ]
 
 # NOTICE: The values in the entity_db_order_map must keep the same format as the name of the folder in the input directory
@@ -63,7 +67,8 @@ entity_db_order_map = {
         "hetionet",
     ],
     "Gene": [
-        "hgnc_mgi",
+        "hgnc",
+        "mgi",
         "hetionet",
     ],
     "Compound": [
@@ -102,6 +107,10 @@ entity_db_order_map = {
         "hetionet",
     ],
     "Metabolite": ["hmdb"],
+    # Add the new entity type here
+    "Phenotype": ["hpo"],
+    "Protein": ["uniprot"],
+    "CellLine": ["clo"],
 }
 
 
