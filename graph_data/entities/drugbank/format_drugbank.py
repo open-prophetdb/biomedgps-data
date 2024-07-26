@@ -61,10 +61,6 @@ def format(input_file, output_file):
     # Remove the white spaces from the synonyms
     df["synonyms"] = df["synonyms"].str.replace(" ", "")
 
-    # Remove all unexpected empty characters, such as leading and trailing spaces
-    df["description"] = df["description"].fillna("")
-    df["description"] = df["description"].apply(lambda x: " ".join(x.strip().split()))
-
     # Save the data frame as a csv file
     df.to_csv(
         output_file,

@@ -60,25 +60,25 @@ def extract(input, output, cache_file):
     sideeffect_df["xrefs"] = sideeffect_df["id"]
     sideeffect_df["id"] = xrefs
     sideeffect_df["label"] = "SideEffect"
-    sideeffect_df = sideeffect_df.rename(
-        {
-            "id": "id",
-            "name": "name",
-            "label": "label",
-            "resource": "resource",
-            "description": "",
-            "xrefs": "xrefs",
-            "taxid": "",
-            "pmids": "",
-        }
-    )
+    sideeffect_df["description"] = ""
+    sideeffect_df["taxid"] = ""
+    sideeffect_df["pmids"] = ""
+    sideeffect_df["synonyms"] = ""
 
-    # Remove all unexpected empty characters, such as leading and trailing spaces
-    sideeffect_df["description"] = sideeffect_df["description"].fillna("")
-    sideeffect_df["description"] = sideeffect_df["description"].apply(
-        lambda x: " ".join(x.strip().split())
-    )
     sideeffect_df = sideeffect_df[sideeffect_df["id"] != ""]
+    sideeffect_df = sideeffect_df[
+        [
+            "id",
+            "name",
+            "label",
+            "resource",
+            "xrefs",
+            "synonyms",
+            "description",
+            "taxid",
+            "pmids",
+        ]
+    ]
     print("Found {} MedDra items with UMLS xrefs".format(len(sideeffect_df)))
 
     sideeffect_df.to_csv(output, sep="\t", index=False)

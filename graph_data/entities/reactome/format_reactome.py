@@ -19,10 +19,6 @@ def cli(input_file, output_file):
     df["taxid"] = df["taxname"].apply(lambda x: 9606 if x == "Homo sapiens" else 10090)
     df["resource"] = "Reactome"
 
-    # Remove all unexpected empty characters, such as leading and trailing spaces
-    df["description"] = df["description"].fillna("")
-    df["description"] = df["description"].apply(lambda x: " ".join(x.strip().split()))
-
     filtered_df = df[(df["taxname"] == "Homo sapiens") | (df["taxname"] == "Mus musculus")]
 
     filtered_df.to_csv(output_file, sep="\t", index=False)
