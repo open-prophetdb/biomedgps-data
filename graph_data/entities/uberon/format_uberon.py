@@ -3,6 +3,7 @@ import re
 import os
 import pandas as pd
 
+
 cli = click.Group()
 
 
@@ -50,6 +51,10 @@ def entities(input, output):
 
     # Add resource column
     df["resource"] = "UBERON"
+
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    df["description"] = df["description"].fillna("")
+    df["description"] = df["description"].apply(lambda x: " ".join(x.strip().split()))
 
     outputfile = os.path.join(output, "uberon_anatomy.tsv")
     # Write the data frame to a tsv file

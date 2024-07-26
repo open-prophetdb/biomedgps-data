@@ -3,6 +3,7 @@ import io
 import logging
 import click
 
+
 # Import Biopython modules to interact with KEGG
 from Bio.KEGG import REST
 import pandas as pd
@@ -92,7 +93,7 @@ def get_pathways(organism):
             "description": pathway_additional_info.get("description"),
             "xrefs": "",
             "taxid": f"{organism_ids.get(organism)}",
-            "pmids": "|".join(pathway_additional_info.get("pmids"))
+            "pmids": "|".join(pathway_additional_info.get("pmids"))  # type: ignore
         }
 
         pathways.append(pathway_dict)
@@ -117,6 +118,11 @@ def extract(output):
             [pathway_df, pd.DataFrame(pathway_lst)], ignore_index=True
         )
 
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    pathway_df["description"] = pathway_df["description"].fillna("")
+    pathway_df["description"] = pathway_df["description"].apply(
+        lambda x: " ".join(x.strip().split())
+    )
     pathway_df.to_csv(output, sep="\t", index=False)
 
 

@@ -16,7 +16,7 @@ def entities(input, output_dir):
     grouped = df.groupby("kind")
     for group in grouped.groups.keys():
         output_file = os.path.join(
-            output_dir, "hetionet_" + group.replace(" ", "_").lower() + ".tsv"
+            output_dir, "hetionet_" + group.replace(" ", "_").lower() + ".tsv" # type: ignore
         )
         data = grouped.get_group(group)
         # Format the id column

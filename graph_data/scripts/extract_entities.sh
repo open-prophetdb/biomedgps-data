@@ -275,13 +275,13 @@ function format_go() {
 function format_cell_line_ontology() {
     # Format the cell line ontology
     echo "Extracting entities from the cell line ontology"
-    mkdir -p ${OUTPUT_DIR}/cell-line-ontology
+    mkdir -p ${OUTPUT_DIR}/clo
     if [ ! -f ${DATADIR}/cell-line-ontology/CLO.csv.gz ]; then
         wget 'https://data.bioontology.org/ontologies/CLO/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv' -O ${DATADIR}/cell-line-ontology/CLO.csv.gz
     else
         echo "CLO.csv.gz already exists, skipping download"
     fi
-    python ${DATADIR}/cell-line-ontology/format_clo.py entities -i ${DATADIR}/cell-line-ontology/CLO.csv.gz -o ${OUTPUT_DIR}/cell-line-ontology
+    python ${DATADIR}/cell-line-ontology/format_clo.py entities -i ${DATADIR}/cell-line-ontology/CLO.csv.gz -o ${OUTPUT_DIR}/clo
     printf "Finished extracting entities from cell line ontology\n\n"
 }
 

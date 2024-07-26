@@ -4,6 +4,7 @@ import os
 import rdflib
 import pandas as pd
 
+
 cli = click.Group()
 
 # Define the namespaces (prefixes) used in the OWL file
@@ -224,6 +225,12 @@ def entities(input, output):
     main_df = df[["id", "name", "description", "label", "resource", "xrefs", "pmids", "synonyms"]]
     additional_outputfile = os.path.join(output, "orphanet_disease_metadata.tsv")
     additional_columns = ["id", "has_inheritance", "has_age_of_onset", "present_in"]
+
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    main_df["description"] = main_df["description"].fillna("")
+    main_df["description"] = main_df["description"].apply(
+        lambda x: " ".join(x.strip().split())
+    )
     # Write the data frame to a tsv file
     main_df.to_csv(outputfile, sep="\t", index=False)
     df[additional_columns].to_csv(additional_outputfile, sep="\t", index=False)

@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import click
 
+
 cli = click.Group()
 
 def parse_obo(file_path):
@@ -67,6 +68,11 @@ def entities(input, output):
     main_df = df[
         ["id", "name", "description", "label", "resource", "xrefs", "pmids", "synonyms"]
     ]
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    main_df["description"] = main_df["description"].fillna("")
+    main_df["description"] = main_df["description"].apply(
+        lambda x: " ".join(x.strip().split())
+    )
     # Write the data frame to a tsv file
     main_df.to_csv(outputfile, sep="\t", index=False)
 

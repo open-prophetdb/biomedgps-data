@@ -3,6 +3,7 @@ import re
 import os
 import pandas as pd
 
+
 cli = click.Group()
 
 
@@ -51,6 +52,10 @@ def entities(input, output):
     df["xrefs"] = df["xrefs"].apply(
         lambda x: x.replace("UMLS_CUI:", "UMLS:") if type(x) == str else x
     )
+
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    df["description"] = df["description"].fillna("")
+    df["description"] = df["description"].apply(lambda x: " ".join(x.strip().split()))
 
     outputfile = os.path.join(output, "symp_symptom.tsv")
     # Write the data frame to a tsv file

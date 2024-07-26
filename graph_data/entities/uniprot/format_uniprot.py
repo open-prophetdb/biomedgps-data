@@ -4,6 +4,7 @@ import pandas as pd
 import os
 import json
 
+
 cli = click.Group()
 
 
@@ -159,6 +160,12 @@ def entities(input, output):
     main_df = df[
         ["id", "name", "description", "label", "resource", "xrefs", "pmids", "synonyms", "taxid"]
     ]
+
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    main_df["description"] = main_df["description"].fillna("")
+    main_df["description"] = main_df["description"].apply(
+        lambda x: " ".join(x.strip().split())
+    )
 
     # additional_df = df[["id", "dataset", "created", "modified", "version"]]
     # Write the data frame to a tsv file

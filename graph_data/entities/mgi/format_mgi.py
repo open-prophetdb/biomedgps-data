@@ -2,6 +2,7 @@ import click
 import logging
 import pandas as pd
 
+
 fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
 logger = logging.getLogger("format_mgi.py")
 logging.basicConfig(level=logging.INFO, format=fmt)
@@ -117,6 +118,11 @@ def main(mgi, output):
         ]
     ]
 
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    merged_df["description"] = merged_df["description"].fillna("")
+    merged_df["description"] = merged_df["description"].apply(
+        lambda x: " ".join(x.strip().split())
+    )
     # Write to file
     merged_df.to_csv(output, sep="\t", index=False)
 

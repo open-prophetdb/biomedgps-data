@@ -50,4 +50,4 @@ cp graph_data/extracted_entities/merged_entities/phenotype.tsv graph_data/format
 cp graph_data/extracted_entities/merged_entities/protein.tsv graph_data/formatted_entities/protein.tsv
 
 # For cellline
-cp graph_data/extracted_entities/merged_entities/cellline.tsv graph_data/formatted_entities/cellline.tsv
+cp graph_data/extracted_entities/merged_entities/cell_line.tsv graph_data/formatted_entities/cell_line.tsv

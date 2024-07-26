@@ -3,6 +3,7 @@ import re
 import os
 import pandas as pd
 
+
 cli = click.Group()
 
 
@@ -60,6 +61,10 @@ def entities(input, output):
 
     # Add resource column
     df["resource"] = "GO"
+
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    df["description"] = df["description"].fillna("")
+    df["description"] = df["description"].apply(lambda x: " ".join(x.strip().split()))
 
     # Remove all obsolete terms
     # It may cause some compatible issues when it works with the other databases, so we comment it out

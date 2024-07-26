@@ -42,3 +42,14 @@ def get_matched_name(id: str, etype: str, entities: pd.DataFrame) -> Union[None,
         return None
     else:
         return rows.iloc[0]["name"]
+
+def remove_whitespace(text: str) -> str:
+    """Remove whitespace from text
+
+    Args:
+        text (str): text
+
+    Returns:
+        str: text without newline characters, leading and trailing spaces, multiple spaces
+    """
+    return " ".join(text.strip().split())

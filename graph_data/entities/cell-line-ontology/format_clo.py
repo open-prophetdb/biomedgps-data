@@ -40,6 +40,12 @@ def entities(input, output):
         }
     )
 
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    df["description"] = df["description"].fillna("")
+    df["description"] = df["description"].apply(
+        lambda x: " ".join(x.strip().split())
+    )
+
     # Add label column
     df["label"] = "CellLine"
 
@@ -48,7 +54,10 @@ def entities(input, output):
 
     df["xrefs"] = df["xrefs"].apply(lambda x: x.replace("UMLS_CUI:", "UMLS:") if type(x) == str else x)
 
-    outputfile = os.path.join(output, "clo_cellline.tsv")
+    # Remove all rows which don't have a CLO: prefix in the id column
+    df = df[df["id"].str.contains("CLO:")]
+
+    outputfile = os.path.join(output, "clo_cell_line.tsv")
     # Write the data frame to a tsv file
     df.to_csv(outputfile, sep="\t", index=False)
 

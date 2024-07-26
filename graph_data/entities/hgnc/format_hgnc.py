@@ -2,6 +2,7 @@ import click
 import logging
 import pandas as pd
 
+
 fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
 logger = logging.getLogger("format_hgnc.py")
 logging.basicConfig(level=logging.INFO, format=fmt)
@@ -75,6 +76,12 @@ def main(hgnc, output):
 
     # Add a column called resource
     selected_hgnc_df["resource"] = "HGNC"
+
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    selected_hgnc_df["description"] = selected_hgnc_df["description"].fillna("")
+    selected_hgnc_df["description"] = selected_hgnc_df["description"].apply(
+        lambda x: " ".join(x.strip().split())
+    )
 
     selected_hgnc_df["taxid"] = "9606"
 

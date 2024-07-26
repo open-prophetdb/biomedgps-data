@@ -4,6 +4,7 @@ import sys
 import logging
 import click
 
+
 script_dir = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(script_dir))))
 # print("Script dir: {}, sys.path: {}".format(script_dir, sys.path))
@@ -72,6 +73,11 @@ def extract(input, output, cache_file):
         }
     )
 
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    sideeffect_df["description"] = sideeffect_df["description"].fillna("")
+    sideeffect_df["description"] = sideeffect_df["description"].apply(
+        lambda x: " ".join(x.strip().split())
+    )
     sideeffect_df = sideeffect_df[sideeffect_df["id"] != ""]
     print("Found {} MedDra items with UMLS xrefs".format(len(sideeffect_df)))
 

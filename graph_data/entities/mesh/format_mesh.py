@@ -4,6 +4,7 @@ import os
 import logging
 import pandas as pd
 
+
 fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
 logger = logging.getLogger("format_mesh.py")
 logging.basicConfig(level=logging.INFO, format=fmt)
@@ -128,6 +129,9 @@ def entities(input, output):
         lambda x: "|".join(map(lambda y: "UMLS:%s" % y, x.split("|")))
     )
 
+    # Remove all unexpected empty characters, such as leading and trailing spaces
+    df["description"] = df["description"].fillna("")
+    df["description"] = df["description"].apply(lambda x: " ".join(x.strip().split()))
     grouped = df.groupby("label")
     logger.info("Several groups are created: %s" % grouped.groups.keys())
     for label in grouped.groups.keys():
@@ -135,7 +139,7 @@ def entities(input, output):
             continue
 
         data = grouped.get_group(label)
-        outputfile = os.path.join(output, "mesh_%s.tsv" % label.lower())
+        outputfile = os.path.join(output, "mesh_%s.tsv" % label.lower())  # type: ignore
         # Write the data frame to a tsv file
         logger.info("\tWriting to %s" % outputfile)
         data.to_csv(outputfile, sep="\t", index=False)

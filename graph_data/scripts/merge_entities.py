@@ -6,6 +6,7 @@ import pandas as pd
 from typing import List
 from ontology_matcher.ontology_formatter import BaseOntologyFileFormat
 
+
 fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
 logger = logging.getLogger("merge_entities.py")
 logging.basicConfig(level=logging.INFO, format=fmt)
@@ -367,6 +368,11 @@ def from_databases(input_dir, output_dir):
             & merged_entities["name"].notnull()
             & merged_entities["label"].notnull()
         ]
+
+        # Remove all unexpected empty characters, such as leading and trailing spaces
+        merged_entities["description"] = merged_entities["description"].apply(
+            lambda x: " ".join(x.strip().split())
+        )
 
         # Write the merged entities to a tsv file
         merged_entities.to_csv(
