@@ -55,28 +55,34 @@ entity_types = [
 ]
 
 # NOTICE: The values in the entity_db_order_map must keep the same format as the name of the folder in the input directory
+# These values will be used to locate the data files in the entity directory. More details can be found in the merge_entities function.
 entity_db_order_map = {
+    # The id prefix is MONDO or MESH or UMLS or DOID
     "Disease": [
         "Mondo",
         "MESH",
         "Hetionet",
         "Orphanet",
     ],
+    # The id prefix is UBERON or MESH
     "Anatomy": [
         "Uberon",
         "MESH",
         "Hetionet",
     ],
+    # The id prefix is ENTREZ
     "Gene": [
         "HGNC",
         "MGI",
         "Hetionet",
     ],
+    # The id prefix is DrugBank or MESH
     "Compound": [
         "DrugBank",
         "MESH",
         "Hetionet",
     ],
+    # The id prefix is REACT or WikiPathways or KEGG
     "Pathway": ["Reactome", "Hetionet", "KEGG", "WikiPathways"],
     "PharmacologicClass": [
         "NDF-RT",
@@ -87,34 +93,44 @@ entity_db_order_map = {
         "Hetionet",
     ],
     "Symptom": [
+        # The id prefix is SYMP
         "Symptom-Ontology",
+        # The id prefix is UMLS or MESH
         "Hetionet",
     ],
+    # The id prefix is GO
     "MolecularFunction": [
         "GO",
         "Hetionet",
     ],
+    # The id prefix is GO
     "BiologicalProcess": [
         "GO",
         "Hetionet",
     ],
+    # The id prefix is GO
     "CellularComponent": [
         "GO",
         "Hetionet",
     ],
+    # The id prefix is HMDB
     "Metabolite": ["HMDB"],
     # Add the new entity type here
+    # The id prefix is HP
     "Phenotype": ["HPO"],
+    # The id prefix is Uniprot
     "Protein": ["Uniprot"],
+    # The id prefix is CLO
     "CellLine": ["CLO"],
 }
 
 
 id_priority = {
+    # When you want to do deep deduplication on a specific entity type, you need to add the id priority here. If not, the deep deduplication will not be performed on this entity type.
+    # Don't add gene here, because the gene id is unique for each species
     "Disease": ["MONDO", "MESH", "UMLS", "DOID"],
     "Symptom": ["SYMP", "UMLS", "MESH"],
     "Compound": ["DrugBank", "MESH"],
-    # Don't add gene here, because the gene id is unique for each species
 }
 
 
@@ -155,6 +171,7 @@ def deep_deduplicate(entities_df, id_priority):
     def is_prefixed_id(id, prefixes):
         return any(id.startswith(prefix) for prefix in prefixes)
 
+    # We might get multiple ids for the same entity, we need to choose the main id based on the priority order.
     def choose_id(ids, label):
         for prefix in id_priority.get(label, []):
             for id in ids:
@@ -162,6 +179,7 @@ def deep_deduplicate(entities_df, id_priority):
                     return id
         return list(ids)[0]
 
+    # We might get multiple resources for the same entity, we need to choose the main resource based on the priority order.
     def choose_database(databases, label):
         for prefix in entity_db_order_map.get(label, []):
             for db in databases:
