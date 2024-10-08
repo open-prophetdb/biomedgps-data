@@ -142,6 +142,7 @@ def check_format(df: pd.DataFrame) -> bool:
         "target_id",
         "target_type",
         "relation_type",
+        "formatted_relation_type",
         "resource",
     ]
     return all(column in columns for column in expected_columns)
@@ -236,11 +237,25 @@ def substract(input_1: str, input_2: str, output: str) -> None:
     type=str,
     help="Output file, which will be in the hrt format. The hrt format is a tab-separated file with the following columns: source_id, relation_type, target_id. The source_id and target_id columns are in the format of the entity type and entity id (e.g. Gene::ENTREZ:1234, Disease::MONDO:1234, Compound::MESH:D1234, etc.)",
 )
-def hrt(input: str, output: str) -> None:
+@click.option(
+    "--relation-type-column",
+    "-r",
+    type=str,
+    help="The name of the column which contains the relation type",
+    default="relation_type",
+)
+def hrt(input: str, output: str, relation_type_column: str) -> None:
     relations = pd.read_csv(input, sep="\t")
 
     # Check if the dataframe has the right columns
-    columns = ["source_type", "source_id", "relation_type", "target_type", "target_id"]
+    columns = [
+        "source_type",
+        "source_id",
+        "relation_type",
+        "target_type",
+        "target_id",
+        relation_type_column,
+    ]
     assert all(
         column in relations.columns for column in columns
     ), f"Columns {columns} not found in {input}"
@@ -256,10 +271,10 @@ def hrt(input: str, output: str) -> None:
         relations["target_type"] + "::" + relations["target_id"].astype(str)
     )
 
-    df["relation_type"] = relations["relation_type"]
+    df[relation_type_column] = relations[relation_type_column]
 
     # Reorder the columns
-    df = df[["merged_source_id", "relation_type", "merged_target_id"]]
+    df = df[["merged_source_id", relation_type_column, "merged_target_id"]]
 
     # Remove the header
     df.to_csv(output, sep="\t", index=False, header=False)
@@ -326,7 +341,14 @@ def merge_files(input: list, output: str) -> None:
     type=click.Path(exists=False, dir_okay=False, file_okay=True),
     help="Output file",
 )
-def check_ids(input: list, output: str) -> None:
+@click.option(
+    "--relation-type-column",
+    "-r",
+    type=str,
+    help="The name of the column which contains the relation type",
+    default="relation_type",
+)
+def check_ids(input: list, output: str, relation_type_column: str) -> None:
     def detect_separator(file: str) -> str:
         with open(file, "r") as f:
             first_line = f.readline()
@@ -355,7 +377,8 @@ def check_ids(input: list, output: str) -> None:
         ids[file] = set(source_ids).union(set(target_ids))
 
     # 获取关系类型
-    relation_types = {file: set(df["relation_type"]) for file, df in dfs.items()}
+    assert relation_type_column in df.columns, f"Column {relation_type_column} not found in {file}"
+    relation_types = {file: set(df[relation_type_column]) for file, df in dfs.items()}
 
     # 计算交集
     output_data = []
@@ -439,8 +462,15 @@ def check_ids(input: list, output: str) -> None:
     type=click.Path(exists=False, dir_okay=True, file_okay=False),
     help="Output directory.",
 )
+@click.option(
+    "--relation-type-column",
+    "-r",
+    type=str,
+    help="The name of the column which contains the relation type",
+    default="relation_type",
+)
 def keep_valid(
-    train_file: str, test_file: str, valid_file: str, output_dir: str
+    train_file: str, test_file: str, valid_file: str, output_dir: str, relation_type_column: str
 ) -> None:
     # Read the dataframes
     print("Reading the train, test and validation dataframes...")
@@ -476,9 +506,12 @@ def keep_valid(
     )
     print("Found {} entities in interaction".format(len(entities_intersection)))
 
-    relation_train = set(train_df["relation_type"].str.lower().unique())
-    relation_test = set(test_df["relation_type"].str.lower().unique())
-    relation_validation = set(validation_df["relation_type"].str.lower().unique())
+    assert relation_type_column in train_df.columns, f"Column {relation_type_column} not found in train"
+    assert relation_type_column in test_df.columns, f"Column {relation_type_column} not found in test"
+    assert relation_type_column in validation_df.columns, f"Column {relation_type_column} not found in validation"
+    relation_train = set(train_df[relation_type_column].str.lower().unique())
+    relation_test = set(test_df[relation_type_column].str.lower().unique())
+    relation_validation = set(validation_df[relation_type_column].str.lower().unique())
 
     relation_intersection = relation_train.intersection(relation_test).intersection(
         relation_validation
@@ -492,7 +525,7 @@ def keep_valid(
         target_in_intersection = df.apply(
             lambda row: (row["target_id"], row["target_type"]) in entities, axis=1
         )
-        relation_in_intersection = df["relation_type"].str.lower().isin(relations)
+        relation_in_intersection = df[relation_type_column].str.lower().isin(relations)
 
         if keep_in_intersection:
             return df[

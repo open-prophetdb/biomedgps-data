@@ -1,0 +1,112 @@
+source_name	source_id	source_type	target_name	target_type	target_id	relation_type	resource
+Camrelizumab	DrugBank:DB14776	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Camrelizumab	DrugBank:DB14776	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Camrelizumab	DrugBank:DB14776	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Pembrolizumab	DrugBank:DB09037	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Pembrolizumab	DrugBank:DB09037	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Durvalumab	DrugBank:DB11714	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Durvalumab	DrugBank:DB11714	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Toripalimab	DrugBank:DB15043	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Tislelizumab	DrugBank:DB14922	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Tislelizumab	DrugBank:DB14922	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Bevacizumab	DrugBank:DB00112	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Bevacizumab	DrugBank:DB00112	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Bevacizumab	DrugBank:DB00112	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Bevacizumab	DrugBank:DB00112	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Fluzoparib	DrugBank:DB15637	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Fluzoparib	DrugBank:DB15637	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Fluzoparib	DrugBank:DB15637	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Olaparib	DrugBank:DB09074	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Olaparib	DrugBank:DB09074	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Olaparib	DrugBank:DB09074	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Rivoceranib	DrugBank:DB14765	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Rivoceranib	DrugBank:DB14765	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Famitinib	DrugBank:DB11741	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Famitinib	DrugBank:DB11741	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Sitravatinib	DrugBank:DB15036	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Sitravatinib	DrugBank:DB15036	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Trastuzumab	DrugBank:DB00072	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Trastuzumab	DrugBank:DB00072	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Pertuzumab	DrugBank:DB06366	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Pertuzumab	DrugBank:DB06366	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Lapatinib	DrugBank:DB01259	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Lapatinib	DrugBank:DB01259	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Pyrotinib	DrugBank:DB14993	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Pyrotinib	DrugBank:DB14993	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Trastuzumab emtansine	DrugBank:DB05773	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Trastuzumab emtansine	DrugBank:DB05773	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Trastuzumab deruxtecan	DrugBank:DB14962	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Trastuzumab deruxtecan	DrugBank:DB14962	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Disitamab Vedotin	DrugBank:DB17208	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Disitamab Vedotin	DrugBank:DB17208	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Inetetamab	DrugBank:DB17457	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Inetetamab	DrugBank:DB17457	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Dalpiciclib	DrugBank:DB17456	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Dalpiciclib	DrugBank:DB17456	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Palbociclib	DrugBank:DB09073	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Palbociclib	DrugBank:DB09073	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Palbociclib	DrugBank:DB09073	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Ribociclib	DrugBank:DB11730	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Ribociclib	DrugBank:DB11730	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Abemaciclib	DrugBank:DB12001	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Abemaciclib	DrugBank:DB12001	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Fulvestrant	DrugBank:DB00947	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Fulvestrant	DrugBank:DB00947	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Leuprolide	DrugBank:DB00007	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Leuprolide	DrugBank:DB00007	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Goserelin	DrugBank:DB00014	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Goserelin	DrugBank:DB00014	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Anastrozole	DrugBank:DB01217	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Anastrozole	DrugBank:DB01217	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Letrozole	DrugBank:DB01006	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Letrozole	DrugBank:DB01006	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Exemestane	DrugBank:DB00990	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Exemestane	DrugBank:DB00990	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Toremifene	DrugBank:DB00539	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Toremifene	DrugBank:DB00539	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Tamoxifen	DrugBank:DB00675	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Tamoxifen	DrugBank:DB00675	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Doxorubicin	DrugBank:DB00997	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Doxorubicin	DrugBank:DB00997	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Doxorubicin	DrugBank:DB00997	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Doxorubicin	DrugBank:DB00997	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Epirubicin	DrugBank:DB00445	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Epirubicin	DrugBank:DB00445	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Epirubicin	DrugBank:DB00445	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Epirubicin	DrugBank:DB00445	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Cyclophosphamide	DrugBank:DB00531	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Cyclophosphamide	DrugBank:DB00531	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Cyclophosphamide	DrugBank:DB00531	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Cyclophosphamide	DrugBank:DB00531	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Cytarabine	DrugBank:DB00987	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Cytarabine	DrugBank:DB00987	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Cytarabine	DrugBank:DB00987	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Cytarabine	DrugBank:DB00987	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Fluorouracil	DrugBank:DB00544	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Fluorouracil	DrugBank:DB00544	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Fluorouracil	DrugBank:DB00544	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Fluorouracil	DrugBank:DB00544	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Paclitaxel	DrugBank:DB01229	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Paclitaxel	DrugBank:DB01229	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Paclitaxel	DrugBank:DB01229	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Paclitaxel	DrugBank:DB01229	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Docetaxel	DrugBank:DB01248	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Docetaxel	DrugBank:DB01248	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Docetaxel	DrugBank:DB01248	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Docetaxel	DrugBank:DB01248	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Carboplatin	DrugBank:DB00958	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Carboplatin	DrugBank:DB00958	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Carboplatin	DrugBank:DB00958	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Carboplatin	DrugBank:DB00958	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Gemcitabine	DrugBank:DB00441	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Gemcitabine	DrugBank:DB00441	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Gemcitabine	DrugBank:DB00441	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Gemcitabine	DrugBank:DB00441	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Vinorelbine	DrugBank:DB00361	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Vinorelbine	DrugBank:DB00361	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Vinorelbine	DrugBank:DB00361	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Vinorelbine	DrugBank:DB00361	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Capecitabine	DrugBank:DB01101	Compound	breast cancer	Disease	MONDO:0007254	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Capecitabine	DrugBank:DB01101	Compound	hormone receptor-positive breast cancer	Disease	MONDO:0700079	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Capecitabine	DrugBank:DB01101	Compound	HER2 positive breast carcinoma	Disease	MONDO:0006244	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
+Capecitabine	DrugBank:DB01101	Compound	triple-negative breast carcinoma	Disease	MONDO:0005494	DRUGBANK::treats::Compound:Disease	FUSCC_BCDB
