@@ -130,6 +130,7 @@ id_priority = {
     # Don't add gene here, because the gene id is unique for each species
     "Disease": ["MONDO", "MESH", "UMLS", "DOID"],
     "Symptom": ["SYMP", "UMLS", "MESH"],
+    "Phenotype": ["HP", "UMLS", "MESH", "SYMP"],
     "Compound": ["DrugBank", "MESH"],
 }
 

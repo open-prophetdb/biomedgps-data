@@ -55,6 +55,9 @@ mkdir graph_data/formatted_entities
 
 # More details about the format strategy, please refer to format_entities.sh (We used the onto-match package to map the ids to the default ontology in the format_entities.sh script)
 bash graph_data/scripts/format_entities.sh
+
+# [Optional] Merge several entity types into one new entity type, such as you may want to merge the `Symptom` and `Phenotype` into `Phenotype`
+sed -i 's/\tSymptom\t/\tPhenotype\t/g' graph_data/formatted_entities/symptom.tsv
 ```
 
 ##### Step4: Merge entity files into one file
@@ -64,7 +67,7 @@ This step will merge all the entity files into one file. If we can find a `filte
 NOTE: If you add a new entity type, you should change the merge_entities.py file to add the new entity type.
 
 ```bash
-# Merge formatted entity files into one file
+# Merge formatted entity files into one file, we will get three files: entities.tsv [after deduplication], entities_full.tsv [before deduplication], entities.log [the log file for deduplication]
 python graph_data/scripts/merge_entities.py to-single-file -i graph_data/formatted_entities -o graph_data/entities.tsv --deep-deduplication
 
 # Remove all obsolete entities

@@ -17,6 +17,8 @@ allowed_types = [
     "MolecularFunction",
     "BiologicalProcess",
     "CellularComponent",
+    "SideEffect",
+    "PharmacologicClass",
 ]
 
 colors = [
@@ -30,6 +32,15 @@ colors = [
     "#b3d4ff",
     "#00bfa0",
     "#ff6e00",
+    # Other colors for discriminating between entity types
+    "#ff0055",  # Red
+    "#00ff99",  # Green
+    "#ff6347",  # Tomato
+    "#ffa500",  # Orange
+    "#800080",  # Purple
+    "#ffc0cb",  # Pink
+    "#ff4500",  # Orange-Red
+    "#ffd700",  # Gold
 ]
 
 

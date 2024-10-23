@@ -1,0 +1,124 @@
+---
+title: "Graph Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(repr.plot.width = 8, repr.plot.height = 8)
+```
+
+### Load data
+
+```{r}
+data_dir <- "../datasets/biomedgps-v2-20231223"
+
+edge_stat <- read.csv(file.path(data_dir, "edge_stat.tsv"), sep = "\t")
+node_stat <- read.csv(file.path(data_dir, "node_stat.tsv"), sep = "\t")
+real_node_stat <- read.csv(file.path(data_dir, "real_node_stat.tsv"), sep = "\t")
+```
+
+
+### Draw a barplot for the number of relations for each relation type
+
+```{r}
+
+# 加载必要的库
+library(ggplot2)
+library(dplyr)
+library(ggsci)
+
+custom_theme <- theme(
+    plot.title = element_text(size = 9, face = "bold"),
+    axis.title = element_text(size = 9, face = "bold", color = "black"),
+    axis.text = element_text(size = 9, face = "bold", color = "black"),
+    legend.title = element_text(size = 9, face = "bold", color = "black"),
+    legend.text = element_text(size = 9, face = "bold", color = "black")
+) +
+    theme(
+        panel.background = element_rect(fill = "white", colour = NA),
+        panel.grid = element_blank(),
+        axis.line = element_line(color = "black"),
+        # Set the whole plot area to white
+        plot.background = element_rect(fill = "white", color = NA),
+    )
+
+# Filter out the invalid relation type which is not matched the regex `.*::.*::.*:.*`
+filtered_edge_stat <- edge_stat %>% filter(grepl("^.*::.*::.*:.*$", relation_type))
+
+# 按照 relation_count 进行分组，定义分组区间
+filtered_edge_stat <- filtered_edge_stat %>%
+  mutate(count_group = case_when(    
+    relation_count > 50000 ~ "> 50000",
+    relation_count > 10000 & relation_count <= 50000 ~ "10000 - 50000",
+    relation_count > 5000 & relation_count <= 10000 ~ "5000 - 10000",
+    relation_count > 1000 & relation_count <= 5000 ~ "1000 - 5000",
+    relation_count > 500 & relation_count <= 1000 ~ "500 - 1000",
+    relation_count > 100 & relation_count <= 500 ~ "100 - 500",
+    relation_count > 50 & relation_count <= 100 ~ "50 - 100",
+    relation_count <= 50 ~ "<= 50"
+  ))
+
+groups <- unique(filtered_edge_stat$count_group)
+
+for (group in groups) {
+  plot <- ggplot(filtered_edge_stat[filtered_edge_stat$count_group == group, ], aes(x = relation_type, y = relation_count)) +
+    geom_bar(stat = "identity") +
+    geom_text(aes(label = relation_count), vjust = -0.5) +  # 在柱子上显示数值
+    theme_minimal() +
+    labs(title = paste("Relation Count for", group), x = "Relation Type", y = "Relation Count") +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+    custom_theme +
+    scale_fill_npg()
+
+  print(plot)
+}
+```
+
+
+```{r}
+
+# 加载必要的库
+library(ggplot2)
+library(dplyr)
+library(ggsci)
+
+custom_theme <- theme(
+    plot.title = element_text(size = 16, face = "bold"),
+    axis.title = element_text(size = 16, face = "bold", color = "black"),
+    axis.text = element_text(size = 16, face = "bold", color = "black"),
+    legend.title = element_text(size = 16, face = "bold", color = "black"),
+    legend.text = element_text(size = 16, face = "bold", color = "black")
+) +
+    theme(
+        panel.background = element_rect(fill = "white", colour = NA),
+        panel.grid = element_blank(),
+        axis.line = element_line(color = "black"),
+        # Set the whole plot area to white
+        plot.background = element_rect(fill = "white", color = NA),
+    )
+
+# Filter out the invalid relation type which is not matched the regex `.*::.*::.*:.*`
+filtered_edge_stat <- edge_stat %>% filter(grepl("^.*::.*::.*:.*$", relation_type))
+
+# Sum up the relation count for each simple_relation_type
+filtered_edge_stat_sum_by_simple_relation_type <- filtered_edge_stat %>%
+  group_by(simple_relation_type) %>%
+  summarise(relation_count = sum(relation_count))
+
+# Sort x axis by relation_count in descending order
+filtered_edge_stat_sum_by_simple_relation_type <- filtered_edge_stat_sum_by_simple_relation_type %>%
+  arrange(desc(relation_count))
+
+plot <- ggplot(filtered_edge_stat_sum_by_simple_relation_type, aes(x = reorder(simple_relation_type, -relation_count), y = relation_count)) +
+    geom_bar(stat = "identity") +
+    geom_text(aes(label = relation_count), vjust = -0.5) +  # 在柱子上显示数值
+    theme_minimal() +
+    labs(title = "Relation Count for Each Simple Relation Type", x = "Relation Type", y = "Relation Count") +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+    theme(legend.position = "none", plot.title = element_text(hjust = 0.5)) +
+    custom_theme +
+    scale_fill_npg()
+
+print(plot)
+```

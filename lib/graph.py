@@ -508,8 +508,8 @@ def gen_layout(title, xaxis_title, yaxis_title, showlegend):
 
 
 def biomedgps2stat(
-    entities: pd.DataFrame, relations: pd.DataFrame
-) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    entities: pd.DataFrame, relations: pd.DataFrame, enable_stat_real_entities: bool = True
+) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame | None]:
     """Convert the biomedgps format to stat format
 
     Args:
@@ -545,4 +545,23 @@ def biomedgps2stat(
         inplace=True,
     )
 
-    return node_stat, edge_stat
+    # Keep the columns of real_node_stat same with node_stat, but the data frame is empty
+    real_node_stat = None
+
+    if enable_stat_real_entities:
+        source_idx = relations["source_type"] + "::" + relations["source_id"]
+        target_idx = relations["target_type"] + "::" + relations["target_id"]
+        nodes_in_relations = list(set(source_idx) | set(target_idx))
+        all_nodes = entities["label"] + "::" + entities["id"].astype(str)
+        overlap_nodes = list(set(all_nodes) & set(nodes_in_relations))
+        real_node_stat = entities[all_nodes.isin(overlap_nodes)].groupby(["label", "resource"]).size().reset_index(name="count")
+        real_node_stat.rename(
+            columns={
+                "label": "entity_type",
+                "count": "entity_count",
+                "resource": "resource",
+            },
+            inplace=True,
+        )
+
+    return node_stat, edge_stat, real_node_stat
