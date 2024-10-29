@@ -67,14 +67,13 @@ theme:
 nav:
   - Introduction: index.md
   - Installation: installation_index.md
-  - Knowledge Graph: 
-    - Introduction: graph_data_index.md
-    - Build Knowledge Graph: graph_data_kg.md
-    - Knowledge Graph Analysis: graph_analysis_index.md
-  - Train KGE Model:
-    - Training: wandb_index.md
-    - Generate Initial Embedding [Optional]: embeddings_index.md
-    - Embedding Analysis: embedding_analysis_index.md
-    - Benchmark: benchmarks_index.md
-  - Prediction: prediction_index.md
+  - Using Knowledge Graph: graph_data_index.md
+  - Building Knowledge Graph: graph_data_kg.md
+  - Analyzing Knowledge Graph: graph_analysis_index.md
+  # - Train KGE Model:
+  #   - Training: wandb_index.md
+  #   - Generate Initial Embedding [Optional]: embeddings_index.md
+  #   - Embedding Analysis: embedding_analysis_index.md
+  #   - Benchmark: benchmarks_index.md
+  # - Prediction: prediction_index.md
   - FAQs: faqs.md

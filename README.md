@@ -73,7 +73,9 @@ Please note that it is not necessary to run all the following steps in the proje
 
   How to analyze the knowledge graph? More details can be found in the [graph_analysis](./graph_analysis) directory in this repository or see the related documentation [graph_analysis/README.md](./graph_analysis/README.md).
 
-#### Step 3: Train, Evaluate, Analyze & Benchmark KGE models
+#### [Deprecated] Step 3: Train, Evaluate, Analyze & Benchmark KGE models
+
+  > NOTE: We're building a new repo for training, evaluating, analyzing and benchmarking knowledge graph embedding / GNN models. Please follow the [biomedgps-model](https://github.com/open-prophetdb/biomedgps-model) repository for the latest updates.
 
   - Train & evaluate knowledge graph embedding models
 
@@ -87,10 +89,14 @@ Please note that it is not necessary to run all the following steps in the proje
 
     If you want to analyze the knowledge graph embedding models, you can see the [embedding](./embedding) directory in this repository or see the related documentation [embedding/README.md](./embedding/README.md).
 
-#### Step 4: Link Prediction
+#### [Deprecated] Step 4: Link Prediction
+
+  > NOTE: We're building a new repo for link prediction. Please follow the [biomedgps-model](https://github.com/open-prophetdb/biomedgps-model) repository for the latest updates.
   
   If you want to predict the relations between entities, you can see the [prediction](./prediction) directory in this repository or see the related documentation [prediction/README.md](./prediction/README.md).
 
-#### Step 5: Explain the prediction results
+#### [Deprecated] Step 5: Explain the prediction results
+
+  > NOTE: We're building a new repo for explaining the prediction results. Please follow the [biomedgps-model](https://github.com/open-prophetdb/biomedgps-model) repository for the latest updates.
 
   More details can be found in the [biomedgps-explainer](https://github.com/yjcyxky/biomedgps-explainer) repository.

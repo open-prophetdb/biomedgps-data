@@ -13,10 +13,6 @@ benchmarks/__pycache__
 benchmarks/test
 benchmarks/*.tsv
 
-training_kge/data
-training_kge/models
-training_kge/wandb
-
 test.ipynb
 jupyter.log
 md5sums.txt
