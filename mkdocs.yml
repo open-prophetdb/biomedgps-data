@@ -70,6 +70,7 @@ nav:
   - Using Knowledge Graph: graph_data_index.md
   - Building Knowledge Graph: graph_data_kg.md
   - Analyzing Knowledge Graph: graph_analysis_index.md
+  - Generating Initial Embeddings: embeddings_index.md
   # - Train KGE Model:
   #   - Training: wandb_index.md
   #   - Generate Initial Embedding [Optional]: embeddings_index.md
