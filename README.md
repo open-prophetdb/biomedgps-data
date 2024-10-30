@@ -38,7 +38,7 @@ If you want to use the pre-built knowledge graph and the pre-trained knowledge g
 
 If you only want to use and analyze the pre-built knowledge graph, you can follow the instructions in the [README.md](./graph_data/README.md) file to download the pre-built knowledge graph. After that, you can see the [graph_analysis](./graph_analysis) directory to analyze the knowledge graph.
 
-If you are interested in how the training scripts work, you can see the [examples](./examples/notebooks) directory in this repository.
+If you are interested in how the training scripts work, you can see the [biomedgps-model](https://github.com/open-prophetdb/biomedgps-model) repository.
 
 Please note that it is not necessary to run all the following steps in the project. You can run the steps you are interested in. But you need to make sure the dependencies among the steps. For example, if you want to train the knowledge graph embedding models, you need to build a knowledge graph or download the pre-built knowledge graph first. If you want to analyze the knowledge graph embedding models, you need to train the knowledge graph embedding models first.
 
