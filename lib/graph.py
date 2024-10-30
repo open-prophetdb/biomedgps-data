@@ -4,6 +4,50 @@ import networkx as nx
 from check import check_file_exists, check_columns
 from typing import Tuple
 
+allowed_types = [
+    "Gene",
+    "Compound",
+    "Disease",
+    "Symptom",
+    "Pathway",
+    "Anatomy",
+    "Metabolite",
+    "MolecularFunction",
+    "BiologicalProcess",
+    "CellularComponent",
+    "SideEffect",
+    "PharmacologicClass",
+]
+
+colors = [
+    "#e60049",
+    "#0bb4ff",
+    "#50e991",
+    "#e6d800",
+    "#9b19f5",
+    "#ffa300",
+    "#dc0ab4",
+    "#b3d4ff",
+    "#00bfa0",
+    "#ff6e00",
+    # Other colors for discriminating between entity types
+    "#ff0055",  # Red
+    "#00ff99",  # Green
+    "#ff6347",  # Tomato
+    "#ffa500",  # Orange
+    "#800080",  # Purple
+    "#ffc0cb",  # Pink
+    "#ff4500",  # Orange-Red
+    "#ffd700",  # Gold
+]
+
+
+def get_color(type):
+    if type in allowed_types:
+        return colors[allowed_types.index(type)]
+    else:
+        return "#000000"
+
 # Union of all the types of graphs
 Graph = nx.MultiGraph | nx.Graph | nx.MultiDiGraph | nx.DiGraph
 DirectedGraph = nx.MultiDiGraph | nx.DiGraph

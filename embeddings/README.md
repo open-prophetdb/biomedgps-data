@@ -45,7 +45,7 @@ python embedding/scripts/gen_embeddings.py entities -e graph_data/entities.tsv -
 ## Generate Embeddings for All Relation Types
 ### Descriptions for each relation type
 
-More details on relation types, please visit [relation_types.xlsx](./graph_data/relation_types.xlsx) file.
+More details on relation types, please visit [relation_types.tsv](./graph_data/relation_types.tsv) file.
 
 ### Generate Embeddings
 
