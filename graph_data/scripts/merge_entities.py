@@ -432,7 +432,13 @@ def from_databases(input_dir, output_dir):
     help="Whether to perform deep deduplication",
     is_flag=True,
 )
-def to_single_file(input_dir, output_file, deep_deduplication):
+@click.option(
+    "--remove-obsolete",
+    "-r",
+    help="Whether to remove obsolete entities",
+    is_flag=True,
+)
+def to_single_file(input_dir, output_file, deep_deduplication, remove_obsolete):
     # Get all files in the input directory recursively
     resources = get_all_files_recursively(input_dir)
 
@@ -474,23 +480,43 @@ def to_single_file(input_dir, output_file, deep_deduplication):
     merged_entities = pd.concat(entities, ignore_index=True, axis=0)
 
     # Drop the duplicated entities
-    merged_entities = merged_entities.drop_duplicates(
+    raw_merged_entities = merged_entities.drop_duplicates(
         subset=["id", "label"], keep="first"
     )
+    merged_entities = raw_merged_entities.copy()
+    obsolete_entities = None
+
+    raw_output_file = output_file.replace(".tsv", "_full.tsv")
+    log_output_file = output_file.replace(".tsv", ".log")
+    obsolete_output_file = output_file.replace(".tsv", "_obsolete.tsv")
 
     if deep_deduplication:
-        raw_output_file = output_file.replace(".tsv", "_full.tsv")
-        log_output_file = output_file.replace(".tsv", ".log")
-        deep_deduplication_entities, logs = deep_deduplicate(
-            merged_entities, id_priority
-        )
-        merged_entities.to_csv(raw_output_file, sep="\t", index=False)
-        deep_deduplication_entities.to_csv(output_file, sep="\t", index=False)
+        merged_entities, logs = deep_deduplicate(merged_entities, id_priority)
+
         with open(log_output_file, "w") as f:
             f.write("\n".join(logs))
-    else:
-        # Write the merged entities to a tsv file
-        merged_entities.to_csv(output_file, sep="\t", index=False)
+
+    if remove_obsolete:
+        obsolete_entities = merged_entities[
+            merged_entities["name"].str.contains(
+                "obsolete", na=False
+            )  # na=False 防止 NaN 引发错误
+            & (
+                merged_entities["xrefs"].str.len().fillna(0)
+                == 0 | (merged_entities["xrefs"] == merged_entities["id"])
+            )
+        ]
+        logger.info("Number of obsolete entities: %s\n" % obsolete_entities.shape[0])
+        merged_entities = merged_entities[
+            ~merged_entities.index.isin(obsolete_entities.index)
+        ]
+        logger.info("Number of merged entities: %s\n" % merged_entities.shape[0])
+
+    raw_merged_entities.to_csv(raw_output_file, sep="\t", index=False)
+    merged_entities.to_csv(output_file, sep="\t", index=False)
+
+    if obsolete_entities is not None:
+        obsolete_entities.to_csv(obsolete_output_file, sep="\t", index=False)
 
 
 @cli.command(help="Merge multiple entity files to a single file")

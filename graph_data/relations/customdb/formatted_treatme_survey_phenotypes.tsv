@@ -1,0 +1,55 @@
+relation_type	resource	pmids	key_sentence	source_id	source_type	source_name	target_id	target_type	target_name
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MESH:D005221	Phenotype	Fatigue
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MedDRA:10069634	Phenotype	Feeling worse after normal exertion
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MESH:C000711647	Phenotype	Brain Fog
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MESH:D008569	Phenotype	Memory problems
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	SYMP:0000287	Phenotype	"Fast, fluttering or pounding heartbeat"
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	SYMP:0000177	Phenotype	Feeling of weakness
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MedDRA:10006332	Phenotype	Shortness of Breath
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	SYMP:0000571	Phenotype	Insomnia
+Hetionet::DrD::Disease:Disease	TreatME			MONDO:0005404	Disease	ME/CFS	MONDO:0013600	Disease	Insomnia
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MESH:D006261	Phenotype	Headache or Migraine
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MESH:D054972	Phenotype	Postural Orthostatic Tachycardia (PTOS)
+Hetionet::DrD::Disease:Disease	TreatME			MONDO:0005404	Disease	ME/CFS	MONDO:0011479	Disease	Postural Orthostatic Tachycardia (PTOS)
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MESH:D004244	Phenotype	Lightheadedness or dizziness
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	SYMP:0019161	Phenotype	Sore/painful muscles
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MESH:D002637	Phenotype	Chest Pain
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MESH:D014012	Phenotype	Tinnitus
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MedDRA:10043876	Phenotype	Numbness or tingling
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	SYMP:0000064	Phenotype	Joint pain or swelling
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	SYMP:0000383	Phenotype	Stiff or painful neck
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MedDRA:10009861	Phenotype	Cold or discolored hands/feet
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MedDRA:10049848	Phenotype	Balance problems or sense of room spinnning
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MESH:D005207	Phenotype	"Muscle twitches, spasms, or fasciculations"
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MedDRA:10028817	Phenotype	Nausea and/or vomiting
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MedDRA:10041367	Phenotype	Sore throat
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MedDRA:10033386	Phenotype	Burning pain
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	MedDRA:10050007	Phenotype	Shooting pain
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0005404	Disease	ME/CFS	SYMP:0000551	Phenotype	Disordered taste / smell
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MESH:D005221	Phenotype	Fatigue
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MedDRA:10069634	Phenotype	Feeling worse after normal exertion
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MESH:C000711647	Phenotype	Brain Fog
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MESH:D008569	Phenotype	Memory problems
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	SYMP:0000287	Phenotype	"Fast, fluttering or pounding heartbeat"
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	SYMP:0000177	Phenotype	Feeling of weakness
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MedDRA:10006332	Phenotype	Shortness of Breath
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	SYMP:0000571	Phenotype	Insomnia
+Hetionet::DrD::Disease:Disease	TreatME			MONDO:0100233	Disease	LongCOVID	MONDO:0013600	Disease	Insomnia
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MESH:D006261	Phenotype	Headache or Migraine
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MESH:D054972	Phenotype	Postural Orthostatic Tachycardia (PTOS)
+Hetionet::DrD::Disease:Disease	TreatME			MONDO:0100233	Disease	LongCOVID	MONDO:0011479	Disease	Postural Orthostatic Tachycardia (PTOS)
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MESH:D004244	Phenotype	Lightheadedness or dizziness
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	SYMP:0019161	Phenotype	Sore/painful muscles
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MESH:D002637	Phenotype	Chest Pain
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MESH:D014012	Phenotype	Tinnitus
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MedDRA:10043876	Phenotype	Numbness or tingling
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	SYMP:0000064	Phenotype	Joint pain or swelling
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	SYMP:0000383	Phenotype	Stiff or painful neck
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MedDRA:10009861	Phenotype	Cold or discolored hands/feet
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MedDRA:10049848	Phenotype	Balance problems or sense of room spinnning
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MESH:D005207	Phenotype	"Muscle twitches, spasms, or fasciculations"
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MedDRA:10028817	Phenotype	Nausea and/or vomiting
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MedDRA:10041367	Phenotype	Sore throat
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MedDRA:10033386	Phenotype	Burning pain
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	MedDRA:10050007	Phenotype	Shooting pain
+HSDN::has_symptom::Disease:Phenotype	TreatME			MONDO:0100233	Disease	LongCOVID	SYMP:0000551	Phenotype	Disordered taste / smell

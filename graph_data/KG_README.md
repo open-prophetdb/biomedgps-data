@@ -68,12 +68,7 @@ NOTE: If you add a new entity type, you should change the merge_entities.py file
 
 ```bash
 # Merge formatted entity files into one file, we will get three files: entities.tsv [after deduplication], entities_full.tsv [before deduplication], entities.log [the log file for deduplication]
-python graph_data/scripts/merge_entities.py to-single-file -i graph_data/formatted_entities -o graph_data/entities.tsv --deep-deduplication
-
-# Remove all obsolete entities
-cp graph_data/entities.tsv graph_data/.entities.tmp.tsv
-grep -v '\tobsolete' graph_data/.entities.tmp.tsv > graph_data/entities.tsv
-grep '\tobsolete' graph_data/.entities.tmp.tsv > graph_data/obsolete_entities.tsv
+python graph_data/scripts/merge_entities.py to-single-file -i graph_data/formatted_entities -o graph_data/entities.tsv --deep-deduplication --remove-obsolete
 ```
 
 ### Relations
@@ -83,11 +78,14 @@ grep '\tobsolete' graph_data/.entities.tmp.tsv > graph_data/obsolete_entities.ts
 ```bash
 # Extract relations from a set of databases
 
-# Clean the formatted relations folder
+## Clean the formatted relations folder
 rm -rf graph_data/formatted_relations
 
-# NOTE: You might need to prepare a relation_types.tsv file from the relation_types.xlsx file.
-graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug --relation-type-dict-fpath ./graph_data/relation_types.tsv
+## STEP1: The graph-builder tool only supports the following databases CTD, DRKG, PrimeKG, HSDN automatically. Other databases are included in the relations folder. You may need to format them manually by running the main.ipynb files in each subfolder. Like `biosnap`, `cbcg`, `dgidb`, `ttd`.
+
+## STEP2: Run the graph-builder tool to format the preset databases. You might need to prepare a relation_types.tsv file from the relation_types.xlsx file. If you don't want to format the relation types at this step, please don't provide the --relation-type-dict-fpath option.
+# graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug --relation-type-dict-fpath ./graph_data/relation_types.tsv
+graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug
 ```
 
 #### Merge all formatted relations into one file

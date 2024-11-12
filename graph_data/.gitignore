@@ -7,7 +7,7 @@
 !/relations/README.md
 /entities.tsv
 /entities_full.tsv
-/obsolete_entities.tsv
+/entities_obsolete.tsv
 /.entities.tmp.tsv
 /entities.log
 /relations.tsv
