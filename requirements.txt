@@ -130,4 +130,4 @@ tqdm>=4.66.2
 
 # You must make sure that the commit hash is matched with your acutal used version
 git+https://github.com/yjcyxky/ontology-matcher.git@370fd4c271cdefe973a32c5a1822e94584418522
-git+https://github.com/yjcyxky/graph-builder.git@aa0d1a3b2846c6939ce84ef21baa33c63e247daf
+git+https://github.com/yjcyxky/graph-builder.git@61e9a9b53a6055b254404ccbecb06d22ad9c8112

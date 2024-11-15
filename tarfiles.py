@@ -6,6 +6,17 @@ import click
 
 cli = click.Group()
 
+# ### Make a tarball file
+
+# ```bash
+# # Make a tarball file for sharing
+# CURRENT_DATE=$(date +%Y%m%d)
+# python3 tarfiles.py graph-data biomedgps-graph-data-v${CURRENT_DATE}.tar.gz
+# python3 tarfiles.py initial-embeddings biomedgps-initial-embeddings-v${CURRENT_DATE}.tar.gz
+
+# # Upload the tarball file to the google drive or other shared storage.
+# ```
+
 # Wrap all essential data files into a tarball
 graph_data_files = [
     "graph_data/entities.tsv",

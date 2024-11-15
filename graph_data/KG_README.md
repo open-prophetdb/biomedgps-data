@@ -88,27 +88,16 @@ rm -rf graph_data/formatted_relations
 graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug
 ```
 
-#### Merge all formatted relations into one file
+#### Output all of relation types listed in the relation files
 
 ```bash
 # Merge formatted relation files into one file
-python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
+python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -o /tmp/relations.tsv
+
+# Output all of relation types listed in the relation files. The relation types are listed in the `relation_type` column.
+python graph_data/scripts/extract_relation_types.py -i /tmp/relations.tsv -o /tmp/relation_types.tsv
 ```
 
-#### Annotate relations
+#### Prepare a dataset for training
 
-```bash
-# Annotate relations, It will generate two files: graph_data/knowledge_graph.tsv and graph_data/annotated_knowledge_graph.tsv
-python graph_data/scripts/annotate_relations.py -e graph_data/entities.tsv -r graph_data/relations.tsv -o graph_data
-```
-
-### Make a tarball file
-
-```bash
-# Make a tarball file for sharing
-CURRENT_DATE=$(date +%Y%m%d)
-python3 tarfiles.py graph-data biomedgps-graph-data-v${CURRENT_DATE}.tar.gz
-python3 tarfiles.py initial-embeddings biomedgps-initial-embeddings-v${CURRENT_DATE}.tar.gz
-
-# Upload the tarball file to the google drive or other shared storage.
-```
+Please refer to the `prepare_dataset.ipynb` file in the `graph_data` folder.

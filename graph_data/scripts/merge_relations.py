@@ -4,6 +4,13 @@ import click
 import logging
 import pandas as pd
 
+# #### Merge all formatted relations into one file
+
+# ```bash
+# # Merge formatted relation files into one file
+# python graph_data/scripts/merge_relations.py -i graph_data/formatted_relations -o graph_data/relations.tsv
+# ```
+
 fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
 logger = logging.getLogger("merge_relations.py")
 logging.basicConfig(level=logging.INFO, format=fmt)
@@ -42,11 +49,13 @@ def cli(input_dir, output_file):
     logger.info("Resources: %s\n" % resources)
 
     # Filter the matched resources
-    files = list(
-        filter(
-            lambda x: x.endswith(".tsv")
-            and os.path.basename(x).startswith("formatted_"),
-            resources,
+    files = sorted(
+        list(
+            filter(
+                lambda x: x.endswith(".tsv")
+                and os.path.basename(x).startswith("formatted_"),
+                resources,
+            )
         )
     )
 
@@ -54,7 +63,9 @@ def cli(input_dir, output_file):
 
     def read_csv(filepath: str):
         logger.info("Reading %s" % filepath)
-        df = pd.read_csv(filepath, sep="\t", quotechar='"', low_memory=False, on_bad_lines="warn")
+        df = pd.read_csv(
+            filepath, sep="\t", quotechar='"', low_memory=False, on_bad_lines="warn"
+        )
         # Filter invalid rows and save them to a file
         # Such as having different number of columns
         # Get the number of columns in the DataFrame

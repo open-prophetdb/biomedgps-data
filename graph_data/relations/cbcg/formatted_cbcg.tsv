@@ -1,1014 +1,822 @@
 source_name	source_type	target_name	target_type	source_id	target_id	pmid	relation_type	resource
-ABCB1	Gene	Breast Cancer	Disease	ENTREZ:5243		32042261	GNBR::Y::Gene:Disease	CBCG
-ABHD8	Gene	Breast Cancer	Disease	ENTREZ:79575		27601076	GNBR::Y::Gene:Disease	CBCG
-ABHD8	Gene	Breast Cancer	Disease	ENTREZ:79575		27601076	GNBR::Y::Gene:Disease	CBCG
-ABRAXAS1	Gene	Breast Cancer	Disease	ENTREZ:84142		36703164	GNBR::Y::Gene:Disease	CBCG
-ABRAXAS1	Gene	Breast Cancer	Disease	ENTREZ:84142		27792995	GNBR::Y::Gene:Disease	CBCG
-ABRAXAS1	Gene	Breast Cancer	Disease	ENTREZ:84142		22357538	GNBR::Y::Gene:Disease	CBCG
-AC058822.1	Gene	Breast Cancer	Disease			36703164	GNBR::Y::Gene:Disease	CBCG
-ACE	Gene	Breast Cancer	Disease	ENTREZ:1636		29413755	GNBR::Y::Gene:Disease	CBCG
-ACE	Gene	Breast Cancer	Disease	ENTREZ:1636		14583500	GNBR::Y::Gene:Disease	CBCG
-ACE	Gene	Breast Cancer	Disease	ENTREZ:1636		19286759	GNBR::Y::Gene:Disease	CBCG
-ACOXL-AS1	Gene	Breast Cancer	Disease	ENTREZ:400997		36356581	GNBR::Y::Gene:Disease	CBCG
-ACOXL	Gene	Breast Cancer	Disease	ENTREZ:55289		36356581	GNBR::Y::Gene:Disease	CBCG
-ACTA2	Gene	Breast Cancer	Disease	ENTREZ:59		23326385	GNBR::Y::Gene:Disease	CBCG
-ACTA2	Gene	Breast Cancer	Disease	ENTREZ:59		22740964	GNBR::Y::Gene:Disease	CBCG
-ACYP2	Gene	Breast Cancer	Disease	ENTREZ:98		27894080	GNBR::Y::Gene:Disease	CBCG
-ACYP2	Gene	Breast Cancer	Disease	ENTREZ:98		27458158	GNBR::Y::Gene:Disease	CBCG
-ADSS1	Gene	Breast Cancer	Disease	ENTREZ:122622		29059683	GNBR::Y::Gene:Disease	CBCG
-AFDN	Gene	Breast Cancer	Disease	ENTREZ:4301		36356581	GNBR::Y::Gene:Disease	CBCG
-AGTR1	Gene	Breast Cancer	Disease	ENTREZ:185		29413755	GNBR::Y::Gene:Disease	CBCG
-AHR	Gene	Breast Cancer	Disease	ENTREZ:196		19415745	GNBR::Y::Gene:Disease	CBCG
-AHRR	Gene	Breast Cancer	Disease	ENTREZ:57491		29059683	GNBR::Y::Gene:Disease	CBCG
-AHRR	Gene	Breast Cancer	Disease	ENTREZ:57491		36356581	GNBR::Y::Gene:Disease	CBCG
-AKAP6	Gene	Breast Cancer	Disease	ENTREZ:9472		21908515	GNBR::Y::Gene:Disease	CBCG
-AKAP9	Gene	Breast Cancer	Disease	ENTREZ:10142		18334708	GNBR::Y::Gene:Disease	CBCG
-AKAP9	Gene	Breast Cancer	Disease	ENTREZ:10142		18334708	GNBR::Y::Gene:Disease	CBCG
-AKAP9	Gene	Breast Cancer	Disease	ENTREZ:10142		24943594	GNBR::Y::Gene:Disease	CBCG
-AKAP9	Gene	Breast Cancer	Disease	ENTREZ:10142		36424660	GNBR::Y::Gene:Disease	CBCG
-AKAP9	Gene	Breast Cancer	Disease	ENTREZ:10142		36356581	GNBR::Y::Gene:Disease	CBCG
-AKR1A1	Gene	Breast Cancer	Disease	ENTREZ:10327		32139696	GNBR::Y::Gene:Disease	CBCG
-AKT1	Gene	Breast Cancer	Disease	ENTREZ:207		36831624	GNBR::Y::Gene:Disease	CBCG
-ALDH2	Gene	Breast Cancer	Disease	ENTREZ:217		31066241	GNBR::Y::Gene:Disease	CBCG
-ALG9	Gene	Breast Cancer	Disease	ENTREZ:79796		36356581	GNBR::Y::Gene:Disease	CBCG
-ALOX12	Gene	Breast Cancer	Disease	ENTREZ:239		22977504	GNBR::Y::Gene:Disease	CBCG
-ALOX12	Gene	Breast Cancer	Disease	ENTREZ:239		25339205	GNBR::Y::Gene:Disease	CBCG
-ALOX12	Gene	Breast Cancer	Disease	ENTREZ:239		25339205	GNBR::Y::Gene:Disease	CBCG
-ALOX12-AS1	Gene	Breast Cancer	Disease	ENTREZ:100506713		22977504	GNBR::Y::Gene:Disease	CBCG
-ALOX12-AS1	Gene	Breast Cancer	Disease	ENTREZ:100506713		25339205	GNBR::Y::Gene:Disease	CBCG
-ALOX12-AS1	Gene	Breast Cancer	Disease	ENTREZ:100506713		25339205	GNBR::Y::Gene:Disease	CBCG
-AMFR	Gene	Breast Cancer	Disease	ENTREZ:267		29059683	GNBR::Y::Gene:Disease	CBCG
-AMFR	Gene	Breast Cancer	Disease	ENTREZ:267		36356581	GNBR::Y::Gene:Disease	CBCG
-ANKLE1	Gene	Breast Cancer	Disease	ENTREZ:126549		27117709	GNBR::Y::Gene:Disease	CBCG
-ANTXR1	Gene	Breast Cancer	Disease	ENTREZ:84168		32424353	GNBR::Y::Gene:Disease	CBCG
-ANTXR1	Gene	Breast Cancer	Disease	ENTREZ:84168		36356581	GNBR::Y::Gene:Disease	CBCG
-AP4B1-AS1	Gene	Breast Cancer	Disease	ENTREZ:100287722		36356581	GNBR::Y::Gene:Disease	CBCG
-APC	Gene	Breast Cancer	Disease	ENTREZ:324		26421687	GNBR::Y::Gene:Disease	CBCG
-APC	Gene	Breast Cancer	Disease	ENTREZ:324		18708403	GNBR::Y::Gene:Disease	CBCG
-APEX1	Gene	Breast Cancer	Disease	ENTREZ:328		18669164	GNBR::Y::Gene:Disease	CBCG
-APEX1	Gene	Breast Cancer	Disease	ENTREZ:328		26257461	GNBR::Y::Gene:Disease	CBCG
-APOBEC3A	Gene	Breast Cancer	Disease	ENTREZ:200315		23411593	GNBR::Y::Gene:Disease	CBCG
-APOBEC3A_B	Gene	Breast Cancer	Disease	ENTREZ:100913187		23411593	GNBR::Y::Gene:Disease	CBCG
-APOBEC3A_B	Gene	Breast Cancer	Disease	ENTREZ:100913187		36356581	GNBR::Y::Gene:Disease	CBCG
-APOBEC3A	Gene	Breast Cancer	Disease	ENTREZ:200315		36356581	GNBR::Y::Gene:Disease	CBCG
-ARHGAP26	Gene	Breast Cancer	Disease	ENTREZ:23092		22923054	GNBR::Y::Gene:Disease	CBCG
-ARHGAP26	Gene	Breast Cancer	Disease	ENTREZ:23092		22923054	GNBR::Y::Gene:Disease	CBCG
-ARL11	Gene	Breast Cancer	Disease	ENTREZ:115761		16353159	GNBR::Y::Gene:Disease	CBCG
-ARLNC1	Gene	Breast Cancer	Disease	ENTREZ:100996425		21424380	GNBR::Y::Gene:Disease	CBCG
-ASPH	Gene	Breast Cancer	Disease	ENTREZ:444		30323354	GNBR::Y::Gene:Disease	CBCG
-ATE1	Gene	Breast Cancer	Disease	ENTREZ:11101		21263130	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		35042965	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		17166884	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		16832357	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		15928302	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		10362113	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		33471991	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		37262986	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		35884425	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		35396981	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		14695186	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		14695186	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		36152082	GNBR::Y::Gene:Disease	CBCG
-ATM	Gene	Breast Cancer	Disease	ENTREZ:472		36161273	GNBR::Y::Gene:Disease	CBCG
-ATR	Gene	Breast Cancer	Disease	ENTREZ:545		15987455	GNBR::Y::Gene:Disease	CBCG
-ATRIP	Gene	Breast Cancer	Disease	ENTREZ:84126		36977412	GNBR::Y::Gene:Disease	CBCG
-ATXN7	Gene	Breast Cancer	Disease	ENTREZ:6314		24943594	GNBR::Y::Gene:Disease	CBCG
-ATXN7	Gene	Breast Cancer	Disease	ENTREZ:6314		36356581	GNBR::Y::Gene:Disease	CBCG
-AURKA	Gene	Breast Cancer	Disease	ENTREZ:6790		37565930	GNBR::Y::Gene:Disease	CBCG
-AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313		18708403	GNBR::Y::Gene:Disease	CBCG
-AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313		31063404	GNBR::Y::Gene:Disease	CBCG
-AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313		26514524	GNBR::Y::Gene:Disease	CBCG
-AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313		35996498	GNBR::Y::Gene:Disease	CBCG
-AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313		18708403	GNBR::Y::Gene:Disease	CBCG
-AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313		18708403	GNBR::Y::Gene:Disease	CBCG
-AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313		31063404	GNBR::Y::Gene:Disease	CBCG
-AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313		18708403	GNBR::Y::Gene:Disease	CBCG
-AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313		18708403	GNBR::Y::Gene:Disease	CBCG
-BABAM1	Gene	Breast Cancer	Disease	ENTREZ:29086		23136140	GNBR::Y::Gene:Disease	CBCG
-BABAM1	Gene	Breast Cancer	Disease	ENTREZ:29086		27117709	GNBR::Y::Gene:Disease	CBCG
-BARD1	Gene	Breast Cancer	Disease	ENTREZ:580		25452441	GNBR::Y::Gene:Disease	CBCG
-BARD1	Gene	Breast Cancer	Disease	ENTREZ:580		31036035	GNBR::Y::Gene:Disease	CBCG
-BARD1	Gene	Breast Cancer	Disease	ENTREZ:580		33471991	GNBR::Y::Gene:Disease	CBCG
-BARD1	Gene	Breast Cancer	Disease	ENTREZ:580		35396981	GNBR::Y::Gene:Disease	CBCG
-BARD1	Gene	Breast Cancer	Disease	ENTREZ:580		22544576	GNBR::Y::Gene:Disease	CBCG
-BARD1	Gene	Breast Cancer	Disease	ENTREZ:580		15342711	GNBR::Y::Gene:Disease	CBCG
-BARD1	Gene	Breast Cancer	Disease	ENTREZ:580		16825437	GNBR::Y::Gene:Disease	CBCG
-BARD1	Gene	Breast Cancer	Disease	ENTREZ:580		31142030	GNBR::Y::Gene:Disease	CBCG
-BARD1	Gene	Breast Cancer	Disease	ENTREZ:580		35084806	GNBR::Y::Gene:Disease	CBCG
-BCKDHB	Gene	Breast Cancer	Disease	ENTREZ:594		36356581	GNBR::Y::Gene:Disease	CBCG
-BCL2L11	Gene	Breast Cancer	Disease	ENTREZ:10018		29059683	GNBR::Y::Gene:Disease	CBCG
-BCL2L15	Gene	Breast Cancer	Disease	ENTREZ:440603		36356581	GNBR::Y::Gene:Disease	CBCG
-BET1	Gene	Breast Cancer	Disease	ENTREZ:10282		30323354	GNBR::Y::Gene:Disease	CBCG
-BIVM-ERCC5	Gene	Breast Cancer	Disease	ENTREZ:100533467		20183911	GNBR::Y::Gene:Disease	CBCG
-BIVM-ERCC5	Gene	Breast Cancer	Disease	ENTREZ:100533467		35691022	GNBR::Y::Gene:Disease	CBCG
-BLM	Gene	Breast Cancer	Disease	ENTREZ:641		21815139	GNBR::Y::Gene:Disease	CBCG
-BLM	Gene	Breast Cancer	Disease	ENTREZ:641		23225144	GNBR::Y::Gene:Disease	CBCG
-BLM	Gene	Breast Cancer	Disease	ENTREZ:641		18974064	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		35042965	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		14576434	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		9497246	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		10413426	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		11044354	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		9145676	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		12677558	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		11352856	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		15994883	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		33471991	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		35396981	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		35218119	GNBR::Y::Gene:Disease	CBCG
-BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672		37300745	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		35042965	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		14576434	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		9497246	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		9802270	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		10413426	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		9145676	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		12677558	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		11352856	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		15994883	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		33471991	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		35396981	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		35218119	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		23535729	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		37300745	GNBR::Y::Gene:Disease	CBCG
-BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675		36356581	GNBR::Y::Gene:Disease	CBCG
-BRD7	Gene	Breast Cancer	Disease	ENTREZ:29117		36424660	GNBR::Y::Gene:Disease	CBCG
-BRIP1	Gene	Breast Cancer	Disease	ENTREZ:83990		17033622	GNBR::Y::Gene:Disease	CBCG
-BTN2A1	Gene	Breast Cancer	Disease	ENTREZ:11120		36703164	GNBR::Y::Gene:Disease	CBCG
-C11orf65	Gene	Breast Cancer	Disease	ENTREZ:160140		nan	GNBR::Y::Gene:Disease	CBCG
-C11orf65	Gene	Breast Cancer	Disease	ENTREZ:160140		36161273	GNBR::Y::Gene:Disease	CBCG
-CABLES1	Gene	Breast Cancer	Disease	ENTREZ:91768		nan	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		31996122	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		17529967	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		20453838	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		17529974	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		24743323	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		31338012	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		31996122	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		20332101	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		27117709	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		36540803	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		36042591	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		36356581	GNBR::Y::Gene:Disease	CBCG
-CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714		37524136	GNBR::Y::Gene:Disease	CBCG
-CASC21	Gene	Breast Cancer	Disease	ENTREZ:103021164		17529967	GNBR::Y::Gene:Disease	CBCG
-CASC21	Gene	Breast Cancer	Disease	ENTREZ:103021164		24743323	GNBR::Y::Gene:Disease	CBCG
-CASC21	Gene	Breast Cancer	Disease	ENTREZ:103021164		20453838	GNBR::Y::Gene:Disease	CBCG
-CASC8	Gene	Breast Cancer	Disease	ENTREZ:727677		17529967	GNBR::Y::Gene:Disease	CBCG
-CASC8	Gene	Breast Cancer	Disease	ENTREZ:727677		24743323	GNBR::Y::Gene:Disease	CBCG
-CASC8	Gene	Breast Cancer	Disease	ENTREZ:727677		20453838	GNBR::Y::Gene:Disease	CBCG
-CASP8	Gene	Breast Cancer	Disease	ENTREZ:841		37016353	GNBR::Y::Gene:Disease	CBCG
-CASP8	Gene	Breast Cancer	Disease	ENTREZ:841		37016353	GNBR::Y::Gene:Disease	CBCG
-CASP8	Gene	Breast Cancer	Disease	ENTREZ:841		37016353	GNBR::Y::Gene:Disease	CBCG
-CASP8	Gene	Breast Cancer	Disease	ENTREZ:841		37016353	GNBR::Y::Gene:Disease	CBCG
-CASP8	Gene	Breast Cancer	Disease	ENTREZ:841		36356581	GNBR::Y::Gene:Disease	CBCG
-CBFA2T3	Gene	Breast Cancer	Disease	ENTREZ:863		36424660	GNBR::Y::Gene:Disease	CBCG
-CCDC170	Gene	Breast Cancer	Disease	ENTREZ:80129		27117709	GNBR::Y::Gene:Disease	CBCG
-CCDC170	Gene	Breast Cancer	Disease	ENTREZ:80129		20453838	GNBR::Y::Gene:Disease	CBCG
-CCDC170	Gene	Breast Cancer	Disease	ENTREZ:80129		26928228	GNBR::Y::Gene:Disease	CBCG
-CCDC170	Gene	Breast Cancer	Disease	ENTREZ:80129		29058716	GNBR::Y::Gene:Disease	CBCG
-CCDC170	Gene	Breast Cancer	Disease	ENTREZ:80129		25116933	GNBR::Y::Gene:Disease	CBCG
-CCDC88C	Gene	Breast Cancer	Disease	ENTREZ:440193		23535729	GNBR::Y::Gene:Disease	CBCG
-CCDC88C	Gene	Breast Cancer	Disease	ENTREZ:440193		36356581	GNBR::Y::Gene:Disease	CBCG
-CCDC91	Gene	Breast Cancer	Disease	ENTREZ:55297		27459855	GNBR::Y::Gene:Disease	CBCG
-CCND1	Gene	Breast Cancer	Disease	ENTREZ:595		36534235	GNBR::Y::Gene:Disease	CBCG
-CCNE1	Gene	Breast Cancer	Disease	ENTREZ:898		25159285	GNBR::Y::Gene:Disease	CBCG
-CCNE1	Gene	Breast Cancer	Disease	ENTREZ:898		18174243	GNBR::Y::Gene:Disease	CBCG
-CDC27	Gene	Breast Cancer	Disease	ENTREZ:996		25680405	GNBR::Y::Gene:Disease	CBCG
-CDH1	Gene	Breast Cancer	Disease	ENTREZ:999		11729114	GNBR::Y::Gene:Disease	CBCG
-CDH1	Gene	Breast Cancer	Disease	ENTREZ:999		33471991	GNBR::Y::Gene:Disease	CBCG
-CDH1	Gene	Breast Cancer	Disease	ENTREZ:999		36910346	GNBR::Y::Gene:Disease	CBCG
-CDKAL1	Gene	Breast Cancer	Disease	ENTREZ:54901		29059683	GNBR::Y::Gene:Disease	CBCG
-CDKN1A	Gene	Breast Cancer	Disease	ENTREZ:1026		18174243	GNBR::Y::Gene:Disease	CBCG
-CDKN1B	Gene	Breast Cancer	Disease	ENTREZ:1027		18174243	GNBR::Y::Gene:Disease	CBCG
-CDKN2A	Gene	Breast Cancer	Disease	ENTREZ:1029		15879498	GNBR::Y::Gene:Disease	CBCG
-CDKN2B-AS1	Gene	Breast Cancer	Disease	ENTREZ:100048912		20453838	GNBR::Y::Gene:Disease	CBCG
-CDKN2B-AS1	Gene	Breast Cancer	Disease	ENTREZ:100048912		32139696	GNBR::Y::Gene:Disease	CBCG
-CDYL2	Gene	Breast Cancer	Disease	ENTREZ:124359		23535729	GNBR::Y::Gene:Disease	CBCG
-CDYL2	Gene	Breast Cancer	Disease	ENTREZ:124359		36356581	GNBR::Y::Gene:Disease	CBCG
-CEP131	Gene	Breast Cancer	Disease	ENTREZ:22994		34981446	GNBR::Y::Gene:Disease	CBCG
-CEP131	Gene	Breast Cancer	Disease	ENTREZ:22994		34981446	GNBR::Y::Gene:Disease	CBCG
-CEP131	Gene	Breast Cancer	Disease	ENTREZ:22994		34981446	GNBR::Y::Gene:Disease	CBCG
-CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200		35042965	GNBR::Y::Gene:Disease	CBCG
-CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200		33471991	GNBR::Y::Gene:Disease	CBCG
-CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200		35884425	GNBR::Y::Gene:Disease	CBCG
-CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200		35396981	GNBR::Y::Gene:Disease	CBCG
-CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200		15239132	GNBR::Y::Gene:Disease	CBCG
-CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200		11967536	GNBR::Y::Gene:Disease	CBCG
-CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200		15122511	GNBR::Y::Gene:Disease	CBCG
-CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200		12094328	GNBR::Y::Gene:Disease	CBCG
-CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200		18172190	GNBR::Y::Gene:Disease	CBCG
-CHIC2	Gene	Breast Cancer	Disease	ENTREZ:26511		36424660	GNBR::Y::Gene:Disease	CBCG
-CLDN10	Gene	Breast Cancer	Disease	ENTREZ:9071		30544377	GNBR::Y::Gene:Disease	CBCG
-CLIP1	Gene	Breast Cancer	Disease	ENTREZ:6249		36424660	GNBR::Y::Gene:Disease	CBCG
-CMSS1	Gene	Breast Cancer	Disease	ENTREZ:84319		29059683	GNBR::Y::Gene:Disease	CBCG
-CMSS1	Gene	Breast Cancer	Disease	ENTREZ:84319		36356581	GNBR::Y::Gene:Disease	CBCG
-CNTNAP1	Gene	Breast Cancer	Disease	ENTREZ:8506		29059683	GNBR::Y::Gene:Disease	CBCG
-CNTRL	Gene	Breast Cancer	Disease	ENTREZ:11064		36424660	GNBR::Y::Gene:Disease	CBCG
-COMT	Gene	Breast Cancer	Disease	ENTREZ:1312		30461653	GNBR::Y::Gene:Disease	CBCG
-COPS2	Gene	Breast Cancer	Disease	ENTREZ:9318		31026346	GNBR::Y::Gene:Disease	CBCG
-CREB5	Gene	Breast Cancer	Disease	ENTREZ:9586		29059683	GNBR::Y::Gene:Disease	CBCG
-CTLA4	Gene	Breast Cancer	Disease	ENTREZ:1493		36652567	GNBR::Y::Gene:Disease	CBCG
-CTNNA2	Gene	Breast Cancer	Disease	ENTREZ:1496		25824743	GNBR::Y::Gene:Disease	CBCG
-CTNNB1	Gene	Breast Cancer	Disease	ENTREZ:1499		nan	GNBR::Y::Gene:Disease	CBCG
-CUX1	Gene	Breast Cancer	Disease	ENTREZ:1523		36424660	GNBR::Y::Gene:Disease	CBCG
-CYP17A1	Gene	Breast Cancer	Disease	ENTREZ:1586		18006912	GNBR::Y::Gene:Disease	CBCG
-CYP17A1	Gene	Breast Cancer	Disease	ENTREZ:1586		10404084	GNBR::Y::Gene:Disease	CBCG
-CYP19A1	Gene	Breast Cancer	Disease	ENTREZ:1588		27165202	GNBR::Y::Gene:Disease	CBCG
-CYP19A1	Gene	Breast Cancer	Disease	ENTREZ:1588		17975727	GNBR::Y::Gene:Disease	CBCG
-CYP1A1	Gene	Breast Cancer	Disease	ENTREZ:1543		23000097	GNBR::Y::Gene:Disease	CBCG
-CYP1A2	Gene	Breast Cancer	Disease	ENTREZ:1544		19415745	GNBR::Y::Gene:Disease	CBCG
-CYP1A2	Gene	Breast Cancer	Disease	ENTREZ:1544		16103451	GNBR::Y::Gene:Disease	CBCG
-CYP1B1	Gene	Breast Cancer	Disease	ENTREZ:1545		12415427	GNBR::Y::Gene:Disease	CBCG
-CYP1B1	Gene	Breast Cancer	Disease	ENTREZ:1545		20099199	GNBR::Y::Gene:Disease	CBCG
-CYP2B7P	Gene	Breast Cancer	Disease	ENTREZ:1556		21908515	GNBR::Y::Gene:Disease	CBCG
-CYP2C19	Gene	Breast Cancer	Disease	ENTREZ:1557		22180071	GNBR::Y::Gene:Disease	CBCG
-CYP2D6	Gene	Breast Cancer	Disease	ENTREZ:1565		29479969	GNBR::Y::Gene:Disease	CBCG
-CYP2D6	Gene	Breast Cancer	Disease	ENTREZ:1565		8564925	GNBR::Y::Gene:Disease	CBCG
-CYP2D6	Gene	Breast Cancer	Disease	ENTREZ:1565		29479969	GNBR::Y::Gene:Disease	CBCG
-CYP3A4	Gene	Breast Cancer	Disease	ENTREZ:1576		30218411	GNBR::Y::Gene:Disease	CBCG
-CYP3A5	Gene	Breast Cancer	Disease	ENTREZ:1577		19229255	GNBR::Y::Gene:Disease	CBCG
-DCC	Gene	Breast Cancer	Disease	ENTREZ:1630		36424660	GNBR::Y::Gene:Disease	CBCG
-DCLRE1B	Gene	Breast Cancer	Disease	ENTREZ:64858		23535729	GNBR::Y::Gene:Disease	CBCG
-DCLRE1B	Gene	Breast Cancer	Disease	ENTREZ:64858		27117709	GNBR::Y::Gene:Disease	CBCG
-DESI1	Gene	Breast Cancer	Disease	ENTREZ:27351		18000863	GNBR::Y::Gene:Disease	CBCG
-DIRC3	Gene	Breast Cancer	Disease	ENTREZ:729582		nan	GNBR::Y::Gene:Disease	CBCG
-DIRC3	Gene	Breast Cancer	Disease	ENTREZ:729582		24743323	GNBR::Y::Gene:Disease	CBCG
-DIRC3	Gene	Breast Cancer	Disease	ENTREZ:729582		36356581	GNBR::Y::Gene:Disease	CBCG
-DKK4	Gene	Breast Cancer	Disease	ENTREZ:27121		nan	GNBR::Y::Gene:Disease	CBCG
-DLEU1	Gene	Breast Cancer	Disease	ENTREZ:10301		32139696	GNBR::Y::Gene:Disease	CBCG
-DNAJC15	Gene	Breast Cancer	Disease	ENTREZ:29103		35042965	GNBR::Y::Gene:Disease	CBCG
-DNMT1	Gene	Breast Cancer	Disease	ENTREZ:1786		23079992	GNBR::Y::Gene:Disease	CBCG
-DOCK1	Gene	Breast Cancer	Disease	ENTREZ:1793		30323354	GNBR::Y::Gene:Disease	CBCG
-DRD3	Gene	Breast Cancer	Disease	ENTREZ:1814		nan	GNBR::Y::Gene:Disease	CBCG
-DROSHA	Gene	Breast Cancer	Disease	ENTREZ:29102		36911928	GNBR::Y::Gene:Disease	CBCG
-E2F1	Gene	Breast Cancer	Disease	ENTREZ:1869		33691613	GNBR::Y::Gene:Disease	CBCG
-EBF1	Gene	Breast Cancer	Disease	ENTREZ:1879		nan	GNBR::Y::Gene:Disease	CBCG
-EBF1	Gene	Breast Cancer	Disease	ENTREZ:1879		36356581	GNBR::Y::Gene:Disease	CBCG
-EBF2	Gene	Breast Cancer	Disease	ENTREZ:64641		32424353	GNBR::Y::Gene:Disease	CBCG
-EBF2	Gene	Breast Cancer	Disease	ENTREZ:64641		36356581	GNBR::Y::Gene:Disease	CBCG
-ECHDC1	Gene	Breast Cancer	Disease	ENTREZ:55862		18326623	GNBR::Y::Gene:Disease	CBCG
-ECHDC1	Gene	Breast Cancer	Disease	ENTREZ:55862		18326623	GNBR::Y::Gene:Disease	CBCG
-EHMT1	Gene	Breast Cancer	Disease	ENTREZ:79813		16501248	GNBR::Y::Gene:Disease	CBCG
-EHMT2	Gene	Breast Cancer	Disease	ENTREZ:10919		16501248	GNBR::Y::Gene:Disease	CBCG
-EI24	Gene	Breast Cancer	Disease	ENTREZ:9538		23844225	GNBR::Y::Gene:Disease	CBCG
-EIF4E	Gene	Breast Cancer	Disease	ENTREZ:1977		28582508	GNBR::Y::Gene:Disease	CBCG
-ELN-AS1	Gene	Breast Cancer	Disease	ENTREZ:107986809		36424660	GNBR::Y::Gene:Disease	CBCG
-ELN	Gene	Breast Cancer	Disease	ENTREZ:2006		36424660	GNBR::Y::Gene:Disease	CBCG
-EMBP1	Gene	Breast Cancer	Disease	ENTREZ:647121		27556229	GNBR::Y::Gene:Disease	CBCG
-EMBP1	Gene	Breast Cancer	Disease	ENTREZ:647121		19330030	GNBR::Y::Gene:Disease	CBCG
-EMBP1	Gene	Breast Cancer	Disease	ENTREZ:647121		20453838	GNBR::Y::Gene:Disease	CBCG
-EMBP1	Gene	Breast Cancer	Disease	ENTREZ:647121		24743323	GNBR::Y::Gene:Disease	CBCG
-EMBP1	Gene	Breast Cancer	Disease	ENTREZ:647121		36356581	GNBR::Y::Gene:Disease	CBCG
-EMID1	Gene	Breast Cancer	Disease	ENTREZ:129080		25751625	GNBR::Y::Gene:Disease	CBCG
-EMID1	Gene	Breast Cancer	Disease	ENTREZ:129080		23535729	GNBR::Y::Gene:Disease	CBCG
-EMX2OS	Gene	Breast Cancer	Disease	ENTREZ:196047		32139696	GNBR::Y::Gene:Disease	CBCG
-EPCAM	Gene	Breast Cancer	Disease	ENTREZ:4072		20683652	GNBR::Y::Gene:Disease	CBCG
-EPHX1	Gene	Breast Cancer	Disease	ENTREZ:2052		18423013	GNBR::Y::Gene:Disease	CBCG
-ERBB2	Gene	Breast Cancer	Disease	ENTREZ:2064		10699071	GNBR::Y::Gene:Disease	CBCG
-ERBB2	Gene	Breast Cancer	Disease	ENTREZ:2064		15167216	GNBR::Y::Gene:Disease	CBCG
-ERBB2	Gene	Breast Cancer	Disease	ENTREZ:2064		36708564	GNBR::Y::Gene:Disease	CBCG
-ERBB2	Gene	Breast Cancer	Disease	ENTREZ:2064		15550452	GNBR::Y::Gene:Disease	CBCG
-ERBB3	Gene	Breast Cancer	Disease	ENTREZ:2065		36424660	GNBR::Y::Gene:Disease	CBCG
-ERBB4	Gene	Breast Cancer	Disease	ENTREZ:2066		22452962	GNBR::Y::Gene:Disease	CBCG
-ERCC1	Gene	Breast Cancer	Disease	ENTREZ:2067		23909490	GNBR::Y::Gene:Disease	CBCG
-ERCC1	Gene	Breast Cancer	Disease	ENTREZ:2067		27768589	GNBR::Y::Gene:Disease	CBCG
-ERCC2	Gene	Breast Cancer	Disease	ENTREZ:2068		29544444	GNBR::Y::Gene:Disease	CBCG
-ERCC2	Gene	Breast Cancer	Disease	ENTREZ:2068		25789018	GNBR::Y::Gene:Disease	CBCG
-ERCC2	Gene	Breast Cancer	Disease	ENTREZ:2068		27768589	GNBR::Y::Gene:Disease	CBCG
-ERCC2	Gene	Breast Cancer	Disease	ENTREZ:2068		36594475	GNBR::Y::Gene:Disease	CBCG
-ERCC4	Gene	Breast Cancer	Disease	ENTREZ:2072		18701435	GNBR::Y::Gene:Disease	CBCG
-ERCC5	Gene	Breast Cancer	Disease	ENTREZ:2073		20183911	GNBR::Y::Gene:Disease	CBCG
-ERCC5	Gene	Breast Cancer	Disease	ENTREZ:2073		35691022	GNBR::Y::Gene:Disease	CBCG
-ESR1	Gene	Breast Cancer	Disease	ENTREZ:2099		26928228	GNBR::Y::Gene:Disease	CBCG
-ESR1	Gene	Breast Cancer	Disease	ENTREZ:2099		25116933	GNBR::Y::Gene:Disease	CBCG
-ESR1	Gene	Breast Cancer	Disease	ENTREZ:2099		26928228	GNBR::Y::Gene:Disease	CBCG
-ESR1	Gene	Breast Cancer	Disease	ENTREZ:2099		26928228	GNBR::Y::Gene:Disease	CBCG
-ESR2	Gene	Breast Cancer	Disease	ENTREZ:2100		24430361	GNBR::Y::Gene:Disease	CBCG
-ESR2	Gene	Breast Cancer	Disease	ENTREZ:2100		19429453	GNBR::Y::Gene:Disease	CBCG
-EXO1	Gene	Breast Cancer	Disease	ENTREZ:9156		25751625	GNBR::Y::Gene:Disease	CBCG
-EXO1	Gene	Breast Cancer	Disease	ENTREZ:9156		36356581	GNBR::Y::Gene:Disease	CBCG
-FAM126B	Gene	Breast Cancer	Disease			27117709	GNBR::Y::Gene:Disease	CBCG
-FAM72B	Gene	Breast Cancer	Disease	ENTREZ:653820		36703164	GNBR::Y::Gene:Disease	CBCG
-FANCC	Gene	Breast Cancer	Disease	ENTREZ:2176		23028338	GNBR::Y::Gene:Disease	CBCG
-FANCC	Gene	Breast Cancer	Disease	ENTREZ:2176		33471991	GNBR::Y::Gene:Disease	CBCG
-FANCD2	Gene	Breast Cancer	Disease	ENTREZ:2177		28386063	GNBR::Y::Gene:Disease	CBCG
-FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697		33471991	GNBR::Y::Gene:Disease	CBCG
-FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697		28033443	GNBR::Y::Gene:Disease	CBCG
-FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697		36707629	GNBR::Y::Gene:Disease	CBCG
-FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697		28702895	GNBR::Y::Gene:Disease	CBCG
-FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697		31700994	GNBR::Y::Gene:Disease	CBCG
-FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697		26130695	GNBR::Y::Gene:Disease	CBCG
-FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697		25288723	GNBR::Y::Gene:Disease	CBCG
-FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697		31700994	GNBR::Y::Gene:Disease	CBCG
-FAS	Gene	Breast Cancer	Disease	ENTREZ:355		23326385	GNBR::Y::Gene:Disease	CBCG
-FAS	Gene	Breast Cancer	Disease	ENTREZ:355		22740964	GNBR::Y::Gene:Disease	CBCG
-FASLG	Gene	Breast Cancer	Disease	ENTREZ:356		23326385	GNBR::Y::Gene:Disease	CBCG
-FBLN2	Gene	Breast Cancer	Disease	ENTREZ:2199		36424660	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		36703164	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		36901898	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		18326623	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		24290378	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		20453838	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		22926736	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		17529967	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		37107577	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		24290378	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		37107577	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		24743323	GNBR::Y::Gene:Disease	CBCG
-FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263		36356581	GNBR::Y::Gene:Disease	CBCG
-FILIP1L	Gene	Breast Cancer	Disease	ENTREZ:11259		29059683	GNBR::Y::Gene:Disease	CBCG
-FILIP1L	Gene	Breast Cancer	Disease	ENTREZ:11259		36356581	GNBR::Y::Gene:Disease	CBCG
-FLACC1	Gene	Breast Cancer	Disease	ENTREZ:130540		25168388	GNBR::Y::Gene:Disease	CBCG
-FMNL3	Gene	Breast Cancer	Disease	ENTREZ:91010		36703164	GNBR::Y::Gene:Disease	CBCG
-FOXP3	Gene	Breast Cancer	Disease	ENTREZ:50943		29731666	GNBR::Y::Gene:Disease	CBCG
-FTO	Gene	Breast Cancer	Disease	ENTREZ:79068		23535733	GNBR::Y::Gene:Disease	CBCG
-FTO	Gene	Breast Cancer	Disease	ENTREZ:79068		27117709	GNBR::Y::Gene:Disease	CBCG
-FTO	Gene	Breast Cancer	Disease	ENTREZ:79068		29058716	GNBR::Y::Gene:Disease	CBCG
-GATAD2A	Gene	Breast Cancer	Disease	ENTREZ:54815		29059683	GNBR::Y::Gene:Disease	CBCG
-GATAD2A	Gene	Breast Cancer	Disease	ENTREZ:54815		36356581	GNBR::Y::Gene:Disease	CBCG
-GIPR	Gene	Breast Cancer	Disease	ENTREZ:2696		29059683	GNBR::Y::Gene:Disease	CBCG
-GIPR	Gene	Breast Cancer	Disease	ENTREZ:2696		36356581	GNBR::Y::Gene:Disease	CBCG
-GLO1	Gene	Breast Cancer	Disease	ENTREZ:2739		19379515	GNBR::Y::Gene:Disease	CBCG
-GNAS-AS1	Gene	Breast Cancer	Disease	ENTREZ:149775		36424660	GNBR::Y::Gene:Disease	CBCG
-GNAS	Gene	Breast Cancer	Disease	ENTREZ:2778		36424660	GNBR::Y::Gene:Disease	CBCG
-GPC1-AS1	Gene	Breast Cancer	Disease	ENTREZ:100130449		36371555	GNBR::Y::Gene:Disease	CBCG
-GPC1	Gene	Breast Cancer	Disease	ENTREZ:2817		36371555	GNBR::Y::Gene:Disease	CBCG
-GPR19	Gene	Breast Cancer	Disease	ENTREZ:2842		18174243	GNBR::Y::Gene:Disease	CBCG
-GPRIN2	Gene	Breast Cancer	Disease	ENTREZ:9721		36424660	GNBR::Y::Gene:Disease	CBCG
-GPX1	Gene	Breast Cancer	Disease	ENTREZ:2876		16287877	GNBR::Y::Gene:Disease	CBCG
-GPX1	Gene	Breast Cancer	Disease	ENTREZ:2876		24039907	GNBR::Y::Gene:Disease	CBCG
-GRHL1	Gene	Breast Cancer	Disease	ENTREZ:29841		29059683	GNBR::Y::Gene:Disease	CBCG
-GRHL1	Gene	Breast Cancer	Disease	ENTREZ:29841		36356581	GNBR::Y::Gene:Disease	CBCG
-GRIA4	Gene	Breast Cancer	Disease	ENTREZ:2893		36901898	GNBR::Y::Gene:Disease	CBCG
-GRM7	Gene	Breast Cancer	Disease	ENTREZ:2917		22923054	GNBR::Y::Gene:Disease	CBCG
-GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944		9888479	GNBR::Y::Gene:Disease	CBCG
-GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944		23227845	GNBR::Y::Gene:Disease	CBCG
-GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944		26125851	GNBR::Y::Gene:Disease	CBCG
-GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944		21559761	GNBR::Y::Gene:Disease	CBCG
-GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944		18080216	GNBR::Y::Gene:Disease	CBCG
-GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944		19228880	GNBR::Y::Gene:Disease	CBCG
-GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944		36308374	GNBR::Y::Gene:Disease	CBCG
-GSTO1	Gene	Breast Cancer	Disease	ENTREZ:9446		28670895	GNBR::Y::Gene:Disease	CBCG
-GSTO2	Gene	Breast Cancer	Disease	ENTREZ:119391		28670895	GNBR::Y::Gene:Disease	CBCG
-GSTP1	Gene	Breast Cancer	Disease	ENTREZ:2950		18326615	GNBR::Y::Gene:Disease	CBCG
-GSTP1	Gene	Breast Cancer	Disease	ENTREZ:2950		23826324	GNBR::Y::Gene:Disease	CBCG
-GSTP1	Gene	Breast Cancer	Disease	ENTREZ:2950		23000097	GNBR::Y::Gene:Disease	CBCG
-GSTP1	Gene	Breast Cancer	Disease	ENTREZ:2950		23227845	GNBR::Y::Gene:Disease	CBCG
-GSTP1	Gene	Breast Cancer	Disease	ENTREZ:2950		30461653	GNBR::Y::Gene:Disease	CBCG
-GSTT1	Gene	Breast Cancer	Disease	ENTREZ:2952		31707358	GNBR::Y::Gene:Disease	CBCG
-GSTT1	Gene	Breast Cancer	Disease	ENTREZ:2952		14562023	GNBR::Y::Gene:Disease	CBCG
-GSTT1	Gene	Breast Cancer	Disease	ENTREZ:2952		21559761	GNBR::Y::Gene:Disease	CBCG
-GSTT1	Gene	Breast Cancer	Disease	ENTREZ:2952		18080216	GNBR::Y::Gene:Disease	CBCG
-GSTT1	Gene	Breast Cancer	Disease	ENTREZ:2952		glutathione-stransferase-t1-and-m1-gene-polymorphisms-among-breast-cancer-susceptible-ghanaians-12166.html	GNBR::Y::Gene:Disease	CBCG
-H19	Gene	Breast Cancer	Disease	ENTREZ:14955		35818166	GNBR::Y::Gene:Disease	CBCG
-H19	Gene	Breast Cancer	Disease	ENTREZ:14955		35818166	GNBR::Y::Gene:Disease	CBCG
-H19	Gene	Breast Cancer	Disease	ENTREZ:14955		35818166	GNBR::Y::Gene:Disease	CBCG
-H3-3A	Gene	Breast Cancer	Disease	ENTREZ:3020		36424660	GNBR::Y::Gene:Disease	CBCG
-HCN1	Gene	Breast Cancer	Disease	ENTREZ:348980		27863437	GNBR::Y::Gene:Disease	CBCG
-HELQ	Gene	Breast Cancer	Disease	ENTREZ:113510		29059683	GNBR::Y::Gene:Disease	CBCG
-HIF1A	Gene	Breast Cancer	Disease	ENTREZ:3091		19580347	GNBR::Y::Gene:Disease	CBCG
-HIF1A	Gene	Breast Cancer	Disease	ENTREZ:3091		25302049	GNBR::Y::Gene:Disease	CBCG
-HIF1A	Gene	Breast Cancer	Disease	ENTREZ:3091		30135144	GNBR::Y::Gene:Disease	CBCG
-HIF1A	Gene	Breast Cancer	Disease	ENTREZ:3091		28775167	GNBR::Y::Gene:Disease	CBCG
-HIF1A-AS3	Gene	Breast Cancer	Disease	ENTREZ:105370526		19580347	GNBR::Y::Gene:Disease	CBCG
-HIF1A-AS3	Gene	Breast Cancer	Disease	ENTREZ:105370526		25302049	GNBR::Y::Gene:Disease	CBCG
-HIF1A-AS3	Gene	Breast Cancer	Disease	ENTREZ:105370526		30135144	GNBR::Y::Gene:Disease	CBCG
-HIF1A-AS3	Gene	Breast Cancer	Disease	ENTREZ:105370526		28775167	GNBR::Y::Gene:Disease	CBCG
-HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105		36424660	GNBR::Y::Gene:Disease	CBCG
-HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105		36424660	GNBR::Y::Gene:Disease	CBCG
-HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105		36424660	GNBR::Y::Gene:Disease	CBCG
-HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105		36424660	GNBR::Y::Gene:Disease	CBCG
-HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105		36424660	GNBR::Y::Gene:Disease	CBCG
-HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105		36424660	GNBR::Y::Gene:Disease	CBCG
-HLA-B	Gene	Breast Cancer	Disease	ENTREZ:3106		36424660	GNBR::Y::Gene:Disease	CBCG
-HLA-DRB1	Gene	Breast Cancer	Disease	ENTREZ:3123		36424660	GNBR::Y::Gene:Disease	CBCG
-HLA-DRB1	Gene	Breast Cancer	Disease	ENTREZ:3123		36424660	GNBR::Y::Gene:Disease	CBCG
-HLA-DRB1	Gene	Breast Cancer	Disease	ENTREZ:3123		36424660	GNBR::Y::Gene:Disease	CBCG
-HLA-G	Gene	Breast Cancer	Disease	ENTREZ:3135		35752280	GNBR::Y::Gene:Disease	CBCG
-HMMR	Gene	Breast Cancer	Disease	ENTREZ:3161		17922014	GNBR::Y::Gene:Disease	CBCG
-HMMR-AS1	Gene	Breast Cancer	Disease	ENTREZ:101927813		17922014	GNBR::Y::Gene:Disease	CBCG
-HNF4G	Gene	Breast Cancer	Disease	ENTREZ:3174		23535729	GNBR::Y::Gene:Disease	CBCG
-HOXB13	Gene	Breast Cancer	Disease	ENTREZ:10481		22853031	GNBR::Y::Gene:Disease	CBCG
-HSD11B1	Gene	Breast Cancer	Disease	ENTREZ:3290		18611262	GNBR::Y::Gene:Disease	CBCG
-HSD11B1	Gene	Breast Cancer	Disease	ENTREZ:3290		18611262	GNBR::Y::Gene:Disease	CBCG
-HSD11B1-AS1	Gene	Breast Cancer	Disease	ENTREZ:101930114		18611262	GNBR::Y::Gene:Disease	CBCG
-HSD11B1-AS1	Gene	Breast Cancer	Disease	ENTREZ:101930114		18611262	GNBR::Y::Gene:Disease	CBCG
-HSD17B1	Gene	Breast Cancer	Disease	ENTREZ:3292		19679043	GNBR::Y::Gene:Disease	CBCG
-HSD17B14	Gene	Breast Cancer	Disease	ENTREZ:51171		37578974	GNBR::Y::Gene:Disease	CBCG
-HSPA1A	Gene	Breast Cancer	Disease	ENTREZ:3303		11241233	GNBR::Y::Gene:Disease	CBCG
-HUS1	Gene	Breast Cancer	Disease	ENTREZ:3364		22926736	GNBR::Y::Gene:Disease	CBCG
-HUS1	Gene	Breast Cancer	Disease	ENTREZ:3364		22926736	GNBR::Y::Gene:Disease	CBCG
-ICAM1	Gene	Breast Cancer	Disease	ENTREZ:3383		15604251	GNBR::Y::Gene:Disease	CBCG
-ICAM5	Gene	Breast Cancer	Disease	ENTREZ:7087		15604251	GNBR::Y::Gene:Disease	CBCG
-ICAM5	Gene	Breast Cancer	Disease	ENTREZ:7087		15604251	GNBR::Y::Gene:Disease	CBCG
-IFNG	Gene	Breast Cancer	Disease	ENTREZ:3458		21323572	GNBR::Y::Gene:Disease	CBCG
-IFNG	Gene	Breast Cancer	Disease	ENTREZ:3458		15890243	GNBR::Y::Gene:Disease	CBCG
-IGF1	Gene	Breast Cancer	Disease	ENTREZ:3479		16306136	GNBR::Y::Gene:Disease	CBCG
-IGF2BP2	Gene	Breast Cancer	Disease	ENTREZ:10644		25661373	GNBR::Y::Gene:Disease	CBCG
-IGF2BP2	Gene	Breast Cancer	Disease	ENTREZ:10644		36653207	GNBR::Y::Gene:Disease	CBCG
-IGFBP-AS1	Gene	Breast Cancer	Disease	ENTREZ:101928278		36356581	GNBR::Y::Gene:Disease	CBCG
-IL19	Gene	Breast Cancer	Disease	ENTREZ:29949		25559835	GNBR::Y::Gene:Disease	CBCG
-IL19	Gene	Breast Cancer	Disease	ENTREZ:29949		31983108	GNBR::Y::Gene:Disease	CBCG
-IL19	Gene	Breast Cancer	Disease	ENTREZ:29949		22818022	GNBR::Y::Gene:Disease	CBCG
-IL19	Gene	Breast Cancer	Disease	ENTREZ:29949		ijcep0054774.pdf	GNBR::Y::Gene:Disease	CBCG
-IL1B	Gene	Breast Cancer	Disease	ENTREZ:3553		31281724	GNBR::Y::Gene:Disease	CBCG
-IL1B	Gene	Breast Cancer	Disease	ENTREZ:3553		22818022	GNBR::Y::Gene:Disease	CBCG
-IL1R1	Gene	Breast Cancer	Disease	ENTREZ:3554		29719585	GNBR::Y::Gene:Disease	CBCG
-IL6-AS1	Gene	Breast Cancer	Disease	ENTREZ:541472		36182709	GNBR::Y::Gene:Disease	CBCG
-IL6-AS1	Gene	Breast Cancer	Disease	ENTREZ:541472		36182709	GNBR::Y::Gene:Disease	CBCG
-INSL6	Gene	Breast Cancer	Disease	ENTREZ:11172		28775167	GNBR::Y::Gene:Disease	CBCG
-IRF1-AS1	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-ISX	Gene	Breast Cancer	Disease	ENTREZ:91464		36424660	GNBR::Y::Gene:Disease	CBCG
-ITGA2	Gene	Breast Cancer	Disease	ENTREZ:3673		16317580	GNBR::Y::Gene:Disease	CBCG
-ITGB3	Gene	Breast Cancer	Disease	ENTREZ:3690		15609125	GNBR::Y::Gene:Disease	CBCG
-ITPR1	Gene	Breast Cancer	Disease	ENTREZ:3708		23535729	GNBR::Y::Gene:Disease	CBCG
-ITPR1	Gene	Breast Cancer	Disease	ENTREZ:3708		36356581	GNBR::Y::Gene:Disease	CBCG
-ITPR2	Gene	Breast Cancer	Disease	ENTREZ:3709		30323354	GNBR::Y::Gene:Disease	CBCG
-ITPR3	Gene	Breast Cancer	Disease	ENTREZ:3710		36350267	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36901898	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36901898	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36901898	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23535729	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			nan	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			37524136	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27863437	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23535729	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			18648013	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			18438407	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27640304	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			24743323	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27117709	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29058716	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			25680405	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			nan	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36831624	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23535729	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23535825	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23535729	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23535733	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27117709	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29058716	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			24743323	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27117709	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			22923054	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			21424380	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27117709	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23593120	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			24743323	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			35794698	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27117709	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			35794698	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			34981446	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23535729	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			24386390	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			16306136	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			22452962	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			nan	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			25960224	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			17529967	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36652567	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			25589623	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			17216494	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23535729	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			34981446	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			22923054	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			18438407	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			37239331	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36645723	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36652567	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			7641189	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			21977969	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23535825	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23535825	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23540573	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			24743323	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			21598251	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			20453838	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			24743323	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			25529635	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27601076	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29058716	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			34981446	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			35637532	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27459855	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36652567	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27117709	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			28582508	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23540573	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			24743323	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			37239331	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			16504019	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			18648013	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27459855	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			17891484	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			17529967	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			20453838	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			24743323	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			25751625	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			26928228	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			27117709	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			23535729	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			20453838	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			31757997	GNBR::Y::Gene:Disease	CBCG
-Intergenic	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-JAK2	Gene	Breast Cancer	Disease	ENTREZ:3717		28775167	GNBR::Y::Gene:Disease	CBCG
-KCNN4	Gene	Breast Cancer	Disease	ENTREZ:3783		36703164	GNBR::Y::Gene:Disease	CBCG
-KCNN4	Gene	Breast Cancer	Disease	ENTREZ:3783		36356581	GNBR::Y::Gene:Disease	CBCG
-KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831		12023982	GNBR::Y::Gene:Disease	CBCG
-KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831		nan	GNBR::Y::Gene:Disease	CBCG
-KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831		28983784	GNBR::Y::Gene:Disease	CBCG
-KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831		35061678	GNBR::Y::Gene:Disease	CBCG
-KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831		36761956	GNBR::Y::Gene:Disease	CBCG
-KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831		35691022	GNBR::Y::Gene:Disease	CBCG
-KMT2C	Gene	Breast Cancer	Disease	ENTREZ:58508		36424660	GNBR::Y::Gene:Disease	CBCG
-KMT2C	Gene	Breast Cancer	Disease	ENTREZ:58508		36424660	GNBR::Y::Gene:Disease	CBCG
-KRAS	Gene	Breast Cancer	Disease	ENTREZ:3845		36510353	GNBR::Y::Gene:Disease	CBCG
-LDLRAD4	Gene	Breast Cancer	Disease	ENTREZ:753		36356581	GNBR::Y::Gene:Disease	CBCG
-LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953		16504019	GNBR::Y::Gene:Disease	CBCG
-LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953		18668212	GNBR::Y::Gene:Disease	CBCG
-LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953		S0026893308060034	GNBR::Y::Gene:Disease	CBCG
-LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953		25422752	GNBR::Y::Gene:Disease	CBCG
-LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953		36943722	GNBR::Y::Gene:Disease	CBCG
-LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953		36943722	GNBR::Y::Gene:Disease	CBCG
-LGR6	Gene	Breast Cancer	Disease	ENTREZ:59352		23535733	GNBR::Y::Gene:Disease	CBCG
-LINC-PINT	Gene	Breast Cancer	Disease	ENTREZ:378805		21908515	GNBR::Y::Gene:Disease	CBCG
-LINC-PINT	Gene	Breast Cancer	Disease	ENTREZ:378805		36356581	GNBR::Y::Gene:Disease	CBCG
-LINC00536	Gene	Breast Cancer	Disease	ENTREZ:100859921		25751625	GNBR::Y::Gene:Disease	CBCG
-LINC00536	Gene	Breast Cancer	Disease	ENTREZ:100859921		36356581	GNBR::Y::Gene:Disease	CBCG
-LINC01282	Gene	Breast Cancer	Disease	ENTREZ:101927449		21908515	GNBR::Y::Gene:Disease	CBCG
-LINC01488	Gene	Breast Cancer	Disease	ENTREZ:101928292		24493630	GNBR::Y::Gene:Disease	CBCG
-LINC02068	Gene	Breast Cancer	Disease	ENTREZ:105374219		29059683	GNBR::Y::Gene:Disease	CBCG
-LINC02288	Gene	Breast Cancer	Disease	ENTREZ:283575		36356581	GNBR::Y::Gene:Disease	CBCG
-LINC02456	Gene	Breast Cancer	Disease	ENTREZ:105369942		16306136	GNBR::Y::Gene:Disease	CBCG
-LMX1B	Gene	Breast Cancer	Disease	ENTREZ:4010		29059683	GNBR::Y::Gene:Disease	CBCG
-LMX1B	Gene	Breast Cancer	Disease	ENTREZ:4010		36356581	GNBR::Y::Gene:Disease	CBCG
-LOC100128494	Gene	Breast Cancer	Disease			15684076	GNBR::Y::Gene:Disease	CBCG
-LOC100287329	Gene	Breast Cancer	Disease			11841482	GNBR::Y::Gene:Disease	CBCG
-LOC101928278	Gene	Breast Cancer	Disease			17529974	GNBR::Y::Gene:Disease	CBCG
-LOC101928278	Gene	Breast Cancer	Disease			20453838	GNBR::Y::Gene:Disease	CBCG
-LOC105369501	Gene	Breast Cancer	Disease			nan	GNBR::Y::Gene:Disease	CBCG
-LOC105369828	Gene	Breast Cancer	Disease			36424660	GNBR::Y::Gene:Disease	CBCG
-LOC105371082	Gene	Breast Cancer	Disease			37526791	GNBR::Y::Gene:Disease	CBCG
-LOC105371274	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-LOC105371274	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-LOC105373071	Gene	Breast Cancer	Disease	ENTREZ:105373071		36356581	GNBR::Y::Gene:Disease	CBCG
-LOC105373874	Gene	Breast Cancer	Disease			17529974	GNBR::Y::Gene:Disease	CBCG
-LOC105373874	Gene	Breast Cancer	Disease			20453838	GNBR::Y::Gene:Disease	CBCG
-LOC105375404	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-LOC105375508	Gene	Breast Cancer	Disease			36831624	GNBR::Y::Gene:Disease	CBCG
-LOC105375739	Gene	Breast Cancer	Disease			29058716	GNBR::Y::Gene:Disease	CBCG
-LOC105375739	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-LOC105376214	Gene	Breast Cancer	Disease			25652398	GNBR::Y::Gene:Disease	CBCG
-LOC105376214	Gene	Breast Cancer	Disease			25652398	GNBR::Y::Gene:Disease	CBCG
-LOC105377621	Gene	Breast Cancer	Disease	ENTREZ:105377621		25559835	GNBR::Y::Gene:Disease	CBCG
-LOC105377871	Gene	Breast Cancer	Disease			22976474	GNBR::Y::Gene:Disease	CBCG
-LOC105379003	Gene	Breast Cancer	Disease			22923054	GNBR::Y::Gene:Disease	CBCG
-LOC107984214	Gene	Breast Cancer	Disease			23535729	GNBR::Y::Gene:Disease	CBCG
-LOC107984284	Gene	Breast Cancer	Disease			26925658	GNBR::Y::Gene:Disease	CBCG
-LOC107985393	Gene	Breast Cancer	Disease			18634034	GNBR::Y::Gene:Disease	CBCG
-LOC107985515	Gene	Breast Cancer	Disease			27354352	GNBR::Y::Gene:Disease	CBCG
-LOC107985515	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-LOC107985532	Gene	Breast Cancer	Disease			29317318	GNBR::Y::Gene:Disease	CBCG
-LOC107985535	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-LOC107985535	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-LOC107986820	Gene	Breast Cancer	Disease			30323354	GNBR::Y::Gene:Disease	CBCG
-LOC107986854	Gene	Breast Cancer	Disease			24743323	GNBR::Y::Gene:Disease	CBCG
-LOC107986854	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-LOC107986930	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-LOC107986961	Gene	Breast Cancer	Disease			29059683	GNBR::Y::Gene:Disease	CBCG
-LOC107987209	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-LOC112268294	Gene	Breast Cancer	Disease			29479969	GNBR::Y::Gene:Disease	CBCG
-LOC124900631	Gene	Breast Cancer	Disease			36424660	GNBR::Y::Gene:Disease	CBCG
-LOC124900868	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-LOC124901298	Gene	Breast Cancer	Disease			36424660	GNBR::Y::Gene:Disease	CBCG
-LOC124901298	Gene	Breast Cancer	Disease			36424660	GNBR::Y::Gene:Disease	CBCG
-LOC124901298	Gene	Breast Cancer	Disease			36424660	GNBR::Y::Gene:Disease	CBCG
-LOC124901298	Gene	Breast Cancer	Disease			36424660	GNBR::Y::Gene:Disease	CBCG
-LOC124901298	Gene	Breast Cancer	Disease			36424660	GNBR::Y::Gene:Disease	CBCG
-LOC124901435	Gene	Breast Cancer	Disease			36595122	GNBR::Y::Gene:Disease	CBCG
-LOC124901435	Gene	Breast Cancer	Disease			37524136	GNBR::Y::Gene:Disease	CBCG
-LOC124902020	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-LOC124905970	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-LOC124909400	Gene	Breast Cancer	Disease			36356581	GNBR::Y::Gene:Disease	CBCG
-LRTOMT	Gene	Breast Cancer	Disease	ENTREZ:220074		15684076	GNBR::Y::Gene:Disease	CBCG
-LRTOMT	Gene	Breast Cancer	Disease	ENTREZ:220074		15684076	GNBR::Y::Gene:Disease	CBCG
-LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046		36703164	GNBR::Y::Gene:Disease	CBCG
-LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046		17529967	GNBR::Y::Gene:Disease	CBCG
-LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046		36397430	GNBR::Y::Gene:Disease	CBCG
-LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046		27117709	GNBR::Y::Gene:Disease	CBCG
-LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046		26191300	GNBR::Y::Gene:Disease	CBCG
-LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046		26191300	GNBR::Y::Gene:Disease	CBCG
-LTA	Gene	Breast Cancer	Disease	ENTREZ:4049		11841482	GNBR::Y::Gene:Disease	CBCG
-LYPD5	Gene	Breast Cancer	Disease	ENTREZ:284348		36703164	GNBR::Y::Gene:Disease	CBCG
-LZTS1	Gene	Breast Cancer	Disease	ENTREZ:11178		21908515	GNBR::Y::Gene:Disease	CBCG
-MAD1L1	Gene	Breast Cancer	Disease	ENTREZ:8379		35042965	GNBR::Y::Gene:Disease	CBCG
-MAF	Gene	Breast Cancer	Disease	ENTREZ:4094		36424660	GNBR::Y::Gene:Disease	CBCG
-MAP3K1	Gene	Breast Cancer	Disease	ENTREZ:4214		36703164	GNBR::Y::Gene:Disease	CBCG
-MCC	Gene	Breast Cancer	Disease	ENTREZ:4163		21279955	GNBR::Y::Gene:Disease	CBCG
-MCM8	Gene	Breast Cancer	Disease	ENTREZ:84515		29059683	GNBR::Y::Gene:Disease	CBCG
-MCM8	Gene	Breast Cancer	Disease	ENTREZ:84515		36356581	GNBR::Y::Gene:Disease	CBCG
-MCPH1	Gene	Breast Cancer	Disease	ENTREZ:79648		26820313	GNBR::Y::Gene:Disease	CBCG
-MDM2	Gene	Breast Cancer	Disease	ENTREZ:4193		29699057	GNBR::Y::Gene:Disease	CBCG
-MDM2	Gene	Breast Cancer	Disease	ENTREZ:4193		21479369	GNBR::Y::Gene:Disease	CBCG
-MDM2	Gene	Breast Cancer	Disease	ENTREZ:4193		19144119	GNBR::Y::Gene:Disease	CBCG
-MDM2	Gene	Breast Cancer	Disease	ENTREZ:4193		21477265	GNBR::Y::Gene:Disease	CBCG
-MDM2	Gene	Breast Cancer	Disease	ENTREZ:4193		30244662	GNBR::Y::Gene:Disease	CBCG
-MDM4	Gene	Breast Cancer	Disease	ENTREZ:4194		23535733	GNBR::Y::Gene:Disease	CBCG
-MDM4	Gene	Breast Cancer	Disease	ENTREZ:4194		27117709	GNBR::Y::Gene:Disease	CBCG
-MDM4	Gene	Breast Cancer	Disease	ENTREZ:4194		29058716	GNBR::Y::Gene:Disease	CBCG
-MDM4	Gene	Breast Cancer	Disease	ENTREZ:4194		36356581	GNBR::Y::Gene:Disease	CBCG
-MEAK7	Gene	Breast Cancer	Disease	ENTREZ:57707		35042965	GNBR::Y::Gene:Disease	CBCG
-MEN1	Gene	Breast Cancer	Disease	ENTREZ:4221		25099597	GNBR::Y::Gene:Disease	CBCG
-MGA	Gene	Breast Cancer	Disease	ENTREZ:23269		36424660	GNBR::Y::Gene:Disease	CBCG
-MGMT	Gene	Breast Cancer	Disease	ENTREZ:4255		23027618	GNBR::Y::Gene:Disease	CBCG
-MIER3	Gene	Breast Cancer	Disease	ENTREZ:166968		36703164	GNBR::Y::Gene:Disease	CBCG
-MIR149	Gene	Breast Cancer	Disease	ENTREZ:406941		36371555	GNBR::Y::Gene:Disease	CBCG
-MIR155HG	Gene	Breast Cancer	Disease	ENTREZ:114614		36499743	GNBR::Y::Gene:Disease	CBCG
-MIR196A2	Gene	Breast Cancer	Disease	ENTREZ:406973		18634034	GNBR::Y::Gene:Disease	CBCG
-MIR196A2	Gene	Breast Cancer	Disease	ENTREZ:406973		36831624	GNBR::Y::Gene:Disease	CBCG
-MIR23AHG	Gene	Breast Cancer	Disease	ENTREZ:284454		36831624	GNBR::Y::Gene:Disease	CBCG
-MIR27A	Gene	Breast Cancer	Disease	ENTREZ:407018		36831624	GNBR::Y::Gene:Disease	CBCG
-MIR4713HG	Gene	Breast Cancer	Disease	ENTREZ:109729174		27165202	GNBR::Y::Gene:Disease	CBCG
-MIR4713HG	Gene	Breast Cancer	Disease	ENTREZ:109729174		17975727	GNBR::Y::Gene:Disease	CBCG
-MIR499A	Gene	Breast Cancer	Disease	ENTREZ:574501		18634034	GNBR::Y::Gene:Disease	CBCG
-MIR499B	Gene	Breast Cancer	Disease	ENTREZ:100616134		18634034	GNBR::Y::Gene:Disease	CBCG
-MLLT10	Gene	Breast Cancer	Disease	ENTREZ:8028		24743323	GNBR::Y::Gene:Disease	CBCG
-MLLT10	Gene	Breast Cancer	Disease	ENTREZ:8028		36356581	GNBR::Y::Gene:Disease	CBCG
-MLLT1	Gene	Breast Cancer	Disease	ENTREZ:4298		36424660	GNBR::Y::Gene:Disease	CBCG
-MMP1	Gene	Breast Cancer	Disease	ENTREZ:4312		23696797	GNBR::Y::Gene:Disease	CBCG
-MMP1	Gene	Breast Cancer	Disease	ENTREZ:4312		23696797	GNBR::Y::Gene:Disease	CBCG
-MMP2	Gene	Breast Cancer	Disease	ENTREZ:4313		23696797	GNBR::Y::Gene:Disease	CBCG
-MMP3	Gene	Breast Cancer	Disease	ENTREZ:4314		23696797	GNBR::Y::Gene:Disease	CBCG
-MMP9	Gene	Breast Cancer	Disease	ENTREZ:4318		23634849	GNBR::Y::Gene:Disease	CBCG
-MMP9	Gene	Breast Cancer	Disease	ENTREZ:4318		23696797	GNBR::Y::Gene:Disease	CBCG
-MRE11	Gene	Breast Cancer	Disease	ENTREZ:4361		24894818	GNBR::Y::Gene:Disease	CBCG
-MRPL23	Gene	Breast Cancer	Disease	ENTREZ:6150		35818166	GNBR::Y::Gene:Disease	CBCG
-MRPL23	Gene	Breast Cancer	Disease	ENTREZ:6150		35818166	GNBR::Y::Gene:Disease	CBCG
-MRPL23	Gene	Breast Cancer	Disease	ENTREZ:6150		35818166	GNBR::Y::Gene:Disease	CBCG
-MRPS18C	Gene	Breast Cancer	Disease	ENTREZ:51023		27792995	GNBR::Y::Gene:Disease	CBCG
-MRTFA	Gene	Breast Cancer	Disease	ENTREZ:57591		24325915	GNBR::Y::Gene:Disease	CBCG
-MRTFA	Gene	Breast Cancer	Disease	ENTREZ:57591		nan	GNBR::Y::Gene:Disease	CBCG
-MRTFA	Gene	Breast Cancer	Disease	ENTREZ:57591		36356581	GNBR::Y::Gene:Disease	CBCG
-MSH2	Gene	Breast Cancer	Disease	ENTREZ:4436		28779004	GNBR::Y::Gene:Disease	CBCG
-MSH6	Gene	Breast Cancer	Disease	ENTREZ:2956		29345684	GNBR::Y::Gene:Disease	CBCG
-MSH6	Gene	Breast Cancer	Disease	ENTREZ:2956		33471991	GNBR::Y::Gene:Disease	CBCG
-MSTO1	Gene	Breast Cancer	Disease	ENTREZ:55154		36356581	GNBR::Y::Gene:Disease	CBCG
-MTCL1	Gene	Breast Cancer	Disease	ENTREZ:23255		25824743	GNBR::Y::Gene:Disease	CBCG
-MTCL1	Gene	Breast Cancer	Disease	ENTREZ:23255		25824743	GNBR::Y::Gene:Disease	CBCG
-MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524		ijcep0050060.pdf	GNBR::Y::Gene:Disease	CBCG
-MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524		12473175	GNBR::Y::Gene:Disease	CBCG
-MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524		15735051	GNBR::Y::Gene:Disease	CBCG
-MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524		23056029	GNBR::Y::Gene:Disease	CBCG
-MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524		25366783	GNBR::Y::Gene:Disease	CBCG
-MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524		25075036	GNBR::Y::Gene:Disease	CBCG
-MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524		25217320	GNBR::Y::Gene:Disease	CBCG
-MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524		25566964	GNBR::Y::Gene:Disease	CBCG
-MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524		36412394	GNBR::Y::Gene:Disease	CBCG
-MTMR11	Gene	Breast Cancer	Disease	ENTREZ:10903		36356581	GNBR::Y::Gene:Disease	CBCG
-MTR	Gene	Breast Cancer	Disease	ENTREZ:4548		nan	GNBR::Y::Gene:Disease	CBCG
-MTR	Gene	Breast Cancer	Disease	ENTREZ:4548		nan	GNBR::Y::Gene:Disease	CBCG
-MTR	Gene	Breast Cancer	Disease	ENTREZ:4548		22134752	GNBR::Y::Gene:Disease	CBCG
-MTRR	Gene	Breast Cancer	Disease	ENTREZ:4552		nan	GNBR::Y::Gene:Disease	CBCG
-MTRR	Gene	Breast Cancer	Disease	ENTREZ:4552		ijcep0050060.pdf	GNBR::Y::Gene:Disease	CBCG
-MUC4	Gene	Breast Cancer	Disease	ENTREZ:4585		36424660	GNBR::Y::Gene:Disease	CBCG
-MUS81	Gene	Breast Cancer	Disease	ENTREZ:80198		32443704	GNBR::Y::Gene:Disease	CBCG
-MUTYH	Gene	Breast Cancer	Disease	ENTREZ:4595		16140997	GNBR::Y::Gene:Disease	CBCG
-MUTYH	Gene	Breast Cancer	Disease	ENTREZ:4595		nan	GNBR::Y::Gene:Disease	CBCG
-MUTYH	Gene	Breast Cancer	Disease	ENTREZ:4595		30564557	GNBR::Y::Gene:Disease	CBCG
-MUTYH	Gene	Breast Cancer	Disease	ENTREZ:4595		21952991	GNBR::Y::Gene:Disease	CBCG
-MYC	Gene	Breast Cancer	Disease	ENTREZ:4609		15929079	GNBR::Y::Gene:Disease	CBCG
-MYH7B	Gene	Breast Cancer	Disease	ENTREZ:57644		18634034	GNBR::Y::Gene:Disease	CBCG
-MYO5A	Gene	Breast Cancer	Disease	ENTREZ:4644		36424660	GNBR::Y::Gene:Disease	CBCG
-NAT2	Gene	Breast Cancer	Disease	ENTREZ:10		nan	GNBR::Y::Gene:Disease	CBCG
-NBEA	Gene	Breast Cancer	Disease	ENTREZ:26960		36424660	GNBR::Y::Gene:Disease	CBCG
-NBN	Gene	Breast Cancer	Disease	ENTREZ:4683		12845677	GNBR::Y::Gene:Disease	CBCG
-NBN	Gene	Breast Cancer	Disease	ENTREZ:4683		16770759	GNBR::Y::Gene:Disease	CBCG
-NEK10	Gene	Breast Cancer	Disease	ENTREZ:152110		36356581	GNBR::Y::Gene:Disease	CBCG
-NF1	Gene	Breast Cancer	Disease	ENTREZ:4763		23165953	GNBR::Y::Gene:Disease	CBCG
-NF1	Gene	Breast Cancer	Disease	ENTREZ:4763		25742481	GNBR::Y::Gene:Disease	CBCG
-NF1	Gene	Breast Cancer	Disease	ENTREZ:4763		16786042	GNBR::Y::Gene:Disease	CBCG
-NF1	Gene	Breast Cancer	Disease	ENTREZ:4763		33471991	GNBR::Y::Gene:Disease	CBCG
-NF1	Gene	Breast Cancer	Disease	ENTREZ:4763		35396981	GNBR::Y::Gene:Disease	CBCG
-NFIX	Gene	Breast Cancer	Disease	ENTREZ:4784		29059683	GNBR::Y::Gene:Disease	CBCG
-NFIX	Gene	Breast Cancer	Disease	ENTREZ:4784		36356581	GNBR::Y::Gene:Disease	CBCG
-NOS3	Gene	Breast Cancer	Disease	ENTREZ:4846		16538535	GNBR::Y::Gene:Disease	CBCG
-NOTCH3	Gene	Breast Cancer	Disease	ENTREZ:4854		28775167	GNBR::Y::Gene:Disease	CBCG
-NPHP1	Gene	Breast Cancer	Disease	ENTREZ:4867		35042965	GNBR::Y::Gene:Disease	CBCG
-NQO1	Gene	Breast Cancer	Disease	ENTREZ:1728		15280903	GNBR::Y::Gene:Disease	CBCG
-NR2F6	Gene	Breast Cancer	Disease	ENTREZ:2063		27601076	GNBR::Y::Gene:Disease	CBCG
-NRG1	Gene	Breast Cancer	Disease	ENTREZ:3084		36424660	GNBR::Y::Gene:Disease	CBCG
-NTRK1	Gene	Breast Cancer	Disease	ENTREZ:4914		36424660	GNBR::Y::Gene:Disease	CBCG
-NTRK1	Gene	Breast Cancer	Disease	ENTREZ:4914		36424660	GNBR::Y::Gene:Disease	CBCG
-NUMA1	Gene	Breast Cancer	Disease	ENTREZ:4926		15684076	GNBR::Y::Gene:Disease	CBCG
-NUP214	Gene	Breast Cancer	Disease	ENTREZ:8021		36424660	GNBR::Y::Gene:Disease	CBCG
-OGG1	Gene	Breast Cancer	Disease	ENTREZ:4968		32167073	GNBR::Y::Gene:Disease	CBCG
-OGG1	Gene	Breast Cancer	Disease	ENTREZ:4968		27822728	GNBR::Y::Gene:Disease	CBCG
-OR4C11	Gene	Breast Cancer	Disease	ENTREZ:219429		28302160	GNBR::Y::Gene:Disease	CBCG
-OR4P4	Gene	Breast Cancer	Disease	ENTREZ:81300		28302160	GNBR::Y::Gene:Disease	CBCG
-ORC2	Gene	Breast Cancer	Disease	ENTREZ:4999		27117709	GNBR::Y::Gene:Disease	CBCG
-OTUD7B	Gene	Breast Cancer	Disease	ENTREZ:56957		25751625	GNBR::Y::Gene:Disease	CBCG
-PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728		17200668	GNBR::Y::Gene:Disease	CBCG
-PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728		25099575	GNBR::Y::Gene:Disease	CBCG
-PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728		33471991	GNBR::Y::Gene:Disease	CBCG
-PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728		37262986	GNBR::Y::Gene:Disease	CBCG
-PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728		35884425	GNBR::Y::Gene:Disease	CBCG
-PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728		35396981	GNBR::Y::Gene:Disease	CBCG
-PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728		17287723	GNBR::Y::Gene:Disease	CBCG
-PCDHGB2	Gene	Breast Cancer	Disease	ENTREZ:56103		35042965	GNBR::Y::Gene:Disease	CBCG
-PCM1	Gene	Breast Cancer	Disease	ENTREZ:5108		36356581	GNBR::Y::Gene:Disease	CBCG
-PCNT	Gene	Breast Cancer	Disease	ENTREZ:5116		32139696	GNBR::Y::Gene:Disease	CBCG
-PCNT	Gene	Breast Cancer	Disease	ENTREZ:5116		32424353	GNBR::Y::Gene:Disease	CBCG
-PCNT	Gene	Breast Cancer	Disease	ENTREZ:5116		36356581	GNBR::Y::Gene:Disease	CBCG
-PCSK7	Gene	Breast Cancer	Disease	ENTREZ:9159		36356581	GNBR::Y::Gene:Disease	CBCG
-PDCD6-AHRR	Gene	Breast Cancer	Disease	ENTREZ:116412618		29059683	GNBR::Y::Gene:Disease	CBCG
-PDCD6-AHRR	Gene	Breast Cancer	Disease	ENTREZ:116412618		36356581	GNBR::Y::Gene:Disease	CBCG
-PDE7B	Gene	Breast Cancer	Disease	ENTREZ:27115		30323354	GNBR::Y::Gene:Disease	CBCG
-PDGFRB	Gene	Breast Cancer	Disease	ENTREZ:5159		36424660	GNBR::Y::Gene:Disease	CBCG
-PEX14	Gene	Breast Cancer	Disease	ENTREZ:5195		37524136	GNBR::Y::Gene:Disease	CBCG
-PGR	Gene	Breast Cancer	Disease	ENTREZ:5241		17018785	GNBR::Y::Gene:Disease	CBCG
-PHF20	Gene	Breast Cancer	Disease	ENTREZ:51230		36356581	GNBR::Y::Gene:Disease	CBCG
-PHLDA3	Gene	Breast Cancer	Disease	ENTREZ:23612		29059683	GNBR::Y::Gene:Disease	CBCG
-PHLDA3	Gene	Breast Cancer	Disease	ENTREZ:23612		36356581	GNBR::Y::Gene:Disease	CBCG
-PIDD1	Gene	Breast Cancer	Disease	ENTREZ:55367		36356581	GNBR::Y::Gene:Disease	CBCG
-PIK3CA	Gene	Breast Cancer	Disease	ENTREZ:5290		36831624	GNBR::Y::Gene:Disease	CBCG
-PIP4K2A	Gene	Breast Cancer	Disease	ENTREZ:5305		32139696	GNBR::Y::Gene:Disease	CBCG
-PIP4K2A	Gene	Breast Cancer	Disease	ENTREZ:5305		36356581	GNBR::Y::Gene:Disease	CBCG
-PMF1	Gene	Breast Cancer	Disease	ENTREZ:11243		32139696	GNBR::Y::Gene:Disease	CBCG
-PMF1-BGLAP	Gene	Breast Cancer	Disease	ENTREZ:100527963		32139696	GNBR::Y::Gene:Disease	CBCG
-PMS2	Gene	Breast Cancer	Disease	ENTREZ:5395		29345684	GNBR::Y::Gene:Disease	CBCG
-PMS2P5	Gene	Breast Cancer	Disease	ENTREZ:5383		36356581	GNBR::Y::Gene:Disease	CBCG
-PNPLA4	Gene	Breast Cancer	Disease	ENTREZ:8228		35042965	GNBR::Y::Gene:Disease	CBCG
-POLG	Gene	Breast Cancer	Disease	ENTREZ:5428		29341116	GNBR::Y::Gene:Disease	CBCG
-PON1	Gene	Breast Cancer	Disease	ENTREZ:5444		16775186	GNBR::Y::Gene:Disease	CBCG
-PON1	Gene	Breast Cancer	Disease	ENTREZ:5444		19379515	GNBR::Y::Gene:Disease	CBCG
-PON1	Gene	Breast Cancer	Disease	ENTREZ:5444		s12253-010-9267-5	GNBR::Y::Gene:Disease	CBCG
-PON1	Gene	Breast Cancer	Disease	ENTREZ:5444		21229382	GNBR::Y::Gene:Disease	CBCG
-PON1	Gene	Breast Cancer	Disease	ENTREZ:5444		35938743	GNBR::Y::Gene:Disease	CBCG
-POR	Gene	Breast Cancer	Disease	ENTREZ:5447		17440066	GNBR::Y::Gene:Disease	CBCG
-PPA2	Gene	Breast Cancer	Disease	ENTREZ:27068		26354892	GNBR::Y::Gene:Disease	CBCG
-PPARA	Gene	Breast Cancer	Disease	ENTREZ:5465		28669518	GNBR::Y::Gene:Disease	CBCG
-PPARA	Gene	Breast Cancer	Disease	ENTREZ:5465		18586686	GNBR::Y::Gene:Disease	CBCG
-PPARG	Gene	Breast Cancer	Disease	ENTREZ:5468		28669518	GNBR::Y::Gene:Disease	CBCG
-PPARGC1A	Gene	Breast Cancer	Disease	ENTREZ:10891		16704985	GNBR::Y::Gene:Disease	CBCG
-PPARGC1B	Gene	Breast Cancer	Disease	ENTREZ:133522		16704985	GNBR::Y::Gene:Disease	CBCG
-PPIL3	Gene	Breast Cancer	Disease	ENTREZ:53938		27117709	GNBR::Y::Gene:Disease	CBCG
-PPM1D	Gene	Breast Cancer	Disease	ENTREZ:8493		23242139	GNBR::Y::Gene:Disease	CBCG
-PPM1K-DT	Gene	Breast Cancer	Disease	ENTREZ:105369192		29059683	GNBR::Y::Gene:Disease	CBCG
-PPM1K-DT	Gene	Breast Cancer	Disease	ENTREZ:105369192		36356581	GNBR::Y::Gene:Disease	CBCG
-PPP3CA	Gene	Breast Cancer	Disease	ENTREZ:5530		21908515	GNBR::Y::Gene:Disease	CBCG
-PRC1	Gene	Breast Cancer	Disease	ENTREZ:9055		25038754	GNBR::Y::Gene:Disease	CBCG
-PRC1-AS1	Gene	Breast Cancer	Disease	ENTREZ:100507118		25038754	GNBR::Y::Gene:Disease	CBCG
-PRDM2	Gene	Breast Cancer	Disease	ENTREZ:7799		16501248	GNBR::Y::Gene:Disease	CBCG
-PRKG1	Gene	Breast Cancer	Disease	ENTREZ:5592		36356581	GNBR::Y::Gene:Disease	CBCG
-PTEN	Gene	Breast Cancer	Disease	ENTREZ:5728		9399897	GNBR::Y::Gene:Disease	CBCG
-PTEN	Gene	Breast Cancer	Disease	ENTREZ:5728		23335809	GNBR::Y::Gene:Disease	CBCG
-PTEN	Gene	Breast Cancer	Disease	ENTREZ:5728		22252256	GNBR::Y::Gene:Disease	CBCG
-PTEN	Gene	Breast Cancer	Disease	ENTREZ:5728		33471991	GNBR::Y::Gene:Disease	CBCG
-PTEN	Gene	Breast Cancer	Disease	ENTREZ:5728		35396981	GNBR::Y::Gene:Disease	CBCG
-PTGS1	Gene	Breast Cancer	Disease	ENTREZ:5742		25339205	GNBR::Y::Gene:Disease	CBCG
-PTPN9	Gene	Breast Cancer	Disease	ENTREZ:5780		32139696	GNBR::Y::Gene:Disease	CBCG
-PTPRB	Gene	Breast Cancer	Disease	ENTREZ:5787		36424660	GNBR::Y::Gene:Disease	CBCG
-RABEP1	Gene	Breast Cancer	Disease	ENTREZ:9135		36424660	GNBR::Y::Gene:Disease	CBCG
-RAD50	Gene	Breast Cancer	Disease	ENTREZ:10111		16474176	GNBR::Y::Gene:Disease	CBCG
-RAD51	Gene	Breast Cancer	Disease	ENTREZ:5888		nan	GNBR::Y::Gene:Disease	CBCG
-RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890		34635660	GNBR::Y::Gene:Disease	CBCG
-RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890		27149063	GNBR::Y::Gene:Disease	CBCG
-RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890		27149063	GNBR::Y::Gene:Disease	CBCG
-RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890		nan	GNBR::Y::Gene:Disease	CBCG
-RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890		24743323	GNBR::Y::Gene:Disease	CBCG
-RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890		27149063	GNBR::Y::Gene:Disease	CBCG
-RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890		36356581	GNBR::Y::Gene:Disease	CBCG
-RAD51C	Gene	Breast Cancer	Disease	ENTREZ:5889		20400964	GNBR::Y::Gene:Disease	CBCG
-RAD51C	Gene	Breast Cancer	Disease	ENTREZ:5889		33471991	GNBR::Y::Gene:Disease	CBCG
-RAD51C	Gene	Breast Cancer	Disease	ENTREZ:5889		35396981	GNBR::Y::Gene:Disease	CBCG
-RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892		30099541	GNBR::Y::Gene:Disease	CBCG
-RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892		33471991	GNBR::Y::Gene:Disease	CBCG
-RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892		35884425	GNBR::Y::Gene:Disease	CBCG
-RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892		35396981	GNBR::Y::Gene:Disease	CBCG
-RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892		15170666	GNBR::Y::Gene:Disease	CBCG
-RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892		30165555	GNBR::Y::Gene:Disease	CBCG
-RAD51L3-RFFL	Gene	Breast Cancer	Disease			15170666	GNBR::Y::Gene:Disease	CBCG
-RAD51L3-RFFL	Gene	Breast Cancer	Disease			30165555	GNBR::Y::Gene:Disease	CBCG
-RAD51	Gene	Breast Cancer	Disease	ENTREZ:5888		35061678	GNBR::Y::Gene:Disease	CBCG
-RAD51	Gene	Breast Cancer	Disease	ENTREZ:5888		36761956	GNBR::Y::Gene:Disease	CBCG
-RAD52	Gene	Breast Cancer	Disease	ENTREZ:5893		37578974	GNBR::Y::Gene:Disease	CBCG
-RALY	Gene	Breast Cancer	Disease	ENTREZ:22913		22976474	GNBR::Y::Gene:Disease	CBCG
-RALY	Gene	Breast Cancer	Disease	ENTREZ:22913		29058716	GNBR::Y::Gene:Disease	CBCG
-RBBP8	Gene	Breast Cancer	Disease	ENTREZ:5932		32379725	GNBR::Y::Gene:Disease	CBCG
-RBFOX1	Gene	Breast Cancer	Disease	ENTREZ:54715		21908515	GNBR::Y::Gene:Disease	CBCG
-RECQL	Gene	Breast Cancer	Disease	ENTREZ:5965		33471991	GNBR::Y::Gene:Disease	CBCG
-RECQL	Gene	Breast Cancer	Disease	ENTREZ:5965		25915596	GNBR::Y::Gene:Disease	CBCG
-RECQL	Gene	Breast Cancer	Disease	ENTREZ:5965		29341116	GNBR::Y::Gene:Disease	CBCG
-RECQL5	Gene	Breast Cancer	Disease	ENTREZ:9400		36230663	GNBR::Y::Gene:Disease	CBCG
-RINT1	Gene	Breast Cancer	Disease	ENTREZ:60561		25050558	GNBR::Y::Gene:Disease	CBCG
-RINT1	Gene	Breast Cancer	Disease	ENTREZ:60561		25050558	GNBR::Y::Gene:Disease	CBCG
-RNF146	Gene	Breast Cancer	Disease	ENTREZ:81847		18326623	GNBR::Y::Gene:Disease	CBCG
-RNF146	Gene	Breast Cancer	Disease	ENTREZ:81847		18326623	GNBR::Y::Gene:Disease	CBCG
-RNF213	Gene	Breast Cancer	Disease	ENTREZ:57674		36424660	GNBR::Y::Gene:Disease	CBCG
-RNF213-AS1	Gene	Breast Cancer	Disease	ENTREZ:100294362		36424660	GNBR::Y::Gene:Disease	CBCG
-RNF213-AS1	Gene	Breast Cancer	Disease	ENTREZ:100294362		36424660	GNBR::Y::Gene:Disease	CBCG
-RNF213	Gene	Breast Cancer	Disease	ENTREZ:57674		36424660	GNBR::Y::Gene:Disease	CBCG
-RNF43	Gene	Breast Cancer	Disease	ENTREZ:54894		36424660	GNBR::Y::Gene:Disease	CBCG
-RNF43	Gene	Breast Cancer	Disease	ENTREZ:54894		36424660	GNBR::Y::Gene:Disease	CBCG
-RNF43	Gene	Breast Cancer	Disease	ENTREZ:54894		36424660	GNBR::Y::Gene:Disease	CBCG
-ROPN1L	Gene	Breast Cancer	Disease	ENTREZ:83853		21424380	GNBR::Y::Gene:Disease	CBCG
-ROS1	Gene	Breast Cancer	Disease	ENTREZ:6098		36424660	GNBR::Y::Gene:Disease	CBCG
-RPL23AP53	Gene	Breast Cancer	Disease	ENTREZ:644128		29058716	GNBR::Y::Gene:Disease	CBCG
-RPS6KA3	Gene	Breast Cancer	Disease	ENTREZ:6197		28582508	GNBR::Y::Gene:Disease	CBCG
-RSU1	Gene	Breast Cancer	Disease	ENTREZ:6251		35042965	GNBR::Y::Gene:Disease	CBCG
-SDC4	Gene	Breast Cancer	Disease	ENTREZ:6385		36152082	GNBR::Y::Gene:Disease	CBCG
-SERPINA3	Gene	Breast Cancer	Disease	ENTREZ:12		33279852	GNBR::Y::Gene:Disease	CBCG
-SETBP1	Gene	Breast Cancer	Disease	ENTREZ:26040		21908515	GNBR::Y::Gene:Disease	CBCG
-SETBP1	Gene	Breast Cancer	Disease	ENTREZ:26040		32139696	GNBR::Y::Gene:Disease	CBCG
-SHMT1	Gene	Breast Cancer	Disease	ENTREZ:6470		22134752	GNBR::Y::Gene:Disease	CBCG
-SIAH2	Gene	Breast Cancer	Disease	ENTREZ:6478		30323354	GNBR::Y::Gene:Disease	CBCG
-SIAH2	Gene	Breast Cancer	Disease	ENTREZ:6478		22951594	GNBR::Y::Gene:Disease	CBCG
-SIPA1	Gene	Breast Cancer	Disease	ENTREZ:6494		09723757.2014.11886240	GNBR::Y::Gene:Disease	CBCG
-SIRT3	Gene	Breast Cancer	Disease	ENTREZ:23410		36974538	GNBR::Y::Gene:Disease	CBCG
-SLC36A4	Gene	Breast Cancer	Disease	ENTREZ:120103		21908515	GNBR::Y::Gene:Disease	CBCG
-SLC39A11	Gene	Breast Cancer	Disease	ENTREZ:201266		30323354	GNBR::Y::Gene:Disease	CBCG
-SLC4A7	Gene	Breast Cancer	Disease	ENTREZ:9497		19330027	GNBR::Y::Gene:Disease	CBCG
-SLC4A7	Gene	Breast Cancer	Disease	ENTREZ:9497		23117855	GNBR::Y::Gene:Disease	CBCG
-SLC4A7	Gene	Breast Cancer	Disease	ENTREZ:9497		20453838	GNBR::Y::Gene:Disease	CBCG
-SLC4A7	Gene	Breast Cancer	Disease	ENTREZ:9497		37128157	GNBR::Y::Gene:Disease	CBCG
-SLC6A4	Gene	Breast Cancer	Disease	ENTREZ:6532		nan	GNBR::Y::Gene:Disease	CBCG
-SLIT3	Gene	Breast Cancer	Disease	ENTREZ:6586		29317318	GNBR::Y::Gene:Disease	CBCG
-SMARCA2	Gene	Breast Cancer	Disease	ENTREZ:6595		36901898	GNBR::Y::Gene:Disease	CBCG
-SOD1	Gene	Breast Cancer	Disease	ENTREZ:6647		37070912	GNBR::Y::Gene:Disease	CBCG
-SOD1	Gene	Breast Cancer	Disease	ENTREZ:6647		37070912	GNBR::Y::Gene:Disease	CBCG
-SPDYE12	Gene	Breast Cancer	Disease	ENTREZ:100101268		36356581	GNBR::Y::Gene:Disease	CBCG
-SRD5A2	Gene	Breast Cancer	Disease	ENTREZ:6716		24365257	GNBR::Y::Gene:Disease	CBCG
-SRGAP2C	Gene	Breast Cancer	Disease	ENTREZ:653464		36703164	GNBR::Y::Gene:Disease	CBCG
-SSBP2	Gene	Breast Cancer	Disease	ENTREZ:23635		25824743	GNBR::Y::Gene:Disease	CBCG
-SST	Gene	Breast Cancer	Disease	ENTREZ:6750		16214911	GNBR::Y::Gene:Disease	CBCG
-STAU2	Gene	Breast Cancer	Disease	ENTREZ:27067		21908515	GNBR::Y::Gene:Disease	CBCG
-STK11	Gene	Breast Cancer	Disease	ENTREZ:6794		16707622	GNBR::Y::Gene:Disease	CBCG
-STRADB	Gene	Breast Cancer	Disease	ENTREZ:55437		28582508	GNBR::Y::Gene:Disease	CBCG
-STT3A-AS1	Gene	Breast Cancer	Disease	ENTREZ:105369550		23844225	GNBR::Y::Gene:Disease	CBCG
-SUB1	Gene	Breast Cancer	Disease	ENTREZ:10923		25751625	GNBR::Y::Gene:Disease	CBCG
-SULT1A1	Gene	Breast Cancer	Disease	ENTREZ:6817		11219777	GNBR::Y::Gene:Disease	CBCG
-SULT1A1	Gene	Breast Cancer	Disease	ENTREZ:6817		15604994	GNBR::Y::Gene:Disease	CBCG
-SULT1A1	Gene	Breast Cancer	Disease	ENTREZ:6817		21977969	GNBR::Y::Gene:Disease	CBCG
-TBX3	Gene	Breast Cancer	Disease	ENTREZ:6926		32424353	GNBR::Y::Gene:Disease	CBCG
-TBX3	Gene	Breast Cancer	Disease	ENTREZ:6926		35637532	GNBR::Y::Gene:Disease	CBCG
-TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934		17109766	GNBR::Y::Gene:Disease	CBCG
-TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934		35996498	GNBR::Y::Gene:Disease	CBCG
-TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934		27117709	GNBR::Y::Gene:Disease	CBCG
-TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934		27053251	GNBR::Y::Gene:Disease	CBCG
-TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934		35996498	GNBR::Y::Gene:Disease	CBCG
-TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934		23535729	GNBR::Y::Gene:Disease	CBCG
-TEC	Gene	Breast Cancer	Disease	ENTREZ:7006		32139696	GNBR::Y::Gene:Disease	CBCG
-TERT	Gene	Breast Cancer	Disease	ENTREZ:7015		22037553	GNBR::Y::Gene:Disease	CBCG
-TERT	Gene	Breast Cancer	Disease	ENTREZ:7015		29058716	GNBR::Y::Gene:Disease	CBCG
-TERT	Gene	Breast Cancer	Disease	ENTREZ:7015		24743323	GNBR::Y::Gene:Disease	CBCG
-TERT	Gene	Breast Cancer	Disease	ENTREZ:7015		27117709	GNBR::Y::Gene:Disease	CBCG
-TERT	Gene	Breast Cancer	Disease	ENTREZ:7015		27117709	GNBR::Y::Gene:Disease	CBCG
-TERT	Gene	Breast Cancer	Disease	ENTREZ:7015		24743323	GNBR::Y::Gene:Disease	CBCG
-TERT	Gene	Breast Cancer	Disease	ENTREZ:7015		23535731	GNBR::Y::Gene:Disease	CBCG
-TET2	Gene	Breast Cancer	Disease	ENTREZ:54790		36424660	GNBR::Y::Gene:Disease	CBCG
-TET2	Gene	Breast Cancer	Disease	ENTREZ:54790		23535729	GNBR::Y::Gene:Disease	CBCG
-TET2	Gene	Breast Cancer	Disease	ENTREZ:54790		26354892	GNBR::Y::Gene:Disease	CBCG
-TET2-AS1	Gene	Breast Cancer	Disease	ENTREZ:104384744		36424660	GNBR::Y::Gene:Disease	CBCG
-TET2	Gene	Breast Cancer	Disease	ENTREZ:54790		36356581	GNBR::Y::Gene:Disease	CBCG
-TEX10	Gene	Breast Cancer	Disease	ENTREZ:54881		25824743	GNBR::Y::Gene:Disease	CBCG
-TEX15	Gene	Breast Cancer	Disease	ENTREZ:56154		28386063	GNBR::Y::Gene:Disease	CBCG
-TGFB1	Gene	Breast Cancer	Disease	ENTREZ:7040		17293864	GNBR::Y::Gene:Disease	CBCG
-TGFB1	Gene	Breast Cancer	Disease	ENTREZ:7040		17018785	GNBR::Y::Gene:Disease	CBCG
-TGFBR1	Gene	Breast Cancer	Disease	ENTREZ:7046		11867510	GNBR::Y::Gene:Disease	CBCG
-TGFBR2	Gene	Breast Cancer	Disease	ENTREZ:7048		nan	GNBR::Y::Gene:Disease	CBCG
-TGFBR2	Gene	Breast Cancer	Disease	ENTREZ:7048		37524136	GNBR::Y::Gene:Disease	CBCG
-TGFBR2	Gene	Breast Cancer	Disease	ENTREZ:7048		36356581	GNBR::Y::Gene:Disease	CBCG
-TGIF2LX	Gene	Breast Cancer	Disease	ENTREZ:90316		36901898	GNBR::Y::Gene:Disease	CBCG
-TINF2	Gene	Breast Cancer	Disease	ENTREZ:26277		35590014	GNBR::Y::Gene:Disease	CBCG
-TLN2	Gene	Breast Cancer	Disease	ENTREZ:83660		36356581	GNBR::Y::Gene:Disease	CBCG
-TLR1	Gene	Breast Cancer	Disease	ENTREZ:7096		36356581	GNBR::Y::Gene:Disease	CBCG
-TNFSF11	Gene	Breast Cancer	Disease	ENTREZ:8600		36346787	GNBR::Y::Gene:Disease	CBCG
-TNFSF4	Gene	Breast Cancer	Disease	ENTREZ:7292		22923054	GNBR::Y::Gene:Disease	CBCG
-TNNT3	Gene	Breast Cancer	Disease	ENTREZ:7140		36703164	GNBR::Y::Gene:Disease	CBCG
-TNNT3	Gene	Breast Cancer	Disease	ENTREZ:7140		20453838	GNBR::Y::Gene:Disease	CBCG
-TOX3	Gene	Breast Cancer	Disease	ENTREZ:27324		36901898	GNBR::Y::Gene:Disease	CBCG
-TOX3	Gene	Breast Cancer	Disease	ENTREZ:27324		17529967	GNBR::Y::Gene:Disease	CBCG
-TOX3	Gene	Breast Cancer	Disease	ENTREZ:27324		17529967	GNBR::Y::Gene:Disease	CBCG
-TP53	Gene	Breast Cancer	Disease	ENTREZ:7157		16551709	GNBR::Y::Gene:Disease	CBCG
-TP53	Gene	Breast Cancer	Disease	ENTREZ:7157		12610779	GNBR::Y::Gene:Disease	CBCG
-TP53	Gene	Breast Cancer	Disease	ENTREZ:7157		33471991	GNBR::Y::Gene:Disease	CBCG
-TP53	Gene	Breast Cancer	Disease	ENTREZ:7157		35884425	GNBR::Y::Gene:Disease	CBCG
-TP53	Gene	Breast Cancer	Disease	ENTREZ:7157		35396981	GNBR::Y::Gene:Disease	CBCG
-TP53	Gene	Breast Cancer	Disease	ENTREZ:7157		37300745	GNBR::Y::Gene:Disease	CBCG
-TP53	Gene	Breast Cancer	Disease	ENTREZ:7157		36708564	GNBR::Y::Gene:Disease	CBCG
-TP53	Gene	Breast Cancer	Disease	ENTREZ:7157		11927843	GNBR::Y::Gene:Disease	CBCG
-TP53	Gene	Breast Cancer	Disease	ENTREZ:7157		35264596	GNBR::Y::Gene:Disease	CBCG
-TPTE2	Gene	Breast Cancer	Disease	ENTREZ:93492		36424660	GNBR::Y::Gene:Disease	CBCG
-TRIM46	Gene	Breast Cancer	Disease	ENTREZ:80128		29059683	GNBR::Y::Gene:Disease	CBCG
-TSPYL6	Gene	Breast Cancer	Disease	ENTREZ:388951		27458158	GNBR::Y::Gene:Disease	CBCG
-TopBP1	Gene	Breast Cancer	Disease			16930991	GNBR::Y::Gene:Disease	CBCG
-UGT1A	Gene	Breast Cancer	Disease	ENTREZ:7361		10706110	GNBR::Y::Gene:Disease	CBCG
-UGT1A10	Gene	Breast Cancer	Disease	ENTREZ:54575		10706110	GNBR::Y::Gene:Disease	CBCG
-UGT1A3	Gene	Breast Cancer	Disease	ENTREZ:54659		10706110	GNBR::Y::Gene:Disease	CBCG
-UGT1A4	Gene	Breast Cancer	Disease	ENTREZ:54657		10706110	GNBR::Y::Gene:Disease	CBCG
-UGT1A5	Gene	Breast Cancer	Disease	ENTREZ:54579		10706110	GNBR::Y::Gene:Disease	CBCG
-UGT1A6	Gene	Breast Cancer	Disease	ENTREZ:54578		10706110	GNBR::Y::Gene:Disease	CBCG
-UGT1A7	Gene	Breast Cancer	Disease	ENTREZ:54577		10706110	GNBR::Y::Gene:Disease	CBCG
-UGT1A8	Gene	Breast Cancer	Disease	ENTREZ:54576		10706110	GNBR::Y::Gene:Disease	CBCG
-UGT1A9	Gene	Breast Cancer	Disease	ENTREZ:54600		10706110	GNBR::Y::Gene:Disease	CBCG
-UNC13C	Gene	Breast Cancer	Disease	ENTREZ:440279		21908515	GNBR::Y::Gene:Disease	CBCG
-USHBP1	Gene	Breast Cancer	Disease	ENTREZ:83878		27601076	GNBR::Y::Gene:Disease	CBCG
-VDR	Gene	Breast Cancer	Disease	ENTREZ:7421		10680726	GNBR::Y::Gene:Disease	CBCG
-VDR	Gene	Breast Cancer	Disease	ENTREZ:7421		19124512	GNBR::Y::Gene:Disease	CBCG
-VDR	Gene	Breast Cancer	Disease	ENTREZ:7421		36854857	GNBR::Y::Gene:Disease	CBCG
-VDR	Gene	Breast Cancer	Disease	ENTREZ:7421		10597185	GNBR::Y::Gene:Disease	CBCG
-VDR	Gene	Breast Cancer	Disease	ENTREZ:7421		35942872	GNBR::Y::Gene:Disease	CBCG
-VDR	Gene	Breast Cancer	Disease	ENTREZ:7421		36645723	GNBR::Y::Gene:Disease	CBCG
-WRAP53	Gene	Breast Cancer	Disease	ENTREZ:55135		17683073	GNBR::Y::Gene:Disease	CBCG
-WRN	Gene	Breast Cancer	Disease	ENTREZ:7486		26690424	GNBR::Y::Gene:Disease	CBCG
-WTAPP1	Gene	Breast Cancer	Disease	ENTREZ:100288077		28961241	GNBR::Y::Gene:Disease	CBCG
-WTAPP1	Gene	Breast Cancer	Disease	ENTREZ:100288077		23696797	GNBR::Y::Gene:Disease	CBCG
-WTAPP1	Gene	Breast Cancer	Disease	ENTREZ:100288077		23696797	GNBR::Y::Gene:Disease	CBCG
-XPC	Gene	Breast Cancer	Disease	ENTREZ:7508		27768589	GNBR::Y::Gene:Disease	CBCG
-XRCC1	Gene	Breast Cancer	Disease	ENTREZ:7515		35691022	GNBR::Y::Gene:Disease	CBCG
-XRCC1	Gene	Breast Cancer	Disease	ENTREZ:7515		18188695	GNBR::Y::Gene:Disease	CBCG
-XRCC2	Gene	Breast Cancer	Disease	ENTREZ:7516		22464251	GNBR::Y::Gene:Disease	CBCG
-XRCC2	Gene	Breast Cancer	Disease	ENTREZ:7516		25556451	GNBR::Y::Gene:Disease	CBCG
-XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517		12023982	GNBR::Y::Gene:Disease	CBCG
-XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517		nan	GNBR::Y::Gene:Disease	CBCG
-XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517		28983784	GNBR::Y::Gene:Disease	CBCG
-XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517		35061678	GNBR::Y::Gene:Disease	CBCG
-XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517		36761956	GNBR::Y::Gene:Disease	CBCG
-XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517		35691022	GNBR::Y::Gene:Disease	CBCG
-XRCC5	Gene	Breast Cancer	Disease	ENTREZ:7520		18000863	GNBR::Y::Gene:Disease	CBCG
-XRCC6	Gene	Breast Cancer	Disease	ENTREZ:2547		29059683	GNBR::Y::Gene:Disease	CBCG
-XRCC6	Gene	Breast Cancer	Disease	ENTREZ:2547		36356581	GNBR::Y::Gene:Disease	CBCG
-ZBED6	Gene	Breast Cancer	Disease	ENTREZ:100381270		36356581	GNBR::Y::Gene:Disease	CBCG
-ZBTB38	Gene	Breast Cancer	Disease	ENTREZ:253461		29059683	GNBR::Y::Gene:Disease	CBCG
-ZBTB38	Gene	Breast Cancer	Disease	ENTREZ:253461		36356581	GNBR::Y::Gene:Disease	CBCG
-ZC3H11A	Gene	Breast Cancer	Disease	ENTREZ:9877		25038754	GNBR::Y::Gene:Disease	CBCG
-ZC3H11A	Gene	Breast Cancer	Disease	ENTREZ:9877		36356581	GNBR::Y::Gene:Disease	CBCG
-ZMIZ1	Gene	Breast Cancer	Disease	ENTREZ:57178		27863437	GNBR::Y::Gene:Disease	CBCG
-ZMIZ1	Gene	Breast Cancer	Disease	ENTREZ:57178		nan	GNBR::Y::Gene:Disease	CBCG
-ZMIZ1	Gene	Breast Cancer	Disease	ENTREZ:57178		20453838	GNBR::Y::Gene:Disease	CBCG
-ZMIZ1	Gene	Breast Cancer	Disease	ENTREZ:57178		24743323	GNBR::Y::Gene:Disease	CBCG
-ZMIZ1	Gene	Breast Cancer	Disease	ENTREZ:57178		36356581	GNBR::Y::Gene:Disease	CBCG
-ZNF320	Gene	Breast Cancer	Disease	ENTREZ:162967		35042965	GNBR::Y::Gene:Disease	CBCG
-ZNF404	Gene	Breast Cancer	Disease	ENTREZ:342908		36703164	GNBR::Y::Gene:Disease	CBCG
-ZNF439	Gene	Breast Cancer	Disease	ENTREZ:90594		35042965	GNBR::Y::Gene:Disease	CBCG
-ZNF479	Gene	Breast Cancer	Disease	ENTREZ:90827		36424660	GNBR::Y::Gene:Disease	CBCG
-ZNF577	Gene	Breast Cancer	Disease	ENTREZ:84765		21424380	GNBR::Y::Gene:Disease	CBCG
-ZNF577	Gene	Breast Cancer	Disease	ENTREZ:84765		21424380	GNBR::Y::Gene:Disease	CBCG
-ZNF577	Gene	Breast Cancer	Disease	ENTREZ:84765		21424380	GNBR::Y::Gene:Disease	CBCG
-ZSCAN25	Gene	Breast Cancer	Disease	ENTREZ:221785		19229255	GNBR::Y::Gene:Disease	CBCG
-ZZEF1	Gene	Breast Cancer	Disease	ENTREZ:23140		36356581	GNBR::Y::Gene:Disease	CBCG
+ABCB1	Gene	Breast Cancer	Disease	ENTREZ:5243	MONDO:0004989	32042261	GNBR::Y::Gene:Disease	CBCG
+ABHD8	Gene	Breast Cancer	Disease	ENTREZ:79575	MONDO:0004989	27601076	GNBR::Y::Gene:Disease	CBCG
+ABHD8	Gene	Breast Cancer	Disease	ENTREZ:79575	MONDO:0004989	27601076	GNBR::Y::Gene:Disease	CBCG
+ABRAXAS1	Gene	Breast Cancer	Disease	ENTREZ:84142	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+ABRAXAS1	Gene	Breast Cancer	Disease	ENTREZ:84142	MONDO:0004989	27792995	GNBR::Y::Gene:Disease	CBCG
+ABRAXAS1	Gene	Breast Cancer	Disease	ENTREZ:84142	MONDO:0004989	22357538	GNBR::Y::Gene:Disease	CBCG
+ACE	Gene	Breast Cancer	Disease	ENTREZ:1636	MONDO:0004989	29413755	GNBR::Y::Gene:Disease	CBCG
+ACE	Gene	Breast Cancer	Disease	ENTREZ:1636	MONDO:0004989	14583500	GNBR::Y::Gene:Disease	CBCG
+ACE	Gene	Breast Cancer	Disease	ENTREZ:1636	MONDO:0004989	19286759	GNBR::Y::Gene:Disease	CBCG
+ACOXL-AS1	Gene	Breast Cancer	Disease	ENTREZ:400997	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ACOXL	Gene	Breast Cancer	Disease	ENTREZ:55289	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ACTA2	Gene	Breast Cancer	Disease	ENTREZ:59	MONDO:0004989	23326385	GNBR::Y::Gene:Disease	CBCG
+ACTA2	Gene	Breast Cancer	Disease	ENTREZ:59	MONDO:0004989	22740964	GNBR::Y::Gene:Disease	CBCG
+ACYP2	Gene	Breast Cancer	Disease	ENTREZ:98	MONDO:0004989	27894080	GNBR::Y::Gene:Disease	CBCG
+ACYP2	Gene	Breast Cancer	Disease	ENTREZ:98	MONDO:0004989	27458158	GNBR::Y::Gene:Disease	CBCG
+ADSS1	Gene	Breast Cancer	Disease	ENTREZ:122622	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+AFDN	Gene	Breast Cancer	Disease	ENTREZ:4301	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+AGTR1	Gene	Breast Cancer	Disease	ENTREZ:185	MONDO:0004989	29413755	GNBR::Y::Gene:Disease	CBCG
+AHR	Gene	Breast Cancer	Disease	ENTREZ:196	MONDO:0004989	19415745	GNBR::Y::Gene:Disease	CBCG
+AHRR	Gene	Breast Cancer	Disease	ENTREZ:57491	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+AHRR	Gene	Breast Cancer	Disease	ENTREZ:57491	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+AKAP6	Gene	Breast Cancer	Disease	ENTREZ:9472	MONDO:0004989	21908515	GNBR::Y::Gene:Disease	CBCG
+AKAP9	Gene	Breast Cancer	Disease	ENTREZ:10142	MONDO:0004989	18334708	GNBR::Y::Gene:Disease	CBCG
+AKAP9	Gene	Breast Cancer	Disease	ENTREZ:10142	MONDO:0004989	18334708	GNBR::Y::Gene:Disease	CBCG
+AKAP9	Gene	Breast Cancer	Disease	ENTREZ:10142	MONDO:0004989	24943594	GNBR::Y::Gene:Disease	CBCG
+AKAP9	Gene	Breast Cancer	Disease	ENTREZ:10142	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+AKAP9	Gene	Breast Cancer	Disease	ENTREZ:10142	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+AKR1A1	Gene	Breast Cancer	Disease	ENTREZ:10327	MONDO:0004989	32139696	GNBR::Y::Gene:Disease	CBCG
+AKT1	Gene	Breast Cancer	Disease	ENTREZ:207	MONDO:0004989	36831624	GNBR::Y::Gene:Disease	CBCG
+ALDH2	Gene	Breast Cancer	Disease	ENTREZ:217	MONDO:0004989	31066241	GNBR::Y::Gene:Disease	CBCG
+ALG9	Gene	Breast Cancer	Disease	ENTREZ:79796	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ALOX12	Gene	Breast Cancer	Disease	ENTREZ:239	MONDO:0004989	22977504	GNBR::Y::Gene:Disease	CBCG
+ALOX12	Gene	Breast Cancer	Disease	ENTREZ:239	MONDO:0004989	25339205	GNBR::Y::Gene:Disease	CBCG
+ALOX12	Gene	Breast Cancer	Disease	ENTREZ:239	MONDO:0004989	25339205	GNBR::Y::Gene:Disease	CBCG
+ALOX12-AS1	Gene	Breast Cancer	Disease	ENTREZ:100506713	MONDO:0004989	22977504	GNBR::Y::Gene:Disease	CBCG
+ALOX12-AS1	Gene	Breast Cancer	Disease	ENTREZ:100506713	MONDO:0004989	25339205	GNBR::Y::Gene:Disease	CBCG
+ALOX12-AS1	Gene	Breast Cancer	Disease	ENTREZ:100506713	MONDO:0004989	25339205	GNBR::Y::Gene:Disease	CBCG
+AMFR	Gene	Breast Cancer	Disease	ENTREZ:267	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+AMFR	Gene	Breast Cancer	Disease	ENTREZ:267	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ANKLE1	Gene	Breast Cancer	Disease	ENTREZ:126549	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+ANTXR1	Gene	Breast Cancer	Disease	ENTREZ:84168	MONDO:0004989	32424353	GNBR::Y::Gene:Disease	CBCG
+ANTXR1	Gene	Breast Cancer	Disease	ENTREZ:84168	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+AP4B1-AS1	Gene	Breast Cancer	Disease	ENTREZ:100287722	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+APC	Gene	Breast Cancer	Disease	ENTREZ:324	MONDO:0004989	26421687	GNBR::Y::Gene:Disease	CBCG
+APC	Gene	Breast Cancer	Disease	ENTREZ:324	MONDO:0004989	18708403	GNBR::Y::Gene:Disease	CBCG
+APEX1	Gene	Breast Cancer	Disease	ENTREZ:328	MONDO:0004989	18669164	GNBR::Y::Gene:Disease	CBCG
+APEX1	Gene	Breast Cancer	Disease	ENTREZ:328	MONDO:0004989	26257461	GNBR::Y::Gene:Disease	CBCG
+APOBEC3A	Gene	Breast Cancer	Disease	ENTREZ:200315	MONDO:0004989	23411593	GNBR::Y::Gene:Disease	CBCG
+APOBEC3A_B	Gene	Breast Cancer	Disease	ENTREZ:100913187	MONDO:0004989	23411593	GNBR::Y::Gene:Disease	CBCG
+APOBEC3A_B	Gene	Breast Cancer	Disease	ENTREZ:100913187	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+APOBEC3A	Gene	Breast Cancer	Disease	ENTREZ:200315	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ARHGAP26	Gene	Breast Cancer	Disease	ENTREZ:23092	MONDO:0004989	22923054	GNBR::Y::Gene:Disease	CBCG
+ARHGAP26	Gene	Breast Cancer	Disease	ENTREZ:23092	MONDO:0004989	22923054	GNBR::Y::Gene:Disease	CBCG
+ARL11	Gene	Breast Cancer	Disease	ENTREZ:115761	MONDO:0004989	16353159	GNBR::Y::Gene:Disease	CBCG
+ARLNC1	Gene	Breast Cancer	Disease	ENTREZ:100996425	MONDO:0004989	21424380	GNBR::Y::Gene:Disease	CBCG
+ASPH	Gene	Breast Cancer	Disease	ENTREZ:444	MONDO:0004989	30323354	GNBR::Y::Gene:Disease	CBCG
+ATE1	Gene	Breast Cancer	Disease	ENTREZ:11101	MONDO:0004989	21263130	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	17166884	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	16832357	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	15928302	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	10362113	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	37262986	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	35884425	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	35396981	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	14695186	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	14695186	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	36152082	GNBR::Y::Gene:Disease	CBCG
+ATM	Gene	Breast Cancer	Disease	ENTREZ:472	MONDO:0004989	36161273	GNBR::Y::Gene:Disease	CBCG
+ATR	Gene	Breast Cancer	Disease	ENTREZ:545	MONDO:0004989	15987455	GNBR::Y::Gene:Disease	CBCG
+ATRIP	Gene	Breast Cancer	Disease	ENTREZ:84126	MONDO:0004989	36977412	GNBR::Y::Gene:Disease	CBCG
+ATXN7	Gene	Breast Cancer	Disease	ENTREZ:6314	MONDO:0004989	24943594	GNBR::Y::Gene:Disease	CBCG
+ATXN7	Gene	Breast Cancer	Disease	ENTREZ:6314	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+AURKA	Gene	Breast Cancer	Disease	ENTREZ:6790	MONDO:0004989	37565930	GNBR::Y::Gene:Disease	CBCG
+AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313	MONDO:0004989	18708403	GNBR::Y::Gene:Disease	CBCG
+AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313	MONDO:0004989	31063404	GNBR::Y::Gene:Disease	CBCG
+AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313	MONDO:0004989	26514524	GNBR::Y::Gene:Disease	CBCG
+AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313	MONDO:0004989	35996498	GNBR::Y::Gene:Disease	CBCG
+AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313	MONDO:0004989	18708403	GNBR::Y::Gene:Disease	CBCG
+AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313	MONDO:0004989	18708403	GNBR::Y::Gene:Disease	CBCG
+AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313	MONDO:0004989	31063404	GNBR::Y::Gene:Disease	CBCG
+AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313	MONDO:0004989	18708403	GNBR::Y::Gene:Disease	CBCG
+AXIN2	Gene	Breast Cancer	Disease	ENTREZ:8313	MONDO:0004989	18708403	GNBR::Y::Gene:Disease	CBCG
+BABAM1	Gene	Breast Cancer	Disease	ENTREZ:29086	MONDO:0004989	23136140	GNBR::Y::Gene:Disease	CBCG
+BABAM1	Gene	Breast Cancer	Disease	ENTREZ:29086	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+BARD1	Gene	Breast Cancer	Disease	ENTREZ:580	MONDO:0004989	25452441	GNBR::Y::Gene:Disease	CBCG
+BARD1	Gene	Breast Cancer	Disease	ENTREZ:580	MONDO:0004989	31036035	GNBR::Y::Gene:Disease	CBCG
+BARD1	Gene	Breast Cancer	Disease	ENTREZ:580	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+BARD1	Gene	Breast Cancer	Disease	ENTREZ:580	MONDO:0004989	35396981	GNBR::Y::Gene:Disease	CBCG
+BARD1	Gene	Breast Cancer	Disease	ENTREZ:580	MONDO:0004989	22544576	GNBR::Y::Gene:Disease	CBCG
+BARD1	Gene	Breast Cancer	Disease	ENTREZ:580	MONDO:0004989	15342711	GNBR::Y::Gene:Disease	CBCG
+BARD1	Gene	Breast Cancer	Disease	ENTREZ:580	MONDO:0004989	16825437	GNBR::Y::Gene:Disease	CBCG
+BARD1	Gene	Breast Cancer	Disease	ENTREZ:580	MONDO:0004989	31142030	GNBR::Y::Gene:Disease	CBCG
+BARD1	Gene	Breast Cancer	Disease	ENTREZ:580	MONDO:0004989	35084806	GNBR::Y::Gene:Disease	CBCG
+BCKDHB	Gene	Breast Cancer	Disease	ENTREZ:594	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+BCL2L11	Gene	Breast Cancer	Disease	ENTREZ:10018	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+BCL2L15	Gene	Breast Cancer	Disease	ENTREZ:440603	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+BET1	Gene	Breast Cancer	Disease	ENTREZ:10282	MONDO:0004989	30323354	GNBR::Y::Gene:Disease	CBCG
+BIVM-ERCC5	Gene	Breast Cancer	Disease	ENTREZ:100533467	MONDO:0004989	20183911	GNBR::Y::Gene:Disease	CBCG
+BIVM-ERCC5	Gene	Breast Cancer	Disease	ENTREZ:100533467	MONDO:0004989	35691022	GNBR::Y::Gene:Disease	CBCG
+BLM	Gene	Breast Cancer	Disease	ENTREZ:641	MONDO:0004989	21815139	GNBR::Y::Gene:Disease	CBCG
+BLM	Gene	Breast Cancer	Disease	ENTREZ:641	MONDO:0004989	23225144	GNBR::Y::Gene:Disease	CBCG
+BLM	Gene	Breast Cancer	Disease	ENTREZ:641	MONDO:0004989	18974064	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	14576434	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	9497246	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	10413426	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	11044354	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	9145676	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	12677558	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	11352856	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	15994883	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	35396981	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	35218119	GNBR::Y::Gene:Disease	CBCG
+BRCA1	Gene	Breast Cancer	Disease	ENTREZ:672	MONDO:0004989	37300745	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	14576434	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	9497246	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	9802270	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	10413426	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	9145676	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	12677558	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	11352856	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	15994883	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	35396981	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	35218119	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	23535729	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	37300745	GNBR::Y::Gene:Disease	CBCG
+BRCA2	Gene	Breast Cancer	Disease	ENTREZ:675	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+BRD7	Gene	Breast Cancer	Disease	ENTREZ:29117	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+BRIP1	Gene	Breast Cancer	Disease	ENTREZ:83990	MONDO:0004989	17033622	GNBR::Y::Gene:Disease	CBCG
+BTN2A1	Gene	Breast Cancer	Disease	ENTREZ:11120	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+C11orf65	Gene	Breast Cancer	Disease	ENTREZ:160140	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+C11orf65	Gene	Breast Cancer	Disease	ENTREZ:160140	MONDO:0004989	36161273	GNBR::Y::Gene:Disease	CBCG
+CABLES1	Gene	Breast Cancer	Disease	ENTREZ:91768	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	31996122	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	17529967	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	20453838	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	17529974	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	24743323	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	31338012	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	31996122	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	20332101	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	36540803	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	36042591	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+CASC16	Gene	Breast Cancer	Disease	ENTREZ:643714	MONDO:0004989	37524136	GNBR::Y::Gene:Disease	CBCG
+CASC21	Gene	Breast Cancer	Disease	ENTREZ:103021164	MONDO:0004989	17529967	GNBR::Y::Gene:Disease	CBCG
+CASC21	Gene	Breast Cancer	Disease	ENTREZ:103021164	MONDO:0004989	24743323	GNBR::Y::Gene:Disease	CBCG
+CASC21	Gene	Breast Cancer	Disease	ENTREZ:103021164	MONDO:0004989	20453838	GNBR::Y::Gene:Disease	CBCG
+CASC8	Gene	Breast Cancer	Disease	ENTREZ:727677	MONDO:0004989	17529967	GNBR::Y::Gene:Disease	CBCG
+CASC8	Gene	Breast Cancer	Disease	ENTREZ:727677	MONDO:0004989	24743323	GNBR::Y::Gene:Disease	CBCG
+CASC8	Gene	Breast Cancer	Disease	ENTREZ:727677	MONDO:0004989	20453838	GNBR::Y::Gene:Disease	CBCG
+CASP8	Gene	Breast Cancer	Disease	ENTREZ:841	MONDO:0004989	37016353	GNBR::Y::Gene:Disease	CBCG
+CASP8	Gene	Breast Cancer	Disease	ENTREZ:841	MONDO:0004989	37016353	GNBR::Y::Gene:Disease	CBCG
+CASP8	Gene	Breast Cancer	Disease	ENTREZ:841	MONDO:0004989	37016353	GNBR::Y::Gene:Disease	CBCG
+CASP8	Gene	Breast Cancer	Disease	ENTREZ:841	MONDO:0004989	37016353	GNBR::Y::Gene:Disease	CBCG
+CASP8	Gene	Breast Cancer	Disease	ENTREZ:841	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+CBFA2T3	Gene	Breast Cancer	Disease	ENTREZ:863	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+CCDC170	Gene	Breast Cancer	Disease	ENTREZ:80129	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+CCDC170	Gene	Breast Cancer	Disease	ENTREZ:80129	MONDO:0004989	20453838	GNBR::Y::Gene:Disease	CBCG
+CCDC170	Gene	Breast Cancer	Disease	ENTREZ:80129	MONDO:0004989	26928228	GNBR::Y::Gene:Disease	CBCG
+CCDC170	Gene	Breast Cancer	Disease	ENTREZ:80129	MONDO:0004989	29058716	GNBR::Y::Gene:Disease	CBCG
+CCDC170	Gene	Breast Cancer	Disease	ENTREZ:80129	MONDO:0004989	25116933	GNBR::Y::Gene:Disease	CBCG
+CCDC88C	Gene	Breast Cancer	Disease	ENTREZ:440193	MONDO:0004989	23535729	GNBR::Y::Gene:Disease	CBCG
+CCDC88C	Gene	Breast Cancer	Disease	ENTREZ:440193	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+CCDC91	Gene	Breast Cancer	Disease	ENTREZ:55297	MONDO:0004989	27459855	GNBR::Y::Gene:Disease	CBCG
+CCND1	Gene	Breast Cancer	Disease	ENTREZ:595	MONDO:0004989	36534235	GNBR::Y::Gene:Disease	CBCG
+CCNE1	Gene	Breast Cancer	Disease	ENTREZ:898	MONDO:0004989	25159285	GNBR::Y::Gene:Disease	CBCG
+CCNE1	Gene	Breast Cancer	Disease	ENTREZ:898	MONDO:0004989	18174243	GNBR::Y::Gene:Disease	CBCG
+CDC27	Gene	Breast Cancer	Disease	ENTREZ:996	MONDO:0004989	25680405	GNBR::Y::Gene:Disease	CBCG
+CDH1	Gene	Breast Cancer	Disease	ENTREZ:999	MONDO:0004989	11729114	GNBR::Y::Gene:Disease	CBCG
+CDH1	Gene	Breast Cancer	Disease	ENTREZ:999	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+CDH1	Gene	Breast Cancer	Disease	ENTREZ:999	MONDO:0004989	36910346	GNBR::Y::Gene:Disease	CBCG
+CDKAL1	Gene	Breast Cancer	Disease	ENTREZ:54901	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+CDKN1A	Gene	Breast Cancer	Disease	ENTREZ:1026	MONDO:0004989	18174243	GNBR::Y::Gene:Disease	CBCG
+CDKN1B	Gene	Breast Cancer	Disease	ENTREZ:1027	MONDO:0004989	18174243	GNBR::Y::Gene:Disease	CBCG
+CDKN2A	Gene	Breast Cancer	Disease	ENTREZ:1029	MONDO:0004989	15879498	GNBR::Y::Gene:Disease	CBCG
+CDKN2B-AS1	Gene	Breast Cancer	Disease	ENTREZ:100048912	MONDO:0004989	20453838	GNBR::Y::Gene:Disease	CBCG
+CDKN2B-AS1	Gene	Breast Cancer	Disease	ENTREZ:100048912	MONDO:0004989	32139696	GNBR::Y::Gene:Disease	CBCG
+CDYL2	Gene	Breast Cancer	Disease	ENTREZ:124359	MONDO:0004989	23535729	GNBR::Y::Gene:Disease	CBCG
+CDYL2	Gene	Breast Cancer	Disease	ENTREZ:124359	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+CEP131	Gene	Breast Cancer	Disease	ENTREZ:22994	MONDO:0004989	34981446	GNBR::Y::Gene:Disease	CBCG
+CEP131	Gene	Breast Cancer	Disease	ENTREZ:22994	MONDO:0004989	34981446	GNBR::Y::Gene:Disease	CBCG
+CEP131	Gene	Breast Cancer	Disease	ENTREZ:22994	MONDO:0004989	34981446	GNBR::Y::Gene:Disease	CBCG
+CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200	MONDO:0004989	35884425	GNBR::Y::Gene:Disease	CBCG
+CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200	MONDO:0004989	35396981	GNBR::Y::Gene:Disease	CBCG
+CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200	MONDO:0004989	15239132	GNBR::Y::Gene:Disease	CBCG
+CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200	MONDO:0004989	11967536	GNBR::Y::Gene:Disease	CBCG
+CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200	MONDO:0004989	15122511	GNBR::Y::Gene:Disease	CBCG
+CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200	MONDO:0004989	12094328	GNBR::Y::Gene:Disease	CBCG
+CHEK2	Gene	Breast Cancer	Disease	ENTREZ:11200	MONDO:0004989	18172190	GNBR::Y::Gene:Disease	CBCG
+CHIC2	Gene	Breast Cancer	Disease	ENTREZ:26511	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+CLDN10	Gene	Breast Cancer	Disease	ENTREZ:9071	MONDO:0004989	30544377	GNBR::Y::Gene:Disease	CBCG
+CLIP1	Gene	Breast Cancer	Disease	ENTREZ:6249	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+CMSS1	Gene	Breast Cancer	Disease	ENTREZ:84319	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+CMSS1	Gene	Breast Cancer	Disease	ENTREZ:84319	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+CNTNAP1	Gene	Breast Cancer	Disease	ENTREZ:8506	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+CNTRL	Gene	Breast Cancer	Disease	ENTREZ:11064	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+COMT	Gene	Breast Cancer	Disease	ENTREZ:1312	MONDO:0004989	30461653	GNBR::Y::Gene:Disease	CBCG
+COPS2	Gene	Breast Cancer	Disease	ENTREZ:9318	MONDO:0004989	31026346	GNBR::Y::Gene:Disease	CBCG
+CREB5	Gene	Breast Cancer	Disease	ENTREZ:9586	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+CTLA4	Gene	Breast Cancer	Disease	ENTREZ:1493	MONDO:0004989	36652567	GNBR::Y::Gene:Disease	CBCG
+CTNNA2	Gene	Breast Cancer	Disease	ENTREZ:1496	MONDO:0004989	25824743	GNBR::Y::Gene:Disease	CBCG
+CTNNB1	Gene	Breast Cancer	Disease	ENTREZ:1499	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+CUX1	Gene	Breast Cancer	Disease	ENTREZ:1523	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+CYP17A1	Gene	Breast Cancer	Disease	ENTREZ:1586	MONDO:0004989	18006912	GNBR::Y::Gene:Disease	CBCG
+CYP17A1	Gene	Breast Cancer	Disease	ENTREZ:1586	MONDO:0004989	10404084	GNBR::Y::Gene:Disease	CBCG
+CYP19A1	Gene	Breast Cancer	Disease	ENTREZ:1588	MONDO:0004989	27165202	GNBR::Y::Gene:Disease	CBCG
+CYP19A1	Gene	Breast Cancer	Disease	ENTREZ:1588	MONDO:0004989	17975727	GNBR::Y::Gene:Disease	CBCG
+CYP1A1	Gene	Breast Cancer	Disease	ENTREZ:1543	MONDO:0004989	23000097	GNBR::Y::Gene:Disease	CBCG
+CYP1A2	Gene	Breast Cancer	Disease	ENTREZ:1544	MONDO:0004989	19415745	GNBR::Y::Gene:Disease	CBCG
+CYP1A2	Gene	Breast Cancer	Disease	ENTREZ:1544	MONDO:0004989	16103451	GNBR::Y::Gene:Disease	CBCG
+CYP1B1	Gene	Breast Cancer	Disease	ENTREZ:1545	MONDO:0004989	12415427	GNBR::Y::Gene:Disease	CBCG
+CYP1B1	Gene	Breast Cancer	Disease	ENTREZ:1545	MONDO:0004989	20099199	GNBR::Y::Gene:Disease	CBCG
+CYP2B7P	Gene	Breast Cancer	Disease	ENTREZ:1556	MONDO:0004989	21908515	GNBR::Y::Gene:Disease	CBCG
+CYP2C19	Gene	Breast Cancer	Disease	ENTREZ:1557	MONDO:0004989	22180071	GNBR::Y::Gene:Disease	CBCG
+CYP2D6	Gene	Breast Cancer	Disease	ENTREZ:1565	MONDO:0004989	29479969	GNBR::Y::Gene:Disease	CBCG
+CYP2D6	Gene	Breast Cancer	Disease	ENTREZ:1565	MONDO:0004989	8564925	GNBR::Y::Gene:Disease	CBCG
+CYP2D6	Gene	Breast Cancer	Disease	ENTREZ:1565	MONDO:0004989	29479969	GNBR::Y::Gene:Disease	CBCG
+CYP3A4	Gene	Breast Cancer	Disease	ENTREZ:1576	MONDO:0004989	30218411	GNBR::Y::Gene:Disease	CBCG
+CYP3A5	Gene	Breast Cancer	Disease	ENTREZ:1577	MONDO:0004989	19229255	GNBR::Y::Gene:Disease	CBCG
+DCC	Gene	Breast Cancer	Disease	ENTREZ:1630	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+DCLRE1B	Gene	Breast Cancer	Disease	ENTREZ:64858	MONDO:0004989	23535729	GNBR::Y::Gene:Disease	CBCG
+DCLRE1B	Gene	Breast Cancer	Disease	ENTREZ:64858	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+DESI1	Gene	Breast Cancer	Disease	ENTREZ:27351	MONDO:0004989	18000863	GNBR::Y::Gene:Disease	CBCG
+DIRC3	Gene	Breast Cancer	Disease	ENTREZ:729582	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+DIRC3	Gene	Breast Cancer	Disease	ENTREZ:729582	MONDO:0004989	24743323	GNBR::Y::Gene:Disease	CBCG
+DIRC3	Gene	Breast Cancer	Disease	ENTREZ:729582	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+DKK4	Gene	Breast Cancer	Disease	ENTREZ:27121	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+DLEU1	Gene	Breast Cancer	Disease	ENTREZ:10301	MONDO:0004989	32139696	GNBR::Y::Gene:Disease	CBCG
+DNAJC15	Gene	Breast Cancer	Disease	ENTREZ:29103	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+DNMT1	Gene	Breast Cancer	Disease	ENTREZ:1786	MONDO:0004989	23079992	GNBR::Y::Gene:Disease	CBCG
+DOCK1	Gene	Breast Cancer	Disease	ENTREZ:1793	MONDO:0004989	30323354	GNBR::Y::Gene:Disease	CBCG
+DRD3	Gene	Breast Cancer	Disease	ENTREZ:1814	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+DROSHA	Gene	Breast Cancer	Disease	ENTREZ:29102	MONDO:0004989	36911928	GNBR::Y::Gene:Disease	CBCG
+E2F1	Gene	Breast Cancer	Disease	ENTREZ:1869	MONDO:0004989	33691613	GNBR::Y::Gene:Disease	CBCG
+EBF1	Gene	Breast Cancer	Disease	ENTREZ:1879	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+EBF1	Gene	Breast Cancer	Disease	ENTREZ:1879	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+EBF2	Gene	Breast Cancer	Disease	ENTREZ:64641	MONDO:0004989	32424353	GNBR::Y::Gene:Disease	CBCG
+EBF2	Gene	Breast Cancer	Disease	ENTREZ:64641	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ECHDC1	Gene	Breast Cancer	Disease	ENTREZ:55862	MONDO:0004989	18326623	GNBR::Y::Gene:Disease	CBCG
+ECHDC1	Gene	Breast Cancer	Disease	ENTREZ:55862	MONDO:0004989	18326623	GNBR::Y::Gene:Disease	CBCG
+EHMT1	Gene	Breast Cancer	Disease	ENTREZ:79813	MONDO:0004989	16501248	GNBR::Y::Gene:Disease	CBCG
+EHMT2	Gene	Breast Cancer	Disease	ENTREZ:10919	MONDO:0004989	16501248	GNBR::Y::Gene:Disease	CBCG
+EI24	Gene	Breast Cancer	Disease	ENTREZ:9538	MONDO:0004989	23844225	GNBR::Y::Gene:Disease	CBCG
+EIF4E	Gene	Breast Cancer	Disease	ENTREZ:1977	MONDO:0004989	28582508	GNBR::Y::Gene:Disease	CBCG
+ELN-AS1	Gene	Breast Cancer	Disease	ENTREZ:107986809	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+ELN	Gene	Breast Cancer	Disease	ENTREZ:2006	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+EMBP1	Gene	Breast Cancer	Disease	ENTREZ:647121	MONDO:0004989	27556229	GNBR::Y::Gene:Disease	CBCG
+EMBP1	Gene	Breast Cancer	Disease	ENTREZ:647121	MONDO:0004989	19330030	GNBR::Y::Gene:Disease	CBCG
+EMBP1	Gene	Breast Cancer	Disease	ENTREZ:647121	MONDO:0004989	20453838	GNBR::Y::Gene:Disease	CBCG
+EMBP1	Gene	Breast Cancer	Disease	ENTREZ:647121	MONDO:0004989	24743323	GNBR::Y::Gene:Disease	CBCG
+EMBP1	Gene	Breast Cancer	Disease	ENTREZ:647121	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+EMID1	Gene	Breast Cancer	Disease	ENTREZ:129080	MONDO:0004989	25751625	GNBR::Y::Gene:Disease	CBCG
+EMID1	Gene	Breast Cancer	Disease	ENTREZ:129080	MONDO:0004989	23535729	GNBR::Y::Gene:Disease	CBCG
+EMX2OS	Gene	Breast Cancer	Disease	ENTREZ:196047	MONDO:0004989	32139696	GNBR::Y::Gene:Disease	CBCG
+EPCAM	Gene	Breast Cancer	Disease	ENTREZ:4072	MONDO:0004989	20683652	GNBR::Y::Gene:Disease	CBCG
+EPHX1	Gene	Breast Cancer	Disease	ENTREZ:2052	MONDO:0004989	18423013	GNBR::Y::Gene:Disease	CBCG
+ERBB2	Gene	Breast Cancer	Disease	ENTREZ:2064	MONDO:0004989	10699071	GNBR::Y::Gene:Disease	CBCG
+ERBB2	Gene	Breast Cancer	Disease	ENTREZ:2064	MONDO:0004989	15167216	GNBR::Y::Gene:Disease	CBCG
+ERBB2	Gene	Breast Cancer	Disease	ENTREZ:2064	MONDO:0004989	36708564	GNBR::Y::Gene:Disease	CBCG
+ERBB2	Gene	Breast Cancer	Disease	ENTREZ:2064	MONDO:0004989	15550452	GNBR::Y::Gene:Disease	CBCG
+ERBB3	Gene	Breast Cancer	Disease	ENTREZ:2065	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+ERBB4	Gene	Breast Cancer	Disease	ENTREZ:2066	MONDO:0004989	22452962	GNBR::Y::Gene:Disease	CBCG
+ERCC1	Gene	Breast Cancer	Disease	ENTREZ:2067	MONDO:0004989	23909490	GNBR::Y::Gene:Disease	CBCG
+ERCC1	Gene	Breast Cancer	Disease	ENTREZ:2067	MONDO:0004989	27768589	GNBR::Y::Gene:Disease	CBCG
+ERCC2	Gene	Breast Cancer	Disease	ENTREZ:2068	MONDO:0004989	29544444	GNBR::Y::Gene:Disease	CBCG
+ERCC2	Gene	Breast Cancer	Disease	ENTREZ:2068	MONDO:0004989	25789018	GNBR::Y::Gene:Disease	CBCG
+ERCC2	Gene	Breast Cancer	Disease	ENTREZ:2068	MONDO:0004989	27768589	GNBR::Y::Gene:Disease	CBCG
+ERCC2	Gene	Breast Cancer	Disease	ENTREZ:2068	MONDO:0004989	36594475	GNBR::Y::Gene:Disease	CBCG
+ERCC4	Gene	Breast Cancer	Disease	ENTREZ:2072	MONDO:0004989	18701435	GNBR::Y::Gene:Disease	CBCG
+ERCC5	Gene	Breast Cancer	Disease	ENTREZ:2073	MONDO:0004989	20183911	GNBR::Y::Gene:Disease	CBCG
+ERCC5	Gene	Breast Cancer	Disease	ENTREZ:2073	MONDO:0004989	35691022	GNBR::Y::Gene:Disease	CBCG
+ESR1	Gene	Breast Cancer	Disease	ENTREZ:2099	MONDO:0004989	26928228	GNBR::Y::Gene:Disease	CBCG
+ESR1	Gene	Breast Cancer	Disease	ENTREZ:2099	MONDO:0004989	25116933	GNBR::Y::Gene:Disease	CBCG
+ESR1	Gene	Breast Cancer	Disease	ENTREZ:2099	MONDO:0004989	26928228	GNBR::Y::Gene:Disease	CBCG
+ESR1	Gene	Breast Cancer	Disease	ENTREZ:2099	MONDO:0004989	26928228	GNBR::Y::Gene:Disease	CBCG
+ESR2	Gene	Breast Cancer	Disease	ENTREZ:2100	MONDO:0004989	24430361	GNBR::Y::Gene:Disease	CBCG
+ESR2	Gene	Breast Cancer	Disease	ENTREZ:2100	MONDO:0004989	19429453	GNBR::Y::Gene:Disease	CBCG
+EXO1	Gene	Breast Cancer	Disease	ENTREZ:9156	MONDO:0004989	25751625	GNBR::Y::Gene:Disease	CBCG
+EXO1	Gene	Breast Cancer	Disease	ENTREZ:9156	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+FAM72B	Gene	Breast Cancer	Disease	ENTREZ:653820	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+FANCC	Gene	Breast Cancer	Disease	ENTREZ:2176	MONDO:0004989	23028338	GNBR::Y::Gene:Disease	CBCG
+FANCC	Gene	Breast Cancer	Disease	ENTREZ:2176	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+FANCD2	Gene	Breast Cancer	Disease	ENTREZ:2177	MONDO:0004989	28386063	GNBR::Y::Gene:Disease	CBCG
+FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697	MONDO:0004989	28033443	GNBR::Y::Gene:Disease	CBCG
+FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697	MONDO:0004989	36707629	GNBR::Y::Gene:Disease	CBCG
+FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697	MONDO:0004989	28702895	GNBR::Y::Gene:Disease	CBCG
+FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697	MONDO:0004989	31700994	GNBR::Y::Gene:Disease	CBCG
+FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697	MONDO:0004989	26130695	GNBR::Y::Gene:Disease	CBCG
+FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697	MONDO:0004989	25288723	GNBR::Y::Gene:Disease	CBCG
+FANCM	Gene	Breast Cancer	Disease	ENTREZ:57697	MONDO:0004989	31700994	GNBR::Y::Gene:Disease	CBCG
+FAS	Gene	Breast Cancer	Disease	ENTREZ:355	MONDO:0004989	23326385	GNBR::Y::Gene:Disease	CBCG
+FAS	Gene	Breast Cancer	Disease	ENTREZ:355	MONDO:0004989	22740964	GNBR::Y::Gene:Disease	CBCG
+FASLG	Gene	Breast Cancer	Disease	ENTREZ:356	MONDO:0004989	23326385	GNBR::Y::Gene:Disease	CBCG
+FBLN2	Gene	Breast Cancer	Disease	ENTREZ:2199	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	36901898	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	18326623	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	24290378	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	20453838	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	22926736	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	17529967	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	37107577	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	24290378	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	37107577	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	24743323	GNBR::Y::Gene:Disease	CBCG
+FGFR2	Gene	Breast Cancer	Disease	ENTREZ:2263	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+FILIP1L	Gene	Breast Cancer	Disease	ENTREZ:11259	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+FILIP1L	Gene	Breast Cancer	Disease	ENTREZ:11259	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+FLACC1	Gene	Breast Cancer	Disease	ENTREZ:130540	MONDO:0004989	25168388	GNBR::Y::Gene:Disease	CBCG
+FMNL3	Gene	Breast Cancer	Disease	ENTREZ:91010	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+FOXP3	Gene	Breast Cancer	Disease	ENTREZ:50943	MONDO:0004989	29731666	GNBR::Y::Gene:Disease	CBCG
+FTO	Gene	Breast Cancer	Disease	ENTREZ:79068	MONDO:0004989	23535733	GNBR::Y::Gene:Disease	CBCG
+FTO	Gene	Breast Cancer	Disease	ENTREZ:79068	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+FTO	Gene	Breast Cancer	Disease	ENTREZ:79068	MONDO:0004989	29058716	GNBR::Y::Gene:Disease	CBCG
+GATAD2A	Gene	Breast Cancer	Disease	ENTREZ:54815	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+GATAD2A	Gene	Breast Cancer	Disease	ENTREZ:54815	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+GIPR	Gene	Breast Cancer	Disease	ENTREZ:2696	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+GIPR	Gene	Breast Cancer	Disease	ENTREZ:2696	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+GLO1	Gene	Breast Cancer	Disease	ENTREZ:2739	MONDO:0004989	19379515	GNBR::Y::Gene:Disease	CBCG
+GNAS-AS1	Gene	Breast Cancer	Disease	ENTREZ:149775	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+GNAS	Gene	Breast Cancer	Disease	ENTREZ:2778	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+GPC1-AS1	Gene	Breast Cancer	Disease	ENTREZ:100130449	MONDO:0004989	36371555	GNBR::Y::Gene:Disease	CBCG
+GPC1	Gene	Breast Cancer	Disease	ENTREZ:2817	MONDO:0004989	36371555	GNBR::Y::Gene:Disease	CBCG
+GPR19	Gene	Breast Cancer	Disease	ENTREZ:2842	MONDO:0004989	18174243	GNBR::Y::Gene:Disease	CBCG
+GPRIN2	Gene	Breast Cancer	Disease	ENTREZ:9721	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+GPX1	Gene	Breast Cancer	Disease	ENTREZ:2876	MONDO:0004989	16287877	GNBR::Y::Gene:Disease	CBCG
+GPX1	Gene	Breast Cancer	Disease	ENTREZ:2876	MONDO:0004989	24039907	GNBR::Y::Gene:Disease	CBCG
+GRHL1	Gene	Breast Cancer	Disease	ENTREZ:29841	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+GRHL1	Gene	Breast Cancer	Disease	ENTREZ:29841	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+GRIA4	Gene	Breast Cancer	Disease	ENTREZ:2893	MONDO:0004989	36901898	GNBR::Y::Gene:Disease	CBCG
+GRM7	Gene	Breast Cancer	Disease	ENTREZ:2917	MONDO:0004989	22923054	GNBR::Y::Gene:Disease	CBCG
+GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944	MONDO:0004989	9888479	GNBR::Y::Gene:Disease	CBCG
+GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944	MONDO:0004989	23227845	GNBR::Y::Gene:Disease	CBCG
+GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944	MONDO:0004989	26125851	GNBR::Y::Gene:Disease	CBCG
+GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944	MONDO:0004989	21559761	GNBR::Y::Gene:Disease	CBCG
+GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944	MONDO:0004989	18080216	GNBR::Y::Gene:Disease	CBCG
+GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944	MONDO:0004989	19228880	GNBR::Y::Gene:Disease	CBCG
+GSTM1	Gene	Breast Cancer	Disease	ENTREZ:2944	MONDO:0004989	36308374	GNBR::Y::Gene:Disease	CBCG
+GSTO1	Gene	Breast Cancer	Disease	ENTREZ:9446	MONDO:0004989	28670895	GNBR::Y::Gene:Disease	CBCG
+GSTO2	Gene	Breast Cancer	Disease	ENTREZ:119391	MONDO:0004989	28670895	GNBR::Y::Gene:Disease	CBCG
+GSTP1	Gene	Breast Cancer	Disease	ENTREZ:2950	MONDO:0004989	18326615	GNBR::Y::Gene:Disease	CBCG
+GSTP1	Gene	Breast Cancer	Disease	ENTREZ:2950	MONDO:0004989	23826324	GNBR::Y::Gene:Disease	CBCG
+GSTP1	Gene	Breast Cancer	Disease	ENTREZ:2950	MONDO:0004989	23000097	GNBR::Y::Gene:Disease	CBCG
+GSTP1	Gene	Breast Cancer	Disease	ENTREZ:2950	MONDO:0004989	23227845	GNBR::Y::Gene:Disease	CBCG
+GSTP1	Gene	Breast Cancer	Disease	ENTREZ:2950	MONDO:0004989	30461653	GNBR::Y::Gene:Disease	CBCG
+GSTT1	Gene	Breast Cancer	Disease	ENTREZ:2952	MONDO:0004989	31707358	GNBR::Y::Gene:Disease	CBCG
+GSTT1	Gene	Breast Cancer	Disease	ENTREZ:2952	MONDO:0004989	14562023	GNBR::Y::Gene:Disease	CBCG
+GSTT1	Gene	Breast Cancer	Disease	ENTREZ:2952	MONDO:0004989	21559761	GNBR::Y::Gene:Disease	CBCG
+GSTT1	Gene	Breast Cancer	Disease	ENTREZ:2952	MONDO:0004989	18080216	GNBR::Y::Gene:Disease	CBCG
+GSTT1	Gene	Breast Cancer	Disease	ENTREZ:2952	MONDO:0004989	glutathione-stransferase-t1-and-m1-gene-polymorphisms-among-breast-cancer-susceptible-ghanaians-12166.html	GNBR::Y::Gene:Disease	CBCG
+H19	Gene	Breast Cancer	Disease	ENTREZ:14955	MONDO:0004989	35818166	GNBR::Y::Gene:Disease	CBCG
+H19	Gene	Breast Cancer	Disease	ENTREZ:14955	MONDO:0004989	35818166	GNBR::Y::Gene:Disease	CBCG
+H19	Gene	Breast Cancer	Disease	ENTREZ:14955	MONDO:0004989	35818166	GNBR::Y::Gene:Disease	CBCG
+H3-3A	Gene	Breast Cancer	Disease	ENTREZ:3020	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+HCN1	Gene	Breast Cancer	Disease	ENTREZ:348980	MONDO:0004989	27863437	GNBR::Y::Gene:Disease	CBCG
+HELQ	Gene	Breast Cancer	Disease	ENTREZ:113510	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+HIF1A	Gene	Breast Cancer	Disease	ENTREZ:3091	MONDO:0004989	19580347	GNBR::Y::Gene:Disease	CBCG
+HIF1A	Gene	Breast Cancer	Disease	ENTREZ:3091	MONDO:0004989	25302049	GNBR::Y::Gene:Disease	CBCG
+HIF1A	Gene	Breast Cancer	Disease	ENTREZ:3091	MONDO:0004989	30135144	GNBR::Y::Gene:Disease	CBCG
+HIF1A	Gene	Breast Cancer	Disease	ENTREZ:3091	MONDO:0004989	28775167	GNBR::Y::Gene:Disease	CBCG
+HIF1A-AS3	Gene	Breast Cancer	Disease	ENTREZ:105370526	MONDO:0004989	19580347	GNBR::Y::Gene:Disease	CBCG
+HIF1A-AS3	Gene	Breast Cancer	Disease	ENTREZ:105370526	MONDO:0004989	25302049	GNBR::Y::Gene:Disease	CBCG
+HIF1A-AS3	Gene	Breast Cancer	Disease	ENTREZ:105370526	MONDO:0004989	30135144	GNBR::Y::Gene:Disease	CBCG
+HIF1A-AS3	Gene	Breast Cancer	Disease	ENTREZ:105370526	MONDO:0004989	28775167	GNBR::Y::Gene:Disease	CBCG
+HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+HLA-A	Gene	Breast Cancer	Disease	ENTREZ:3105	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+HLA-B	Gene	Breast Cancer	Disease	ENTREZ:3106	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+HLA-DRB1	Gene	Breast Cancer	Disease	ENTREZ:3123	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+HLA-DRB1	Gene	Breast Cancer	Disease	ENTREZ:3123	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+HLA-DRB1	Gene	Breast Cancer	Disease	ENTREZ:3123	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+HLA-G	Gene	Breast Cancer	Disease	ENTREZ:3135	MONDO:0004989	35752280	GNBR::Y::Gene:Disease	CBCG
+HMMR	Gene	Breast Cancer	Disease	ENTREZ:3161	MONDO:0004989	17922014	GNBR::Y::Gene:Disease	CBCG
+HMMR-AS1	Gene	Breast Cancer	Disease	ENTREZ:101927813	MONDO:0004989	17922014	GNBR::Y::Gene:Disease	CBCG
+HNF4G	Gene	Breast Cancer	Disease	ENTREZ:3174	MONDO:0004989	23535729	GNBR::Y::Gene:Disease	CBCG
+HOXB13	Gene	Breast Cancer	Disease	ENTREZ:10481	MONDO:0004989	22853031	GNBR::Y::Gene:Disease	CBCG
+HSD11B1	Gene	Breast Cancer	Disease	ENTREZ:3290	MONDO:0004989	18611262	GNBR::Y::Gene:Disease	CBCG
+HSD11B1	Gene	Breast Cancer	Disease	ENTREZ:3290	MONDO:0004989	18611262	GNBR::Y::Gene:Disease	CBCG
+HSD11B1-AS1	Gene	Breast Cancer	Disease	ENTREZ:101930114	MONDO:0004989	18611262	GNBR::Y::Gene:Disease	CBCG
+HSD11B1-AS1	Gene	Breast Cancer	Disease	ENTREZ:101930114	MONDO:0004989	18611262	GNBR::Y::Gene:Disease	CBCG
+HSD17B1	Gene	Breast Cancer	Disease	ENTREZ:3292	MONDO:0004989	19679043	GNBR::Y::Gene:Disease	CBCG
+HSD17B14	Gene	Breast Cancer	Disease	ENTREZ:51171	MONDO:0004989	37578974	GNBR::Y::Gene:Disease	CBCG
+HSPA1A	Gene	Breast Cancer	Disease	ENTREZ:3303	MONDO:0004989	11241233	GNBR::Y::Gene:Disease	CBCG
+HUS1	Gene	Breast Cancer	Disease	ENTREZ:3364	MONDO:0004989	22926736	GNBR::Y::Gene:Disease	CBCG
+HUS1	Gene	Breast Cancer	Disease	ENTREZ:3364	MONDO:0004989	22926736	GNBR::Y::Gene:Disease	CBCG
+ICAM1	Gene	Breast Cancer	Disease	ENTREZ:3383	MONDO:0004989	15604251	GNBR::Y::Gene:Disease	CBCG
+ICAM5	Gene	Breast Cancer	Disease	ENTREZ:7087	MONDO:0004989	15604251	GNBR::Y::Gene:Disease	CBCG
+ICAM5	Gene	Breast Cancer	Disease	ENTREZ:7087	MONDO:0004989	15604251	GNBR::Y::Gene:Disease	CBCG
+IFNG	Gene	Breast Cancer	Disease	ENTREZ:3458	MONDO:0004989	21323572	GNBR::Y::Gene:Disease	CBCG
+IFNG	Gene	Breast Cancer	Disease	ENTREZ:3458	MONDO:0004989	15890243	GNBR::Y::Gene:Disease	CBCG
+IGF1	Gene	Breast Cancer	Disease	ENTREZ:3479	MONDO:0004989	16306136	GNBR::Y::Gene:Disease	CBCG
+IGF2BP2	Gene	Breast Cancer	Disease	ENTREZ:10644	MONDO:0004989	25661373	GNBR::Y::Gene:Disease	CBCG
+IGF2BP2	Gene	Breast Cancer	Disease	ENTREZ:10644	MONDO:0004989	36653207	GNBR::Y::Gene:Disease	CBCG
+IGFBP-AS1	Gene	Breast Cancer	Disease	ENTREZ:101928278	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+IL19	Gene	Breast Cancer	Disease	ENTREZ:29949	MONDO:0004989	25559835	GNBR::Y::Gene:Disease	CBCG
+IL19	Gene	Breast Cancer	Disease	ENTREZ:29949	MONDO:0004989	31983108	GNBR::Y::Gene:Disease	CBCG
+IL19	Gene	Breast Cancer	Disease	ENTREZ:29949	MONDO:0004989	22818022	GNBR::Y::Gene:Disease	CBCG
+IL19	Gene	Breast Cancer	Disease	ENTREZ:29949	MONDO:0004989	ijcep0054774.pdf	GNBR::Y::Gene:Disease	CBCG
+IL1B	Gene	Breast Cancer	Disease	ENTREZ:3553	MONDO:0004989	31281724	GNBR::Y::Gene:Disease	CBCG
+IL1B	Gene	Breast Cancer	Disease	ENTREZ:3553	MONDO:0004989	22818022	GNBR::Y::Gene:Disease	CBCG
+IL1R1	Gene	Breast Cancer	Disease	ENTREZ:3554	MONDO:0004989	29719585	GNBR::Y::Gene:Disease	CBCG
+IL6-AS1	Gene	Breast Cancer	Disease	ENTREZ:541472	MONDO:0004989	36182709	GNBR::Y::Gene:Disease	CBCG
+IL6-AS1	Gene	Breast Cancer	Disease	ENTREZ:541472	MONDO:0004989	36182709	GNBR::Y::Gene:Disease	CBCG
+INSL6	Gene	Breast Cancer	Disease	ENTREZ:11172	MONDO:0004989	28775167	GNBR::Y::Gene:Disease	CBCG
+ISX	Gene	Breast Cancer	Disease	ENTREZ:91464	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+ITGA2	Gene	Breast Cancer	Disease	ENTREZ:3673	MONDO:0004989	16317580	GNBR::Y::Gene:Disease	CBCG
+ITGB3	Gene	Breast Cancer	Disease	ENTREZ:3690	MONDO:0004989	15609125	GNBR::Y::Gene:Disease	CBCG
+ITPR1	Gene	Breast Cancer	Disease	ENTREZ:3708	MONDO:0004989	23535729	GNBR::Y::Gene:Disease	CBCG
+ITPR1	Gene	Breast Cancer	Disease	ENTREZ:3708	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ITPR2	Gene	Breast Cancer	Disease	ENTREZ:3709	MONDO:0004989	30323354	GNBR::Y::Gene:Disease	CBCG
+ITPR3	Gene	Breast Cancer	Disease	ENTREZ:3710	MONDO:0004989	36350267	GNBR::Y::Gene:Disease	CBCG
+JAK2	Gene	Breast Cancer	Disease	ENTREZ:3717	MONDO:0004989	28775167	GNBR::Y::Gene:Disease	CBCG
+KCNN4	Gene	Breast Cancer	Disease	ENTREZ:3783	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+KCNN4	Gene	Breast Cancer	Disease	ENTREZ:3783	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831	MONDO:0004989	12023982	GNBR::Y::Gene:Disease	CBCG
+KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831	MONDO:0004989	28983784	GNBR::Y::Gene:Disease	CBCG
+KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831	MONDO:0004989	35061678	GNBR::Y::Gene:Disease	CBCG
+KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831	MONDO:0004989	36761956	GNBR::Y::Gene:Disease	CBCG
+KLC1	Gene	Breast Cancer	Disease	ENTREZ:3831	MONDO:0004989	35691022	GNBR::Y::Gene:Disease	CBCG
+KMT2C	Gene	Breast Cancer	Disease	ENTREZ:58508	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+KMT2C	Gene	Breast Cancer	Disease	ENTREZ:58508	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+KRAS	Gene	Breast Cancer	Disease	ENTREZ:3845	MONDO:0004989	36510353	GNBR::Y::Gene:Disease	CBCG
+LDLRAD4	Gene	Breast Cancer	Disease	ENTREZ:753	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953	MONDO:0004989	16504019	GNBR::Y::Gene:Disease	CBCG
+LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953	MONDO:0004989	18668212	GNBR::Y::Gene:Disease	CBCG
+LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953	MONDO:0004989	S0026893308060034	GNBR::Y::Gene:Disease	CBCG
+LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953	MONDO:0004989	25422752	GNBR::Y::Gene:Disease	CBCG
+LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953	MONDO:0004989	36943722	GNBR::Y::Gene:Disease	CBCG
+LEPR	Gene	Breast Cancer	Disease	ENTREZ:3953	MONDO:0004989	36943722	GNBR::Y::Gene:Disease	CBCG
+LGR6	Gene	Breast Cancer	Disease	ENTREZ:59352	MONDO:0004989	23535733	GNBR::Y::Gene:Disease	CBCG
+LINC-PINT	Gene	Breast Cancer	Disease	ENTREZ:378805	MONDO:0004989	21908515	GNBR::Y::Gene:Disease	CBCG
+LINC-PINT	Gene	Breast Cancer	Disease	ENTREZ:378805	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+LINC00536	Gene	Breast Cancer	Disease	ENTREZ:100859921	MONDO:0004989	25751625	GNBR::Y::Gene:Disease	CBCG
+LINC00536	Gene	Breast Cancer	Disease	ENTREZ:100859921	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+LINC01282	Gene	Breast Cancer	Disease	ENTREZ:101927449	MONDO:0004989	21908515	GNBR::Y::Gene:Disease	CBCG
+LINC01488	Gene	Breast Cancer	Disease	ENTREZ:101928292	MONDO:0004989	24493630	GNBR::Y::Gene:Disease	CBCG
+LINC02068	Gene	Breast Cancer	Disease	ENTREZ:105374219	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+LINC02288	Gene	Breast Cancer	Disease	ENTREZ:283575	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+LINC02456	Gene	Breast Cancer	Disease	ENTREZ:105369942	MONDO:0004989	16306136	GNBR::Y::Gene:Disease	CBCG
+LMX1B	Gene	Breast Cancer	Disease	ENTREZ:4010	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+LMX1B	Gene	Breast Cancer	Disease	ENTREZ:4010	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+LOC105373071	Gene	Breast Cancer	Disease	ENTREZ:105373071	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+LOC105377621	Gene	Breast Cancer	Disease	ENTREZ:105377621	MONDO:0004989	25559835	GNBR::Y::Gene:Disease	CBCG
+LRTOMT	Gene	Breast Cancer	Disease	ENTREZ:220074	MONDO:0004989	15684076	GNBR::Y::Gene:Disease	CBCG
+LRTOMT	Gene	Breast Cancer	Disease	ENTREZ:220074	MONDO:0004989	15684076	GNBR::Y::Gene:Disease	CBCG
+LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046	MONDO:0004989	17529967	GNBR::Y::Gene:Disease	CBCG
+LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046	MONDO:0004989	36397430	GNBR::Y::Gene:Disease	CBCG
+LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046	MONDO:0004989	26191300	GNBR::Y::Gene:Disease	CBCG
+LSP1	Gene	Breast Cancer	Disease	ENTREZ:4046	MONDO:0004989	26191300	GNBR::Y::Gene:Disease	CBCG
+LTA	Gene	Breast Cancer	Disease	ENTREZ:4049	MONDO:0004989	11841482	GNBR::Y::Gene:Disease	CBCG
+LYPD5	Gene	Breast Cancer	Disease	ENTREZ:284348	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+LZTS1	Gene	Breast Cancer	Disease	ENTREZ:11178	MONDO:0004989	21908515	GNBR::Y::Gene:Disease	CBCG
+MAD1L1	Gene	Breast Cancer	Disease	ENTREZ:8379	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+MAF	Gene	Breast Cancer	Disease	ENTREZ:4094	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+MAP3K1	Gene	Breast Cancer	Disease	ENTREZ:4214	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+MCC	Gene	Breast Cancer	Disease	ENTREZ:4163	MONDO:0004989	21279955	GNBR::Y::Gene:Disease	CBCG
+MCM8	Gene	Breast Cancer	Disease	ENTREZ:84515	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+MCM8	Gene	Breast Cancer	Disease	ENTREZ:84515	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+MCPH1	Gene	Breast Cancer	Disease	ENTREZ:79648	MONDO:0004989	26820313	GNBR::Y::Gene:Disease	CBCG
+MDM2	Gene	Breast Cancer	Disease	ENTREZ:4193	MONDO:0004989	29699057	GNBR::Y::Gene:Disease	CBCG
+MDM2	Gene	Breast Cancer	Disease	ENTREZ:4193	MONDO:0004989	21479369	GNBR::Y::Gene:Disease	CBCG
+MDM2	Gene	Breast Cancer	Disease	ENTREZ:4193	MONDO:0004989	19144119	GNBR::Y::Gene:Disease	CBCG
+MDM2	Gene	Breast Cancer	Disease	ENTREZ:4193	MONDO:0004989	21477265	GNBR::Y::Gene:Disease	CBCG
+MDM2	Gene	Breast Cancer	Disease	ENTREZ:4193	MONDO:0004989	30244662	GNBR::Y::Gene:Disease	CBCG
+MDM4	Gene	Breast Cancer	Disease	ENTREZ:4194	MONDO:0004989	23535733	GNBR::Y::Gene:Disease	CBCG
+MDM4	Gene	Breast Cancer	Disease	ENTREZ:4194	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+MDM4	Gene	Breast Cancer	Disease	ENTREZ:4194	MONDO:0004989	29058716	GNBR::Y::Gene:Disease	CBCG
+MDM4	Gene	Breast Cancer	Disease	ENTREZ:4194	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+MEAK7	Gene	Breast Cancer	Disease	ENTREZ:57707	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+MEN1	Gene	Breast Cancer	Disease	ENTREZ:4221	MONDO:0004989	25099597	GNBR::Y::Gene:Disease	CBCG
+MGA	Gene	Breast Cancer	Disease	ENTREZ:23269	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+MGMT	Gene	Breast Cancer	Disease	ENTREZ:4255	MONDO:0004989	23027618	GNBR::Y::Gene:Disease	CBCG
+MIER3	Gene	Breast Cancer	Disease	ENTREZ:166968	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+MIR149	Gene	Breast Cancer	Disease	ENTREZ:406941	MONDO:0004989	36371555	GNBR::Y::Gene:Disease	CBCG
+MIR155HG	Gene	Breast Cancer	Disease	ENTREZ:114614	MONDO:0004989	36499743	GNBR::Y::Gene:Disease	CBCG
+MIR196A2	Gene	Breast Cancer	Disease	ENTREZ:406973	MONDO:0004989	18634034	GNBR::Y::Gene:Disease	CBCG
+MIR196A2	Gene	Breast Cancer	Disease	ENTREZ:406973	MONDO:0004989	36831624	GNBR::Y::Gene:Disease	CBCG
+MIR23AHG	Gene	Breast Cancer	Disease	ENTREZ:284454	MONDO:0004989	36831624	GNBR::Y::Gene:Disease	CBCG
+MIR27A	Gene	Breast Cancer	Disease	ENTREZ:407018	MONDO:0004989	36831624	GNBR::Y::Gene:Disease	CBCG
+MIR4713HG	Gene	Breast Cancer	Disease	ENTREZ:109729174	MONDO:0004989	27165202	GNBR::Y::Gene:Disease	CBCG
+MIR4713HG	Gene	Breast Cancer	Disease	ENTREZ:109729174	MONDO:0004989	17975727	GNBR::Y::Gene:Disease	CBCG
+MIR499A	Gene	Breast Cancer	Disease	ENTREZ:574501	MONDO:0004989	18634034	GNBR::Y::Gene:Disease	CBCG
+MIR499B	Gene	Breast Cancer	Disease	ENTREZ:100616134	MONDO:0004989	18634034	GNBR::Y::Gene:Disease	CBCG
+MLLT10	Gene	Breast Cancer	Disease	ENTREZ:8028	MONDO:0004989	24743323	GNBR::Y::Gene:Disease	CBCG
+MLLT10	Gene	Breast Cancer	Disease	ENTREZ:8028	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+MLLT1	Gene	Breast Cancer	Disease	ENTREZ:4298	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+MMP1	Gene	Breast Cancer	Disease	ENTREZ:4312	MONDO:0004989	23696797	GNBR::Y::Gene:Disease	CBCG
+MMP1	Gene	Breast Cancer	Disease	ENTREZ:4312	MONDO:0004989	23696797	GNBR::Y::Gene:Disease	CBCG
+MMP2	Gene	Breast Cancer	Disease	ENTREZ:4313	MONDO:0004989	23696797	GNBR::Y::Gene:Disease	CBCG
+MMP3	Gene	Breast Cancer	Disease	ENTREZ:4314	MONDO:0004989	23696797	GNBR::Y::Gene:Disease	CBCG
+MMP9	Gene	Breast Cancer	Disease	ENTREZ:4318	MONDO:0004989	23634849	GNBR::Y::Gene:Disease	CBCG
+MMP9	Gene	Breast Cancer	Disease	ENTREZ:4318	MONDO:0004989	23696797	GNBR::Y::Gene:Disease	CBCG
+MRE11	Gene	Breast Cancer	Disease	ENTREZ:4361	MONDO:0004989	24894818	GNBR::Y::Gene:Disease	CBCG
+MRPL23	Gene	Breast Cancer	Disease	ENTREZ:6150	MONDO:0004989	35818166	GNBR::Y::Gene:Disease	CBCG
+MRPL23	Gene	Breast Cancer	Disease	ENTREZ:6150	MONDO:0004989	35818166	GNBR::Y::Gene:Disease	CBCG
+MRPL23	Gene	Breast Cancer	Disease	ENTREZ:6150	MONDO:0004989	35818166	GNBR::Y::Gene:Disease	CBCG
+MRPS18C	Gene	Breast Cancer	Disease	ENTREZ:51023	MONDO:0004989	27792995	GNBR::Y::Gene:Disease	CBCG
+MRTFA	Gene	Breast Cancer	Disease	ENTREZ:57591	MONDO:0004989	24325915	GNBR::Y::Gene:Disease	CBCG
+MRTFA	Gene	Breast Cancer	Disease	ENTREZ:57591	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+MRTFA	Gene	Breast Cancer	Disease	ENTREZ:57591	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+MSH2	Gene	Breast Cancer	Disease	ENTREZ:4436	MONDO:0004989	28779004	GNBR::Y::Gene:Disease	CBCG
+MSH6	Gene	Breast Cancer	Disease	ENTREZ:2956	MONDO:0004989	29345684	GNBR::Y::Gene:Disease	CBCG
+MSH6	Gene	Breast Cancer	Disease	ENTREZ:2956	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+MSTO1	Gene	Breast Cancer	Disease	ENTREZ:55154	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+MTCL1	Gene	Breast Cancer	Disease	ENTREZ:23255	MONDO:0004989	25824743	GNBR::Y::Gene:Disease	CBCG
+MTCL1	Gene	Breast Cancer	Disease	ENTREZ:23255	MONDO:0004989	25824743	GNBR::Y::Gene:Disease	CBCG
+MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524	MONDO:0004989	ijcep0050060.pdf	GNBR::Y::Gene:Disease	CBCG
+MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524	MONDO:0004989	12473175	GNBR::Y::Gene:Disease	CBCG
+MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524	MONDO:0004989	15735051	GNBR::Y::Gene:Disease	CBCG
+MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524	MONDO:0004989	23056029	GNBR::Y::Gene:Disease	CBCG
+MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524	MONDO:0004989	25366783	GNBR::Y::Gene:Disease	CBCG
+MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524	MONDO:0004989	25075036	GNBR::Y::Gene:Disease	CBCG
+MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524	MONDO:0004989	25217320	GNBR::Y::Gene:Disease	CBCG
+MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524	MONDO:0004989	25566964	GNBR::Y::Gene:Disease	CBCG
+MTHFR	Gene	Breast Cancer	Disease	ENTREZ:4524	MONDO:0004989	36412394	GNBR::Y::Gene:Disease	CBCG
+MTMR11	Gene	Breast Cancer	Disease	ENTREZ:10903	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+MTR	Gene	Breast Cancer	Disease	ENTREZ:4548	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+MTR	Gene	Breast Cancer	Disease	ENTREZ:4548	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+MTR	Gene	Breast Cancer	Disease	ENTREZ:4548	MONDO:0004989	22134752	GNBR::Y::Gene:Disease	CBCG
+MTRR	Gene	Breast Cancer	Disease	ENTREZ:4552	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+MTRR	Gene	Breast Cancer	Disease	ENTREZ:4552	MONDO:0004989	ijcep0050060.pdf	GNBR::Y::Gene:Disease	CBCG
+MUC4	Gene	Breast Cancer	Disease	ENTREZ:4585	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+MUS81	Gene	Breast Cancer	Disease	ENTREZ:80198	MONDO:0004989	32443704	GNBR::Y::Gene:Disease	CBCG
+MUTYH	Gene	Breast Cancer	Disease	ENTREZ:4595	MONDO:0004989	16140997	GNBR::Y::Gene:Disease	CBCG
+MUTYH	Gene	Breast Cancer	Disease	ENTREZ:4595	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+MUTYH	Gene	Breast Cancer	Disease	ENTREZ:4595	MONDO:0004989	30564557	GNBR::Y::Gene:Disease	CBCG
+MUTYH	Gene	Breast Cancer	Disease	ENTREZ:4595	MONDO:0004989	21952991	GNBR::Y::Gene:Disease	CBCG
+MYC	Gene	Breast Cancer	Disease	ENTREZ:4609	MONDO:0004989	15929079	GNBR::Y::Gene:Disease	CBCG
+MYH7B	Gene	Breast Cancer	Disease	ENTREZ:57644	MONDO:0004989	18634034	GNBR::Y::Gene:Disease	CBCG
+MYO5A	Gene	Breast Cancer	Disease	ENTREZ:4644	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+NAT2	Gene	Breast Cancer	Disease	ENTREZ:10	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+NBEA	Gene	Breast Cancer	Disease	ENTREZ:26960	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+NBN	Gene	Breast Cancer	Disease	ENTREZ:4683	MONDO:0004989	12845677	GNBR::Y::Gene:Disease	CBCG
+NBN	Gene	Breast Cancer	Disease	ENTREZ:4683	MONDO:0004989	16770759	GNBR::Y::Gene:Disease	CBCG
+NEK10	Gene	Breast Cancer	Disease	ENTREZ:152110	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+NF1	Gene	Breast Cancer	Disease	ENTREZ:4763	MONDO:0004989	23165953	GNBR::Y::Gene:Disease	CBCG
+NF1	Gene	Breast Cancer	Disease	ENTREZ:4763	MONDO:0004989	25742481	GNBR::Y::Gene:Disease	CBCG
+NF1	Gene	Breast Cancer	Disease	ENTREZ:4763	MONDO:0004989	16786042	GNBR::Y::Gene:Disease	CBCG
+NF1	Gene	Breast Cancer	Disease	ENTREZ:4763	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+NF1	Gene	Breast Cancer	Disease	ENTREZ:4763	MONDO:0004989	35396981	GNBR::Y::Gene:Disease	CBCG
+NFIX	Gene	Breast Cancer	Disease	ENTREZ:4784	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+NFIX	Gene	Breast Cancer	Disease	ENTREZ:4784	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+NOS3	Gene	Breast Cancer	Disease	ENTREZ:4846	MONDO:0004989	16538535	GNBR::Y::Gene:Disease	CBCG
+NOTCH3	Gene	Breast Cancer	Disease	ENTREZ:4854	MONDO:0004989	28775167	GNBR::Y::Gene:Disease	CBCG
+NPHP1	Gene	Breast Cancer	Disease	ENTREZ:4867	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+NQO1	Gene	Breast Cancer	Disease	ENTREZ:1728	MONDO:0004989	15280903	GNBR::Y::Gene:Disease	CBCG
+NR2F6	Gene	Breast Cancer	Disease	ENTREZ:2063	MONDO:0004989	27601076	GNBR::Y::Gene:Disease	CBCG
+NRG1	Gene	Breast Cancer	Disease	ENTREZ:3084	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+NTRK1	Gene	Breast Cancer	Disease	ENTREZ:4914	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+NTRK1	Gene	Breast Cancer	Disease	ENTREZ:4914	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+NUMA1	Gene	Breast Cancer	Disease	ENTREZ:4926	MONDO:0004989	15684076	GNBR::Y::Gene:Disease	CBCG
+NUP214	Gene	Breast Cancer	Disease	ENTREZ:8021	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+OGG1	Gene	Breast Cancer	Disease	ENTREZ:4968	MONDO:0004989	32167073	GNBR::Y::Gene:Disease	CBCG
+OGG1	Gene	Breast Cancer	Disease	ENTREZ:4968	MONDO:0004989	27822728	GNBR::Y::Gene:Disease	CBCG
+OR4C11	Gene	Breast Cancer	Disease	ENTREZ:219429	MONDO:0004989	28302160	GNBR::Y::Gene:Disease	CBCG
+OR4P4	Gene	Breast Cancer	Disease	ENTREZ:81300	MONDO:0004989	28302160	GNBR::Y::Gene:Disease	CBCG
+ORC2	Gene	Breast Cancer	Disease	ENTREZ:4999	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+OTUD7B	Gene	Breast Cancer	Disease	ENTREZ:56957	MONDO:0004989	25751625	GNBR::Y::Gene:Disease	CBCG
+PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728	MONDO:0004989	17200668	GNBR::Y::Gene:Disease	CBCG
+PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728	MONDO:0004989	25099575	GNBR::Y::Gene:Disease	CBCG
+PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728	MONDO:0004989	37262986	GNBR::Y::Gene:Disease	CBCG
+PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728	MONDO:0004989	35884425	GNBR::Y::Gene:Disease	CBCG
+PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728	MONDO:0004989	35396981	GNBR::Y::Gene:Disease	CBCG
+PALB2	Gene	Breast Cancer	Disease	ENTREZ:79728	MONDO:0004989	17287723	GNBR::Y::Gene:Disease	CBCG
+PCDHGB2	Gene	Breast Cancer	Disease	ENTREZ:56103	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+PCM1	Gene	Breast Cancer	Disease	ENTREZ:5108	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+PCNT	Gene	Breast Cancer	Disease	ENTREZ:5116	MONDO:0004989	32139696	GNBR::Y::Gene:Disease	CBCG
+PCNT	Gene	Breast Cancer	Disease	ENTREZ:5116	MONDO:0004989	32424353	GNBR::Y::Gene:Disease	CBCG
+PCNT	Gene	Breast Cancer	Disease	ENTREZ:5116	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+PCSK7	Gene	Breast Cancer	Disease	ENTREZ:9159	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+PDCD6-AHRR	Gene	Breast Cancer	Disease	ENTREZ:116412618	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+PDCD6-AHRR	Gene	Breast Cancer	Disease	ENTREZ:116412618	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+PDE7B	Gene	Breast Cancer	Disease	ENTREZ:27115	MONDO:0004989	30323354	GNBR::Y::Gene:Disease	CBCG
+PDGFRB	Gene	Breast Cancer	Disease	ENTREZ:5159	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+PEX14	Gene	Breast Cancer	Disease	ENTREZ:5195	MONDO:0004989	37524136	GNBR::Y::Gene:Disease	CBCG
+PGR	Gene	Breast Cancer	Disease	ENTREZ:5241	MONDO:0004989	17018785	GNBR::Y::Gene:Disease	CBCG
+PHF20	Gene	Breast Cancer	Disease	ENTREZ:51230	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+PHLDA3	Gene	Breast Cancer	Disease	ENTREZ:23612	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+PHLDA3	Gene	Breast Cancer	Disease	ENTREZ:23612	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+PIDD1	Gene	Breast Cancer	Disease	ENTREZ:55367	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+PIK3CA	Gene	Breast Cancer	Disease	ENTREZ:5290	MONDO:0004989	36831624	GNBR::Y::Gene:Disease	CBCG
+PIP4K2A	Gene	Breast Cancer	Disease	ENTREZ:5305	MONDO:0004989	32139696	GNBR::Y::Gene:Disease	CBCG
+PIP4K2A	Gene	Breast Cancer	Disease	ENTREZ:5305	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+PMF1	Gene	Breast Cancer	Disease	ENTREZ:11243	MONDO:0004989	32139696	GNBR::Y::Gene:Disease	CBCG
+PMF1-BGLAP	Gene	Breast Cancer	Disease	ENTREZ:100527963	MONDO:0004989	32139696	GNBR::Y::Gene:Disease	CBCG
+PMS2	Gene	Breast Cancer	Disease	ENTREZ:5395	MONDO:0004989	29345684	GNBR::Y::Gene:Disease	CBCG
+PMS2P5	Gene	Breast Cancer	Disease	ENTREZ:5383	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+PNPLA4	Gene	Breast Cancer	Disease	ENTREZ:8228	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+POLG	Gene	Breast Cancer	Disease	ENTREZ:5428	MONDO:0004989	29341116	GNBR::Y::Gene:Disease	CBCG
+PON1	Gene	Breast Cancer	Disease	ENTREZ:5444	MONDO:0004989	16775186	GNBR::Y::Gene:Disease	CBCG
+PON1	Gene	Breast Cancer	Disease	ENTREZ:5444	MONDO:0004989	19379515	GNBR::Y::Gene:Disease	CBCG
+PON1	Gene	Breast Cancer	Disease	ENTREZ:5444	MONDO:0004989	s12253-010-9267-5	GNBR::Y::Gene:Disease	CBCG
+PON1	Gene	Breast Cancer	Disease	ENTREZ:5444	MONDO:0004989	21229382	GNBR::Y::Gene:Disease	CBCG
+PON1	Gene	Breast Cancer	Disease	ENTREZ:5444	MONDO:0004989	35938743	GNBR::Y::Gene:Disease	CBCG
+POR	Gene	Breast Cancer	Disease	ENTREZ:5447	MONDO:0004989	17440066	GNBR::Y::Gene:Disease	CBCG
+PPA2	Gene	Breast Cancer	Disease	ENTREZ:27068	MONDO:0004989	26354892	GNBR::Y::Gene:Disease	CBCG
+PPARA	Gene	Breast Cancer	Disease	ENTREZ:5465	MONDO:0004989	28669518	GNBR::Y::Gene:Disease	CBCG
+PPARA	Gene	Breast Cancer	Disease	ENTREZ:5465	MONDO:0004989	18586686	GNBR::Y::Gene:Disease	CBCG
+PPARG	Gene	Breast Cancer	Disease	ENTREZ:5468	MONDO:0004989	28669518	GNBR::Y::Gene:Disease	CBCG
+PPARGC1A	Gene	Breast Cancer	Disease	ENTREZ:10891	MONDO:0004989	16704985	GNBR::Y::Gene:Disease	CBCG
+PPARGC1B	Gene	Breast Cancer	Disease	ENTREZ:133522	MONDO:0004989	16704985	GNBR::Y::Gene:Disease	CBCG
+PPIL3	Gene	Breast Cancer	Disease	ENTREZ:53938	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+PPM1D	Gene	Breast Cancer	Disease	ENTREZ:8493	MONDO:0004989	23242139	GNBR::Y::Gene:Disease	CBCG
+PPM1K-DT	Gene	Breast Cancer	Disease	ENTREZ:105369192	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+PPM1K-DT	Gene	Breast Cancer	Disease	ENTREZ:105369192	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+PPP3CA	Gene	Breast Cancer	Disease	ENTREZ:5530	MONDO:0004989	21908515	GNBR::Y::Gene:Disease	CBCG
+PRC1	Gene	Breast Cancer	Disease	ENTREZ:9055	MONDO:0004989	25038754	GNBR::Y::Gene:Disease	CBCG
+PRC1-AS1	Gene	Breast Cancer	Disease	ENTREZ:100507118	MONDO:0004989	25038754	GNBR::Y::Gene:Disease	CBCG
+PRDM2	Gene	Breast Cancer	Disease	ENTREZ:7799	MONDO:0004989	16501248	GNBR::Y::Gene:Disease	CBCG
+PRKG1	Gene	Breast Cancer	Disease	ENTREZ:5592	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+PTEN	Gene	Breast Cancer	Disease	ENTREZ:5728	MONDO:0004989	9399897	GNBR::Y::Gene:Disease	CBCG
+PTEN	Gene	Breast Cancer	Disease	ENTREZ:5728	MONDO:0004989	23335809	GNBR::Y::Gene:Disease	CBCG
+PTEN	Gene	Breast Cancer	Disease	ENTREZ:5728	MONDO:0004989	22252256	GNBR::Y::Gene:Disease	CBCG
+PTEN	Gene	Breast Cancer	Disease	ENTREZ:5728	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+PTEN	Gene	Breast Cancer	Disease	ENTREZ:5728	MONDO:0004989	35396981	GNBR::Y::Gene:Disease	CBCG
+PTGS1	Gene	Breast Cancer	Disease	ENTREZ:5742	MONDO:0004989	25339205	GNBR::Y::Gene:Disease	CBCG
+PTPN9	Gene	Breast Cancer	Disease	ENTREZ:5780	MONDO:0004989	32139696	GNBR::Y::Gene:Disease	CBCG
+PTPRB	Gene	Breast Cancer	Disease	ENTREZ:5787	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+RABEP1	Gene	Breast Cancer	Disease	ENTREZ:9135	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+RAD50	Gene	Breast Cancer	Disease	ENTREZ:10111	MONDO:0004989	16474176	GNBR::Y::Gene:Disease	CBCG
+RAD51	Gene	Breast Cancer	Disease	ENTREZ:5888	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890	MONDO:0004989	34635660	GNBR::Y::Gene:Disease	CBCG
+RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890	MONDO:0004989	27149063	GNBR::Y::Gene:Disease	CBCG
+RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890	MONDO:0004989	27149063	GNBR::Y::Gene:Disease	CBCG
+RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890	MONDO:0004989	24743323	GNBR::Y::Gene:Disease	CBCG
+RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890	MONDO:0004989	27149063	GNBR::Y::Gene:Disease	CBCG
+RAD51B	Gene	Breast Cancer	Disease	ENTREZ:5890	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+RAD51C	Gene	Breast Cancer	Disease	ENTREZ:5889	MONDO:0004989	20400964	GNBR::Y::Gene:Disease	CBCG
+RAD51C	Gene	Breast Cancer	Disease	ENTREZ:5889	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+RAD51C	Gene	Breast Cancer	Disease	ENTREZ:5889	MONDO:0004989	35396981	GNBR::Y::Gene:Disease	CBCG
+RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892	MONDO:0004989	30099541	GNBR::Y::Gene:Disease	CBCG
+RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892	MONDO:0004989	35884425	GNBR::Y::Gene:Disease	CBCG
+RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892	MONDO:0004989	35396981	GNBR::Y::Gene:Disease	CBCG
+RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892	MONDO:0004989	15170666	GNBR::Y::Gene:Disease	CBCG
+RAD51D	Gene	Breast Cancer	Disease	ENTREZ:5892	MONDO:0004989	30165555	GNBR::Y::Gene:Disease	CBCG
+RAD51	Gene	Breast Cancer	Disease	ENTREZ:5888	MONDO:0004989	35061678	GNBR::Y::Gene:Disease	CBCG
+RAD51	Gene	Breast Cancer	Disease	ENTREZ:5888	MONDO:0004989	36761956	GNBR::Y::Gene:Disease	CBCG
+RAD52	Gene	Breast Cancer	Disease	ENTREZ:5893	MONDO:0004989	37578974	GNBR::Y::Gene:Disease	CBCG
+RALY	Gene	Breast Cancer	Disease	ENTREZ:22913	MONDO:0004989	22976474	GNBR::Y::Gene:Disease	CBCG
+RALY	Gene	Breast Cancer	Disease	ENTREZ:22913	MONDO:0004989	29058716	GNBR::Y::Gene:Disease	CBCG
+RBBP8	Gene	Breast Cancer	Disease	ENTREZ:5932	MONDO:0004989	32379725	GNBR::Y::Gene:Disease	CBCG
+RBFOX1	Gene	Breast Cancer	Disease	ENTREZ:54715	MONDO:0004989	21908515	GNBR::Y::Gene:Disease	CBCG
+RECQL	Gene	Breast Cancer	Disease	ENTREZ:5965	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+RECQL	Gene	Breast Cancer	Disease	ENTREZ:5965	MONDO:0004989	25915596	GNBR::Y::Gene:Disease	CBCG
+RECQL	Gene	Breast Cancer	Disease	ENTREZ:5965	MONDO:0004989	29341116	GNBR::Y::Gene:Disease	CBCG
+RECQL5	Gene	Breast Cancer	Disease	ENTREZ:9400	MONDO:0004989	36230663	GNBR::Y::Gene:Disease	CBCG
+RINT1	Gene	Breast Cancer	Disease	ENTREZ:60561	MONDO:0004989	25050558	GNBR::Y::Gene:Disease	CBCG
+RINT1	Gene	Breast Cancer	Disease	ENTREZ:60561	MONDO:0004989	25050558	GNBR::Y::Gene:Disease	CBCG
+RNF146	Gene	Breast Cancer	Disease	ENTREZ:81847	MONDO:0004989	18326623	GNBR::Y::Gene:Disease	CBCG
+RNF146	Gene	Breast Cancer	Disease	ENTREZ:81847	MONDO:0004989	18326623	GNBR::Y::Gene:Disease	CBCG
+RNF213	Gene	Breast Cancer	Disease	ENTREZ:57674	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+RNF213-AS1	Gene	Breast Cancer	Disease	ENTREZ:100294362	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+RNF213-AS1	Gene	Breast Cancer	Disease	ENTREZ:100294362	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+RNF213	Gene	Breast Cancer	Disease	ENTREZ:57674	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+RNF43	Gene	Breast Cancer	Disease	ENTREZ:54894	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+RNF43	Gene	Breast Cancer	Disease	ENTREZ:54894	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+RNF43	Gene	Breast Cancer	Disease	ENTREZ:54894	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+ROPN1L	Gene	Breast Cancer	Disease	ENTREZ:83853	MONDO:0004989	21424380	GNBR::Y::Gene:Disease	CBCG
+ROS1	Gene	Breast Cancer	Disease	ENTREZ:6098	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+RPL23AP53	Gene	Breast Cancer	Disease	ENTREZ:644128	MONDO:0004989	29058716	GNBR::Y::Gene:Disease	CBCG
+RPS6KA3	Gene	Breast Cancer	Disease	ENTREZ:6197	MONDO:0004989	28582508	GNBR::Y::Gene:Disease	CBCG
+RSU1	Gene	Breast Cancer	Disease	ENTREZ:6251	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+SDC4	Gene	Breast Cancer	Disease	ENTREZ:6385	MONDO:0004989	36152082	GNBR::Y::Gene:Disease	CBCG
+SERPINA3	Gene	Breast Cancer	Disease	ENTREZ:12	MONDO:0004989	33279852	GNBR::Y::Gene:Disease	CBCG
+SETBP1	Gene	Breast Cancer	Disease	ENTREZ:26040	MONDO:0004989	21908515	GNBR::Y::Gene:Disease	CBCG
+SETBP1	Gene	Breast Cancer	Disease	ENTREZ:26040	MONDO:0004989	32139696	GNBR::Y::Gene:Disease	CBCG
+SHMT1	Gene	Breast Cancer	Disease	ENTREZ:6470	MONDO:0004989	22134752	GNBR::Y::Gene:Disease	CBCG
+SIAH2	Gene	Breast Cancer	Disease	ENTREZ:6478	MONDO:0004989	30323354	GNBR::Y::Gene:Disease	CBCG
+SIAH2	Gene	Breast Cancer	Disease	ENTREZ:6478	MONDO:0004989	22951594	GNBR::Y::Gene:Disease	CBCG
+SIPA1	Gene	Breast Cancer	Disease	ENTREZ:6494	MONDO:0004989	09723757.2014.11886240	GNBR::Y::Gene:Disease	CBCG
+SIRT3	Gene	Breast Cancer	Disease	ENTREZ:23410	MONDO:0004989	36974538	GNBR::Y::Gene:Disease	CBCG
+SLC36A4	Gene	Breast Cancer	Disease	ENTREZ:120103	MONDO:0004989	21908515	GNBR::Y::Gene:Disease	CBCG
+SLC39A11	Gene	Breast Cancer	Disease	ENTREZ:201266	MONDO:0004989	30323354	GNBR::Y::Gene:Disease	CBCG
+SLC4A7	Gene	Breast Cancer	Disease	ENTREZ:9497	MONDO:0004989	19330027	GNBR::Y::Gene:Disease	CBCG
+SLC4A7	Gene	Breast Cancer	Disease	ENTREZ:9497	MONDO:0004989	23117855	GNBR::Y::Gene:Disease	CBCG
+SLC4A7	Gene	Breast Cancer	Disease	ENTREZ:9497	MONDO:0004989	20453838	GNBR::Y::Gene:Disease	CBCG
+SLC4A7	Gene	Breast Cancer	Disease	ENTREZ:9497	MONDO:0004989	37128157	GNBR::Y::Gene:Disease	CBCG
+SLC6A4	Gene	Breast Cancer	Disease	ENTREZ:6532	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+SLIT3	Gene	Breast Cancer	Disease	ENTREZ:6586	MONDO:0004989	29317318	GNBR::Y::Gene:Disease	CBCG
+SMARCA2	Gene	Breast Cancer	Disease	ENTREZ:6595	MONDO:0004989	36901898	GNBR::Y::Gene:Disease	CBCG
+SOD1	Gene	Breast Cancer	Disease	ENTREZ:6647	MONDO:0004989	37070912	GNBR::Y::Gene:Disease	CBCG
+SOD1	Gene	Breast Cancer	Disease	ENTREZ:6647	MONDO:0004989	37070912	GNBR::Y::Gene:Disease	CBCG
+SPDYE12	Gene	Breast Cancer	Disease	ENTREZ:100101268	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+SRD5A2	Gene	Breast Cancer	Disease	ENTREZ:6716	MONDO:0004989	24365257	GNBR::Y::Gene:Disease	CBCG
+SRGAP2C	Gene	Breast Cancer	Disease	ENTREZ:653464	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+SSBP2	Gene	Breast Cancer	Disease	ENTREZ:23635	MONDO:0004989	25824743	GNBR::Y::Gene:Disease	CBCG
+SST	Gene	Breast Cancer	Disease	ENTREZ:6750	MONDO:0004989	16214911	GNBR::Y::Gene:Disease	CBCG
+STAU2	Gene	Breast Cancer	Disease	ENTREZ:27067	MONDO:0004989	21908515	GNBR::Y::Gene:Disease	CBCG
+STK11	Gene	Breast Cancer	Disease	ENTREZ:6794	MONDO:0004989	16707622	GNBR::Y::Gene:Disease	CBCG
+STRADB	Gene	Breast Cancer	Disease	ENTREZ:55437	MONDO:0004989	28582508	GNBR::Y::Gene:Disease	CBCG
+STT3A-AS1	Gene	Breast Cancer	Disease	ENTREZ:105369550	MONDO:0004989	23844225	GNBR::Y::Gene:Disease	CBCG
+SUB1	Gene	Breast Cancer	Disease	ENTREZ:10923	MONDO:0004989	25751625	GNBR::Y::Gene:Disease	CBCG
+SULT1A1	Gene	Breast Cancer	Disease	ENTREZ:6817	MONDO:0004989	11219777	GNBR::Y::Gene:Disease	CBCG
+SULT1A1	Gene	Breast Cancer	Disease	ENTREZ:6817	MONDO:0004989	15604994	GNBR::Y::Gene:Disease	CBCG
+SULT1A1	Gene	Breast Cancer	Disease	ENTREZ:6817	MONDO:0004989	21977969	GNBR::Y::Gene:Disease	CBCG
+TBX3	Gene	Breast Cancer	Disease	ENTREZ:6926	MONDO:0004989	32424353	GNBR::Y::Gene:Disease	CBCG
+TBX3	Gene	Breast Cancer	Disease	ENTREZ:6926	MONDO:0004989	35637532	GNBR::Y::Gene:Disease	CBCG
+TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934	MONDO:0004989	17109766	GNBR::Y::Gene:Disease	CBCG
+TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934	MONDO:0004989	35996498	GNBR::Y::Gene:Disease	CBCG
+TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934	MONDO:0004989	27053251	GNBR::Y::Gene:Disease	CBCG
+TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934	MONDO:0004989	35996498	GNBR::Y::Gene:Disease	CBCG
+TCF7L2	Gene	Breast Cancer	Disease	ENTREZ:6934	MONDO:0004989	23535729	GNBR::Y::Gene:Disease	CBCG
+TEC	Gene	Breast Cancer	Disease	ENTREZ:7006	MONDO:0004989	32139696	GNBR::Y::Gene:Disease	CBCG
+TERT	Gene	Breast Cancer	Disease	ENTREZ:7015	MONDO:0004989	22037553	GNBR::Y::Gene:Disease	CBCG
+TERT	Gene	Breast Cancer	Disease	ENTREZ:7015	MONDO:0004989	29058716	GNBR::Y::Gene:Disease	CBCG
+TERT	Gene	Breast Cancer	Disease	ENTREZ:7015	MONDO:0004989	24743323	GNBR::Y::Gene:Disease	CBCG
+TERT	Gene	Breast Cancer	Disease	ENTREZ:7015	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+TERT	Gene	Breast Cancer	Disease	ENTREZ:7015	MONDO:0004989	27117709	GNBR::Y::Gene:Disease	CBCG
+TERT	Gene	Breast Cancer	Disease	ENTREZ:7015	MONDO:0004989	24743323	GNBR::Y::Gene:Disease	CBCG
+TERT	Gene	Breast Cancer	Disease	ENTREZ:7015	MONDO:0004989	23535731	GNBR::Y::Gene:Disease	CBCG
+TET2	Gene	Breast Cancer	Disease	ENTREZ:54790	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+TET2	Gene	Breast Cancer	Disease	ENTREZ:54790	MONDO:0004989	23535729	GNBR::Y::Gene:Disease	CBCG
+TET2	Gene	Breast Cancer	Disease	ENTREZ:54790	MONDO:0004989	26354892	GNBR::Y::Gene:Disease	CBCG
+TET2-AS1	Gene	Breast Cancer	Disease	ENTREZ:104384744	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+TET2	Gene	Breast Cancer	Disease	ENTREZ:54790	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+TEX10	Gene	Breast Cancer	Disease	ENTREZ:54881	MONDO:0004989	25824743	GNBR::Y::Gene:Disease	CBCG
+TEX15	Gene	Breast Cancer	Disease	ENTREZ:56154	MONDO:0004989	28386063	GNBR::Y::Gene:Disease	CBCG
+TGFB1	Gene	Breast Cancer	Disease	ENTREZ:7040	MONDO:0004989	17293864	GNBR::Y::Gene:Disease	CBCG
+TGFB1	Gene	Breast Cancer	Disease	ENTREZ:7040	MONDO:0004989	17018785	GNBR::Y::Gene:Disease	CBCG
+TGFBR1	Gene	Breast Cancer	Disease	ENTREZ:7046	MONDO:0004989	11867510	GNBR::Y::Gene:Disease	CBCG
+TGFBR2	Gene	Breast Cancer	Disease	ENTREZ:7048	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+TGFBR2	Gene	Breast Cancer	Disease	ENTREZ:7048	MONDO:0004989	37524136	GNBR::Y::Gene:Disease	CBCG
+TGFBR2	Gene	Breast Cancer	Disease	ENTREZ:7048	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+TGIF2LX	Gene	Breast Cancer	Disease	ENTREZ:90316	MONDO:0004989	36901898	GNBR::Y::Gene:Disease	CBCG
+TINF2	Gene	Breast Cancer	Disease	ENTREZ:26277	MONDO:0004989	35590014	GNBR::Y::Gene:Disease	CBCG
+TLN2	Gene	Breast Cancer	Disease	ENTREZ:83660	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+TLR1	Gene	Breast Cancer	Disease	ENTREZ:7096	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+TNFSF11	Gene	Breast Cancer	Disease	ENTREZ:8600	MONDO:0004989	36346787	GNBR::Y::Gene:Disease	CBCG
+TNFSF4	Gene	Breast Cancer	Disease	ENTREZ:7292	MONDO:0004989	22923054	GNBR::Y::Gene:Disease	CBCG
+TNNT3	Gene	Breast Cancer	Disease	ENTREZ:7140	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+TNNT3	Gene	Breast Cancer	Disease	ENTREZ:7140	MONDO:0004989	20453838	GNBR::Y::Gene:Disease	CBCG
+TOX3	Gene	Breast Cancer	Disease	ENTREZ:27324	MONDO:0004989	36901898	GNBR::Y::Gene:Disease	CBCG
+TOX3	Gene	Breast Cancer	Disease	ENTREZ:27324	MONDO:0004989	17529967	GNBR::Y::Gene:Disease	CBCG
+TOX3	Gene	Breast Cancer	Disease	ENTREZ:27324	MONDO:0004989	17529967	GNBR::Y::Gene:Disease	CBCG
+TP53	Gene	Breast Cancer	Disease	ENTREZ:7157	MONDO:0004989	16551709	GNBR::Y::Gene:Disease	CBCG
+TP53	Gene	Breast Cancer	Disease	ENTREZ:7157	MONDO:0004989	12610779	GNBR::Y::Gene:Disease	CBCG
+TP53	Gene	Breast Cancer	Disease	ENTREZ:7157	MONDO:0004989	33471991	GNBR::Y::Gene:Disease	CBCG
+TP53	Gene	Breast Cancer	Disease	ENTREZ:7157	MONDO:0004989	35884425	GNBR::Y::Gene:Disease	CBCG
+TP53	Gene	Breast Cancer	Disease	ENTREZ:7157	MONDO:0004989	35396981	GNBR::Y::Gene:Disease	CBCG
+TP53	Gene	Breast Cancer	Disease	ENTREZ:7157	MONDO:0004989	37300745	GNBR::Y::Gene:Disease	CBCG
+TP53	Gene	Breast Cancer	Disease	ENTREZ:7157	MONDO:0004989	36708564	GNBR::Y::Gene:Disease	CBCG
+TP53	Gene	Breast Cancer	Disease	ENTREZ:7157	MONDO:0004989	11927843	GNBR::Y::Gene:Disease	CBCG
+TP53	Gene	Breast Cancer	Disease	ENTREZ:7157	MONDO:0004989	35264596	GNBR::Y::Gene:Disease	CBCG
+TPTE2	Gene	Breast Cancer	Disease	ENTREZ:93492	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+TRIM46	Gene	Breast Cancer	Disease	ENTREZ:80128	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+TSPYL6	Gene	Breast Cancer	Disease	ENTREZ:388951	MONDO:0004989	27458158	GNBR::Y::Gene:Disease	CBCG
+UGT1A	Gene	Breast Cancer	Disease	ENTREZ:7361	MONDO:0004989	10706110	GNBR::Y::Gene:Disease	CBCG
+UGT1A10	Gene	Breast Cancer	Disease	ENTREZ:54575	MONDO:0004989	10706110	GNBR::Y::Gene:Disease	CBCG
+UGT1A3	Gene	Breast Cancer	Disease	ENTREZ:54659	MONDO:0004989	10706110	GNBR::Y::Gene:Disease	CBCG
+UGT1A4	Gene	Breast Cancer	Disease	ENTREZ:54657	MONDO:0004989	10706110	GNBR::Y::Gene:Disease	CBCG
+UGT1A5	Gene	Breast Cancer	Disease	ENTREZ:54579	MONDO:0004989	10706110	GNBR::Y::Gene:Disease	CBCG
+UGT1A6	Gene	Breast Cancer	Disease	ENTREZ:54578	MONDO:0004989	10706110	GNBR::Y::Gene:Disease	CBCG
+UGT1A7	Gene	Breast Cancer	Disease	ENTREZ:54577	MONDO:0004989	10706110	GNBR::Y::Gene:Disease	CBCG
+UGT1A8	Gene	Breast Cancer	Disease	ENTREZ:54576	MONDO:0004989	10706110	GNBR::Y::Gene:Disease	CBCG
+UGT1A9	Gene	Breast Cancer	Disease	ENTREZ:54600	MONDO:0004989	10706110	GNBR::Y::Gene:Disease	CBCG
+UNC13C	Gene	Breast Cancer	Disease	ENTREZ:440279	MONDO:0004989	21908515	GNBR::Y::Gene:Disease	CBCG
+USHBP1	Gene	Breast Cancer	Disease	ENTREZ:83878	MONDO:0004989	27601076	GNBR::Y::Gene:Disease	CBCG
+VDR	Gene	Breast Cancer	Disease	ENTREZ:7421	MONDO:0004989	10680726	GNBR::Y::Gene:Disease	CBCG
+VDR	Gene	Breast Cancer	Disease	ENTREZ:7421	MONDO:0004989	19124512	GNBR::Y::Gene:Disease	CBCG
+VDR	Gene	Breast Cancer	Disease	ENTREZ:7421	MONDO:0004989	36854857	GNBR::Y::Gene:Disease	CBCG
+VDR	Gene	Breast Cancer	Disease	ENTREZ:7421	MONDO:0004989	10597185	GNBR::Y::Gene:Disease	CBCG
+VDR	Gene	Breast Cancer	Disease	ENTREZ:7421	MONDO:0004989	35942872	GNBR::Y::Gene:Disease	CBCG
+VDR	Gene	Breast Cancer	Disease	ENTREZ:7421	MONDO:0004989	36645723	GNBR::Y::Gene:Disease	CBCG
+WRAP53	Gene	Breast Cancer	Disease	ENTREZ:55135	MONDO:0004989	17683073	GNBR::Y::Gene:Disease	CBCG
+WRN	Gene	Breast Cancer	Disease	ENTREZ:7486	MONDO:0004989	26690424	GNBR::Y::Gene:Disease	CBCG
+WTAPP1	Gene	Breast Cancer	Disease	ENTREZ:100288077	MONDO:0004989	28961241	GNBR::Y::Gene:Disease	CBCG
+WTAPP1	Gene	Breast Cancer	Disease	ENTREZ:100288077	MONDO:0004989	23696797	GNBR::Y::Gene:Disease	CBCG
+WTAPP1	Gene	Breast Cancer	Disease	ENTREZ:100288077	MONDO:0004989	23696797	GNBR::Y::Gene:Disease	CBCG
+XPC	Gene	Breast Cancer	Disease	ENTREZ:7508	MONDO:0004989	27768589	GNBR::Y::Gene:Disease	CBCG
+XRCC1	Gene	Breast Cancer	Disease	ENTREZ:7515	MONDO:0004989	35691022	GNBR::Y::Gene:Disease	CBCG
+XRCC1	Gene	Breast Cancer	Disease	ENTREZ:7515	MONDO:0004989	18188695	GNBR::Y::Gene:Disease	CBCG
+XRCC2	Gene	Breast Cancer	Disease	ENTREZ:7516	MONDO:0004989	22464251	GNBR::Y::Gene:Disease	CBCG
+XRCC2	Gene	Breast Cancer	Disease	ENTREZ:7516	MONDO:0004989	25556451	GNBR::Y::Gene:Disease	CBCG
+XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517	MONDO:0004989	12023982	GNBR::Y::Gene:Disease	CBCG
+XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517	MONDO:0004989	28983784	GNBR::Y::Gene:Disease	CBCG
+XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517	MONDO:0004989	35061678	GNBR::Y::Gene:Disease	CBCG
+XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517	MONDO:0004989	36761956	GNBR::Y::Gene:Disease	CBCG
+XRCC3	Gene	Breast Cancer	Disease	ENTREZ:7517	MONDO:0004989	35691022	GNBR::Y::Gene:Disease	CBCG
+XRCC5	Gene	Breast Cancer	Disease	ENTREZ:7520	MONDO:0004989	18000863	GNBR::Y::Gene:Disease	CBCG
+XRCC6	Gene	Breast Cancer	Disease	ENTREZ:2547	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+XRCC6	Gene	Breast Cancer	Disease	ENTREZ:2547	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ZBED6	Gene	Breast Cancer	Disease	ENTREZ:100381270	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ZBTB38	Gene	Breast Cancer	Disease	ENTREZ:253461	MONDO:0004989	29059683	GNBR::Y::Gene:Disease	CBCG
+ZBTB38	Gene	Breast Cancer	Disease	ENTREZ:253461	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ZC3H11A	Gene	Breast Cancer	Disease	ENTREZ:9877	MONDO:0004989	25038754	GNBR::Y::Gene:Disease	CBCG
+ZC3H11A	Gene	Breast Cancer	Disease	ENTREZ:9877	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ZMIZ1	Gene	Breast Cancer	Disease	ENTREZ:57178	MONDO:0004989	27863437	GNBR::Y::Gene:Disease	CBCG
+ZMIZ1	Gene	Breast Cancer	Disease	ENTREZ:57178	MONDO:0004989		GNBR::Y::Gene:Disease	CBCG
+ZMIZ1	Gene	Breast Cancer	Disease	ENTREZ:57178	MONDO:0004989	20453838	GNBR::Y::Gene:Disease	CBCG
+ZMIZ1	Gene	Breast Cancer	Disease	ENTREZ:57178	MONDO:0004989	24743323	GNBR::Y::Gene:Disease	CBCG
+ZMIZ1	Gene	Breast Cancer	Disease	ENTREZ:57178	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG
+ZNF320	Gene	Breast Cancer	Disease	ENTREZ:162967	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+ZNF404	Gene	Breast Cancer	Disease	ENTREZ:342908	MONDO:0004989	36703164	GNBR::Y::Gene:Disease	CBCG
+ZNF439	Gene	Breast Cancer	Disease	ENTREZ:90594	MONDO:0004989	35042965	GNBR::Y::Gene:Disease	CBCG
+ZNF479	Gene	Breast Cancer	Disease	ENTREZ:90827	MONDO:0004989	36424660	GNBR::Y::Gene:Disease	CBCG
+ZNF577	Gene	Breast Cancer	Disease	ENTREZ:84765	MONDO:0004989	21424380	GNBR::Y::Gene:Disease	CBCG
+ZNF577	Gene	Breast Cancer	Disease	ENTREZ:84765	MONDO:0004989	21424380	GNBR::Y::Gene:Disease	CBCG
+ZNF577	Gene	Breast Cancer	Disease	ENTREZ:84765	MONDO:0004989	21424380	GNBR::Y::Gene:Disease	CBCG
+ZSCAN25	Gene	Breast Cancer	Disease	ENTREZ:221785	MONDO:0004989	19229255	GNBR::Y::Gene:Disease	CBCG
+ZZEF1	Gene	Breast Cancer	Disease	ENTREZ:23140	MONDO:0004989	36356581	GNBR::Y::Gene:Disease	CBCG

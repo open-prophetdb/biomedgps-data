@@ -4,6 +4,13 @@ import click
 import logging
 import pandas as pd
 
+# #### Annotate relations
+
+# ```bash
+# # Annotate relations, It will generate two files: graph_data/knowledge_graph.tsv and graph_data/annotated_knowledge_graph.tsv
+# python graph_data/scripts/annotate_relations.py -e graph_data/entities.tsv -r graph_data/relations.tsv -o graph_data
+# ```
+
 fmt = "%(asctime)s - %(module)s:%(lineno)d - %(levelname)s - %(message)s"
 logger = logging.getLogger("merge_relations.py")
 logging.basicConfig(level=logging.INFO, format=fmt)
