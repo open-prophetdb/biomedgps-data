@@ -232,7 +232,11 @@ def create_graph(
         target_type = row["target_type"]
         target_name = row["target_name"]
         relation_type = row["relation_type"]
-        formatted_relation_type = row["formatted_relation_type"]
+        formatted_relation_type = (
+            row["formatted_relation_type"]
+            if "formatted_relation_type" in row
+            else row["relation_type"]
+        )
 
         if allowed_types:
             if source_type not in allowed_types or target_type not in allowed_types:
