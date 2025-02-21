@@ -86,6 +86,8 @@ rm -rf graph_data/formatted_relations
 ## STEP2: Run the graph-builder tool to format the preset databases. You might need to prepare a relation_types.tsv file from the relation_types.xlsx file. If you don't want to format the relation types at this step, please don't provide the --relation-type-dict-fpath option.
 # graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug --relation-type-dict-fpath ./graph_data/relation_types.tsv
 graph-builder --database ctd --database drkg --database primekg --database hsdn -d ./graph_data/relations -o ./graph_data/formatted_relations -f ./graph_data/entities.tsv -n 20 --download --skip -l ./graph_data/log.txt --debug
+
+# graph-builder --database customdb -d ./datasets/biomedgps-v2/knowledge_graph_filtered_corrected_sideeffect.tsv -o ~/Downloads/Test/ -f ./graph_data/entities.tsv -n 20 --download --skip -l ~/Downloads/Test/log.txt --debug --relation-type-dict-fpath ./graph_data/relation_types.tsv
 ```
 
 #### Output all of relation types listed in the relation files
