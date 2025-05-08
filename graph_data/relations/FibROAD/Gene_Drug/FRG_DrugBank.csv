@@ -1,0 +1,938 @@
+Fibrosis,UniprotID,entrezID,FullName,Alias,DrugID,DrugName,Action,Link
+IFNG,P01579,3458,interferon gamma,IFG; IFI; IMD69,DB01296,Glucosamine,inhibitor,https://go.drugbank.com/drugs/DB01296#BE0000944
+IFNG,P01579,3458,interferon gamma,IFG; IFI; IMD69,DB05110,VIR201,not defined,https://go.drugbank.com/drugs/DB05110#BE0000944
+IFNG,P01579,3458,interferon gamma,IFG; IFI; IMD69,DB05111,Fontolizumab,not defined,https://go.drugbank.com/drugs/DB05111#BE0000944
+IFNG,P01579,3458,interferon gamma,IFG; IFI; IMD69,DB01250,Olsalazine,not defined,https://go.drugbank.com/drugs/DB01250#BE0000944
+IFNG,P01579,3458,interferon gamma,IFG; IFI; IMD69,DB10770,Foreskin fibroblast (neonatal),agonist,https://go.drugbank.com/drugs/DB10770#BE0000944
+IFNG,P01579,3458,interferon gamma,IFG; IFI; IMD69,DB10772,Foreskin keratinocyte (neonatal),agonist,https://go.drugbank.com/drugs/DB10772#BE0000944
+IFNG,P01579,3458,interferon gamma,IFG; IFI; IMD69,DB14724,Emapalumab,neutralizer,https://go.drugbank.com/drugs/DB14724#BE0000944
+MMP7,P09237,4316,matrix metallopeptidase 7,MMP-7; MPSL1; PUMP-1,DB00786,Marimastat,antagonist,https://go.drugbank.com/drugs/DB00786#BE0003690
+MMP7,P09237,4316,matrix metallopeptidase 7,MMP-7; MPSL1; PUMP-1,DB08170,"(1R)-N,6-DIHYDROXY-7-METHOXY-2-[(4-METHOXYPHENYL)SULFONYL]-1,2,3,4-TETRAHYDROISOQUINOLINE-1-CARBOXAMIDE",not defined,https://go.drugbank.com/drugs/DB08170#BE0003690
+MMP7,P09237,4316,matrix metallopeptidase 7,MMP-7; MPSL1; PUMP-1,DB08489,"N4-HYDROXY-2-ISOBUTYL-N1-(9-OXO-1,8-DIAZA-TRICYCLO[10.6.1.013,18]NONADECA-12(19),13,15,17-TETRAEN-10-YL)-SUCCINAMIDE",not defined,https://go.drugbank.com/drugs/DB08489#BE0003690
+MMP7,P09237,4316,matrix metallopeptidase 7,MMP-7; MPSL1; PUMP-1,DB08493,"5-METHYL-3-(9-OXO-1,8-DIAZA-TRICYCLO[10.6.1.013,18]NONADECA-12(19),13,15,17-TETRAEN-10-YLCARBAMOYL)-HEXANOIC ACID",not defined,https://go.drugbank.com/drugs/DB08493#BE0003690
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB00063,Eptifibatide,not defined,https://go.drugbank.com/drugs/DB00063#BE0001155
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB00054,Abciximab,antagonist,https://go.drugbank.com/drugs/DB00054#BE0001155
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB00775,Tirofiban,antagonist,https://go.drugbank.com/drugs/DB00775#BE0001155
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB04863,Lefradafiban,not defined,https://go.drugbank.com/drugs/DB04863#BE0001155
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB05787,LM-609,not defined,https://go.drugbank.com/drugs/DB05787#BE0001155
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB06472,Fradafiban,not defined,https://go.drugbank.com/drugs/DB06472#BE0001155
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB00098,Antithymocyte immunoglobulin (rabbit),not defined,https://go.drugbank.com/drugs/DB00098#BE0001155
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB02709,Resveratrol,not defined,https://go.drugbank.com/drugs/DB02709#BE0001155
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB13949,Ferric cation,binder,https://go.drugbank.com/drugs/DB13949#BE0001155
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB14520,Tetraferric tricitrate decahydrate,binder,https://go.drugbank.com/drugs/DB14520#BE0001155
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB00451,Levothyroxine,not defined,https://go.drugbank.com/drugs/DB00451#BE0001155
+ITGB3,P05106,3690,integrin subunit beta 3,GT; GT2; CD61; GP3A; BDPLT2; GPIIIa; BDPLT16; BDPLT24,DB15598,Ferric maltol,substrate,https://go.drugbank.com/drugs/DB15598#BE0001155
+EDN1,P05305,1906,endothelin 1,ET1; QME; PPET1; ARCND3; HDLCQ7,DB05407,TBC-3711,not defined,https://go.drugbank.com/drugs/DB05407#BE0003384
+MMP1,P03956,4312,matrix metallopeptidase 1,CLG; CLGN,DB00786,Marimastat,inhibitor,https://go.drugbank.com/drugs/DB00786#BE0000920
+MMP1,P03956,4312,matrix metallopeptidase 1,CLG; CLGN,DB07556,CGS-27023,not defined,https://go.drugbank.com/drugs/DB07556#BE0000920
+MMP1,P03956,4312,matrix metallopeptidase 1,CLG; CLGN,DB07926,N-[3-(N'-HYDROXYCARBOXAMIDO)-2-(2-METHYLPROPYL)-PROPANOYL]-O-TYROSINE-N-METHYLAMIDE,not defined,https://go.drugbank.com/drugs/DB07926#BE0000920
+MMP1,P03956,4312,matrix metallopeptidase 1,CLG; CLGN,DB08403,METHYLAMINO-PHENYLALANYL-LEUCYL-HYDROXAMIC ACID,not defined,https://go.drugbank.com/drugs/DB08403#BE0000920
+MMP1,P03956,4312,matrix metallopeptidase 1,CLG; CLGN,DB08482,[[1-[N-HYDROXY-ACETAMIDYL]-3-METHYL-BUTYL]-CARBONYL-LEUCINYL]-ALANINE ETHYL ESTER,not defined,https://go.drugbank.com/drugs/DB08482#BE0000920
+MMP1,P03956,4312,matrix metallopeptidase 1,CLG; CLGN,DB08491,N-HYDROXY-2-[4-(4-PHENOXY-BENZENESULFONYL)-TETRAHYDRO-PYRAN-4-YL]-ACETAMIDE,not defined,https://go.drugbank.com/drugs/DB08491#BE0000920
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB00157,NADH,not defined,https://go.drugbank.com/drugs/DB00157#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB01942,Formic acid,not defined,https://go.drugbank.com/drugs/DB01942#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB02073,Biliverdine IX Alpha,not defined,https://go.drugbank.com/drugs/DB02073#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB02468,12-Phenylheme,not defined,https://go.drugbank.com/drugs/DB02468#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB03906,2-Phenylheme,not defined,https://go.drugbank.com/drugs/DB03906#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB04912,Stannsoporfin,not defined,https://go.drugbank.com/drugs/DB04912#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB04803,Verdoheme,not defined,https://go.drugbank.com/drugs/DB04803#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB06914,"1-({2-[2-(4-CHLOROPHENYL)ETHYL]-1,3-DIOXOLAN-2-YL}METHYL)-1H-IMIDAZOLE",not defined,https://go.drugbank.com/drugs/DB06914#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB07342,1-(adamantan-1-yl)-2-(1H-imidazol-1-yl)ethanone,not defined,https://go.drugbank.com/drugs/DB07342#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB00163,Vitamin E,inducer,https://go.drugbank.com/drugs/DB00163#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB09221,Polaprezinc,inducer,https://go.drugbank.com/drugs/DB09221#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB14001,alpha-Tocopherol succinate,inducer,https://go.drugbank.com/drugs/DB14001#BE0000735
+HMOX1,P09601,3162,heme oxygenase 1,HO-1; HSP32; HMOX1D; bK286B10,DB14002,D-alpha-Tocopherol acetate,inducer,https://go.drugbank.com/drugs/DB14002#BE0000735
+ENG,P17813,2022,endoglin,END; HHT1; ORW1,DB06322,Carotuximab,not defined,https://go.drugbank.com/drugs/DB06322#BE0003494
+PDGFB,P01127,5155,platelet derived growth factor subunit B,SIS; SSV; IBGC5; PDGF2; c-sis; PDGF-2,DB06325,Pegpleranib,not defined,https://go.drugbank.com/drugs/DB06325#BE0003495
+SIRT2,Q8IXJ6,22933,sirtuin 2,SIR2; SIR2L; SIR2L2,DB15493,Cambinol,inhibitor,https://go.drugbank.com/drugs/DB15493#BE0009759
+CXCL8,P10145,3576,C-X-C motif chemokine ligand 8,IL8; NAF; GCP1; LECT; LUCT; NAP1; GCP-1; LYNAP; MDNCF; MONAP; NAP-1; SCYB8,DB05434,ABT-510,not defined,https://go.drugbank.com/drugs/DB05434#BE0000961
+CXCL8,P10145,3576,C-X-C motif chemokine ligand 8,IL8; NAF; GCP1; LECT; LUCT; NAP1; GCP-1; LYNAP; MDNCF; MONAP; NAP-1; SCYB8,DB05484,MDX-018,not defined,https://go.drugbank.com/drugs/DB05484#BE0000961
+CXCL8,P10145,3576,C-X-C motif chemokine ligand 8,IL8; NAF; GCP1; LECT; LUCT; NAP1; GCP-1; LYNAP; MDNCF; MONAP; NAP-1; SCYB8,DB05855,Rivanicline,antagonist,https://go.drugbank.com/drugs/DB05855#BE0000961
+CXCL8,P10145,3576,C-X-C motif chemokine ligand 8,IL8; NAF; GCP1; LECT; LUCT; NAP1; GCP-1; LYNAP; MDNCF; MONAP; NAP-1; SCYB8,DB06083,Tapinarof,not defined,https://go.drugbank.com/drugs/DB06083#BE0000961
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB00686,Pentosan polysulfate,antagonist,https://go.drugbank.com/drugs/DB00686#BE0000689
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB01901,Sucrosofate,not defined,https://go.drugbank.com/drugs/DB01901#BE0000689
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB01942,Formic acid,not defined,https://go.drugbank.com/drugs/DB01942#BE0000689
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB02264,O2-Sulfo-Glucuronic Acid,not defined,https://go.drugbank.com/drugs/DB02264#BE0000689
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB03959,"N,O6-Disulfo-Glucosamine",not defined,https://go.drugbank.com/drugs/DB03959#BE0000689
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB04409,Naphthalene Trisulfonate,not defined,https://go.drugbank.com/drugs/DB04409#BE0000689
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB08238,5-aminonaphthalene-2-sulfonic acid,not defined,https://go.drugbank.com/drugs/DB08238#BE0000689
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB01025,Amlexanox,inhibitor,https://go.drugbank.com/drugs/DB01025#BE0000689
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB06589,Pazopanib,inhibitor,https://go.drugbank.com/drugs/DB06589#BE0000689
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB01109,Heparin,not defined,https://go.drugbank.com/drugs/DB01109#BE0000689
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB10770,Foreskin fibroblast (neonatal),agonist,https://go.drugbank.com/drugs/DB10770#BE0000689
+FGF1,P05230,2246,fibroblast growth factor 1,AFGF; ECGF; FGFA; ECGFA; ECGFB; FGF-1; HBGF1; HBGF-1; GLIO703; ECGF-beta; FGF-alpha,DB10772,Foreskin keratinocyte (neonatal),agonist,https://go.drugbank.com/drugs/DB10772#BE0000689
+TGFBR2,P37173,7048,transforming growth factor beta receptor 2,AAT3; FAA3; LDS2; MFS2; RIIC; LDS1B; LDS2B; TAAD2; TBRII; TBR-ii; TGFR-2; TGFbeta-RII,DB10770,Foreskin fibroblast (neonatal),agonist,https://go.drugbank.com/drugs/DB10770#BE0001861
+TGFBR2,P37173,7048,transforming growth factor beta receptor 2,AAT3; FAA3; LDS2; MFS2; RIIC; LDS1B; LDS2B; TAAD2; TBRII; TBR-ii; TGFR-2; TGFbeta-RII,DB10772,Foreskin keratinocyte (neonatal),agonist,https://go.drugbank.com/drugs/DB10772#BE0001861
+TGFBR2,P37173,7048,transforming growth factor beta receptor 2,AAT3; FAA3; LDS2; MFS2; RIIC; LDS1B; LDS2B; TAAD2; TBRII; TBR-ii; TGFR-2; TGFbeta-RII,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0001861
+IL10,P22301,3586,interleukin 10,CSIF; TGIF; GVHDS; IL-10; IL10A,DB05744,CRx-139,not defined,https://go.drugbank.com/drugs/DB05744#BE0002484
+IL10,P22301,3586,interleukin 10,CSIF; TGIF; GVHDS; IL-10; IL10A,DB05771,LLL-3348,not defined,https://go.drugbank.com/drugs/DB05771#BE0002484
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB00102,Becaplermin,not defined,https://go.drugbank.com/drugs/DB00102#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB00619,Imatinib,antagonist,https://go.drugbank.com/drugs/DB00619#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB00398,Sorafenib,antagonist,https://go.drugbank.com/drugs/DB00398#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB01254,Dasatinib,antagonist,https://go.drugbank.com/drugs/DB01254#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB01268,Sunitinib,inhibitor,https://go.drugbank.com/drugs/DB01268#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB05014,XL999,not defined,https://go.drugbank.com/drugs/DB05014#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB05146,XL820,not defined,https://go.drugbank.com/drugs/DB05146#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB06589,Pazopanib,inhibitor,https://go.drugbank.com/drugs/DB06589#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB06595,Midostaurin,"antagonist,inhibitor",https://go.drugbank.com/drugs/DB06595#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB08896,Regorafenib,inhibitor,https://go.drugbank.com/drugs/DB08896#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB09079,Nintedanib,inhibitor,https://go.drugbank.com/drugs/DB09079#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB09283,Trapidil,antagonist,https://go.drugbank.com/drugs/DB09283#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB09221,Polaprezinc,agonist,https://go.drugbank.com/drugs/DB09221#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB10770,Foreskin fibroblast (neonatal),agonist,https://go.drugbank.com/drugs/DB10770#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB12147,Erdafitinib,substrate,https://go.drugbank.com/drugs/DB12147#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB12978,Pexidartinib,inhibitor,https://go.drugbank.com/drugs/DB12978#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB14840,Ripretinib,inhibitor,https://go.drugbank.com/drugs/DB14840#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB15822,Pralsetinib,inhibitor,https://go.drugbank.com/drugs/DB15822#BE0000205
+PDGFRB,P09619,5159,platelet derived growth factor receptor beta,IMF1; KOGS; IBGC4; JTK12; PDGFR; PENTT; CD140B; PDGFR1; PDGFR-1,DB11800,Tivozanib,inhibitor,https://go.drugbank.com/drugs/DB11800#BE0000205
+CYBB,P04839,1536,cytochrome b-245 beta chain,CGD; CGDX; NOX2; IMD34; AMCBX2; GP91-1; GP91PHOX; p91-PHOX; GP91-PHOX,DB00514,Dextromethorphan,inhibitor,https://go.drugbank.com/drugs/DB00514#BE0004904
+VIM,P08670,7431,vimentin, ,DB12695,Phenethyl Isothiocyanate,not defined,https://go.drugbank.com/drugs/DB12695#BE0004469
+VIM,P08670,7431,vimentin, ,DB11638,Artenimol,ligand,https://go.drugbank.com/drugs/DB11638#BE0004469
+COL1A1,P02452,1277,collagen type I alpha 1 chain,OI1; OI2; OI3; OI4; EDSC; CAFYD; EDSARTH1,DB00048,Collagenase clostridium histolyticum,binder,https://go.drugbank.com/drugs/DB00048#BE0000025
+COL1A1,P02452,1277,collagen type I alpha 1 chain,OI1; OI2; OI3; OI4; EDSC; CAFYD; EDSARTH1,DB04866,Halofuginone,not defined,https://go.drugbank.com/drugs/DB04866#BE0000025
+COL1A1,P02452,1277,collagen type I alpha 1 chain,OI1; OI2; OI3; OI4; EDSC; CAFYD; EDSARTH1,DB12872,Vonicog alfa,binder,https://go.drugbank.com/drugs/DB12872#BE0000025
+COL1A1,P02452,1277,collagen type I alpha 1 chain,OI1; OI2; OI3; OI4; EDSC; CAFYD; EDSARTH1,DB13133,Von Willebrand factor human,binder,https://go.drugbank.com/drugs/DB13133#BE0000025
+COL1A1,P02452,1277,collagen type I alpha 1 chain,OI1; OI2; OI3; OI4; EDSC; CAFYD; EDSARTH1,DB11338,Clove oil,not defined,https://go.drugbank.com/drugs/DB11338#BE0000025
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB00005,Etanercept,antibody,https://go.drugbank.com/drugs/DB00005#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB00051,Adalimumab,antibody,https://go.drugbank.com/drugs/DB00051#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB00065,Infliximab,inhibitor,https://go.drugbank.com/drugs/DB00065#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB01041,Thalidomide,inhibitor,https://go.drugbank.com/drugs/DB01041#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB00608,Chloroquine,inhibitor,https://go.drugbank.com/drugs/DB00608#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB01407,Clenbuterol,other/unknown,https://go.drugbank.com/drugs/DB01407#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB01411,Pranlukast,other/unknown,https://go.drugbank.com/drugs/DB01411#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB01427,Amrinone,inhibitor,https://go.drugbank.com/drugs/DB01427#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05207,SD118,not defined,https://go.drugbank.com/drugs/DB05207#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05218,PN0621,not defined,https://go.drugbank.com/drugs/DB05218#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05017,YSIL6,not defined,https://go.drugbank.com/drugs/DB05017#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05303,OMS-103HP,not defined,https://go.drugbank.com/drugs/DB05303#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB04956,Afelimomab,not defined,https://go.drugbank.com/drugs/DB04956#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05412,Talmapimod,not defined,https://go.drugbank.com/drugs/DB05412#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05470,VX-702,not defined,https://go.drugbank.com/drugs/DB05470#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05744,CRx-139,not defined,https://go.drugbank.com/drugs/DB05744#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05767,Andrographolide,not defined,https://go.drugbank.com/drugs/DB05767#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05758,CYT007-TNFQb,not defined,https://go.drugbank.com/drugs/DB05758#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05869,Ethyl pyruvate,not defined,https://go.drugbank.com/drugs/DB05869#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05879,AME-527,not defined,https://go.drugbank.com/drugs/DB05879#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05968,PR-104,not defined,https://go.drugbank.com/drugs/DB05968#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB11967,Binimetinib,not defined,https://go.drugbank.com/drugs/DB11967#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05513,Atiprimod,not defined,https://go.drugbank.com/drugs/DB05513#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB05992,Plinabulin,not defined,https://go.drugbank.com/drugs/DB05992#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB06495,Onercept,not defined,https://go.drugbank.com/drugs/DB06495#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB06444,Dexanabinol,not defined,https://go.drugbank.com/drugs/DB06444#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB08904,Certolizumab pegol,neutralizer,https://go.drugbank.com/drugs/DB08904#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB08910,Pomalidomide,inhibitor,https://go.drugbank.com/drugs/DB08910#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB06674,Golimumab,antibody,https://go.drugbank.com/drugs/DB06674#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB00668,Epinephrine,"antagonist,agonist",https://go.drugbank.com/drugs/DB00668#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB00852,Pseudoephedrine,inhibitor,https://go.drugbank.com/drugs/DB00852#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB12140,Dilmapimod,not defined,https://go.drugbank.com/drugs/DB12140#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB09221,Polaprezinc,inhibitor,https://go.drugbank.com/drugs/DB09221#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB10770,Foreskin fibroblast (neonatal),agonist,https://go.drugbank.com/drugs/DB10770#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB10772,Foreskin keratinocyte (neonatal),agonist,https://go.drugbank.com/drugs/DB10772#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB13751,Glycyrrhizic acid,antagonist,https://go.drugbank.com/drugs/DB13751#BE0000704
+TNF,P01375,7124,tumor necrosis factor,DIF; TNFA; TNFSF2; TNLG1F; TNF-alpha,DB11752,Bryostatin 1,inducer,https://go.drugbank.com/drugs/DB11752#BE0000704
+MAPK9,P45984,5601,mitogen-activated protein kinase 9,JNK2; SAPK; p54a; JNK2A; JNK2B; PRKM9; JNK-55; SAPK1a; JNK2BETA; p54aSAPK; JNK2ALPHA,DB07020,"N-{3-[5-(1H-1,2,4-triazol-3-yl)-1H-indazol-3-yl]phenyl}furan-2-carboxamide",not defined,https://go.drugbank.com/drugs/DB07020#BE0003772
+MAPK9,P45984,5601,mitogen-activated protein kinase 9,JNK2; SAPK; p54a; JNK2A; JNK2B; PRKM9; JNK-55; SAPK1a; JNK2BETA; p54aSAPK; JNK2ALPHA,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0003772
+HMGB1,P09429,3146,high mobility group box 1,HMG1; HMG3; HMG-1; SBP-1,DB05869,Ethyl pyruvate,not defined,https://go.drugbank.com/drugs/DB05869#BE0003428
+HMGB1,P09429,3146,high mobility group box 1,HMG1; HMG3; HMG-1; SBP-1,DB00608,Chloroquine,inhibitor,https://go.drugbank.com/drugs/DB00608#BE0003428
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB05916,CT-011,not defined,https://go.drugbank.com/drugs/DB05916#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB09035,Nivolumab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB09035#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB09037,Pembrolizumab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB09037#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB14707,Cemiplimab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB14707#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB14892,Spartalizumab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB14892#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB14776,Camrelizumab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB14776#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB15765,Sintilimab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB15765#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB14922,Tislelizumab,"antagonist,inhibitor",https://go.drugbank.com/drugs/DB14922#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB15043,Toripalimab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB15043#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB15627,Dostarlimab,inhibitor,https://go.drugbank.com/drugs/DB15627#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB15766,Retifanlimab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB15766#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB15767,AMP-224,"inhibitor,antibody",https://go.drugbank.com/drugs/DB15767#BE0003436
+PDCD1,Q15116,5133,programmed cell death 1,PD1; PD-1; CD279; SLEB2; hPD-1; hPD-l; hSLE1,DB15768,MEDI0680,"inhibitor,antibody",https://go.drugbank.com/drugs/DB15768#BE0003436
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB00790,Perindopril,inhibitor,https://go.drugbank.com/drugs/DB00790#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB01180,Rescinnamine,inhibitor,https://go.drugbank.com/drugs/DB01180#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB02032,Epicaptopril,not defined,https://go.drugbank.com/drugs/DB02032#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB03740,N-acetyl-alpha-D-glucosamine,not defined,https://go.drugbank.com/drugs/DB03740#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB00492,Fosinopril,inhibitor,https://go.drugbank.com/drugs/DB00492#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB00542,Benazepril,inhibitor,https://go.drugbank.com/drugs/DB00542#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB01197,Captopril,inhibitor,https://go.drugbank.com/drugs/DB01197#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB00584,Enalapril,inhibitor,https://go.drugbank.com/drugs/DB00584#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB00722,Lisinopril,inhibitor,https://go.drugbank.com/drugs/DB00722#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB00691,Moexipril,inhibitor,https://go.drugbank.com/drugs/DB00691#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB00881,Quinapril,inhibitor,https://go.drugbank.com/drugs/DB00881#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB00178,Ramipril,inhibitor,https://go.drugbank.com/drugs/DB00178#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB00519,Trandolapril,inhibitor,https://go.drugbank.com/drugs/DB00519#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB00886,Omapatrilat,not defined,https://go.drugbank.com/drugs/DB00886#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB01348,Spirapril,inhibitor,https://go.drugbank.com/drugs/DB01348#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB01340,Cilazapril,inhibitor,https://go.drugbank.com/drugs/DB01340#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB00616,Candoxatril,inhibitor,https://go.drugbank.com/drugs/DB00616#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB08836,Temocapril,inhibitor,https://go.drugbank.com/drugs/DB08836#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB09477,Enalaprilat,inhibitor,https://go.drugbank.com/drugs/DB09477#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB13166,Zofenopril,inhibitor,https://go.drugbank.com/drugs/DB13166#BE0000221
+ACE,P12821,1636,angiotensin I converting enzyme,DCP; ACE1; DCP1; CD143,DB15565,Cilazaprilat,not defined,https://go.drugbank.com/drugs/DB15565#BE0000221
+PLAT,P00750,5327,"plasminogen activator, tissue type",TPA; T-PA,DB00513,Aminocaproic acid,antagonist,https://go.drugbank.com/drugs/DB00513#BE0001088
+PLAT,P00750,5327,"plasminogen activator, tissue type",TPA; T-PA,DB01088,Iloprost,other/unknown,https://go.drugbank.com/drugs/DB01088#BE0001088
+PLAT,P00750,5327,"plasminogen activator, tissue type",TPA; T-PA,DB07684,5-(DIMETHYLAMINO)-2-NAPHTHALENESULFONIC ACID,not defined,https://go.drugbank.com/drugs/DB07684#BE0001088
+PLAT,P00750,5327,"plasminogen activator, tissue type",TPA; T-PA,DB06404,Human C1-esterase inhibitor,inhibitor,https://go.drugbank.com/drugs/DB06404#BE0001088
+PLAT,P00750,5327,"plasminogen activator, tissue type",TPA; T-PA,DB09228,Conestat alfa,inhibitor,https://go.drugbank.com/drugs/DB09228#BE0001088
+PLAT,P00750,5327,"plasminogen activator, tissue type",TPA; T-PA,DB09213,Dexibuprofen,modulator,https://go.drugbank.com/drugs/DB09213#BE0001088
+ABCB4,P21439,5244,ATP binding cassette subfamily B member 4,GBD1; ICP3; MDR2; MDR3; PGY3; ABC21; MDR2/3; PFIC-3,DB06207,Silodosin,substrate,https://go.drugbank.com/drugs/DB06207#BE0003641
+ABCB4,P21439,5244,ATP binding cassette subfamily B member 4,GBD1; ICP3; MDR2; MDR3; PGY3; ABC21; MDR2/3; PFIC-3,DB06414,Etravirine,inhibitor,https://go.drugbank.com/drugs/DB06414#BE0003641
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB01017,Minocycline,modulator,https://go.drugbank.com/drugs/DB01017#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB05412,Talmapimod,not defined,https://go.drugbank.com/drugs/DB05412#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB05442,Etiprednol dicloacetate,not defined,https://go.drugbank.com/drugs/DB05442#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB05133,VP025,not defined,https://go.drugbank.com/drugs/DB05133#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB05470,VX-702,not defined,https://go.drugbank.com/drugs/DB05470#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB05767,Andrographolide,not defined,https://go.drugbank.com/drugs/DB05767#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB05507,VX-765,not defined,https://go.drugbank.com/drugs/DB05507#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB12119,Gevokizumab,not defined,https://go.drugbank.com/drugs/DB12119#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB11967,Binimetinib,not defined,https://go.drugbank.com/drugs/DB11967#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB06168,Canakinumab,binder,https://go.drugbank.com/drugs/DB06168#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB05260,Gallium nitrate,antagonist,https://go.drugbank.com/drugs/DB05260#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB06372,Rilonacept,binder,https://go.drugbank.com/drugs/DB06372#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB12140,Dilmapimod,not defined,https://go.drugbank.com/drugs/DB12140#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB10772,Foreskin keratinocyte (neonatal),agonist,https://go.drugbank.com/drugs/DB10772#BE0001051
+IL1B,P01584,3553,interleukin 1 beta,IL-1; IL1F2; IL1beta; IL1-BETA,DB00843,Donepezil,"inhibitor,inducer",https://go.drugbank.com/drugs/DB00843#BE0001051
+NFKB1,P19838,4790,nuclear factor kappa B subunit 1,KBF1; EBP-1; NF-kB; CVID12; NF-kB1; NFKB-p50; NFkappaB; NF-kappaB; NFKB-p105; NF-kappa-B1; NF-kappabeta,DB01041,Thalidomide,antagonist,https://go.drugbank.com/drugs/DB01041#BE0001086
+NFKB1,P19838,4790,nuclear factor kappa B subunit 1,KBF1; EBP-1; NF-kB; CVID12; NF-kB1; NFKB-p50; NFkappaB; NF-kappaB; NFKB-p105; NF-kappa-B1; NF-kappabeta,DB01411,Pranlukast,other/unknown,https://go.drugbank.com/drugs/DB01411#BE0001086
+NFKB1,P19838,4790,nuclear factor kappa B subunit 1,KBF1; EBP-1; NF-kB; CVID12; NF-kB1; NFKB-p50; NFkappaB; NF-kappaB; NFKB-p105; NF-kappa-B1; NF-kappabeta,DB05212,HE3286,not defined,https://go.drugbank.com/drugs/DB05212#BE0001086
+NFKB1,P19838,4790,nuclear factor kappa B subunit 1,KBF1; EBP-1; NF-kB; CVID12; NF-kB1; NFKB-p50; NFkappaB; NF-kappaB; NFKB-p105; NF-kappa-B1; NF-kappabeta,DB05451,P54,not defined,https://go.drugbank.com/drugs/DB05451#BE0001086
+NFKB1,P19838,4790,nuclear factor kappa B subunit 1,KBF1; EBP-1; NF-kB; CVID12; NF-kB1; NFKB-p50; NFkappaB; NF-kappaB; NFKB-p105; NF-kappa-B1; NF-kappabeta,DB05464,NOX-700,not defined,https://go.drugbank.com/drugs/DB05464#BE0001086
+NFKB1,P19838,4790,nuclear factor kappa B subunit 1,KBF1; EBP-1; NF-kB; CVID12; NF-kB1; NFKB-p50; NFkappaB; NF-kappaB; NFKB-p105; NF-kappa-B1; NF-kappabeta,DB05471,SGN-30,not defined,https://go.drugbank.com/drugs/DB05471#BE0001086
+NFKB1,P19838,4790,nuclear factor kappa B subunit 1,KBF1; EBP-1; NF-kB; CVID12; NF-kB1; NFKB-p50; NFkappaB; NF-kappaB; NFKB-p105; NF-kappa-B1; NF-kappabeta,DB05767,Andrographolide,not defined,https://go.drugbank.com/drugs/DB05767#BE0001086
+NFKB1,P19838,4790,nuclear factor kappa B subunit 1,KBF1; EBP-1; NF-kB; CVID12; NF-kB1; NFKB-p50; NFkappaB; NF-kappaB; NFKB-p105; NF-kappa-B1; NF-kappabeta,DB05487,Custirsen,not defined,https://go.drugbank.com/drugs/DB05487#BE0001086
+NFKB1,P19838,4790,nuclear factor kappa B subunit 1,KBF1; EBP-1; NF-kB; CVID12; NF-kB1; NFKB-p50; NFkappaB; NF-kappaB; NFKB-p105; NF-kappa-B1; NF-kappabeta,DB08814,Triflusal,antagonist,https://go.drugbank.com/drugs/DB08814#BE0001086
+NFKB1,P19838,4790,nuclear factor kappa B subunit 1,KBF1; EBP-1; NF-kB; CVID12; NF-kB1; NFKB-p50; NFkappaB; NF-kappaB; NFKB-p105; NF-kappa-B1; NF-kappabeta,DB00852,Pseudoephedrine,inhibitor,https://go.drugbank.com/drugs/DB00852#BE0001086
+PROC,P04070,5624,"protein C, inactivator of coagulation factors Va and VIIIa",PC; APC; PROC1; THPH3; THPH4,DB00464,Sodium tetradecyl sulfate,inhibitor,https://go.drugbank.com/drugs/DB00464#BE0000380
+PROC,P04070,5624,"protein C, inactivator of coagulation factors Va and VIIIa",PC; APC; PROC1; THPH3; THPH4,DB00170,Menadione,activator,https://go.drugbank.com/drugs/DB00170#BE0000380
+PROC,P04070,5624,"protein C, inactivator of coagulation factors Va and VIIIa",PC; APC; PROC1; THPH3; THPH4,DB00025,"Antihemophilic factor, human recombinant",inactivator,https://go.drugbank.com/drugs/DB00025#BE0000380
+PROC,P04070,5624,"protein C, inactivator of coagulation factors Va and VIIIa",PC; APC; PROC1; THPH3; THPH4,DB13149,Protein S human,cofactor,https://go.drugbank.com/drugs/DB13149#BE0000380
+PROC,P04070,5624,"protein C, inactivator of coagulation factors Va and VIIIa",PC; APC; PROC1; THPH3; THPH4,DB09131,Cupric Chloride,not defined,https://go.drugbank.com/drugs/DB09131#BE0000380
+PROC,P04070,5624,"protein C, inactivator of coagulation factors Va and VIIIa",PC; APC; PROC1; THPH3; THPH4,DB13192,Antihemophilic factor human,substrate,https://go.drugbank.com/drugs/DB13192#BE0000380
+PROC,P04070,5624,"protein C, inactivator of coagulation factors Va and VIIIa",PC; APC; PROC1; THPH3; THPH4,DB09332,Kappadione,agonist,https://go.drugbank.com/drugs/DB09332#BE0000380
+PROC,P04070,5624,"protein C, inactivator of coagulation factors Va and VIIIa",PC; APC; PROC1; THPH3; THPH4,DB13998,Lonoctocog alfa,inactivator,https://go.drugbank.com/drugs/DB13998#BE0000380
+PROC,P04070,5624,"protein C, inactivator of coagulation factors Va and VIIIa",PC; APC; PROC1; THPH3; THPH4,DB13999,Moroctocog alfa,inactivator,https://go.drugbank.com/drugs/DB13999#BE0000380
+PROC,P04070,5624,"protein C, inactivator of coagulation factors Va and VIIIa",PC; APC; PROC1; THPH3; THPH4,DB14738,Turoctocog alfa pegol,substrate,https://go.drugbank.com/drugs/DB14738#BE0000380
+SIRT3,Q9NTG7,23410,sirtuin 3,SIR2L3,DB02059,Adenosine-5-Diphosphoribose,not defined,https://go.drugbank.com/drugs/DB02059#BE0004547
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB00002,Cetuximab,binder,https://go.drugbank.com/drugs/DB00002#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB00317,Gefitinib,antagonist,https://go.drugbank.com/drugs/DB00317#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB00530,Erlotinib,antagonist,https://go.drugbank.com/drugs/DB00530#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB01259,Lapatinib,antagonist,https://go.drugbank.com/drugs/DB01259#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB01269,Panitumumab,suppressor,https://go.drugbank.com/drugs/DB01269#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB00281,Lidocaine,antagonist,https://go.drugbank.com/drugs/DB00281#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB03496,Alvocidib,not defined,https://go.drugbank.com/drugs/DB03496#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB04988,IGN311,not defined,https://go.drugbank.com/drugs/DB04988#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB05294,Vandetanib,inhibitor,https://go.drugbank.com/drugs/DB05294#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB05374,Rindopepimut,not defined,https://go.drugbank.com/drugs/DB05374#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB05101,Matuzumab,not defined,https://go.drugbank.com/drugs/DB05101#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB05424,Canertinib,not defined,https://go.drugbank.com/drugs/DB05424#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB05944,Varlitinib,not defined,https://go.drugbank.com/drugs/DB05944#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB06021,AV-412,not defined,https://go.drugbank.com/drugs/DB06021#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB05524,Pelitinib,not defined,https://go.drugbank.com/drugs/DB05524#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB07602,S-{3-[(4-ANILINOQUINAZOLIN-6-YL)AMINO]-3-OXOPROPYL}-L-CYSTEINE,not defined,https://go.drugbank.com/drugs/DB07602#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB07662,PD-168393,not defined,https://go.drugbank.com/drugs/DB07662#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB08916,Afatinib,inhibitor,https://go.drugbank.com/drugs/DB08916#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB09559,Necitumumab,antagonist,https://go.drugbank.com/drugs/DB09559#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB09330,Osimertinib,inhibitor,https://go.drugbank.com/drugs/DB09330#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB11737,Icotinib,antagonist,https://go.drugbank.com/drugs/DB11737#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB13164,Olmutinib,inhibitor,https://go.drugbank.com/drugs/DB13164#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB12202,Zalutumumab,antagonist,https://go.drugbank.com/drugs/DB12202#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB11731,Depatuxizumab mafodotin,antibody,https://go.drugbank.com/drugs/DB11731#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB11828,Neratinib,inhibitor,https://go.drugbank.com/drugs/DB11828#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB12267,Brigatinib,inhibitor,https://go.drugbank.com/drugs/DB12267#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB10772,Foreskin keratinocyte (neonatal),agonist,https://go.drugbank.com/drugs/DB10772#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB11963,Dacomitinib,inhibitor,https://go.drugbank.com/drugs/DB11963#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB15035,Zanubrutinib,inhibitor,https://go.drugbank.com/drugs/DB15035#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB15327,Abivertinib,inhibitor,https://go.drugbank.com/drugs/DB15327#BE0000767
+EGFR,P00533,1956,epidermal growth factor receptor,ERBB; ERRP; HER1; mENA; ERBB1; PIG61; NISBD2,DB16695,Amivantamab,"antibody,downregulator",https://go.drugbank.com/drugs/DB16695#BE0000767
+CSF2,P04141,1437,colony stimulating factor 2,CSF; GMCSF,DB05194,KB002,not defined,https://go.drugbank.com/drugs/DB05194#BE0002481
+ITGAV,P06756,3685,integrin subunit alpha V,CD51; MSK8; VNRA; VTNR,DB00098,Antithymocyte immunoglobulin (rabbit),not defined,https://go.drugbank.com/drugs/DB00098#BE0003576
+ITGAV,P06756,3685,integrin subunit alpha V,CD51; MSK8; VNRA; VTNR,DB00451,Levothyroxine,not defined,https://go.drugbank.com/drugs/DB00451#BE0003576
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB01169,Arsenic trioxide,inducer,https://go.drugbank.com/drugs/DB01169#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB02482,Phosphonothreonine,not defined,https://go.drugbank.com/drugs/DB02482#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB02733,Purvalanol,inhibitor,https://go.drugbank.com/drugs/DB02733#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB06195,Seliciclib,not defined,https://go.drugbank.com/drugs/DB06195#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB06641,Perifosine,not defined,https://go.drugbank.com/drugs/DB06641#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB06877,"N,N-DIMETHYL-4-(4-PHENYL-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE",not defined,https://go.drugbank.com/drugs/DB06877#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB07010,N-BENZYL-4-[4-(3-CHLOROPHENYL)-1H-PYRAZOL-3-YL]-1H-PYRROLE-2-CARBOXAMIDE,not defined,https://go.drugbank.com/drugs/DB07010#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB07264,(S)-N-(1-(3-CHLORO-4-FLUOROPHENYL)-2-HYDROXYETHYL)-4-(4-(3-CHLOROPHENYL)-1H-PYRAZOL-3-YL)-1H-PYRROLE-2-CARBOXAMIDE,not defined,https://go.drugbank.com/drugs/DB07264#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB07788,"(3R,5Z,8S,9S,11E)-8,9,16-TRIHYDROXY-14-METHOXY-3-METHYL-3,4,9,10-TETRAHYDRO-1H-2-BENZOXACYCLOTETRADECINE-1,7(8H)-DIONE",not defined,https://go.drugbank.com/drugs/DB07788#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB07794,"5-(2-PHENYLPYRAZOLO[1,5-A]PYRIDIN-3-YL)-1H-PYRAZOLO[3,4-C]PYRIDAZIN-3-AMINE",not defined,https://go.drugbank.com/drugs/DB07794#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB07905,"(1aR,8S,13S,14S,15aR)-5,13,14-trihydroxy-3-methoxy-8-methyl-8,9,13,14,15,15a-hexahydro-6H-oxireno[k][2]benzoxacyclotetradecine-6,12(1aH)-dione",not defined,https://go.drugbank.com/drugs/DB07905#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB02116,Olomoucine,not defined,https://go.drugbank.com/drugs/DB02116#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB08513,[4-({5-(AMINOCARBONYL)-4-[(3-METHYLPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENYL]ACETIC ACID,not defined,https://go.drugbank.com/drugs/DB08513#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB08521,4-[4-(4-Fluorophenyl)-2-[4-[(R)-methylsulfinyl]phenyl]-1H-imidazol-5-yl]pyridine,not defined,https://go.drugbank.com/drugs/DB08521#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB04338,SB220025,not defined,https://go.drugbank.com/drugs/DB04338#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB11120,Turpentine,not defined,https://go.drugbank.com/drugs/DB11120#BE0000923
+MAPK1,P28482,5594,mitogen-activated protein kinase 1,ERK; p38; p40; p41; ERK2; ERT1; NS13; ERK-2; MAPK2; PRKM1; PRKM2; P42MAPK; p41mapk; p42-MAPK,DB13930,Ulixertinib,inhibitor,https://go.drugbank.com/drugs/DB13930#BE0000923
+LGALS3,P17931,3958,galectin 3,L31; GAL3; MAC2; CBP35; GALBP; GALIG; LGALS2,DB01827,"2,3,5,6-Tetrafluoro-4-Methoxy-Benzamide",not defined,https://go.drugbank.com/drugs/DB01827#BE0001353
+LGALS3,P17931,3958,galectin 3,L31; GAL3; MAC2; CBP35; GALBP; GALIG; LGALS2,DB04465,Lactose,not defined,https://go.drugbank.com/drugs/DB04465#BE0001353
+IL5,P05113,3567,interleukin 5,EDF; TRF; IL-5,DB01411,Pranlukast,antagonist,https://go.drugbank.com/drugs/DB01411#BE0001208
+IL5,P05113,3567,interleukin 5,EDF; TRF; IL-5,DB06612,Mepolizumab,antagonist,https://go.drugbank.com/drugs/DB06612#BE0001208
+IL5,P05113,3567,interleukin 5,EDF; TRF; IL-5,DB06602,Reslizumab,antagonist,https://go.drugbank.com/drugs/DB06602#BE0001208
+ITGB1,P05556,3688,integrin subunit beta 1,CD29; FNRB; MDF2; VLAB; GPIIA; MSK12; VLA-BETA,DB15791,MK-0668,not defined,https://go.drugbank.com/drugs/DB15791#BE0010014
+CD274,Q9NZQ7,29126,CD274 molecule,B7-H; B7H1; PDL1; PD-L1; hPD-L1; PDCD1L1; PDCD1LG1,DB11595,Atezolizumab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB11595#BE0003441
+CD274,Q9NZQ7,29126,CD274 molecule,B7-H; B7H1; PDL1; PD-L1; hPD-L1; PDCD1L1; PDCD1LG1,DB11945,Avelumab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB11945#BE0003441
+CD274,Q9NZQ7,29126,CD274 molecule,B7-H; B7H1; PDL1; PD-L1; hPD-L1; PDCD1L1; PDCD1LG1,DB11714,Durvalumab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB11714#BE0003441
+CD274,Q9NZQ7,29126,CD274 molecule,B7-H; B7H1; PDL1; PD-L1; hPD-L1; PDCD1L1; PDCD1LG1,DB15769,Envafolimab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB15769#BE0003441
+CD274,Q9NZQ7,29126,CD274 molecule,B7-H; B7H1; PDL1; PD-L1; hPD-L1; PDCD1L1; PDCD1LG1,DB15770,Cosibelimab,"inhibitor,antibody",https://go.drugbank.com/drugs/DB15770#BE0003441
+CD274,Q9NZQ7,29126,CD274 molecule,B7-H; B7H1; PDL1; PD-L1; hPD-L1; PDCD1L1; PDCD1LG1,DB15771,AUNP-12,"inhibitor,antibody",https://go.drugbank.com/drugs/DB15771#BE0003441
+CD274,Q9NZQ7,29126,CD274 molecule,B7-H; B7H1; PDL1; PD-L1; hPD-L1; PDCD1L1; PDCD1LG1,DB15772,CA-170,inhibitor,https://go.drugbank.com/drugs/DB15772#BE0003441
+CD274,Q9NZQ7,29126,CD274 molecule,B7-H; B7H1; PDL1; PD-L1; hPD-L1; PDCD1L1; PDCD1LG1,DB15773,anti-OX40 antibody BMS 986178,inhibitor,https://go.drugbank.com/drugs/DB15773#BE0003441
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB02326,1-Hydroxyamine-2-Isobutylmalonic Acid,not defined,https://go.drugbank.com/drugs/DB02326#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB02953,2-Thiomethyl-3-Phenylpropanoic Acid,not defined,https://go.drugbank.com/drugs/DB02953#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB03207,"2-(Biphenyl-4-Sulfonyl)-1,2,3,4-Tetrahydro-Isoquinoline-3-Carboxylic Acid",not defined,https://go.drugbank.com/drugs/DB03207#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB03622,"5-[4-(2-Hydroxyethyl)-1-piperidinyl]-5-phenyl-2,4,6(1H,3H,5H)-pyrimidinetrione",not defined,https://go.drugbank.com/drugs/DB03622#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB03636,Glycinamide,not defined,https://go.drugbank.com/drugs/DB03636#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB03880,Batimastat,not defined,https://go.drugbank.com/drugs/DB03880#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB00786,Marimastat,inhibitor,https://go.drugbank.com/drugs/DB00786#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB06971,"N-{2-[(4'-CYANO-1,1'-BIPHENYL-4-YL)OXY]ETHYL}-N'-HYDROXY-N-METHYLUREA",not defined,https://go.drugbank.com/drugs/DB06971#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB07397,"(5S)-5-(2-amino-2-oxoethyl)-4-oxo-N-[(3-oxo-3,4-dihydro-2H-1,4-benzoxazin-6-yl)methyl]-3,4,5,6,7,8-hexahydro[1]benzothieno[2,3-d]pyrimidine-2-carboxamide",not defined,https://go.drugbank.com/drugs/DB07397#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB07713,"(1S)-1-{[(4'-methoxy-1,1'-biphenyl-4-yl)sulfonyl]amino}-2-methylpropylphosphonic acid",not defined,https://go.drugbank.com/drugs/DB07713#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB07772,"(1R)-1-{[(4'-methoxy-1,1'-biphenyl-4-yl)sulfonyl]amino}-2-methylpropylphosphonic acid",not defined,https://go.drugbank.com/drugs/DB07772#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB07900,3-FORMYL-2-HYDROXY-5-METHYL-HEXANOIC ACID HYDROXYAMIDE,not defined,https://go.drugbank.com/drugs/DB07900#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB08028,"BUT-3-ENYL-[5-(4-CHLORO-PHENYL)-3,6-DIHYDRO-[1,3,4]THIADIAZIN-2-YLIDENE]-AMINE",not defined,https://go.drugbank.com/drugs/DB08028#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB08403,METHYLAMINO-PHENYLALANYL-LEUCYL-HYDROXAMIC ACID,not defined,https://go.drugbank.com/drugs/DB08403#BE0001182
+MMP8,P22894,4317,matrix metallopeptidase 8,HNC; CLG1; MMP-8; PMNL-CL,DB08476,3-AMINO-AZACYCLOTRIDECAN-2-ONE,not defined,https://go.drugbank.com/drugs/DB08476#BE0001182
+JUN,P05412,3725,"Jun proto-oncogene, AP-1 transcription factor subunit",AP1; p39; AP-1; cJUN; c-Jun,DB00570,Vinblastine,other/unknown,https://go.drugbank.com/drugs/DB00570#BE0001040
+JUN,P05412,3725,"Jun proto-oncogene, AP-1 transcription factor subunit",AP1; p39; AP-1; cJUN; c-Jun,DB01029,Irbesartan,other/unknown,https://go.drugbank.com/drugs/DB01029#BE0001040
+JUN,P05412,3725,"Jun proto-oncogene, AP-1 transcription factor subunit",AP1; p39; AP-1; cJUN; c-Jun,DB01169,Arsenic trioxide,inducer,https://go.drugbank.com/drugs/DB01169#BE0001040
+JUN,P05412,3725,"Jun proto-oncogene, AP-1 transcription factor subunit",AP1; p39; AP-1; cJUN; c-Jun,DB05785,LGD-1550,not defined,https://go.drugbank.com/drugs/DB05785#BE0001040
+JUN,P05412,3725,"Jun proto-oncogene, AP-1 transcription factor subunit",AP1; p39; AP-1; cJUN; c-Jun,DB00210,Adapalene,antagonist,https://go.drugbank.com/drugs/DB00210#BE0001040
+ADAM17,P78536,6868,ADAM metallopeptidase domain 17,CSVP; TACE; NISBD; ADAM18; CD156B; NISBD1,DB06943,(3S)-1-{[4-(but-2-yn-1-yloxy)phenyl]sulfonyl}pyrrolidine-3-thiol,not defined,https://go.drugbank.com/drugs/DB06943#BE0003754
+ADAM17,P78536,6868,ADAM metallopeptidase domain 17,CSVP; TACE; NISBD; ADAM18; CD156B; NISBD1,DB07079,3-{[4-(but-2-yn-1-yloxy)phenyl]sulfonyl}propane-1-thiol,not defined,https://go.drugbank.com/drugs/DB07079#BE0003754
+ADAM17,P78536,6868,ADAM metallopeptidase domain 17,CSVP; TACE; NISBD; ADAM18; CD156B; NISBD1,DB07121,"4-({4-[(4-AMINOBUT-2-YNYL)OXY]PHENYL}SULFONYL)-N-HYDROXY-2,2-DIMETHYLTHIOMORPHOLINE-3-CARBOXAMIDE",not defined,https://go.drugbank.com/drugs/DB07121#BE0003754
+ADAM17,P78536,6868,ADAM metallopeptidase domain 17,CSVP; TACE; NISBD; ADAM18; CD156B; NISBD1,DB07145,(2R)-N-HYDROXY-2-[(3S)-3-METHYL-3-{4-[(2-METHYLQUINOLIN-4-YL)METHOXY]PHENYL}-2-OXOPYRROLIDIN-1-YL]PROPANAMIDE,not defined,https://go.drugbank.com/drugs/DB07145#BE0003754
+ADAM17,P78536,6868,ADAM metallopeptidase domain 17,CSVP; TACE; NISBD; ADAM18; CD156B; NISBD1,DB07147,"methyl (1R,2S)-2-(hydroxycarbamoyl)-1-{4-[(2-methylquinolin-4-yl)methoxy]benzyl}cyclopropanecarboxylate",not defined,https://go.drugbank.com/drugs/DB07147#BE0003754
+ADAM17,P78536,6868,ADAM metallopeptidase domain 17,CSVP; TACE; NISBD; ADAM18; CD156B; NISBD1,DB07189,"(1S,3R,6S)-4-oxo-6-{4-[(2-phenylquinolin-4-yl)methoxy]phenyl}-5-azaspiro[2.4]heptane-1-carboxylic acid",not defined,https://go.drugbank.com/drugs/DB07189#BE0003754
+ADAM17,P78536,6868,ADAM metallopeptidase domain 17,CSVP; TACE; NISBD; ADAM18; CD156B; NISBD1,DB07233,N-{[4-(but-2-yn-1-yloxy)phenyl]sulfonyl}-5-methyl-D-tryptophan,not defined,https://go.drugbank.com/drugs/DB07233#BE0003754
+ADAM17,P78536,6868,ADAM metallopeptidase domain 17,CSVP; TACE; NISBD; ADAM18; CD156B; NISBD1,DB07964,"(3S)-4-{[4-(BUT-2-YNYLOXY)PHENYL]SULFONYL}-N-HYDROXY-2,2-DIMETHYLTHIOMORPHOLINE-3-CARBOXAMIDE",not defined,https://go.drugbank.com/drugs/DB07964#BE0003754
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB01404,Ginseng,antagonist,https://go.drugbank.com/drugs/DB01404#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB05017,YSIL6,not defined,https://go.drugbank.com/drugs/DB05017#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB05470,VX-702,not defined,https://go.drugbank.com/drugs/DB05470#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB05744,CRx-139,not defined,https://go.drugbank.com/drugs/DB05744#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB05767,Andrographolide,not defined,https://go.drugbank.com/drugs/DB05767#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB06083,Tapinarof,not defined,https://go.drugbank.com/drugs/DB06083#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB11967,Binimetinib,not defined,https://go.drugbank.com/drugs/DB11967#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB05513,Atiprimod,not defined,https://go.drugbank.com/drugs/DB05513#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB09036,Siltuximab,"antagonist,antibody",https://go.drugbank.com/drugs/DB09036#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB12140,Dilmapimod,not defined,https://go.drugbank.com/drugs/DB12140#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB09221,Polaprezinc,inhibitor,https://go.drugbank.com/drugs/DB09221#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB10770,Foreskin fibroblast (neonatal),agonist,https://go.drugbank.com/drugs/DB10770#BE0000918
+IL6,P05231,3569,interleukin 6,CDF; HGF; HSF; BSF2; IL-6; BSF-2; IFNB2; IFN-beta-2,DB10772,Foreskin keratinocyte (neonatal),agonist,https://go.drugbank.com/drugs/DB10772#BE0000918
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00197,Troglitazone,agonist,https://go.drugbank.com/drugs/DB00197#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00412,Rosiglitazone,agonist,https://go.drugbank.com/drugs/DB00412#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB01132,Pioglitazone,agonist,https://go.drugbank.com/drugs/DB01132#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00159,Icosapent,agonist,https://go.drugbank.com/drugs/DB00159#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB04971,Reglitazar,not defined,https://go.drugbank.com/drugs/DB04971#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB04689,2-{5-[3-(6-BENZOYL-1-PROPYLNAPHTHALEN-2-YLOXY)PROPOXY]INDOL-1-YL}ETHANOIC ACID,not defined,https://go.drugbank.com/drugs/DB04689#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB05187,Elafibranor,not defined,https://go.drugbank.com/drugs/DB05187#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB05490,AMG-131,partial agonist,https://go.drugbank.com/drugs/DB05490#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB05854,CLX-0921,not defined,https://go.drugbank.com/drugs/DB05854#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB11811,Arhalofenate,not defined,https://go.drugbank.com/drugs/DB11811#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB12662,Naveglitazar,not defined,https://go.drugbank.com/drugs/DB12662#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB06510,Muraglitazar,not defined,https://go.drugbank.com/drugs/DB06510#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB06521,Ertiprotafib,not defined,https://go.drugbank.com/drugs/DB06521#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB06533,Ragaglitazar,not defined,https://go.drugbank.com/drugs/DB06533#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB06536,Tesaglitazar,not defined,https://go.drugbank.com/drugs/DB06536#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00328,Indomethacin,activator,https://go.drugbank.com/drugs/DB00328#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00731,Nateglinide,agonist,https://go.drugbank.com/drugs/DB00731#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00912,Repaglinide,agonist,https://go.drugbank.com/drugs/DB00912#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB01252,Mitiglinide,agonist,https://go.drugbank.com/drugs/DB01252#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB01067,Glipizide,agonist,https://go.drugbank.com/drugs/DB01067#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00966,Telmisartan,partial agonist,https://go.drugbank.com/drugs/DB00966#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB01014,Balsalazide,agonist,https://go.drugbank.com/drugs/DB01014#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB01393,Bezafibrate,agonist,https://go.drugbank.com/drugs/DB01393#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB06908,"(2S)-3-(1-{[2-(2-CHLOROPHENYL)-5-METHYL-1,3-OXAZOL-4-YL]METHYL}-1H-INDOL-5-YL)-2-ETHOXYPROPANOIC ACID",not defined,https://go.drugbank.com/drugs/DB06908#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB06926,"(9Z,11E,13S)-13-hydroxyoctadeca-9,11-dienoic acid",not defined,https://go.drugbank.com/drugs/DB06926#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07053,2-{5-[3-(7-PROPYL-3-TRIFLUOROMETHYLBENZO[D]ISOXAZOL-6-YLOXY)PROPOXY]INDOL-1-YL}ETHANOIC ACID,not defined,https://go.drugbank.com/drugs/DB07053#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07111,"(4S,5E,7Z,10Z,13Z,16Z,19Z)-4-hydroxydocosa-5,7,10,13,16,19-hexaenoic acid",not defined,https://go.drugbank.com/drugs/DB07111#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07172,"(5R,6E,8Z,11Z,14Z,17Z)-5-hydroxyicosa-6,8,11,14,17-pentaenoic acid",not defined,https://go.drugbank.com/drugs/DB07172#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07208,"(8E,10S,12Z)-10-hydroxy-6-oxooctadeca-8,12-dienoic acid",not defined,https://go.drugbank.com/drugs/DB07208#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07209,"(8R,9Z,12Z)-8-hydroxy-6-oxooctadeca-9,12-dienoic acid",not defined,https://go.drugbank.com/drugs/DB07209#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07302,9(S)-HODE,not defined,https://go.drugbank.com/drugs/DB07302#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07509,difluoro(5-{2-[(5-octyl-1H-pyrrol-2-yl-kappaN)methylidene]-2H-pyrrol-5-yl-kappaN}pentanoato)boron,not defined,https://go.drugbank.com/drugs/DB07509#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07675,(2S)-2-ETHOXY-3-{4-[2-(10H-PHENOXAZIN-10-YL)ETHOXY]PHENYL}PROPANOIC ACID,not defined,https://go.drugbank.com/drugs/DB07675#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07723,3-(5-methoxy-1H-indol-3-yl)propanoic acid,not defined,https://go.drugbank.com/drugs/DB07723#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07724,Indeglitazar,not defined,https://go.drugbank.com/drugs/DB07724#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07842,(2S)-2-(4-ethylphenoxy)-3-phenylpropanoic acid,not defined,https://go.drugbank.com/drugs/DB07842#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB07863,2-chloro-5-nitro-N-phenylbenzamide,not defined,https://go.drugbank.com/drugs/DB07863#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB08121,(2S)-2-(biphenyl-4-yloxy)-3-phenylpropanoic acid,not defined,https://go.drugbank.com/drugs/DB08121#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB08302,3-[5-(2-nitropent-1-en-1-yl)furan-2-yl]benzoic acid,not defined,https://go.drugbank.com/drugs/DB08302#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB08402,"2-[(2,4-DICHLOROBENZOYL)AMINO]-5-(PYRIMIDIN-2-YLOXY)BENZOIC ACID",not defined,https://go.drugbank.com/drugs/DB08402#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB08435,"(5E,14E)-11-oxoprosta-5,9,12,14-tetraen-1-oic acid",not defined,https://go.drugbank.com/drugs/DB08435#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB08560,3-FLUORO-N-[1-(4-FLUOROPHENYL)-3-(2-THIENYL)-1H-PYRAZOL-5-YL]BENZENESULFONAMIDE,not defined,https://go.drugbank.com/drugs/DB08560#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB04270,(S)-3-(4-(2-Carbazol-9-Yl-Ethoxy)-Phenyl)-2-Ethoxy-Propionic Acid,not defined,https://go.drugbank.com/drugs/DB04270#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB08760,(2S)-2-(4-chlorophenoxy)-3-phenylpropanoic acid,not defined,https://go.drugbank.com/drugs/DB08760#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00244,Mesalazine,agonist,https://go.drugbank.com/drugs/DB00244#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00795,Sulfasalazine,agonist,https://go.drugbank.com/drugs/DB00795#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB01050,Ibuprofen,activator,https://go.drugbank.com/drugs/DB01050#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB08915,Aleglitazar,agonist,https://go.drugbank.com/drugs/DB08915#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB09213,Dexibuprofen,activator,https://go.drugbank.com/drugs/DB09213#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB11133,Omega-3 fatty acids,ligand,https://go.drugbank.com/drugs/DB11133#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB03756,Doconexent,ligand,https://go.drugbank.com/drugs/DB03756#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB09198,Lobeglitazone,activator,https://go.drugbank.com/drugs/DB09198#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB09006,Clinofibrate,not defined,https://go.drugbank.com/drugs/DB09006#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB09201,Ciglitazone,not defined,https://go.drugbank.com/drugs/DB09201#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB11672,Curcumin,not defined,https://go.drugbank.com/drugs/DB11672#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00132,alpha-Linolenic acid,not defined,https://go.drugbank.com/drugs/DB00132#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB02746,Phthalic Acid,not defined,https://go.drugbank.com/drugs/DB02746#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB02709,Resveratrol,not defined,https://go.drugbank.com/drugs/DB02709#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB01118,Amiodarone,agonist,https://go.drugbank.com/drugs/DB01118#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00313,Valproic acid,not defined,https://go.drugbank.com/drugs/DB00313#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB03600,Capric acid,ligand,https://go.drugbank.com/drugs/DB03600#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB04224,Oleic Acid,ligand,https://go.drugbank.com/drugs/DB04224#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB08604,Triclosan,not defined,https://go.drugbank.com/drugs/DB08604#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00573,Fenoprofen,not defined,https://go.drugbank.com/drugs/DB00573#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB02266,Flufenamic acid,agonist,https://go.drugbank.com/drugs/DB02266#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB09061,Cannabidiol,activator,https://go.drugbank.com/drugs/DB09061#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB13873,Fenofibric acid,not defined,https://go.drugbank.com/drugs/DB13873#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB14011,Nabiximols,not defined,https://go.drugbank.com/drugs/DB14011#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB14009,Medical Cannabis,not defined,https://go.drugbank.com/drugs/DB14009#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB13961,Fish oil,not defined,https://go.drugbank.com/drugs/DB13961#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB14034,Darglitazone,agonist,https://go.drugbank.com/drugs/DB14034#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB12007,Isoflavone,agonist,https://go.drugbank.com/drugs/DB12007#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB14635,Curcumin sulfate,not defined,https://go.drugbank.com/drugs/DB14635#BE0000215
+PPARG,P37231,5468,peroxisome proliferator activated receptor gamma,GLM1; CIMT1; NR1C3; PPARG1; PPARG2; PPARG5; PPARgamma,DB00845,Clofazimine,modulator,https://go.drugbank.com/drugs/DB00845#BE0000215
+CEBPB,P17676,1051,CCAAT enhancer binding protein beta,TCF5; IL6DBP; NF-IL6; C/EBP-beta,DB04216,Quercetin,inhibitor,https://go.drugbank.com/drugs/DB04216#BE0005461
+FN1,P02751,2335,fibronectin 1,FN; CIG; FNZ; MSF; ED-B; FINC; GFND; LETS; GFND2; SMDCF,DB06245,Lanoteplase,not defined,https://go.drugbank.com/drugs/DB06245#BE0001180
+FN1,P02751,2335,fibronectin 1,FN; CIG; FNZ; MSF; ED-B; FINC; GFND; LETS; GFND2; SMDCF,DB08888,Ocriplasmin,cleavage,https://go.drugbank.com/drugs/DB08888#BE0001180
+FN1,P02751,2335,fibronectin 1,FN; CIG; FNZ; MSF; ED-B; FINC; GFND; LETS; GFND2; SMDCF,DB01593,Zinc,not defined,https://go.drugbank.com/drugs/DB01593#BE0001180
+FN1,P02751,2335,fibronectin 1,FN; CIG; FNZ; MSF; ED-B; FINC; GFND; LETS; GFND2; SMDCF,DB14487,Zinc acetate,not defined,https://go.drugbank.com/drugs/DB14487#BE0001180
+FN1,P02751,2335,fibronectin 1,FN; CIG; FNZ; MSF; ED-B; FINC; GFND; LETS; GFND2; SMDCF,DB14533,Zinc chloride,"modulator,ligand",https://go.drugbank.com/drugs/DB14533#BE0001180
+FN1,P02751,2335,fibronectin 1,FN; CIG; FNZ; MSF; ED-B; FINC; GFND; LETS; GFND2; SMDCF,DB14548,"Zinc sulfate, unspecified form","modulator,ligand",https://go.drugbank.com/drugs/DB14548#BE0001180
+TIMP3,P35625,7078,TIMP metallopeptidase inhibitor 3,SFD; K222; K222TA2; HSMRK222,DB05383,Pimagedine,not defined,https://go.drugbank.com/drugs/DB05383#BE0003371
+AGT,P01019,183,angiotensinogen,ANHU; hFLT1; SERPINA8,DB12548,Sparsentan,not defined,https://go.drugbank.com/drugs/DB12548#BE0001060
+AGT,P01019,183,angiotensinogen,ANHU; hFLT1; SERPINA8,DB09130,Copper,not defined,https://go.drugbank.com/drugs/DB09130#BE0001060
+AGT,P01019,183,angiotensinogen,ANHU; hFLT1; SERPINA8,DB01593,Zinc,not defined,https://go.drugbank.com/drugs/DB01593#BE0001060
+AGT,P01019,183,angiotensinogen,ANHU; hFLT1; SERPINA8,DB14487,Zinc acetate,not defined,https://go.drugbank.com/drugs/DB14487#BE0001060
+JAK1,P23458,3716,Janus kinase 1,JTK3; AIIDE; JAK1A; JAK1B,DB04716,"2-tert-butyl-9-fluoro-1,6-dihydrobenzo[h]imidazo[4,5-f]isoquinolin-7-one",not defined,https://go.drugbank.com/drugs/DB04716#BE0004145
+JAK1,P23458,3716,Janus kinase 1,JTK3; AIIDE; JAK1A; JAK1B,DB08877,Ruxolitinib,inhibitor,https://go.drugbank.com/drugs/DB08877#BE0004145
+JAK1,P23458,3716,Janus kinase 1,JTK3; AIIDE; JAK1A; JAK1B,DB08895,Tofacitinib,inhibitor,https://go.drugbank.com/drugs/DB08895#BE0004145
+JAK1,P23458,3716,Janus kinase 1,JTK3; AIIDE; JAK1A; JAK1B,DB02375,Myricetin,not defined,https://go.drugbank.com/drugs/DB02375#BE0004145
+JAK1,P23458,3716,Janus kinase 1,JTK3; AIIDE; JAK1A; JAK1B,DB11817,Baricitinib,inhibitor,https://go.drugbank.com/drugs/DB11817#BE0004145
+JAK1,P23458,3716,Janus kinase 1,JTK3; AIIDE; JAK1A; JAK1B,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0004145
+JAK1,P23458,3716,Janus kinase 1,JTK3; AIIDE; JAK1A; JAK1B,DB12500,Fedratinib,inhibitor,https://go.drugbank.com/drugs/DB12500#BE0004145
+JAK1,P23458,3716,Janus kinase 1,JTK3; AIIDE; JAK1A; JAK1B,DB15091,Upadacitinib,inhibitor,https://go.drugbank.com/drugs/DB15091#BE0004145
+JAK1,P23458,3716,Janus kinase 1,JTK3; AIIDE; JAK1A; JAK1B,DB15822,Pralsetinib,inhibitor,https://go.drugbank.com/drugs/DB15822#BE0004145
+JAK1,P23458,3716,Janus kinase 1,JTK3; AIIDE; JAK1A; JAK1B,DB14845,Filgotinib,inhibitor,https://go.drugbank.com/drugs/DB14845#BE0004145
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB01877,"N-Hydroxy 1n(4-Methoxyphenyl)Sulfonyl-4-(Z,E-N-Methoxyimino)Pyrrolidine-2r-Carboxamide",not defined,https://go.drugbank.com/drugs/DB01877#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB01996,3-Methylpyridine,not defined,https://go.drugbank.com/drugs/DB01996#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB02090,A Disubstituted Succinyl Caprolactam Hydroxymate Mmp3inhibitor,not defined,https://go.drugbank.com/drugs/DB02090#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB02350,"N-Hydroxy-4-[(4-Methoxylphenyl)Sulfonyl]-2,2-Dimethyl-Hexahydro-1,4-Thiazepine-3(S)-Carboxamide",not defined,https://go.drugbank.com/drugs/DB02350#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB02367,(1n)-4-N-Butoxyphenylsulfonyl-(2r)-N-Hydroxycarboxamido-(4s)-Methanesulfonylamino-Pyrrolidine,not defined,https://go.drugbank.com/drugs/DB02367#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB02449,3-(1h-Indol-3-Yl)-2-[4-(4-Phenyl-Piperidin-1-Yl)-Benzenesulfonylamino]-Propionic Acid,not defined,https://go.drugbank.com/drugs/DB02449#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB02697,Hydroxyaminovaline,not defined,https://go.drugbank.com/drugs/DB02697#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB03033,4-methoxybenzenesulfinate,not defined,https://go.drugbank.com/drugs/DB03033#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB03368,"5-Methyl-5-(4-Phenoxy-Phenyl)-Pyrimidine-2,4,6-Trione",not defined,https://go.drugbank.com/drugs/DB03368#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB04140,1-Benzyl-3-(4-Methoxy-Benzenesulfonyl)-6-Oxo-Hexahydro-Pyrimidine-4-Carboxylic Acid Hydroxyamide,not defined,https://go.drugbank.com/drugs/DB04140#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB04232,N-Hydroxy-1-(4-Methoxyphenyl)Sulfonyl-4-Benzyloxycarbonyl-Piperazine-2-Carboxamide,not defined,https://go.drugbank.com/drugs/DB04232#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB04416,"R-2-{[4'-Methoxy-(1,1'-Biphenyl)-4-Yl]-Sulfonyl}-Amino-6-Methoxy-Hex-4-Ynoic Acid",not defined,https://go.drugbank.com/drugs/DB04416#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB00786,Marimastat,antagonist,https://go.drugbank.com/drugs/DB00786#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB07390,"2-[3-(5-Mercapto-[1,3,4]thiadiazol-2-yl)-ureido]-N-methyl-3-phenyl-propionamide",not defined,https://go.drugbank.com/drugs/DB07390#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB07986,[4-(4-PHENYL-PIPERIDIN-1-YL)-BENZENESULFONYLAMINO]-ACETIC ACID,not defined,https://go.drugbank.com/drugs/DB07986#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB07987,"[2-(5-Mercapto-[1,3,4]thiadiazol-2-ylcarbamoyl)-1-phenyl-ethyl]-carbamic acid benzyl ester",not defined,https://go.drugbank.com/drugs/DB07987#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB07988,"2-[3-(5-Mercapto-[1,3,4]thiadiazol-2yl)-ureido]-N-methyl-3-pentafluorophenyl-propionamide",not defined,https://go.drugbank.com/drugs/DB07988#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB08029,N~2~-(biphenyl-4-ylsulfonyl)-N-hydroxy-N~2~-(2-hydroxyethyl)glycinamide,not defined,https://go.drugbank.com/drugs/DB08029#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB08030,3-[(4'-cyanobiphenyl-4-yl)oxy]-N-hydroxypropanamide,not defined,https://go.drugbank.com/drugs/DB08030#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB08271,N-ISOBUTYL-N-[4-METHOXYPHENYLSULFONYL]GLYCYL HYDROXAMIC ACID,not defined,https://go.drugbank.com/drugs/DB08271#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB08507,N-[[2-METHYL-4-HYDROXYCARBAMOYL]BUT-4-YL-N]-BENZYL-P-[PHENYL]-P-[METHYL]PHOSPHINAMID,not defined,https://go.drugbank.com/drugs/DB08507#BE0001116
+MMP3,P08254,4314,matrix metallopeptidase 3,SL-1; STMY; STR1; CHDS6; MMP-3; STMY1,DB08643,2-(2-{2-[(BIPHENYL-4-YLMETHYL)-AMINO]-3-MERCAPTO-PENTANOYLAMINO}-ACETYLAMINO)-3-METHYL-BUTYRIC ACID METHYL ESTER,not defined,https://go.drugbank.com/drugs/DB08643#BE0001116
+CCR5,P51681,1234,C-C motif chemokine receptor 5,CKR5; CCR-5; CD195; CKR-5; CCCKR5; CMKBR5; IDDM22; CC-CKR-5,DB04835,Maraviroc,antagonist,https://go.drugbank.com/drugs/DB04835#BE0000911
+CCR5,P51681,1234,C-C motif chemokine receptor 5,CKR5; CCR-5; CD195; CKR-5; CCCKR5; CMKBR5; IDDM22; CC-CKR-5,DB12960,INCB-9471,not defined,https://go.drugbank.com/drugs/DB12960#BE0000911
+CCR5,P51681,1234,C-C motif chemokine receptor 5,CKR5; CCR-5; CD195; CKR-5; CCCKR5; CMKBR5; IDDM22; CC-CKR-5,DB05501,AMD-070,not defined,https://go.drugbank.com/drugs/DB05501#BE0000911
+CCR5,P51681,1234,C-C motif chemokine receptor 5,CKR5; CCR-5; CD195; CKR-5; CCCKR5; CMKBR5; IDDM22; CC-CKR-5,DB05941,Leronlimab,antagonist,https://go.drugbank.com/drugs/DB05941#BE0000911
+CCR5,P51681,1234,C-C motif chemokine receptor 5,CKR5; CCR-5; CD195; CKR-5; CCCKR5; CMKBR5; IDDM22; CC-CKR-5,DB06497,Aplaviroc,not defined,https://go.drugbank.com/drugs/DB06497#BE0000911
+CCR5,P51681,1234,C-C motif chemokine receptor 5,CKR5; CCR-5; CD195; CKR-5; CCCKR5; CMKBR5; IDDM22; CC-CKR-5,DB06652,Vicriviroc,not defined,https://go.drugbank.com/drugs/DB06652#BE0000911
+CCR5,P51681,1234,C-C motif chemokine receptor 5,CKR5; CCR-5; CD195; CKR-5; CCCKR5; CMKBR5; IDDM22; CC-CKR-5,DB12698,Ibalizumab,antagonist,https://go.drugbank.com/drugs/DB12698#BE0000911
+CCR5,P51681,1234,C-C motif chemokine receptor 5,CKR5; CCR-5; CD195; CKR-5; CCCKR5; CMKBR5; IDDM22; CC-CKR-5,DB05906,CCR5 mAb,not defined,https://go.drugbank.com/drugs/DB05906#BE0000911
+SERPINA1,P01009,5265,serpin family A member 1,PI; A1A; AAT; PI1; A1AT; nNIF; PRO2275; alpha1AT,DB01998,"2-[3,4-Dihydroxy-2-Hydroxymethyl-5-(2-Hydroxy-Nonyl)-Tetrahydro-Furan-2-Yloxy]-6-Hydroxymethyl-Tetra Hydro-Pyran-3,4,5-Triol",not defined,https://go.drugbank.com/drugs/DB01998#BE0000952
+SERPINA1,P01009,5265,serpin family A member 1,PI; A1A; AAT; PI1; A1AT; nNIF; PRO2275; alpha1AT,DB03345,Mercaptoethanol,not defined,https://go.drugbank.com/drugs/DB03345#BE0000952
+SERPINA1,P01009,5265,serpin family A member 1,PI; A1A; AAT; PI1; A1AT; nNIF; PRO2275; alpha1AT,DB05481,Recombinant alpha 1-antitrypsin,not defined,https://go.drugbank.com/drugs/DB05481#BE0000952
+SERPINA1,P01009,5265,serpin family A member 1,PI; A1A; AAT; PI1; A1AT; nNIF; PRO2275; alpha1AT,DB05961,PPL-100,not defined,https://go.drugbank.com/drugs/DB05961#BE0000952
+SERPINA1,P01009,5265,serpin family A member 1,PI; A1A; AAT; PI1; A1AT; nNIF; PRO2275; alpha1AT,DB09130,Copper,not defined,https://go.drugbank.com/drugs/DB09130#BE0000952
+SERPINA1,P01009,5265,serpin family A member 1,PI; A1A; AAT; PI1; A1AT; nNIF; PRO2275; alpha1AT,DB01593,Zinc,not defined,https://go.drugbank.com/drugs/DB01593#BE0000952
+SERPINA1,P01009,5265,serpin family A member 1,PI; A1A; AAT; PI1; A1AT; nNIF; PRO2275; alpha1AT,DB14007,Pentetic acid,substrate,https://go.drugbank.com/drugs/DB14007#BE0000952
+SERPINA1,P01009,5265,serpin family A member 1,PI; A1A; AAT; PI1; A1AT; nNIF; PRO2275; alpha1AT,DB14487,Zinc acetate,not defined,https://go.drugbank.com/drugs/DB14487#BE0000952
+SERPINA1,P01009,5265,serpin family A member 1,PI; A1A; AAT; PI1; A1AT; nNIF; PRO2275; alpha1AT,DB14533,Zinc chloride,ligand,https://go.drugbank.com/drugs/DB14533#BE0000952
+SERPINA1,P01009,5265,serpin family A member 1,PI; A1A; AAT; PI1; A1AT; nNIF; PRO2275; alpha1AT,DB14548,"Zinc sulfate, unspecified form",ligand,https://go.drugbank.com/drugs/DB14548#BE0000952
+SERPINA1,P01009,5265,serpin family A member 1,PI; A1A; AAT; PI1; A1AT; nNIF; PRO2275; alpha1AT,DB00080,Daptomycin,binder,https://go.drugbank.com/drugs/DB00080#BE0000952
+MMP14,P50281,4323,matrix metallopeptidase 14,MMP-14; MMP-X1; MT-MMP; MT1MMP; MTMMP1; WNCHRS; MT1-MMP; MT-MMP 1,DB00786,Marimastat,inhibitor,https://go.drugbank.com/drugs/DB00786#BE0003692
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB00887,Bumetanide,antagonist,https://go.drugbank.com/drugs/DB00887#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB01016,Glyburide,antagonist,https://go.drugbank.com/drugs/DB01016#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB04941,Crofelemer,antagonist,https://go.drugbank.com/drugs/DB04941#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB04395,Phosphoaminophosphonic Acid-Adenylate Ester,not defined,https://go.drugbank.com/drugs/DB04395#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB04522,Dexfosfoserine,not defined,https://go.drugbank.com/drugs/DB04522#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB06266,Lonidamine,not defined,https://go.drugbank.com/drugs/DB06266#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB08820,Ivacaftor,potentiator,https://go.drugbank.com/drugs/DB08820#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB01050,Ibuprofen,inhibitor,https://go.drugbank.com/drugs/DB01050#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB09280,Lumacaftor,modulator,https://go.drugbank.com/drugs/DB09280#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB09213,Dexibuprofen,inhibitor,https://go.drugbank.com/drugs/DB09213#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB02587,Colforsin,inhibitor,https://go.drugbank.com/drugs/DB02587#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB00171,ATP,cofactor,https://go.drugbank.com/drugs/DB00171#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB11712,Tezacaftor,activator,https://go.drugbank.com/drugs/DB11712#BE0001195
+CFTR,P13569,1080,CF transmembrane conductance regulator,CF; MRP7; ABC35; ABCC7; CFTR/MRP; TNR-CFTR; dJ760C5.1,DB15444,Elexacaftor,modulator,https://go.drugbank.com/drugs/DB15444#BE0001195
+TGFB3,P10600,7043,transforming growth factor beta 3,ARVD; LDS5; RNHF; ARVD1; TGF-beta3,DB03316,"1,4-Dioxane",not defined,https://go.drugbank.com/drugs/DB03316#BE0004506
+PF4,P02776,5196,platelet factor 4,PF-4; CXCL4; SCYB4,DB00055,Drotrecogin alfa,not defined,https://go.drugbank.com/drugs/DB00055#BE0001129
+PF4,P02776,5196,platelet factor 4,PF-4; CXCL4; SCYB4,DB01109,Heparin,not defined,https://go.drugbank.com/drugs/DB01109#BE0001129
+SERPINE1,P05121,5054,serpin family E member 1,PAI; PAI1; PAI-1; PLANH1,DB00055,Drotrecogin alfa,not defined,https://go.drugbank.com/drugs/DB00055#BE0000240
+SERPINE1,P05121,5054,serpin family E member 1,PAI; PAI1; PAI-1; PLANH1,DB00013,Urokinase,"substrate,inducer",https://go.drugbank.com/drugs/DB00013#BE0000240
+SERPINE1,P05121,5054,serpin family E member 1,PAI; PAI1; PAI-1; PLANH1,DB00031,Tenecteplase,not defined,https://go.drugbank.com/drugs/DB00031#BE0000240
+SERPINE1,P05121,5054,serpin family E member 1,PAI; PAI1; PAI-1; PLANH1,DB00197,Troglitazone,antagonist,https://go.drugbank.com/drugs/DB00197#BE0000240
+SERPINE1,P05121,5054,serpin family E member 1,PAI; PAI1; PAI-1; PLANH1,DB05254,Fibrinolysin,not defined,https://go.drugbank.com/drugs/DB05254#BE0000240
+SERPINE1,P05121,5054,serpin family E member 1,PAI; PAI1; PAI-1; PLANH1,DB00009,Alteplase,not defined,https://go.drugbank.com/drugs/DB00009#BE0000240
+SERPINE1,P05121,5054,serpin family E member 1,PAI; PAI1; PAI-1; PLANH1,DB00029,Anistreplase,not defined,https://go.drugbank.com/drugs/DB00029#BE0000240
+SERPINE1,P05121,5054,serpin family E member 1,PAI; PAI1; PAI-1; PLANH1,DB00015,Reteplase,not defined,https://go.drugbank.com/drugs/DB00015#BE0000240
+SERPINE1,P05121,5054,serpin family E member 1,PAI; PAI1; PAI-1; PLANH1,DB09130,Copper,not defined,https://go.drugbank.com/drugs/DB09130#BE0000240
+JAK3,P52333,3718,Janus kinase 3,JAKL; LJAK; JAK-3; L-JAK; JAK3_HUMAN,DB06321,R-348,not defined,https://go.drugbank.com/drugs/DB06321#BE0003493
+JAK3,P52333,3718,Janus kinase 3,JAKL; LJAK; JAK-3; L-JAK; JAK3_HUMAN,DB04716,"2-tert-butyl-9-fluoro-1,6-dihydrobenzo[h]imidazo[4,5-f]isoquinolin-7-one",not defined,https://go.drugbank.com/drugs/DB04716#BE0003493
+JAK3,P52333,3718,Janus kinase 3,JAKL; LJAK; JAK-3; L-JAK; JAK3_HUMAN,DB08895,Tofacitinib,inhibitor,https://go.drugbank.com/drugs/DB08895#BE0003493
+JAK3,P52333,3718,Janus kinase 3,JAKL; LJAK; JAK-3; L-JAK; JAK3_HUMAN,DB11817,Baricitinib,inhibitor,https://go.drugbank.com/drugs/DB11817#BE0003493
+JAK3,P52333,3718,Janus kinase 3,JAKL; LJAK; JAK-3; L-JAK; JAK3_HUMAN,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0003493
+JAK3,P52333,3718,Janus kinase 3,JAKL; LJAK; JAK-3; L-JAK; JAK3_HUMAN,DB15035,Zanubrutinib,inhibitor,https://go.drugbank.com/drugs/DB15035#BE0003493
+JAK3,P52333,3718,Janus kinase 3,JAKL; LJAK; JAK-3; L-JAK; JAK3_HUMAN,DB08877,Ruxolitinib,inhibitor,https://go.drugbank.com/drugs/DB08877#BE0003493
+IL13RA2,Q14627,3598,interleukin 13 receptor subunit alpha 2,CT19; IL-13R; IL13BP; CD213A2,DB05078,AER001,not defined,https://go.drugbank.com/drugs/DB05078#BE0002421
+TGFB2,P61812,7042,transforming growth factor beta 2,LDS4; G-TSF; TGF-beta2,DB05697,Trabedersen,not defined,https://go.drugbank.com/drugs/DB05697#BE0003481
+HGF,P14210,3082,hepatocyte growth factor,SF; HGFB; HPTA; F-TCF; DFNB39,DB02264,O2-Sulfo-Glucuronic Acid,not defined,https://go.drugbank.com/drugs/DB02264#BE0001121
+HGF,P14210,3082,hepatocyte growth factor,SF; HGFB; HPTA; F-TCF; DFNB39,DB03959,"N,O6-Disulfo-Glucosamine",not defined,https://go.drugbank.com/drugs/DB03959#BE0001121
+HGF,P14210,3082,hepatocyte growth factor,SF; HGFB; HPTA; F-TCF; DFNB39,DB12307,Foretinib,not defined,https://go.drugbank.com/drugs/DB12307#BE0001121
+HGF,P14210,3082,hepatocyte growth factor,SF; HGFB; HPTA; F-TCF; DFNB39,DB05434,ABT-510,not defined,https://go.drugbank.com/drugs/DB05434#BE0001121
+HGF,P14210,3082,hepatocyte growth factor,SF; HGFB; HPTA; F-TCF; DFNB39,DB01109,Heparin,not defined,https://go.drugbank.com/drugs/DB01109#BE0001121
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB01229,Paclitaxel,inhibitor,https://go.drugbank.com/drugs/DB01229#BE0000246
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB01248,Docetaxel,not defined,https://go.drugbank.com/drugs/DB01248#BE0000246
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB01367,Rasagiline,activator,https://go.drugbank.com/drugs/DB01367#BE0000246
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB05297,Paclitaxel docosahexaenoic acid,not defined,https://go.drugbank.com/drugs/DB05297#BE0000246
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB08871,Eribulin,not defined,https://go.drugbank.com/drugs/DB08871#BE0000246
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB12340,Navitoclax,not defined,https://go.drugbank.com/drugs/DB12340#BE0000246
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB06307,Apoptone,not defined,https://go.drugbank.com/drugs/DB06307#BE0000246
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB12191,Obatoclax,not defined,https://go.drugbank.com/drugs/DB12191#BE0000246
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB01050,Ibuprofen,modulator,https://go.drugbank.com/drugs/DB01050#BE0000246
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB11581,Venetoclax,inhibitor,https://go.drugbank.com/drugs/DB11581#BE0000246
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB09213,Dexibuprofen,negative modulator,https://go.drugbank.com/drugs/DB09213#BE0000246
+BCL2,P10415,596,BCL2 apoptosis regulator,Bcl-2; PPP1R50,DB06756,Betaine,not defined,https://go.drugbank.com/drugs/DB06756#BE0000246
+CCL2,P13500,6347,C-C motif chemokine ligand 2,HC11; MCAF; MCP1; MCP-1; SCYA2; GDCF-2; SMC-CF; HSMCR30,DB01055,Mimosine,inhibitor,https://go.drugbank.com/drugs/DB01055#BE0001047
+CCL2,P13500,6347,C-C motif chemokine ligand 2,HC11; MCAF; MCP1; MCP-1; SCYA2; GDCF-2; SMC-CF; HSMCR30,DB01406,Danazol,inhibitor,https://go.drugbank.com/drugs/DB01406#BE0001047
+CCL2,P13500,6347,C-C motif chemokine ligand 2,HC11; MCAF; MCP1; MCP-1; SCYA2; GDCF-2; SMC-CF; HSMCR30,DB09301,Chondroitin sulfate,not defined,https://go.drugbank.com/drugs/DB09301#BE0001047
+PLG,P00747,5340,plasminogen, ,DB00302,Tranexamic acid,inhibitor,https://go.drugbank.com/drugs/DB00302#BE0000211
+PLG,P00747,5340,plasminogen, ,DB00513,Aminocaproic acid,inhibitor,https://go.drugbank.com/drugs/DB00513#BE0000211
+PLG,P00747,5340,plasminogen, ,DB00013,Urokinase,activator,https://go.drugbank.com/drugs/DB00013#BE0000211
+PLG,P00747,5340,plasminogen, ,DB03709,Bicine,not defined,https://go.drugbank.com/drugs/DB03709#BE0000211
+PLG,P00747,5340,plasminogen, ,DB00086,Streptokinase,activator,https://go.drugbank.com/drugs/DB00086#BE0000211
+PLG,P00747,5340,plasminogen, ,DB04925,Desmoteplase,not defined,https://go.drugbank.com/drugs/DB04925#BE0000211
+PLG,P00747,5340,plasminogen, ,DB06692,Aprotinin,not defined,https://go.drugbank.com/drugs/DB06692#BE0000211
+PLG,P00747,5340,plasminogen, ,DB00031,Tenecteplase,activator,https://go.drugbank.com/drugs/DB00031#BE0000211
+PLG,P00747,5340,plasminogen, ,DB00009,Alteplase,activator,https://go.drugbank.com/drugs/DB00009#BE0000211
+PLG,P00747,5340,plasminogen, ,DB00029,Anistreplase,activator,https://go.drugbank.com/drugs/DB00029#BE0000211
+PLG,P00747,5340,plasminogen, ,DB00015,Reteplase,activator,https://go.drugbank.com/drugs/DB00015#BE0000211
+PLG,P00747,5340,plasminogen, ,DB12831,Gabexate,inhibitor,https://go.drugbank.com/drugs/DB12831#BE0000211
+PLG,P00747,5340,plasminogen, ,DB09130,Copper,not defined,https://go.drugbank.com/drugs/DB09130#BE0000211
+MMP2,P08253,4313,matrix metallopeptidase 2,CLG4; MONA; CLG4A; MMP-2; TBE-1; MMP-II,DB00786,Marimastat,inhibitor,https://go.drugbank.com/drugs/DB00786#BE0000642
+MMP2,P08253,4313,matrix metallopeptidase 2,CLG4; MONA; CLG4A; MMP-2; TBE-1; MMP-II,DB01630,SC-74020,not defined,https://go.drugbank.com/drugs/DB01630#BE0000642
+MMP2,P08253,4313,matrix metallopeptidase 2,CLG4; MONA; CLG4A; MMP-2; TBE-1; MMP-II,DB04866,Halofuginone,not defined,https://go.drugbank.com/drugs/DB04866#BE0000642
+MMP2,P08253,4313,matrix metallopeptidase 2,CLG4; MONA; CLG4A; MMP-2; TBE-1; MMP-II,DB05387,AE-941,not defined,https://go.drugbank.com/drugs/DB05387#BE0000642
+MMP2,P08253,4313,matrix metallopeptidase 2,CLG4; MONA; CLG4A; MMP-2; TBE-1; MMP-II,DB06423,Endostatin,not defined,https://go.drugbank.com/drugs/DB06423#BE0000642
+MMP2,P08253,4313,matrix metallopeptidase 2,CLG4; MONA; CLG4A; MMP-2; TBE-1; MMP-II,DB01197,Captopril,inhibitor,https://go.drugbank.com/drugs/DB01197#BE0000642
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB00039,Palifermin,"agonist,binder",https://go.drugbank.com/drugs/DB00039#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB02491,4-[4-(1-Amino-1-Methylethyl)Phenyl]-5-Chloro-N-[4-(2-Morpholin-4-Ylethyl)Phenyl]Pyrimidin-2-Amine,not defined,https://go.drugbank.com/drugs/DB02491#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB02058,3-[4-(1-formylpiperazin-4-yl)-benzylidenyl]-2-indolinone,not defined,https://go.drugbank.com/drugs/DB02058#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB01041,Thalidomide,antagonist,https://go.drugbank.com/drugs/DB01041#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB08896,Regorafenib,inhibitor,https://go.drugbank.com/drugs/DB08896#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB08901,Ponatinib,inhibitor,https://go.drugbank.com/drugs/DB08901#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB09078,Lenvatinib,inhibitor,https://go.drugbank.com/drugs/DB09078#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB09079,Nintedanib,inhibitor,https://go.drugbank.com/drugs/DB09079#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB01901,Sucrosofate,ligand,https://go.drugbank.com/drugs/DB01901#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB01109,Heparin,not defined,https://go.drugbank.com/drugs/DB01109#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB10770,Foreskin fibroblast (neonatal),agonist,https://go.drugbank.com/drugs/DB10770#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB10772,Foreskin keratinocyte (neonatal),agonist,https://go.drugbank.com/drugs/DB10772#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB12147,Erdafitinib,inhibitor,https://go.drugbank.com/drugs/DB12147#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB15102,Pemigatinib,inhibitor,https://go.drugbank.com/drugs/DB15102#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB15685,Selpercatinib,inhibitor,https://go.drugbank.com/drugs/DB15685#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB15822,Pralsetinib,inhibitor,https://go.drugbank.com/drugs/DB15822#BE0000748
+FGFR2,P21802,2263,fibroblast growth factor receptor 2,BEK; JWS; BBDS; CEK3; CFD1; ECT1; KGFR; TK14; TK25; BFR-1; CD332; K-SAM,DB11886,Infigratinib,inhibitor,https://go.drugbank.com/drugs/DB11886#BE0000748
+MTOR,P42345,2475,mechanistic target of rapamycin kinase,SKS; FRAP; FRAP1; FRAP2; RAFT1; RAPT1,DB05210,SF1126,not defined,https://go.drugbank.com/drugs/DB05210#BE0002386
+MTOR,P42345,2475,mechanistic target of rapamycin kinase,SKS; FRAP; FRAP1; FRAP2; RAFT1; RAPT1,DB04974,Rimiducid,ligand,https://go.drugbank.com/drugs/DB04974#BE0002386
+MTOR,P42345,2475,mechanistic target of rapamycin kinase,SKS; FRAP; FRAP1; FRAP2; RAFT1; RAPT1,DB05241,XL765,not defined,https://go.drugbank.com/drugs/DB05241#BE0002386
+MTOR,P42345,2475,mechanistic target of rapamycin kinase,SKS; FRAP; FRAP1; FRAP2; RAFT1; RAPT1,DB01590,Everolimus,inhibitor,https://go.drugbank.com/drugs/DB01590#BE0002386
+MTOR,P42345,2475,mechanistic target of rapamycin kinase,SKS; FRAP; FRAP1; FRAP2; RAFT1; RAPT1,DB06233,Ridaforolimus,not defined,https://go.drugbank.com/drugs/DB06233#BE0002386
+MTOR,P42345,2475,mechanistic target of rapamycin kinase,SKS; FRAP; FRAP1; FRAP2; RAFT1; RAPT1,DB06287,Temsirolimus,inhibitor,https://go.drugbank.com/drugs/DB06287#BE0002386
+MTOR,P42345,2475,mechanistic target of rapamycin kinase,SKS; FRAP; FRAP1; FRAP2; RAFT1; RAPT1,DB00877,Sirolimus,inhibitor,https://go.drugbank.com/drugs/DB00877#BE0002386
+MTOR,P42345,2475,mechanistic target of rapamycin kinase,SKS; FRAP; FRAP1; FRAP2; RAFT1; RAPT1,DB00337,Pimecrolimus,potentiator,https://go.drugbank.com/drugs/DB00337#BE0002386
+MTOR,P42345,2475,mechanistic target of rapamycin kinase,SKS; FRAP; FRAP1; FRAP2; RAFT1; RAPT1,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0002386
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB00594,Amiloride,inhibitor,https://go.drugbank.com/drugs/DB00594#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB01977,6-(N-Phenylcarbamyl)-2-Naphthalenecarboxamidine,not defined,https://go.drugbank.com/drugs/DB01977#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB02398,6-[N-(4-(Aminomethyl)Phenyl)Carbamyl]-2-Naphthalenecarboxamidine,not defined,https://go.drugbank.com/drugs/DB02398#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB02473,"6-[N-(1-Isopropyl-3,4-Dihydro-7-Isoquinolinyl)Carbamyl]-2-Naphthalenecarboxamidine",not defined,https://go.drugbank.com/drugs/DB02473#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB02551,"6-[N-(4-Ethyl-1,2,3,4-Tetrahydro-6-Isoquinolinyl)Carbamyl]-2-Naphthalenecarboxamidine",not defined,https://go.drugbank.com/drugs/DB02551#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB02705,"6-[N-(1-Isopropyl-1,2,3,4-Tetrahydro-7-Isoquinolinyl)Carbamyl]-2-Naphthalenecarboxamidine",not defined,https://go.drugbank.com/drugs/DB02705#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB03046,7-Methoxy-8-[1-(Methylsulfonyl)-1h-Pyrazol-4-Yl]Naphthalene-2-Carboximidamide,not defined,https://go.drugbank.com/drugs/DB03046#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB03082,6-[(Z)-Amino(Imino)Methyl]-N-[4-(Aminomethyl)Phenyl]-4-(Pyrimidin-2-Ylamino)-2-Naphthamide,not defined,https://go.drugbank.com/drugs/DB03082#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB03127,Benzamidine,not defined,https://go.drugbank.com/drugs/DB03127#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB03476,Trans-6-(2-Phenylcyclopropyl)-Naphthalene-2-Carboxamidine,not defined,https://go.drugbank.com/drugs/DB03476#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB03729,2-Amino-1H-benzimidazol-5-ol,not defined,https://go.drugbank.com/drugs/DB03729#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB03782,N-(1-adamantyl)-N'-(4-guanidinobenzyl)urea,not defined,https://go.drugbank.com/drugs/DB03782#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB04059,8-(Pyrimidin-2-Ylamino)Naphthalene-2-Carboximidamide,not defined,https://go.drugbank.com/drugs/DB04059#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB04172,"[2,4,6-Triisopropyl-Phenylsulfonyl-L-[3-Amidino-Phenylalanine]]-Piperazine-N'-Beta-Alanine",not defined,https://go.drugbank.com/drugs/DB04172#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB05254,Fibrinolysin,not defined,https://go.drugbank.com/drugs/DB05254#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB01905,2-(2-Hydroxy-5-Methoxy-Phenyl)-1h-Benzoimidazole-5-Carboxamidine,not defined,https://go.drugbank.com/drugs/DB01905#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB01725,"2-{2-hydroxy-[1,1'-biphenyl]-3-yl}-1H-1,3-benzodiazole-5-carboximidamide",not defined,https://go.drugbank.com/drugs/DB01725#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB03865,6-Chloro-2-(2-Hydroxy-Biphenyl-3-Yl)-1h-Indole-5-Carboxamidine,not defined,https://go.drugbank.com/drugs/DB03865#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB06855,6-fluoro-2-(2-hydroxy-3-isobutoxy-phenyl)-1H-benzoimidazole-5-carboxamidine,not defined,https://go.drugbank.com/drugs/DB06855#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB06856,6-FLUORO-2-[2-HYDROXY-3-(2-METHYL-CYCLOHEXYLOXY)-PHENYL]-1H-INDOLE-5-CARBOXAMIDINE,not defined,https://go.drugbank.com/drugs/DB06856#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB06857,N-(4-CARBAMIMIDOYL-3-CHORO-PHENYL)-2-HYDROXY-3-IODO-5-METHYL-BENZAMIDE,not defined,https://go.drugbank.com/drugs/DB06857#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB07076,6-[(Z)-AMINO(IMINO)METHYL]-N-[3-(CYCLOPENTYLOXY)PHENYL]-2-NAPHTHAMIDE,not defined,https://go.drugbank.com/drugs/DB07076#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB07122,1-[4-(2-oxo-2-phenylethyl)phenyl]guanidine,not defined,https://go.drugbank.com/drugs/DB07122#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB07129,"(2R)-1-(2,6-dimethylphenoxy)propan-2-amine",not defined,https://go.drugbank.com/drugs/DB07129#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB02526,CRA_10655,not defined,https://go.drugbank.com/drugs/DB02526#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB03159,CRA_8696,not defined,https://go.drugbank.com/drugs/DB03159#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB02287,2-(2-hydroxy-phenyl)-3H-benzoimidazole-5-carboxamidine,not defined,https://go.drugbank.com/drugs/DB02287#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB07625,"4-(2-aminoethoxy)-N-(2,5-diethoxyphenyl)-3,5-dimethylbenzamide",not defined,https://go.drugbank.com/drugs/DB07625#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB07626,"4-(2-aminoethoxy)-N-(3-chloro-2-ethoxy-5-piperidin-1-ylphenyl)-3,5-dimethylbenzamide",not defined,https://go.drugbank.com/drugs/DB07626#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB03136,4-Iodobenzo[B]Thiophene-2-Carboxamidine,not defined,https://go.drugbank.com/drugs/DB03136#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB03876,"Thieno[2,3-B]Pyridine-2-Carboxamidine",not defined,https://go.drugbank.com/drugs/DB03876#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB08072,"4-(2-AMINOETHOXY)-3,5-DICHLORO-N-[3-(1-METHYLETHOXY)PHENYL]BENZAMIDE",not defined,https://go.drugbank.com/drugs/DB08072#BE0000895
+PLAU,P00749,5328,"plasminogen activator, urokinase",ATF; QPD; UPA; URK; u-PA; BDPLT5,DB08697,"4-(2-aminoethoxy)-N-(3-chloro-5-piperidin-1-ylphenyl)-3,5-dimethylbenzamide",not defined,https://go.drugbank.com/drugs/DB08697#BE0000895
+ANGPT2,O15123,285,angiopoietin 2,ANG2; AGPT2,DB15303,Faricimab,antagonist,https://go.drugbank.com/drugs/DB15303#BE0010028
+PLAUR,Q03405,5329,"plasminogen activator, urokinase receptor",CD87; UPAR; URKR; U-PAR,DB00009,Alteplase,not defined,https://go.drugbank.com/drugs/DB00009#BE0000717
+PLAUR,Q03405,5329,"plasminogen activator, urokinase receptor",CD87; UPAR; URKR; U-PAR,DB00013,Urokinase,"inducer,modulator",https://go.drugbank.com/drugs/DB00013#BE0000717
+PLAUR,Q03405,5329,"plasminogen activator, urokinase receptor",CD87; UPAR; URKR; U-PAR,DB00031,Tenecteplase,not defined,https://go.drugbank.com/drugs/DB00031#BE0000717
+PLAUR,Q03405,5329,"plasminogen activator, urokinase receptor",CD87; UPAR; URKR; U-PAR,DB05476,WX-UK1,not defined,https://go.drugbank.com/drugs/DB05476#BE0000717
+PLAUR,Q03405,5329,"plasminogen activator, urokinase receptor",CD87; UPAR; URKR; U-PAR,DB06245,Lanoteplase,not defined,https://go.drugbank.com/drugs/DB06245#BE0000717
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB01270,Ranibizumab,not defined,https://go.drugbank.com/drugs/DB01270#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB01017,Minocycline,inhibitor,https://go.drugbank.com/drugs/DB01017#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB01120,Gliclazide,other/unknown,https://go.drugbank.com/drugs/DB01120#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB01136,Carvedilol,other,https://go.drugbank.com/drugs/DB01136#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB03088,Pidolic acid,not defined,https://go.drugbank.com/drugs/DB03088#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB00112,Bevacizumab,not defined,https://go.drugbank.com/drugs/DB00112#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB04895,Pegaptanib,antagonist,https://go.drugbank.com/drugs/DB04895#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB05294,Vandetanib,inhibitor,https://go.drugbank.com/drugs/DB05294#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB05434,ABT-510,not defined,https://go.drugbank.com/drugs/DB05434#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB05890,Veglin,not defined,https://go.drugbank.com/drugs/DB05890#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB05932,Denibulin,not defined,https://go.drugbank.com/drugs/DB05932#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB05969,SNS-032,not defined,https://go.drugbank.com/drugs/DB05969#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB06642,Bevasiranib,not defined,https://go.drugbank.com/drugs/DB06642#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB06779,Dalteparin,inhibitor,https://go.drugbank.com/drugs/DB06779#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB08885,Aflibercept,binder,https://go.drugbank.com/drugs/DB08885#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB09301,Chondroitin sulfate,not defined,https://go.drugbank.com/drugs/DB09301#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB10772,Foreskin keratinocyte (neonatal),agonist,https://go.drugbank.com/drugs/DB10772#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB14864,Brolucizumab,inhibitor,https://go.drugbank.com/drugs/DB14864#BE0000163
+VEGFA,P15692,7422,vascular endothelial growth factor A,VPF; VEGF; MVCD1,DB15303,Faricimab,antagonist,https://go.drugbank.com/drugs/DB15303#BE0000163
+FGF2,P09038,2247,fibroblast growth factor 2,BFGF; FGFB; FGF-2; HBGF-2,DB00686,Pentosan polysulfate,antagonist,https://go.drugbank.com/drugs/DB00686#BE0001015
+FGF2,P09038,2247,fibroblast growth factor 2,BFGF; FGFB; FGF-2; HBGF-2,DB03935,"1,4-Dideoxy-O2-Sulfo-Glucuronic Acid",not defined,https://go.drugbank.com/drugs/DB03935#BE0001015
+FGF2,P09038,2247,fibroblast growth factor 2,BFGF; FGFB; FGF-2; HBGF-2,DB03959,"N,O6-Disulfo-Glucosamine",not defined,https://go.drugbank.com/drugs/DB03959#BE0001015
+FGF2,P09038,2247,fibroblast growth factor 2,BFGF; FGFB; FGF-2; HBGF-2,DB03981,"1,4-Dideoxy-5-Dehydro-O2-Sulfo-Glucuronic Acid",not defined,https://go.drugbank.com/drugs/DB03981#BE0001015
+FGF2,P09038,2247,fibroblast growth factor 2,BFGF; FGFB; FGF-2; HBGF-2,DB05434,ABT-510,not defined,https://go.drugbank.com/drugs/DB05434#BE0001015
+FGF2,P09038,2247,fibroblast growth factor 2,BFGF; FGFB; FGF-2; HBGF-2,DB00877,Sirolimus,other/unknown,https://go.drugbank.com/drugs/DB00877#BE0001015
+FGF2,P09038,2247,fibroblast growth factor 2,BFGF; FGFB; FGF-2; HBGF-2,DB00364,Sucralfate,"agonist,inducer",https://go.drugbank.com/drugs/DB00364#BE0001015
+FGF2,P09038,2247,fibroblast growth factor 2,BFGF; FGFB; FGF-2; HBGF-2,DB01109,Heparin,not defined,https://go.drugbank.com/drugs/DB01109#BE0001015
+FYN,P06241,2534,"FYN proto-oncogene, Src family tyrosine kinase",SLK; SYN; p59-FYN,DB01254,Dasatinib,multitarget,https://go.drugbank.com/drugs/DB01254#BE0000839
+FYN,P06241,2534,"FYN proto-oncogene, Src family tyrosine kinase",SLK; SYN; p59-FYN,DB02078,Triglyme,not defined,https://go.drugbank.com/drugs/DB02078#BE0000839
+FYN,P06241,2534,"FYN proto-oncogene, Src family tyrosine kinase",SLK; SYN; p59-FYN,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0000839
+VCAM1,P19320,7412,vascular cell adhesion molecule 1,CD106; INCAM-100,DB01136,Carvedilol,inhibitor,https://go.drugbank.com/drugs/DB01136#BE0001114
+VCAM1,P19320,7412,vascular cell adhesion molecule 1,CD106; INCAM-100,DB05399,Succinobucol,not defined,https://go.drugbank.com/drugs/DB05399#BE0001114
+VCAM1,P19320,7412,vascular cell adhesion molecule 1,CD106; INCAM-100,DB00898,Ethanol,not defined,https://go.drugbank.com/drugs/DB00898#BE0001114
+VCAM1,P19320,7412,vascular cell adhesion molecule 1,CD106; INCAM-100,DB11338,Clove oil,antagonist,https://go.drugbank.com/drugs/DB11338#BE0001114
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB00822,Disulfiram,inhibitor,https://go.drugbank.com/drugs/DB00822#BE0000133
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB00157,NADH,not defined,https://go.drugbank.com/drugs/DB00157#BE0000133
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB02115,Daidzin,not defined,https://go.drugbank.com/drugs/DB02115#BE0000133
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB00536,Guanidine,inhibitor,https://go.drugbank.com/drugs/DB00536#BE0000133
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB04381,Crotonaldehyde,not defined,https://go.drugbank.com/drugs/DB04381#BE0000133
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB00727,Nitroglycerin,substrate,https://go.drugbank.com/drugs/DB00727#BE0000133
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB01612,Amyl Nitrite,substrate,https://go.drugbank.com/drugs/DB01612#BE0000133
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB06770,Benzyl alcohol,substrate,https://go.drugbank.com/drugs/DB06770#BE0000133
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB00435,Nitric Oxide,inhibitor,https://go.drugbank.com/drugs/DB00435#BE0000133
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB09117,Paraldehyde,substrate,https://go.drugbank.com/drugs/DB09117#BE0000133
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB06154,Pentaerythritol tetranitrate,substrate,https://go.drugbank.com/drugs/DB06154#BE0000133
+ALDH2,P05091,217,aldehyde dehydrogenase 2 family member,ALDM; ALDHI; ALDH-E2,DB06207,Silodosin,substrate,https://go.drugbank.com/drugs/DB06207#BE0000133
+EGF,P01133,1950,epidermal growth factor,URG; HOMG4,DB04454,Alpha-Aminobutyric Acid,not defined,https://go.drugbank.com/drugs/DB04454#BE0000953
+EGF,P01133,1950,epidermal growth factor,URG; HOMG4,DB11973,Tesevatinib,not defined,https://go.drugbank.com/drugs/DB11973#BE0000953
+EGF,P01133,1950,epidermal growth factor,URG; HOMG4,DB00364,Sucralfate,inducer,https://go.drugbank.com/drugs/DB00364#BE0000953
+EGF,P01133,1950,epidermal growth factor,URG; HOMG4,DB08862,Cholecystokinin,not defined,https://go.drugbank.com/drugs/DB08862#BE0000953
+ELN,P15502,2006,elastin,WS; WBS; SVAS; ADCL1,DB00533,Rofecoxib,other/unknown,https://go.drugbank.com/drugs/DB00533#BE0001046
+SIRT1,Q96EB6,23411,sirtuin 1,SIR2; SIR2L1; SIR2alpha,DB02709,Resveratrol,not defined,https://go.drugbank.com/drugs/DB02709#BE0002461
+SIRT1,Q96EB6,23411,sirtuin 1,SIR2; SIR2L1; SIR2alpha,DB13978,Selisistat,inhibitor,https://go.drugbank.com/drugs/DB13978#BE0002461
+SIRT1,Q96EB6,23411,sirtuin 1,SIR2; SIR2L1; SIR2alpha,DB15493,Cambinol,inhibitor,https://go.drugbank.com/drugs/DB15493#BE0002461
+STAT3,P40763,6774,signal transducer and activator of transcription 3,APRF; HIES; ADMIO; ADMIO1,DB05959,ENMD-1198,not defined,https://go.drugbank.com/drugs/DB05959#BE0003462
+STAT3,P40763,6774,signal transducer and activator of transcription 3,APRF; HIES; ADMIO; ADMIO1,DB16630,OPB-111077,inhibitor,https://go.drugbank.com/drugs/DB16630#BE0003462
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB00398,Sorafenib,antagonist,https://go.drugbank.com/drugs/DB00398#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB01268,Sunitinib,inhibitor,https://go.drugbank.com/drugs/DB01268#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB04879,Vatalanib,not defined,https://go.drugbank.com/drugs/DB04879#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB05075,TG-100801,not defined,https://go.drugbank.com/drugs/DB05075#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB06080,Linifanib,not defined,https://go.drugbank.com/drugs/DB06080#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB06101,IMC-1C11,not defined,https://go.drugbank.com/drugs/DB06101#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB05932,Denibulin,not defined,https://go.drugbank.com/drugs/DB05932#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB06589,Pazopanib,not defined,https://go.drugbank.com/drugs/DB06589#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB06626,Axitinib,inhibitor,https://go.drugbank.com/drugs/DB06626#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB08896,Regorafenib,inhibitor,https://go.drugbank.com/drugs/DB08896#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB09078,Lenvatinib,inhibitor,https://go.drugbank.com/drugs/DB09078#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB09079,Nintedanib,inhibitor,https://go.drugbank.com/drugs/DB09079#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB15685,Selpercatinib,inhibitor,https://go.drugbank.com/drugs/DB15685#BE0000023
+FLT4,P35916,2324,fms related receptor tyrosine kinase 4,PCL; CHTD7; FLT-4; FLT41; LMPH1A; LMPHM1; VEGFR3; VEGFR-3,DB11800,Tivozanib,inhibitor,https://go.drugbank.com/drugs/DB11800#BE0000023
+IL13,P35225,3596,interleukin 13,P600; IL-13,DB05305,Cintredekin besudotox,not defined,https://go.drugbank.com/drugs/DB05305#BE0002438
+IL13,P35225,3596,interleukin 13,P600; IL-13,DB11914,Lebrikizumab,not defined,https://go.drugbank.com/drugs/DB11914#BE0002438
+MAPK8,P45983,5599,mitogen-activated protein kinase 8,JNK; JNK1; PRKM8; SAPK1; JNK-46; JNK1A2; SAPK1c; JNK21B1/2,DB01782,Pyrazolanthrone,not defined,https://go.drugbank.com/drugs/DB01782#BE0003790
+MAPK8,P45983,5599,mitogen-activated protein kinase 8,JNK; JNK1; PRKM8; SAPK1; JNK-46; JNK1A2; SAPK1c; JNK21B1/2,DB07218,"6-CHLORO-9-HYDROXY-1,3-DIMETHYL-1,9-DIHYDRO-4H-PYRAZOLO[3,4-B]QUINOLIN-4-ONE",not defined,https://go.drugbank.com/drugs/DB07218#BE0003790
+MAPK8,P45983,5599,mitogen-activated protein kinase 8,JNK; JNK1; PRKM8; SAPK1; JNK-46; JNK1A2; SAPK1c; JNK21B1/2,DB07268,2-({2-[(3-HYDROXYPHENYL)AMINO]PYRIMIDIN-4-YL}AMINO)BENZAMIDE,not defined,https://go.drugbank.com/drugs/DB07268#BE0003790
+MAPK8,P45983,5599,mitogen-activated protein kinase 8,JNK; JNK1; PRKM8; SAPK1; JNK-46; JNK1A2; SAPK1c; JNK21B1/2,DB07272,"N-(4-AMINO-5-CYANO-6-ETHOXYPYRIDIN-2-YL)-2-(4-BROMO-2,5-DIMETHOXYPHENYL)ACETAMIDE",not defined,https://go.drugbank.com/drugs/DB07272#BE0003790
+MAPK8,P45983,5599,mitogen-activated protein kinase 8,JNK; JNK1; PRKM8; SAPK1; JNK-46; JNK1A2; SAPK1c; JNK21B1/2,DB07276,"5-CYANO-N-(2,5-DIMETHOXYBENZYL)-6-ETHOXYPYRIDINE-2-CARBOXAMIDE",not defined,https://go.drugbank.com/drugs/DB07276#BE0003790
+MAPK8,P45983,5599,mitogen-activated protein kinase 8,JNK; JNK1; PRKM8; SAPK1; JNK-46; JNK1A2; SAPK1c; JNK21B1/2,DB07845,"2-fluoro-6-{[2-({2-methoxy-4-[(methylsulfonyl)methyl]phenyl}amino)-7H-pyrrolo[2,3-d]pyrimidin-4-yl]amino}benzamide",not defined,https://go.drugbank.com/drugs/DB07845#BE0003790
+MAPK8,P45983,5599,mitogen-activated protein kinase 8,JNK; JNK1; PRKM8; SAPK1; JNK-46; JNK1A2; SAPK1c; JNK21B1/2,DB00675,Tamoxifen,modulator,https://go.drugbank.com/drugs/DB00675#BE0003790
+ACE2,Q9BYF1,59272,angiotensin converting enzyme 2,ACEH,DB05203,SPP1148,not defined,https://go.drugbank.com/drugs/DB05203#BE0000982
+ACE2,Q9BYF1,59272,angiotensin converting enzyme 2,ACEH,DB15643,N-(2-Aminoethyl)-1-aziridineethanamine,inhibitor,https://go.drugbank.com/drugs/DB15643#BE0000982
+ACE2,Q9BYF1,59272,angiotensin converting enzyme 2,ACEH,DB00608,Chloroquine,modulator,https://go.drugbank.com/drugs/DB00608#BE0000982
+ACE2,Q9BYF1,59272,angiotensin converting enzyme 2,ACEH,DB01611,Hydroxychloroquine,modulator,https://go.drugbank.com/drugs/DB01611#BE0000982
+ACE2,Q9BYF1,59272,angiotensin converting enzyme 2,ACEH,DB09019,Bromhexine,binder,https://go.drugbank.com/drugs/DB09019#BE0000982
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB05243,XL019,not defined,https://go.drugbank.com/drugs/DB05243#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB04716,"2-tert-butyl-9-fluoro-1,6-dihydrobenzo[h]imidazo[4,5-f]isoquinolin-7-one",not defined,https://go.drugbank.com/drugs/DB04716#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB07161,5-phenyl-1H-indazol-3-amine,not defined,https://go.drugbank.com/drugs/DB07161#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB07162,4-(3-amino-1H-indazol-5-yl)-N-tert-butylbenzenesulfonamide,not defined,https://go.drugbank.com/drugs/DB07162#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB08067,4-[(2-{4-[(CYCLOPROPYLCARBAMOYL)AMINO]-1H-PYRAZOL-3-YL}-1H-BENZIMIDAZOL-6-YL)METHYL]MORPHOLIN-4-IUM,not defined,https://go.drugbank.com/drugs/DB08067#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB08877,Ruxolitinib,inhibitor,https://go.drugbank.com/drugs/DB08877#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB08895,Tofacitinib,"antagonist,inhibitor",https://go.drugbank.com/drugs/DB08895#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB11817,Baricitinib,inhibitor,https://go.drugbank.com/drugs/DB11817#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB12500,Fedratinib,inhibitor,https://go.drugbank.com/drugs/DB12500#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB11986,Entrectinib,inhibitor,https://go.drugbank.com/drugs/DB11986#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB15035,Zanubrutinib,inhibitor,https://go.drugbank.com/drugs/DB15035#BE0002408
+JAK2,O60674,3717,Janus kinase 2,JTK10,DB15822,Pralsetinib,inhibitor,https://go.drugbank.com/drugs/DB15822#BE0002408
+MAPK3,P27361,5595,mitogen-activated protein kinase 3,ERK1; ERT2; ERK-1; PRKM3; P44ERK1; P44MAPK; HS44KDAP; HUMKER1A; p44-ERK1; p44-MAPK,DB00605,Sulindac,inhibitor,https://go.drugbank.com/drugs/DB00605#BE0001062
+MAPK3,P27361,5595,mitogen-activated protein kinase 3,ERK1; ERT2; ERK-1; PRKM3; P44ERK1; P44MAPK; HS44KDAP; HUMKER1A; p44-ERK1; p44-MAPK,DB01169,Arsenic trioxide,inducer,https://go.drugbank.com/drugs/DB01169#BE0001062
+MAPK3,P27361,5595,mitogen-activated protein kinase 3,ERK1; ERT2; ERK-1; PRKM3; P44ERK1; P44MAPK; HS44KDAP; HUMKER1A; p44-ERK1; p44-MAPK,DB02733,Purvalanol,inhibitor,https://go.drugbank.com/drugs/DB02733#BE0001062
+MAPK3,P27361,5595,mitogen-activated protein kinase 3,ERK1; ERT2; ERK-1; PRKM3; P44ERK1; P44MAPK; HS44KDAP; HUMKER1A; p44-ERK1; p44-MAPK,DB06195,Seliciclib,not defined,https://go.drugbank.com/drugs/DB06195#BE0001062
+MAPK3,P27361,5595,mitogen-activated protein kinase 3,ERK1; ERT2; ERK-1; PRKM3; P44ERK1; P44MAPK; HS44KDAP; HUMKER1A; p44-ERK1; p44-MAPK,DB04604,5-iodotubercidin,not defined,https://go.drugbank.com/drugs/DB04604#BE0001062
+MAPK3,P27361,5595,mitogen-activated protein kinase 3,ERK1; ERT2; ERK-1; PRKM3; P44ERK1; P44MAPK; HS44KDAP; HUMKER1A; p44-ERK1; p44-MAPK,DB13930,Ulixertinib,inhibitor,https://go.drugbank.com/drugs/DB13930#BE0001062
+MAPK3,P27361,5595,mitogen-activated protein kinase 3,ERK1; ERT2; ERK-1; PRKM3; P44ERK1; P44MAPK; HS44KDAP; HUMKER1A; p44-ERK1; p44-MAPK,DB08862,Cholecystokinin,not defined,https://go.drugbank.com/drugs/DB08862#BE0001062
+SMAD2,Q15796,4087,SMAD family member 2,JV18; MADH2; MADR2; JV18-1; hMAD-2; hSMAD2,DB04522,Dexfosfoserine,not defined,https://go.drugbank.com/drugs/DB04522#BE0004445
+CCR2,P41597,729230,C-C motif chemokine receptor 2,CKR2; CCR-2; CCR2A; CCR2B; CD192; CKR2A; CKR2B; CMKBR2; MCP-1-R; CC-CKR-2,DB05130,INCB3284,not defined,https://go.drugbank.com/drugs/DB05130#BE0003387
+CCR2,P41597,729230,C-C motif chemokine receptor 2,CKR2; CCR-2; CCR2A; CCR2B; CD192; CKR2A; CKR2B; CMKBR2; MCP-1-R; CC-CKR-2,DB05159,CCX915,not defined,https://go.drugbank.com/drugs/DB05159#BE0003387
+CCR2,P41597,729230,C-C motif chemokine receptor 2,CKR2; CCR-2; CCR2A; CCR2B; CD192; CKR2A; CKR2B; CMKBR2; MCP-1-R; CC-CKR-2,DB12520,Plozalizumab,not defined,https://go.drugbank.com/drugs/DB12520#BE0003387
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB01268,Sunitinib,inhibitor,https://go.drugbank.com/drugs/DB01268#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB00619,Imatinib,antagonist,https://go.drugbank.com/drugs/DB00619#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB00102,Becaplermin,not defined,https://go.drugbank.com/drugs/DB00102#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB12742,Amuvatinib,not defined,https://go.drugbank.com/drugs/DB12742#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB05146,XL820,not defined,https://go.drugbank.com/drugs/DB05146#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB06043,Olaratumab,antagonist,https://go.drugbank.com/drugs/DB06043#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB06589,Pazopanib,inhibitor,https://go.drugbank.com/drugs/DB06589#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB06595,Midostaurin,"antagonist,inhibitor",https://go.drugbank.com/drugs/DB06595#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB08896,Regorafenib,inhibitor,https://go.drugbank.com/drugs/DB08896#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB08901,Ponatinib,inhibitor,https://go.drugbank.com/drugs/DB08901#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB09078,Lenvatinib,inhibitor,https://go.drugbank.com/drugs/DB09078#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB09079,Nintedanib,inhibitor,https://go.drugbank.com/drugs/DB09079#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB10772,Foreskin keratinocyte (neonatal),agonist,https://go.drugbank.com/drugs/DB10772#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB12147,Erdafitinib,substrate,https://go.drugbank.com/drugs/DB12147#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB14840,Ripretinib,inhibitor,https://go.drugbank.com/drugs/DB14840#BE0000852
+PDGFRA,P16234,5156,platelet derived growth factor receptor alpha,CD140A; PDGFR2; PDGFR-2,DB11800,Tivozanib,inhibitor,https://go.drugbank.com/drugs/DB11800#BE0000852
+CCL5,P13501,6352,C-C motif chemokine ligand 5,SISd; eoCP; SCYA5; RANTES; TCP228; D17S136E; SIS-delta,DB02322,Heparin Disaccharide I-S,not defined,https://go.drugbank.com/drugs/DB02322#BE0000975
+CCL5,P13501,6352,C-C motif chemokine ligand 5,SISd; eoCP; SCYA5; RANTES; TCP228; D17S136E; SIS-delta,DB02353,Heparin Disaccharide Iii-S,not defined,https://go.drugbank.com/drugs/DB02353#BE0000975
+IL17A,Q16552,3605,interleukin 17A,IL17; CTLA8; IL-17; ILA17; CTLA-8; IL-17A,DB09029,Secukinumab,antagonist,https://go.drugbank.com/drugs/DB09029#BE0005863
+IL17A,Q16552,3605,interleukin 17A,IL17; CTLA8; IL-17; ILA17; CTLA-8; IL-17A,DB11569,Ixekizumab,antibody,https://go.drugbank.com/drugs/DB11569#BE0005863
+COMP,P49747,1311,cartilage oligomeric matrix protein,MED; CTS2; EDM1; EPD1; TSP5; PSACH; THBS5,DB01373,Calcium,not defined,https://go.drugbank.com/drugs/DB01373#BE0000899
+HIF1A,Q16665,3091,hypoxia inducible factor 1 subunit alpha,HIF1; MOP1; PASD8; HIF-1A; bHLHe78; HIF-1alpha; HIF1-ALPHA; HIF-1-alpha,DB02342,2-Methoxyestradiol,not defined,https://go.drugbank.com/drugs/DB02342#BE0002374
+HIF1A,Q16665,3091,hypoxia inducible factor 1 subunit alpha,HIF1; MOP1; PASD8; HIF-1A; bHLHe78; HIF-1alpha; HIF1-ALPHA; HIF-1-alpha,DB06082,PX-478,not defined,https://go.drugbank.com/drugs/DB06082#BE0002374
+HIF1A,Q16665,3091,hypoxia inducible factor 1 subunit alpha,HIF1; MOP1; PASD8; HIF-1A; bHLHe78; HIF-1alpha; HIF1-ALPHA; HIF-1-alpha,DB05959,ENMD-1198,not defined,https://go.drugbank.com/drugs/DB05959#BE0002374
+HIF1A,Q16665,3091,hypoxia inducible factor 1 subunit alpha,HIF1; MOP1; PASD8; HIF-1A; bHLHe78; HIF-1alpha; HIF1-ALPHA; HIF-1-alpha,DB08687,FG-2216,not defined,https://go.drugbank.com/drugs/DB08687#BE0002374
+HIF1A,Q16665,3091,hypoxia inducible factor 1 subunit alpha,HIF1; MOP1; PASD8; HIF-1A; bHLHe78; HIF-1alpha; HIF1-ALPHA; HIF-1-alpha,DB01136,Carvedilol,modulator,https://go.drugbank.com/drugs/DB01136#BE0002374
+HIF1A,Q16665,3091,hypoxia inducible factor 1 subunit alpha,HIF1; MOP1; PASD8; HIF-1A; bHLHe78; HIF-1alpha; HIF1-ALPHA; HIF-1-alpha,DB01275,Hydralazine,inducer,https://go.drugbank.com/drugs/DB01275#BE0002374
+IL4,P05112,3565,interleukin 4,BSF1; IL-4; BCGF1; BSF-1; BCGF-1,DB06560,Pascolizumab,not defined,https://go.drugbank.com/drugs/DB06560#BE0003520
+ACTA2,P62736,59,"actin alpha 2, smooth muscle",ACTSA,DB12695,Phenethyl Isothiocyanate,not defined,https://go.drugbank.com/drugs/DB12695#BE0005076
+CXCR4,P61073,7852,C-X-C motif chemokine receptor 4,FB22; HM89; LAP3; LCR1; NPYR; WHIM; CD184; LAP-3; LESTR; NPY3R; NPYRL; WHIMS; HSY3RR; NPYY3R; D2S201E,DB00452,Framycetin,antagonist,https://go.drugbank.com/drugs/DB00452#BE0000919
+CXCR4,P61073,7852,C-X-C motif chemokine receptor 4,FB22; HM89; LAP3; LCR1; NPYR; WHIM; CD184; LAP-3; LESTR; NPY3R; NPYRL; WHIMS; HSY3RR; NPYY3R; D2S201E,DB05501,AMD-070,not defined,https://go.drugbank.com/drugs/DB05501#BE0000919
+CXCR4,P61073,7852,C-X-C motif chemokine receptor 4,FB22; HM89; LAP3; LCR1; NPYR; WHIM; CD184; LAP-3; LESTR; NPY3R; NPYRL; WHIMS; HSY3RR; NPYY3R; D2S201E,DB06809,Plerixafor,antagonist,https://go.drugbank.com/drugs/DB06809#BE0000919
+CXCR4,P61073,7852,C-X-C motif chemokine receptor 4,FB22; HM89; LAP3; LCR1; NPYR; WHIM; CD184; LAP-3; LESTR; NPY3R; NPYRL; WHIMS; HSY3RR; NPYY3R; D2S201E,DB12698,Ibalizumab,antagonist,https://go.drugbank.com/drugs/DB12698#BE0000919
+PDGFD,Q9GZP0,80310,platelet derived growth factor D,IEGF; SCDGFB; MSTP036; SCDGF-B,DB05139,CR002,not defined,https://go.drugbank.com/drugs/DB05139#BE0003411
+PDGFD,Q9GZP0,80310,platelet derived growth factor D,IEGF; SCDGFB; MSTP036; SCDGF-B,DB05465,Tandutinib,not defined,https://go.drugbank.com/drugs/DB05465#BE0003411
+ICAM1,P05362,3383,intercellular adhesion molecule 1,BB2; CD54; P3.58,DB00108,Natalizumab,not defined,https://go.drugbank.com/drugs/DB00108#BE0001085
+ICAM1,P05362,3383,intercellular adhesion molecule 1,BB2; CD54; P3.58,DB08818,Hyaluronic acid,"inhibitor,binder",https://go.drugbank.com/drugs/DB08818#BE0001085
+ICAM1,P05362,3383,intercellular adhesion molecule 1,BB2; CD54; P3.58,DB12598,Nafamostat,inhibitor,https://go.drugbank.com/drugs/DB12598#BE0001085
+LOX,P28300,4015,lysyl oxidase,AAT10,DB09130,Copper,cofactor,https://go.drugbank.com/drugs/DB09130#BE0008684
+LOX,P28300,4015,lysyl oxidase,AAT10,DB06778,Cupric sulfate,inducer,https://go.drugbank.com/drugs/DB06778#BE0008684
+TGFB1,P01137,7040,transforming growth factor beta 1,CED; LAP; DPD1; TGFB; IBDIMDE; TGFbeta; TGF-beta1,DB00070,Hyaluronidase (ovine),inhibitor,https://go.drugbank.com/drugs/DB00070#BE0000984
+TGFB1,P01137,7040,transforming growth factor beta 1,CED; LAP; DPD1; TGFB; IBDIMDE; TGFbeta; TGF-beta1,DB06205,Hyaluronidase (human recombinant),inhibitor,https://go.drugbank.com/drugs/DB06205#BE0000984
+TGFB1,P01137,7040,transforming growth factor beta 1,CED; LAP; DPD1; TGFB; IBDIMDE; TGFbeta; TGF-beta1,DB10770,Foreskin fibroblast (neonatal),agonist,https://go.drugbank.com/drugs/DB10770#BE0000984
+TGFB1,P01137,7040,transforming growth factor beta 1,CED; LAP; DPD1; TGFB; IBDIMDE; TGFbeta; TGF-beta1,DB10772,Foreskin keratinocyte (neonatal),agonist,https://go.drugbank.com/drugs/DB10772#BE0000984
+TGFB1,P01137,7040,transforming growth factor beta 1,CED; LAP; DPD1; TGFB; IBDIMDE; TGFbeta; TGF-beta1,DB01162,Terazosin,inducer,https://go.drugbank.com/drugs/DB01162#BE0000984
+TGFB1,P01137,7040,transforming growth factor beta 1,CED; LAP; DPD1; TGFB; IBDIMDE; TGFbeta; TGF-beta1,DB14740,Hyaluronidase,inhibitor,https://go.drugbank.com/drugs/DB14740#BE0000984
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB00039,Palifermin,agonist,https://go.drugbank.com/drugs/DB00039#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB05014,XL999,not defined,https://go.drugbank.com/drugs/DB05014#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB07525,"3-(3-methoxybenzyl)-1H-pyrrolo[2,3-b]pyridine",not defined,https://go.drugbank.com/drugs/DB07525#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB07840,"(E)-[4-(3,5-Difluorophenyl)-3H-pyrrolo[2,3-b]pyridin-3-ylidene](3-methoxyphenyl)methanol",not defined,https://go.drugbank.com/drugs/DB07840#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB08577,3-[(3-(2-CARBOXYETHYL)-4-METHYLPYRROL-2-YL)METHYLENE]-2-INDOLINONE,not defined,https://go.drugbank.com/drugs/DB08577#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB02058,3-[4-(1-formylpiperazin-4-yl)-benzylidenyl]-2-indolinone,not defined,https://go.drugbank.com/drugs/DB02058#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB08896,Regorafenib,inhibitor,https://go.drugbank.com/drugs/DB08896#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB08901,Ponatinib,inhibitor,https://go.drugbank.com/drugs/DB08901#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB00398,Sorafenib,inhibitor,https://go.drugbank.com/drugs/DB00398#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB09078,Lenvatinib,inhibitor,https://go.drugbank.com/drugs/DB09078#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB09079,Nintedanib,inhibitor,https://go.drugbank.com/drugs/DB09079#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB01109,Heparin,not defined,https://go.drugbank.com/drugs/DB01109#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB12147,Erdafitinib,inhibitor,https://go.drugbank.com/drugs/DB12147#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB15102,Pemigatinib,inhibitor,https://go.drugbank.com/drugs/DB15102#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB15685,Selpercatinib,inhibitor,https://go.drugbank.com/drugs/DB15685#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB15822,Pralsetinib,inhibitor,https://go.drugbank.com/drugs/DB15822#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB11800,Tivozanib,inhibitor,https://go.drugbank.com/drugs/DB11800#BE0002131
+FGFR1,P11362,2260,fibroblast growth factor receptor 1,CEK; FLG; HH2; OGD; ECCL; FLT2; KAL2; BFGFR; CD331; FGFBR; FLT-2; HBGFR; N-SAM; FGFR-1; HRTFDS; bFGF-R-1,DB11886,Infigratinib,inhibitor,https://go.drugbank.com/drugs/DB11886#BE0002131
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB01996,3-Methylpyridine,not defined,https://go.drugbank.com/drugs/DB01996#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB02071,WAY-151693,not defined,https://go.drugbank.com/drugs/DB02071#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB02697,Hydroxyaminovaline,not defined,https://go.drugbank.com/drugs/DB02697#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB03033,4-methoxybenzenesulfinate,not defined,https://go.drugbank.com/drugs/DB03033#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB04759,"PYRIMIDINE-4,6-DICARBOXYLIC ACID BIS-(3-METHYL-BENZYLAMIDE)",not defined,https://go.drugbank.com/drugs/DB04759#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB04760,"PYRIMIDINE-4,6-DICARBOXYLIC ACID BIS-(4-FLUORO-3-METHYL-BENZYLAMIDE)",not defined,https://go.drugbank.com/drugs/DB04760#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB04761,"PYRIMIDINE-4,6-DICARBOXYLIC ACID BIS-[(PYRIDIN-3-YLMETHYL)-AMIDE]",not defined,https://go.drugbank.com/drugs/DB04761#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB06423,Endostatin,not defined,https://go.drugbank.com/drugs/DB06423#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB00786,Marimastat,inhibitor,https://go.drugbank.com/drugs/DB00786#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB07013,TERT-BUTYL 4-({[4-(BUT-2-YN-1-YLAMINO)PHENYL]SULFONYL}METHYL)-4-[(HYDROXYAMINO)CARBONYL]PIPERIDINE-1-CARBOXYLATE,not defined,https://go.drugbank.com/drugs/DB07013#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB02049,2-{4-[4-(4-Chloro-Phenoxy)-Benzenesulfonyl]-Tetrahydro-Pyran-4-Yl}-N-Hydroxy-Acetamide,not defined,https://go.drugbank.com/drugs/DB02049#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB07827,"4-{[1-METHYL-2,4-DIOXO-6-(3-PHENYLPROP-1-YN-1-YL)-1,4-DIHYDROQUINAZOLIN-3(2H)-YL]METHYL}BENZOIC ACID",not defined,https://go.drugbank.com/drugs/DB07827#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB08388,"5-(2-ETHOXYETHYL)-5-[4-(4-FLUOROPHENOXY)PHENOXY]PYRIMIDINE-2,4,6(1H,3H,5H)-TRIONE",not defined,https://go.drugbank.com/drugs/DB08388#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB08490,CTS-1027,not defined,https://go.drugbank.com/drugs/DB08490#BE0000966
+MMP13,P45452,4322,matrix metallopeptidase 13,CLG3; MDST; MANDP1; MMP-13,DB08561,"BENZYL 6-BENZYL-5,7-DIOXO-6,7-DIHYDRO-5H-[1,3]THIAZOLO[3,2-C]PYRIMIDINE-2-CARBOXYLATE",not defined,https://go.drugbank.com/drugs/DB08561#BE0000966
+STAT5B,P51692,6777,signal transducer and activator of transcription 5B,STAT5; GHISID2,DB01254,Dasatinib,inhibitor,https://go.drugbank.com/drugs/DB01254#BE0000891
+FOS,P01100,2353,"Fos proto-oncogene, AP-1 transcription factor subunit",p55; AP-1; C-FOS,DB00852,Pseudoephedrine,inhibitor,https://go.drugbank.com/drugs/DB00852#BE0004924
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB00786,Marimastat,inhibitor,https://go.drugbank.com/drugs/DB00786#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB01017,Minocycline,inhibitor,https://go.drugbank.com/drugs/DB01017#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB01949,"2-Amino-N,3,3-Trimethylbutanamide",not defined,https://go.drugbank.com/drugs/DB01949#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB03683,2-{[Formyl(Hydroxy)Amino]Methyl}-4-Methylpentanoic Acid,not defined,https://go.drugbank.com/drugs/DB03683#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB05387,AE-941,not defined,https://go.drugbank.com/drugs/DB05387#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB05495,PG-530742,not defined,https://go.drugbank.com/drugs/DB05495#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB06423,Endostatin,not defined,https://go.drugbank.com/drugs/DB06423#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB01197,Captopril,inhibitor,https://go.drugbank.com/drugs/DB01197#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB07117,"5-(4-PHENOXYPHENYL)-5-(4-PYRIMIDIN-2-YLPIPERAZIN-1-YL)PYRIMIDINE-2,4,6(2H,3H)-TRIONE",not defined,https://go.drugbank.com/drugs/DB07117#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB07246,"(2R)-2-AMINO-3,3,3-TRIFLUORO-N-HYDROXY-2-{[(4-PHENOXYPHENYL)SULFONYL]METHYL}PROPANAMIDE",not defined,https://go.drugbank.com/drugs/DB07246#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB07285,"(3R)-4,4-DIFLUORO-3-[(4-METHOXYPHENYL)SULFONYL]BUTANOIC ACID",not defined,https://go.drugbank.com/drugs/DB07285#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB00143,Glutathione,not defined,https://go.drugbank.com/drugs/DB00143#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB01593,Zinc,not defined,https://go.drugbank.com/drugs/DB01593#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB14487,Zinc acetate,not defined,https://go.drugbank.com/drugs/DB14487#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB14533,Zinc chloride,binder,https://go.drugbank.com/drugs/DB14533#BE0000058
+MMP9,P14780,4318,matrix metallopeptidase 9,GELB; CLG4B; MMP-9; MANDP2,DB14548,"Zinc sulfate, unspecified form",binder,https://go.drugbank.com/drugs/DB14548#BE0000058
+TGFBR1,P36897,7046,transforming growth factor beta receptor 1,AAT5; ALK5; ESS1; LDS1; MSSE; SKR4; TBRI; ALK-5; LDS1A; LDS2A; TBR-i; TGFR-1; ACVRLK4; tbetaR-I,DB04434,Naphthyridine Inhibitor,not defined,https://go.drugbank.com/drugs/DB04434#BE0003782
+TGFBR1,P36897,7046,transforming growth factor beta receptor 1,AAT5; ALK5; ESS1; LDS1; MSSE; SKR4; TBRI; ALK-5; LDS1A; LDS2A; TBR-i; TGFR-1; ACVRLK4; tbetaR-I,DB07152,N-[4-(5-fluoro-6-methylpyridin-2-yl)-5-quinoxalin-6-yl-1H-imidazol-2-yl]acetamide,not defined,https://go.drugbank.com/drugs/DB07152#BE0003782
+TGFBR1,P36897,7046,transforming growth factor beta receptor 1,AAT5; ALK5; ESS1; LDS1; MSSE; SKR4; TBRI; ALK-5; LDS1A; LDS2A; TBR-i; TGFR-1; ACVRLK4; tbetaR-I,DB04480,"3-(4-Fluorophenyl)-2-(6-Methylpyridin-2-Yl)-5,6-Dihydro-4h-Pyrrolo[1,2-B]Pyrazole",not defined,https://go.drugbank.com/drugs/DB04480#BE0003782
+TGFBR1,P36897,7046,transforming growth factor beta receptor 1,AAT5; ALK5; ESS1; LDS1; MSSE; SKR4; TBRI; ALK-5; LDS1A; LDS2A; TBR-i; TGFR-1; ACVRLK4; tbetaR-I,DB07267,2-(6-methylpyridin-2-yl)-N-pyridin-4-ylquinazolin-4-amine,not defined,https://go.drugbank.com/drugs/DB07267#BE0003782
+TGFBR1,P36897,7046,transforming growth factor beta receptor 1,AAT5; ALK5; ESS1; LDS1; MSSE; SKR4; TBRI; ALK-5; LDS1A; LDS2A; TBR-i; TGFR-1; ACVRLK4; tbetaR-I,DB03921,4-(3-Pyridin-2-Yl-1h-Pyrazol-4-Yl)Quinoline,not defined,https://go.drugbank.com/drugs/DB03921#BE0003782
+TGFBR1,P36897,7046,transforming growth factor beta receptor 1,AAT5; ALK5; ESS1; LDS1; MSSE; SKR4; TBRI; ALK-5; LDS1A; LDS2A; TBR-i; TGFR-1; ACVRLK4; tbetaR-I,DB08450,N-1H-indazol-5-yl-2-(6-methylpyridin-2-yl)quinazolin-4-amine,not defined,https://go.drugbank.com/drugs/DB08450#BE0003782
+TGFBR1,P36897,7046,transforming growth factor beta receptor 1,AAT5; ALK5; ESS1; LDS1; MSSE; SKR4; TBRI; ALK-5; LDS1A; LDS2A; TBR-i; TGFR-1; ACVRLK4; tbetaR-I,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0003782
+PIN1,Q13526,5300,"peptidylprolyl cis/trans isomerase, NIMA-interacting 1",DOD; UBL5,DB06867,"3,6,9,12,15,18-HEXAOXAICOSANE",not defined,https://go.drugbank.com/drugs/DB06867#BE0003739
+PIN1,Q13526,5300,"peptidylprolyl cis/trans isomerase, NIMA-interacting 1",DOD; UBL5,DB01766,Beta-(2-Naphthyl)-Alanine,not defined,https://go.drugbank.com/drugs/DB01766#BE0003739
+CCL3,P10147,6348,C-C motif chemokine ligand 3,MIP1A; SCYA3; G0S19-1; LD78ALPHA; MIP-1-alpha,DB05364,ROX-888,not defined,https://go.drugbank.com/drugs/DB05364#BE0002471
+HSPB1,P04792,3315,heat shock protein family B (small) member 1,CMT2F; HMN2B; HSP27; HSP28; Hsp25; SRP27; HS.76067; HEL-S-102,DB06094,Apatorsen,not defined,https://go.drugbank.com/drugs/DB06094#BE0003432
+HSPB1,P04792,3315,heat shock protein family B (small) member 1,CMT2F; HMN2B; HSP27; HSP28; Hsp25; SRP27; HS.76067; HEL-S-102,DB12695,Phenethyl Isothiocyanate,not defined,https://go.drugbank.com/drugs/DB12695#BE0003432
+HSPB1,P04792,3315,heat shock protein family B (small) member 1,CMT2F; HMN2B; HSP27; HSP28; Hsp25; SRP27; HS.76067; HEL-S-102,DB11638,Artenimol,ligand,https://go.drugbank.com/drugs/DB11638#BE0003432
+IL1A,P01583,3552,interleukin 1 alpha,IL1; IL-1A; IL1F1; IL1-ALPHA; IL-1 alpha,DB06372,Rilonacept,binder,https://go.drugbank.com/drugs/DB06372#BE0004734
+AKT1,P31749,207,AKT serine/threonine kinase 1,AKT; PKB; RAC; PRKBA; PKB-ALPHA; RAC-ALPHA,DB00171,ATP,not defined,https://go.drugbank.com/drugs/DB00171#BE0000428
+AKT1,P31749,207,AKT serine/threonine kinase 1,AKT; PKB; RAC; PRKBA; PKB-ALPHA; RAC-ALPHA,DB01169,Arsenic trioxide,inducer,https://go.drugbank.com/drugs/DB01169#BE0000428
+AKT1,P31749,207,AKT serine/threonine kinase 1,AKT; PKB; RAC; PRKBA; PKB-ALPHA; RAC-ALPHA,DB01863,"Inositol 1,3,4,5-Tetrakisphosphate",not defined,https://go.drugbank.com/drugs/DB01863#BE0000428
+AKT1,P31749,207,AKT serine/threonine kinase 1,AKT; PKB; RAC; PRKBA; PKB-ALPHA; RAC-ALPHA,DB05971,Archexin,not defined,https://go.drugbank.com/drugs/DB05971#BE0000428
+AKT1,P31749,207,AKT serine/threonine kinase 1,AKT; PKB; RAC; PRKBA; PKB-ALPHA; RAC-ALPHA,DB06486,Enzastaurin,not defined,https://go.drugbank.com/drugs/DB06486#BE0000428
+AKT1,P31749,207,AKT serine/threonine kinase 1,AKT; PKB; RAC; PRKBA; PKB-ALPHA; RAC-ALPHA,DB06641,Perifosine,not defined,https://go.drugbank.com/drugs/DB06641#BE0000428
+AKT1,P31749,207,AKT serine/threonine kinase 1,AKT; PKB; RAC; PRKBA; PKB-ALPHA; RAC-ALPHA,DB07584,"N-[2-(5-methyl-4H-1,2,4-triazol-3-yl)phenyl]-7H-pyrrolo[2,3-d]pyrimidin-4-amine",not defined,https://go.drugbank.com/drugs/DB07584#BE0000428
+AKT1,P31749,207,AKT serine/threonine kinase 1,AKT; PKB; RAC; PRKBA; PKB-ALPHA; RAC-ALPHA,DB07585,"5-(5-chloro-7H-pyrrolo[2,3-d]pyrimidin-4-yl)-4,5,6,7-tetrahydro-1H-imidazo[4,5-c]pyridine",not defined,https://go.drugbank.com/drugs/DB07585#BE0000428
+AKT1,P31749,207,AKT serine/threonine kinase 1,AKT; PKB; RAC; PRKBA; PKB-ALPHA; RAC-ALPHA,DB01645,Genistein,not defined,https://go.drugbank.com/drugs/DB01645#BE0000428
+AKT1,P31749,207,AKT serine/threonine kinase 1,AKT; PKB; RAC; PRKBA; PKB-ALPHA; RAC-ALPHA,DB02709,Resveratrol,inhibitor,https://go.drugbank.com/drugs/DB02709#BE0000428
+COL3A1,P02461,1281,collagen type III alpha 1 chain,EDS4A; EDSVASC; PMGEDSV,DB00048,Collagenase clostridium histolyticum,binder,https://go.drugbank.com/drugs/DB00048#BE0002130
+MYC,P01106,4609,"MYC proto-oncogene, bHLH transcription factor",MRTL; MYCC; c-Myc; bHLHe39,DB08813,Nadroparin,inhibitor,https://go.drugbank.com/drugs/DB08813#BE0004689
+MYC,P01106,4609,"MYC proto-oncogene, bHLH transcription factor",MRTL; MYCC; c-Myc; bHLHe39,DB00945,Acetylsalicylic acid,downregulator,https://go.drugbank.com/drugs/DB00945#BE0004689
+ACVR1B,P36896,91,activin A receptor type 1B,ALK4; SKR2; ACTRIB; ACVRLK4,DB00171,ATP,not defined,https://go.drugbank.com/drugs/DB00171#BE0000665
+ACVR1B,P36896,91,activin A receptor type 1B,ALK4; SKR2; ACTRIB; ACVRLK4,DB12010,Fostamatinib,inhibitor,https://go.drugbank.com/drugs/DB12010#BE0000665
+SOD1,P00441,6647,superoxide dismutase 1,ALS; SOD; ALS1; IPOA; STAHP; hSod1; HEL-S-44; homodimer,DB09096,Benzoyl peroxide,inhibitor,https://go.drugbank.com/drugs/DB09096#BE0010057
+CCL11,P51671,6356,C-C motif chemokine ligand 11,SCYA11,DB05429,CAT-213,not defined,https://go.drugbank.com/drugs/DB05429#BE0003389
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00521,Carteolol,antagonist,https://go.drugbank.com/drugs/DB00521#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00816,Orciprenaline,agonist,https://go.drugbank.com/drugs/DB00816#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00867,Ritodrine,agonist,https://go.drugbank.com/drugs/DB00867#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00871,Terbutaline,agonist,https://go.drugbank.com/drugs/DB00871#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00901,Bitolterol,not defined,https://go.drugbank.com/drugs/DB00901#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00938,Salmeterol,agonist,https://go.drugbank.com/drugs/DB00938#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00983,Formoterol,agonist,https://go.drugbank.com/drugs/DB00983#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01001,Salbutamol,agonist,https://go.drugbank.com/drugs/DB01001#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00373,Timolol,antagonist,https://go.drugbank.com/drugs/DB00373#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00571,Propranolol,antagonist,https://go.drugbank.com/drugs/DB00571#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00598,Labetalol,antagonist,https://go.drugbank.com/drugs/DB00598#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00612,Bisoprolol,antagonist,https://go.drugbank.com/drugs/DB00612#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00668,Epinephrine,agonist,https://go.drugbank.com/drugs/DB00668#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00852,Pseudoephedrine,partial agonist,https://go.drugbank.com/drugs/DB00852#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00866,Alprenolol,antagonist,https://go.drugbank.com/drugs/DB00866#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00960,Pindolol,partial agonist,https://go.drugbank.com/drugs/DB00960#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01064,Isoprenaline,"agonist,binder",https://go.drugbank.com/drugs/DB01064#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01151,Desipramine,antagonist,https://go.drugbank.com/drugs/DB01151#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01203,Nadolol,antagonist,https://go.drugbank.com/drugs/DB01203#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01210,Levobunolol,antagonist,https://go.drugbank.com/drugs/DB01210#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01214,Metipranolol,antagonist,https://go.drugbank.com/drugs/DB01214#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01274,Arformoterol,agonist,https://go.drugbank.com/drugs/DB01274#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01366,Procaterol,agonist,https://go.drugbank.com/drugs/DB01366#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01407,Clenbuterol,agonist,https://go.drugbank.com/drugs/DB01407#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01136,Carvedilol,antagonist,https://go.drugbank.com/drugs/DB01136#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01288,Fenoterol,agonist,https://go.drugbank.com/drugs/DB01288#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01291,Pirbuterol,agonist,https://go.drugbank.com/drugs/DB01291#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01580,Oxprenolol,antagonist,https://go.drugbank.com/drugs/DB01580#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01359,Penbutolol,"antagonist,partial agonist",https://go.drugbank.com/drugs/DB01359#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00368,Norepinephrine,agonist,https://go.drugbank.com/drugs/DB00368#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01408,Bambuterol,agonist,https://go.drugbank.com/drugs/DB01408#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB05039,Indacaterol,agonist,https://go.drugbank.com/drugs/DB05039#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB05849,NCX 950,not defined,https://go.drugbank.com/drugs/DB05849#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB06262,Droxidopa,agonist,https://go.drugbank.com/drugs/DB06262#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00264,Metoprolol,antagonist,https://go.drugbank.com/drugs/DB00264#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00195,Betaxolol,antagonist,https://go.drugbank.com/drugs/DB00195#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00489,Sotalol,antagonist,https://go.drugbank.com/drugs/DB00489#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01295,Bevantolol,antagonist,https://go.drugbank.com/drugs/DB01295#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01193,Acebutolol,partial agonist,https://go.drugbank.com/drugs/DB01193#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01102,Arbutamine,agonist,https://go.drugbank.com/drugs/DB01102#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00841,Dobutamine,agonist,https://go.drugbank.com/drugs/DB00841#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB07543,(S)-carazolol,not defined,https://go.drugbank.com/drugs/DB07543#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00449,Dipivefrin,agonist,https://go.drugbank.com/drugs/DB00449#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB08807,Bopindolol,partial agonist,https://go.drugbank.com/drugs/DB08807#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB08808,Bupranolol,antagonist,https://go.drugbank.com/drugs/DB08808#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB04861,Nebivolol,antagonist,https://go.drugbank.com/drugs/DB04861#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00925,Phenoxybenzamine,not defined,https://go.drugbank.com/drugs/DB00925#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01363,Ephedra sinica root,agonist,https://go.drugbank.com/drugs/DB01363#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB06216,Asenapine,antagonist,https://go.drugbank.com/drugs/DB06216#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00248,Cabergoline,binder,https://go.drugbank.com/drugs/DB00248#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00221,Isoetharine,agonist,https://go.drugbank.com/drugs/DB00221#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00335,Atenolol,antagonist,https://go.drugbank.com/drugs/DB00335#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00397,Phenylpropanolamine,agonist,https://go.drugbank.com/drugs/DB00397#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB09080,Olodaterol,agonist,https://go.drugbank.com/drugs/DB09080#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB09082,Vilanterol,agonist,https://go.drugbank.com/drugs/DB09082#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB04846,Celiprolol,agonist,https://go.drugbank.com/drugs/DB04846#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB13139,Levosalbutamol,agonist,https://go.drugbank.com/drugs/DB13139#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB09013,Befunolol,not defined,https://go.drugbank.com/drugs/DB09013#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB12248,Tulobuterol,not defined,https://go.drugbank.com/drugs/DB12248#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01917,Putrescine,not defined,https://go.drugbank.com/drugs/DB01917#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB03566,Spermidine,not defined,https://go.drugbank.com/drugs/DB03566#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB00127,Spermine,not defined,https://go.drugbank.com/drugs/DB00127#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01182,Propafenone,antagonist,https://go.drugbank.com/drugs/DB01182#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB09204,Arotinolol,antagonist,https://go.drugbank.com/drugs/DB09204#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB09273,Doxofylline,agonist,https://go.drugbank.com/drugs/DB09273#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB06814,Protokylol,agonist,https://go.drugbank.com/drugs/DB06814#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB11124,Racepinephrine,agonist,https://go.drugbank.com/drugs/DB11124#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB11587,Etafedrine,agonist,https://go.drugbank.com/drugs/DB11587#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB05590,Bedoradrine,agonist,https://go.drugbank.com/drugs/DB05590#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01238,Aripiprazole,ligand,https://go.drugbank.com/drugs/DB01238#BE0000694
+ADRB2,P07550,154,adrenoceptor beta 2,BAR; B2AR; ADRBR; ADRB2R; BETA2AR,DB01364,Ephedrine,agonist,https://go.drugbank.com/drugs/DB01364#BE0000694
+NOX1,Q9Y5S8,27035,NADPH oxidase 1,MOX1; NOH1; NOH-1; GP91-2,DB09140,Oxygen,"agonist,activator",https://go.drugbank.com/drugs/DB09140#BE0005803
+CXCL12,P48061,6387,C-X-C motif chemokine ligand 12,IRH; PBSF; SDF1; TLSF; TPAR1; SCYB12,DB05934,CTCE-0214,not defined,https://go.drugbank.com/drugs/DB05934#BE0001150
+CXCL12,P48061,6387,C-X-C motif chemokine ligand 12,IRH; PBSF; SDF1; TLSF; TPAR1; SCYB12,DB06822,Tinzaparin,binder,https://go.drugbank.com/drugs/DB06822#BE0001150
+IGF1,P05019,3479,insulin like growth factor 1,IGF; MGF; IGFI; IGF-I,DB01890,"N,N-Bis(3-(D-gluconamido)propyl)deoxycholamide",not defined,https://go.drugbank.com/drugs/DB01890#BE0003418
+IGF1,P05019,3479,insulin like growth factor 1,IGF; MGF; IGFI; IGF-I,DB02643,"N-Dodecyl-N,N-Dimethyl-3-Ammonio-1-Propanesulfonate",not defined,https://go.drugbank.com/drugs/DB02643#BE0003418
+BMP4,P12644,652,bone morphogenetic protein 4,ZYME; BMP2B; OFC11; BMP2B1; MCOPS6,DB01373,Calcium,not defined,https://go.drugbank.com/drugs/DB01373#BE0009000
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB02498,Carba-nicotinamide-adenine-dinucleotide,not defined,https://go.drugbank.com/drugs/DB02498#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB03072,"2-{3-[4-(4-Fluorophenyl)-3,6-Dihydro-1(2h)-Pyridinyl]Propyl}-8-Methyl-4(3h)-Quinazolinone",not defined,https://go.drugbank.com/drugs/DB03072#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB03073,3-Methoxybenzamide,not defined,https://go.drugbank.com/drugs/DB03073#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB03509,2-(4-Chlorophenyl)-5-Quinoxalinecarboxamide,not defined,https://go.drugbank.com/drugs/DB03509#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB03722,"3,4-Dihydro-5-Methyl-Isoquinolinone",not defined,https://go.drugbank.com/drugs/DB03722#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB02701,Nicotinamide,binder,https://go.drugbank.com/drugs/DB02701#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB13877,Iniparib,not defined,https://go.drugbank.com/drugs/DB13877#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB07096,"6-AMINO-BENZO[DE]ISOQUINOLINE-1,3-DIONE",not defined,https://go.drugbank.com/drugs/DB07096#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB07232,Veliparib,not defined,https://go.drugbank.com/drugs/DB07232#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB07330,A-620223,not defined,https://go.drugbank.com/drugs/DB07330#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB04010,2-(3'-Methoxyphenyl) Benzimidazole-4-Carboxamide,not defined,https://go.drugbank.com/drugs/DB04010#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB07787,"5-FLUORO-1-[4-(4-PHENYL-3,6-DIHYDROPYRIDIN-1(2H)-YL)BUTYL]QUINAZOLINE-2,4(1H,3H)-DIONE",not defined,https://go.drugbank.com/drugs/DB07787#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB02690,NU1025,not defined,https://go.drugbank.com/drugs/DB02690#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB09074,Olaparib,inhibitor,https://go.drugbank.com/drugs/DB09074#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB12332,Rucaparib,antagonist,https://go.drugbank.com/drugs/DB12332#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB11793,Niraparib,antagonist,https://go.drugbank.com/drugs/DB11793#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB00277,Theophylline,not defined,https://go.drugbank.com/drugs/DB00277#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB01593,Zinc,not defined,https://go.drugbank.com/drugs/DB01593#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB14487,Zinc acetate,not defined,https://go.drugbank.com/drugs/DB14487#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB14533,Zinc chloride,component of,https://go.drugbank.com/drugs/DB14533#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB11760,Talazoparib,inhibitor,https://go.drugbank.com/drugs/DB11760#BE0001717
+PARP1,P09874,142,poly(ADP-ribose) polymerase 1,PARP; PPOL; ADPRT; ARTD1; ADPRT1; PARP-1; ADPRT 1; pADPRT-1,DB14548,"Zinc sulfate, unspecified form",component of,https://go.drugbank.com/drugs/DB14548#BE0001717
