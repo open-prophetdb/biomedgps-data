@@ -1,0 +1,451 @@
+source_name	source_type	source_id	target_name	target_type	target_id	relation_type	resource
+IFNG	Gene	ENTREZ:3458	Glucosamine	Compound	DrugBank:DB01296	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+IFNG	Gene	ENTREZ:3458	Foreskin fibroblast (neonatal)	Compound	DrugBank:DB10770	DGIDB::AGONIST::Gene:Compound	FIBROAD
+IFNG	Gene	ENTREZ:3458	Foreskin keratinocyte (neonatal)	Compound	DrugBank:DB10772	DGIDB::AGONIST::Gene:Compound	FIBROAD
+IFNG	Gene	ENTREZ:3458	Emapalumab	Compound	DrugBank:DB14724	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+MMP7	Gene	ENTREZ:4316	Marimastat	Compound	DrugBank:DB00786	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ITGB3	Gene	ENTREZ:3690	Abciximab	Compound	DrugBank:DB00054	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ITGB3	Gene	ENTREZ:3690	Tirofiban	Compound	DrugBank:DB00775	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ITGB3	Gene	ENTREZ:3690	Ferric cation	Compound	DrugBank:DB13949	DGIDB::BINDER::Gene:Compound	FIBROAD
+ITGB3	Gene	ENTREZ:3690	Tetraferric tricitrate decahydrate	Compound	DrugBank:DB14520	DGIDB::BINDER::Gene:Compound	FIBROAD
+ITGB3	Gene	ENTREZ:3690	Ferric maltol	Compound	DrugBank:DB15598	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+MMP1	Gene	ENTREZ:4312	Marimastat	Compound	DrugBank:DB00786	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+HMOX1	Gene	ENTREZ:3162	Vitamin E	Compound	DrugBank:DB00163	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+HMOX1	Gene	ENTREZ:3162	Polaprezinc	Compound	DrugBank:DB09221	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+HMOX1	Gene	ENTREZ:3162	alpha-Tocopherol succinate	Compound	DrugBank:DB14001	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+HMOX1	Gene	ENTREZ:3162	D-alpha-Tocopherol acetate	Compound	DrugBank:DB14002	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+SIRT2	Gene	ENTREZ:22933	Cambinol	Compound	DrugBank:DB15493	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+CXCL8	Gene	ENTREZ:3576	Rivanicline	Compound	DrugBank:DB05855	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+FGF1	Gene	ENTREZ:2246	Pentosan polysulfate	Compound	DrugBank:DB00686	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+FGF1	Gene	ENTREZ:2246	Amlexanox	Compound	DrugBank:DB01025	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGF1	Gene	ENTREZ:2246	Pazopanib	Compound	DrugBank:DB06589	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGF1	Gene	ENTREZ:2246	Foreskin fibroblast (neonatal)	Compound	DrugBank:DB10770	DGIDB::AGONIST::Gene:Compound	FIBROAD
+FGF1	Gene	ENTREZ:2246	Foreskin keratinocyte (neonatal)	Compound	DrugBank:DB10772	DGIDB::AGONIST::Gene:Compound	FIBROAD
+TGFBR2	Gene	ENTREZ:7048	Foreskin fibroblast (neonatal)	Compound	DrugBank:DB10770	DGIDB::AGONIST::Gene:Compound	FIBROAD
+TGFBR2	Gene	ENTREZ:7048	Foreskin keratinocyte (neonatal)	Compound	DrugBank:DB10772	DGIDB::AGONIST::Gene:Compound	FIBROAD
+TGFBR2	Gene	ENTREZ:7048	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Imatinib	Compound	DrugBank:DB00619	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Sorafenib	Compound	DrugBank:DB00398	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Dasatinib	Compound	DrugBank:DB01254	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Sunitinib	Compound	DrugBank:DB01268	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Pazopanib	Compound	DrugBank:DB06589	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Midostaurin	Compound	DrugBank:DB06595	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Regorafenib	Compound	DrugBank:DB08896	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Nintedanib	Compound	DrugBank:DB09079	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Trapidil	Compound	DrugBank:DB09283	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Polaprezinc	Compound	DrugBank:DB09221	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Foreskin fibroblast (neonatal)	Compound	DrugBank:DB10770	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Erdafitinib	Compound	DrugBank:DB12147	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Pexidartinib	Compound	DrugBank:DB12978	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Ripretinib	Compound	DrugBank:DB14840	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Pralsetinib	Compound	DrugBank:DB15822	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRB	Gene	ENTREZ:5159	Tivozanib	Compound	DrugBank:DB11800	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+CYBB	Gene	ENTREZ:1536	Dextromethorphan	Compound	DrugBank:DB00514	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+VIM	Gene	ENTREZ:7431	Artenimol	Compound	DrugBank:DB11638	DGIDB::BINDER::Gene:Compound	FIBROAD
+COL1A1	Gene	ENTREZ:1277	Collagenase clostridium histolyticum	Compound	DrugBank:DB00048	DGIDB::BINDER::Gene:Compound	FIBROAD
+COL1A1	Gene	ENTREZ:1277	Vonicog alfa	Compound	DrugBank:DB12872	DGIDB::BINDER::Gene:Compound	FIBROAD
+COL1A1	Gene	ENTREZ:1277	Von Willebrand factor human	Compound	DrugBank:DB13133	DGIDB::BINDER::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Etanercept	Compound	DrugBank:DB00005	DGIDB::ANTIBODY::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Adalimumab	Compound	DrugBank:DB00051	DGIDB::ANTIBODY::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Infliximab	Compound	DrugBank:DB00065	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Thalidomide	Compound	DrugBank:DB01041	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Chloroquine	Compound	DrugBank:DB00608	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Clenbuterol	Compound	DrugBank:DB01407	DGIDB::OTHER::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Pranlukast	Compound	DrugBank:DB01411	DGIDB::OTHER::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Amrinone	Compound	DrugBank:DB01427	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Certolizumab pegol	Compound	DrugBank:DB08904	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Pomalidomide	Compound	DrugBank:DB08910	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Golimumab	Compound	DrugBank:DB06674	DGIDB::ANTIBODY::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Epinephrine	Compound	DrugBank:DB00668	DGIDB::AGONIST::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Pseudoephedrine	Compound	DrugBank:DB00852	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Polaprezinc	Compound	DrugBank:DB09221	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Foreskin fibroblast (neonatal)	Compound	DrugBank:DB10770	DGIDB::AGONIST::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Foreskin keratinocyte (neonatal)	Compound	DrugBank:DB10772	DGIDB::AGONIST::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Glycyrrhizic acid	Compound	DrugBank:DB13751	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+TNF	Gene	ENTREZ:7124	Bryostatin 1	Compound	DrugBank:DB11752	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+MAPK9	Gene	ENTREZ:5601	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+HMGB1	Gene	ENTREZ:3146	Chloroquine	Compound	DrugBank:DB00608	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDCD1	Gene	ENTREZ:5133	Tislelizumab	Compound	DrugBank:DB14922	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDCD1	Gene	ENTREZ:5133	Dostarlimab	Compound	DrugBank:DB15627	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Perindopril	Compound	DrugBank:DB00790	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Rescinnamine	Compound	DrugBank:DB01180	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Fosinopril	Compound	DrugBank:DB00492	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Benazepril	Compound	DrugBank:DB00542	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Captopril	Compound	DrugBank:DB01197	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Enalapril	Compound	DrugBank:DB00584	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Lisinopril	Compound	DrugBank:DB00722	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Moexipril	Compound	DrugBank:DB00691	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Quinapril	Compound	DrugBank:DB00881	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Ramipril	Compound	DrugBank:DB00178	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Trandolapril	Compound	DrugBank:DB00519	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Spirapril	Compound	DrugBank:DB01348	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Cilazapril	Compound	DrugBank:DB01340	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Candoxatril	Compound	DrugBank:DB00616	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Temocapril	Compound	DrugBank:DB08836	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Enalaprilat	Compound	DrugBank:DB09477	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE	Gene	ENTREZ:1636	Zofenopril	Compound	DrugBank:DB13166	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PLAT	Gene	ENTREZ:5327	Aminocaproic acid	Compound	DrugBank:DB00513	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+PLAT	Gene	ENTREZ:5327	Iloprost	Compound	DrugBank:DB01088	DGIDB::OTHER::Gene:Compound	FIBROAD
+PLAT	Gene	ENTREZ:5327	Human C1-esterase inhibitor	Compound	DrugBank:DB06404	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PLAT	Gene	ENTREZ:5327	Conestat alfa	Compound	DrugBank:DB09228	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PLAT	Gene	ENTREZ:5327	Dexibuprofen	Compound	DrugBank:DB09213	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+ABCB4	Gene	ENTREZ:5244	Silodosin	Compound	DrugBank:DB06207	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+ABCB4	Gene	ENTREZ:5244	Etravirine	Compound	DrugBank:DB06414	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+IL1B	Gene	ENTREZ:3553	Minocycline	Compound	DrugBank:DB01017	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+IL1B	Gene	ENTREZ:3553	Canakinumab	Compound	DrugBank:DB06168	DGIDB::BINDER::Gene:Compound	FIBROAD
+IL1B	Gene	ENTREZ:3553	Gallium nitrate	Compound	DrugBank:DB05260	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+IL1B	Gene	ENTREZ:3553	Rilonacept	Compound	DrugBank:DB06372	DGIDB::BINDER::Gene:Compound	FIBROAD
+IL1B	Gene	ENTREZ:3553	Foreskin keratinocyte (neonatal)	Compound	DrugBank:DB10772	DGIDB::AGONIST::Gene:Compound	FIBROAD
+IL1B	Gene	ENTREZ:3553	Donepezil	Compound	DrugBank:DB00843	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+NFKB1	Gene	ENTREZ:4790	Thalidomide	Compound	DrugBank:DB01041	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+NFKB1	Gene	ENTREZ:4790	Pranlukast	Compound	DrugBank:DB01411	DGIDB::OTHER::Gene:Compound	FIBROAD
+NFKB1	Gene	ENTREZ:4790	Triflusal	Compound	DrugBank:DB08814	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+NFKB1	Gene	ENTREZ:4790	Pseudoephedrine	Compound	DrugBank:DB00852	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PROC	Gene	ENTREZ:5624	Sodium tetradecyl sulfate	Compound	DrugBank:DB00464	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PROC	Gene	ENTREZ:5624	Menadione	Compound	DrugBank:DB00170	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PROC	Gene	ENTREZ:5624	Antihemophilic factor, human recombinant	Compound	DrugBank:DB00025	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PROC	Gene	ENTREZ:5624	Protein S human	Compound	DrugBank:DB13149	DGIDB::BINDER::Gene:Compound	FIBROAD
+PROC	Gene	ENTREZ:5624	Antihemophilic factor human	Compound	DrugBank:DB13192	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+PROC	Gene	ENTREZ:5624	Kappadione	Compound	DrugBank:DB09332	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PROC	Gene	ENTREZ:5624	Lonoctocog alfa	Compound	DrugBank:DB13998	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PROC	Gene	ENTREZ:5624	Moroctocog alfa	Compound	DrugBank:DB13999	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PROC	Gene	ENTREZ:5624	Turoctocog alfa pegol	Compound	DrugBank:DB14738	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Cetuximab	Compound	DrugBank:DB00002	DGIDB::BINDER::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Gefitinib	Compound	DrugBank:DB00317	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Erlotinib	Compound	DrugBank:DB00530	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Lapatinib	Compound	DrugBank:DB01259	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Panitumumab	Compound	DrugBank:DB01269	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Lidocaine	Compound	DrugBank:DB00281	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Vandetanib	Compound	DrugBank:DB05294	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Afatinib	Compound	DrugBank:DB08916	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Necitumumab	Compound	DrugBank:DB09559	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Osimertinib	Compound	DrugBank:DB09330	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Icotinib	Compound	DrugBank:DB11737	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Olmutinib	Compound	DrugBank:DB13164	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Zalutumumab	Compound	DrugBank:DB12202	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Depatuxizumab mafodotin	Compound	DrugBank:DB11731	DGIDB::ANTIBODY::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Neratinib	Compound	DrugBank:DB11828	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Brigatinib	Compound	DrugBank:DB12267	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Foreskin keratinocyte (neonatal)	Compound	DrugBank:DB10772	DGIDB::AGONIST::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Dacomitinib	Compound	DrugBank:DB11963	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Zanubrutinib	Compound	DrugBank:DB15035	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Abivertinib	Compound	DrugBank:DB15327	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+EGFR	Gene	ENTREZ:1956	Amivantamab	Compound	DrugBank:DB16695	CTD::decreases^expression::Compound:Gene	FIBROAD
+MAPK1	Gene	ENTREZ:5594	Arsenic trioxide	Compound	DrugBank:DB01169	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+MAPK1	Gene	ENTREZ:5594	Purvalanol	Compound	DrugBank:DB02733	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MAPK1	Gene	ENTREZ:5594	Ulixertinib	Compound	DrugBank:DB13930	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+IL5	Gene	ENTREZ:3567	Pranlukast	Compound	DrugBank:DB01411	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+IL5	Gene	ENTREZ:3567	Mepolizumab	Compound	DrugBank:DB06612	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+IL5	Gene	ENTREZ:3567	Reslizumab	Compound	DrugBank:DB06602	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+CD274	Gene	ENTREZ:29126	CA-170	Compound	DrugBank:DB15772	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+CD274	Gene	ENTREZ:29126	anti-OX40 antibody BMS 986178	Compound	DrugBank:DB15773	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MMP8	Gene	ENTREZ:4317	Marimastat	Compound	DrugBank:DB00786	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JUN	Gene	ENTREZ:3725	Vinblastine	Compound	DrugBank:DB00570	DGIDB::OTHER::Gene:Compound	FIBROAD
+JUN	Gene	ENTREZ:3725	Irbesartan	Compound	DrugBank:DB01029	DGIDB::OTHER::Gene:Compound	FIBROAD
+JUN	Gene	ENTREZ:3725	Arsenic trioxide	Compound	DrugBank:DB01169	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+JUN	Gene	ENTREZ:3725	Adapalene	Compound	DrugBank:DB00210	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+IL6	Gene	ENTREZ:3569	Ginseng	Compound	DrugBank:DB01404	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+IL6	Gene	ENTREZ:3569	Siltuximab	Compound	DrugBank:DB09036	DGIDB::ANTIBODY::Gene:Compound	FIBROAD
+IL6	Gene	ENTREZ:3569	Polaprezinc	Compound	DrugBank:DB09221	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+IL6	Gene	ENTREZ:3569	Foreskin fibroblast (neonatal)	Compound	DrugBank:DB10770	DGIDB::AGONIST::Gene:Compound	FIBROAD
+IL6	Gene	ENTREZ:3569	Foreskin keratinocyte (neonatal)	Compound	DrugBank:DB10772	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Troglitazone	Compound	DrugBank:DB00197	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Rosiglitazone	Compound	DrugBank:DB00412	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Pioglitazone	Compound	DrugBank:DB01132	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Icosapent	Compound	DrugBank:DB00159	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	AMG-131	Compound	DrugBank:DB05490	DGIDB::PARTIAL AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Indomethacin	Compound	DrugBank:DB00328	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Nateglinide	Compound	DrugBank:DB00731	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Repaglinide	Compound	DrugBank:DB00912	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Mitiglinide	Compound	DrugBank:DB01252	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Glipizide	Compound	DrugBank:DB01067	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Telmisartan	Compound	DrugBank:DB00966	DGIDB::PARTIAL AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Balsalazide	Compound	DrugBank:DB01014	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Bezafibrate	Compound	DrugBank:DB01393	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Mesalazine	Compound	DrugBank:DB00244	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Sulfasalazine	Compound	DrugBank:DB00795	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Ibuprofen	Compound	DrugBank:DB01050	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Aleglitazar	Compound	DrugBank:DB08915	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Dexibuprofen	Compound	DrugBank:DB09213	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Omega-3 fatty acids	Compound	DrugBank:DB11133	DGIDB::BINDER::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Doconexent	Compound	DrugBank:DB03756	DGIDB::BINDER::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Lobeglitazone	Compound	DrugBank:DB09198	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Amiodarone	Compound	DrugBank:DB01118	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Capric acid	Compound	DrugBank:DB03600	DGIDB::BINDER::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Oleic Acid	Compound	DrugBank:DB04224	DGIDB::BINDER::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Flufenamic acid	Compound	DrugBank:DB02266	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Cannabidiol	Compound	DrugBank:DB09061	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Darglitazone	Compound	DrugBank:DB14034	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Isoflavone	Compound	DrugBank:DB12007	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PPARG	Gene	ENTREZ:5468	Clofazimine	Compound	DrugBank:DB00845	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+CEBPB	Gene	ENTREZ:1051	Quercetin	Compound	DrugBank:DB04216	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FN1	Gene	ENTREZ:2335	Ocriplasmin	Compound	DrugBank:DB08888	CTD::increases^cleavage::Compound:Gene	FIBROAD
+FN1	Gene	ENTREZ:2335	Zinc chloride	Compound	DrugBank:DB14533	DGIDB::BINDER::Gene:Compound	FIBROAD
+FN1	Gene	ENTREZ:2335	Zinc sulfate, unspecified form	Compound	DrugBank:DB14548	DGIDB::BINDER::Gene:Compound	FIBROAD
+JAK1	Gene	ENTREZ:3716	Ruxolitinib	Compound	DrugBank:DB08877	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK1	Gene	ENTREZ:3716	Tofacitinib	Compound	DrugBank:DB08895	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK1	Gene	ENTREZ:3716	Baricitinib	Compound	DrugBank:DB11817	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK1	Gene	ENTREZ:3716	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK1	Gene	ENTREZ:3716	Fedratinib	Compound	DrugBank:DB12500	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK1	Gene	ENTREZ:3716	Upadacitinib	Compound	DrugBank:DB15091	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK1	Gene	ENTREZ:3716	Pralsetinib	Compound	DrugBank:DB15822	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK1	Gene	ENTREZ:3716	Filgotinib	Compound	DrugBank:DB14845	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MMP3	Gene	ENTREZ:4314	Marimastat	Compound	DrugBank:DB00786	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+CCR5	Gene	ENTREZ:1234	Maraviroc	Compound	DrugBank:DB04835	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+CCR5	Gene	ENTREZ:1234	Leronlimab	Compound	DrugBank:DB05941	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+CCR5	Gene	ENTREZ:1234	Ibalizumab	Compound	DrugBank:DB12698	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+SERPINA1	Gene	ENTREZ:5265	Pentetic acid	Compound	DrugBank:DB14007	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+SERPINA1	Gene	ENTREZ:5265	Zinc chloride	Compound	DrugBank:DB14533	DGIDB::BINDER::Gene:Compound	FIBROAD
+SERPINA1	Gene	ENTREZ:5265	Zinc sulfate, unspecified form	Compound	DrugBank:DB14548	DGIDB::BINDER::Gene:Compound	FIBROAD
+SERPINA1	Gene	ENTREZ:5265	Daptomycin	Compound	DrugBank:DB00080	DGIDB::BINDER::Gene:Compound	FIBROAD
+MMP14	Gene	ENTREZ:4323	Marimastat	Compound	DrugBank:DB00786	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+CFTR	Gene	ENTREZ:1080	Bumetanide	Compound	DrugBank:DB00887	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+CFTR	Gene	ENTREZ:1080	Glyburide	Compound	DrugBank:DB01016	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+CFTR	Gene	ENTREZ:1080	Crofelemer	Compound	DrugBank:DB04941	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+CFTR	Gene	ENTREZ:1080	Ivacaftor	Compound	DrugBank:DB08820	DGIDB::AGONIST::Gene:Compound	FIBROAD
+CFTR	Gene	ENTREZ:1080	Ibuprofen	Compound	DrugBank:DB01050	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+CFTR	Gene	ENTREZ:1080	Lumacaftor	Compound	DrugBank:DB09280	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+CFTR	Gene	ENTREZ:1080	Dexibuprofen	Compound	DrugBank:DB09213	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+CFTR	Gene	ENTREZ:1080	Colforsin	Compound	DrugBank:DB02587	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+CFTR	Gene	ENTREZ:1080	ATP	Compound	DrugBank:DB00171	DGIDB::BINDER::Gene:Compound	FIBROAD
+CFTR	Gene	ENTREZ:1080	Tezacaftor	Compound	DrugBank:DB11712	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+CFTR	Gene	ENTREZ:1080	Elexacaftor	Compound	DrugBank:DB15444	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+SERPINE1	Gene	ENTREZ:5054	Urokinase	Compound	DrugBank:DB00013	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+SERPINE1	Gene	ENTREZ:5054	Troglitazone	Compound	DrugBank:DB00197	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+JAK3	Gene	ENTREZ:3718	Tofacitinib	Compound	DrugBank:DB08895	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK3	Gene	ENTREZ:3718	Baricitinib	Compound	DrugBank:DB11817	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK3	Gene	ENTREZ:3718	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK3	Gene	ENTREZ:3718	Zanubrutinib	Compound	DrugBank:DB15035	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK3	Gene	ENTREZ:3718	Ruxolitinib	Compound	DrugBank:DB08877	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+BCL2	Gene	ENTREZ:596	Paclitaxel	Compound	DrugBank:DB01229	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+BCL2	Gene	ENTREZ:596	Rasagiline	Compound	DrugBank:DB01367	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+BCL2	Gene	ENTREZ:596	Ibuprofen	Compound	DrugBank:DB01050	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+BCL2	Gene	ENTREZ:596	Venetoclax	Compound	DrugBank:DB11581	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+BCL2	Gene	ENTREZ:596	Dexibuprofen	Compound	DrugBank:DB09213	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+CCL2	Gene	ENTREZ:6347	Mimosine	Compound	DrugBank:DB01055	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+CCL2	Gene	ENTREZ:6347	Danazol	Compound	DrugBank:DB01406	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PLG	Gene	ENTREZ:5340	Tranexamic acid	Compound	DrugBank:DB00302	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PLG	Gene	ENTREZ:5340	Aminocaproic acid	Compound	DrugBank:DB00513	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PLG	Gene	ENTREZ:5340	Urokinase	Compound	DrugBank:DB00013	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PLG	Gene	ENTREZ:5340	Streptokinase	Compound	DrugBank:DB00086	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PLG	Gene	ENTREZ:5340	Tenecteplase	Compound	DrugBank:DB00031	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PLG	Gene	ENTREZ:5340	Alteplase	Compound	DrugBank:DB00009	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PLG	Gene	ENTREZ:5340	Anistreplase	Compound	DrugBank:DB00029	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PLG	Gene	ENTREZ:5340	Reteplase	Compound	DrugBank:DB00015	DGIDB::ACTIVATOR::Gene:Compound	FIBROAD
+PLG	Gene	ENTREZ:5340	Gabexate	Compound	DrugBank:DB12831	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MMP2	Gene	ENTREZ:4313	Marimastat	Compound	DrugBank:DB00786	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MMP2	Gene	ENTREZ:4313	Captopril	Compound	DrugBank:DB01197	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Palifermin	Compound	DrugBank:DB00039	DGIDB::AGONIST::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Thalidomide	Compound	DrugBank:DB01041	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Regorafenib	Compound	DrugBank:DB08896	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Ponatinib	Compound	DrugBank:DB08901	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Lenvatinib	Compound	DrugBank:DB09078	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Nintedanib	Compound	DrugBank:DB09079	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Sucrosofate	Compound	DrugBank:DB01901	DGIDB::BINDER::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Foreskin fibroblast (neonatal)	Compound	DrugBank:DB10770	DGIDB::AGONIST::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Foreskin keratinocyte (neonatal)	Compound	DrugBank:DB10772	DGIDB::AGONIST::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Erdafitinib	Compound	DrugBank:DB12147	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Pemigatinib	Compound	DrugBank:DB15102	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Selpercatinib	Compound	DrugBank:DB15685	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Pralsetinib	Compound	DrugBank:DB15822	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR2	Gene	ENTREZ:2263	Infigratinib	Compound	DrugBank:DB11886	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MTOR	Gene	ENTREZ:2475	Rimiducid	Compound	DrugBank:DB04974	DGIDB::BINDER::Gene:Compound	FIBROAD
+MTOR	Gene	ENTREZ:2475	Everolimus	Compound	DrugBank:DB01590	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MTOR	Gene	ENTREZ:2475	Temsirolimus	Compound	DrugBank:DB06287	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MTOR	Gene	ENTREZ:2475	Sirolimus	Compound	DrugBank:DB00877	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MTOR	Gene	ENTREZ:2475	Pimecrolimus	Compound	DrugBank:DB00337	DGIDB::AGONIST::Gene:Compound	FIBROAD
+MTOR	Gene	ENTREZ:2475	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PLAU	Gene	ENTREZ:5328	Amiloride	Compound	DrugBank:DB00594	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ANGPT2	Gene	ENTREZ:285	Faricimab	Compound	DrugBank:DB15303	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+PLAUR	Gene	ENTREZ:5329	Urokinase	Compound	DrugBank:DB00013	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+VEGFA	Gene	ENTREZ:7422	Minocycline	Compound	DrugBank:DB01017	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+VEGFA	Gene	ENTREZ:7422	Gliclazide	Compound	DrugBank:DB01120	DGIDB::OTHER::Gene:Compound	FIBROAD
+VEGFA	Gene	ENTREZ:7422	Carvedilol	Compound	DrugBank:DB01136	DGIDB::OTHER::Gene:Compound	FIBROAD
+VEGFA	Gene	ENTREZ:7422	Pegaptanib	Compound	DrugBank:DB04895	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+VEGFA	Gene	ENTREZ:7422	Vandetanib	Compound	DrugBank:DB05294	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+VEGFA	Gene	ENTREZ:7422	Dalteparin	Compound	DrugBank:DB06779	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+VEGFA	Gene	ENTREZ:7422	Aflibercept	Compound	DrugBank:DB08885	DGIDB::BINDER::Gene:Compound	FIBROAD
+VEGFA	Gene	ENTREZ:7422	Foreskin keratinocyte (neonatal)	Compound	DrugBank:DB10772	DGIDB::AGONIST::Gene:Compound	FIBROAD
+VEGFA	Gene	ENTREZ:7422	Brolucizumab	Compound	DrugBank:DB14864	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+VEGFA	Gene	ENTREZ:7422	Faricimab	Compound	DrugBank:DB15303	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+FGF2	Gene	ENTREZ:2247	Pentosan polysulfate	Compound	DrugBank:DB00686	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+FGF2	Gene	ENTREZ:2247	Sirolimus	Compound	DrugBank:DB00877	DGIDB::OTHER::Gene:Compound	FIBROAD
+FGF2	Gene	ENTREZ:2247	Sucralfate	Compound	DrugBank:DB00364	DGIDB::AGONIST::Gene:Compound	FIBROAD
+FYN	Gene	ENTREZ:2534	Dasatinib	Compound	DrugBank:DB01254	PrimeKG::target::Gene:Compound	FIBROAD
+FYN	Gene	ENTREZ:2534	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+VCAM1	Gene	ENTREZ:7412	Carvedilol	Compound	DrugBank:DB01136	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+VCAM1	Gene	ENTREZ:7412	Clove oil	Compound	DrugBank:DB11338	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ALDH2	Gene	ENTREZ:217	Disulfiram	Compound	DrugBank:DB00822	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ALDH2	Gene	ENTREZ:217	Guanidine	Compound	DrugBank:DB00536	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ALDH2	Gene	ENTREZ:217	Nitroglycerin	Compound	DrugBank:DB00727	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+ALDH2	Gene	ENTREZ:217	Amyl Nitrite	Compound	DrugBank:DB01612	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+ALDH2	Gene	ENTREZ:217	Benzyl alcohol	Compound	DrugBank:DB06770	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+ALDH2	Gene	ENTREZ:217	Nitric Oxide	Compound	DrugBank:DB00435	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ALDH2	Gene	ENTREZ:217	Paraldehyde	Compound	DrugBank:DB09117	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+ALDH2	Gene	ENTREZ:217	Pentaerythritol tetranitrate	Compound	DrugBank:DB06154	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+ALDH2	Gene	ENTREZ:217	Silodosin	Compound	DrugBank:DB06207	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+EGF	Gene	ENTREZ:1950	Sucralfate	Compound	DrugBank:DB00364	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+ELN	Gene	ENTREZ:2006	Rofecoxib	Compound	DrugBank:DB00533	DGIDB::OTHER::Gene:Compound	FIBROAD
+SIRT1	Gene	ENTREZ:23411	Selisistat	Compound	DrugBank:DB13978	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+SIRT1	Gene	ENTREZ:23411	Cambinol	Compound	DrugBank:DB15493	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+STAT3	Gene	ENTREZ:6774	OPB-111077	Compound	DrugBank:DB16630	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FLT4	Gene	ENTREZ:2324	Sorafenib	Compound	DrugBank:DB00398	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+FLT4	Gene	ENTREZ:2324	Sunitinib	Compound	DrugBank:DB01268	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FLT4	Gene	ENTREZ:2324	Axitinib	Compound	DrugBank:DB06626	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FLT4	Gene	ENTREZ:2324	Regorafenib	Compound	DrugBank:DB08896	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FLT4	Gene	ENTREZ:2324	Lenvatinib	Compound	DrugBank:DB09078	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FLT4	Gene	ENTREZ:2324	Nintedanib	Compound	DrugBank:DB09079	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FLT4	Gene	ENTREZ:2324	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FLT4	Gene	ENTREZ:2324	Selpercatinib	Compound	DrugBank:DB15685	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FLT4	Gene	ENTREZ:2324	Tivozanib	Compound	DrugBank:DB11800	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MAPK8	Gene	ENTREZ:5599	Tamoxifen	Compound	DrugBank:DB00675	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+ACE2	Gene	ENTREZ:59272	N-(2-Aminoethyl)-1-aziridineethanamine	Compound	DrugBank:DB15643	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ACE2	Gene	ENTREZ:59272	Chloroquine	Compound	DrugBank:DB00608	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+ACE2	Gene	ENTREZ:59272	Hydroxychloroquine	Compound	DrugBank:DB01611	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+ACE2	Gene	ENTREZ:59272	Bromhexine	Compound	DrugBank:DB09019	DGIDB::BINDER::Gene:Compound	FIBROAD
+JAK2	Gene	ENTREZ:3717	Ruxolitinib	Compound	DrugBank:DB08877	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK2	Gene	ENTREZ:3717	Tofacitinib	Compound	DrugBank:DB08895	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK2	Gene	ENTREZ:3717	Baricitinib	Compound	DrugBank:DB11817	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK2	Gene	ENTREZ:3717	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK2	Gene	ENTREZ:3717	Fedratinib	Compound	DrugBank:DB12500	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK2	Gene	ENTREZ:3717	Entrectinib	Compound	DrugBank:DB11986	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK2	Gene	ENTREZ:3717	Zanubrutinib	Compound	DrugBank:DB15035	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+JAK2	Gene	ENTREZ:3717	Pralsetinib	Compound	DrugBank:DB15822	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MAPK3	Gene	ENTREZ:5595	Sulindac	Compound	DrugBank:DB00605	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MAPK3	Gene	ENTREZ:5595	Arsenic trioxide	Compound	DrugBank:DB01169	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+MAPK3	Gene	ENTREZ:5595	Purvalanol	Compound	DrugBank:DB02733	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MAPK3	Gene	ENTREZ:5595	Ulixertinib	Compound	DrugBank:DB13930	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Sunitinib	Compound	DrugBank:DB01268	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Imatinib	Compound	DrugBank:DB00619	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Olaratumab	Compound	DrugBank:DB06043	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Pazopanib	Compound	DrugBank:DB06589	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Midostaurin	Compound	DrugBank:DB06595	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Regorafenib	Compound	DrugBank:DB08896	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Ponatinib	Compound	DrugBank:DB08901	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Lenvatinib	Compound	DrugBank:DB09078	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Nintedanib	Compound	DrugBank:DB09079	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Foreskin keratinocyte (neonatal)	Compound	DrugBank:DB10772	DGIDB::AGONIST::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Erdafitinib	Compound	DrugBank:DB12147	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Ripretinib	Compound	DrugBank:DB14840	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PDGFRA	Gene	ENTREZ:5156	Tivozanib	Compound	DrugBank:DB11800	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+IL17A	Gene	ENTREZ:3605	Secukinumab	Compound	DrugBank:DB09029	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+IL17A	Gene	ENTREZ:3605	Ixekizumab	Compound	DrugBank:DB11569	DGIDB::ANTIBODY::Gene:Compound	FIBROAD
+HIF1A	Gene	ENTREZ:3091	Carvedilol	Compound	DrugBank:DB01136	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+HIF1A	Gene	ENTREZ:3091	Hydralazine	Compound	DrugBank:DB01275	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+CXCR4	Gene	ENTREZ:7852	Framycetin	Compound	DrugBank:DB00452	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+CXCR4	Gene	ENTREZ:7852	Plerixafor	Compound	DrugBank:DB06809	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+CXCR4	Gene	ENTREZ:7852	Ibalizumab	Compound	DrugBank:DB12698	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ICAM1	Gene	ENTREZ:3383	Hyaluronic acid	Compound	DrugBank:DB08818	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ICAM1	Gene	ENTREZ:3383	Nafamostat	Compound	DrugBank:DB12598	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+LOX	Gene	ENTREZ:4015	Copper	Compound	DrugBank:DB09130	DGIDB::BINDER::Gene:Compound	FIBROAD
+LOX	Gene	ENTREZ:4015	Cupric sulfate	Compound	DrugBank:DB06778	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+TGFB1	Gene	ENTREZ:7040	Hyaluronidase (ovine)	Compound	DrugBank:DB00070	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+TGFB1	Gene	ENTREZ:7040	Hyaluronidase (human recombinant)	Compound	DrugBank:DB06205	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+TGFB1	Gene	ENTREZ:7040	Foreskin fibroblast (neonatal)	Compound	DrugBank:DB10770	DGIDB::AGONIST::Gene:Compound	FIBROAD
+TGFB1	Gene	ENTREZ:7040	Foreskin keratinocyte (neonatal)	Compound	DrugBank:DB10772	DGIDB::AGONIST::Gene:Compound	FIBROAD
+TGFB1	Gene	ENTREZ:7040	Terazosin	Compound	DrugBank:DB01162	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+TGFB1	Gene	ENTREZ:7040	Hyaluronidase	Compound	DrugBank:DB14740	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Palifermin	Compound	DrugBank:DB00039	DGIDB::AGONIST::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Regorafenib	Compound	DrugBank:DB08896	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Ponatinib	Compound	DrugBank:DB08901	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Sorafenib	Compound	DrugBank:DB00398	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Lenvatinib	Compound	DrugBank:DB09078	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Nintedanib	Compound	DrugBank:DB09079	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Erdafitinib	Compound	DrugBank:DB12147	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Pemigatinib	Compound	DrugBank:DB15102	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Selpercatinib	Compound	DrugBank:DB15685	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Pralsetinib	Compound	DrugBank:DB15822	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Tivozanib	Compound	DrugBank:DB11800	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FGFR1	Gene	ENTREZ:2260	Infigratinib	Compound	DrugBank:DB11886	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MMP13	Gene	ENTREZ:4322	Marimastat	Compound	DrugBank:DB00786	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+STAT5B	Gene	ENTREZ:6777	Dasatinib	Compound	DrugBank:DB01254	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+FOS	Gene	ENTREZ:2353	Pseudoephedrine	Compound	DrugBank:DB00852	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MMP9	Gene	ENTREZ:4318	Marimastat	Compound	DrugBank:DB00786	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MMP9	Gene	ENTREZ:4318	Minocycline	Compound	DrugBank:DB01017	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MMP9	Gene	ENTREZ:4318	Captopril	Compound	DrugBank:DB01197	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MMP9	Gene	ENTREZ:4318	Zinc chloride	Compound	DrugBank:DB14533	DGIDB::BINDER::Gene:Compound	FIBROAD
+MMP9	Gene	ENTREZ:4318	Zinc sulfate, unspecified form	Compound	DrugBank:DB14548	DGIDB::BINDER::Gene:Compound	FIBROAD
+TGFBR1	Gene	ENTREZ:7046	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+HSPB1	Gene	ENTREZ:3315	Artenimol	Compound	DrugBank:DB11638	DGIDB::BINDER::Gene:Compound	FIBROAD
+IL1A	Gene	ENTREZ:3552	Rilonacept	Compound	DrugBank:DB06372	DGIDB::BINDER::Gene:Compound	FIBROAD
+AKT1	Gene	ENTREZ:207	Arsenic trioxide	Compound	DrugBank:DB01169	DGIDB::MODULATOR::Gene:Compound	FIBROAD
+AKT1	Gene	ENTREZ:207	Resveratrol	Compound	DrugBank:DB02709	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+COL3A1	Gene	ENTREZ:1281	Collagenase clostridium histolyticum	Compound	DrugBank:DB00048	DGIDB::BINDER::Gene:Compound	FIBROAD
+MYC	Gene	ENTREZ:4609	Nadroparin	Compound	DrugBank:DB08813	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+MYC	Gene	ENTREZ:4609	Acetylsalicylic acid	Compound	DrugBank:DB00945	CTD::decreases^expression::Compound:Gene	FIBROAD
+ACVR1B	Gene	ENTREZ:91	Fostamatinib	Compound	DrugBank:DB12010	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+SOD1	Gene	ENTREZ:6647	Benzoyl peroxide	Compound	DrugBank:DB09096	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Carteolol	Compound	DrugBank:DB00521	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Orciprenaline	Compound	DrugBank:DB00816	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Ritodrine	Compound	DrugBank:DB00867	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Terbutaline	Compound	DrugBank:DB00871	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Salmeterol	Compound	DrugBank:DB00938	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Formoterol	Compound	DrugBank:DB00983	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Salbutamol	Compound	DrugBank:DB01001	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Timolol	Compound	DrugBank:DB00373	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Propranolol	Compound	DrugBank:DB00571	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Labetalol	Compound	DrugBank:DB00598	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Bisoprolol	Compound	DrugBank:DB00612	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Epinephrine	Compound	DrugBank:DB00668	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Pseudoephedrine	Compound	DrugBank:DB00852	DGIDB::PARTIAL AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Alprenolol	Compound	DrugBank:DB00866	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Pindolol	Compound	DrugBank:DB00960	DGIDB::PARTIAL AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Isoprenaline	Compound	DrugBank:DB01064	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Desipramine	Compound	DrugBank:DB01151	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Nadolol	Compound	DrugBank:DB01203	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Levobunolol	Compound	DrugBank:DB01210	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Metipranolol	Compound	DrugBank:DB01214	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Arformoterol	Compound	DrugBank:DB01274	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Procaterol	Compound	DrugBank:DB01366	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Clenbuterol	Compound	DrugBank:DB01407	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Carvedilol	Compound	DrugBank:DB01136	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Fenoterol	Compound	DrugBank:DB01288	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Pirbuterol	Compound	DrugBank:DB01291	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Oxprenolol	Compound	DrugBank:DB01580	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Penbutolol	Compound	DrugBank:DB01359	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Norepinephrine	Compound	DrugBank:DB00368	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Bambuterol	Compound	DrugBank:DB01408	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Indacaterol	Compound	DrugBank:DB05039	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Droxidopa	Compound	DrugBank:DB06262	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Metoprolol	Compound	DrugBank:DB00264	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Betaxolol	Compound	DrugBank:DB00195	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Sotalol	Compound	DrugBank:DB00489	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Bevantolol	Compound	DrugBank:DB01295	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Acebutolol	Compound	DrugBank:DB01193	DGIDB::PARTIAL AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Arbutamine	Compound	DrugBank:DB01102	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Dobutamine	Compound	DrugBank:DB00841	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Dipivefrin	Compound	DrugBank:DB00449	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Bopindolol	Compound	DrugBank:DB08807	DGIDB::PARTIAL AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Bupranolol	Compound	DrugBank:DB08808	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Nebivolol	Compound	DrugBank:DB04861	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Ephedra sinica root	Compound	DrugBank:DB01363	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Asenapine	Compound	DrugBank:DB06216	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Cabergoline	Compound	DrugBank:DB00248	DGIDB::BINDER::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Isoetharine	Compound	DrugBank:DB00221	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Atenolol	Compound	DrugBank:DB00335	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Phenylpropanolamine	Compound	DrugBank:DB00397	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Olodaterol	Compound	DrugBank:DB09080	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Vilanterol	Compound	DrugBank:DB09082	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Celiprolol	Compound	DrugBank:DB04846	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Levosalbutamol	Compound	DrugBank:DB13139	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Propafenone	Compound	DrugBank:DB01182	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Arotinolol	Compound	DrugBank:DB09204	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Doxofylline	Compound	DrugBank:DB09273	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Protokylol	Compound	DrugBank:DB06814	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Racepinephrine	Compound	DrugBank:DB11124	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Etafedrine	Compound	DrugBank:DB11587	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Bedoradrine	Compound	DrugBank:DB05590	DGIDB::AGONIST::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Aripiprazole	Compound	DrugBank:DB01238	DGIDB::BINDER::Gene:Compound	FIBROAD
+ADRB2	Gene	ENTREZ:154	Ephedrine	Compound	DrugBank:DB01364	DGIDB::AGONIST::Gene:Compound	FIBROAD
+NOX1	Gene	ENTREZ:27035	Oxygen	Compound	DrugBank:DB09140	DGIDB::AGONIST::Gene:Compound	FIBROAD
+CXCL12	Gene	ENTREZ:6387	Tinzaparin	Compound	DrugBank:DB06822	DGIDB::BINDER::Gene:Compound	FIBROAD
+PARP1	Gene	ENTREZ:142	Nicotinamide	Compound	DrugBank:DB02701	DGIDB::BINDER::Gene:Compound	FIBROAD
+PARP1	Gene	ENTREZ:142	Olaparib	Compound	DrugBank:DB09074	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
+PARP1	Gene	ENTREZ:142	Rucaparib	Compound	DrugBank:DB12332	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+PARP1	Gene	ENTREZ:142	Niraparib	Compound	DrugBank:DB11793	DGIDB::ANTAGONIST::Gene:Compound	FIBROAD
+PARP1	Gene	ENTREZ:142	Talazoparib	Compound	DrugBank:DB11760	DGIDB::INHIBITOR::Gene:Compound	FIBROAD
