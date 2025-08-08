@@ -111,12 +111,12 @@ function format_orphanet() {
     # Format the orphanet
     echo "Extracting entities from the orphanet"
     mkdir -p ${OUTPUT_DIR}/orphanet
-    if [ ! -f ${DATADIR}/orphanet/ORDO_en_4.5.owl ]; then
-        wget https://www.orphadata.com/data/ontologies/ordo/last_version/ORDO_en_4.5.owl -O ${DATADIR}/orphanet/ORDO_en_4.5.owl
+    if [ ! -f ${DATADIR}/orphanet/ORDO_en_4.6.owl ]; then
+        wget https://www.orphadata.com/data/ontologies/ordo/last_version/ORDO_en_4.6.owl -O ${DATADIR}/orphanet/ORDO_en_4.6.owl
     else
-        echo "ORDO_en_4.5.owl already exists, skipping download"
+        echo "ORDO_en_4.6.owl already exists, skipping download"
     fi
-    python ${DATADIR}/orphanet/format_orphanet.py entities -i ${DATADIR}/orphanet/ORDO_en_4.5.owl -o ${OUTPUT_DIR}/orphanet
+    python ${DATADIR}/orphanet/format_orphanet.py entities -i ${DATADIR}/orphanet/ORDO_en_4.6.owl -o ${OUTPUT_DIR}/orphanet
     printf "Finished extracting entities from orphanet\n\n"
 
 }

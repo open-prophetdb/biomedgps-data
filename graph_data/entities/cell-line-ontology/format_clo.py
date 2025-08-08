@@ -19,7 +19,7 @@ def entities(input, output):
             "Class ID",
             "Preferred Label",
             "Synonyms",
-            "definition",
+            "Definitions",
             "database_cross_reference",
         ]
     ]
@@ -35,7 +35,7 @@ def entities(input, output):
             "Class ID": "id",
             "Preferred Label": "name",
             "Synonyms": "synonyms",
-            "definition": "description",
+            "Definitions": "description",
             "database_cross_reference": "xrefs",
         }
     )
