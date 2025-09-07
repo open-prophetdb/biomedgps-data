@@ -19,12 +19,56 @@ jobs:
           # Generate markdown files here
           python3 gen_docsite.py
 
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONFIG_FILE: mkdocs.yml
-          EXTRA_PACKAGES: build-base
-          # GITHUB_DOMAIN: github.myenterprise.com
-          REQUIREMENTS: docs/requirements.txt
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install -r docs/requirements.txt
+          pip install mkdocs
+
+      - name: Build MkDocs site
+        run: |
+          mkdocs build --config-file mkdocs.yml
+
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          repository: open-prophetdb/biomedgps-docs
+          token: ${{ secrets.DOCS_PUSH_TOKEN }}
+          path: target-repo
+
+      - name: Copy documentation files
+        run: |
+          # Create biomedgps-data directory if it doesn't exist
+          mkdir -p target-repo/biomedgps-data
+          
+          # Copy MkDocs compiled site directory
+          if [ -d "site" ]; then
+            cp -r site/* target-repo/biomedgps-data/
+          else
+            echo "Error: site directory not found. MkDocs build may have failed."
+            exit 1
+          fi
+
+      - name: Configure git
+        run: |
+          cd target-repo
+          git config --local user.email "biomedgps-data-action@github.com"
+          git config --local user.name "BioMedGPS Data Action"
+          git remote set-url origin https://x-access-token:${{ secrets.DOCS_PUSH_TOKEN }}@github.com/open-prophetdb/biomedgps-docs.git
+
+      - name: Commit and push changes
+        run: |
+          cd target-repo
+          git add biomedgps-data/
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update biomedgps-data documentation from ${{ github.repository }}@${{ github.sha }}"
+            git push
+          fi
