@@ -1,740 +1,815 @@
-raw_source_id	raw_target_id	raw_source_type	raw_target_type	relation_type	resource	pmids	key_sentence	source_id	source_type	target_id	target_type	formatted_relation_type
-ENTREZ:1	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:100049587	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:100049587	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:10095	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10095	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10103	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10103	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10111	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10111	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10130	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10130	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10135	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10135	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:10220	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10220	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10226	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10226	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1027	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1027	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:10327	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10327	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10327	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10327	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:10380	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10380	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10409	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10409	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10487	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10487	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10492	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10492	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:10493	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10493	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:10516	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10516	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10525	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10525	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10531	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10531	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10541	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10541	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10563	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10563	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10580	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10580	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1066	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1066	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10673	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10673	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1071	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1071	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1072	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1072	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1072	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1072	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:10726	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10726	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:10741	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10741	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10808	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10808	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:10952	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10952	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10959	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10959	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10963	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10963	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10971	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10971	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10973	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10973	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10982	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10982	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:109821	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:109821	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:109828	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:109828	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:10988	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:10988	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:11083	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:11083	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:11168	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:11168	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:11224	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:11224	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:11259	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:11259	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:11267	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:11267	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:11315	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:11315	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:11315	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:11315	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:11326	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:11326	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:113791	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:113791	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:114770	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:114770	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:114784	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:114784	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1152	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1152	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:116844	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:116844	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1178	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1178	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1191	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1191	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1192	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1192	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:12	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:12	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:121457	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:121457	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1215	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1215	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:12266	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:12266	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:12274	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:12274	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:12279	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:12279	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:124565	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:124565	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:125	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:125	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1282	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1282	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1291	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1291	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1292	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1292	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1293	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1293	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1293	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1293	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1303	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1303	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1306	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1306	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:131873	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:131873	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:133619	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:133619	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1361	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1361	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1365	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1365	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1369	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1369	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1370	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1370	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1370	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1370	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1382	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1382	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1401	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1401	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1401	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1401	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:14058	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:14058	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:140606	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:140606	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:14061	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:14061	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:14066	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:14066	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:14067	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:14067	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:142910	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:142910	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1435	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1435	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1445	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1445	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1471	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1471	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:148362	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:148362	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:14857	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:14857	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1508	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1508	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1509	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1509	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:153579	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:153579	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:158	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:158	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:16	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:16	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:161198	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:161198	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:162	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:162	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1636	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1636	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:163859	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:163859	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1642	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1642	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1646	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1646	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:165530	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:165530	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:173	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:173	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1755	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1755	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:177	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:177	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1808	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1808	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1893	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1893	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:191	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:191	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1915	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1915	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1915	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1915	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1936	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1936	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1937	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1937	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1938	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1938	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1938	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1938	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1969	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1969	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:197	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:197	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1974	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1974	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:1983	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1983	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1984	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1984	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:199	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:199	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:1992	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:1992	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:201163	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:201163	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2013	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2013	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:201965	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:201965	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2023	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2023	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2023	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2023	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:213	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:213	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2165	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2165	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:217	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:217	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2170	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2170	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2171	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2171	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2184	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2184	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:219	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:219	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2197	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2197	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2203	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2203	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:221476	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:221476	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2219	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2219	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2243	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2243	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2243	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2243	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2244	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2244	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2266	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2266	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2280	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2280	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:22820	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:22820	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2289	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2289	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:22944	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:22944	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:23022	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23022	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:23157	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23157	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:23176	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23176	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2318	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2318	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2322	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2322	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:23284	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23284	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:23294	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23294	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:23308	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23308	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:23336	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23336	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2335	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2335	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2335	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2335	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:23386	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23386	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:23406	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23406	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:23498	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23498	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:23555	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23555	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:23589	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23589	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:23604	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:23604	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2495	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2495	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2512	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2512	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2534	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2534	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2547	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2547	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:256076	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:256076	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:25802	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:25802	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:25824	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:25824	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:25873	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:25873	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:259	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:259	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:25939	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:25939	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2597	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2597	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2638	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2638	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2644	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2644	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2662	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2662	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2673	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2673	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2690	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2690	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:26998	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:26998	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:27034	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:27034	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:27295	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:27295	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2739	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2739	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2746	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2746	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2760	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2760	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2767	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2767	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2776	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2776	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2783	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2783	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2805	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2805	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2810	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2810	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2819	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2819	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2819	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2819	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2821	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2821	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2822	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2822	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2823	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2823	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:283298	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:283298	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:283377	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:283377	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:28388	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:28388	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:284119	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:284119	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:28474	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:28474	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:285148	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:285148	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:28713	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:28713	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2878	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2878	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:28799	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:28799	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:28822	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:28822	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:28878	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:28878	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2896	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2896	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2909	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2909	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2923	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2923	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2926	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2926	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2934	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2934	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:2938	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2938	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:2950	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:2950	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:29926	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:29926	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:29949	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:29949	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:29952	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:29952	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3003	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3003	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3006	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3006	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3006	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3006	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:301	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:301	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3015	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3015	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:302	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:302	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3020	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3020	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3021	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3021	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3028	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3028	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3043	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3043	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3043	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3043	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3045	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3045	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3053	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3053	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:306	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:306	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3074	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3074	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3075	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3075	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3078	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3078	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3078	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3078	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:308	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:308	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:30845	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:30845	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:30846	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:30846	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:309	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:309	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3093	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3093	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3099	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3099	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3101	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3101	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:311	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:311	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3123	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3123	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3146	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3146	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3163	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3163	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3176	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3176	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3181	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3181	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3181	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3181	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3182	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3182	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3240	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3240	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3240	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3240	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3241	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3241	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:325	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:325	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3250	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3250	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:328	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:328	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3281	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3281	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3292	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3292	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3309	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3309	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3315	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3315	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3315	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3315	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3320	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3320	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3326	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3326	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3329	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3329	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3339	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3339	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:335	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:335	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:335	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:335	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:337	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:337	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:338	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:338	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3383	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3383	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:338773	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:338773	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:341	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:341	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3418	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3418	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:348	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:348	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3483	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3483	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3484	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3484	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3485	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3485	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3485	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3485	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3486	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3486	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3493	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3493	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3497	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3497	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:350	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:350	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3500	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3500	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:351	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:351	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3512	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3512	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:353	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:353	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3558	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3558	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3561	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3561	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3562	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3562	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3563	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3563	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3576	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3576	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3603	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3603	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:362	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:362	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3672	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3672	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3673	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3673	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3674	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3674	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3688	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3688	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3697	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3697	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3698	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3698	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3703	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3703	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3732	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3732	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:374	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:374	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:375337	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:375337	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:375790	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:375790	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:377677	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:377677	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:378	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:378	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:38	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:38	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3805	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3805	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3818	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3818	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3827	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3827	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3838	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3838	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3848	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3848	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3852	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3852	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3856	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3856	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3859	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3859	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3866	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3866	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3872	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3872	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3880	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3880	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:388960	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:388960	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3911	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3911	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3915	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3915	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3918	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3918	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:392	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:392	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3929	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3929	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3929	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3929	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3931	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3931	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3934	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3934	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3936	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3936	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3936	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3936	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3939	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3939	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:3945	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3945	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:396	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:396	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:3963	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:3963	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:397	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:397	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4000	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4000	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:403	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:403	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4048	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4048	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4057	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4057	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4060	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4060	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4069	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4069	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4070	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4070	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:412	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:412	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4151	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4151	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4179	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4179	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4190	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4190	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4191	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4191	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:427	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:427	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4282	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4282	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4312	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4312	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4314	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4314	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4316	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4316	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4317	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4317	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4318	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4318	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4318	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4318	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4338	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4338	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4353	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4353	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:445	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:445	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4478	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4478	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4495	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4495	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4586	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4586	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:462	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:462	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4628	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4628	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4629	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4629	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4637	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4637	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4638	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4638	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4641	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4641	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4666	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4666	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4677	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4677	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4678	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4678	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4680	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4680	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:471	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:471	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4741	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4741	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:48	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:48	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4811	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4811	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4830	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4830	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4837	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4837	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:4921	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4921	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4973	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4973	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:4973	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:4973	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5037	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5037	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5048	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5048	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5052	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5052	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:50848	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:50848	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:50940	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:50940	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5104	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5104	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51056	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51056	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51060	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51060	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51076	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51076	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5111	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5111	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51119	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51119	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51142	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51142	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:51154	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51154	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51155	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51155	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51218	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51218	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51237	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51237	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51332	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51332	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:51350	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51350	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51361	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51361	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51449	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51449	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5154	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5154	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5155	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5155	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51569	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51569	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51569	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51569	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:51673	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51673	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:51690	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:51690	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5176	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5176	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5196	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5196	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5203	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5203	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5204	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5204	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5214	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5214	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5216	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5216	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5223	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5223	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5223	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5223	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5226	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5226	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5230	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5230	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5239	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5239	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5266	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5266	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5267	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5267	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5268	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5268	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5284	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5284	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5284	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5284	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:53	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:53	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5305	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5305	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5315	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5315	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5315	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5315	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5320	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5320	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5338	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5338	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5340	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5340	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:53405	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:53405	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5357	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5357	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:54	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:54	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:54	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:54	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:54102	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:54102	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:54187	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:54187	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:54205	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:54205	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:54414	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:54414	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5444	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5444	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5447	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5447	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5464	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5464	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:54662	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:54662	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5473	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5473	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5473	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5473	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5478	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5478	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5479	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5479	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5481	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5481	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:54935	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:54935	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5498	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5498	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55118	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55118	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:55236	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55236	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55243	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55243	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55276	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55276	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55313	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55313	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5533	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5533	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55357	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55357	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55379	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55379	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55577	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55577	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55604	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55604	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5566	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5566	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:55700	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55700	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55748	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55748	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55748	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55748	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:55752	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55752	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55768	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55768	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5578	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5578	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5578	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5578	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5579	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5579	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55870	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55870	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:55937	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55937	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:55997	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:55997	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:56005	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:56005	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5603	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5603	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5604	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5604	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5605	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5605	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5611	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5611	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:56169	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:56169	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:56241	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:56241	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5627	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5627	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5657	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5657	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5657	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5657	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:566	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:566	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:56729	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:56729	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5683	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5683	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5684	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5684	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5685	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5685	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:56893	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:56893	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:56924	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:56924	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:56944	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:56944	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:57153	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:57153	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5730	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5730	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:57333	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:57333	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5743	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5743	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5747	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5747	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:57553	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:57553	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5756	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5756	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:57606	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:57606	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:57608	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:57608	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:57695	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:57695	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5770	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5770	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:57716	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:57716	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5777	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5777	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5781	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5781	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:57819	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:57819	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5832	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5832	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5836	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5836	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:58477	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:58477	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:58494	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:58494	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5879	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5879	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5898	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5898	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:59	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:59	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:590	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:590	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5901	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5901	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5905	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5905	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:5911	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5911	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:5950	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:5950	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:60	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:60	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6036	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6036	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6037	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6037	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6132	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6132	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6137	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6137	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6146	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6146	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6152	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6152	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6154	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6154	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6158	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6158	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6168	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6168	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6201	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6201	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6208	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6208	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6217	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6217	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6222	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6222	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6224	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6224	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6230	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6230	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6232	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6232	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6233	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6233	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6273	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6273	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6277	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6277	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6279	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6279	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6280	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6280	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6280	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6280	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6281	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6281	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6282	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6282	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6288	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6288	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6289	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6289	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6317	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6317	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6332	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6332	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6352	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6352	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6361	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6361	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6362	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6362	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6367	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6367	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6368	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6368	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6373	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6373	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6403	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6403	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:64108	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:64108	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:64130	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:64130	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6416	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6416	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:64172	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:64172	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:64175	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:64175	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:64359	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:64359	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6440	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6440	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6441	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6441	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6441	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6441	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6449	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6449	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6464	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6464	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6469	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6469	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:64746	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:64746	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:649	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:649	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:65005	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:65005	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:65094	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:65094	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:653499	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:653499	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6611	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6611	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6624	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6624	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6636	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6636	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6678	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6678	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6696	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6696	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6709	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6709	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6709	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6709	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:671	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:671	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6711	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6711	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6714	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6714	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6723	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6723	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6734	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6734	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6749	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6749	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:684	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:684	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:686	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:686	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6888	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6888	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:6897	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6897	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:6906	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:6906	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:695	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:695	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7001	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7001	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7006	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7006	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7011	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7011	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7018	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7018	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7024	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7024	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7031	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7031	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7033	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7033	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7037	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7037	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7056	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7056	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7057	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7057	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7064	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7064	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7078	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7078	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7078	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7078	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7086	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7086	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7086	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7086	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7087	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7087	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:71	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:71	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:710	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:710	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7103	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7103	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7109	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7109	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:712	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:712	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7123	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7123	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7133	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7133	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7150	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7150	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7167	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7167	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7168	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7168	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7169	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7169	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7171	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7171	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7184	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7184	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:721	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:721	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:722	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:722	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:727	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:727	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7276	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7276	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:728378	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:728378	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:731	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:731	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:732	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:732	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7329	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7329	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:733	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:733	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7360	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7360	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7373	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7373	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7409	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7409	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7414	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7414	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7414	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7414	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7415	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7415	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7416	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7416	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7431	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7431	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7448	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7448	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7450	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7450	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7525	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7525	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7534	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7534	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7555	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7555	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:759	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:759	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:759	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:759	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:760	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:760	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:761	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:761	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:761	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:761	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:762	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:762	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:765	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:765	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:765	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:765	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7767	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7767	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:79017	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:79017	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:79026	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:79026	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:7919	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7919	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:7923	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:7923	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:79689	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:79689	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:79784	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:79784	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:79812	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:79812	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:800	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:800	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:80177	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:80177	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:81035	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:81035	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:81493	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:81493	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:81494	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:81494	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:81567	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:81567	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:816	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:816	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:817	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:817	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:8200	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8200	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:822	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:822	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:822	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:822	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:828	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:828	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:831	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:831	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:83638	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:83638	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:83700	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:83700	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:84064	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:84064	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:84254	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:84254	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:84321	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:84321	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:84418	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:84418	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:8455	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8455	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:84693	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:84693	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:847	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:847	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:847	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:847	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:84706	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:84706	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:84717	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:84717	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:84735	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:84735	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:84735	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:84735	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:84817	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:84817	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:84883	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:84883	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:8539	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8539	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:8542	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8542	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:85446	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:85446	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:8547	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8547	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:857	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:857	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:8574	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8574	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:8578	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8578	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:858	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:858	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:8639	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8639	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:8654	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8654	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:866	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:866	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:87	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:87	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:871	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:871	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:8723	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8723	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:873	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:873	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:8740	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8740	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:8775	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8775	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:8789	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8789	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:8796	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8796	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:8854	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8854	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:8858	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8858	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:8877	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8877	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:8987	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8987	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:8991	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8991	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:8993	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8993	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:8994	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:8994	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:9049	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9049	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9053	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9053	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:90701	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:90701	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:90952	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:90952	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:91137	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:91137	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9118	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9118	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9124	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9124	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9159	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9159	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:922	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:922	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:9246	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9246	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:92597	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:92597	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9260	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9260	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9261	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9261	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9332	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9332	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:94274	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:94274	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:947	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:947	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:95	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:95	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9518	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9518	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9584	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9584	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:9588	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9588	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9601	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9601	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:961	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:961	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:9636	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9636	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9731	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9731	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:977	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:977	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:978	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:978	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9832	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9832	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9926	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9926	Gene	BioMedGPS::E+::Disease:Gene
-ENTREZ:9961	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9961	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:999	MONDO:0002771	Gene	Disease	Hetionet::DdG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:999	Gene	BioMedGPS::E-::Disease:Gene
-ENTREZ:9991	MONDO:0002771	Gene	Disease	Hetionet::DuG::Disease:Gene	FIBROMINE			MONDO:0002771	Disease	ENTREZ:9991	Gene	BioMedGPS::E+::Disease:Gene
+source_name	source_type	target_name	target_type	source_id	target_id	relation_type	resource
+ACTB	Gene	IPF	Disease	ENTREZ:60	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LAP3	Gene	IPF	Disease	ENTREZ:51056	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PPIA	Gene	IPF	Disease	ENTREZ:5478	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FABP5	Gene	IPF	Disease	ENTREZ:2171	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TPI1	Gene	IPF	Disease	ENTREZ:7167	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CTSD	Gene	IPF	Disease	ENTREZ:1509	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ACTA2	Gene	IPF	Disease	ENTREZ:59	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ANXA5	Gene	IPF	Disease	ENTREZ:308	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HP	Gene	IPF	Disease	ENTREZ:3240	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FTL	Gene	IPF	Disease	ENTREZ:2512	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PRDX1	Gene	IPF	Disease	ENTREZ:5052	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+APOA1	Gene	IPF	Disease	ENTREZ:335	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+S100A11	Gene	IPF	Disease	ENTREZ:6282	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+APCS	Gene	IPF	Disease	ENTREZ:325	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+KRT19	Gene	IPF	Disease	ENTREZ:3880	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+Gsta1	Gene	IPF	Disease	ENTREZ:14857	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CPB2	Gene	IPF	Disease	ENTREZ:1361	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LCP1	Gene	IPF	Disease	ENTREZ:3936	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+F10	Gene	IPF	Disease	ENTREZ:14058	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PROZ	Gene	IPF	Disease	ENTREZ:8858	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SERPIND1	Gene	IPF	Disease	ENTREZ:3053	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+IGLV1-47	Gene	IPF	Disease	ENTREZ:28822	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IGLV3-16	Gene	IPF	Disease	ENTREZ:28799	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ATRN	Gene	IPF	Disease	ENTREZ:8455	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+APOL1	Gene	IPF	Disease	ENTREZ:8542	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LBP	Gene	IPF	Disease	ENTREZ:3929	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CNDP1	Gene	IPF	Disease	ENTREZ:84735	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ITIH2	Gene	IPF	Disease	ENTREZ:3698	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+IGFALS	Gene	IPF	Disease	ENTREZ:3483	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GPLD1	Gene	IPF	Disease	ENTREZ:2822	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+AMBP	Gene	IPF	Disease	ENTREZ:259	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GSN	Gene	IPF	Disease	ENTREZ:2934	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LRG1	Gene	IPF	Disease	ENTREZ:116844	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PPIA	Gene	IPF	Disease	ENTREZ:5478	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GC	Gene	IPF	Disease	ENTREZ:2638	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+IGFBP3	Gene	IPF	Disease	ENTREZ:3486	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PPBP	Gene	IPF	Disease	ENTREZ:5473	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+C9	Gene	IPF	Disease	ENTREZ:12279	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+C7	Gene	IPF	Disease	ENTREZ:109828	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+C6	Gene	IPF	Disease	ENTREZ:12274	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+APOM	Gene	IPF	Disease	ENTREZ:55937	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CA1	Gene	IPF	Disease	ENTREZ:759	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CA2	Gene	IPF	Disease	ENTREZ:760	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SERPINA7	Gene	IPF	Disease	ENTREZ:6906	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ICAM1	Gene	IPF	Disease	ENTREZ:3383	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LDHB	Gene	IPF	Disease	ENTREZ:3945	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PI16	Gene	IPF	Disease	ENTREZ:221476	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+C8G	Gene	IPF	Disease	ENTREZ:733	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SERPINA4	Gene	IPF	Disease	ENTREZ:5267	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HBB	Gene	IPF	Disease	ENTREZ:3043	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HBD	Gene	IPF	Disease	ENTREZ:3045	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PGLYRP2	Gene	IPF	Disease	ENTREZ:114770	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TPM4	Gene	IPF	Disease	ENTREZ:7171	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+BTD	Gene	IPF	Disease	ENTREZ:686	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GPT2	Gene	IPF	Disease	ENTREZ:84706	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PON1	Gene	IPF	Disease	ENTREZ:5444	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+IGHE	Gene	IPF	Disease	ENTREZ:3497	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IGHV1-2	Gene	IPF	Disease	ENTREZ:28474	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IGHV5-51	Gene	IPF	Disease	ENTREZ:28388	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CETP	Gene	IPF	Disease	ENTREZ:1071	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+KRT1	Gene	IPF	Disease	ENTREZ:3848	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SAA2	Gene	IPF	Disease	ENTREZ:6289	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FGB	Gene	IPF	Disease	ENTREZ:2244	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FGA	Gene	IPF	Disease	ENTREZ:2243	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LCAT	Gene	IPF	Disease	ENTREZ:3931	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CAT	Gene	IPF	Disease	ENTREZ:847	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CLEC3B	Gene	IPF	Disease	ENTREZ:7123	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CDH1	Gene	IPF	Disease	ENTREZ:999	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+KLKB1	Gene	IPF	Disease	ENTREZ:3818	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+F11	Gene	IPF	Disease	ENTREZ:109821	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+F2	Gene	IPF	Disease	ENTREZ:14061	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HP	Gene	IPF	Disease	ENTREZ:3240	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HPR	Gene	IPF	Disease	ENTREZ:3250	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FCN3	Gene	IPF	Disease	ENTREZ:8547	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+APOE	Gene	IPF	Disease	ENTREZ:348	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+APOC1	Gene	IPF	Disease	ENTREZ:341	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PCYOX1	Gene	IPF	Disease	ENTREZ:51449	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ITIH1	Gene	IPF	Disease	ENTREZ:3697	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LUM	Gene	IPF	Disease	ENTREZ:4060	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PLG	Gene	IPF	Disease	ENTREZ:5340	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PROS1	Gene	IPF	Disease	ENTREZ:5627	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+A1BG	Gene	IPF	Disease	ENTREZ:1	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+C8A	Gene	IPF	Disease	ENTREZ:731	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+C8B	Gene	IPF	Disease	ENTREZ:732	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+BCHE	Gene	IPF	Disease	ENTREZ:590	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ECM1	Gene	IPF	Disease	ENTREZ:1893	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+AHSG	Gene	IPF	Disease	ENTREZ:197	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FETUB	Gene	IPF	Disease	ENTREZ:26998	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+KNG1	Gene	IPF	Disease	ENTREZ:3827	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ASH1L	Gene	IPF	Disease	ENTREZ:55870	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CRP	Gene	IPF	Disease	ENTREZ:1401	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IGFBP2	Gene	IPF	Disease	ENTREZ:3485	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PRDX6	Gene	IPF	Disease	ENTREZ:9588	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CFH	Gene	IPF	Disease	ENTREZ:3075	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+F13B	Gene	IPF	Disease	ENTREZ:2165	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PIGR	Gene	IPF	Disease	ENTREZ:5284	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SERPINF1	Gene	IPF	Disease	ENTREZ:5176	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+VTN	Gene	IPF	Disease	ENTREZ:7448	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+APOH	Gene	IPF	Disease	ENTREZ:350	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+JAM2	Gene	IPF	Disease	ENTREZ:58494	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+UFM1	Gene	IPF	Disease	ENTREZ:51569	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CLIC6	Gene	IPF	Disease	ENTREZ:54102	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CBR1	Gene	IPF	Disease	ENTREZ:873	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SCEL	Gene	IPF	Disease	ENTREZ:8796	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TRAPPC10	Gene	IPF	Disease	ENTREZ:7109	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+DNAJC3	Gene	IPF	Disease	ENTREZ:5611	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RAP2A	Gene	IPF	Disease	ENTREZ:5911	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+COL6A1	Gene	IPF	Disease	ENTREZ:1291	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+COL6A2	Gene	IPF	Disease	ENTREZ:1292	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+COL4A1	Gene	IPF	Disease	ENTREZ:1282	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+COLEC12	Gene	IPF	Disease	ENTREZ:81035	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MICAL3	Gene	IPF	Disease	ENTREZ:57553	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SERPIND1	Gene	IPF	Disease	ENTREZ:3053	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FKBP1A	Gene	IPF	Disease	ENTREZ:2280	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MIF	Gene	IPF	Disease	ENTREZ:4282	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PCNA	Gene	IPF	Disease	ENTREZ:5111	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MAPRE2	Gene	IPF	Disease	ENTREZ:10982	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RBBP9	Gene	IPF	Disease	ENTREZ:10741	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AP1B1	Gene	IPF	Disease	ENTREZ:162	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+THBD	Gene	IPF	Disease	ENTREZ:7056	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HDHD2	Gene	IPF	Disease	ENTREZ:84064	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SELENOM	Gene	IPF	Disease	ENTREZ:140606	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AHCY	Gene	IPF	Disease	ENTREZ:191	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TIMP3	Gene	IPF	Disease	ENTREZ:7078	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+NARS1	Gene	IPF	Disease	ENTREZ:4677	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SAMHD1	Gene	IPF	Disease	ENTREZ:25939	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SEC11C	Gene	IPF	Disease	ENTREZ:90701	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SERPINB5	Gene	IPF	Disease	ENTREZ:5268	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SERPINB3	Gene	IPF	Disease	ENTREZ:6317	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TEP1	Gene	IPF	Disease	ENTREZ:7011	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RANGAP1	Gene	IPF	Disease	ENTREZ:5905	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+APEX1	Gene	IPF	Disease	ENTREZ:328	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CNDP2	Gene	IPF	Disease	ENTREZ:55748	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PSIP1	Gene	IPF	Disease	ENTREZ:11168	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ACO1	Gene	IPF	Disease	ENTREZ:48	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PFKP	Gene	IPF	Disease	ENTREZ:5214	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SFTPC	Gene	IPF	Disease	ENTREZ:6440	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PITRM1	Gene	IPF	Disease	ENTREZ:10531	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AKR1C2	Gene	IPF	Disease	ENTREZ:1646	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TRAJ42	Gene	IPF	Disease	ENTREZ:28713	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PFDN4	Gene	IPF	Disease	ENTREZ:5203	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PPP3CC	Gene	IPF	Disease	ENTREZ:5533	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+STS	Gene	IPF	Disease	ENTREZ:412	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+NEFM	Gene	IPF	Disease	ENTREZ:4741	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ALDH1B1	Gene	IPF	Disease	ENTREZ:219	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CLU	Gene	IPF	Disease	ENTREZ:1191	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LAMA5	Gene	IPF	Disease	ENTREZ:3911	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+DIDO1	Gene	IPF	Disease	ENTREZ:11083	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PGM5	Gene	IPF	Disease	ENTREZ:5239	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GCHFR	Gene	IPF	Disease	ENTREZ:2644	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SMS	Gene	IPF	Disease	ENTREZ:6611	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SPTBN5	Gene	IPF	Disease	ENTREZ:51332	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GNAQ	Gene	IPF	Disease	ENTREZ:2776	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TXNDC5	Gene	IPF	Disease	ENTREZ:81567	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+JCAD	Gene	IPF	Disease	ENTREZ:57608	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CLEC14A	Gene	IPF	Disease	ENTREZ:161198	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ITGB1	Gene	IPF	Disease	ENTREZ:3688	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PGM2	Gene	IPF	Disease	ENTREZ:55276	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AZU1	Gene	IPF	Disease	ENTREZ:566	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PRTN3	Gene	IPF	Disease	ENTREZ:5657	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FBP2	Gene	IPF	Disease	ENTREZ:8789	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CYCS	Gene	IPF	Disease	ENTREZ:54205	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+UBE2K	Gene	IPF	Disease	ENTREZ:3093	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PYGL	Gene	IPF	Disease	ENTREZ:5836	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ANP32B	Gene	IPF	Disease	ENTREZ:10541	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+NANS	Gene	IPF	Disease	ENTREZ:54187	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TBC1D2	Gene	IPF	Disease	ENTREZ:55357	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CARMIL1	Gene	IPF	Disease	ENTREZ:55604	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+COL15A1	Gene	IPF	Disease	ENTREZ:1306	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SEC61B	Gene	IPF	Disease	ENTREZ:10952	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GGCT	Gene	IPF	Disease	ENTREZ:79017	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GDF10	Gene	IPF	Disease	ENTREZ:2662	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LSM7	Gene	IPF	Disease	ENTREZ:51690	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPS20	Gene	IPF	Disease	ENTREZ:6224	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PTBP3	Gene	IPF	Disease	ENTREZ:9991	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+THOP1	Gene	IPF	Disease	ENTREZ:7064	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AMBP	Gene	IPF	Disease	ENTREZ:259	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GNA11	Gene	IPF	Disease	ENTREZ:2767	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+RALA	Gene	IPF	Disease	ENTREZ:5898	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+BASP1	Gene	IPF	Disease	ENTREZ:10409	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+EEF2	Gene	IPF	Disease	ENTREZ:1938	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ALDH1A2	Gene	IPF	Disease	ENTREZ:8854	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TARS1	Gene	IPF	Disease	ENTREZ:6897	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MYDGF	Gene	IPF	Disease	ENTREZ:56005	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+UBA6	Gene	IPF	Disease	ENTREZ:55236	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PLIN3	Gene	IPF	Disease	ENTREZ:10226	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPL35	Gene	IPF	Disease	ENTREZ:11224	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GAPDH	Gene	IPF	Disease	ENTREZ:2597	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPL36	Gene	IPF	Disease	ENTREZ:25873	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+JCHAIN	Gene	IPF	Disease	ENTREZ:3512	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+VSIG4	Gene	IPF	Disease	ENTREZ:11326	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GRSF1	Gene	IPF	Disease	ENTREZ:2926	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MOB1B	Gene	IPF	Disease	ENTREZ:92597	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CARHSP1	Gene	IPF	Disease	ENTREZ:23589	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ACTN1	Gene	IPF	Disease	ENTREZ:87	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CAPS	Gene	IPF	Disease	ENTREZ:828	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TSPAN15	Gene	IPF	Disease	ENTREZ:23555	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+EMP2	Gene	IPF	Disease	ENTREZ:2013	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PPBP	Gene	IPF	Disease	ENTREZ:5473	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+DDX39B	Gene	IPF	Disease	ENTREZ:7919	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CPPED1	Gene	IPF	Disease	ENTREZ:55313	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PPIB	Gene	IPF	Disease	ENTREZ:5479	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AIFM2	Gene	IPF	Disease	ENTREZ:84883	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PPA1	Gene	IPF	Disease	ENTREZ:5464	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+STBD1	Gene	IPF	Disease	ENTREZ:8987	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+APOM	Gene	IPF	Disease	ENTREZ:55937	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TPI1	Gene	IPF	Disease	ENTREZ:7167	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ANXA3	Gene	IPF	Disease	ENTREZ:306	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CHCHD2	Gene	IPF	Disease	ENTREZ:51142	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MYH11	Gene	IPF	Disease	ENTREZ:4629	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ITGA1	Gene	IPF	Disease	ENTREZ:3672	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LSM2	Gene	IPF	Disease	ENTREZ:57819	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PGK1	Gene	IPF	Disease	ENTREZ:5230	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ITGA2	Gene	IPF	Disease	ENTREZ:3673	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MOCS2	Gene	IPF	Disease	ENTREZ:4338	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GZMK	Gene	IPF	Disease	ENTREZ:3003	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CD163	Gene	IPF	Disease	ENTREZ:9332	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SPTAN1	Gene	IPF	Disease	ENTREZ:6709	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TBC1D13	Gene	IPF	Disease	ENTREZ:54662	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CLDN3	Gene	IPF	Disease	ENTREZ:1365	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ASS1	Gene	IPF	Disease	ENTREZ:445	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SLC44A2	Gene	IPF	Disease	ENTREZ:57153	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+YWHAZ	Gene	IPF	Disease	ENTREZ:7534	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ARHGDIB	Gene	IPF	Disease	ENTREZ:397	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HSD17B8	Gene	IPF	Disease	ENTREZ:7923	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPS18	Gene	IPF	Disease	ENTREZ:6222	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ANKS1A	Gene	IPF	Disease	ENTREZ:23294	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CD151	Gene	IPF	Disease	ENTREZ:977	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ACP5	Gene	IPF	Disease	ENTREZ:54	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FKBP5	Gene	IPF	Disease	ENTREZ:2289	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HEXB	Gene	IPF	Disease	ENTREZ:3074	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+COL14A1	Gene	IPF	Disease	ENTREZ:7373	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ISG15	Gene	IPF	Disease	ENTREZ:9636	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+DPP7	Gene	IPF	Disease	ENTREZ:29952	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AGRN	Gene	IPF	Disease	ENTREZ:375790	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+IAH1	Gene	IPF	Disease	ENTREZ:285148	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+YWHAQ	Gene	IPF	Disease	ENTREZ:10971	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FAH	Gene	IPF	Disease	ENTREZ:2184	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HPCAL1	Gene	IPF	Disease	ENTREZ:3241	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PDIA6	Gene	IPF	Disease	ENTREZ:10130	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+STEAP4	Gene	IPF	Disease	ENTREZ:79689	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GLRX5	Gene	IPF	Disease	ENTREZ:51218	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TWF1	Gene	IPF	Disease	ENTREZ:5756	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HSP90AB1	Gene	IPF	Disease	ENTREZ:3326	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+OLFML1	Gene	IPF	Disease	ENTREZ:283298	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HSP90AA1	Gene	IPF	Disease	ENTREZ:3320	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IDH2	Gene	IPF	Disease	ENTREZ:3418	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GSTA1	Gene	IPF	Disease	ENTREZ:2938	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MMRN2	Gene	IPF	Disease	ENTREZ:79812	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LIPJ	Gene	IPF	Disease	ENTREZ:142910	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+EEF1D	Gene	IPF	Disease	ENTREZ:1936	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+BST2	Gene	IPF	Disease	ENTREZ:684	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+RPL22	Gene	IPF	Disease	ENTREZ:6146	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SLC25A46	Gene	IPF	Disease	ENTREZ:91137	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SYNM	Gene	IPF	Disease	ENTREZ:23336	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RBP4	Gene	IPF	Disease	ENTREZ:5950	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+NGLY1	Gene	IPF	Disease	ENTREZ:55768	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PDLIM1	Gene	IPF	Disease	ENTREZ:9124	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PARK7	Gene	IPF	Disease	ENTREZ:11315	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ENO1	Gene	IPF	Disease	ENTREZ:2023	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MT1G	Gene	IPF	Disease	ENTREZ:4495	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SORBS1	Gene	IPF	Disease	ENTREZ:10580	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ALDH18A1	Gene	IPF	Disease	ENTREZ:5832	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+EEF1A1	Gene	IPF	Disease	ENTREZ:1915	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PGD	Gene	IPF	Disease	ENTREZ:5226	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+COL12A1	Gene	IPF	Disease	ENTREZ:1303	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PRRC1	Gene	IPF	Disease	ENTREZ:133619	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SRM	Gene	IPF	Disease	ENTREZ:6723	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPL8	Gene	IPF	Disease	ENTREZ:6132	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+KRT5	Gene	IPF	Disease	ENTREZ:3852	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+KRT76	Gene	IPF	Disease	ENTREZ:51350	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+KRT8	Gene	IPF	Disease	ENTREZ:3856	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LDHA	Gene	IPF	Disease	ENTREZ:3939	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+EHD3	Gene	IPF	Disease	ENTREZ:30845	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+RAD50	Gene	IPF	Disease	ENTREZ:10111	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SEPTIN8	Gene	IPF	Disease	ENTREZ:23176	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FGA	Gene	IPF	Disease	ENTREZ:2243	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FGG	Gene	IPF	Disease	ENTREZ:2266	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ARL3	Gene	IPF	Disease	ENTREZ:403	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+INA	Gene	IPF	Disease	ENTREZ:9118	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TPPP3	Gene	IPF	Disease	ENTREZ:51673	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ASCC3	Gene	IPF	Disease	ENTREZ:10973	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MZB1	Gene	IPF	Disease	ENTREZ:51237	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HAAO	Gene	IPF	Disease	ENTREZ:23498	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CYSTM1	Gene	IPF	Disease	ENTREZ:84418	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PALLD	Gene	IPF	Disease	ENTREZ:23022	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CAV2	Gene	IPF	Disease	ENTREZ:858	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CAV1	Gene	IPF	Disease	ENTREZ:857	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GPM6A	Gene	IPF	Disease	ENTREZ:2823	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CAT	Gene	IPF	Disease	ENTREZ:847	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+C1QA	Gene	IPF	Disease	ENTREZ:712	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SPRYD4	Gene	IPF	Disease	ENTREZ:283377	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RWDD4	Gene	IPF	Disease	ENTREZ:201965	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LIMD1	Gene	IPF	Disease	ENTREZ:8994	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PPP1R14A	Gene	IPF	Disease	ENTREZ:94274	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PDLIM3	Gene	IPF	Disease	ENTREZ:27295	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LGALS7	Gene	IPF	Disease	ENTREZ:3963	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LGALS7	Gene	IPF	Disease	ENTREZ:3963	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LGALS7B	Gene	IPF	Disease	ENTREZ:653499	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LGALS7B	Gene	IPF	Disease	ENTREZ:653499	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+API5	Gene	IPF	Disease	ENTREZ:8539	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+JAKMIP2	Gene	IPF	Disease	ENTREZ:9832	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AARS1	Gene	IPF	Disease	ENTREZ:16	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FLNC	Gene	IPF	Disease	ENTREZ:2318	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CD82	Gene	IPF	Disease	ENTREZ:3732	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+RPS16	Gene	IPF	Disease	ENTREZ:6217	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CLC	Gene	IPF	Disease	ENTREZ:1178	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPS14	Gene	IPF	Disease	ENTREZ:6208	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+DMBT1	Gene	IPF	Disease	ENTREZ:1755	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ARHGAP1	Gene	IPF	Disease	ENTREZ:392	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PRX	Gene	IPF	Disease	ENTREZ:57716	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HP	Gene	IPF	Disease	ENTREZ:3240	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SFN	Gene	IPF	Disease	ENTREZ:2810	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GM2A	Gene	IPF	Disease	ENTREZ:2760	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CALD1	Gene	IPF	Disease	ENTREZ:800	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ACP2	Gene	IPF	Disease	ENTREZ:53	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HSBP1	Gene	IPF	Disease	ENTREZ:3281	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LYZ	Gene	IPF	Disease	ENTREZ:4069	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+COTL1	Gene	IPF	Disease	ENTREZ:23406	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MDH1	Gene	IPF	Disease	ENTREZ:4190	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FABP3	Gene	IPF	Disease	ENTREZ:2170	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+UBE2L6	Gene	IPF	Disease	ENTREZ:9246	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TSPAN8	Gene	IPF	Disease	ENTREZ:7103	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PDIA4	Gene	IPF	Disease	ENTREZ:9601	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+APRT	Gene	IPF	Disease	ENTREZ:353	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GFPT1	Gene	IPF	Disease	ENTREZ:2673	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SYNC	Gene	IPF	Disease	ENTREZ:81493	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+THOC3	Gene	IPF	Disease	ENTREZ:84321	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPL13	Gene	IPF	Disease	ENTREZ:6137	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+NAGK	Gene	IPF	Disease	ENTREZ:55577	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MCEE	Gene	IPF	Disease	ENTREZ:84693	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PDLIM7	Gene	IPF	Disease	ENTREZ:9260	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TKT	Gene	IPF	Disease	ENTREZ:7086	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+EHD2	Gene	IPF	Disease	ENTREZ:30846	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+C2orf78	Gene	IPF	Disease	ENTREZ:388960	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ARF4	Gene	IPF	Disease	ENTREZ:378	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FTL	Gene	IPF	Disease	ENTREZ:2512	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+BTNL9	Gene	IPF	Disease	ENTREZ:153579	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+IKBIP	Gene	IPF	Disease	ENTREZ:121457	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MYCT1	Gene	IPF	Disease	ENTREZ:80177	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LIN7B	Gene	IPF	Disease	ENTREZ:64130	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AHNAK	Gene	IPF	Disease	ENTREZ:79026	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+EEF1G	Gene	IPF	Disease	ENTREZ:1937	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+P3H1	Gene	IPF	Disease	ENTREZ:64175	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RCN3	Gene	IPF	Disease	ENTREZ:57333	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PLG	Gene	IPF	Disease	ENTREZ:5340	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HSP90B1	Gene	IPF	Disease	ENTREZ:7184	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MYH14	Gene	IPF	Disease	ENTREZ:79784	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PRDX5	Gene	IPF	Disease	ENTREZ:25824	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TMEM119	Gene	IPF	Disease	ENTREZ:338773	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FILIP1L	Gene	IPF	Disease	ENTREZ:11259	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IGKV2D-40	Gene	IPF	Disease	ENTREZ:28878	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FAU	Gene	IPF	Disease	ENTREZ:2197	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPL24	Gene	IPF	Disease	ENTREZ:6152	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AKR1A1	Gene	IPF	Disease	ENTREZ:10327	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+NASP	Gene	IPF	Disease	ENTREZ:4678	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TSPAN1	Gene	IPF	Disease	ENTREZ:10103	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CD47	Gene	IPF	Disease	ENTREZ:961	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CFL1	Gene	IPF	Disease	ENTREZ:1072	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+C11orf68	Gene	IPF	Disease	ENTREZ:83638	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPL28	Gene	IPF	Disease	ENTREZ:6158	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TXNDC12	Gene	IPF	Disease	ENTREZ:51060	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MYLK	Gene	IPF	Disease	ENTREZ:4638	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TACSTD2	Gene	IPF	Disease	ENTREZ:4070	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HOOK1	Gene	IPF	Disease	ENTREZ:51361	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CNBP	Gene	IPF	Disease	ENTREZ:7555	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+COPG1	Gene	IPF	Disease	ENTREZ:22820	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+COL6A5	Gene	IPF	Disease	ENTREZ:256076	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+COL6A6	Gene	IPF	Disease	ENTREZ:131873	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TMED2	Gene	IPF	Disease	ENTREZ:10959	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SRPRB	Gene	IPF	Disease	ENTREZ:58477	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+POTEF	Gene	IPF	Disease	ENTREZ:728378	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SERPINH1	Gene	IPF	Disease	ENTREZ:871	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PLS1	Gene	IPF	Disease	ENTREZ:5357	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HNMT	Gene	IPF	Disease	ENTREZ:3176	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+OLFML3	Gene	IPF	Disease	ENTREZ:56944	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SCN7A	Gene	IPF	Disease	ENTREZ:6332	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+NNMT	Gene	IPF	Disease	ENTREZ:4837	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+APOA4	Gene	IPF	Disease	ENTREZ:337	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ECM1	Gene	IPF	Disease	ENTREZ:1893	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FETUB	Gene	IPF	Disease	ENTREZ:26998	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+EIF4A2	Gene	IPF	Disease	ENTREZ:1974	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPS25	Gene	IPF	Disease	ENTREZ:6230	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MRPL9	Gene	IPF	Disease	ENTREZ:65005	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HYOU1	Gene	IPF	Disease	ENTREZ:10525	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+S100A10	Gene	IPF	Disease	ENTREZ:6281	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+S100A2	Gene	IPF	Disease	ENTREZ:6273	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+OSGEPL1	Gene	IPF	Disease	ENTREZ:64172	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPS27	Gene	IPF	Disease	ENTREZ:6232	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SIAE	Gene	IPF	Disease	ENTREZ:54414	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ESAM	Gene	IPF	Disease	ENTREZ:90952	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+STT3A	Gene	IPF	Disease	ENTREZ:3703	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SRPRA	Gene	IPF	Disease	ENTREZ:6734	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+UBQLN4	Gene	IPF	Disease	ENTREZ:56893	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+JAM3	Gene	IPF	Disease	ENTREZ:83700	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ACAD8	Gene	IPF	Disease	ENTREZ:27034	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CRABP2	Gene	IPF	Disease	ENTREZ:1382	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+KIRREL1	Gene	IPF	Disease	ENTREZ:55243	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+APCS	Gene	IPF	Disease	ENTREZ:325	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CRP	Gene	IPF	Disease	ENTREZ:1401	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+DUSP23	Gene	IPF	Disease	ENTREZ:54935	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PPOX	Gene	IPF	Disease	ENTREZ:5498	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ATIC	Gene	IPF	Disease	ENTREZ:471	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPL37A	Gene	IPF	Disease	ENTREZ:6168	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LAMC1	Gene	IPF	Disease	ENTREZ:3915	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LAMC2	Gene	IPF	Disease	ENTREZ:3918	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GMPPA	Gene	IPF	Disease	ENTREZ:29926	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CFHR1	Gene	IPF	Disease	ENTREZ:3078	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LMOD1	Gene	IPF	Disease	ENTREZ:25802	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+COL6A3	Gene	IPF	Disease	ENTREZ:1293	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PIGR	Gene	IPF	Disease	ENTREZ:5284	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+C4BPA	Gene	IPF	Disease	ENTREZ:722	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CD46	Gene	IPF	Disease	ENTREZ:4179	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CD34	Gene	IPF	Disease	ENTREZ:947	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LPGAT1	Gene	IPF	Disease	ENTREZ:9926	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+BPNT1	Gene	IPF	Disease	ENTREZ:10380	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+BROX	Gene	IPF	Disease	ENTREZ:148362	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+H3-3A	Gene	IPF	Disease	ENTREZ:3020	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+H3-3A	Gene	IPF	Disease	ENTREZ:3020	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ACBD3	Gene	IPF	Disease	ENTREZ:64746	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+JMJD4	Gene	IPF	Disease	ENTREZ:65094	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+NID1	Gene	IPF	Disease	ENTREZ:4811	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+NXN	Gene	IPF	Disease	ENTREZ:64359	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MYO1C	Gene	IPF	Disease	ENTREZ:4641	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PLD2	Gene	IPF	Disease	ENTREZ:5338	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PFN1	Gene	IPF	Disease	ENTREZ:5216	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TXNDC17	Gene	IPF	Disease	ENTREZ:84817	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RPL26	Gene	IPF	Disease	ENTREZ:6154	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MYH10	Gene	IPF	Disease	ENTREZ:4628	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FLCN	Gene	IPF	Disease	ENTREZ:201163	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+KRT12	Gene	IPF	Disease	ENTREZ:3859	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+KRT15	Gene	IPF	Disease	ENTREZ:3866	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+KRT19	Gene	IPF	Disease	ENTREZ:3880	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+KRT17	Gene	IPF	Disease	ENTREZ:3872	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CAVIN1	Gene	IPF	Disease	ENTREZ:284119	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+AOC3	Gene	IPF	Disease	ENTREZ:8639	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GRN	Gene	IPF	Disease	ENTREZ:2896	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ITGA2B	Gene	IPF	Disease	ENTREZ:3674	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SNF8	Gene	IPF	Disease	ENTREZ:11267	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LRRC59	Gene	IPF	Disease	ENTREZ:55379	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+NME1	Gene	IPF	Disease	ENTREZ:4830	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CA4	Gene	IPF	Disease	ENTREZ:762	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ACE	Gene	IPF	Disease	ENTREZ:1636	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+APOH	Gene	IPF	Disease	ENTREZ:350	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+JPT1	Gene	IPF	Disease	ENTREZ:51155	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+H3-3B	Gene	IPF	Disease	ENTREZ:3021	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+H3-3B	Gene	IPF	Disease	ENTREZ:3021	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FLT3	Gene	IPF	Disease	ENTREZ:2322	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HMGB1	Gene	IPF	Disease	ENTREZ:3146	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+UFM1	Gene	IPF	Disease	ENTREZ:51569	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TFF3	Gene	IPF	Disease	ENTREZ:7033	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ICOSLG	Gene	IPF	Disease	ENTREZ:23308	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TNFSF13B	Gene	IPF	Disease	ENTREZ:10673	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+YES1	Gene	IPF	Disease	ENTREZ:7525	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CST3	Gene	IPF	Disease	ENTREZ:1471	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MB	Gene	IPF	Disease	ENTREZ:4151	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GDF5	Gene	IPF	Disease	ENTREZ:8200	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+RBM39	Gene	IPF	Disease	ENTREZ:9584	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SRC	Gene	IPF	Disease	ENTREZ:6714	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LBP	Gene	IPF	Disease	ENTREZ:3929	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TOP1	Gene	IPF	Disease	ENTREZ:7150	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PI3	Gene	IPF	Disease	ENTREZ:5266	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+XRCC6	Gene	IPF	Disease	ENTREZ:2547	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CNDP1	Gene	IPF	Disease	ENTREZ:84735	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CTSB	Gene	IPF	Disease	ENTREZ:1508	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MMP9	Gene	IPF	Disease	ENTREZ:4318	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PTPN1	Gene	IPF	Disease	ENTREZ:5770	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+BMP1	Gene	IPF	Disease	ENTREZ:649	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IL3RA	Gene	IPF	Disease	ENTREZ:3563	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+THBS1	Gene	IPF	Disease	ENTREZ:7057	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PAK6	Gene	IPF	Disease	ENTREZ:56924	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RAC1	Gene	IPF	Disease	ENTREZ:5879	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ANXA1	Gene	IPF	Disease	ENTREZ:301	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+UBE2I	Gene	IPF	Disease	ENTREZ:7329	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CMA1	Gene	IPF	Disease	ENTREZ:1215	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PRTN3	Gene	IPF	Disease	ENTREZ:5657	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HNRNPA2B1	Gene	IPF	Disease	ENTREZ:3181	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+H1-2	Gene	IPF	Disease	ENTREZ:3006	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TEC	Gene	IPF	Disease	ENTREZ:7006	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SGTA	Gene	IPF	Disease	ENTREZ:6449	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PSMA2	Gene	IPF	Disease	ENTREZ:5683	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MAP2K2	Gene	IPF	Disease	ENTREZ:5605	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+C5	Gene	IPF	Disease	ENTREZ:727	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HSD17B10	Gene	IPF	Disease	ENTREZ:3028	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HMOX2	Gene	IPF	Disease	ENTREZ:3163	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HDGFL2	Gene	IPF	Disease	ENTREZ:84717	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CAMK2B	Gene	IPF	Disease	ENTREZ:816	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+NUDCD3	Gene	IPF	Disease	ENTREZ:23386	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GAPDH	Gene	IPF	Disease	ENTREZ:2597	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MSN	Gene	IPF	Disease	ENTREZ:4478	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ANXA2	Gene	IPF	Disease	ENTREZ:302	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+IGFBP1	Gene	IPF	Disease	ENTREZ:3484	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+IL2RG	Gene	IPF	Disease	ENTREZ:3561	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AFM	Gene	IPF	Disease	ENTREZ:173	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CXCL8	Gene	IPF	Disease	ENTREZ:3576	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+AREG	Gene	IPF	Disease	ENTREZ:374	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TNFSF14	Gene	IPF	Disease	ENTREZ:8740	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+C3	Gene	IPF	Disease	ENTREZ:12266	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+DAPK2	Gene	IPF	Disease	ENTREZ:23604	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+AIF1	Gene	IPF	Disease	ENTREZ:199	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CXCL11	Gene	IPF	Disease	ENTREZ:6373	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LCN2	Gene	IPF	Disease	ENTREZ:3934	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GHR	Gene	IPF	Disease	ENTREZ:2690	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CA13	Gene	IPF	Disease	ENTREZ:377677	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CA3	Gene	IPF	Disease	ENTREZ:761	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+RETN	Gene	IPF	Disease	ENTREZ:56729	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PTPN6	Gene	IPF	Disease	ENTREZ:5777	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CLIC1	Gene	IPF	Disease	ENTREZ:1192	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MAP2K1	Gene	IPF	Disease	ENTREZ:5604	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SBDS	Gene	IPF	Disease	ENTREZ:51119	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+BTK	Gene	IPF	Disease	ENTREZ:695	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+C4B	Gene	IPF	Disease	ENTREZ:721	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ICAM5	Gene	IPF	Disease	ENTREZ:7087	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+OLR1	Gene	IPF	Disease	ENTREZ:4973	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PKM	Gene	IPF	Disease	ENTREZ:5315	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CDKN1B	Gene	IPF	Disease	ENTREZ:1027	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PRKCB	Gene	IPF	Disease	ENTREZ:5579	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CSK	Gene	IPF	Disease	ENTREZ:1445	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+POR	Gene	IPF	Disease	ENTREZ:5447	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FCN1	Gene	IPF	Disease	ENTREZ:2219	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ACP5	Gene	IPF	Disease	ENTREZ:54	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MAPK13	Gene	IPF	Disease	ENTREZ:5603	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+RPS7	Gene	IPF	Disease	ENTREZ:6201	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+H2AZ1	Gene	IPF	Disease	ENTREZ:3015	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+IL16	Gene	IPF	Disease	ENTREZ:3603	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SERPINA5	Gene	IPF	Disease	ENTREZ:5104	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SERPINA3	Gene	IPF	Disease	ENTREZ:12	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PTK2	Gene	IPF	Disease	ENTREZ:5747	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SFTPD	Gene	IPF	Disease	ENTREZ:6441	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+EIF5	Gene	IPF	Disease	ENTREZ:1983	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CAST	Gene	IPF	Disease	ENTREZ:831	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CAMK2D	Gene	IPF	Disease	ENTREZ:817	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PDE5A	Gene	IPF	Disease	ENTREZ:8654	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PARK7	Gene	IPF	Disease	ENTREZ:11315	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CA6	Gene	IPF	Disease	ENTREZ:765	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IL2	Gene	IPF	Disease	ENTREZ:3558	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PGAM1	Gene	IPF	Disease	ENTREZ:5223	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GOT1	Gene	IPF	Disease	ENTREZ:2805	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SAA1	Gene	IPF	Disease	ENTREZ:6288	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+IL3	Gene	IPF	Disease	ENTREZ:3562	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TNFRSF1B	Gene	IPF	Disease	ENTREZ:7133	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PFDN5	Gene	IPF	Disease	ENTREZ:5204	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GPI	Gene	IPF	Disease	ENTREZ:2821	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SYNCRIP	Gene	IPF	Disease	ENTREZ:10492	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+NAMPT	Gene	IPF	Disease	ENTREZ:10135	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+EPHA2	Gene	IPF	Disease	ENTREZ:1969	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+AKR7A2	Gene	IPF	Disease	ENTREZ:8574	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GDF11	Gene	IPF	Disease	ENTREZ:10220	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PPID	Gene	IPF	Disease	ENTREZ:5481	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PLA2G2A	Gene	IPF	Disease	ENTREZ:5320	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+NACA	Gene	IPF	Disease	ENTREZ:4666	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FYN	Gene	IPF	Disease	ENTREZ:2534	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LTF	Gene	IPF	Disease	ENTREZ:4057	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+RPS27A	Gene	IPF	Disease	ENTREZ:6233	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SSRP1	Gene	IPF	Disease	ENTREZ:6749	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SERPING1	Gene	IPF	Disease	ENTREZ:710	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ACY1	Gene	IPF	Disease	ENTREZ:95	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PGLYRP1	Gene	IPF	Disease	ENTREZ:8993	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HNRNPAB	Gene	IPF	Disease	ENTREZ:3182	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+NAPA	Gene	IPF	Disease	ENTREZ:8775	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+METAP2	Gene	IPF	Disease	ENTREZ:10988	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SNRPF	Gene	IPF	Disease	ENTREZ:6636	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CAPG	Gene	IPF	Disease	ENTREZ:822	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SIGLEC14	Gene	IPF	Disease	ENTREZ:100049587	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+AKR1A1	Gene	IPF	Disease	ENTREZ:10327	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CFL1	Gene	IPF	Disease	ENTREZ:1072	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PTPN11	Gene	IPF	Disease	ENTREZ:5781	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+KIR2DL4	Gene	IPF	Disease	ENTREZ:3805	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PEBP1	Gene	IPF	Disease	ENTREZ:5037	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+AIP	Gene	IPF	Disease	ENTREZ:9049	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GSTP1	Gene	IPF	Disease	ENTREZ:2950	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SNX4	Gene	IPF	Disease	ENTREZ:8723	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RAN	Gene	IPF	Disease	ENTREZ:5901	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CFC1	Gene	IPF	Disease	ENTREZ:55997	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+F3	Gene	IPF	Disease	ENTREZ:14066	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CSF1	Gene	IPF	Disease	ENTREZ:1435	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MMP7	Gene	IPF	Disease	ENTREZ:4316	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MMP1	Gene	IPF	Disease	ENTREZ:4312	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+APOA1	Gene	IPF	Disease	ENTREZ:335	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PCSK7	Gene	IPF	Disease	ENTREZ:9159	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PDE11A	Gene	IPF	Disease	ENTREZ:50940	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+S100A9	Gene	IPF	Disease	ENTREZ:6280	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SHC1	Gene	IPF	Disease	ENTREZ:6464	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CRP	Gene	IPF	Disease	ENTREZ:1401	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+DDR2	Gene	IPF	Disease	ENTREZ:4921	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FN1	Gene	IPF	Disease	ENTREZ:2335	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+F5	Gene	IPF	Disease	ENTREZ:14067	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SELP	Gene	IPF	Disease	ENTREZ:6403	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IGFBP2	Gene	IPF	Disease	ENTREZ:3485	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PTGS2	Gene	IPF	Disease	ENTREZ:5743	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MAPKAPK2	Gene	IPF	Disease	ENTREZ:9261	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IL19	Gene	IPF	Disease	ENTREZ:29949	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SCARF1	Gene	IPF	Disease	ENTREZ:8578	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CAMKK1	Gene	IPF	Disease	ENTREZ:84254	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+EIF5A	Gene	IPF	Disease	ENTREZ:1984	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MAP2K4	Gene	IPF	Disease	ENTREZ:6416	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CCL23	Gene	IPF	Disease	ENTREZ:6368	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HSD17B1	Gene	IPF	Disease	ENTREZ:3292	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MPO	Gene	IPF	Disease	ENTREZ:4353	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PRKCA	Gene	IPF	Disease	ENTREZ:5578	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+KPNA2	Gene	IPF	Disease	ENTREZ:3838	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SPHK1	Gene	IPF	Disease	ENTREZ:8877	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HSPH1	Gene	IPF	Disease	ENTREZ:10808	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CPB2	Gene	IPF	Disease	ENTREZ:1361	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+F10	Gene	IPF	Disease	ENTREZ:14058	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SERPIND1	Gene	IPF	Disease	ENTREZ:3053	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ATRN	Gene	IPF	Disease	ENTREZ:8455	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TTR	Gene	IPF	Disease	ENTREZ:7276	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+KIN	Gene	IPF	Disease	ENTREZ:22944	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PIP4K2A	Gene	IPF	Disease	ENTREZ:5305	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+VCL	Gene	IPF	Disease	ENTREZ:7414	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+C4B	Gene	IPF	Disease	ENTREZ:721	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SERPINA7	Gene	IPF	Disease	ENTREZ:6906	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SEPTIN6	Gene	IPF	Disease	ENTREZ:23157	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PTGDS	Gene	IPF	Disease	ENTREZ:5730	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SERPINA6	Gene	IPF	Disease	ENTREZ:866	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GSDMC	Gene	IPF	Disease	ENTREZ:56169	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CEP104	Gene	IPF	Disease	ENTREZ:9731	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CUTC	Gene	IPF	Disease	ENTREZ:51076	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CPN1	Gene	IPF	Disease	ENTREZ:1369	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MYL6	Gene	IPF	Disease	ENTREZ:4637	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TOPAZ1	Gene	IPF	Disease	ENTREZ:375337	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GPX3	Gene	IPF	Disease	ENTREZ:2878	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HPR	Gene	IPF	Disease	ENTREZ:3250	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MAP7	Gene	IPF	Disease	ENTREZ:9053	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CLEC4F	Gene	IPF	Disease	ENTREZ:165530	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MAP7D1	Gene	IPF	Disease	ENTREZ:55700	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ARHGAP35	Gene	IPF	Disease	ENTREZ:2909	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+BCHE	Gene	IPF	Disease	ENTREZ:590	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CPN2	Gene	IPF	Disease	ENTREZ:1370	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CD5L	Gene	IPF	Disease	ENTREZ:922	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CFHR5	Gene	IPF	Disease	ENTREZ:81494	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+APP	Gene	IPF	Disease	ENTREZ:351	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TFF1	Gene	IPF	Disease	ENTREZ:7031	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TIMP3	Gene	IPF	Disease	ENTREZ:7078	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PDGFB	Gene	IPF	Disease	ENTREZ:5155	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+BPI	Gene	IPF	Disease	ENTREZ:671	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ADSL	Gene	IPF	Disease	ENTREZ:158	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MMP9	Gene	IPF	Disease	ENTREZ:4318	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PDGFA	Gene	IPF	Disease	ENTREZ:5154	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+THBS1	Gene	IPF	Disease	ENTREZ:7057	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HNRNPA2B1	Gene	IPF	Disease	ENTREZ:3181	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+H1-2	Gene	IPF	Disease	ENTREZ:3006	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+VWF	Gene	IPF	Disease	ENTREZ:7450	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PF4	Gene	IPF	Disease	ENTREZ:5196	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PPBP	Gene	IPF	Disease	ENTREZ:5473	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+VAV1	Gene	IPF	Disease	ENTREZ:7409	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CXCL13	Gene	IPF	Disease	ENTREZ:10563	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ICAM5	Gene	IPF	Disease	ENTREZ:7087	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AGER	Gene	IPF	Disease	ENTREZ:177	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+OLR1	Gene	IPF	Disease	ENTREZ:4973	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HSPB1	Gene	IPF	Disease	ENTREZ:3315	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PRKACA	Gene	IPF	Disease	ENTREZ:5566	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SFTPD	Gene	IPF	Disease	ENTREZ:6441	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GDF15	Gene	IPF	Disease	ENTREZ:9518	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GPD1	Gene	IPF	Disease	ENTREZ:2819	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CA6	Gene	IPF	Disease	ENTREZ:765	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CCL22	Gene	IPF	Disease	ENTREZ:6367	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CCL17	Gene	IPF	Disease	ENTREZ:6361	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PGD	Gene	IPF	Disease	ENTREZ:5226	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PGAM1	Gene	IPF	Disease	ENTREZ:5223	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ANXA6	Gene	IPF	Disease	ENTREZ:309	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SPARC	Gene	IPF	Disease	ENTREZ:6678	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SHH	Gene	IPF	Disease	ENTREZ:6469	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HK2	Gene	IPF	Disease	ENTREZ:3099	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CAPG	Gene	IPF	Disease	ENTREZ:822	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MMP1	Gene	IPF	Disease	ENTREZ:4312	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MMP3	Gene	IPF	Disease	ENTREZ:4314	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+S100A9	Gene	IPF	Disease	ENTREZ:6280	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+S100A6	Gene	IPF	Disease	ENTREZ:6277	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FN1	Gene	IPF	Disease	ENTREZ:2335	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CCL5	Gene	IPF	Disease	ENTREZ:6352	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CCL18	Gene	IPF	Disease	ENTREZ:6362	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PRKCA	Gene	IPF	Disease	ENTREZ:5578	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PPBP	Gene	IPF	Disease	ENTREZ:5473	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ECM1	Gene	IPF	Disease	ENTREZ:1893	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FN1	Gene	IPF	Disease	ENTREZ:2335	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SERPINC1	Gene	IPF	Disease	ENTREZ:462	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ACTG1	Gene	IPF	Disease	ENTREZ:71	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LCP1	Gene	IPF	Disease	ENTREZ:3936	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CNDP2	Gene	IPF	Disease	ENTREZ:55748	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ASAH1	Gene	IPF	Disease	ENTREZ:427	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+VCP	Gene	IPF	Disease	ENTREZ:7415	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TPM2	Gene	IPF	Disease	ENTREZ:7169	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+DPYSL2	Gene	IPF	Disease	ENTREZ:1808	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ZFHX2	Gene	IPF	Disease	ENTREZ:85446	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+VIM	Gene	IPF	Disease	ENTREZ:7431	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ACTB	Gene	IPF	Disease	ENTREZ:60	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FSCN1	Gene	IPF	Disease	ENTREZ:6624	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ANXA1	Gene	IPF	Disease	ENTREZ:301	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SERPINB1	Gene	IPF	Disease	ENTREZ:1992	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+LAP3	Gene	IPF	Disease	ENTREZ:51056	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PDIA3	Gene	IPF	Disease	ENTREZ:2923	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FBP1	Gene	IPF	Disease	ENTREZ:2203	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PSMA3	Gene	IPF	Disease	ENTREZ:5684	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+EEF2	Gene	IPF	Disease	ENTREZ:1938	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HSPA5	Gene	IPF	Disease	ENTREZ:3309	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GAPDH	Gene	IPF	Disease	ENTREZ:2597	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MSN	Gene	IPF	Disease	ENTREZ:4478	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ANXA2	Gene	IPF	Disease	ENTREZ:302	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ALB	Gene	IPF	Disease	ENTREZ:213	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TPM1	Gene	IPF	Disease	ENTREZ:7168	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+C3	Gene	IPF	Disease	ENTREZ:12266	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PPIB	Gene	IPF	Disease	ENTREZ:5479	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FABP5	Gene	IPF	Disease	ENTREZ:2171	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SEPTIN11	Gene	IPF	Disease	ENTREZ:55752	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TPI1	Gene	IPF	Disease	ENTREZ:7167	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ANXA3	Gene	IPF	Disease	ENTREZ:306	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CA1	Gene	IPF	Disease	ENTREZ:759	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CA3	Gene	IPF	Disease	ENTREZ:761	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CLIC1	Gene	IPF	Disease	ENTREZ:1192	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PGK1	Gene	IPF	Disease	ENTREZ:5230	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SPTAN1	Gene	IPF	Disease	ENTREZ:6709	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PKM	Gene	IPF	Disease	ENTREZ:5315	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TALDO1	Gene	IPF	Disease	ENTREZ:6888	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FBLN5	Gene	IPF	Disease	ENTREZ:10516	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MDH2	Gene	IPF	Disease	ENTREZ:4191	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HSPB1	Gene	IPF	Disease	ENTREZ:3315	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CTSD	Gene	IPF	Disease	ENTREZ:1509	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ADH1B	Gene	IPF	Disease	ENTREZ:125	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PRDX2	Gene	IPF	Disease	ENTREZ:7001	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PSMA4	Gene	IPF	Disease	ENTREZ:5685	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GLO1	Gene	IPF	Disease	ENTREZ:2739	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HPCAL1	Gene	IPF	Disease	ENTREZ:3241	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+MVP	Gene	IPF	Disease	ENTREZ:9961	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HBB	Gene	IPF	Disease	ENTREZ:3043	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HSP90AB1	Gene	IPF	Disease	ENTREZ:3326	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CLIC5	Gene	IPF	Disease	ENTREZ:53405	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HSP90AA1	Gene	IPF	Disease	ENTREZ:3320	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ANXA11	Gene	IPF	Disease	ENTREZ:311	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+GLUD1	Gene	IPF	Disease	ENTREZ:2746	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ACTA2	Gene	IPF	Disease	ENTREZ:59	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CES1	Gene	IPF	Disease	ENTREZ:1066	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IGHA1	Gene	IPF	Disease	ENTREZ:3493	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+IGHG1	Gene	IPF	Disease	ENTREZ:3500	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ENO1	Gene	IPF	Disease	ENTREZ:2023	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GPD1	Gene	IPF	Disease	ENTREZ:2819	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+EEF1A1	Gene	IPF	Disease	ENTREZ:1915	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GNB2	Gene	IPF	Disease	ENTREZ:2783	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PGAM1	Gene	IPF	Disease	ENTREZ:5223	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+KRT8	Gene	IPF	Disease	ENTREZ:3856	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LDHA	Gene	IPF	Disease	ENTREZ:3939	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+VDAC1	Gene	IPF	Disease	ENTREZ:7416	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CAT	Gene	IPF	Disease	ENTREZ:847	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+UGP2	Gene	IPF	Disease	ENTREZ:7360	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PDIA4	Gene	IPF	Disease	ENTREZ:9601	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TKT	Gene	IPF	Disease	ENTREZ:7086	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+DDB1	Gene	IPF	Disease	ENTREZ:1642	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CAP1	Gene	IPF	Disease	ENTREZ:10487	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LTA4H	Gene	IPF	Disease	ENTREZ:4048	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+STIP1	Gene	IPF	Disease	ENTREZ:10963	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ALDH2	Gene	IPF	Disease	ENTREZ:217	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TF	Gene	IPF	Disease	ENTREZ:7018	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RAN	Gene	IPF	Disease	ENTREZ:5901	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SELENBP1	Gene	IPF	Disease	ENTREZ:8991	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+S100A9	Gene	IPF	Disease	ENTREZ:6280	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+S100A8	Gene	IPF	Disease	ENTREZ:6279	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HSPD1	Gene	IPF	Disease	ENTREZ:3329	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+LMNA	Gene	IPF	Disease	ENTREZ:4000	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ATIC	Gene	IPF	Disease	ENTREZ:471	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PIGR	Gene	IPF	Disease	ENTREZ:5284	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PAFAH1B1	Gene	IPF	Disease	ENTREZ:5048	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+KRT19	Gene	IPF	Disease	ENTREZ:3880	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+VAT1	Gene	IPF	Disease	ENTREZ:10493	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ARHGDIA	Gene	IPF	Disease	ENTREZ:396	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SUSD2	Gene	IPF	Disease	ENTREZ:56241	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PIK3IP1	Gene	IPF	Disease	ENTREZ:113791	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+RNASE3	Gene	IPF	Disease	ENTREZ:6037	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+RNASE2	Gene	IPF	Disease	ENTREZ:6036	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PRTN3	Gene	IPF	Disease	ENTREZ:5657	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SLAIN2	Gene	IPF	Disease	ENTREZ:57606	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ADGRL3	Gene	IPF	Disease	ENTREZ:23284	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+PPBP	Gene	IPF	Disease	ENTREZ:5473	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+VCL	Gene	IPF	Disease	ENTREZ:7414	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HLA-DRB1	Gene	IPF	Disease	ENTREZ:3123	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SPP1	Gene	IPF	Disease	ENTREZ:6696	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MUC5AC	Gene	IPF	Disease	ENTREZ:4586	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+GLO1	Gene	IPF	Disease	ENTREZ:2739	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+APOB	Gene	IPF	Disease	ENTREZ:338	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CKB	Gene	IPF	Disease	ENTREZ:1152	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ARPC1B	Gene	IPF	Disease	ENTREZ:10095	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+AQP5	Gene	IPF	Disease	ENTREZ:362	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+TFCP2	Gene	IPF	Disease	ENTREZ:7024	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CRTAC1	Gene	IPF	Disease	ENTREZ:55118	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+KRT8	Gene	IPF	Disease	ENTREZ:3856	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FGB	Gene	IPF	Disease	ENTREZ:2244	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MRTO4	Gene	IPF	Disease	ENTREZ:51154	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CDA	Gene	IPF	Disease	ENTREZ:978	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+HSPG2	Gene	IPF	Disease	ENTREZ:3339	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SPTBN1	Gene	IPF	Disease	ENTREZ:6711	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CLC	Gene	IPF	Disease	ENTREZ:1178	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+NUDC	Gene	IPF	Disease	ENTREZ:10726	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CEACAM6	Gene	IPF	Disease	ENTREZ:4680	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SERPING1	Gene	IPF	Disease	ENTREZ:710	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+ZNF224	Gene	IPF	Disease	ENTREZ:7767	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CSMD2	Gene	IPF	Disease	ENTREZ:114784	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+HK3	Gene	IPF	Disease	ENTREZ:3101	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+FTL	Gene	IPF	Disease	ENTREZ:2512	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+FTH1	Gene	IPF	Disease	ENTREZ:2495	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+MMP8	Gene	IPF	Disease	ENTREZ:4317	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+ACAT1	Gene	IPF	Disease	ENTREZ:38	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+APOA1	Gene	IPF	Disease	ENTREZ:335	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+RTP4	Gene	IPF	Disease	ENTREZ:64108	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CPN2	Gene	IPF	Disease	ENTREZ:1370	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+S100A9	Gene	IPF	Disease	ENTREZ:6280	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+TFRC	Gene	IPF	Disease	ENTREZ:7037	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+F11R	Gene	IPF	Disease	ENTREZ:50848	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+USP37	Gene	IPF	Disease	ENTREZ:57695	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+CFHR1	Gene	IPF	Disease	ENTREZ:3078	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+COL6A3	Gene	IPF	Disease	ENTREZ:1293	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+PIGR	Gene	IPF	Disease	ENTREZ:5284	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE
+SDE2	Gene	IPF	Disease	ENTREZ:163859	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+CCL18	Gene	IPF	Disease	ENTREZ:6362	MONDO:0002771	Hetionet::DuG::Disease:Gene	FIBROMINE
+SLC38A10	Gene	IPF	Disease	ENTREZ:124565	MONDO:0002771	Hetionet::DdG::Disease:Gene	FIBROMINE

@@ -1,0 +1,859 @@
+GeneName,Alias,FullName,PMID,Method,DiseaseModel,DiseaseName,DiseaseID,Fibrosis
+ABCB4,MDR2/MDR3,ATP binding cassette subfamily B member 4,31071368,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ABCB4,MDR2/MDR3,ATP binding cassette subfamily B member 4,16223543,Gene Knockout,Biliary Fibrosis,fibrosis of bile duct,MONDO:0041959,anti
+ABCB4,MDR2/MDR3,ATP binding cassette subfamily B member 4,33340584,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ABCB4,MDR2/MDR3,ATP binding cassette subfamily B member 4,21868490,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ACE,,angiotensin converting enzyme,11425779,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ACE,,angiotensin converting enzyme,22822076,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+ACE,,angiotensin converting enzyme,27538767,Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ACE2,,angiotensin converting enzyme 2,27538767,Up Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ACE2,,angiotensin converting enzyme 2,20679547,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ACE2,,angiotensin converting enzyme 2,28808068,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ACKR3,CXCR7,atypical chemokine receptor 3,18268039,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ACKR3,CXCR7,atypical chemokine receptor 3,26779814,Activation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+ACKR3,CXCR7,atypical chemokine receptor 3,24256728,Activation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ACKR3,CXCR7,atypical chemokine receptor 3,18268039,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ACTA2,a-SMA,"actin alpha 2, smooth muscle",22028387,Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ACTA2,a-SMA,"actin alpha 2, smooth muscle",27853137,Down Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ACTA2,a-SMA,"actin alpha 2, smooth muscle",30820965,Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ACTA2,a-SMA,"actin alpha 2, smooth muscle",31476284,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ACVR1B,ALK4,activin A receptor type 1B,28639003,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ACVR1B,ALK4,activin A receptor type 1B,21377836,Inhibition,Systemic Sclerosis,systemic sclerosis,MONDO:0005100,pro
+ACVR1B,ALK4,activin A receptor type 1B,18202322,Inhibition,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+ACVR1B,ALK4,activin A receptor type 1B,30369314,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ADAM17,TACE,ADAM metallopeptidase domain 17,29930147,Gene Knockout,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+ADAM17,TACE,ADAM metallopeptidase domain 17,27480833,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ADAM17,TACE,ADAM metallopeptidase domain 17,16600387,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+ADAM17,TACE,ADAM metallopeptidase domain 17,21079048,RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ADIPOQ,APN,"adiponectin, C1Q and collagen domain containing",23833260,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+ADIPOQ,APN,"adiponectin, C1Q and collagen domain containing",17626903,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ADIPOQ,APN,"adiponectin, C1Q and collagen domain containing",23334396,Gene Knockout/Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ADIPOQ,APN,"adiponectin, C1Q and collagen domain containing",19933924,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ADIPOQ,APN,"adiponectin, C1Q and collagen domain containing",25957229,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ADIPOQ,APN,"adiponectin, C1Q and collagen domain containing",14724832,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ADIPOR1,,Adiponectin Receptor Protein 1,33199780,Activation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ADIPOR2,,Adiponectin Receptor Protein 2,33199780,Activation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ADIPOR1,,Adiponectin Receptor Protein 1,33213041,Activation,Arthrofibrosis,Fibrosis,MESH:D005355,anti
+ADIPOR2,,Adiponectin Receptor Protein 2,33213041,Activation,Arthrofibrosis,Fibrosis,MESH:D005355,anti
+ADIPOR1,,Adiponectin Receptor Protein 1,29330340,Activation,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ADIPOR2,,Adiponectin Receptor Protein 2,29330340,Activation,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ADIPOR1,,Adiponectin Receptor Protein 1,30569772,Activation(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,anti
+ADIPOR2,,Adiponectin Receptor Protein 2,18666257,RNAi/Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ADM,,adrenomedullin,14967720,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ADM,,adrenomedullin,18401334,Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ADM,,adrenomedullin,16105039,Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ADM,,adrenomedullin,23355623,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ADRB2,β2AR,adrenoceptor beta 2,28396116,Activation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ADRB2,β2AR,adrenoceptor beta 2,10758054,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ADRB2,β2AR,adrenoceptor beta 2,10618307,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+AGT,,angiotensinogen,18508830,Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+AGT,,angiotensinogen,9077534,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+AGT,,angiotensinogen,20237455,Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+AGT,,angiotensinogen,9884332,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+AHSA1,AHA1,activator of HSP90 ATPase activity 1,17110338,RNAi,Cystic Fibrosis,cystic fibrosis,MONDO:0009061,pro
+AHSA1,AHA1,activator of HSP90 ATPase activity 1,18556464,Inhibition,Cystic Fibrosis,cystic fibrosis,MONDO:0009061,pro
+AHSA1,AHA1,activator of HSP90 ATPase activity 1,20089831,RNAi/Gene Overexpression,Cystic Fibrosis,cystic fibrosis,MONDO:0009061,pro
+AKT1,,AKT serine/threonine kinase 1,26921108,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+AKT1,,AKT serine/threonine kinase 1,33316281,Gene Knockout/Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+AKT1,,AKT serine/threonine kinase 1,25970154,RNAi,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+AKT1,,AKT serine/threonine kinase 1,25012168,Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ALDH2,,aldehyde dehydrogenase 2 family member,31279903,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ALDH2,,aldehyde dehydrogenase 2 family member,24492981,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ALDH2,,aldehyde dehydrogenase 2 family member,16502397,Inhibition(Review),Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ALDH2,,aldehyde dehydrogenase 2 family member,19332462,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ANGPT1,ANG1,angiopoietin 1,12628953,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ANGPT1,ANG1,angiopoietin 1,21606590,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ANGPT1,ANG1,angiopoietin 1,25932532,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ANGPT2,ANG2,angiopoietin 2,30259536,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ANGPT2,ANG2,angiopoietin 2,24511140,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+ANGPT2,ANG2,angiopoietin 2,28355132,Gene Overexpression/Inhibition,Adipose Tissue Fibrosis,Fibrosis,MESH:D005355,anti
+ANGPT2,ANG2,angiopoietin 2,24708486,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+APC,,Adenomatous polyposis coli regulator of Wnt signaling pathway,32327611,Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+APC,,Adenomatous polyposis coli regulator of Wnt signaling pathway,22094874,Gene Knockout,Desmoid Tumor Fibrosis,desmoid tumor,MONDO:0007608,anti
+BAX,,Bcl-2-associated X protein,17209037,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+BAX,,Bcl-2-associated X protein,26180237,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+BAX,,Bcl-2-associated X protein,28317867,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+BCL2,BCL-2,BCL2 apoptosis regulator,14715896,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+BCL2,BCL-2,BCL2 apoptosis regulator,23514933,Up Regulation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+BCL2,BCL-2,BCL2 apoptosis regulator,16423888,Up Regulation/RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+BGN,,biglycan,29253517,Gene Knockout/Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+BGN,,biglycan,15031262,Gene Overexpression,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+BGN,,biglycan,27789290,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+BGN,,biglycan,21454527,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+BMP2,,bone morphogenetic protein 2,9427911,Direct Treatment,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+BMP2,,bone morphogenetic protein 2,18832104,Direct Treatment/Gene Overexpression/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+BMP2,,bone morphogenetic protein 2,29789683,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+BMP2,,bone morphogenetic protein 2,21659661,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+BMP2,,bone morphogenetic protein 2,22283839,Direct Treatment/Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+BMP4,,bone morphogenetic protein 4,23248151,Gene Overexpression/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+BMP4,,bone morphogenetic protein 4,30941514,Direct Treatment/Gene Overexpression/Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+BMP4,,bone morphogenetic protein 4,33188599,Direct Treatment,Ocular Fibrosis,Fibrosis,MESH:D005355,pro
+BMP4,,bone morphogenetic protein 4,20573231,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+BMP4,,bone morphogenetic protein 4,28159972,Direct Treatment,Ocular Fibrosis,Fibrosis,MESH:D005355,anti
+BMP7,,bone morphogenetic protein 7,12808448,Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+BMP7,,bone morphogenetic protein 7,31495264,Gene Knockout/Up Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+BMP7,,bone morphogenetic protein 7,19193779,Direct Treatment/Gene Overexpression,Peritoneal Fibrosis,Peritoneal Fibrosis,MESH:D056627,anti
+BMP7,,bone morphogenetic protein 7,17127702,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+BRD4,,bromodomain containing 4,31409188,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+BRD4,,bromodomain containing 4,26644586,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+BRD4,,bromodomain containing 4,28063381,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+BRD4,,bromodomain containing 4,33290278,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CAV1,,caveolin 1,25665524,Up Regulation,Cystic Fibrosis,cystic fibrosis,MONDO:0009061,anti
+CAV1,,caveolin 1,31826982,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+CAV1,,caveolin 1,31492508,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+CAV1,,caveolin 1,25550395,Gene Knockout,Peritoneal Fibrosis,Peritoneal Fibrosis,MESH:D056627,anti
+CAV1,,caveolin 1,11498544,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+CAV1,,caveolin 1,27895190,Gene Knockout,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+CCL1,,C-C motif chemokine ligand 1,22031018,Direct Treatment/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCL1,,C-C motif chemokine ligand 1,32586381,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CCL1,,C-C motif chemokine ligand 1,28526296,Down Regulation,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+CCL11,Eotaxin,C-C motif chemokine ligand 11,29467297,Inhibition,Intestinal Fibrosis,Fibrosis,MESH:D005355,pro
+CCL11,Eotaxin,C-C motif chemokine ligand 11,21851604,Up Regulation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CCL11,Eotaxin,C-C motif chemokine ligand 11,16314464,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CCL2,MCP-1,C-C motif chemokine ligand 2,33159815,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCL2,MCP-1,C-C motif chemokine ligand 2,26896096,Up Regulation,Pancreatic Fibrosis,chronic pancreatitis,MONDO:0005003,anti
+CCL2,MCP-1,C-C motif chemokine ligand 2,33798959,Gene Knockout,Adipose Tissue Fibrosis,Fibrosis,MESH:D005355,anti
+CCL2,MCP-1,C-C motif chemokine ligand 2,22177985,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CCL3,MIP-1A,C-C motif chemokine ligand 3,15569315,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+CCL3,MIP-1A,C-C motif chemokine ligand 3,21851604,Up Regulation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CCL3,MIP-1A,C-C motif chemokine ligand 3,24890045,Up Regulation(Review),Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCL5,,C-C motif chemokine ligand 5,28011329,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCL5,,C-C motif chemokine ligand 5,28318046,Up Regulation/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCL5,,C-C motif chemokine ligand 5,20978355,Gene Knockout/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCL5,,C-C motif chemokine ligand 5,27639593,Gene Knockout/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCN2,CTGF,cellular communication network factor 2,30716392,Inhibition,Skeletal Muscle Fibrosis,Fibrosis,MESH:D005355,pro
+CCN2,CTGF,cellular communication network factor 2,28376190,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CCN2,CTGF,cellular communication network factor 2,31495264,Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+CCN2,CTGF,cellular communication network factor 2,30898581,Up Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCR1,,C-C motif chemokine receptor 1,19603542,Gene Knockout/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCR1,,C-C motif chemokine receptor 1,14747380,Gene Knockout/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+CCR1,,C-C motif chemokine receptor 1,15569315,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+CCR1,,C-C motif chemokine receptor 1,11805137,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+CCR1,,C-C motif chemokine receptor 1,17229070,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+CCR2,,C-C motif chemokine receptor 2,31813573,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCR2,,C-C motif chemokine receptor 2,31439648,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+CCR2,,C-C motif chemokine receptor 2,30179264,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCR2,,C-C motif chemokine receptor 2,29572892,Down Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCR3,,C-C motif chemokine receptor 3,29467297,Gene Knockout/Inhibition,Intestinal Fibrosis,Fibrosis,MESH:D005355,pro
+CCR3,,C-C motif chemokine receptor 3,16314464,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CCR3,,C-C motif chemokine receptor 3,17148674,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CCR5,,C-C motif chemokine receptor 5,30179264,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCR5,,C-C motif chemokine receptor 5,19603542,Gene Knockout/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCR5,,C-C motif chemokine receptor 5,23526353,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CCR5,,C-C motif chemokine receptor 5,29336497,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CD274,PD-L1,CD274 molecule,30257954,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CD274,PD-L1,CD274 molecule,31201259,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+CD274,PD-L1,CD274 molecule,32493933,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CD274,PD-L1,CD274 molecule,30763282,Gene Knockout/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CEBPB,C/EBP-beta,CCAAT enhancer binding protein beta,29511346,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+CEBPB,C/EBP-beta,CCAAT enhancer binding protein beta,28002407,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CEBPB,C/EBP-beta,CCAAT enhancer binding protein beta,19297554,Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+CEBPB,C/EBP-beta,CCAAT enhancer binding protein beta,24947615,Up Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+CFTR,,CF transmembrane conductance regulator,18304008,Down Regulation(Review),Cystic Fibrosis,cystic fibrosis,MONDO:0009061,anti
+CFTR,,CF transmembrane conductance regulator,24973281,Down Regulation,Cystic Fibrosis,cystic fibrosis,MONDO:0009061,anti
+CFTR,,CF transmembrane conductance regulator,32243806,Gene Overexpression(Gene Therapy),Cystic Fibrosis,cystic fibrosis,MONDO:0009061,anti
+CFTR,,CF transmembrane conductance regulator,25350163,Gene Overexpression(Medical Therapy),Cystic Fibrosis,cystic fibrosis,MONDO:0009061,anti
+COL18A1,endostatin,collagen type XVIII alpha 1 chain,27165830,Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+COL18A1,endostatin,collagen type XVIII alpha 1 chain,22649092,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+COL18A1,endostatin,collagen type XVIII alpha 1 chain,23688086,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+COL1A1,,collagen type I alpha 1 chain,33398455,Up Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+COL1A1,,collagen type I alpha 1 chain,20117381,Up Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+COL1A1,,collagen type I alpha 1 chain,30830875,Up Regulation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+COL1A1,,collagen type I alpha 1 chain,27993716,Down Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+COL1A2,,collagen type I alpha 2 chain,21864682,Up Regulation,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+COL1A2,,collagen type I alpha 2 chain,16815696,Up Regulation(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+COL1A2,,collagen type I alpha 2 chain,27503806,Up Regulation,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+COL3A1,,collagen type III alpha 1 chain,29899023,Up Regulation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+COL3A1,,collagen type III alpha 1 chain,33398455,Up Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+COL3A1,,collagen type III alpha 1 chain,20117381,Up Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+COMP,,cartilage oligomeric matrix protein,27318326,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+COMP,,cartilage oligomeric matrix protein,16520029,Gene Overexpression,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+COMP,,cartilage oligomeric matrix protein,18408251,Direct Treatment/Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CXCL12,SDF1,stromal cell-derived factor-1alpha,19434726,Direct Treatment/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CXCL12,SDF1,stromal cell-derived factor-1alpha,30700545,Inhibition,Tumor Fibrosis,Fibrosis,MESH:D005355,pro
+CXCL12,SDF1,stromal cell-derived factor-1alpha,30748094,Direct Treatment,Pancreatic Fibrosis,chronic pancreatitis,MONDO:0005003,anti
+CXCL12,SDF1,stromal cell-derived factor-1alpha,15286810,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CXCL12,SDF1,stromal cell-derived factor-1alpha,32384208,Up Regulation/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+CXCR2,,C-X-C motif chemokine receptor 2,29514257,Gene Knockout/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+CXCR2,,C-X-C motif chemokine receptor 2,32639881,Gene Knockout/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+CXCR2,,C-X-C motif chemokine receptor 2,15105284,Gene Knockout/Inhibition,Thrombus Fibrosis,Fibrosis,MESH:D005355,pro
+CXCR2,,C-X-C motif chemokine receptor 2,21926469,Inhibition,Pancreatic Fibrosis,chronic pancreatitis,MONDO:0005003,pro
+CXCR4,,C-X-C motif chemokine receptor 4,19434726,Activation/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CXCR4,,C-X-C motif chemokine receptor 4,26602164,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CXCR4,,C-X-C motif chemokine receptor 4,30700545,Inhibition,Tumor Fibrosis,Fibrosis,MESH:D005355,pro
+CXCR4,,C-X-C motif chemokine receptor 4,32440550,Inhibition,Tumor Fibrosis,Fibrosis,MESH:D005355,pro
+CXCR4,,C-X-C motif chemokine receptor 4,18268039,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+CXCR4,,C-X-C motif chemokine receptor 4,32384208,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+DCN,,decorin,8597951,Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+DCN,,decorin,23983032,Direct Treatment,Neurofibrosis,neurofibroma,MONDO:0016755,anti
+DCN,,decorin,30528862,Gene Overexpression,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+DCN,,decorin,15949932,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+DCN,,decorin,11254537,Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+EDN1,ET-1,endothelin 1,31177814,Up Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+EDN1,ET-1,endothelin 1,31747868,Inhibition/Down Regulation,Thrombus Fibrosis,Fibrosis,MESH:D005355,pro
+EDN1,ET-1,endothelin 1,9279246,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+EDN1,ET-1,endothelin 1,22183953,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+EDN1,ET-1,endothelin 1,8981923,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+EDN1,ET-1,endothelin 1,7615814,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+EGF,,epidermal growth factor,24677197,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+EGF,,epidermal growth factor,25311535,Inhibition(Review),Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+EGF,,epidermal growth factor,10903338,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+EGFR,,epidermal growth factor receptor,31676723,Activation/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+EGFR,,epidermal growth factor receptor,32678881,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+EGFR,,epidermal growth factor receptor,24677197,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+EGFR,,epidermal growth factor receptor,26677863,Inhibition,Peritoneal Fibrosis,Peritoneal Fibrosis,MESH:D056627,pro
+EFNB2,,Ephrin B2,29058717,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+EFNB2,,Ephrin B2,30268571,Inhibition(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+EFNB2,,Ephrin B2,28834283,RNAi,Neurofibrosis,neurofibroma,MONDO:0016755,pro
+EFNB2,,Ephrin B2,33794069,RNAi,Neurofibrosis,neurofibroma,MONDO:0016755,pro
+ENG,,endoglin,22592898,RNAi/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ENG,,endoglin,20156938,RNAi/Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ENG,,endoglin,15539634,Inhibition/Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ENG,,endoglin,22941949,Up Regulation/Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ENG,,endoglin,25245471,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+FAS,TNFRSF6,Fas cell surface death receptor,10393694,Direct Treatment/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+FASLG,,Fas ligand,10393694,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+FAS,TNFRSF6,Fas cell surface death receptor,15148335,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+FASLG,,Fas ligand,15148335,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+FAS,TNFRSF6,Fas cell surface death receptor,12579197,RNAi/Activation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+FAS,TNFRSF6,Fas cell surface death receptor,23074025,RNAi,Skeletal Muscle Fibrosis,Fibrosis,MESH:D005355,pro
+FASLG,,Fas ligand,22850679,Gene Overexpression,Tumor Fibrosis,Fibrosis,MESH:D005355,pro
+FASLG,,Fas ligand,10791994,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+FGF1,,fibroblast growth factor 1,28750927,Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+FGF1,,fibroblast growth factor 1,32965675,Activation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+FGF1,,fibroblast growth factor 1,26858440,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+FGF1,,fibroblast growth factor 1,24200746,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+FGF1,,fibroblast growth factor 1,17032753,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+FGF2,,fibroblast growth factor 2,32979454,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+FGF2,,fibroblast growth factor 2,29249393,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+FGF2,,fibroblast growth factor 2,27080571,Direct Treatment,Tumor Fibrosis,Fibrosis,MESH:D005355,pro
+FGF2,,fibroblast growth factor 2,11168939,Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+FGFR1,,fibroblast growth factor receptor 1,33131311,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+FGFR1,,fibroblast growth factor receptor 1,20554971,Gene Overexpression,Bone Marrow Fibrosis,primary myelofibrosis,MONDO:0009692,pro
+FGFR1,,fibroblast growth factor receptor 1,28771231,RNAi/Inhibition,Fibrotic Disorders,Fibrosis,MESH:D005355,anti
+FGFR1,,fibroblast growth factor receptor 1,33135394,Inhibition(Mutation)/Down Regulation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+FGFR2,,fibroblast growth factor receptor 2,30067981,Inhibition,Tumor Fibrosis,Fibrosis,MESH:D005355,pro
+FGFR2,,fibroblast growth factor receptor 2,31860803,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+FGFR2,,fibroblast growth factor receptor 2,31830366,Gene Knockout,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+FGFR2,,fibroblast growth factor receptor 2,28646122,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+FLT4,VEGFR3,fms related receptor tyrosine kinase 4,30833548,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+FLT4,VEGFR3,fms related receptor tyrosine kinase 4,33479195,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+FLT4,VEGFR3,fms related receptor tyrosine kinase 4,11175851,Gene Overexpression/Direct Treatment,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+FN1,,fibronectin,32173580,Gene Knockout,Ocular Fibrosis,Fibrosis,MESH:D005355,pro
+FN1,,fibronectin,29653926,Gene Knockout/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+FN1,,fibronectin,24946284,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+FN1,,fibronectin,8286747,Inhibition,Bone Marrow Fibrosis,primary myelofibrosis,MONDO:0009692,pro
+FOS,c-Fos,"Fos proto-oncogene, AP-1 transcription factor subunit",32296036,Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+FOS,c-Fos,"Fos proto-oncogene, AP-1 transcription factor subunit",9242432,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+FOS,c-Fos,"Fos proto-oncogene, AP-1 transcription factor subunit",19027749,Direct Treatment/Activation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+FOXP1,,Forkhead box transcription factor P1,31177814,Gene Knockout/Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+FOXP1,,Forkhead box transcription factor P1,32648149,Gene Knockout/Activation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+FOXP1,,Forkhead box transcription factor P1,33408770,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+FOXP1,,Forkhead box transcription factor P1,21683954,Gene Overexpression,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+GREM1,,"gremlin 1, DAN family BMP antagonist",32173580,Direct Treatment,Ocular Fibrosis,Fibrosis,MESH:D005355,pro
+GREM1,,"gremlin 1, DAN family BMP antagonist",26141517,Gene Knockout/Direct Treatment,Pancreatic Fibrosis,chronic pancreatitis,MONDO:0005003,pro
+GREM1,,"gremlin 1, DAN family BMP antagonist",25194662,Gene Overexpression,Peritoneal Fibrosis,Peritoneal Fibrosis,MESH:D056627,pro
+GREM1,,"gremlin 1, DAN family BMP antagonist",25378054,Gene Overexpression/Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+HBEGF,,heparin binding EGF like growth factor,11168942,Direct Treatment,Peritoneal Fibrosis,Peritoneal Fibrosis,MESH:D056627,pro
+HBEGF,,heparin binding EGF like growth factor,12671899,Gene Overexpression,Pancreatic Fibrosis,chronic pancreatitis,MONDO:0005003,pro
+HBEGF,,heparin binding EGF like growth factor,30451982,Gene Overexpression/Activation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+HBEGF,,heparin binding EGF like growth factor,15856048,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+HGF,,hepatocyte growth factor,18395096,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+HGF,,hepatocyte growth factor,29079780,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+HGF,,hepatocyte growth factor,24859116,Direct Treatment/Activation,Fibrotic Disorders,Fibrosis,MESH:D005355,anti
+HGF,,hepatocyte growth factor,25662495,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+HGF,,hepatocyte growth factor,16469408,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+HIF1A,HIF-1a,hypoxia inducible factor 1 subunit alpha,27625023,Gene Knockout,Adipose Tissue Fibrosis,Fibrosis,MESH:D005355,pro
+HIF1A,HIF-1a,hypoxia inducible factor 1 subunit alpha,21606594,Gene Knockout/Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+HIF1A,HIF-1a,hypoxia inducible factor 1 subunit alpha,22403061,Gene Knockout/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+HIF1A,HIF-1a,hypoxia inducible factor 1 subunit alpha,33805152,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+HSPB1,HSP27,heat shock protein family B (small) member 1,31126962,RNAi/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+HSPB1,HSP27,heat shock protein family B (small) member 1,26744531,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+HSPB1,HSP27,heat shock protein family B (small) member 1,29650953,Inhibition,Myelofibrosis,primary myelofibrosis,MONDO:0009692,pro
+HSPB1,HSP27,heat shock protein family B (small) member 1,23262200,Direct Treatment,Skeletal Muscle Fibrosis,Fibrosis,MESH:D005355,anti
+ICAM1,,intercellular adhesion molecule 1,29222072,RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ICAM1,,intercellular adhesion molecule 1,12011223,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ICAM1,,intercellular adhesion molecule 1,31729904,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ICAM1,,intercellular adhesion molecule 1,17167153,Up Regulation,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+IFNG,,interferon gamma,8621153,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+IFNG,,interferon gamma,31173810,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IFNG,,interferon gamma,15361241,"Inhibition(Mutation,Review)",Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+IFNG,,interferon gamma,17923165,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IGF1,,insulin like growth factor 1,10347117,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IGF1,,insulin like growth factor 1,21723061,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+IGF1,,insulin like growth factor 1,23583271,Gene Knockout/RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IGF1,,insulin like growth factor 1,10325238,Gene Knockout/Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+IL10,,interleukin 10,30852423,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+IL10,,interleukin 10,19096025,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+IL10,,interleukin 10,30274824,Gene Knockout/Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro/anti
+IL10,,interleukin 10,21864478,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+IL11,,interleukin 11,31554736,Gene Overexpression/Direct Treatment/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL11,,interleukin 11,29160304,Gene Knockout/Gene Overexpression/Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+IL11,,interleukin 11,11590369,Gene Knockout/Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL11,,interleukin 11,8981933,Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL13,,interleukin 13,16327802,Direct Treatment/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL13,,interleukin 13,27745702,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+IL13,,interleukin 13,26436920,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL13,,interleukin 13,15546394,Gene Knockout(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+IL13RA1,,interleukin 13 receptor subunit alpha 1,26153764,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+IL13RA1,,interleukin 13 receptor subunit alpha 1,32695877,Up Regulation/Down Regulation,Tenden Fibrosis,Fibrosis,MESH:D005355,pro
+IL13RA1,,interleukin 13 receptor subunit alpha 1,29094025,Gene Overexpression/RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IL13RA1,,interleukin 13 receptor subunit alpha 1,18266877,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL13RA2,,interleukin 13 receptor subunit alpha 2,15546394,Gene Knockout(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,anti
+IL13RA2,,interleukin 13 receptor subunit alpha 2,16327802,RNAi/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL13RA2,,interleukin 13 receptor subunit alpha 2,18938165,RNAi,Intestinal Fibrosis,Fibrosis,MESH:D005355,pro
+IL17A,,interleukin 17A,28902427,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IL17A,,interleukin 17A,30257954,Up Regulation/Down Regulation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL17A,,interleukin 17A,30366940,Inhibition/Up Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IL18,,interleukin 18,22383501,Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL18,,interleukin 18,28549109,Gene Knockout/Activation/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+IL18,,interleukin 18,33181835,Direct Treatment/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+IL18,,interleukin 18,17766435,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL18,,interleukin 18,19865096,Direct Treatment,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+IL1A,,interleukin 1 alpha,8317461,Inhibition,Bone Marrow Fibrosis,primary myelofibrosis,MONDO:0009692,pro
+IL1A,,interleukin 1 alpha,21354232,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IL1A,,interleukin 1 alpha,23583823,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+IL1B,,interleukin 1 beta,25388157,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL1B,,interleukin 1 beta,8566579,Direct Treatment,Intestinal Fibrosis,Fibrosis,MESH:D005355,anti
+IL1B,,interleukin 1 beta,33831572,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+IL1B,,interleukin 1 beta,21354232,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IL21,,interleukin 21,18161745,Activation(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+IL21,,interleukin 21,30760472,Inhibition,Systemic Sclerosis,systemic sclerosis,MONDO:0005100,pro
+IL21,,interleukin 21,28665299,Inhibition(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+IL22,,interleukin 22,30366940,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IL22,,interleukin 22,22687286,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+IL22,,interleukin 22,30765845,Direct Treatment/Inhibition,Intestinal Fibrosis,Fibrosis,MESH:D005355,pro
+IL22,,interleukin 22,25476703,Direct Treatment/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+IL22,,interleukin 22,33443222,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+IL4,,interleukin 4,26195478,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+IL4,,interleukin 4,27745702,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+IL4,,interleukin 4,26436920,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL4,,interleukin 4,10377172,Inhibition,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+IL4,,interleukin 4,27760399,Direct Treatment,Inplant Fibrosis,cystic fibrosis,MONDO:0009061,anti
+IL5,,interleukin 5,10377172,Gene Knockout/Inhibition,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+IL5,,interleukin 5,21435906,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+IL5,,interleukin 5,28853443,Inhibition,Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+IL5,,interleukin 5,14975941,Gene Knockout/Gene Overexpression/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+IL6,,interleukin 6,30765261,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+IL6,,interleukin 6,33236445,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+IL6,,interleukin 6,31965901,Inhibition,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+IL6,,interleukin 6,19234091,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+IL6,,interleukin 6,21321532,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+IL7,,interleukin 7,11927620,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+IL7,,interleukin 7,21393864,Down Regulation,Lymphoid Fibrosis,Fibrosis,MESH:D005355,anti
+IL7,,interleukin 7,25352130,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ILK,,integrin linked kinase,28522687,Gene Knockout/RNAi/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+ILK,,integrin linked kinase,19541809,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+ILK,,integrin linked kinase,31653783,Gene Knockout/RNAi/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+ILK,,integrin linked kinase,18037995,Gene Overexpression/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+ILK,,integrin linked kinase,23612611,Gene Knockout/Up Regulation/Down Regulation,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+ILK,,integrin linked kinase,19687354,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+IRF7,,interferon regulatory factor 7,31439591,Gene Knockout,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+IRF7,,interferon regulatory factor 7,24396025,Gene Knockout/Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ITGA1,VLA-1,integrin subunit alpha 1,22698912,Up Regulation(SNPs),Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ITGA1,VLA-1,integrin subunit alpha 1,15451466,Inhibition,Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+ITGA1,VLA-1,integrin subunit alpha 1,11447218,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+ITGA1,VLA-1,integrin subunit alpha 1,12512039,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ITGA2,,integrin subunit alpha 2,24480069,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+ITGA2,,integrin subunit alpha 2,12512039,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ITGA2,,integrin subunit alpha 2,32692932,Gene Knockout/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro/anti
+ITGA2,,integrin subunit alpha 2,12556543,Up Regulation,Peritoneal Fibrosis,Peritoneal Fibrosis,MESH:D056627,pro
+ITGA3,,integrin subunit alpha 3,19041328,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ITGA3,,integrin subunit alpha 3,19411312,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ITGAV,,integrin subunit alpha V,25995225,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ITGAV,,integrin subunit alpha V,24216753,Gene Knockout/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ITGAV,,integrin subunit alpha V,27039906,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ITGAV,,integrin subunit alpha V,31932644,Gene Overexpression/RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ITGB1,,integrin subunit beta 1,31433301,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ITGB1,,integrin subunit beta 1,10921880,Gene Knockout,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+ITGB1,,integrin subunit beta 1,8293568,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ITGB1,,integrin subunit beta 1,29599141,RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ITGB2,CD18,integrin subunit beta 2,33178179,Activation/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ITGB2,CD18,integrin subunit beta 2,33752236,Inhibition/Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+ITGB3,,integrin subunit beta 3,31249375,RNAi/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ITGB3,,integrin subunit beta 3,15044441,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ITGB3,,integrin subunit beta 3,31505128,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ITGB5,,integrin subunit beta 5,27039906,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ITGB5,,integrin subunit beta 5,26973018,Inhibition,Ocular Fibrosis,Fibrosis,MESH:D005355,pro
+ITGB5,,integrin subunit beta 5,20463011,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ITGB6,,integrin subunit beta 6,26448099,Gene Knockout/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ITGB6,,integrin subunit beta 6,10025398,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ITGB6,,integrin subunit beta 6,17916808,Gene Knockout/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ITGB6,,integrin subunit beta 6,24167080,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ITGB8,,integrin subunit beta 8,24944194,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ITGB8,,integrin subunit beta 8,12324452,RNAi,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+ITGB8,,integrin subunit beta 8,21878622,Up Regulation,Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+ITGB8,,integrin subunit beta 8,27834568,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+JAK1,,Janus kinase 1,28478401,Inhibition,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+JAK1,,Janus kinase 1,30765261,Inhibition/Up Regulation,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+JAK1,,Janus kinase 1,30760472,Inhibition,Systemic Sclerosis,systemic sclerosis,MONDO:0005100,pro
+JAK2,,Janus kinase 2,32647323,Inhibition,Myelofibrosis,primary myelofibrosis,MONDO:0009692,pro
+JAK2,,Janus kinase 2,29650953,Activation/Inhibition,Myelofibrosis,primary myelofibrosis,MONDO:0009692,pro
+JAK2,,Janus kinase 2,20154217,Inhibition,Myelofibrosis,primary myelofibrosis,MONDO:0009692,pro
+JAK3,,Janus kinase 3,26032813,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+JAK3,,Janus kinase 3,27745702,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+JAK3,,Janus kinase 3,25352130,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+JUN,cJUN,"Jun proto-oncogene, AP-1 transcription factor subunit",32493933,Gene Knockout/Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+JUN,cJUN,"Jun proto-oncogene, AP-1 transcription factor subunit",30778201,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+JUN,cJUN,"Jun proto-oncogene, AP-1 transcription factor subunit",22258492,Inhibition,Systemic Sclerosis,systemic sclerosis,MONDO:0005100,pro
+JUN,cJUN,"Jun proto-oncogene, AP-1 transcription factor subunit",8981923,Up Regulation/Down Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+JUND,,"JunD proto-oncogene, AP-1 transcription factor subunit",17133482,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+JUND,,"JunD proto-oncogene, AP-1 transcription factor subunit",21515915,Gene Knockout,Systemic Sclerosis,systemic sclerosis,MONDO:0005100,pro
+JUND,,"JunD proto-oncogene, AP-1 transcription factor subunit",16129800,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+JUND,,"JunD proto-oncogene, AP-1 transcription factor subunit",12975469,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+KLF2,,Kruppel like factor 2,25500203,Gene Overexpression/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+KLF2,,Kruppel like factor 2,33408770,RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+KLF2,,Kruppel like factor 2,22989565,RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+LGALS3,,galectin 3,30612490,RNAi/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+LGALS3,,galectin 3,22095546,Gene Knockout/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+LGALS3,,galectin 3,26238446,Gene Knockout/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+LGALS3,,galectin 3,16549783,Gene Knockout/RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+LGALS3,,galectin 3,21145823,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+LOX,,lysyl oxidase,32176358,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+LOXL1,,lysyl oxidase-like 1,32176358,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+LOXL2,,lysyl oxidase-like 2,32176358,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+LOX,,lysyl oxidase,22767499,Inhibition(Review),Myelofibrosis,primary myelofibrosis,MONDO:0009692,pro
+LOX,,lysyl oxidase,23345161,Inhibition,Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+LOX,,lysyl oxidase,29672662,Inhibition,Intestinal Fibrosis,Fibrosis,MESH:D005355,pro
+LOXL1,,lysyl oxidase-like 1,29115860,Gene Knockout/Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+LOXL1,,lysyl oxidase-like 1,33176449,Inhibition(Review),Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+LOXL1,,lysyl oxidase-like 1,29366776,RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+LOXL2,,lysyl oxidase-like 2,28073888,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+LOXL2,,lysyl oxidase-like 2,20818376,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+LOXL2,,lysyl oxidase-like 2,29759420,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+LTBP1,,latent transforming growth factor beta binding protein 1,30611717,Down Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+LTBP1,,latent transforming growth factor beta binding protein 1,9620332,Gene Knockout(Splice Variant),Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+LTBP1,,latent transforming growth factor beta binding protein 1,9607192,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+LTBP2,,latent transforming growth factor beta binding protein 2,31512380,RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+LTBP2,,latent transforming growth factor beta binding protein 2,28991210,Direct Treatment,Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+LTBP2,,latent transforming growth factor beta binding protein 2,32826876,Gene Overexpression,Mucosal Fibrosis,Fibrosis,MESH:D005355,pro
+MAP3K5,ASK1,mitogen-activated protein kinase kinase kinase 5,31541591,Inhibition/Down Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+MAP3K5,ASK1,mitogen-activated protein kinase kinase kinase 5,31595673,Gene Knockout/Gene Overexpression/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MAP3K5,ASK1,mitogen-activated protein kinase kinase kinase 5,30024858,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+MAP3K5,ASK1,mitogen-activated protein kinase kinase kinase 5,28892558,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+MAP3K7,TAK1,transforming growth factor-beta-activated kinase 1,33768585,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+MAP3K7,TAK1,transforming growth factor-beta-activated kinase 1,32513687,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MAP3K7,TAK1,transforming growth factor-beta-activated kinase 1,33236534,Gene Overexpression/RNAi,Skeletal Muscle Fibrosis,Fibrosis,MESH:D005355,pro
+MAP3K7,TAK1,transforming growth factor-beta-activated kinase 1,20080763,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MAPK1,ERK2,mitogen-activated protein kinase 1,30266653,Activation/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MAPK3,ERK1,mitogen-activated protein kinase 3,30266653,Activation/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MAPK1,ERK2,mitogen-activated protein kinase 1,18449171,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+MAPK3,ERK1,mitogen-activated protein kinase 3,18449171,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+MAPK1,ERK2,mitogen-activated protein kinase 1,16327498,Inhibition,Intestinal Fibrosis,Fibrosis,MESH:D005355,pro
+MAPK3,ERK1,mitogen-activated protein kinase 3,16327498,Inhibition,Intestinal Fibrosis,Fibrosis,MESH:D005355,pro
+MAPK1,ERK2,mitogen-activated protein kinase 1,16087786,Activation/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+MAPK1,ERK2,mitogen-activated protein kinase 1,27298141,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+MAPK3,ERK1,mitogen-activated protein kinase 3,19787807,RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+MAPK3,ERK1,mitogen-activated protein kinase 3,30530834,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+MAPK8,JNK1,mitogen-activated protein kinase 8,26708719,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MAPK9,JNK2,mitogen-activated protein kinase 9,26708719,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MAPK8,JNK1,mitogen-activated protein kinase 8,17202416,Gene Knockout/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+MAPK8,JNK1,mitogen-activated protein kinase 8,19549522,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+MAPK8,JNK1,mitogen-activated protein kinase 8,11208641,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+MAPK8,JNK1,mitogen-activated protein kinase 8,24037431,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+MAPK9,JNK2,mitogen-activated protein kinase 9,19782079,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MAPK9,JNK2,mitogen-activated protein kinase 9,30622669,Gene Knockout,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+MAPK9,JNK2,mitogen-activated protein kinase 9,30320490,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+MFGE8,,milk fat globule EGF and factor V/VIII domain containing,27956229,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MFGE8,,milk fat globule EGF and factor V/VIII domain containing,28827473,Gene Knockout/Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+MFGE8,,milk fat globule EGF and factor V/VIII domain containing,19884654,Gene Knockout/Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+MFGE8,,milk fat globule EGF and factor V/VIII domain containing,30175895,Gene Knockout/Direct Treatment,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+MMP1,,matrix metallopeptidase 1,18440885,Direct Treatment,Skeletal Muscle Fibrosis,Fibrosis,MESH:D005355,anti
+MMP1,,matrix metallopeptidase 1,33737203,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MMP1,,matrix metallopeptidase 1,25770908,Gene Overexpression(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,anti
+MMP13,,matrix metallopeptidase 13,25770908,Gene Knockout(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,anti
+MMP13,,matrix metallopeptidase 13,21139571,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MMP13,,matrix metallopeptidase 13,30785343,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+MMP14,,matrix metallopeptidase 14,29454902,Up Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MMP14,,matrix metallopeptidase 14,27066886,Gene Knockout,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+MMP14,,matrix metallopeptidase 14,33063665,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+MMP14,,matrix metallopeptidase 14,24136919,Activation/Down Regulation,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+MMP2,,matrix metallopeptidase 2,26343345,Inhibition,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+MMP2,,matrix metallopeptidase 2,22618590,RNAi/Inhibition,Ocular Fibrosis,Fibrosis,MESH:D005355,pro
+MMP2,,matrix metallopeptidase 2,10421655,Activation/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+MMP3,Stromelysin,matrix metallopeptidase 3,21480623,Down Regulation,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+MMP3,Stromelysin,matrix metallopeptidase 3,18403326,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+MMP3,Stromelysin,matrix metallopeptidase 3,21871427,Gene Knockout/Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+MMP3,Stromelysin,matrix metallopeptidase 3,33319933,Inhibition,Fibrotic Disorders,Fibrosis,MESH:D005355,pro/anti
+MMP7,Matrilysin,matrix metallopeptidase 7,21079048,RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+MMP7,Matrilysin,matrix metallopeptidase 7,28239354,Gene Knockout(Review),Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+MMP7,Matrilysin,matrix metallopeptidase 7,32053892,Gene Knockout/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+MMP7,Matrilysin,matrix metallopeptidase 7,32270301,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+MMP8,neutrophil collagenase,matrix metallopeptidase 8,15057760,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MMP8,neutrophil collagenase,matrix metallopeptidase 8,20622038,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+MMP8,neutrophil collagenase,matrix metallopeptidase 8,11097484,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+MMP9,Gelatinase B,matrix metallopeptidase 9,30653976,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+MMP9,Gelatinase B,matrix metallopeptidase 9,33064567,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+MMP9,Gelatinase B,matrix metallopeptidase 9,18332263,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+MYC,c-MYC,"MYC proto-oncogene, bHLH transcription factor",29739813,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+MYC,c-MYC,"MYC proto-oncogene, bHLH transcription factor",28483378,Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+MYC,c-MYC,"MYC proto-oncogene, bHLH transcription factor",25619689,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+MYC,c-MYC,"MYC proto-oncogene, bHLH transcription factor",26576483,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+MYD88,,MYD88 innate immune signal transduction adaptor,32020030,Gene Knockout,Intestinal Fibrosis,Fibrosis,MESH:D005355,pro
+MYD88,,MYD88 innate immune signal transduction adaptor,27869651,Gene Knockout/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+MYD88,,MYD88 innate immune signal transduction adaptor,17992263,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+MYD88,,MYD88 innate immune signal transduction adaptor,25711908,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+NEDD9,,neural precursor cell expressed developmentally down-regulated 9,29899023,Gene Knockout/Inhibition,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+NEDD9,,neural precursor cell expressed developmentally down-regulated 9,32603782,Up Regulation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+NFKB1,,nuclear factor kappa B subunit 1,25879839,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+NFKB1,,nuclear factor kappa B subunit 1,23562440,Gene Knockout,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+NFKB1,,nuclear factor kappa B subunit 1,29259025,Inhibition,Mucosal Fibrosis,Fibrosis,MESH:D005355,anti
+NOTCH1,,notch receptor 1,23989801,RNAi/Activation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+NOTCH1,,notch receptor 1,19064701,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+NOTCH1,,notch receptor 1,27387769,Gene Knockout/RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+NOTCH1,,notch receptor 1,26358219,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+NOTCH1,,notch receptor 1,31189722,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+NOX1,,NADPH oxidase 1,21384410,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CYBB,NOX2,NADPH oxidase 2,21384410,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+NOX1,,NADPH oxidase 1,21618578,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+NOX1,,NADPH oxidase 1,33485364,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+NOX1,,NADPH oxidase 1,22618020,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CYBB,NOX2,NADPH oxidase 2,24681145,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+CYBB,NOX2,NADPH oxidase 2,31950520,Activation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CYBB,NOX2,NADPH oxidase 2,26104383,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+NOX4,,NADPH oxidase 4,22618020,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+NOX4,,NADPH oxidase 4,31419754,Gene Knockout/Gene Overexpression,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+NOX4,,NADPH oxidase 4,24718857,Gene Knockout/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+NOX4,,NADPH oxidase 4,20185797,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+OSM,,Oncostatin M,31249305,Direct Treatment/Up Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+OSM,,Oncostatin M,28779552,Gene Knockout/Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+OSM,,Oncostatin M,14694154,Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+OSM,,Oncostatin M,18765531,Gene Overexpression,Tumor Fibrosis,Fibrosis,MESH:D005355,pro
+PDCD1,PD-1,programmed cell death 1,30257954,Gene Knockout/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+PDCD1,PD-1,programmed cell death 1,31201259,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+PDCD1,PD-1,programmed cell death 1,29220578,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+PDGFA,,platelet derived growth factor subunit A,20038802,Direct Treatment/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+PDGFA,,platelet derived growth factor subunit A,9354795,Up Regulation,Tumor Fibrosis,Fibrosis,MESH:D005355,pro
+PDGFA,,platelet derived growth factor subunit A,19213942,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+PDGFC,,platelet derived growth factor subunit C,19213942,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+PDGFD,,platelet derived growth factor subunit D,19213942,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+PDGFB,,platelet derived growth factor subunit B,17397961,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+PDGFD,,platelet derived growth factor subunit D,17397961,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+PDGFB,,platelet derived growth factor subunit B,18077793,Gene Overexpression(Review),Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PDGFC,,platelet derived growth factor subunit C,18077793,Inhibition(Review),Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PDGFD,,platelet derived growth factor subunit D,18077793,Gene Overexpression(Review),Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PDGFB,,platelet derived growth factor subunit B,26312152,Direct Treatment(Review),Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PDGFD,,platelet derived growth factor subunit D,26312152,Gene Overexpression(Review),Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PDGFC,,platelet derived growth factor subunit C,26312152,Inhibition(Review),Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PDGFRA,,platelet derived growth factor receptor alpha,26312152,Gene Knockout(Review)/Inhibition(Review),Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PDGFRB,,platelet derived growth factor receptor beta,26312152,Gene Knockout(Review)/Inhibition(Review),Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PDGFRA,,platelet derived growth factor receptor alpha,32229310,Gene Knockout/Up Regulation,Adipose Tissue Fibrosis,Fibrosis,MESH:D005355,pro
+PDGFRA,,platelet derived growth factor receptor alpha,31768046,Gene Knockout,Tumor Fibrosis,Fibrosis,MESH:D005355,pro
+PDGFRB,,platelet derived growth factor receptor beta,32229310,Gene Knockout,Adipose Tissue Fibrosis,Fibrosis,MESH:D005355,pro
+PDGFRB,,platelet derived growth factor receptor beta,30024280,RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+PF4,CXCL4,platelet factor 4,24890045,Inhibition(Review),Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+PF4,CXCL4,platelet factor 4,32726410,Gene Knockout/Gene Overexpression,Myelofibrosis,primary myelofibrosis,MONDO:0009692,pro
+PF4,CXCL4,platelet factor 4,32284212,Direct Treatment,Systemic Sclerosis,systemic sclerosis,MONDO:0005100,pro
+PF4,CXCL4,platelet factor 4,20162727,Gene Knockout/Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+PIN1,,"peptidylprolyl cis/trans isomerase, NIMA-interacting 1",18188456,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+PIN1,,"peptidylprolyl cis/trans isomerase, NIMA-interacting 1",24530597,Gene Knockout/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+PIN1,,"peptidylprolyl cis/trans isomerase, NIMA-interacting 1",30246389,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+PIN1,,"peptidylprolyl cis/trans isomerase, NIMA-interacting 1",22613712,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+PLAT,tPA,"plasminogen activator, tissue type",18199803,Gene Knockout/Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PLAT,tPA,"plasminogen activator, tissue type",30016078,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+PLAT,tPA,"plasminogen activator, tissue type",18037995,Gene Knockout/Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PLAT,tPA,"plasminogen activator, tissue type",12438450,Gene Knockout/Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PLAU,uPA,"plasminogen activator, urokinase",16880329,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+PLAU,uPA,"plasminogen activator, urokinase",14741775,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+PLAU,uPA,"plasminogen activator, urokinase",22013113,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+PLAUR,uPAR,"plasminogen activator, urokinase receptor",22013113,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+PLAUR,uPAR,"plasminogen activator, urokinase receptor",23852693,Gene Knockout,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+PLAUR,uPAR,"plasminogen activator, urokinase receptor",18997817,Gene Overexpression/Activation,Tumor Fibrosis,Fibrosis,MESH:D005355,pro
+PLAUR,uPAR,"plasminogen activator, urokinase receptor",23806081,RNAi,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+PLG,,plasminogen,16952557,Gene Knockout,Pancreatic Fibrosis,chronic pancreatitis,MONDO:0005003,anti
+PLG,,plasminogen,17267741,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+PPARG,,peroxisome proliferator activated receptor gamma,28330809,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+PPARG,,peroxisome proliferator activated receptor gamma,30032428,Activation,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+PPARG,,peroxisome proliferator activated receptor gamma,20154695,Activation,Cystic Fibrosis,cystic fibrosis,MONDO:0009061,anti
+PPARG,,peroxisome proliferator activated receptor gamma,14512888,Activation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+PROC,activated protein C,"protein C, inactivator of coagulation factors Va and VIIIa",15118539,Direct Treatment(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,anti
+PROC,activated protein C,"protein C, inactivator of coagulation factors Va and VIIIa",15118528,Direct Treatment(Review),Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+PROC,activated protein C,"protein C, inactivator of coagulation factors Va and VIIIa",12738599,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+PROC,activated protein C,"protein C, inactivator of coagulation factors Va and VIIIa",11401891,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+SDC1,,Syndecan-1,29454902,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SDC1,,Syndecan-1,22237752,Gene Knockout/RNAi,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+SDC1,,Syndecan-1,20048198,Gene Knockout/RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+SDC1,,Syndecan-1,31393853,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+SERPINA1,AAT,serpin family A member 1,30068662,Gene Knockout(Mutation),Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SERPINA1,AAT,serpin family A member 1,29572094,Gene Knockout(Mutation)/RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SERPINA1,AAT,serpin family A member 1,29500128,Gene Overexpression(Gene Therapy),Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SERPINE1,PAI-1,serpin family E member 1,28588076,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SERPINE1,PAI-1,serpin family E member 1,19322185,Gene Knockout(Review)/Gene Overexpression(Review),Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+SERPINE1,PAI-1,serpin family E member 1,33432417,Up Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SERPINE1,PAI-1,serpin family E member 1,11502712,Gene Knockout,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+SERPINH1,HSP47,serpin family H member 1,27838364,Gene Knockout(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+SERPINH1,HSP47,serpin family H member 1,32378877,RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+SERPINH1,HSP47,serpin family H member 1,29363541,RNAi,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+SERPINH1,HSP47,serpin family H member 1,26091621,RNAi,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+SFTPC,,surfactant protein C,29920187,Gene Knockout(Mutation),Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+SFTPC,,surfactant protein C,21828032,Gene Knockout(Mutation),Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+SFTPC,,surfactant protein C,18566429,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+SIRT1,,sirtuin 1,27871879,Gene Knockout/Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SIRT1,,sirtuin 1,30614190,Gene Knockout/Gene Overexpression/RNAi/Activation/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+SIRT1,,sirtuin 1,17446436,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SIRT1,,sirtuin 1,25707573,RNAi/Activation/Inhibition,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+SIRT1,,sirtuin 1,25180292,Gene Knockout/Activation,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+SIRT2,,sirtuin 2,28947430,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SIRT2,,sirtuin 2,33754067,Inhibition,Fibrotic Disorders,Fibrosis,MESH:D005355,anti
+SIRT2,,sirtuin 2,29440391,Gene Knockout/Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SIRT2,,sirtuin 2,32565308,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+SIRT3,,sirtuin 3,32296036,Gene Knockout/Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SIRT3,,sirtuin 3,30056271,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SIRT3,,sirtuin 3,19652361,Gene Knockout/Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SIRT3,,sirtuin 3,25962702,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SIRT6,,sirtuin 6,32535965,Gene Knockout/Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SIRT6,,sirtuin 6,31787254,Gene Knockout/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+SIRT6,,sirtuin 6,30943401,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+SIRT6,,sirtuin 6,32701506,Gene Knockout/Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SIRT7,,sirtuin 7,31735083,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SIRT7,,sirtuin 7,26202810,Gene Knockout/RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+SIRT7,,sirtuin 7,18239138,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SIRT7,,sirtuin 7,33558457,Gene Overexpression/RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+SMAD1,,SMAD family member 1,31127639,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SMAD1,,SMAD family member 1,30424599,Up Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+SMAD1,,SMAD family member 1,31364649,Down Regulation,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+SMAD1,,SMAD family member 1,16447265,Up Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+SMAD2,,SMAD family member 2,26435271,RNAi/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+SMAD2,,SMAD family member 2,20595680,Gene Knockout/Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+SMAD2,,SMAD family member 2,25041068,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+SMAD2,,SMAD family member 2,12039975,Down Regulation,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+SMAD7,,SMAD family member 7,12039975,Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+SMAD7,,SMAD family member 7,23207693,Gene Knockout/Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+SMAD7,,SMAD family member 7,12851882,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SMAD7,,SMAD family member 7,11927620,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+SMAD3,,SMAD family member 3,28891814,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+SMAD3,,SMAD family member 3,20595680,Up Regulation,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+SMAD3,,SMAD family member 3,25041068,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+SMAD3,,SMAD family member 3,28743805,Inhibition/Up Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+SMAD4,,SMAD family member 4,26221756,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+SMAD4,,SMAD family member 4,22048127,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+SMAD4,,SMAD family member 4,16151019,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SMAD4,,SMAD family member 4,17804724,Gene Knockout,Tumor Fibrosis,Fibrosis,MESH:D005355,anti
+SMAD6,,SMAD family member 6,32022446,Gene Overexpression,Endometrial Fibrosis,adhesions of uterus,MONDO:0001809,anti
+SMAD6,,SMAD family member 6,26507880,Gene Overexpression,Ocular Fibrosis,Fibrosis,MESH:D005355,anti
+SMAD6,,SMAD family member 6,22283839,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SMAD6,,SMAD family member 6,22613712,RNAi,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+SMARCA4,BRG1,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4",27929112,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+SMARCA4,BRG1,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4",33650193,Gene Knockout/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+SMARCA4,BRG1,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4",27601681,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+SNAI1,SNAIL,snail family transcriptional repressor 1,26236991,Gene Knockout/Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+SNAI1,SNAIL,snail family transcriptional repressor 1,26236989,Gene Knockout/Activation,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+SNAI1,SNAIL,snail family transcriptional repressor 1,19850962,Gene Overexpression/RNAi,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+SNAI2,,snail family transcriptional repressor 2,19850962,Gene Overexpression/RNAi,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+SNAI2,,snail family transcriptional repressor 2,31391462,RNAi,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+SNAI2,,snail family transcriptional repressor 2,31391462,RNAi,Mucosal Fibrosis,Fibrosis,MESH:D005355,anti
+SP1,,Sp1 transcription factor,23633075,Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+SP1,,Sp1 transcription factor,19913614,Inhibition,Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+SP1,,Sp1 transcription factor,10618716,Gene Overexpression/Inhibition,Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+SP3,,Sp3 transcription factor,23123404,RNAi,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+SP1,,Sp1 transcription factor,32721022,RNAi,Ocular Fibrosis,Fibrosis,MESH:D005355,pro
+SP3,,Sp3 transcription factor,32721022,RNAi,Ocular Fibrosis,Fibrosis,MESH:D005355,pro
+SP1,,Sp1 transcription factor,17698844,Inhibition,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+SP3,,Sp3 transcription factor,17698844,Inhibition,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+SP1,,Sp1 transcription factor,16603733,RNAi,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+SP3,,Sp3 transcription factor,16603733,RNAi,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+STAT1,,signal transducer and activator of transcription 1,31629675,Up Regulation/Down Regulation,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+STAT1,,signal transducer and activator of transcription 1,31530714,RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+STAT1,,signal transducer and activator of transcription 1,28716119,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+STAT1,,signal transducer and activator of transcription 1,32695877,Inhibition,Fascial Fibrosis,Fibrosis,MESH:D005355,pro
+STAT3,,signal transducer and activator of transcription 3,32098592,Gene Overexpression/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+STAT3,,signal transducer and activator of transcription 3,30257954,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+STAT3,,signal transducer and activator of transcription 3,30050118,Gene Knockout/Activation/Inhibition,Skeletal Muscle Fibrosis,Fibrosis,MESH:D005355,pro
+STAT3,,signal transducer and activator of transcription 3,29967195,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+STAT3,,signal transducer and activator of transcription 3,26628621,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+STAT3,,signal transducer and activator of transcription 3,19096025,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+STAT3,,signal transducer and activator of transcription 3,14566054,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+STAT5A,,signal transducer and activator of transcription 5,19332876,Gene Knockout/Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+STAT5A,,signal transducer and activator of transcription 5,32647323,Inhibition,Myelofibrosis,primary myelofibrosis,MONDO:0009692,pro
+STAT5A,,signal transducer and activator of transcription 5,21725989,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+STAT5A,,signal transducer and activator of transcription 5,23813495,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+STAT5A,,signal transducer and activator of transcription 5,20162728,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+STAT5B,,signal transducer and activator of transcription 5,19332876,Gene Knockout/Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+STAT5B,,signal transducer and activator of transcription 5,32647323,Inhibition,Myelofibrosis,primary myelofibrosis,MONDO:0009692,pro
+STAT5B,,signal transducer and activator of transcription 5,21725989,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+STAT5B,,signal transducer and activator of transcription 5,23813495,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+STAT5B,,signal transducer and activator of transcription 5,20162728,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+STAT6,,signal transducer and activator of transcription 6,26032813,Gene Knockout/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+STAT6,,signal transducer and activator of transcription 6,28903780,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+STAT6,,signal transducer and activator of transcription 6,33313043,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+STAT6,,signal transducer and activator of transcription 6,33192584,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+TGFB1,,transforming growth factor beta 1,29988126,Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+TGFB1,,transforming growth factor beta 1,29195901,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+TGFB1,,transforming growth factor beta 1,30096654,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+TGFB2,,transforming growth factor beta 2,31217334,Activation/Inhibition,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+TGFB2,,transforming growth factor beta 2,31992593,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+TGFB2,,transforming growth factor beta 2,29843955,Up Regulation,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+TGFB3,,transforming growth factor beta 3,33269546,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+TGFB1,,transforming growth factor beta 1,33269546,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+TGFB3,,transforming growth factor beta 3,28148567,Activation,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+TGFBR1,ALK5,transforming growth factor beta receptor 1,28891814,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+TGFBR1,ALK5,transforming growth factor beta receptor 1,32848143,Inhibition/Up Regulation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+TGFBR1,ALK5,transforming growth factor beta receptor 1,24088962,Up Regulation,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+TGFBR1,ALK5,transforming growth factor beta receptor 1,18202322,Inhibition,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+TGFBR2,,transforming growth factor beta receptor 2,28891814,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+TGFBR2,,transforming growth factor beta receptor 2,23817022,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+TGFBR2,,transforming growth factor beta receptor 2,30566042,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+TGIF1,,TGFB induced factor homeobox 1,25979625,Down Regulation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+TGIF1,,TGFB induced factor homeobox 1,32092824,Up Regulation/Down Regulation,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+TGIF1,,TGFB induced factor homeobox 1,33414721,RNAi,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+THBS1,TSP1,thrombospondin 1,24081879,Gene Knockout/Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+THBS1,TSP1,thrombospondin 1,15927970,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+THBS1,TSP1,thrombospondin 1,18818405,Gene Knockout,Vascular Fibrosis,atherosclerosis,MONDO:0005311,anti
+THBS1,TSP1,thrombospondin 1,29288716,Inhibition(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+THBS2,TSP2,thrombospondin 2,15996506,Gene Knockout(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,pro/anti
+THBS2,TSP2,thrombospondin 2,30876926,Gene Knockout,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+THBS2,TSP2,thrombospondin 2,19805649,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+THBS2,TSP2,thrombospondin 2,22142808,Gene Knockout,Systemic Sclerosis,systemic sclerosis,MONDO:0005100,pro
+THY1,CD90,Thy-1 cell surface antigen,31249375,Gene Overexpression/RNAi,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+THY1,CD90,Thy-1 cell surface antigen,32028169,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+THY1,CD90,Thy-1 cell surface antigen,26459603,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+THY1,CD90,Thy-1 cell surface antigen,15954895,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+TIMP1,,TIMP metallopeptidase inhibitor 1,15364860,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+TIMP1,,TIMP metallopeptidase inhibitor 1,9036925,Direct Treatment/Inhibition,Systemic Sclerosis,systemic sclerosis,MONDO:0005100,pro
+TIMP1,,TIMP metallopeptidase inhibitor 1,27852133,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+TIMP2,,TIMP metallopeptidase inhibitor 2,23760282,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+TIMP3,tissue inhibitor of metalloproteinase-3,TIMP metallopeptidase inhibitor 3,23760282,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+TIMP2,,TIMP metallopeptidase inhibitor 2,24692173,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+TIMP2,,TIMP metallopeptidase inhibitor 2,21715326,Activation(Mutation),Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+TIMP3,tissue inhibitor of metalloproteinase-3,TIMP metallopeptidase inhibitor 3,27756793,Gene Knockout/Down Regulation,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+TIMP3,tissue inhibitor of metalloproteinase-3,TIMP metallopeptidase inhibitor 3,19406980,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+TIMP3,tissue inhibitor of metalloproteinase-3,TIMP metallopeptidase inhibitor 3,22383695,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+TIMP3,tissue inhibitor of metalloproteinase-3,TIMP metallopeptidase inhibitor 3,11560951,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+TIMP4,tissue inhibitor of metalloproteinase-4,TIMP metallopeptidase inhibitor 4,24842912,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+TIMP4,tissue inhibitor of metalloproteinase-4,TIMP metallopeptidase inhibitor 4,20828387,Up Regulation/Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+TIMP4,tissue inhibitor of metalloproteinase-4,TIMP metallopeptidase inhibitor 4,28865712,Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+TNF,TNFa,tumor necrosis factor,28902427,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+TNF,TNFa,tumor necrosis factor,26053624,Gene Knockout/Direct Treatment/Inhibition,Skeletal Muscle Fibrosis,Fibrosis,MESH:D005355,anti
+TNF,TNFa,tumor necrosis factor,19855130,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+TNF,TNFa,tumor necrosis factor,23431165,Direct Treatment/Inhibition,Fascial Fibrosis,Fibrosis,MESH:D005355,pro
+TRAF6,,tumor necrosis factor receptor-associated factor 6,31222801,Gene Knockout/Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+TRAF6,,tumor necrosis factor receptor-associated factor 6,20100871,Inhibition,Vascular Fibrosis,atherosclerosis,MONDO:0005311,pro
+TRAF6,,tumor necrosis factor receptor-associated factor 6,23791643,Gene Knockout,Intestinal Fibrosis,Fibrosis,MESH:D005355,anti
+TWIST1,,twist family bHLH transcription factor 1,26236991,Gene Knockout/Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+TWIST1,,twist family bHLH transcription factor 1,32499481,Gene Overexpression/RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+TWIST1,,twist family bHLH transcription factor 1,31685313,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+TWIST1,,twist family bHLH transcription factor 1,31315922,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+TWIST1,,twist family bHLH transcription factor 1,27113414,Gene Knockout/Gene Overexpression/RNAi,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+TXNDC5,,thioredoxin domain containing 5,29535165,Gene Knockout/Gene Overexpression/RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+TXNDC5,,thioredoxin domain containing 5,32848143,Gene Knockout/Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+TXNDC5,,thioredoxin domain containing 5,33465051,Gene Knockout/Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+VCAM1,,vascular cell adhesion molecule 1,33476308,Gene Knockout/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+VCAM1,,vascular cell adhesion molecule 1,30202063,Gene Knockout,Skeletal Muscle Fibrosis,Fibrosis,MESH:D005355,pro
+VCAM1,,vascular cell adhesion molecule 1,29222072,RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+VEGFA,,vascular endothelial growth factor A,28661183,Gene Knockout/Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro/anti
+VEGFA,,vascular endothelial growth factor A,25043701,RNAi/Activation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+VEGFA,,vascular endothelial growth factor A,26819373,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+VEGFC,,vascular endothelial growth factor C,29985167,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+VEGFC,,vascular endothelial growth factor C,11175851,Inhibition,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+VEGFC,,vascular endothelial growth factor C,33039355,Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+VEGFC,,vascular endothelial growth factor C,30378108,Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+VEGFC,,vascular endothelial growth factor C,30833548,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+VEGFD,FIGF,vascular endothelial growth factor D,11175851,Inhibition,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+VEGFD,FIGF,vascular endothelial growth factor D,27342876,Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+VEGFD,FIGF,vascular endothelial growth factor D,22932121,Direct Treatment/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+VIM,,vimentin,25762200,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+VIM,,vimentin,31522982,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+VIM,,vimentin,33731433,Direct Treatment/Up Regulation,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+VIM,,vimentin,11124834,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+WWP2,,WW domain containing E3 ubiquitin protein ligase 2,31399586,Gene Knockout/RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+WWP2,,WW domain containing E3 ubiquitin protein ligase 2,32139900,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+WWP2,,WW domain containing E3 ubiquitin protein ligase 2,31621893,Gene Overexpression/RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+FOSL1,Fra-1,"FOS like 1, AP-1 transcription factor subunit",21480331,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+FOSL1,Fra-1,"FOS like 1, AP-1 transcription factor subunit",23703832,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+FOSL1,Fra-1,"FOS like 1, AP-1 transcription factor subunit",23758685,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+FOSL1,Fra-1,"FOS like 1, AP-1 transcription factor subunit",27134167,RNAi,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+HAS2,,hyaluronan synthase 2,33777961,Gene Overexpression/RNAi,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+HAS2,,hyaluronan synthase 2,31189722,Gene Knockout/Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+HAS2,,hyaluronan synthase 2,26987798,Gene Knockout/RNAi,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+HAS2,,hyaluronan synthase 2,21708929,Gene Knockout/Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+HMOX1,HO-1,heme oxygenase 1,29993075,Inhibition/Up Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+HMOX1,HO-1,heme oxygenase 1,27562817,Gene Knockout/Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+HMOX1,HO-1,heme oxygenase 1,25677389,Gene Knockout/Gene Overexpression,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+HMOX1,HO-1,heme oxygenase 1,21953613,Activation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+HMOX1,HO-1,heme oxygenase 1,20404253,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+CXCL8,IL8,C-X-C motif chemokine ligand 8,27444565,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+CXCL8,IL8,C-X-C motif chemokine ligand 8,28529637,Inhibition(Review),Fibrotic Disorders,Fibrosis,MESH:D005355,pro
+CXCL8,IL8,C-X-C motif chemokine ligand 8,28387853,Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+CXCL8,IL8,C-X-C motif chemokine ligand 8,23624000,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+PARP1,,poly(ADP-ribose) polymerase 1,32139900,Up Regulation/Down Regulation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+PARP1,,poly(ADP-ribose) polymerase 1,31164820,Gene Knockout/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+PARP1,,poly(ADP-ribose) polymerase 1,30323296,RNAi/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+PARP1,,poly(ADP-ribose) polymerase 1,28239158,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+PARP1,,poly(ADP-ribose) polymerase 1,17575013,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+NFE2L2,NRF2,"nuclear factor, erythroid 2 like 2",28132522,Activation,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+NFE2L2,NRF2,"nuclear factor, erythroid 2 like 2",30317545,RNAi,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+NFE2L2,NRF2,"nuclear factor, erythroid 2 like 2",33820760,Gene Overexpression/RNAi/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+NFE2L2,NRF2,"nuclear factor, erythroid 2 like 2",33126057,Activation/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+NFE2L2,NRF2,"nuclear factor, erythroid 2 like 2",33126057,Gene Knockout/Activation,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+SPP1,osteopontin/OPN,secreted phosphoprotein 1,31411676,Gene Knockout,Skeletal Muscle Fibrosis,Fibrosis,MESH:D005355,pro
+SPP1,osteopontin/OPN,secreted phosphoprotein 1,28745329,Direct Treatment/Inhibition,Bone Marrow Fibrosis,primary myelofibrosis,MONDO:0009692,pro
+SPP1,osteopontin/OPN,secreted phosphoprotein 1,28595626,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+SPP1,osteopontin/OPN,secreted phosphoprotein 1,29500246,Gene Knockout/Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+SPP1,osteopontin/OPN,secreted phosphoprotein 1,32638492,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SPP1,osteopontin/OPN,secreted phosphoprotein 1,16221502,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SOD1,,superoxide dismutase 1,27572073,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+SOD1,,superoxide dismutase 1,22440255,Gene Knockout,Lacrimal Gland Fibrosis,Fibrosis,MESH:D005355,anti
+CSF2,GM-CSF,colony stimulating factor 2,16716406,Inhibition(Review),Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CSF2,GM-CSF,colony stimulating factor 2,31601718,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+CSF2,GM-CSF,colony stimulating factor 2,31315923,Direct Treatment/Inhibition,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+CSF2,GM-CSF,colony stimulating factor 2,11034414,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+HMGB1,,high mobility group box 1,26715748,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+HMGB1,,high mobility group box 1,24984831,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+HMGB1,,high mobility group box 1,29787749,RNAi/Direct Treatment/Inhibition,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+HMGB1,,high mobility group box 1,29907694,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+MTOR,,mechanistic target of rapamycin kinase,25589557,Inhibition,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+MTOR,,mechanistic target of rapamycin kinase,24651621,Gene Knockout/RNAi,Synovial Fibrosis,Fibrosis,MESH:D005355,pro
+MTOR,,mechanistic target of rapamycin kinase,33115948,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+MTOR,,mechanistic target of rapamycin kinase,27103349,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+MTOR,,mechanistic target of rapamycin kinase,21168455,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+AREG,,amphiregulin,31676723,Gene Knockout/Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+AREG,,amphiregulin,31665560,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+AREG,,amphiregulin,29349588,RNAi/Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+AREG,,amphiregulin,15696083,Direct Treatment,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+AREG,,amphiregulin,18634036,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+CSF3,GCSF,colony stimulating factor 3,20435882,Direct Treatment,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+CSF3,GCSF,colony stimulating factor 3,21999467,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+CSF3,GCSF,colony stimulating factor 3,17692407,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+CSF3,GCSF,colony stimulating factor 3,25754690,Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+PTX3,,pentraxin 3,23325083,Gene Knockout/Direct Treatment,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+PTX3,,pentraxin 3,23087427,Direct Treatment,Cystic Fibrosis,cystic fibrosis,MONDO:0009061,anti
+PTX3,,pentraxin 3,21441447,Direct Treatment,Cystic Fibrosis,cystic fibrosis,MONDO:0009061,anti
+PTX3,,pentraxin 3,33679758,Gene Knockout/Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+TGFA,,transforming growth factor alpha,8163670,Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+TGFA,,transforming growth factor alpha,1451981,Gene Overexpression,Pancreatic Fibrosis,chronic pancreatitis,MONDO:0005003,pro
+TGFA,,transforming growth factor alpha,19244201,Gene Overexpression,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+TGFA,,transforming growth factor alpha,21382168,Gene Overexpression,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+TGFA,,transforming growth factor alpha,10226062,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+ELN,,elastin,29802129,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ELN,,elastin,29366776,Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+ELN,,elastin,16159870,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+ELN,,elastin,28751568,Gene Knockout/Gene Overexpression,Vascular Fibrosis,atherosclerosis,MONDO:0005311,anti
+ELN,,elastin,22435995,Gene Overexpression,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+FYN,,"FYN proto-oncogene, Src family tyrosine kinase",32051399,Gene Knockout/RNAi/Inhibition,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+FYN,,"FYN proto-oncogene, Src family tyrosine kinase",27616741,Gene Knockout,Renal Fibrosis,renal fibrosis,MONDO:0000494,pro
+FYN,,"FYN proto-oncogene, Src family tyrosine kinase",29540538,RNAi,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+FYN,,"FYN proto-oncogene, Src family tyrosine kinase",28586109,Gene Knockout,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+IL13RA1,,interleukin 13 receptor subunit alpha 1,32695877,Up Regulation/Down Regulation,Tenden Fibrosis,Fibrosis,MESH:D005355,pro
+ITGAV,,integrin subunit alpha V,24216753,Gene Knockout/Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+JAK3,,Janus kinase 3,25352130,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+LOXL2,,lysyl oxidase-like 2,20818376,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+SERPINA1,AAT,serpin family A member 1,29572094,Gene Knockout(Mutation)/RNAi,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+ADM,,adrenomedullin,23355623,Gene Knockout,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+ADRB2,β2AR,adrenoceptor beta 2,28396116,Activation,Renal Fibrosis,renal fibrosis,MONDO:0000494,anti
+COL18A1,endostatin,collagen type XVIII alpha 1 chain,22649092,Direct Treatment,Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+IFNG,,interferon gamma,15361241,"Inhibition(Mutation,Review)",Cutaneous Fibrosis,keloid,MONDO:0005348,anti
+IL18,,interleukin 18,19865096,Direct Treatment,Cystemic Sclerosis,systemic sclerosis,MONDO:0005100,anti
+JAK1,,Janus kinase 1,28478401,Inhibition,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,pro
+MFGE8,,milk fat globule EGF and factor V/VIII domain containing,30175895,Gene Knockout/Direct Treatment,Systemic Sclerosis,systemic sclerosis,MONDO:0005100,anti
+PLAUR,uPAR,"plasminogen activator, urokinase receptor",23852693,Gene Knockout,Pulmonary Fibrosis,pulmonary fibrosis,MONDO:0002771,anti
+PPARG,,peroxisome proliferator activated receptor gamma,30032428,Activation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,anti
+SMAD1,,SMAD family member 1,31364649,Down Regulation,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+SP3,,Sp3 transcription factor,23123404,RNAi,Cutaneous Fibrosis,keloid,MONDO:0005348,pro
+TGFB2,,transforming growth factor beta 2,31217334,Activation/Inhibition,Systemic Sclerosis,systemic sclerosis,MONDO:0005100,pro
+TWIST1,,twist family bHLH transcription factor 1,27113414,Gene Knockout/Gene Overexpression/RNAi,Systemic Sclerosis,systemic sclerosis,MONDO:0005100,pro
+FGFR1,,fibroblast growth factor receptor 1,33131311,Gene Knockout,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,anti
+IL11,,interleukin 11,29160304,Gene Knockout/Gene Overexpression/Direct Treatment,Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro
+IL13,,interleukin 13,26436920,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IL4,,interleukin 4,26436920,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+IL7,,interleukin 7,25352130,Direct Treatment,Hepatic Fibrosis,fibrotic liver disease,MONDO:0100430,pro
+SERPINE1,PAI-1,serpin family E member 1,19322185,Gene Knockout(Review)/Gene Overexpression(Review),Cardiac Fibrosis,endomyocardial fibrosis,MONDO:0006746,pro

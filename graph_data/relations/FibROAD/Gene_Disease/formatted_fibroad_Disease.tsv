@@ -1,0 +1,859 @@
+source_name	source_type	source_id	target_name	target_type	target_id	relation_type	resource	pmid
+ABCB4	Gene	ENTREZ:5244	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	31071368
+ABCB4	Gene	ENTREZ:5244	fibrosis of bile duct	Disease	MONDO:0041959	GNBR::D::Gene:Disease	FIBROAD	16223543
+ABCB4	Gene	ENTREZ:5244	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	33340584
+ABCB4	Gene	ENTREZ:5244	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	21868490
+ACE	Gene	ENTREZ:1636	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	11425779
+ACE	Gene	ENTREZ:1636	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	22822076
+ACE	Gene	ENTREZ:1636	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	27538767
+ACE2	Gene	ENTREZ:59272	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	27538767
+ACE2	Gene	ENTREZ:59272	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	20679547
+ACE2	Gene	ENTREZ:59272	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	28808068
+ACKR3	Gene	ENTREZ:57007	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	18268039
+ACKR3	Gene	ENTREZ:57007	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	26779814
+ACKR3	Gene	ENTREZ:57007	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	24256728
+ACKR3	Gene	ENTREZ:57007	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	18268039
+ACTA2	Gene	ENTREZ:59	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	22028387
+ACTA2	Gene	ENTREZ:59	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	27853137
+ACTA2	Gene	ENTREZ:59	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	30820965
+ACTA2	Gene	ENTREZ:59	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31476284
+ACVR1B	Gene	ENTREZ:91	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	28639003
+ACVR1B	Gene	ENTREZ:91	systemic sclerosis	Disease	MONDO:0005100	GNBR::G::Gene:Disease	FIBROAD	21377836
+ACVR1B	Gene	ENTREZ:91	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	18202322
+ACVR1B	Gene	ENTREZ:91	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	30369314
+ADAM17	Gene	ENTREZ:6868	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	29930147
+ADAM17	Gene	ENTREZ:6868	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	27480833
+ADAM17	Gene	ENTREZ:6868	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	16600387
+ADAM17	Gene	ENTREZ:6868	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	21079048
+ADIPOQ	Gene	ENTREZ:9370	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	23833260
+ADIPOQ	Gene	ENTREZ:9370	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	17626903
+ADIPOQ	Gene	ENTREZ:9370	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	23334396
+ADIPOQ	Gene	ENTREZ:9370	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	19933924
+ADIPOQ	Gene	ENTREZ:9370	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	25957229
+ADIPOQ	Gene	ENTREZ:9370	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	14724832
+ADIPOR1	Gene	ENTREZ:51094	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	33199780
+ADIPOR2	Gene	ENTREZ:79602	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	33199780
+ADIPOR1	Gene	ENTREZ:51094	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	33213041
+ADIPOR2	Gene	ENTREZ:79602	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	33213041
+ADIPOR1	Gene	ENTREZ:51094	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	29330340
+ADIPOR2	Gene	ENTREZ:79602	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	29330340
+ADIPOR1	Gene	ENTREZ:51094	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	30569772
+ADIPOR2	Gene	ENTREZ:79602	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	18666257
+ADM	Gene	ENTREZ:133	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	14967720
+ADM	Gene	ENTREZ:133	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	18401334
+ADM	Gene	ENTREZ:133	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	16105039
+ADM	Gene	ENTREZ:133	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	23355623
+ADRB2	Gene	ENTREZ:154	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	28396116
+ADRB2	Gene	ENTREZ:154	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	10758054
+ADRB2	Gene	ENTREZ:154	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	10618307
+AGT	Gene	ENTREZ:183	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	18508830
+AGT	Gene	ENTREZ:183	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	9077534
+AGT	Gene	ENTREZ:183	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	20237455
+AGT	Gene	ENTREZ:183	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	9884332
+AHSA1	Gene	ENTREZ:10598	cystic fibrosis	Disease	MONDO:0009061	GNBR::G::Gene:Disease	FIBROAD	17110338
+AHSA1	Gene	ENTREZ:10598	cystic fibrosis	Disease	MONDO:0009061	GNBR::G::Gene:Disease	FIBROAD	18556464
+AHSA1	Gene	ENTREZ:10598	cystic fibrosis	Disease	MONDO:0009061	GNBR::G::Gene:Disease	FIBROAD	20089831
+AKT1	Gene	ENTREZ:207	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	26921108
+AKT1	Gene	ENTREZ:207	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	33316281
+AKT1	Gene	ENTREZ:207	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	25970154
+AKT1	Gene	ENTREZ:207	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	25012168
+ALDH2	Gene	ENTREZ:217	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	31279903
+ALDH2	Gene	ENTREZ:217	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	24492981
+ALDH2	Gene	ENTREZ:217	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	16502397
+ALDH2	Gene	ENTREZ:217	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	19332462
+ANGPT1	Gene	ENTREZ:284	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	12628953
+ANGPT1	Gene	ENTREZ:284	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	21606590
+ANGPT1	Gene	ENTREZ:284	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	25932532
+ANGPT2	Gene	ENTREZ:285	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	30259536
+ANGPT2	Gene	ENTREZ:285	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	24511140
+ANGPT2	Gene	ENTREZ:285	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	28355132
+ANGPT2	Gene	ENTREZ:285	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	24708486
+APC	Gene	ENTREZ:324	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	32327611
+APC	Gene	ENTREZ:324	desmoid tumor	Disease	MONDO:0007608	GNBR::D::Gene:Disease	FIBROAD	22094874
+BAX	Gene	ENTREZ:581	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	17209037
+BAX	Gene	ENTREZ:581	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26180237
+BAX	Gene	ENTREZ:581	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	28317867
+BCL2	Gene	ENTREZ:596	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	14715896
+BCL2	Gene	ENTREZ:596	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	23514933
+BCL2	Gene	ENTREZ:596	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	16423888
+BGN	Gene	ENTREZ:633	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	29253517
+BGN	Gene	ENTREZ:633	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	15031262
+BGN	Gene	ENTREZ:633	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	27789290
+BGN	Gene	ENTREZ:633	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	21454527
+BMP2	Gene	ENTREZ:650	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	9427911
+BMP2	Gene	ENTREZ:650	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	18832104
+BMP2	Gene	ENTREZ:650	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	29789683
+BMP2	Gene	ENTREZ:650	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	21659661
+BMP2	Gene	ENTREZ:650	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	22283839
+BMP4	Gene	ENTREZ:652	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	23248151
+BMP4	Gene	ENTREZ:652	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	30941514
+BMP4	Gene	ENTREZ:652	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	33188599
+BMP4	Gene	ENTREZ:652	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	20573231
+BMP4	Gene	ENTREZ:652	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	28159972
+BMP7	Gene	ENTREZ:655	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	12808448
+BMP7	Gene	ENTREZ:655	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	31495264
+BMP7	Gene	ENTREZ:655	Peritoneal Fibrosis	Disease	MESH:D056627	GNBR::D::Gene:Disease	FIBROAD	19193779
+BMP7	Gene	ENTREZ:655	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	17127702
+BRD4	Gene	ENTREZ:23476	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	31409188
+BRD4	Gene	ENTREZ:23476	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	26644586
+BRD4	Gene	ENTREZ:23476	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	28063381
+BRD4	Gene	ENTREZ:23476	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	33290278
+CAV1	Gene	ENTREZ:857	cystic fibrosis	Disease	MONDO:0009061	GNBR::D::Gene:Disease	FIBROAD	25665524
+CAV1	Gene	ENTREZ:857	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	31826982
+CAV1	Gene	ENTREZ:857	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	31492508
+CAV1	Gene	ENTREZ:857	Peritoneal Fibrosis	Disease	MESH:D056627	GNBR::D::Gene:Disease	FIBROAD	25550395
+CAV1	Gene	ENTREZ:857	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	11498544
+CAV1	Gene	ENTREZ:857	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	27895190
+CCL1	Gene	ENTREZ:6346	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	22031018
+CCL1	Gene	ENTREZ:6346	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	32586381
+CCL1	Gene	ENTREZ:6346	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	28526296
+CCL11	Gene	ENTREZ:6356	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	29467297
+CCL11	Gene	ENTREZ:6356	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	21851604
+CCL11	Gene	ENTREZ:6356	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	16314464
+CCL2	Gene	ENTREZ:6347	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	33159815
+CCL2	Gene	ENTREZ:6347	chronic pancreatitis	Disease	MONDO:0005003	GNBR::D::Gene:Disease	FIBROAD	26896096
+CCL2	Gene	ENTREZ:6347	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	33798959
+CCL2	Gene	ENTREZ:6347	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	22177985
+CCL3	Gene	ENTREZ:6348	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	15569315
+CCL3	Gene	ENTREZ:6348	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	21851604
+CCL3	Gene	ENTREZ:6348	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	24890045
+CCL5	Gene	ENTREZ:6352	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	28011329
+CCL5	Gene	ENTREZ:6352	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	28318046
+CCL5	Gene	ENTREZ:6352	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	20978355
+CCL5	Gene	ENTREZ:6352	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	27639593
+CCN2	Gene	ENTREZ:1490	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	30716392
+CCN2	Gene	ENTREZ:1490	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	28376190
+CCN2	Gene	ENTREZ:1490	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	31495264
+CCN2	Gene	ENTREZ:1490	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	30898581
+CCR1	Gene	ENTREZ:1230	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	19603542
+CCR1	Gene	ENTREZ:1230	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	14747380
+CCR1	Gene	ENTREZ:1230	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	15569315
+CCR1	Gene	ENTREZ:1230	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	11805137
+CCR1	Gene	ENTREZ:1230	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	17229070
+CCR2	Gene	ENTREZ:729230	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31813573
+CCR2	Gene	ENTREZ:729230	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	31439648
+CCR2	Gene	ENTREZ:729230	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	30179264
+CCR2	Gene	ENTREZ:729230	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	29572892
+CCR3	Gene	ENTREZ:1232	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	29467297
+CCR3	Gene	ENTREZ:1232	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	16314464
+CCR3	Gene	ENTREZ:1232	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	17148674
+CCR5	Gene	ENTREZ:1234	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	30179264
+CCR5	Gene	ENTREZ:1234	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	19603542
+CCR5	Gene	ENTREZ:1234	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	23526353
+CCR5	Gene	ENTREZ:1234	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	29336497
+CD274	Gene	ENTREZ:29126	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	30257954
+CD274	Gene	ENTREZ:29126	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	31201259
+CD274	Gene	ENTREZ:29126	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	32493933
+CD274	Gene	ENTREZ:29126	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	30763282
+CEBPB	Gene	ENTREZ:1051	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	29511346
+CEBPB	Gene	ENTREZ:1051	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	28002407
+CEBPB	Gene	ENTREZ:1051	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	19297554
+CEBPB	Gene	ENTREZ:1051	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	24947615
+CFTR	Gene	ENTREZ:1080	cystic fibrosis	Disease	MONDO:0009061	GNBR::D::Gene:Disease	FIBROAD	18304008
+CFTR	Gene	ENTREZ:1080	cystic fibrosis	Disease	MONDO:0009061	GNBR::D::Gene:Disease	FIBROAD	24973281
+CFTR	Gene	ENTREZ:1080	cystic fibrosis	Disease	MONDO:0009061	GNBR::D::Gene:Disease	FIBROAD	32243806
+CFTR	Gene	ENTREZ:1080	cystic fibrosis	Disease	MONDO:0009061	GNBR::D::Gene:Disease	FIBROAD	25350163
+COL18A1	Gene	ENTREZ:80781	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	27165830
+COL18A1	Gene	ENTREZ:80781	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	22649092
+COL18A1	Gene	ENTREZ:80781	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	23688086
+COL1A1	Gene	ENTREZ:1277	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	33398455
+COL1A1	Gene	ENTREZ:1277	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	20117381
+COL1A1	Gene	ENTREZ:1277	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	30830875
+COL1A1	Gene	ENTREZ:1277	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	27993716
+COL1A2	Gene	ENTREZ:1278	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	21864682
+COL1A2	Gene	ENTREZ:1278	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	16815696
+COL1A2	Gene	ENTREZ:1278	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	27503806
+COL3A1	Gene	ENTREZ:1281	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	29899023
+COL3A1	Gene	ENTREZ:1281	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	33398455
+COL3A1	Gene	ENTREZ:1281	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	20117381
+COMP	Gene	ENTREZ:1311	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	27318326
+COMP	Gene	ENTREZ:1311	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	16520029
+COMP	Gene	ENTREZ:1311	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	18408251
+CXCL12	Gene	ENTREZ:6387	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	19434726
+CXCL12	Gene	ENTREZ:6387	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	30700545
+CXCL12	Gene	ENTREZ:6387	chronic pancreatitis	Disease	MONDO:0005003	GNBR::D::Gene:Disease	FIBROAD	30748094
+CXCL12	Gene	ENTREZ:6387	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	15286810
+CXCL12	Gene	ENTREZ:6387	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	32384208
+CXCR2	Gene	ENTREZ:3579	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	29514257
+CXCR2	Gene	ENTREZ:3579	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	32639881
+CXCR2	Gene	ENTREZ:3579	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	15105284
+CXCR2	Gene	ENTREZ:3579	chronic pancreatitis	Disease	MONDO:0005003	GNBR::G::Gene:Disease	FIBROAD	21926469
+CXCR4	Gene	ENTREZ:7852	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	19434726
+CXCR4	Gene	ENTREZ:7852	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	26602164
+CXCR4	Gene	ENTREZ:7852	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	30700545
+CXCR4	Gene	ENTREZ:7852	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32440550
+CXCR4	Gene	ENTREZ:7852	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	18268039
+CXCR4	Gene	ENTREZ:7852	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	32384208
+DCN	Gene	ENTREZ:1634	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	8597951
+DCN	Gene	ENTREZ:1634	neurofibroma	Disease	MONDO:0016755	GNBR::D::Gene:Disease	FIBROAD	23983032
+DCN	Gene	ENTREZ:1634	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	30528862
+DCN	Gene	ENTREZ:1634	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	15949932
+DCN	Gene	ENTREZ:1634	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	11254537
+EDN1	Gene	ENTREZ:1906	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	31177814
+EDN1	Gene	ENTREZ:1906	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	31747868
+EDN1	Gene	ENTREZ:1906	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	9279246
+EDN1	Gene	ENTREZ:1906	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	22183953
+EDN1	Gene	ENTREZ:1906	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	8981923
+EDN1	Gene	ENTREZ:1906	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	7615814
+EGF	Gene	ENTREZ:1950	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	24677197
+EGF	Gene	ENTREZ:1950	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	25311535
+EGF	Gene	ENTREZ:1950	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	10903338
+EGFR	Gene	ENTREZ:1956	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	31676723
+EGFR	Gene	ENTREZ:1956	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	32678881
+EGFR	Gene	ENTREZ:1956	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	24677197
+EGFR	Gene	ENTREZ:1956	Peritoneal Fibrosis	Disease	MESH:D056627	GNBR::G::Gene:Disease	FIBROAD	26677863
+EFNB2	Gene	ENTREZ:1948	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	29058717
+EFNB2	Gene	ENTREZ:1948	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	30268571
+EFNB2	Gene	ENTREZ:1948	neurofibroma	Disease	MONDO:0016755	GNBR::G::Gene:Disease	FIBROAD	28834283
+EFNB2	Gene	ENTREZ:1948	neurofibroma	Disease	MONDO:0016755	GNBR::G::Gene:Disease	FIBROAD	33794069
+ENG	Gene	ENTREZ:2022	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	22592898
+ENG	Gene	ENTREZ:2022	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	20156938
+ENG	Gene	ENTREZ:2022	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	15539634
+ENG	Gene	ENTREZ:2022	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	22941949
+ENG	Gene	ENTREZ:2022	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	25245471
+FAS	Gene	ENTREZ:355	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	10393694
+FASLG	Gene	ENTREZ:356	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	10393694
+FAS	Gene	ENTREZ:355	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	15148335
+FASLG	Gene	ENTREZ:356	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	15148335
+FAS	Gene	ENTREZ:355	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	12579197
+FAS	Gene	ENTREZ:355	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	23074025
+FASLG	Gene	ENTREZ:356	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	22850679
+FASLG	Gene	ENTREZ:356	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	10791994
+FGF1	Gene	ENTREZ:2246	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	28750927
+FGF1	Gene	ENTREZ:2246	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	32965675
+FGF1	Gene	ENTREZ:2246	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	26858440
+FGF1	Gene	ENTREZ:2246	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	24200746
+FGF1	Gene	ENTREZ:2246	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	17032753
+FGF2	Gene	ENTREZ:2247	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	32979454
+FGF2	Gene	ENTREZ:2247	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	29249393
+FGF2	Gene	ENTREZ:2247	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	27080571
+FGF2	Gene	ENTREZ:2247	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	11168939
+FGFR1	Gene	ENTREZ:2260	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	33131311
+FGFR1	Gene	ENTREZ:2260	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	20554971
+FGFR1	Gene	ENTREZ:2260	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	28771231
+FGFR1	Gene	ENTREZ:2260	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	33135394
+FGFR2	Gene	ENTREZ:2263	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	30067981
+FGFR2	Gene	ENTREZ:2263	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	31860803
+FGFR2	Gene	ENTREZ:2263	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	31830366
+FGFR2	Gene	ENTREZ:2263	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	28646122
+FLT4	Gene	ENTREZ:2324	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	30833548
+FLT4	Gene	ENTREZ:2324	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	33479195
+FLT4	Gene	ENTREZ:2324	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	11175851
+FN1	Gene	ENTREZ:2335	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32173580
+FN1	Gene	ENTREZ:2335	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	29653926
+FN1	Gene	ENTREZ:2335	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	24946284
+FN1	Gene	ENTREZ:2335	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	8286747
+FOS	Gene	ENTREZ:2353	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	32296036
+FOS	Gene	ENTREZ:2353	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	9242432
+FOS	Gene	ENTREZ:2353	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	19027749
+FOXP1	Gene	ENTREZ:27086	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	31177814
+FOXP1	Gene	ENTREZ:27086	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	32648149
+FOXP1	Gene	ENTREZ:27086	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	33408770
+FOXP1	Gene	ENTREZ:27086	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	21683954
+GREM1	Gene	ENTREZ:26585	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32173580
+GREM1	Gene	ENTREZ:26585	chronic pancreatitis	Disease	MONDO:0005003	GNBR::G::Gene:Disease	FIBROAD	26141517
+GREM1	Gene	ENTREZ:26585	Peritoneal Fibrosis	Disease	MESH:D056627	GNBR::G::Gene:Disease	FIBROAD	25194662
+GREM1	Gene	ENTREZ:26585	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	25378054
+HBEGF	Gene	ENTREZ:1839	Peritoneal Fibrosis	Disease	MESH:D056627	GNBR::G::Gene:Disease	FIBROAD	11168942
+HBEGF	Gene	ENTREZ:1839	chronic pancreatitis	Disease	MONDO:0005003	GNBR::G::Gene:Disease	FIBROAD	12671899
+HBEGF	Gene	ENTREZ:1839	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	30451982
+HBEGF	Gene	ENTREZ:1839	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	15856048
+HGF	Gene	ENTREZ:3082	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	18395096
+HGF	Gene	ENTREZ:3082	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	29079780
+HGF	Gene	ENTREZ:3082	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	24859116
+HGF	Gene	ENTREZ:3082	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	25662495
+HGF	Gene	ENTREZ:3082	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	16469408
+HIF1A	Gene	ENTREZ:3091	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	27625023
+HIF1A	Gene	ENTREZ:3091	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	21606594
+HIF1A	Gene	ENTREZ:3091	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	22403061
+HIF1A	Gene	ENTREZ:3091	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	33805152
+HSPB1	Gene	ENTREZ:3315	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	31126962
+HSPB1	Gene	ENTREZ:3315	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	26744531
+HSPB1	Gene	ENTREZ:3315	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	29650953
+HSPB1	Gene	ENTREZ:3315	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	23262200
+ICAM1	Gene	ENTREZ:3383	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	29222072
+ICAM1	Gene	ENTREZ:3383	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	12011223
+ICAM1	Gene	ENTREZ:3383	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	31729904
+ICAM1	Gene	ENTREZ:3383	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	17167153
+IFNG	Gene	ENTREZ:3458	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	8621153
+IFNG	Gene	ENTREZ:3458	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31173810
+IFNG	Gene	ENTREZ:3458	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	15361241
+IFNG	Gene	ENTREZ:3458	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	17923165
+IGF1	Gene	ENTREZ:3479	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	10347117
+IGF1	Gene	ENTREZ:3479	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	21723061
+IGF1	Gene	ENTREZ:3479	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	23583271
+IGF1	Gene	ENTREZ:3479	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	10325238
+IL10	Gene	ENTREZ:3586	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	30852423
+IL10	Gene	ENTREZ:3586	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	19096025
+IL10	Gene	ENTREZ:3586	fibrotic liver disease	Disease	MONDO:0100430	GNBR::J::Gene:Disease	FIBROAD	30274824
+IL10	Gene	ENTREZ:3586	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	21864478
+IL11	Gene	ENTREZ:3589	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	31554736
+IL11	Gene	ENTREZ:3589	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	29160304
+IL11	Gene	ENTREZ:3589	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	11590369
+IL11	Gene	ENTREZ:3589	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	8981933
+IL13	Gene	ENTREZ:3596	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	16327802
+IL13	Gene	ENTREZ:3596	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	27745702
+IL13	Gene	ENTREZ:3596	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	26436920
+IL13	Gene	ENTREZ:3596	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	15546394
+IL13RA1	Gene	ENTREZ:3597	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	26153764
+IL13RA1	Gene	ENTREZ:3597	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32695877
+IL13RA1	Gene	ENTREZ:3597	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	29094025
+IL13RA1	Gene	ENTREZ:3597	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	18266877
+IL13RA2	Gene	ENTREZ:3598	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	15546394
+IL13RA2	Gene	ENTREZ:3598	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	16327802
+IL13RA2	Gene	ENTREZ:3598	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	18938165
+IL17A	Gene	ENTREZ:3605	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	28902427
+IL17A	Gene	ENTREZ:3605	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	30257954
+IL17A	Gene	ENTREZ:3605	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	30366940
+IL18	Gene	ENTREZ:3606	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	22383501
+IL18	Gene	ENTREZ:3606	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	28549109
+IL18	Gene	ENTREZ:3606	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	33181835
+IL18	Gene	ENTREZ:3606	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	17766435
+IL18	Gene	ENTREZ:3606	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	19865096
+IL1A	Gene	ENTREZ:3552	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	8317461
+IL1A	Gene	ENTREZ:3552	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	21354232
+IL1A	Gene	ENTREZ:3552	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	23583823
+IL1B	Gene	ENTREZ:3553	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	25388157
+IL1B	Gene	ENTREZ:3553	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	8566579
+IL1B	Gene	ENTREZ:3553	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	33831572
+IL1B	Gene	ENTREZ:3553	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	21354232
+IL21	Gene	ENTREZ:59067	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	18161745
+IL21	Gene	ENTREZ:59067	systemic sclerosis	Disease	MONDO:0005100	GNBR::G::Gene:Disease	FIBROAD	30760472
+IL21	Gene	ENTREZ:59067	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	28665299
+IL22	Gene	ENTREZ:50616	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	30366940
+IL22	Gene	ENTREZ:50616	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	22687286
+IL22	Gene	ENTREZ:50616	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	30765845
+IL22	Gene	ENTREZ:50616	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	25476703
+IL22	Gene	ENTREZ:50616	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	33443222
+IL4	Gene	ENTREZ:3565	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	26195478
+IL4	Gene	ENTREZ:3565	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	27745702
+IL4	Gene	ENTREZ:3565	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	26436920
+IL4	Gene	ENTREZ:3565	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	10377172
+IL4	Gene	ENTREZ:3565	cystic fibrosis	Disease	MONDO:0009061	GNBR::D::Gene:Disease	FIBROAD	27760399
+IL5	Gene	ENTREZ:3567	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	10377172
+IL5	Gene	ENTREZ:3567	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	21435906
+IL5	Gene	ENTREZ:3567	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	28853443
+IL5	Gene	ENTREZ:3567	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	14975941
+IL6	Gene	ENTREZ:3569	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	30765261
+IL6	Gene	ENTREZ:3569	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	33236445
+IL6	Gene	ENTREZ:3569	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	31965901
+IL6	Gene	ENTREZ:3569	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	19234091
+IL6	Gene	ENTREZ:3569	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	21321532
+IL7	Gene	ENTREZ:3574	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	11927620
+IL7	Gene	ENTREZ:3574	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	21393864
+IL7	Gene	ENTREZ:3574	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	25352130
+ILK	Gene	ENTREZ:3611	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	28522687
+ILK	Gene	ENTREZ:3611	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	19541809
+ILK	Gene	ENTREZ:3611	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	31653783
+ILK	Gene	ENTREZ:3611	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	18037995
+ILK	Gene	ENTREZ:3611	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	23612611
+ILK	Gene	ENTREZ:3611	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	19687354
+IRF7	Gene	ENTREZ:3665	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	31439591
+IRF7	Gene	ENTREZ:3665	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	24396025
+ITGA1	Gene	ENTREZ:3672	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	22698912
+ITGA1	Gene	ENTREZ:3672	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	15451466
+ITGA1	Gene	ENTREZ:3672	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	11447218
+ITGA1	Gene	ENTREZ:3672	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	12512039
+ITGA2	Gene	ENTREZ:3673	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	24480069
+ITGA2	Gene	ENTREZ:3673	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	12512039
+ITGA2	Gene	ENTREZ:3673	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::J::Gene:Disease	FIBROAD	32692932
+ITGA2	Gene	ENTREZ:3673	Peritoneal Fibrosis	Disease	MESH:D056627	GNBR::G::Gene:Disease	FIBROAD	12556543
+ITGA3	Gene	ENTREZ:3675	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	19041328
+ITGA3	Gene	ENTREZ:3675	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	19411312
+ITGAV	Gene	ENTREZ:3685	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	25995225
+ITGAV	Gene	ENTREZ:3685	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	24216753
+ITGAV	Gene	ENTREZ:3685	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	27039906
+ITGAV	Gene	ENTREZ:3685	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31932644
+ITGB1	Gene	ENTREZ:3688	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31433301
+ITGB1	Gene	ENTREZ:3688	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	10921880
+ITGB1	Gene	ENTREZ:3688	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	8293568
+ITGB1	Gene	ENTREZ:3688	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	29599141
+ITGB2	Gene	ENTREZ:3689	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	33178179
+ITGB2	Gene	ENTREZ:3689	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	33752236
+ITGB3	Gene	ENTREZ:3690	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	31249375
+ITGB3	Gene	ENTREZ:3690	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	15044441
+ITGB3	Gene	ENTREZ:3690	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	31505128
+ITGB5	Gene	ENTREZ:3693	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	27039906
+ITGB5	Gene	ENTREZ:3693	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	26973018
+ITGB5	Gene	ENTREZ:3693	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	20463011
+ITGB6	Gene	ENTREZ:3694	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	26448099
+ITGB6	Gene	ENTREZ:3694	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	10025398
+ITGB6	Gene	ENTREZ:3694	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	17916808
+ITGB6	Gene	ENTREZ:3694	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	24167080
+ITGB8	Gene	ENTREZ:3696	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	24944194
+ITGB8	Gene	ENTREZ:3696	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	12324452
+ITGB8	Gene	ENTREZ:3696	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	21878622
+ITGB8	Gene	ENTREZ:3696	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	27834568
+JAK1	Gene	ENTREZ:3716	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	28478401
+JAK1	Gene	ENTREZ:3716	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	30765261
+JAK1	Gene	ENTREZ:3716	systemic sclerosis	Disease	MONDO:0005100	GNBR::G::Gene:Disease	FIBROAD	30760472
+JAK2	Gene	ENTREZ:3717	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	32647323
+JAK2	Gene	ENTREZ:3717	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	29650953
+JAK2	Gene	ENTREZ:3717	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	20154217
+JAK3	Gene	ENTREZ:3718	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26032813
+JAK3	Gene	ENTREZ:3718	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	27745702
+JAK3	Gene	ENTREZ:3718	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	25352130
+JUN	Gene	ENTREZ:3725	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	32493933
+JUN	Gene	ENTREZ:3725	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	30778201
+JUN	Gene	ENTREZ:3725	systemic sclerosis	Disease	MONDO:0005100	GNBR::G::Gene:Disease	FIBROAD	22258492
+JUN	Gene	ENTREZ:3725	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	8981923
+JUND	Gene	ENTREZ:3727	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	17133482
+JUND	Gene	ENTREZ:3727	systemic sclerosis	Disease	MONDO:0005100	GNBR::G::Gene:Disease	FIBROAD	21515915
+JUND	Gene	ENTREZ:3727	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	16129800
+JUND	Gene	ENTREZ:3727	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	12975469
+KLF2	Gene	ENTREZ:10365	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	25500203
+KLF2	Gene	ENTREZ:10365	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	33408770
+KLF2	Gene	ENTREZ:10365	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	22989565
+LGALS3	Gene	ENTREZ:3958	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	30612490
+LGALS3	Gene	ENTREZ:3958	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	22095546
+LGALS3	Gene	ENTREZ:3958	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	26238446
+LGALS3	Gene	ENTREZ:3958	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	16549783
+LGALS3	Gene	ENTREZ:3958	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	21145823
+LOX	Gene	ENTREZ:4015	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	32176358
+LOXL1	Gene	ENTREZ:4016	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	32176358
+LOXL2	Gene	ENTREZ:4017	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	32176358
+LOX	Gene	ENTREZ:4015	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	22767499
+LOX	Gene	ENTREZ:4015	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	23345161
+LOX	Gene	ENTREZ:4015	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	29672662
+LOXL1	Gene	ENTREZ:4016	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	29115860
+LOXL1	Gene	ENTREZ:4016	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	33176449
+LOXL1	Gene	ENTREZ:4016	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	29366776
+LOXL2	Gene	ENTREZ:4017	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	28073888
+LOXL2	Gene	ENTREZ:4017	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	20818376
+LOXL2	Gene	ENTREZ:4017	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	29759420
+LTBP1	Gene	ENTREZ:4052	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	30611717
+LTBP1	Gene	ENTREZ:4052	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	9620332
+LTBP1	Gene	ENTREZ:4052	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	9607192
+LTBP2	Gene	ENTREZ:4053	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	31512380
+LTBP2	Gene	ENTREZ:4053	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	28991210
+LTBP2	Gene	ENTREZ:4053	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32826876
+MAP3K5	Gene	ENTREZ:4217	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31541591
+MAP3K5	Gene	ENTREZ:4217	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	31595673
+MAP3K5	Gene	ENTREZ:4217	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	30024858
+MAP3K5	Gene	ENTREZ:4217	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	28892558
+MAP3K7	Gene	ENTREZ:6885	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	33768585
+MAP3K7	Gene	ENTREZ:6885	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	32513687
+MAP3K7	Gene	ENTREZ:6885	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	33236534
+MAP3K7	Gene	ENTREZ:6885	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	20080763
+MAPK1	Gene	ENTREZ:5594	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	30266653
+MAPK3	Gene	ENTREZ:5595	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	30266653
+MAPK1	Gene	ENTREZ:5594	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	18449171
+MAPK3	Gene	ENTREZ:5595	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	18449171
+MAPK1	Gene	ENTREZ:5594	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	16327498
+MAPK3	Gene	ENTREZ:5595	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	16327498
+MAPK1	Gene	ENTREZ:5594	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	16087786
+MAPK1	Gene	ENTREZ:5594	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	27298141
+MAPK3	Gene	ENTREZ:5595	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	19787807
+MAPK3	Gene	ENTREZ:5595	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	30530834
+MAPK8	Gene	ENTREZ:5599	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	26708719
+MAPK9	Gene	ENTREZ:5601	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	26708719
+MAPK8	Gene	ENTREZ:5599	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	17202416
+MAPK8	Gene	ENTREZ:5599	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	19549522
+MAPK8	Gene	ENTREZ:5599	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	11208641
+MAPK8	Gene	ENTREZ:5599	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	24037431
+MAPK9	Gene	ENTREZ:5601	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	19782079
+MAPK9	Gene	ENTREZ:5601	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	30622669
+MAPK9	Gene	ENTREZ:5601	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	30320490
+MFGE8	Gene	ENTREZ:4240	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	27956229
+MFGE8	Gene	ENTREZ:4240	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	28827473
+MFGE8	Gene	ENTREZ:4240	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	19884654
+MFGE8	Gene	ENTREZ:4240	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	30175895
+MMP1	Gene	ENTREZ:4312	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	18440885
+MMP1	Gene	ENTREZ:4312	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	33737203
+MMP1	Gene	ENTREZ:4312	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	25770908
+MMP13	Gene	ENTREZ:4322	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	25770908
+MMP13	Gene	ENTREZ:4322	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	21139571
+MMP13	Gene	ENTREZ:4322	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	30785343
+MMP14	Gene	ENTREZ:4323	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	29454902
+MMP14	Gene	ENTREZ:4323	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	27066886
+MMP14	Gene	ENTREZ:4323	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	33063665
+MMP14	Gene	ENTREZ:4323	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	24136919
+MMP2	Gene	ENTREZ:4313	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	26343345
+MMP2	Gene	ENTREZ:4313	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	22618590
+MMP2	Gene	ENTREZ:4313	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	10421655
+MMP3	Gene	ENTREZ:4314	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	21480623
+MMP3	Gene	ENTREZ:4314	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	18403326
+MMP3	Gene	ENTREZ:4314	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	21871427
+MMP3	Gene	ENTREZ:4314	Fibrosis	Disease	MESH:D005355	GNBR::J::Gene:Disease	FIBROAD	33319933
+MMP7	Gene	ENTREZ:4316	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	21079048
+MMP7	Gene	ENTREZ:4316	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	28239354
+MMP7	Gene	ENTREZ:4316	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	32053892
+MMP7	Gene	ENTREZ:4316	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	32270301
+MMP8	Gene	ENTREZ:4317	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	15057760
+MMP8	Gene	ENTREZ:4317	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	20622038
+MMP8	Gene	ENTREZ:4317	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	11097484
+MMP9	Gene	ENTREZ:4318	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	30653976
+MMP9	Gene	ENTREZ:4318	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	33064567
+MMP9	Gene	ENTREZ:4318	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	18332263
+MYC	Gene	ENTREZ:4609	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	29739813
+MYC	Gene	ENTREZ:4609	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	28483378
+MYC	Gene	ENTREZ:4609	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	25619689
+MYC	Gene	ENTREZ:4609	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	26576483
+MYD88	Gene	ENTREZ:4615	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32020030
+MYD88	Gene	ENTREZ:4615	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	27869651
+MYD88	Gene	ENTREZ:4615	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	17992263
+MYD88	Gene	ENTREZ:4615	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	25711908
+NEDD9	Gene	ENTREZ:4739	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	29899023
+NEDD9	Gene	ENTREZ:4739	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	32603782
+NFKB1	Gene	ENTREZ:4790	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	25879839
+NFKB1	Gene	ENTREZ:4790	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	23562440
+NFKB1	Gene	ENTREZ:4790	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	29259025
+NOTCH1	Gene	ENTREZ:4851	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	23989801
+NOTCH1	Gene	ENTREZ:4851	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	19064701
+NOTCH1	Gene	ENTREZ:4851	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	27387769
+NOTCH1	Gene	ENTREZ:4851	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	26358219
+NOTCH1	Gene	ENTREZ:4851	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31189722
+NOX1	Gene	ENTREZ:27035	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	21384410
+CYBB	Gene	ENTREZ:1536	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	21384410
+NOX1	Gene	ENTREZ:27035	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	21618578
+NOX1	Gene	ENTREZ:27035	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	33485364
+NOX1	Gene	ENTREZ:27035	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	22618020
+CYBB	Gene	ENTREZ:1536	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	24681145
+CYBB	Gene	ENTREZ:1536	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31950520
+CYBB	Gene	ENTREZ:1536	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26104383
+NOX4	Gene	ENTREZ:50507	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	22618020
+NOX4	Gene	ENTREZ:50507	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	31419754
+NOX4	Gene	ENTREZ:50507	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	24718857
+NOX4	Gene	ENTREZ:50507	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	20185797
+OSM	Gene	ENTREZ:5008	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	31249305
+OSM	Gene	ENTREZ:5008	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	28779552
+OSM	Gene	ENTREZ:5008	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	14694154
+OSM	Gene	ENTREZ:5008	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	18765531
+PDCD1	Gene	ENTREZ:5133	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	30257954
+PDCD1	Gene	ENTREZ:5133	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	31201259
+PDCD1	Gene	ENTREZ:5133	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	29220578
+PDGFA	Gene	ENTREZ:5154	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	20038802
+PDGFA	Gene	ENTREZ:5154	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	9354795
+PDGFA	Gene	ENTREZ:5154	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	19213942
+PDGFC	Gene	ENTREZ:56034	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	19213942
+PDGFD	Gene	ENTREZ:80310	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	19213942
+PDGFB	Gene	ENTREZ:5155	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	17397961
+PDGFD	Gene	ENTREZ:80310	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	17397961
+PDGFB	Gene	ENTREZ:5155	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	18077793
+PDGFC	Gene	ENTREZ:56034	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	18077793
+PDGFD	Gene	ENTREZ:80310	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	18077793
+PDGFB	Gene	ENTREZ:5155	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26312152
+PDGFD	Gene	ENTREZ:80310	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26312152
+PDGFC	Gene	ENTREZ:56034	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26312152
+PDGFRA	Gene	ENTREZ:5156	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26312152
+PDGFRB	Gene	ENTREZ:5159	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26312152
+PDGFRA	Gene	ENTREZ:5156	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32229310
+PDGFRA	Gene	ENTREZ:5156	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	31768046
+PDGFRB	Gene	ENTREZ:5159	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32229310
+PDGFRB	Gene	ENTREZ:5159	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	30024280
+PF4	Gene	ENTREZ:5196	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	24890045
+PF4	Gene	ENTREZ:5196	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	32726410
+PF4	Gene	ENTREZ:5196	systemic sclerosis	Disease	MONDO:0005100	GNBR::G::Gene:Disease	FIBROAD	32284212
+PF4	Gene	ENTREZ:5196	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	20162727
+PIN1	Gene	ENTREZ:5300	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	18188456
+PIN1	Gene	ENTREZ:5300	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	24530597
+PIN1	Gene	ENTREZ:5300	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	30246389
+PIN1	Gene	ENTREZ:5300	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	22613712
+PLAT	Gene	ENTREZ:5327	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	18199803
+PLAT	Gene	ENTREZ:5327	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	30016078
+PLAT	Gene	ENTREZ:5327	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	18037995
+PLAT	Gene	ENTREZ:5327	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	12438450
+PLAU	Gene	ENTREZ:5328	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	16880329
+PLAU	Gene	ENTREZ:5328	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	14741775
+PLAU	Gene	ENTREZ:5328	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	22013113
+PLAUR	Gene	ENTREZ:5329	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	22013113
+PLAUR	Gene	ENTREZ:5329	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	23852693
+PLAUR	Gene	ENTREZ:5329	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	18997817
+PLAUR	Gene	ENTREZ:5329	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	23806081
+PLG	Gene	ENTREZ:5340	chronic pancreatitis	Disease	MONDO:0005003	GNBR::D::Gene:Disease	FIBROAD	16952557
+PLG	Gene	ENTREZ:5340	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	17267741
+PPARG	Gene	ENTREZ:5468	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	28330809
+PPARG	Gene	ENTREZ:5468	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	30032428
+PPARG	Gene	ENTREZ:5468	cystic fibrosis	Disease	MONDO:0009061	GNBR::D::Gene:Disease	FIBROAD	20154695
+PPARG	Gene	ENTREZ:5468	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	14512888
+PROC	Gene	ENTREZ:5624	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	15118539
+PROC	Gene	ENTREZ:5624	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	15118528
+PROC	Gene	ENTREZ:5624	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	12738599
+PROC	Gene	ENTREZ:5624	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	11401891
+SDC1	Gene	ENTREZ:6382	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	29454902
+SDC1	Gene	ENTREZ:6382	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	22237752
+SDC1	Gene	ENTREZ:6382	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	20048198
+SDC1	Gene	ENTREZ:6382	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	31393853
+SERPINA1	Gene	ENTREZ:5265	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	30068662
+SERPINA1	Gene	ENTREZ:5265	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	29572094
+SERPINA1	Gene	ENTREZ:5265	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	29500128
+SERPINE1	Gene	ENTREZ:5054	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	28588076
+SERPINE1	Gene	ENTREZ:5054	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	19322185
+SERPINE1	Gene	ENTREZ:5054	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	33432417
+SERPINE1	Gene	ENTREZ:5054	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	11502712
+SERPINH1	Gene	ENTREZ:871	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	27838364
+SERPINH1	Gene	ENTREZ:871	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	32378877
+SERPINH1	Gene	ENTREZ:871	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	29363541
+SERPINH1	Gene	ENTREZ:871	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	26091621
+SFTPC	Gene	ENTREZ:6440	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	29920187
+SFTPC	Gene	ENTREZ:6440	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	21828032
+SFTPC	Gene	ENTREZ:6440	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	18566429
+SIRT1	Gene	ENTREZ:23411	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	27871879
+SIRT1	Gene	ENTREZ:23411	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	30614190
+SIRT1	Gene	ENTREZ:23411	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	17446436
+SIRT1	Gene	ENTREZ:23411	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	25707573
+SIRT1	Gene	ENTREZ:23411	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	25180292
+SIRT2	Gene	ENTREZ:22933	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	28947430
+SIRT2	Gene	ENTREZ:22933	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	33754067
+SIRT2	Gene	ENTREZ:22933	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	29440391
+SIRT2	Gene	ENTREZ:22933	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	32565308
+SIRT3	Gene	ENTREZ:23410	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	32296036
+SIRT3	Gene	ENTREZ:23410	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	30056271
+SIRT3	Gene	ENTREZ:23410	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	19652361
+SIRT3	Gene	ENTREZ:23410	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	25962702
+SIRT6	Gene	ENTREZ:51548	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	32535965
+SIRT6	Gene	ENTREZ:51548	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	31787254
+SIRT6	Gene	ENTREZ:51548	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	30943401
+SIRT6	Gene	ENTREZ:51548	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	32701506
+SIRT7	Gene	ENTREZ:51547	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	31735083
+SIRT7	Gene	ENTREZ:51547	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	26202810
+SIRT7	Gene	ENTREZ:51547	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	18239138
+SIRT7	Gene	ENTREZ:51547	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	33558457
+SMAD1	Gene	ENTREZ:4086	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	31127639
+SMAD1	Gene	ENTREZ:4086	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	30424599
+SMAD1	Gene	ENTREZ:4086	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	31364649
+SMAD1	Gene	ENTREZ:4086	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	16447265
+SMAD2	Gene	ENTREZ:4087	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	26435271
+SMAD2	Gene	ENTREZ:4087	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	20595680
+SMAD2	Gene	ENTREZ:4087	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	25041068
+SMAD2	Gene	ENTREZ:4087	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	12039975
+SMAD7	Gene	ENTREZ:4092	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	12039975
+SMAD7	Gene	ENTREZ:4092	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	23207693
+SMAD7	Gene	ENTREZ:4092	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	12851882
+SMAD7	Gene	ENTREZ:4092	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	11927620
+SMAD3	Gene	ENTREZ:4088	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	28891814
+SMAD3	Gene	ENTREZ:4088	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	20595680
+SMAD3	Gene	ENTREZ:4088	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	25041068
+SMAD3	Gene	ENTREZ:4088	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	28743805
+SMAD4	Gene	ENTREZ:4089	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26221756
+SMAD4	Gene	ENTREZ:4089	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	22048127
+SMAD4	Gene	ENTREZ:4089	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	16151019
+SMAD4	Gene	ENTREZ:4089	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	17804724
+SMAD6	Gene	ENTREZ:4091	adhesions of uterus	Disease	MONDO:0001809	GNBR::D::Gene:Disease	FIBROAD	32022446
+SMAD6	Gene	ENTREZ:4091	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	26507880
+SMAD6	Gene	ENTREZ:4091	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	22283839
+SMAD6	Gene	ENTREZ:4091	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	22613712
+SMARCA4	Gene	ENTREZ:6597	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	27929112
+SMARCA4	Gene	ENTREZ:6597	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	33650193
+SMARCA4	Gene	ENTREZ:6597	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	27601681
+SNAI1	Gene	ENTREZ:6615	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26236991
+SNAI1	Gene	ENTREZ:6615	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26236989
+SNAI1	Gene	ENTREZ:6615	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	19850962
+SNAI2	Gene	ENTREZ:6591	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	19850962
+SNAI2	Gene	ENTREZ:6591	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	31391462
+SNAI2	Gene	ENTREZ:6591	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	31391462
+SP1	Gene	ENTREZ:6667	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	23633075
+SP1	Gene	ENTREZ:6667	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	19913614
+SP1	Gene	ENTREZ:6667	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	10618716
+SP3	Gene	ENTREZ:6670	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	23123404
+SP1	Gene	ENTREZ:6667	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32721022
+SP3	Gene	ENTREZ:6670	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32721022
+SP1	Gene	ENTREZ:6667	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	17698844
+SP3	Gene	ENTREZ:6670	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	17698844
+SP1	Gene	ENTREZ:6667	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	16603733
+SP3	Gene	ENTREZ:6670	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	16603733
+STAT1	Gene	ENTREZ:6772	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	31629675
+STAT1	Gene	ENTREZ:6772	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	31530714
+STAT1	Gene	ENTREZ:6772	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	28716119
+STAT1	Gene	ENTREZ:6772	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32695877
+STAT3	Gene	ENTREZ:6774	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	32098592
+STAT3	Gene	ENTREZ:6774	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	30257954
+STAT3	Gene	ENTREZ:6774	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	30050118
+STAT3	Gene	ENTREZ:6774	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	29967195
+STAT3	Gene	ENTREZ:6774	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	26628621
+STAT3	Gene	ENTREZ:6774	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	19096025
+STAT3	Gene	ENTREZ:6774	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	14566054
+STAT5A	Gene	ENTREZ:6776	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	19332876
+STAT5A	Gene	ENTREZ:6776	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	32647323
+STAT5A	Gene	ENTREZ:6776	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	21725989
+STAT5A	Gene	ENTREZ:6776	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	23813495
+STAT5A	Gene	ENTREZ:6776	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	20162728
+STAT5B	Gene	ENTREZ:6777	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	19332876
+STAT5B	Gene	ENTREZ:6777	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	32647323
+STAT5B	Gene	ENTREZ:6777	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	21725989
+STAT5B	Gene	ENTREZ:6777	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	23813495
+STAT5B	Gene	ENTREZ:6777	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	20162728
+STAT6	Gene	ENTREZ:6778	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26032813
+STAT6	Gene	ENTREZ:6778	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	28903780
+STAT6	Gene	ENTREZ:6778	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	33313043
+STAT6	Gene	ENTREZ:6778	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	33192584
+TGFB1	Gene	ENTREZ:7040	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	29988126
+TGFB1	Gene	ENTREZ:7040	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	29195901
+TGFB1	Gene	ENTREZ:7040	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	30096654
+TGFB2	Gene	ENTREZ:7042	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	31217334
+TGFB2	Gene	ENTREZ:7042	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31992593
+TGFB2	Gene	ENTREZ:7042	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	29843955
+TGFB3	Gene	ENTREZ:7043	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	33269546
+TGFB1	Gene	ENTREZ:7040	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	33269546
+TGFB3	Gene	ENTREZ:7043	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	28148567
+TGFBR1	Gene	ENTREZ:7046	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	28891814
+TGFBR1	Gene	ENTREZ:7046	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	32848143
+TGFBR1	Gene	ENTREZ:7046	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	24088962
+TGFBR1	Gene	ENTREZ:7046	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	18202322
+TGFBR2	Gene	ENTREZ:7048	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	28891814
+TGFBR2	Gene	ENTREZ:7048	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	23817022
+TGFBR2	Gene	ENTREZ:7048	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	30566042
+TGIF1	Gene	ENTREZ:7050	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	25979625
+TGIF1	Gene	ENTREZ:7050	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	32092824
+TGIF1	Gene	ENTREZ:7050	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	33414721
+THBS1	Gene	ENTREZ:7057	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	24081879
+THBS1	Gene	ENTREZ:7057	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	15927970
+THBS1	Gene	ENTREZ:7057	atherosclerosis	Disease	MONDO:0005311	GNBR::D::Gene:Disease	FIBROAD	18818405
+THBS1	Gene	ENTREZ:7057	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	29288716
+THBS2	Gene	ENTREZ:7058	Fibrosis	Disease	MESH:D005355	GNBR::J::Gene:Disease	FIBROAD	15996506
+THBS2	Gene	ENTREZ:7058	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	30876926
+THBS2	Gene	ENTREZ:7058	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	19805649
+THBS2	Gene	ENTREZ:7058	systemic sclerosis	Disease	MONDO:0005100	GNBR::G::Gene:Disease	FIBROAD	22142808
+THY1	Gene	ENTREZ:7070	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	31249375
+THY1	Gene	ENTREZ:7070	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	32028169
+THY1	Gene	ENTREZ:7070	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	26459603
+THY1	Gene	ENTREZ:7070	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	15954895
+TIMP1	Gene	ENTREZ:7076	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	15364860
+TIMP1	Gene	ENTREZ:7076	systemic sclerosis	Disease	MONDO:0005100	GNBR::G::Gene:Disease	FIBROAD	9036925
+TIMP1	Gene	ENTREZ:7076	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	27852133
+TIMP2	Gene	ENTREZ:7077	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	23760282
+TIMP3	Gene	ENTREZ:7078	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	23760282
+TIMP2	Gene	ENTREZ:7077	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	24692173
+TIMP2	Gene	ENTREZ:7077	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	21715326
+TIMP3	Gene	ENTREZ:7078	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	27756793
+TIMP3	Gene	ENTREZ:7078	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	19406980
+TIMP3	Gene	ENTREZ:7078	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	22383695
+TIMP3	Gene	ENTREZ:7078	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	11560951
+TIMP4	Gene	ENTREZ:7079	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	24842912
+TIMP4	Gene	ENTREZ:7079	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	20828387
+TIMP4	Gene	ENTREZ:7079	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	28865712
+TNF	Gene	ENTREZ:7124	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	28902427
+TNF	Gene	ENTREZ:7124	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	26053624
+TNF	Gene	ENTREZ:7124	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	19855130
+TNF	Gene	ENTREZ:7124	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	23431165
+TRAF6	Gene	ENTREZ:7189	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31222801
+TRAF6	Gene	ENTREZ:7189	atherosclerosis	Disease	MONDO:0005311	GNBR::G::Gene:Disease	FIBROAD	20100871
+TRAF6	Gene	ENTREZ:7189	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	23791643
+TWIST1	Gene	ENTREZ:7291	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	26236991
+TWIST1	Gene	ENTREZ:7291	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	32499481
+TWIST1	Gene	ENTREZ:7291	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	31685313
+TWIST1	Gene	ENTREZ:7291	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	31315922
+TWIST1	Gene	ENTREZ:7291	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	27113414
+TXNDC5	Gene	ENTREZ:81567	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	29535165
+TXNDC5	Gene	ENTREZ:81567	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	32848143
+TXNDC5	Gene	ENTREZ:81567	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	33465051
+VCAM1	Gene	ENTREZ:7412	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	33476308
+VCAM1	Gene	ENTREZ:7412	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	30202063
+VCAM1	Gene	ENTREZ:7412	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	29222072
+VEGFA	Gene	ENTREZ:7422	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::J::Gene:Disease	FIBROAD	28661183
+VEGFA	Gene	ENTREZ:7422	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	25043701
+VEGFA	Gene	ENTREZ:7422	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	26819373
+VEGFC	Gene	ENTREZ:7424	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	29985167
+VEGFC	Gene	ENTREZ:7424	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	11175851
+VEGFC	Gene	ENTREZ:7424	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	33039355
+VEGFC	Gene	ENTREZ:7424	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	30378108
+VEGFC	Gene	ENTREZ:7424	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	30833548
+VEGFD	Gene	ENTREZ:2277	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	11175851
+VEGFD	Gene	ENTREZ:2277	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	27342876
+VEGFD	Gene	ENTREZ:2277	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	22932121
+VIM	Gene	ENTREZ:7431	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	25762200
+VIM	Gene	ENTREZ:7431	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31522982
+VIM	Gene	ENTREZ:7431	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	33731433
+VIM	Gene	ENTREZ:7431	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	11124834
+WWP2	Gene	ENTREZ:11060	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	31399586
+WWP2	Gene	ENTREZ:11060	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	32139900
+WWP2	Gene	ENTREZ:11060	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31621893
+FOSL1	Gene	ENTREZ:8061	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	21480331
+FOSL1	Gene	ENTREZ:8061	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	23703832
+FOSL1	Gene	ENTREZ:8061	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	23758685
+FOSL1	Gene	ENTREZ:8061	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	27134167
+HAS2	Gene	ENTREZ:3037	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	33777961
+HAS2	Gene	ENTREZ:3037	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31189722
+HAS2	Gene	ENTREZ:3037	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	26987798
+HAS2	Gene	ENTREZ:3037	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	21708929
+HMOX1	Gene	ENTREZ:3162	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	29993075
+HMOX1	Gene	ENTREZ:3162	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	27562817
+HMOX1	Gene	ENTREZ:3162	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	25677389
+HMOX1	Gene	ENTREZ:3162	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	21953613
+HMOX1	Gene	ENTREZ:3162	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	20404253
+CXCL8	Gene	ENTREZ:3576	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	27444565
+CXCL8	Gene	ENTREZ:3576	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	28529637
+CXCL8	Gene	ENTREZ:3576	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	28387853
+CXCL8	Gene	ENTREZ:3576	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	23624000
+PARP1	Gene	ENTREZ:142	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	32139900
+PARP1	Gene	ENTREZ:142	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	31164820
+PARP1	Gene	ENTREZ:142	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	30323296
+PARP1	Gene	ENTREZ:142	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	28239158
+PARP1	Gene	ENTREZ:142	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	17575013
+NFE2L2	Gene	ENTREZ:4780	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	28132522
+NFE2L2	Gene	ENTREZ:4780	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	30317545
+NFE2L2	Gene	ENTREZ:4780	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	33820760
+NFE2L2	Gene	ENTREZ:4780	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	33126057
+NFE2L2	Gene	ENTREZ:4780	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	33126057
+SPP1	Gene	ENTREZ:6696	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	31411676
+SPP1	Gene	ENTREZ:6696	primary myelofibrosis	Disease	MONDO:0009692	GNBR::G::Gene:Disease	FIBROAD	28745329
+SPP1	Gene	ENTREZ:6696	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	28595626
+SPP1	Gene	ENTREZ:6696	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	29500246
+SPP1	Gene	ENTREZ:6696	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	32638492
+SPP1	Gene	ENTREZ:6696	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	16221502
+SOD1	Gene	ENTREZ:6647	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	27572073
+SOD1	Gene	ENTREZ:6647	Fibrosis	Disease	MESH:D005355	GNBR::D::Gene:Disease	FIBROAD	22440255
+CSF2	Gene	ENTREZ:1437	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	16716406
+CSF2	Gene	ENTREZ:1437	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	31601718
+CSF2	Gene	ENTREZ:1437	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	31315923
+CSF2	Gene	ENTREZ:1437	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	11034414
+HMGB1	Gene	ENTREZ:3146	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	26715748
+HMGB1	Gene	ENTREZ:3146	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	24984831
+HMGB1	Gene	ENTREZ:3146	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	29787749
+HMGB1	Gene	ENTREZ:3146	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	29907694
+MTOR	Gene	ENTREZ:2475	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	25589557
+MTOR	Gene	ENTREZ:2475	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	24651621
+MTOR	Gene	ENTREZ:2475	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	33115948
+MTOR	Gene	ENTREZ:2475	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	27103349
+MTOR	Gene	ENTREZ:2475	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	21168455
+AREG	Gene	ENTREZ:374	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	31676723
+AREG	Gene	ENTREZ:374	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	31665560
+AREG	Gene	ENTREZ:374	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	29349588
+AREG	Gene	ENTREZ:374	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	15696083
+AREG	Gene	ENTREZ:374	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	18634036
+CSF3	Gene	ENTREZ:1440	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	20435882
+CSF3	Gene	ENTREZ:1440	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	21999467
+CSF3	Gene	ENTREZ:1440	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	17692407
+CSF3	Gene	ENTREZ:1440	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	25754690
+PTX3	Gene	ENTREZ:5806	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	23325083
+PTX3	Gene	ENTREZ:5806	cystic fibrosis	Disease	MONDO:0009061	GNBR::D::Gene:Disease	FIBROAD	23087427
+PTX3	Gene	ENTREZ:5806	cystic fibrosis	Disease	MONDO:0009061	GNBR::D::Gene:Disease	FIBROAD	21441447
+PTX3	Gene	ENTREZ:5806	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	33679758
+TGFA	Gene	ENTREZ:7039	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	8163670
+TGFA	Gene	ENTREZ:7039	chronic pancreatitis	Disease	MONDO:0005003	GNBR::G::Gene:Disease	FIBROAD	1451981
+TGFA	Gene	ENTREZ:7039	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	19244201
+TGFA	Gene	ENTREZ:7039	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	21382168
+TGFA	Gene	ENTREZ:7039	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	10226062
+ELN	Gene	ENTREZ:2006	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	29802129
+ELN	Gene	ENTREZ:2006	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	29366776
+ELN	Gene	ENTREZ:2006	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	16159870
+ELN	Gene	ENTREZ:2006	atherosclerosis	Disease	MONDO:0005311	GNBR::D::Gene:Disease	FIBROAD	28751568
+ELN	Gene	ENTREZ:2006	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	22435995
+FYN	Gene	ENTREZ:2534	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	32051399
+FYN	Gene	ENTREZ:2534	renal fibrosis	Disease	MONDO:0000494	GNBR::G::Gene:Disease	FIBROAD	27616741
+FYN	Gene	ENTREZ:2534	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	29540538
+FYN	Gene	ENTREZ:2534	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	28586109
+IL13RA1	Gene	ENTREZ:3597	Fibrosis	Disease	MESH:D005355	GNBR::G::Gene:Disease	FIBROAD	32695877
+ITGAV	Gene	ENTREZ:3685	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	24216753
+JAK3	Gene	ENTREZ:3718	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	25352130
+LOXL2	Gene	ENTREZ:4017	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	20818376
+SERPINA1	Gene	ENTREZ:5265	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	29572094
+ADM	Gene	ENTREZ:133	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	23355623
+ADRB2	Gene	ENTREZ:154	renal fibrosis	Disease	MONDO:0000494	GNBR::D::Gene:Disease	FIBROAD	28396116
+COL18A1	Gene	ENTREZ:80781	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	22649092
+IFNG	Gene	ENTREZ:3458	keloid	Disease	MONDO:0005348	GNBR::D::Gene:Disease	FIBROAD	15361241
+IL18	Gene	ENTREZ:3606	systemic sclerosis	Disease	MONDO:0005100	GNBR::D::Gene:Disease	FIBROAD	19865096
+JAK1	Gene	ENTREZ:3716	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::G::Gene:Disease	FIBROAD	28478401
+MFGE8	Gene	ENTREZ:4240	systemic sclerosis	Disease	MONDO:0005100	GNBR::D::Gene:Disease	FIBROAD	30175895
+PLAUR	Gene	ENTREZ:5329	pulmonary fibrosis	Disease	MONDO:0002771	GNBR::D::Gene:Disease	FIBROAD	23852693
+PPARG	Gene	ENTREZ:5468	fibrotic liver disease	Disease	MONDO:0100430	GNBR::D::Gene:Disease	FIBROAD	30032428
+SMAD1	Gene	ENTREZ:4086	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	31364649
+SP3	Gene	ENTREZ:6670	keloid	Disease	MONDO:0005348	GNBR::G::Gene:Disease	FIBROAD	23123404
+TGFB2	Gene	ENTREZ:7042	systemic sclerosis	Disease	MONDO:0005100	GNBR::G::Gene:Disease	FIBROAD	31217334
+TWIST1	Gene	ENTREZ:7291	systemic sclerosis	Disease	MONDO:0005100	GNBR::G::Gene:Disease	FIBROAD	27113414
+FGFR1	Gene	ENTREZ:2260	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::D::Gene:Disease	FIBROAD	33131311
+IL11	Gene	ENTREZ:3589	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	29160304
+IL13	Gene	ENTREZ:3596	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	26436920
+IL4	Gene	ENTREZ:3565	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	26436920
+IL7	Gene	ENTREZ:3574	fibrotic liver disease	Disease	MONDO:0100430	GNBR::G::Gene:Disease	FIBROAD	25352130
+SERPINE1	Gene	ENTREZ:5054	endomyocardial fibrosis	Disease	MONDO:0006746	GNBR::G::Gene:Disease	FIBROAD	19322185
