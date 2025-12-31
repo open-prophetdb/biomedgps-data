@@ -1,1 +1,31 @@
-# git status
+# check current status what files have been added and modified
+git status
+
+# Add the required files to the staging area (stage)
+#Add specified file (recommended):
+git add /path/your/file1 /path/your/file2
+#Add all file:
+git add -A
+#Add all file(Excluding the content masked in the .gitignore file)
+git add .
+
+#View files that have been added to the staging area (optional)
+git status
+
+# Execute standard commit
+# add what you want to added messages 
+#e.g: git commit -m "feat: Title" -m "Detailed description"
+git commit -m "feat: add ASCII character check and update customdb knowledge to 20251029" \
+  -m "Changes include:
+  - Added non-ASCII character validation step in prepare_dataset.ipynb to ensure input data consistency before KG generation
+  - Updated customdb with manually annotated knowledge entries up to 2025-10-29
+  - Ensures latest annotations are included in the downstream formatted KG"
+
+# View submission records(optional)
+git log --oneline
+
+#If you find any errors in the submitted information, please correct them immediately:
+git commit --amend
+
+#push to github
+git push origin main
